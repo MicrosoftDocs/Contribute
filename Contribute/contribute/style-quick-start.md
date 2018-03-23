@@ -1,0 +1,67 @@
+---
+# required metadata
+
+title: Style guide - Quick start
+description: A concise guide for style considerations, containing just the essential topics for getting started.
+author: bryanla
+ms.author: bryanla
+manager: mbaldwin
+ms.date: 07/25/2017
+ms.topic: contributor-guide
+ms.prod: n.a
+ms.service: n.a
+ms.technology: n.a
+
+# optional metadata
+#keywords:
+#ROBOTS:
+audience: external
+#ms.devlang:
+#ms.reviewer: bryanla
+#ms.suite: ems
+#ms.tgt_pltfrm:
+#ms.custom:
+---
+# Style and voice quick start
+
+This quick start will require minimal time, but it will give you a good idea of how to apply the most important Docs style concepts when writing articles for docs.microsoft.com. These guidelines apply whether you are creating new documentation or updating existing documentation.
+
+At a bare minimum, please:
+
+- Check the spelling and grammar in your articles, even if you have to copy and paste into Word to do it.
+- Use a casual and friendly voice--like you're talking to another person one-on-one.
+- Use simple sentences. They are easier to understand, and they are more easily translated by both human and machine translators.
+
+## Use the Microsoft voice principles
+
+We aspire to follow these principles when we write technical content for [docs.microsoft.com](https://docs.microsoft.com). We might not always get there, but we need to keep trying!
+
+- **Focus on the intent**: Customers have a specific purpose in mind when they consult our documentation. Before you begin writing, clearly determine who the customer is and what task he or she is trying to do. Then, write your article to help that specific customer do that specific task.
+- **Use everyday words**: Try to use natural language, the words your customers use. Be less formal but not less technical. Provide examples that explain new concepts.
+- **Write concisely**: Don't waste words. Be affirmative and don't use extra words or lots of qualifiers. Keep sentences short and concise. Keep your article focused. If a task has a qualifier, put it at the beginning of the sentence or paragraph. Also, keep the number of notes to a minimum. Use a screenshot when it can save words.
+- **Make your article easy to scan**: Put the most important things first. Use sections to chunk long procedures into more manageable groups of steps. (Procedures with more than 12 steps are probably too long.) Use a screenshot when it adds clarity.
+- **Show empathy**: Use a supportive tone in the article, and keep disclaimers to a minimum. Honestly call out areas that will be frustrating to customers. Make sure the article focuses on what matters to customers; don't just give a technical lecture.
+
+## Consider localization and machine translation
+
+Our technical articles are translated into several languages, and some are modified for particular markets or geographies. People might also use machine translation on the web to read the technical articles. So, keep the following guidelines in mind when you're writing:
+
+- **Make sure the article contains no grammar, spelling, or punctuation errors**: This is something we should do in general. Some Markdown editors (such as MarkdownPad 2.0) have a basic spell checker, but it's a good practice to paste the rendered HTML content from the article into Word, which has a more robust spell and grammar checker.
+- **Make your sentences as short as possible**: Compound sentences or chains of clauses make translation difficult. Split up sentences if you can do it without being too redundant or sounding weird. We don't want articles written in unnatural language either.
+- **Use simple and consistent sentence construction**: Consistency is better for translation. Avoid parentheticals and asides, and have the subject as near the beginning of the sentence as possible. Check out a few published articles. If an article has a friendly, easy-to-read style, use it as a model.
+- **Use consistent wording and capitalization**: Again, consistency is key. Do not capitalize a word if it isn't at the start of a sentence or it isn't a proper noun.
+- **Include the "small words"**: Words that we consider small and unimportant in English because they are understood for context (such as "a," "the," "that," and "is") are crucial for machine translation. Be sure to include them.
+
+## Other style and voice issues to watch for
+
+- Don't break up steps with commentary or asides.
+- For steps that include code snippets, put additional information about the step into the code as comments. This reduces the amount of text that people have to read through. The key information gets copied into the code project to remind people of what the code is doing when they refer to it later.
+- Use sentence case for all titles and headings.
+- Use "sign in" and not "log in."
+- Include the words "as follows" or "following" in any sentence that precedes a list or code snippet.
+
+## Localized documentation
+
+- If you are contributing to localized documentation, refer to the [Microsoft Language Portal](https://www.microsoft.com/Language/Default.aspx).
+- For localization guidelines, information on language style and usage in technical publications, and information on market-specific data formats, download the [style guide](https://www.microsoft.com/Language/StyleGuides.aspx) in your language.
+- For Microsoft localized terminology, search for [product-specific approved terminology](https://www.microsoft.com/Language/Search.aspx) or download the [Microsoft Terminology Collection](https://www.microsoft.com/Language/Terminology.aspx) in your language.
