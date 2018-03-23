@@ -31,9 +31,8 @@ To contribute to Microsoft's documentation site, you can make and edit markdown 
 ![GitHub Triangle](./media/git-and-github-initial-setup.png)
 
 If you're new to GitHub, watch the following video for a conceptual overview of the forking and cloning process:
-<video width="640" height="360" controls poster="./media/git-and-github-initial-setup.png">
-  <source src="http://video.ch9.ms/ch9/eab1/d9bebd59-bc3d-4aa8-8aa2-86fc2d92eab1/gitrepositorysetup_mid.mp4" type="video/mp4">
-</video>
+
+>[!VIDEO https://channel9.msdn.com/Blogs/CoolMoose/Git-Repository-Setup/player]
 
 ## Determine the repository
 
