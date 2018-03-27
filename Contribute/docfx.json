@@ -3,20 +3,8 @@
     "content": [
       {
         "files": [
-          "breadcrumb/toc.yml",
-          "index.md",
-          "how-to-contribute.md",
-          "additional-resources.md",
-          "TOC.md",
-          "/contribute/git-github-fundamentals.md",
-          "/contribute/get-started-setup-github.md",
-          "/contribute/get-started-setup-local.md",
-          "/contribute/get-started-setup-tools.md",
-          "/contribute/how-to-write-links.md",
-          "/contribute/style-quick-start.md",
-          "/contribute/how-to-write-use-markdown.md",
-          "/contribute/full-workflow.md",
-          "/contribute/light-workflow.md"
+          "**/*.md",
+          "**/*.yml"
         ],
         "exclude": [
         ]
@@ -33,26 +21,15 @@
         ],
         "exclude": [
           "**/obj/**",
-          "**/includes/**",
-          "help-crr/archive/**",
-          "help-crr/help-content/contribute-ref/**", 
-          "ops-crr/SRE/**",    
-          "ops-crr/openpublishing/docs/breadcrumb/**",              
-          "ops-crr/openpublishing/docs/engdocs/**",          
-          "ops-crr/openpublishing/docs/gauntletdocs/**",
-          "ops-crr/openpublishing/docs/livesiteupdates/**",
-          "ops-crr/openpublishing/docs/planning/**",
-          "ops-crr/openpublishing/docs/reference/**",
-          "ops-crr/openpublishing/docs/release-notes/**",
-          "ops-crr/openpublishing/docs/specdocs/**",
-          "ops-crr/openpublishing/servicedelivery/**"
+          "**/includes/**"
         ]
       }
     ],
     "overwrite": [],
     "externalReference": [],
     "globalMetadata": {
-      "breadcrumb_path": "~/breadcrumb/toc.yml"
+      "breadcrumb_path": "~/breadcrumb/toc.yml",
+      "extendBreadcrumb": true
     },
     "fileMetadata": {},
     "template": [],

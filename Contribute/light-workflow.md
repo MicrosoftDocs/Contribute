@@ -62,7 +62,7 @@ This workflow is suitable for making minor or infrequent changes, by using GitHu
 
      - **Create a new branch for this commit and start a pull request**, which prompts you with a default name to create a new branch. After you select **Propose file change**, a **Comparing changes** page appears so you can verify your changes. Then select the **Create pull request** button to submit your changes to the pull request queue, and proceed to the [next section](#pull-request-processing).
 
-[!INCLUDE[contribute-how-to-write-workflows-pull-request-processing](../includes/contribute-how-to-write-workflows-pull-request-processing.md)]
+[!INCLUDE[contribute-how-to-write-workflows-pull-request-processing](includes/contribute-how-to-write-workflows-pull-request-processing.md)]
 
 ## Next steps
 

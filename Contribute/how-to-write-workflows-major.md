@@ -36,7 +36,7 @@ This workflow is suitable for a contributor who needs to make a major change or 
 
 Examples of these types of contributions include:
 
-[!INCLUDE[contribute-major-changes-change-definition](../includes/contribute-how-to-write-workflows-major-change-definition.md)]
+[!INCLUDE[contribute-major-changes-change-definition](includes/contribute-how-to-write-workflows-major-change-definition.md)]
 
 ### Terminology
 
@@ -67,7 +67,7 @@ Isolating related changes to a specific branch allows you to control and introdu
 
 Now let's create a new working branch in your local repository, to capture your proposed changes. Each git client is different, so consult the help for your preferred client. You can see an overview of the process in the GitHub Guide on [GitHub flow](https://guides.github.com/introduction/flow/).
 
-[!INCLUDE[contribute-how-to-write-workflows-pull-request-processing](../includes/contribute-how-to-write-workflows-pull-request-processing.md)]
+[!INCLUDE[contribute-how-to-write-workflows-pull-request-processing](includes/contribute-how-to-write-workflows-pull-request-processing.md)]
 
 ## Next steps
 
