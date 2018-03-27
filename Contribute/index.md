@@ -1,7 +1,7 @@
 ---
 # required metadata
 
-title: Contributor guide - Overview
+title: Overview
 description: The guide for docs.microsoft.com contributors.
 author: bryanla
 ms.author: bryanla

@@ -1,7 +1,7 @@
 ---
 # required metadata
 
-title: Contributor guide - GitHub contribution workflow for minor or infrequent changes
+title: GitHub contribution workflow for minor or infrequent changes
 description: Shows you how to use the "minor" contributor workflow to make contributions to docs.microsoft.com articles.
 author: bryanla
 ms.author: bryanla

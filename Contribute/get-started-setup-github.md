@@ -1,7 +1,7 @@
 ---
 # required metadata
 
-title: Contributor guide - GitHub account setup
+title: GitHub account setup
 description: Walks you through the process of setting up accounts for GitHub, required in order to contribute to docs.microsoft.com content.
 author: bryanla
 ms.author: bryanla

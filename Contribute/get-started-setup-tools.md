@@ -1,5 +1,5 @@
 ---
-title: Contributor guide - Install content authoring tools
+title: Install content authoring tools
 description: This article helps you download and install the client tools you will need for Git and editing markdown files.
 author: bryanla
 ms.author: bryanla

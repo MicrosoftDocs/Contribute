@@ -1,7 +1,7 @@
 ---
 # required metadata
 
-title: Contributor guide - How to use Markdown
+title: How to use Markdown
 description: Provides the basics and reference information for the Markdown markup used in Docs articles.
 author: bryanla
 ms.author: bryanla

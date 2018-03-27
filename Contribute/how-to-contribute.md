@@ -1,7 +1,7 @@
 ---
 # required metadata
 
-title: Contributor guide - How to contribute to docs.microsoft.com
+title: How to contribute to docs.microsoft.com
 description: An overview of the different ways you can contribute content to docs.microsoft.com.
 author: billwagner
 ms.author: wiwagn
