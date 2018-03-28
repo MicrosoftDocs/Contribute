@@ -7,6 +7,12 @@
           "**/*.yml"
         ],
         "exclude": [
+          "**/obj/**",
+          "**/includes/**",
+          "README.md",
+          "LICENSE",
+          "LICENSE-CODE",
+          "ThirdPartyNotices"
         ]
       }
     ],
@@ -37,6 +43,6 @@
     },
     "fileMetadata": {},
     "template": [],
-    "dest": "contribute"
+    "dest": "ContributionGuide"
   }
 }
