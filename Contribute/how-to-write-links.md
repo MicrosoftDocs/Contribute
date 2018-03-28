@@ -1,7 +1,7 @@
 ---
 # required metadata
 
-title: Contributor guide - Links
+title: Links
 description: Guidance on creating links to other content.
 author: bryanla
 ms.author: bryanla

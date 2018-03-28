@@ -1,7 +1,7 @@
 ---
 # required metadata
 
-title: Contributor guide - How to use Markdown
+title: How to use Markdown
 description: Provides the basics and reference information for the Markdown markup used in Docs articles.
 author: bryanla
 ms.author: bryanla
@@ -91,10 +91,10 @@ To nest a list within another list, indent the child list items. For example, th
 
 will be rendered as:
 
-* List item 1
-    * List item A
-    * List item B
-* List item 2
+- List item 1
+  - List item A
+  - List item B
+- List item 2
 
 #### Ordered list
 
@@ -116,18 +116,16 @@ To nest a list within another list, indent the child list items. For example, th
 
 ```markdown
 1. First instruction
-    a. Sub-instruction
-    b. Sub-instruction
-
+    1. Sub-instruction
+    2. Sub-instruction
 2. Second instruction
 ```
 
 will be rendered as:
 
 1. First instruction
-    a. Sub-instruction
-    b. Sub-instruction
-
+    1. Sub-instruction
+    2. Sub-instruction
 2. Second instruction
 
 ### Tables

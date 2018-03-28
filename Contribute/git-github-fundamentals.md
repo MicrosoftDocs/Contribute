@@ -1,7 +1,7 @@
 ---
 # required metadata
 
-title: Contributor guide - Git and GitHub essentials
+title: Git and GitHub essentials
 description: Gives you an overview of Git, the concept of a GitHub repository and how its contents are organized, and naming conventions we use.
 author: bryanla
 ms.author: bryanla

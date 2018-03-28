@@ -1,8 +1,8 @@
 ---
 # required metadata
 
-title: Contributor guide - additional resources
-description: Suggested resources for git and GitHub
+title: Additional resources
+description: Suggested resources for Git and GitHub
 author: billwagner
 ms.author: wiwagn
 manager: wpickett
