@@ -1,0 +1,7 @@
+- name: Docs
+  href: /
+  homepage: /
+  items:
+  - name: Contributor Guide
+    href: /contribute/
+    homepage: /contribute/
