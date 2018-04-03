@@ -189,29 +189,46 @@ Fenced code blocks are an easy way to enable syntax highlighting for your code s
 
 The alias after the initial three backtick (`) characters defines the syntax highlighting to be used. The following is a list of commonly used programming languages on the Azure platform and the matching label:
 
-| Language or CLI | Language alias |
-| ------- | ------- |
-| Azure CLI | azurecli |
-| AzCopy | azcopy |
-| C++ | cpp |
-| C# | csharp |
-| F# | fsharp |
-| Java | java|
-| JavaScript | javascript |
-| JSON | json |
-| Node.js | nodejs |
-| Objective-C | objc |
-| PHP | php |
-| PowerShell | powershell |
-| Python | python |
-| Ruby | ruby |
-| SQL / T-SQL | sql |
-| Swift | swift |
-| VB | vb |
-| XAML | xaml |
-| XML | xml |
+These languages have friendly name support and most have language highlighting.
 
-For a full list of supported languages, see [Language names and aliases](https://highlightjs.readthedocs.io/en/latest/css-classes-reference.html#language-names-and-aliases).
+|Name|Markdown Label|
+|-----|-------|
+|.NET Console|dotnetcli|
+|ASP.NET (C#)|aspx-csharp|
+|ASP.NET (VB)|aspx-vb|
+|AzCopy|azcopy|
+|Azure CLI|azurecli|
+|Azure PowerShell|azurepowershell|
+|C++|cpp|
+|C++/CX|cppcx|
+|C++/WinRT|cppwinrt|
+|C#|csharp|
+|CSHTML|cshtml|
+|DAX|dax|
+|F#|fsharp|
+|Go|go|
+|HTML|html|
+|HTTP|http|
+|Java|java|
+|JavaScript|javascript|
+|JSON|json|
+|Markdown|md|
+|NodeJS|nodejs|
+|Objective-C|objc|
+|OData|odata|
+|PHP|php|
+|Power Apps Formula|powerappsfl|
+|PowerShell|powershell|
+|Python|python|
+|Q#|qsharp|
+|Ruby|ruby|
+|SQL|sql|
+|Swift|swift|
+|TypeScript|typescript|
+|VB|vb|
+|VSTS CLI|vstscli|
+|XAML|xaml|
+|XML|xml|
 
 #### Example: C\#
 
