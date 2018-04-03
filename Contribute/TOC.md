@@ -35,7 +35,8 @@
     how-to-contribute.md (excluding writing new samples,
     and creating new content.)
    -->
-## Larger scale changes
+
+## Creating new content
 
    <!--
      This page introduces the process to work locally on
@@ -67,8 +68,7 @@
       The full list of repos probably doesn't belong here.
    -->
 
-## Contribute new content
-
+### Contribute new topics
    <!-- 
      Primarily new content, but will include the content from the
      how-to-write-use-markdown, style-quick-start and how-to-write-links
@@ -76,13 +76,27 @@
      Process content will also be taken from how-to-contribute.
    -->
 
-## Contribute new samples
+#### Content types
+#### Markdown resources
+#### Tone, voice and style
+
+### Contribute new samples
 
    <!-- 
      Primarily new content, with some taken from how-to-contribute.
 
-     This will also point to repo-specific guidance for samples.
+     This will also point to repo-specific guidance for samples. 
+     
+     We have an important decision to make here: This contributing guide
+     can contain the union of all code style rules for all different languages
+     and frameworks, or it can contain the intersection (coode samples must
+     compile and run). 
+
+     I'm in favor of the former: Everyone writing Python should follow the Python
+     guidance; everyone writing C# should follow the C# rules. Those should be 
+     consistent regardless of project team.
    -->
+
 
 ## List of documentation repositories
 
