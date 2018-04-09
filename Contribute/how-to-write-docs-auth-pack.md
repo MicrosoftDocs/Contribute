@@ -20,13 +20,13 @@ The Docs Authoring Pack is a collection of VS Code extensions to aid with Markdo
 - **markdownlint:** A popular Markdown linter by David Anson to help ensure your Markdown follows best practices. For more information, see [markdownlint](https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint).
 - **Docs Markdown:** Provides Markdown authoring assistance for docs.microsoft.com content in the Open Publishing System (OPS), including basic Markdown support and support for custom Markdown syntax in OPS. The rest of this topic describes the Docs Markdown extension.
 
-## Prerequisites and Assumptions
+## Prerequisites and assumptions
 
 To accurately insert relative links, images, and other embedded content with the Docs Markdown extension, you must have your VS Code workspace scoped to the root of your cloned OPS repo.
 
 Some syntax supported by the extension, such as alerts and snippets, are custom Markdown for OPS, and will not render correctly unless published via OPS.
 
-## How to Use the Extension
+## How to use the Docs Markdown extension
 
 To access the Docs Markdown menu, type `ALT+M`. You can click or use up/down arrows to select the function you want, or type to start filtering, then hit `ENTER` when the function you want is highlighted in the menu. The following are available:
 
@@ -46,7 +46,7 @@ To access the Docs Markdown menu, type `ALT+M`. You can click or use up/down arr
 |Video        |`insertVideo`     |Add an embedded video.|
 |Preview      |`previewTopic`    |Preview the active topic in a side-by-side window using the DocFX extension.  If the DocFX extension is not installed or is installed but disabled, the topic will not render.
 
-## How to Assign Keyboard Shortcuts
+## How to assign keyboard shortcuts
 
 1. Type `CTRL+K` then `CTRL+S` to open the Keyboard Shortcuts list.
 1. Search for the command, such as `formatBold`, for which you want to create a custom keybinding.
@@ -73,7 +73,7 @@ To access the Docs Markdown menu, type `ALT+M`. You can click or use up/down arr
 
 See [Keybindings](https://code.visualstudio.com/docs/getstarted/keybindings) in the VS Code docs for more information.
 
-## How to Show the "Gauntlet" Toolbar
+## How to show the legacy "Gauntlet" toolbar
 
 Former users of the extension code-named "Gauntlet" will notice that the authoring toolbar no longer appears at the bottom of the VS Code window when the Docs Markdown Extension is installed. This is because the toolbar took up a lot of space on the VS Code status bar and did not follow best practices for extension UX, so it is deprecated in the new extension. However, you can optionally show the toolbar by updating your VS Code settings.json file as follows:
 
@@ -81,7 +81,7 @@ Former users of the extension code-named "Gauntlet" will notice that the authori
 1. Select User Settings to change the settings for all VS Code workspaces, or  Workspace Settings to change them for just the current workspace.
 1. In the Default Settings pane, find Docs Authoring Extension Configuration, and select the pencil icon next to the desired setting. Next, you will be prompted to select either `true` or `false`. Once you've made your selection, VS Code will automatically add the value to the settings.json file and you will be prompted to reload the window for the changes to take effect.
 
-## Known Issues
+## Known issues
 
 - [DocFX Preview] MacOS and Linux: DocFX Preview does not launch preview correctly (preview defaults to VS Code Markdown preview for these platforms).
 - [DocFx Preview] All platforms: Some syntax, such as xref (cross-reference) links to APIs, do not render correctly in preview, in some cases leaving content gaps.
