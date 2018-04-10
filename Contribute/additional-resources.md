@@ -1,18 +1,15 @@
 ---
-# required metadata
-
-title: Additional resources
-description: Suggested resources for Git and GitHub
+title: Additional Git and Github resources
+description: This article lists suggested resources for Git and GitHub learning for contributing to docs.microsoft.com.
 author: billwagner
 ms.author: wiwagn
 manager: wpickett
 ms.date: 02/27/2018
-ms.article: contributor-guide
-ms.prod: n.a
-ms.service: n.a
-ms.technology: n.a
+ms.prod: non-product-specific
+ms.topic: contributor-guide
+ms.custom: external-contributor-guide
 ---
-# Additional resources
+# Additional Git and Github resources
 
 If you are unfamiliar with Git or GitHub, these resources can help you learn, be productive, or answer questions.
 

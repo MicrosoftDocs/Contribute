@@ -1,12 +1,13 @@
 ---
 title: Set up Git repository locally
-description: Provides guidance on how creation of your local repository to contribute to documentation, including the forking and cloning process.
+description: This article provides guidance to create your local Git repository and contribute to documentation, including the forking and cloning process.
 author: jasonwhowell
 ms.author: jasonh
-manager: jhubbard
+manager: kfile
 ms.date: 01/18/2018
+ms.prod: non-product-specific
 ms.topic: contributor-guide
-audience: external
+ms.custom: external-contributor-guide
 ---
 # Set up Git repository locally for documentation
 

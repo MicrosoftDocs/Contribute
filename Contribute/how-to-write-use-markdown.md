@@ -1,29 +1,15 @@
 ---
-# required metadata
-
-title: How to use Markdown
-description: Provides the basics and reference information for the Markdown markup used in Docs articles.
+title: How to use Markdown for writing Docs
+description: This article provides the basics and reference information for the Markdown language used for writing docs.microsoft.com articles.
 author: bryanla
 ms.author: bryanla
 manager: mbaldwin
 ms.date: 07/13/2017
+ms.prod: non-product-specific
 ms.topic: contributor-guide
-ms.prod: n.a
-ms.service: n.a
-ms.technology: n.a
-
-# optional metadata
-#keywords:
-#ROBOTS:
-audience: external
-#ms.devlang:
-#ms.reviewer: bryanla
-#ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
-
+ms.custom: external-contributor-guide
 ---
-# How to use Markdown
+# How to use Markdown for writing Docs
 
 Docs.microsoft.com articles are written in a lightweight markup language called [Markdown](https://daringfireball.net/projects/markdown/), which is both easy to read and easy to learn. Because of this, it has quickly become an industry standard.
 

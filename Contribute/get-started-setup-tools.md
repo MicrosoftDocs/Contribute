@@ -5,8 +5,9 @@ author: bryanla
 ms.author: bryanla
 manager: mbaldwin
 ms.date: 01/04/2018
+ms.prod: non-product-specific
 ms.topic: contributor-guide
-audience: external
+ms.custom: external-contributor-guide
 ---
 # Install content authoring tools
 
