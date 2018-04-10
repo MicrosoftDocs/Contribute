@@ -8,7 +8,7 @@ ms.date: 01/25/2018
 ms.prod: non-product-specific
 ms.topic: contributor-guide
 ms.custom: external-contributor-guide
----
+=======
 # Overview
 
 Welcome to the [docs.microsoft.com](https://docs.microsoft.com) (Docs) Contributor Guide!
@@ -32,7 +32,7 @@ There are several ways to contribute to docs:
 All our public repositories are hosted on GitHub and written in Markdown. You'll need the following to contribute:
 
 1. If you don't already have one, [create a GitHub account](https://github.com/join).
-1. Docs articles are written in a markup language called Markdown. You should have a basic understanding of [Markdown](https://daringfireball.net/projects/markdown/syntax) syntax.
+2. Docs articles are written in a markup language called Markdown. You should have a basic understanding of [Markdown](https://daringfireball.net/projects/markdown/syntax) syntax.
 
 ## Quick start to propose an article change
 
@@ -41,3 +41,4 @@ If you don't have time to digest the entire guide or install tools, and you just
 ## Additional ways to contribute to docs.microsoft.com content
 
 You can learn more about the different tasks in our article on [how to contribute](how-to-contribute.md).
+
