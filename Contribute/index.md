@@ -8,7 +8,8 @@ ms.date: 01/25/2018
 ms.prod: non-product-specific
 ms.topic: contributor-guide
 ms.custom: external-contributor-guide
-=======
+---
+
 # Overview
 
 Welcome to the [docs.microsoft.com](https://docs.microsoft.com) (Docs) Contributor Guide!
