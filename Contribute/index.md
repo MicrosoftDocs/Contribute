@@ -1,13 +1,16 @@
 ---
-title: Overview
-description: The guide for docs.microsoft.com contributors.
+title: Microsoft Docs contributor guide overview
+description: The guide describes how you can contribute to the Microsoft documentation site docs.microsoft.com.
 author: bryanla
 ms.author: bryanla
 manager: mbaldwin
 ms.date: 01/25/2018
+ms.prod: non-product-specific
 ms.topic: contributor-guide
+ms.custom: external-contributor-guide
 ---
-# Overview
+
+# Microsoft Docs contributor guide overview
 
 Welcome to the [docs.microsoft.com](https://docs.microsoft.com) (Docs) Contributor Guide!
 
@@ -40,4 +43,3 @@ If you don't have time to digest the entire guide or install tools, and you just
 
 You can learn more about the different tasks in our article on [how to contribute](how-to-contribute.md).
 
-If you have suggestions for contributions, or you have questions about this guide, please use the Feedback section on this page.
