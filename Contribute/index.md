@@ -1,26 +1,13 @@
 ---
-# required metadata
-
 title: Overview
-description: The guide for docs.microsoft.com contributors.
+description: The guide describes how you can contribute to the Microsoft documentation site, at docs.microsoft.com. 
 author: bryanla
 ms.author: bryanla
 manager: mbaldwin
 ms.date: 01/25/2018
+ms.prod: non-product-specific
 ms.topic: contributor-guide
-ms.prod: n.a
-ms.service: n.a
-ms.technology: n.a
-
-# optional metadata
-#keywords:
-#ROBOTS:
-#audience: external
-#ms.devlang:
-#ms.reviewer: bryanla
-#ms.suite:
-#ms.tgt_pltfrm:
-#ms.custom:
+ms.custom: external-contributor-guide
 ---
 # Overview
 
@@ -54,7 +41,3 @@ If you don't have time to digest the entire guide or install tools, and you just
 ## Additional ways to contribute to docs.microsoft.com content
 
 You can learn more about the different tasks in our article on [how to contribute](how-to-contribute.md).
-
-## Feedback
-
-If you have suggestions for contributions, or you have questions about this guide, please use the comments section on this page.
