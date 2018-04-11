@@ -26,7 +26,7 @@ You run these one-time setup activities to get started contributing:
 
 ## Overview
 
-To contribute to Microsoft's documentation site, you can make and edit markdown files locally by cloning the corresponding documentation repository. Microsoft requires you to fork the appropriate repository into your own github account, so that you have read/write permissions there to store your proposed changes. Then you use pull requests to merge changes into the read-only central shared repository.
+To contribute to Microsoft's documentation site, you can make and edit Markdown files locally by cloning the corresponding documentation repository. Microsoft requires you to fork the appropriate repository into your own github account, so that you have read/write permissions there to store your proposed changes. Then you use pull requests to merge changes into the read-only central shared repository.
 
 ![GitHub Triangle](./media/git-and-github-initial-setup.png)
 
@@ -42,7 +42,7 @@ Documentation hosted at [docs.microsoft.com](https://docs.microsoft.com) resides
 
    ![Click Edit to determine the repo and file location.](media/edit-article.png)
 
-2. That link takes you to github.com location for the corresponding markdown file in the appropriate repository. Note the URL to view the repository name.
+2. That link takes you to github.com location for the corresponding Markdown file in the appropriate repository. Note the URL to view the repository name.
 
    ![Notice the URL to determine the repository location.](media/public-repo.png)
 
