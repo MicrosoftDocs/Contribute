@@ -40,11 +40,11 @@ This workflow is suitable for making minor or infrequent changes, by using GitHu
    - Find the article by browsing through the Markdown files in the related GitHub repository.
    - Go to the article on [docs.microsoft.com](https://docs.microsoft.com/) and select the **Edit** link in the upper-right corner of the page.
 
-     ![Location of the Edit link](./media/contributetogit.png)
+     ![Location of the Edit link](./media/light-workflow/contributetogit.png)
 
 2. Select the **Edit this file** pencil icon to go into edit mode:
 
-    ![Location of the pencil icon](./media/editicon.png)
+    ![Location of the pencil icon](./media/light-workflow/editicon.png)
 
 3. Make changes by using Markdown on the **Edit file** tab, and preview your changes on the **Preview changes** tab. Using the editor is fairly straightforward, but if you need assistance, see the following guides:
 
