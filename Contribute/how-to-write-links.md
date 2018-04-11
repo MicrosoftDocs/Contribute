@@ -1,28 +1,15 @@
 ---
-# required metadata
-
-title: Links
-description: Guidance on creating links to other content.
+title: How to use links in documentation
+description: This article provides guidance on creating links to content within docs.microsoft.com.
 author: bryanla
 ms.author: bryanla
 manager: mbaldwin
 ms.date: 06/29/2017
+ms.prod: non-product-specific
 ms.topic: contributor-guide
-ms.prod: n.a
-ms.service: n.a
-ms.technology: n.a
-
-# optional metadata
-#keywords:
-#ROBOTS:
-audience: external
-#ms.devlang:
-#ms.reviewer: bryanla
-#ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+ms.custom: external-contributor-guide
 ---
-# Links
+# Using links in documentation
 
 > [!NOTE]
 > Open Publishing Services (OPS) implements DocFX Flavored Markdown (DFM), which is highly compatible with GitHub Flavored Markdown (GFM). DFM adds some functionality through Markdown extensions. As such, selected articles from the full OPS Authoring Guide are included in this guide for reference. (See "DFM and Markdown extensions" in the table of contents.)

@@ -1,27 +1,13 @@
 ---
-# required metadata
-
 title: GitHub contribution workflow for major or long-running changes
-description: Shows you how to use the "major" contributor workflow to make contributions to docs.microsoft.com articles.
+description: This article shows you how to use the "major" contributor workflow to make contributions to docs.microsoft.com articles.
 author: bryanla
 ms.author: bryanla
 manager: mbaldwin
 ms.date: 08/30/2017
+ms.prod: non-product-specific
 ms.topic: contributor-guide
-ms.prod: n.a
-ms.service: n.a
-ms.technology: n.a
-
-# optional metadata
-#keywords:
-#ROBOTS:
-audience: external
-#ms.devlang:
-#ms.reviewer: bryanla
-#ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
-
+ms.custom: external-contributor-guide
 ---
 # GitHub contribution workflow for major or long-running changes
 
@@ -72,7 +58,6 @@ Now let's create a new working branch in your local repository, to capture your 
 [!INCLUDE[contribute-how-to-write-workflows-pull-request-processing](includes/contribute-how-to-write-workflows-pull-request-processing.md)]
 
 ## Next steps
-
 That's it! You've made a contribution to docs.microsoft.com content!
 
 - To learn more about topics such as Markdown and Markdown extensions syntax, continue to the "Writing essentials" section.

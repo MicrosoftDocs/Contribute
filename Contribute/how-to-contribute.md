@@ -1,16 +1,13 @@
 ---
-# required metadata
-
 title: How to contribute to docs.microsoft.com
-description: An overview of the different ways you can contribute content to docs.microsoft.com.
+description: This article describe different ways you can contribute content to docs.microsoft.com.
 author: billwagner
 ms.author: wiwagn
 manager: wpickett
 ms.date: 01/17/2018
-ms.article: contributor-guide
-ms.prod: n.a
-ms.service: n.a
-ms.technology: n.a
+ms.prod: non-product-specific
+ms.topic: contributor-guide
+ms.custom: external-contributor-guide
 ---
 # How to contribute to docs.microsoft.com
 
