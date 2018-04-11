@@ -56,7 +56,7 @@ Documentation hosted at [docs.microsoft.com](https://docs.microsoft.com) resides
 ## Fork the repository
 Using the appropriate repository, create a fork of the repository into your own GitHub account by using the GitHub website.
 
-A personal fork is required since all main documentation repositories provide read-only access, which means you cannot make changes directly on content in the repositories. To make changes, you must submit a [pull request](contribute-get-started-git-github-fundamentals.md#pull-requests) from your fork into the main repository. To facilitate this process, you first need your own copy of the repository, in which you have write access. A GitHub *fork* serves that purpose.
+A personal fork is required since all main documentation repositories provide read-only access, which means you cannot make changes directly on content in the repositories. To make changes, you must submit a [pull request](git-github-fundamentals.md#pull-requests) from your fork into the main repository. To facilitate this process, you first need your own copy of the repository, in which you have write access. A GitHub *fork* serves that purpose.
 
 1. Go to the main repository's GitHub page and click the **Fork** button on the upper right.
 
