@@ -54,10 +54,6 @@ Documentation hosted at [docs.microsoft.com](https://docs.microsoft.com) resides
    - Azure .Net SDK documentation [https://github.com/azure/azure-docs-sdk-dotnet](https://github.com/azure/azure-docs-sdk-dotnet)
 
 ## Fork the repository
-
-GitHub has published a guide that walks you through the process of [forking a repo, cloning your fork, and submitting changes](https://guides.github.com/activities/forking/). This provides a good overview using many of the popular Git clients.
-
-## Fork the repository
 Using the appropriate repository, create a fork of the repository into your own GitHub account by using the GitHub website.
 
 A personal fork is required since all main documentation repositories provide read-only access, which means you cannot make changes directly on content in the repositories. To make changes, you must submit a [pull request](contribute-get-started-git-github-fundamentals.md#pull-requests) from your fork into the main repository. To facilitate this process, you first need your own copy of the repository, in which you have write access. A GitHub *fork* serves that purpose.
@@ -91,8 +87,6 @@ Make a local folder to hold a copy of the repository locally. Some of the reposi
 ## Create a local clone
 
 Using Git Bash, prepare to run the **clone** command to pull a copy of a repository (your fork) down to your device on the current directory. 
-
-Choose one of the following two options to specify the credentials during the cloning operation, to be used whenever Git Bash needs to authenticate with GitHub. 
 
 ### Authenticate by using Git Credential Manager
 If you installed the latest version of Git for Windows and accepted the default installation, Git Credential Manager is enabled by default. Git Credential Manager makes authentication much easier, because you don't need to recall your personal access token when re-establishing authenticated connections and remotes with GitHub.
@@ -152,7 +146,7 @@ After cloning the repository, set up a read-only remote connection to the main r
    upstream        https://github.com/MicrosoftDocs/azure-docs.git (push)
    ```
 
-4. If you made a mistake, you can remove the remote value. To remove the upstream value, run the command `git remote remove upstream`.
+3. If you made a mistake, you can remove the remote value. To remove the upstream value, run the command `git remote remove upstream`.
 
 ## Next steps
-- To learn more about adding and updating content, continue to the [GitHub contribution workflow](contribute-how-to-write-workflows-major.md).
+- To learn more about adding and updating content, continue to the [GitHub contribution workflow](how-to-write-workflows-major.md).
