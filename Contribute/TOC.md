@@ -25,5 +25,6 @@
 ## Writing essentials 
 ### [Markdown](how-to-write-use-markdown.md)
 ### [Links](how-to-write-links.md)
+### [Docs Authoring Pack](how-to-write-docs-auth-pack.md)
 
 # [Additional resources](additional-resources.md)
