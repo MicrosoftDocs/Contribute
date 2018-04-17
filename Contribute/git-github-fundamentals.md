@@ -1,28 +1,15 @@
 ---
-# required metadata
-
-title: Git and GitHub essentials
-description: Gives you an overview of Git, the concept of a GitHub repository and how its contents are organized, and naming conventions we use.
+title: Git and GitHub essentials for Documentation
+description: This article explains an overview of Git,  GitHub repository, and how content is organized, and naming conventions used for docs.microsoft.com.
 author: bryanla
 ms.author: bryanla
 manager: mbaldwin
 ms.date: 06/30/2017
+ms.prod: non-product-specific
 ms.topic: contributor-guide
-ms.prod: n.a
-ms.service: n.a
-ms.technology: n.a
-
-# optional metadata
-#keywords:
-#ROBOTS:
-audience: external
-#ms.devlang:
-#ms.reviewer: bryanla
-#ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+ms.custom: external-contributor-guide
 ---
-# Git and GitHub essentials
+# Git and GitHub essentials for Docs
 
 ## Overview
 

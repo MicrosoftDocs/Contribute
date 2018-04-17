@@ -1,28 +1,15 @@
 ---
-# required metadata
-
-title: Style guide - Quick start
-description: A concise guide for style considerations, containing just the essential topics for getting started.
+title: Docs Style guide - Quick start
+description: This article is a concise guide for style considerations, containing just the essential topics for getting started with docs.microsoft.com.
 author: bryanla
 ms.author: bryanla
 manager: mbaldwin
 ms.date: 07/25/2017
+ms.prod: non-product-specific
 ms.topic: contributor-guide
-ms.prod: n.a
-ms.service: n.a
-ms.technology: n.a
-
-# optional metadata
-#keywords:
-#ROBOTS:
-audience: external
-#ms.devlang:
-#ms.reviewer: bryanla
-#ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+ms.custom: external-contributor-guide
 ---
-# Style and voice quick start
+# Docs style and voice quick start
 
 This quick start will require minimal time, but it will give you a good idea of how to apply the most important Docs style concepts when writing articles for docs.microsoft.com. These guidelines apply whether you are creating new documentation or updating existing documentation.
 
