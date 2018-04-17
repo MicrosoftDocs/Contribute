@@ -1,0 +1,12 @@
+{
+    "redirections": [
+        {
+            "source_path": "Contribute/how-to-contribute.md",
+            "redirect_url": "/"
+        },
+        {
+            "source_path": "Contribute/light-workflow.md",
+            "redirect_url": "/"
+        }
+    ]
+}
