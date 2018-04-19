@@ -38,7 +38,7 @@ The words that you include in link text should be friendly. In other words, they
 
 ## Links from one article to another
 
-To create an inline link from a Docs technical article to another Docs technical article, use the following link syntax:
+To create an inline link from a Docs technical article to another Docs technical article within the same docset, use the following link syntax:
 
 - An article in a directory links to another article in the same directory:
 
@@ -56,6 +56,9 @@ To create an inline link from a Docs technical article to another Docs technical
 
   `[link text](../directory/article-name.md)`
 
+- An article linking across docsets (even if in the same repository):
+  `[link text](./directory/article-name)`
+  
 ## Links to anchors
 
 You do not have to create anchors. They're automatically generated at publishing time for all H2 headings. The only thing you have to do is create links to the H2 sections.
