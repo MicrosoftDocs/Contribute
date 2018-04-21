@@ -10,9 +10,9 @@ ms.topic: contributor-guide
 ms.custom: external-contributor-guide
 ---
 # Using links in documentation
+This article describes how to use hyperlinks from pages hosted at docs.microsoft.com. Links are easy to add into markdown with a few varying conventions. Links point users to content in the same page, point off into other neighboring pages, or point to external sites and URLs.
 
-> [!NOTE]
-> Open Publishing Services (OPS) implements DocFX Flavored Markdown (DFM), which is highly compatible with GitHub Flavored Markdown (GFM). DFM adds some functionality through Markdown extensions. As such, selected articles from the full OPS Authoring Guide are included in this guide for reference. (See "DFM and Markdown extensions" in the table of contents.)
+The docs.microsoft.com site backend uses Open Publishing Services (OPS) which implements DocFX Flavored Markdown (DFM). DFM is highly compatible with GitHub Flavored Markdown (GFM), and DFM adds additional functionality through Markdown extensions.
 
 > [!IMPORTANT]
 > All links must be secure (`https` vs `http`) whenever the target supports it (which the vast majority should).
@@ -116,14 +116,14 @@ To link to a page on another Microsoft property (such as a pricing page, SLA pag
 
 ## Links to third-party sites
 
-The best user experience minimizes sending users to another site. So base any links to third-party sites, which we do sometimes need, on this info​:
+The best user experience minimizes sending users to another site. So base any links to third-party sites, which we do sometimes need, on this info:
 
 - **Accountability**: Link to third-party content when it's the third-party's information to share. For example, it's not Microsoft's place to tell people how to use Android developer tools--that is Google's story to tell. If we need to, we can explain how to use Android developer tools *with* Azure, but Google should tell the story of how to use their tools.
-- **PM signoff**: Have PMs sign off on third-party content. By linking to it, we are saying something about our trust in it and our obligation if people follow the instructions.
+- **PM signoff**: Request that Microsoft sign off on third-party content. By linking to it, we are saying something about our trust in it and our obligation if people follow the instructions.
 - **Freshness reviews**: Make sure that the third-party info is still current, correct, and relevant, and that the link hasn’t changed.
 - **Offsite**: Make users aware that they are going to another site. If the context does not make that clear, add a qualifying phrase. For example: “Prerequisites include the Android Developer Tools, which you can download on the Android Studio site.”
 - **Next steps**: It’s fine to add a link to, say, an MVP blog in a "Next steps" section. Again, just make sure that users understand they’ll be leaving the site.
-- **Legal**: We are covered legally under **Links to Third Party Sites** in the **Terms of Use** footer on every ms.com page​.
+- **Legal**: We are covered legally under **Links to Third Party Sites** in the **Terms of Use** footer on every ms.com page.
 
 ## Links to MSDN or TechNet
 
