@@ -1,5 +1,5 @@
-# [Overview and browser based tasks](index.md)
-# Setup and work locally
+# [Contributor Guide overview and browser-based tasks](index.md)
+# Set up and work locally
 ## [1. Sign up for GitHub](get-started-setup-github.md)
 ## [2. Install Git and Markdown tools](get-started-setup-tools.md)
 ## [3. Set up a local Git repository](get-started-setup-local.md)
