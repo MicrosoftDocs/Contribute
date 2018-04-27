@@ -22,7 +22,7 @@ You run these one-time setup activities to get started contributing:
 > * Configure the upstream remote value
 
 > [!IMPORTANT]
-> If you're making only minor changes to an article, you *do not* need to complete the steps in this article. You can continue directly to the [minor/infrequent changes workflow](light-workflow.md).
+> If you're making only minor changes to an article, you *do not* need to complete the steps in this article. You can continue directly to the [quick changes workflow](index.md#quick-edits-to-existing-documents).
 >
 
 ## Overview
@@ -41,7 +41,7 @@ Documentation hosted at [docs.microsoft.com](https://docs.microsoft.com) resides
 
 1. If you are unsure of which repository to use, then visit the article on docs.microsoft.com using your web browser. Select the **Edit** link (pencil icon) on the upper right of the article.
 
-   ![Click Edit to determine the repo and file location.](media/edit-article.png)
+   ![Click Edit to determine the repo and file location.](media/index/edit-article.png)
 
 2. That link takes you to github.com location for the corresponding Markdown file in the appropriate repository. Note the URL to view the repository name.
 
