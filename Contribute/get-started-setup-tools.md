@@ -1,10 +1,10 @@
 ---
 title: Install content authoring tools
 description: This article helps you download and install the client tools you will need for Git and editing markdown files.
-author: bryanla
-ms.author: bryanla
-manager: mbaldwin
-ms.date: 01/04/2018
+author: jasonwhowell
+ms.author: jasonh
+manager: kfile
+ms.date: 04/30/2018
 ms.prod: non-product-specific
 ms.topic: contributor-guide
 ms.custom: external-contributor-guide
@@ -53,6 +53,16 @@ Download and install [VS Code](https://code.visualstudio.com/). The VS Code home
 
 > [!TIP]
 > To launch VS Code and open the current folder, run the command `code .` in the command line or bash shell. If the current folder is part of a local git repo, the github integration appears in Visual Studio Code automatically.
+
+## Docs Authoring Pack
+Install the Docs Authoring Pack for Visual Studio Code. This add-in includes basic authoring assistance for help with Markdown, and preview capabilities so you can see what the markdown looks like on the Docs site.
+
+   Visit this [marketplace page](https://marketplace.visualstudio.com/items?itemName=docsmsft.docs-authoring-pack) and select **Install**, or search for `docsmsft.docs-authoring-pack` in your extensions list in the VS Code window. 
+
+   The Docs Authoring Pack is accessible by pressing Alt+M inside of VS Code. The toolbar is hidden by default but can be shown. Edit the VS Code settings (Control+comma) and adding user setting `"markdown.showToolbar": true` to show the toolbar.
+
+   For more information, see the [Docs Authoring Pack](how-to-write-docs-auth-pack.md) page.
+
 
 ## Next steps
 
