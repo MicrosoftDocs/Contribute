@@ -1,16 +1,13 @@
 ---
-# required metadata
-
 title: Docs Authoring Pack for VS Code
-description: VS Code extension pack to facilitate Markdown authoring for docs.microsoft.com.
+description: This article describes the VS Code extension pack to facilitate Markdown authoring for docs.microsoft.com.
 author: meganbradley
 ms.author: mbradley
 manager: jemash
 ms.date: 04/06/2018
-ms.article: contributor-guide
-ms.prod: n.a
-ms.service: n.a
-ms.technology: n.a
+ms.prod: non-product-specific
+ms.topic: contributor-guide
+ms.custom: external-contributor-guide
 ---
 # Docs Authoring Pack for VS Code
 
