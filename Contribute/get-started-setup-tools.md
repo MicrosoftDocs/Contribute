@@ -15,6 +15,7 @@ This article describes the steps to interactively install Git client tools and V
 > [!div class="checklist"]
 > * Install [Git for Windows](https://git-scm.com/download/win)
 > * Install [Visual Studio Code](https://code.visualstudio.com/)
+> * Install [Docs Authoring Pack](https://marketplace.visualstudio.com/items?itemName=docsmsft.docs-authoring-pack)
 
 >[!IMPORTANT]
 > If you're making only minor changes to an article, you *do not* need to complete the steps in this article and can continue directly to the [quick changes workflow](index.md#quick-edits-to-existing-documents).
