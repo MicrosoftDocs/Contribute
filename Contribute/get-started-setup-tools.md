@@ -56,7 +56,7 @@ Download and install [VS Code](https://code.visualstudio.com/). The VS Code home
 > To launch VS Code and open the current folder, run the command `code .` in the command line or bash shell. If the current folder is part of a local git repo, the github integration appears in Visual Studio Code automatically.
 
 ## Docs Authoring Pack
-Install the Docs Authoring Pack for Visual Studio Code. This add-in includes basic authoring assistance for help with Markdown, and preview capabilities so you can see what the markdown looks like on the Docs site.
+Install the Docs Authoring Pack for Visual Studio Code. This set of extensions includes basic authoring assistance for help when writing Markdown, and a preview feature, so that you can see what the Markdown looks like in the style of the docs.microsoft.com site.
 
    Visit this [marketplace page](https://marketplace.visualstudio.com/items?itemName=docsmsft.docs-authoring-pack) and select **Install**, or search for `docsmsft.docs-authoring-pack` in your extensions list in the VS Code window. 
 
