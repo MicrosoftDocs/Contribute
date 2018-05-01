@@ -1,16 +1,13 @@
 ---
-# required metadata
-
 title: Docs Authoring Pack for VS Code
-description: VS Code extension pack to facilitate Markdown authoring for docs.microsoft.com.
+description: This article describes the VS Code extension pack to facilitate Markdown authoring for docs.microsoft.com.
 author: meganbradley
 ms.author: mbradley
 manager: jemash
 ms.date: 04/06/2018
-ms.article: contributor-guide
-ms.prod: n.a
-ms.service: n.a
-ms.technology: n.a
+ms.prod: non-product-specific
+ms.topic: contributor-guide
+ms.custom: external-contributor-guide
 ---
 # Docs Authoring Pack for VS Code
 
@@ -84,7 +81,7 @@ Former users of the extension code-named "Gauntlet" will notice that the authori
 
 ## Known issues
 
-- [DocFX Preview] MacOS and Linux: DocFX Preview does not launch preview correctly (preview defaults to VS Code Markdown preview for these platforms).
-- [DocFx Preview] All platforms: Some syntax, such as xref (cross-reference) links to APIs, do not render correctly in preview, in some cases leaving content gaps.
-- [External bookmarks] Linux: File list is displayed but no headings are shown to select.
-- [Includes] Linux: File list is displayed but no link is added after selection is made.
+- DocFX Preview: On MacOS and Linux, DocFX Preview does not launch preview correctly (preview defaults to VS Code Markdown preview for these platforms).
+- DocFx Preview: On all platforms, some syntax, such as xref (cross-reference) links to APIs, do not render correctly in preview, in some cases leaving content gaps.
+- External bookmarks: On Linux, the file list is displayed but no headings are shown to select.
+- Includes: On Linux, the file list is displayed but no link is added after selection is made.
