@@ -1,10 +1,10 @@
 ---
 title: Install content authoring tools
 description: This article helps you download and install the client tools you will need for Git and editing markdown files.
-author: bryanla
-ms.author: bryanla
-manager: mbaldwin
-ms.date: 01/04/2018
+author: jasonwhowell
+ms.author: jasonh
+manager: kfile
+ms.date: 04/30/2018
 ms.prod: non-product-specific
 ms.topic: contributor-guide
 ms.custom: external-contributor-guide
@@ -15,6 +15,7 @@ This article describes the steps to interactively install Git client tools and V
 > [!div class="checklist"]
 > * Install [Git for Windows](https://git-scm.com/download/win)
 > * Install [Visual Studio Code](https://code.visualstudio.com/)
+> * Install [Docs Authoring Pack](https://marketplace.visualstudio.com/items?itemName=docsmsft.docs-authoring-pack)
 
 >[!IMPORTANT]
 > If you're making only minor changes to an article, you *do not* need to complete the steps in this article and can continue directly to the [quick changes workflow](index.md#quick-edits-to-existing-documents).
@@ -53,6 +54,16 @@ Download and install [VS Code](https://code.visualstudio.com/). The VS Code home
 
 > [!TIP]
 > To launch VS Code and open the current folder, run the command `code .` in the command line or bash shell. If the current folder is part of a local git repo, the github integration appears in Visual Studio Code automatically.
+
+## Docs Authoring Pack
+Install the Docs Authoring Pack for Visual Studio Code. This set of extensions includes basic authoring assistance for help when writing Markdown, and a preview feature, so that you can see what the Markdown looks like in the style of the docs.microsoft.com site.
+
+   Visit this [marketplace page](https://marketplace.visualstudio.com/items?itemName=docsmsft.docs-authoring-pack) and select **Install**, or search for `docsmsft.docs-authoring-pack` in your extensions list in the VS Code window. 
+
+   The Docs Authoring Pack is accessible by pressing Alt+M inside of VS Code. The toolbar is hidden by default but can be shown. Edit the VS Code settings (Control+comma) and adding user setting `"markdown.showToolbar": true` to show the toolbar.
+
+   For more information, see the [Docs Authoring Pack](how-to-write-docs-auth-pack.md) page.
+
 
 ## Next steps
 
