@@ -13,7 +13,12 @@ ms.custom: external-contributor-guide
 
 Docs.microsoft.com articles are written in a lightweight markup language called [Markdown](https://daringfireball.net/projects/markdown/), which is both easy to read and easy to learn. Because of this, it has quickly become an industry standard.
 
-Because Docs content is stored in GitHub, it can use a superset of Markdown called [GitHub Flavored Markdown (GFM)](https://help.github.com/categories/writing-on-github/), which provides additional functionality for common formatting needs. Additionally, Open Publishing Services (OPS) implements DocFX Flavored Markdown (DFM). DFM is highly compatible with GitHub Flavored Markdown (GFM), adding functionality to enable Docs-specific features.
+Because Docs content is stored in GitHub, it can use a superset of Markdown called [GitHub Flavored Markdown (GFM)](https://help.github.com/categories/writing-on-github/), which provides additional functionality for common formatting needs. Additionally, Open Publishing Services (OPS) implements Markdig Markdown Parser. Markdig is highly compatible with GitHub Flavored Markdown (GFM), adding functionality to enable Docs-specific features.
+
+* Markdig is a fast, powerful, CommonMark compliant, extensible Markdown processor for .NET.
+* https://github.com/lunet-io/markdig
+* Better community support
+* Better standards support
 
 ## Markdown basics
 
@@ -140,7 +145,7 @@ will be rendered as:
 
 For more information on creating tables, see:
 
-- The DFM [table wrapping feature](#table-wrapping), which can help with formatting of wide tables
+- The Markdig [table wrapping feature](#table-wrapping), which can help with formatting of wide tables
 - GitHub's [Organizing information with tables](https://help.github.com/articles/organizing-information-with-tables/)
 - The [Markdown Tables Generator](https://www.tablesgenerator.com/markdown_tables) web app
 - [Adam Pritchard's Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#wiki-tables)
@@ -156,7 +161,7 @@ The Markdown syntax for an inline link consists of the `[link text]` portion, wh
 For more information on linking, see:
 
 - The [Markdown syntax guide](https://daringfireball.net/projects/markdown/syntax#link) for details on Markdown's base linking support.
-- The [Links](how-to-write-links.md) section of this guide for details on additional linking syntax that DFM provides.
+- The [Links](how-to-write-links.md) section of this guide for details on additional linking syntax that Markdig provides.
 
 ### Code snippets
 
@@ -267,9 +272,9 @@ CREATE TABLE T1 (
 ## OPS custom Markdown extensions
 
 > [!NOTE]
-> Open Publishing Services (OPS) implements DocFX Flavored Markdown (DFM), which is highly compatible with GitHub Flavored Markdown (GFM). DFM adds some functionality through Markdown extensions. As such, selected articles from the full OPS Authoring Guide are included in this guide for reference. (For example, see "DFM and Markdown extensions" and "Code snippets" in the table of contents.)
+> Open Publishing Services (OPS) implements a Markdig Parser for Markdown, which is highly compatible with GitHub Flavored Markdown (GFM). Markdig adds some functionality through Markdown extensions. As such, selected articles from the full OPS Authoring Guide are included in this guide for reference. (For example, see "Markdig and Markdown extensions" and "Code snippets" in the table of contents.)
 
-Docs articles use GFM for most article formatting, such as paragraphs, links, lists, and headings. For richer formatting, articles can use DFM features such as:
+Docs articles use GFM for most article formatting, such as paragraphs, links, lists, and headings. For richer formatting, articles can use Markdig features such as:
 
 - Note blocks
 - Includes
@@ -277,7 +282,7 @@ Docs articles use GFM for most article formatting, such as paragraphs, links, li
 - Embedded videos
 - Code snippets/samples
 
-For the complete list, refer to "DFM and Markdown extensions" and "Code snippets" in the table of contents.
+For the complete list, refer to "Markdig and Markdown extensions" and "Code snippets" in the table of contents.
 
 ### Note blocks
 
@@ -292,7 +297,7 @@ In general, note blocks should be used sparingly because they can be disruptive.
 
 ### Includes
 
-When you have reusable text or image files that need to be included in article files, you can use a reference to the "include" file via the DFM file include feature. This feature instructs OPS to include the file in your article file at build time, making it part of your published article. Three types of includes are available to help you reuse content:
+When you have reusable text or image files that need to be included in article files, you can use a reference to the "include" file via the Markdig file include feature. This feature instructs OPS to include the file in your article file at build time, making it part of your published article. Three types of includes are available to help you reuse content:
 
 - Inline: Reuse a common text snippet inline with within another sentence.
 - Block: Reuse an entire Markdown file as a block, nested within a section of an article.
@@ -304,7 +309,7 @@ Here are requirements and considerations for includes:
 
 - Use includes whenever you need the same text to appear in multiple articles.
 - Use block includes for significant amounts of content--a paragraph or two, a shared procedure, or a shared section. Do not use them for anything smaller than a sentence.
-- Includes won't be rendered in the GitHub rendered view of your article, because they rely on DFM extensions. They'll be rendered only after publication.
+- Includes won't be rendered in the GitHub rendered view of your article, because they rely on Markdig extensions. They'll be rendered only after publication.
 - Ensure that all the text in an include is written in complete sentences or phrases that do not depend on preceding text or following text in the article that references the include. Ignoring this guidance creates an untranslatable string in the article that breaks the localized experience.
 - Don't embed includes within other includes. They are not supported.
 - Place media files in a media folder that's specific to the include subdirectory--for instance, the `<repo>`/includes/media folder. The media directory should not contain any images in its root. If the include does not have images, a corresponding media directory is not required.
@@ -313,13 +318,13 @@ Here are requirements and considerations for includes:
 
 ### Selectors
 
-Use selectors in technical articles when you author multiple flavors of the same article, to address differences in implementation across technologies or platforms. This is typically most applicable to our mobile platform content for developers. There are currently two different types of selectors in DFM, a single selector and a multi-selector.
+Use selectors in technical articles when you author multiple flavors of the same article, to address differences in implementation across technologies or platforms. This is typically most applicable to our mobile platform content for developers. There are currently two different types of selectors in Markdig, a single selector and a multi-selector.
 
 Because the same selector Markdown goes in each article in the selection, we recommend placing the selector for your article in an include. Then you can reference that include in all your articles that use the same selector.
 
 ### Code snippets
 
-DFM supports advanced inclusion of code in an article, via its code snippet extension. It provides advanced rendering that builds on GFM features such as programming language selection and syntax coloring, plus nice features such as:
+Markdig supports advanced inclusion of code in an article, via its code snippet extension. It provides advanced rendering that builds on GFM features such as programming language selection and syntax coloring, plus nice features such as:
 
 - Inclusion of centralized code samples/snippets from an external repository.
 - Tabbed UI to show multiple versions of code samples in different languages.
