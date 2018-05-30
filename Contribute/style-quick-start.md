@@ -52,4 +52,4 @@ Our technical articles are translated into several languages, and some are modif
 - If you are contributing to localized documentation, refer to the [Microsoft Language Portal](https://www.microsoft.com/Language/Default.aspx).
 - For localization guidelines, information on language style and usage in technical publications, and information on market-specific data formats, download the [style guide](https://www.microsoft.com/Language/StyleGuides) in your language.
 - For Microsoft localized terminology, search for [product-specific approved terminology](https://www.microsoft.com/Language/Default.aspx) or download the [Microsoft Terminology Collection](https://www.microsoft.com/Language/Terminology.aspx) in your language.
-- You can learn more in the [localization section](https://docs.microsoft.com/style-guide/global-communications/) of the docs.microsoft.com style guide.
+- You can learn more in the [localization section](https://docs.microsoft.com/style-guide/global-communications/) of the Microsoft style guide.
