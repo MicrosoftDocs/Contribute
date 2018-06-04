@@ -49,7 +49,41 @@ consider limiting administrative tasks (bread crumbs, hub pages, and so on....) 
 
  ==> Tom
 
-consider a different organization / TOC
-consider what can be simplified.
-consider different "top tasks"
+The goals for the ToC organization for external contributors differ from internal ToC goals. For external contributors:
+
+* It's more important that the ToC not look intimidatingly large, either at first glance or when drilling down to a particular task. Fewer ToC nodes is generally better except for a "Reference" area.
+* If they come to the guide looking for how to do a particular task, they should be able to find one entry to one article at or near the top ToC level. If the task is presented as needing a collection of 6 articles to learn how to accomplish, the potential contributor may be dissuaded from trying.
+
+### Preliminary ToC organization plan
+
+* Introduction
+* Communicate with the docs team<sup>1</sup>
+* How to make simple changes<sup>2</sup>
+* How to make complex changes<sup>3</sup>
+* Create a new article<sup>4</sup>
+* FAQ<sup>5</sup>
+* Reference and Resources
+  * Text formatting [article from internal guide]
+  * Add code to articles [article from internal guide]
+  * Add art to articles [ToC node from internal guide]
+  * Add links to articles [article from internal guide]
+  * Add alerts to articles [article from internal guide]
+  * Add lists and bullets to articles [article from internal guide]
+  * TOC management [article from internal guide]
+  * Repository-specific guidance [ToC node from internal guide]
+  * Pull Request review process [ToC node from internal guide]
+  * [include here relevant nodes under Resources node in internal guide]<sup>6</sup>
+  
+<sup>1</sup> Leaf node, goes to an article about how and where to create GitHub issues to report problems, propose changes, propose new content, and so forth.
+
+<sup>2</sup> Leaf node, goes to an article about browser workflow, with embedded video at the top.
+
+<sup>3</sup> Leaf node, goes to a how-to article about local clone editing workflow. Gives in one article everything from set up to responding to PR feedback: Install Git, VS Code, Docs Authoring pack, fork and clone, find the file, create a working branch, stage and commit changes, push to remote, create PR, respond to feedback.
+
+<sup>4</sup> Non-leaf node, OK to have a collection of articles here because it would be expected that there's much more to learn if you're creating something from scratch. Contains an overview article plus each of the article-type how-tos under Create content / Write in the internal ToC.
+
+<sup>5</sup> Quick answers to common questions, such as -- CLA, getting credit for contributions, 
+
+<sup>6</sup> If we kept separate nodes for Reference and Resources, people would not find some things due to looking in the wrong place.  For example, you might expect to find the Style Guide link under Reference, but it's under Resources.
+
 
