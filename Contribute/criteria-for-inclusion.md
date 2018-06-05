@@ -38,12 +38,9 @@ Teams work in private repositories to enable work on products or releases that h
 
 ## Administrative tasks
  
-==> John
+An external contributor may submit a PR for a non-content infrastructure task. These "administrative" tasks might be making changes to a landing page, hub page, bread crumbs, product renames, or versioning. If warranted, the PR could be discussed by the Contributor Guide Working Group at a regular meeting, but consider limiting whenever possible. If closing an administrative PR, include a polite note thanking the external contributor for their contribution, and that the PR had been reviewed but that this particular commit wasn't able to be included.
 
-Non content
-Infrastructure tasks
-
-consider limiting administrative tasks (bread crumbs, hub pages, and so on....) Product renaming likely fits here.
+For product renaming issues, please review the [How to rename a product or service in content](contribute-how-to-rename-product-or-service.md) article.
 
 ## Common external tasks
 
