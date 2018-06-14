@@ -1,13 +1,7 @@
 ---
 title: Git and GitHub essentials for Documentation
 description: This article explains an overview of Git,  GitHub repository, and how content is organized, and naming conventions used for docs.microsoft.com.
-author: bryanla
-ms.author: bryanla
-manager: mbaldwin
 ms.date: 06/30/2017
-ms.prod: non-product-specific
-ms.topic: contributor-guide
-ms.custom: external-contributor-guide
 ---
 # Git and GitHub essentials for Docs
 

@@ -5,9 +5,6 @@ author: jasonwhowell
 ms.author: jasonh
 manager: kfile
 ms.date: 01/18/2018
-ms.prod: non-product-specific
-ms.topic: contributor-guide
-ms.custom: external-contributor-guide
 ---
 # Set up Git repository locally for documentation
 

@@ -1,13 +1,7 @@
 ---
 title: Docs Style guide - Quick start
 description: This article is a concise guide for style considerations, containing just the essential topics for getting started with docs.microsoft.com.
-author: bryanla
-ms.author: bryanla
-manager: mbaldwin
 ms.date: 07/25/2017
-ms.prod: non-product-specific
-ms.topic: contributor-guide
-ms.custom: external-contributor-guide
 ---
 # Docs style and voice quick start
 

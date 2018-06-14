@@ -4,10 +4,6 @@ description: This article lists suggested resources for Git and GitHub learning 
 author: billwagner
 ms.author: wiwagn
 manager: wpickett
-ms.date: 02/27/2018
-ms.prod: non-product-specific
-ms.topic: contributor-guide
-ms.custom: external-contributor-guide
 ---
 # Additional Git and Github resources
 
