@@ -1,13 +1,7 @@
 ---
 title: GitHub account setup steps
 description: This article steps you through the process of setting up accounts for GitHub, required in order to contribute to docs.microsoft.com content.
-author: bryanla
-ms.author: bryanla
-manager: mbaldwin
 ms.date: 02/27/2018
-ms.prod: non-product-specific
-ms.topic: contributor-guide
-ms.custom: external-contributor-guide
 ---
 # GitHub account setup
 
