@@ -52,7 +52,10 @@ To create an inline link from a Docs technical article to another Docs technical
 
 - An article linking across docsets (even if in the same repository):
   `[link text](./directory/article-name)`
-  
+
+> [!IMPORTANT]
+> None of the above examples use the `~/` as part of the link. If you are linking to a path at the root of the repository, start with the `/`. Including the `~/` produces invalid links when navigating the source repositories on GitHub. Starting the path with `/` resolves correctly.
+
 ## Links to anchors
 
 You do not have to create anchors. They're automatically generated at publishing time for all H2 headings. The only thing you have to do is create links to the H2 sections.
