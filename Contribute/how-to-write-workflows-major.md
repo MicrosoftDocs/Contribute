@@ -1,13 +1,7 @@
 ---
 title: GitHub contribution workflow for major or long-running changes
 description: This article shows you how to use the "major" contributor workflow to make contributions to docs.microsoft.com articles.
-author: bryanla
-ms.author: bryanla
-manager: mbaldwin
 ms.date: 08/30/2017
-ms.prod: non-product-specific
-ms.topic: contributor-guide
-ms.custom: external-contributor-guide
 ---
 # GitHub contribution workflow for major or long-running changes
 

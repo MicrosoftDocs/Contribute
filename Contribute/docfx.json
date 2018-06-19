@@ -41,8 +41,14 @@
       "hideScope": true,
       "feedback_system": "GitHub",
       "feedback_github_repo": "MicrosoftDocs/Contribute",
-      "feedback_product_url": "https://aka.ms/sitefeedback"
-    },
+      "feedback_product_url": "https://aka.ms/sitefeedback",
+      "author": "billwagner",
+      "ms.author": "wiwagn",
+      "manager": "wpickett",
+      "ms.prod": "non-product-specific",
+      "ms.topic": "contributor-guide",
+      "ms.custom": "external-contributor-guide"
+          },
     "fileMetadata": {},
     "template": [],
     "dest": "ContributionGuide"

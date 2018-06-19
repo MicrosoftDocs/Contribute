@@ -5,9 +5,6 @@ author: jasonwhowell
 ms.author: jasonh
 manager: kfile
 ms.date: 04/30/2018
-ms.prod: non-product-specific
-ms.topic: contributor-guide
-ms.custom: external-contributor-guide
 ---
 # Install content authoring tools
 

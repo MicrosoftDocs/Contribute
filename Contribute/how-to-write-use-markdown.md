@@ -1,13 +1,7 @@
 ---
 title: How to use Markdown for writing Docs
 description: This article provides the basics and reference information for the Markdown language used for writing docs.microsoft.com articles.
-author: bryanla
-ms.author: bryanla
-manager: mbaldwin
 ms.date: 07/13/2017
-ms.prod: non-product-specific
-ms.topic: contributor-guide
-ms.custom: external-contributor-guide
 ---
 # How to use Markdown for writing Docs
 
