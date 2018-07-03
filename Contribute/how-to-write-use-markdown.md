@@ -363,3 +363,4 @@ For example, encode `<script name>` as `&lt;script name&gt;`
 - [Introduction to Markdown](https://daringfireball.net/projects/markdown/syntax)
 - [Docs Markdown cheat sheet](./media/documents/markdown-cheatsheet.pdf?raw=true)
 - [GitHub's Markdown Basics](https://help.github.com/articles/markdown-basics/)
+- [The Markdown Guide](https://www.markdownguide.org/)
