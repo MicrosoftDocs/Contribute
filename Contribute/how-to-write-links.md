@@ -144,12 +144,12 @@ Structure of the URL:
 
 The &lt;moniker-name&gt; portion is optional. If it's omitted, you will be directed to the latest version of the content. The &lt;service-name&gt; portion is one of the examples shown in the following base URLs:
 
-- Azure PowerShell (AzureRM) content: https://docs.microsoft.com/powershell/azure/
-- Azure PowerShell (ASM) content: https://docs.microsoft.com/powershell/azure/_servicemanagement_
-- Azure Active Directory (AzureAD) PowerShell content: https://docs.microsoft.com/powershell/azure/_active-directory_
-- Azure Service Fabric PowerShell: https://docs.microsoft.com/powershell/azure/_service-fabric_
-- Azure Information Protection PowerShell: https://docs.microsoft.com/powershell/azure/_aip_
-- Azure Elastic DB Jobs PowerShell: https://docs.microsoft.com/powershell/azure/_elasticdbjobs_
+- Azure PowerShell (AzureRM) content: [https://docs.microsoft.com/powershell/azure/](https://docs.microsoft.com/powershell/azure/)
+- Azure PowerShell (ASM) content: [https://docs.microsoft.com/powershell/azure/_servicemanagement_](https://docs.microsoft.com/powershell/azure/servicemanagement)
+- Azure Active Directory (AzureAD) PowerShell content: [https://docs.microsoft.com/powershell/azure/_active-directory_](https://docs.microsoft.com/powershell/azure/active-directory)
+- Azure Service Fabric PowerShell: [https://docs.microsoft.com/powershell/azure/_service-fabric_](https://docs.microsoft.com/powershell/azure/service-fabric)
+- Azure Information Protection PowerShell: [https://docs.microsoft.com/powershell/azure/_aip_](https://docs.microsoft.com/powershell/azure/aip)
+- Azure Elastic DB Jobs PowerShell: [https://docs.microsoft.com/powershell/azure/_elasticdbjobs_](https://docs.microsoft.com/powershell/azure/elasticdbjobs)
 
 When you use these URLs, you will be redirected to the latest version of the content. This way, you
 don't have to specify a version moniker. And you won't have links to conceptual
