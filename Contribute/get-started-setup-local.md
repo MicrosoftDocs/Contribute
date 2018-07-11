@@ -11,16 +11,15 @@ ms.date: 01/18/2018
 This article describes the steps to set up a git repository on your local machine, with the intent to contribute to Microsoft documentation. Contributors may use a locally cloned repository to add new articles, do major edits on existing articles, or change artwork.
 
 You run these one-time setup activities to get started contributing:
-> [!div class="checklist"]
+> [!div  class="checklist"]
 > * Determine the appropriate repository
 > * Fork the repository to your GitHub account
 > * Choose a local folder for the cloned files
 > * Clone the repository to your local machine
 > * Configure the upstream remote value
-
+> 
 > [!IMPORTANT]
 > If you're making only minor changes to an article, you *do not* need to complete the steps in this article. You can continue directly to the [quick changes workflow](index.md#quick-edits-to-existing-documents).
->
 
 ## Overview
 
@@ -30,7 +29,7 @@ To contribute to Microsoft's documentation site, you can make and edit Markdown 
 
 If you're new to GitHub, watch the following video for a conceptual overview of the forking and cloning process:
 
->[!VIDEO https://channel9.msdn.com/Blogs/CoolMoose/Git-Repository-Setup/player]
+> [!VIDEO https://channel9.msdn.com/Blogs/CoolMoose/Git-Repository-Setup/player]
 
 ## Determine the repository
 
@@ -91,10 +90,10 @@ If you installed the latest version of Git for Windows and accepted the default 
 
 1. Run the **clone** command, by providing the repository name. Cloning downloads (clone) the forked repository on your local computer. 
 
-    > [!Tip]
-    > You can get your fork's GitHub URL for the clone command from the **Clone or download** button in the GitHub UI:
-    >
-    > ![Clone or download](./media/contribute-get-started-setup-local/clone-or-download.png)
+   > [!Tip]
+   > You can get your fork's GitHub URL for the clone command from the **Clone or download** button in the GitHub UI:
+   > 
+   > ![Clone or download](./media/contribute-get-started-setup-local/clone-or-download.png)
 
     Be sure to specify the path to *your fork* during the cloning process, not the main repository from which you created the fork. Otherwise, you cannot contribute changes. Your fork is referenced through your personal GitHub user account, such as `github.com/<github-username>/<repo>`.
 
@@ -116,8 +115,8 @@ If you installed the latest version of Git for Windows and accepted the default 
 
     ![GitHub two-factor authentication](./media/contribute-get-started-setup-local/github-2fa.png)
 
-    > [!Note]
-    > Your credentials will be saved and used to authenticate future GitHub requests. You only need to do this authentication once per computer. 
+   > [!Note]
+   > Your credentials will be saved and used to authenticate future GitHub requests. You only need to do this authentication once per computer. 
 
 4. The clone command runs and downloads a copy of the repository files from your fork into a new folder on the local disk. A new folder is made within the current folder. It may take a few minutes, depending on the repository size. You can explore the folder to see the structure once it is finished.
 

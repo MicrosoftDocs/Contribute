@@ -51,7 +51,7 @@ To create an inline link from a Docs technical article to another Docs technical
   `[link text](../directory/article-name.md)`
 
 - An article linking across docsets (even if in the same repository):
-  `[link text](./directory/article-name)`
+  `[link text](./directory/article-name)`
 
 > [!IMPORTANT]
 > None of the above examples use the `~/` as part of the link. If you are linking to a path at the root of the repository, start with the `/`. Including the `~/` produces invalid links when navigating the source repositories on GitHub. Starting the path with `/` resolves correctly.
@@ -138,6 +138,7 @@ Structure of the URL:
 
 * For cmdlets:
   - `/powershell/module/<module-name>/<cmdlet-name>[?view=<moniker-name>]`
+
 * For conceptual topics:
   - `/powershell/azure/<topic-file-name>[?view=<moniker-name>]`
   - `/powershell/azure/<service-name>/<topic-file-name>[?view=<moniker-name>]`
@@ -145,18 +146,18 @@ Structure of the URL:
 The &lt;moniker-name&gt; portion is optional. If it's omitted, you will be directed to the latest version of the content. The &lt;service-name&gt; portion is one of the examples shown in the following base URLs:
 
 - Azure PowerShell (AzureRM) content: [https://docs.microsoft.com/powershell/azure/](https://docs.microsoft.com/powershell/azure/)
-- Azure PowerShell (ASM) content: [https://docs.microsoft.com/powershell/azure/_servicemanagement_](https://docs.microsoft.com/powershell/azure/servicemanagement)
-- Azure Active Directory (AzureAD) PowerShell content: [https://docs.microsoft.com/powershell/azure/_active-directory_](https://docs.microsoft.com/powershell/azure/active-directory)
-- Azure Service Fabric PowerShell: [https://docs.microsoft.com/powershell/azure/_service-fabric_](https://docs.microsoft.com/powershell/azure/service-fabric)
-- Azure Information Protection PowerShell: [https://docs.microsoft.com/powershell/azure/_aip_](https://docs.microsoft.com/powershell/azure/aip)
-- Azure Elastic DB Jobs PowerShell: [https://docs.microsoft.com/powershell/azure/_elasticdbjobs_](https://docs.microsoft.com/powershell/azure/elasticdbjobs)
+- Azure PowerShell (ASM) content: [https://docs.microsoft.com/powershell/azure/*servicemanagement*](https://docs.microsoft.com/powershell/azure/servicemanagement)
+- Azure Active Directory (AzureAD) PowerShell content: [https://docs.microsoft.com/powershell/azure/*active-directory*](https://docs.microsoft.com/powershell/azure/active-directory)
+- Azure Service Fabric PowerShell: [https://docs.microsoft.com/powershell/azure/*service-fabric*](https://docs.microsoft.com/powershell/azure/service-fabric)
+- Azure Information Protection PowerShell: [https://docs.microsoft.com/powershell/azure/*aip*](https://docs.microsoft.com/powershell/azure/aip)
+- Azure Elastic DB Jobs PowerShell: [https://docs.microsoft.com/powershell/azure/*elasticdbjobs*](https://docs.microsoft.com/powershell/azure/elasticdbjobs)
 
 When you use these URLs, you will be redirected to the latest version of the content. This way, you
 don't have to specify a version moniker. And you won't have links to conceptual
 content that must be updated when the version changes.
 
 To create the correct link, find the page that you want to link to in your browser, and copy the URL.
-Then, remove "https://docs.microsoft.com" and the locale info.
+Then, remove "<https://docs.microsoft.com>" and the locale info.
 
 When you're linking from a TOC, you must use the full URL without the locale information.
 

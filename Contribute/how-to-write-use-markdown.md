@@ -79,6 +79,7 @@ will be rendered as:
 - List item 1
   - List item A
   - List item B
+
 - List item 2
 
 #### Ordered list
@@ -109,8 +110,9 @@ To nest a list within another list, indent the child list items. For example, th
 will be rendered as:
 
 1. First instruction
-    1. Sub-instruction
-    2. Sub-instruction
+   1. Sub-instruction
+   2. Sub-instruction
+
 2. Second instruction
 
 ### Tables
@@ -129,6 +131,7 @@ For example, the following Markdown:
 ```
 
 will be rendered as:
+
 
 | Fun                  | With                 | Tables          |
 | :------------------- | -------------------: |:---------------:|
@@ -176,6 +179,7 @@ The alias after the initial three backtick (`) characters defines the syntax hig
 
 These languages have friendly name support and most have language highlighting.
 
+
 |Name|Markdown Label|
 |-----|-------|
 |.NET Console|dotnetcli|
@@ -217,7 +221,7 @@ These languages have friendly name support and most have language highlighting.
 
 #### Example: C\#
 
-__Markdown__
+**Markdown**
 
     ```csharp
     // Hello1.cs
@@ -230,7 +234,7 @@ __Markdown__
     }
     ```
 
-__Render__
+**Render**
 
 ```csharp
 // Hello1.cs
@@ -245,21 +249,21 @@ public class Hello1
 
 #### Example: SQL
 
-__Markdown__
+**Markdown**
 
     ```sql
     CREATE TABLE T1 (
-      c1 int PRIMARY KEY,
-      c2 varchar(50) SPARSE NULL
+      c1 int PRIMARY KEY,
+      c2 varchar(50) SPARSE NULL
     );
     ```
 
-__Render__
+**Render**
 
 ```sql
 CREATE TABLE T1 (
-  c1 int PRIMARY KEY,
-  c2 varchar(50) SPARSE NULL
+  c1 int PRIMARY KEY,
+  c2 varchar(50) SPARSE NULL
 );
 ```
 

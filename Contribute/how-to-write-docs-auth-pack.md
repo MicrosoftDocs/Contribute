@@ -24,6 +24,7 @@ Some syntax supported by the extension, such as alerts and snippets, are custom 
 
 To access the Docs Markdown menu, type `ALT+M`. You can click or use up/down arrows to select the function you want, or type to start filtering, then hit `ENTER` when the function you want is highlighted in the menu. The following are available:
 
+
 |Function     |Command             |Description           |
 |-------------|--------------------|----------------------|
 |Bold         |`formatBold`        |Formats text **bold**.|
@@ -44,11 +45,11 @@ To access the Docs Markdown menu, type `ALT+M`. You can click or use up/down arr
 ## How to assign keyboard shortcuts
 
 1. Type `CTRL+K` then `CTRL+S` to open the Keyboard Shortcuts list.
-1. Search for the command, such as `formatBold`, for which you want to create a custom keybinding.
-1. Click the plus that appears near the command name when you mouse over the line.
-1. After a new input box is visible, type the keyboard shortcut you want to bind to that particular command. For example, to use the common shortcut for bold, type `ctrl+b`.
-1. It's a good idea to insert a `when` clause into your keybinding, so it won't be available in files other than Markdown. To do this, open *keybindings.json* and insert the following line below the command name (be sure to add a comma between lines):
-   
+2. Search for the command, such as `formatBold`, for which you want to create a custom keybinding.
+3. Click the plus that appears near the command name when you mouse over the line.
+4. After a new input box is visible, type the keyboard shortcut you want to bind to that particular command. For example, to use the common shortcut for bold, type `ctrl+b`.
+5. It's a good idea to insert a `when` clause into your keybinding, so it won't be available in files other than Markdown. To do this, open *keybindings.json* and insert the following line below the command name (be sure to add a comma between lines):
+
     `"when": "editorTextFocus && editorLangId == 'markdown'"`
 
     Your completed custom keybinding should look like this in keybindings.json:
@@ -64,7 +65,7 @@ To access the Docs Markdown menu, type `ALT+M`. You can click or use up/down arr
     ]
     ```
 
-1. Save keybindings.json.
+6. Save keybindings.json.
 
 See [Keybindings](https://code.visualstudio.com/docs/getstarted/keybindings) in the VS Code docs for more information.
 
@@ -73,8 +74,8 @@ See [Keybindings](https://code.visualstudio.com/docs/getstarted/keybindings) in 
 Former users of the extension code-named "Gauntlet" will notice that the authoring toolbar no longer appears at the bottom of the VS Code window when the Docs Markdown Extension is installed. This is because the toolbar took up a lot of space on the VS Code status bar and did not follow best practices for extension UX, so it is deprecated in the new extension. However, you can optionally show the toolbar by updating your VS Code settings.json file as follows:
 
 1. In VS Code, go to File -> Preferences -> Settings (`CTRL+Comma`).
-1. Select User Settings to change the settings for all VS Code workspaces, or  Workspace Settings to change them for just the current workspace.
-1. In the Default Settings pane, find Docs Authoring Extension Configuration, and select the pencil icon next to the desired setting. Next, you will be prompted to select either `true` or `false`. Once you've made your selection, VS Code will automatically add the value to the settings.json file and you will be prompted to reload the window for the changes to take effect.
+2. Select User Settings to change the settings for all VS Code workspaces, or  Workspace Settings to change them for just the current workspace.
+3. In the Default Settings pane, find Docs Authoring Extension Configuration, and select the pencil icon next to the desired setting. Next, you will be prompted to select either `true` or `false`. Once you've made your selection, VS Code will automatically add the value to the settings.json file and you will be prompted to reload the window for the changes to take effect.
 
 ## Known issues
 
