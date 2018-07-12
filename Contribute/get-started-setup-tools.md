@@ -23,8 +23,8 @@ This article describes the steps to interactively install Git client tools and V
 
  Install the latest version of [Software Freedom Conservancy's Git client tools](https://git-scm.com/download/) for your platform. 
 
-* [Git for Mac](https://git-scm.com/download/mac)
 * [Git for Windows](https://git-scm.com/download/win). This install includes the Git version control system and Git Bash, the command-line app that you use to interact with your local Git repository.
+* [Git for Mac](https://git-scm.com/download/mac). Git for Mac is also provided by Apple as part of the Xcode Command Line Tools. Simply run `git` from the command line and you will be prompted to install the command line tools if needed.  
 * [Git for Linux and Unix](https://git-scm.com/download/linux)
 
 If you prefer a graphical user interface (GUI) over a command-line interface (CLI), see [Software Freedom Conservancy's available GUI Clients page](https://git-scm.com/downloads/guis), [GitHub's GitHub Desktop](https://desktop.github.com/), or [Visual Studio Code](https://www.visualstudio.com/products/code-vs.aspx) for some popular options.
