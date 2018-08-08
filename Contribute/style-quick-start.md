@@ -5,13 +5,13 @@ ms.date: 07/25/2017
 ---
 # Docs style and voice quick start
 
-This quick start will require minimal time, but it will give you a good idea of how to apply the most important Docs style concepts when writing articles for docs.microsoft.com. These guidelines apply whether you are creating new documentation or updating existing documentation.
+This quick start is a brief guide to writing technical content for publication on docs.microsoft.com. These guidelines apply whether you are creating new documentation or updating existing documentation.
 
-At a bare minimum, please:
+Best practices:
 
 - Check the spelling and grammar in your articles, even if you have to copy and paste into Word to do it.
 - Use a casual and friendly voice--like you're talking to another person one-on-one.
-- Use simple sentences. They are easier to understand, and they are more easily translated by both human and machine translators.
+- Use simple sentences. Easy-to-read sentences mean the reader can quickly use the guidance you share.
 
 ## Use the Microsoft voice principles
 
