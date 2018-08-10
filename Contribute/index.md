@@ -11,7 +11,7 @@ ms.date: 04/17/2018
 
 Welcome to the [docs.microsoft.com](https://docs.microsoft.com) (Docs) Contributor Guide!
 
-Several of our documentation sets are open source, hosted on GitHub. More teams are adopting this model all the time. Even document sets that are not completely open source have public-facing repos where you are invited to make pull requests. It streamlines and improves communication between the product engineers, the content teams, and our customers. Working in the open provides several advantages:
+Several of our documentation sets are open source, hosted on GitHub. More teams at Microsoft are adopting this model all the time. Even document sets that are not completely open source have public-facing repos where you are invited to make pull requests. It streamlines and improves communication between the product engineers, the content teams, and our customers. Working in the open provides several advantages:
 
 - Open source repos plan in the open to get feedback on what docs are most needed.
 - Open source repos review in the open to publish the most helpful content on our first release.
