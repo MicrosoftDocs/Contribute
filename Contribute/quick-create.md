@@ -4,12 +4,10 @@ description: 'Quickstart: Set and retrieve a secret from Azure Key Vault'
 services: key-vault
 author: syntaxc4
 manager: erifkin
-ms.service: key-vault
-ms.topic: quickstart
 ms.date: 07/24/2018
 ms.author: cfowler
-ms.custom: mvc
 zone_pivot_groups: keyvault-languages, keyvault-platforms
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # Quickstart: Set and retrieve a secret from Azure Key Vault
