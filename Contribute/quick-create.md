@@ -31,18 +31,21 @@ To understand why the below tutorial is the best practice we need to understand 
 
 ::: zone pivot="nodejs"
 * [Node JS](https://nodejs.org/en/)
+
 ::: zone-end
 
-::: zone pivot="dotnet, windows"
+::: zone pivot="dotnet,windows"
 * [Visual Studio 2017 version 15.7.3 or later](https://www.microsoft.com/net/download/windows) with the following workloads:
   * ASP.NET and web development
   * .NET Core cross-platform development
 * [.NET Core 2.1 SDK or later](https://www.microsoft.com/net/download/windows)
-:::zone-end
+
+::: zone-end
 
 ::: zone pivot="dotnet, mac"
 * See [What’s New in Visual Studio for Mac](https://visualstudio.microsoft.com/vs/mac/).
-:::zone-end
+
+::: zone-end
 
 * Git ([download](https://git-scm.com/downloads)).
 * An Azure subscription. If you don't have an Azure subscription, create a [free account](https://azure.microsoft.com/free/?WT.mc_id=A261C142F) before you begin.
@@ -168,6 +171,7 @@ Below are the few steps we need to do
     ```bash
     git remote add azure <url>
     ```
+    
 ::: zone-end
 
 ::: zone pivot="dotnet"
@@ -243,10 +247,12 @@ git push azure master
 
 After this when you browse https://<app_name>.azurewebsites.net you can see the secret value.
 Make sure that you replaced the name <YourKeyVaultName> with your vault name
+ 
 ::: zone-end
 
 ::: zone pivot="dotnet"
 Now when you run the application, you should see your secret value retrieved.
+
 ::: zone-end
 
 ## Next steps
@@ -256,6 +262,7 @@ Now when you run the application, you should see your secret value retrieved.
 * [Azure Key Vault Documentation](https://docs.microsoft.com/azure/key-vault/)
 * [Azure SDK For Node](https://docs.microsoft.com/javascript/api/overview/azure/key-vault)
 * [Azure REST API Reference](https://docs.microsoft.com/rest/api/keyvault/)
+
 ::: zone-end
 
 ::: zone pivot="dotnet"
@@ -263,4 +270,5 @@ Now when you run the application, you should see your secret value retrieved.
 * [Azure Key Vault documentation](https://docs.microsoft.com/azure/key-vault/)
 * [Azure SDK For .NET](https://github.com/Azure/azure-sdk-for-net)
 * [Azure REST API reference](https://docs.microsoft.com/rest/api/keyvault/)
+
 ::: zone-end
