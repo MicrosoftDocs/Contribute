@@ -94,13 +94,13 @@ The Docs Article Templates extension lets writers in VS Code pull a Markdown tem
 
 The Templates extension supports three dynamic metadata fields: author, ms.author, and ms.date. That means that if a template creator uses these fields in the metadata header of a Markdown template, they will be auto-populated in your file when you apply the template, as follows:
 
-|Field     |Value|
-|----------|-----|
-|author    |Your GitHub alias, if specified in your VS Code settings file.|
+|Metadata  |Value|
+|----------|---------------|
+|author    |Your GitHub ID, if specified in your VS Code settings file.|
 |ms.author |Your Microsoft alias, if specified in your VS Code settings file. If you are not a Microsoft employee, leave this unspecified.|
 |ms.date   |The current date in the Docs-supported format, MM/DD/YYYY. Note that the date is not automatically updated if you subsequently update the file - you must update this manually to indicate the article freshness date.|
 
-### To set author and/or ms.author
+### To set author (GitHub ID) and/or ms.author (Microsoft alias)
 
 1. In VS Code, go to File -> Preferences -> Settings (`CTRL+Comma`).
 1. Select User Settings to change the settings for all VS Code workspaces, or Workspace Settings to change them for just the current workspace.
