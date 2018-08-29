@@ -1,0 +1,18 @@
+### YamlMime:ZonePivotGroups
+groups:
+- id: keyvault-platforms
+  title: Platform
+  prompt: Choose your platform
+  pivots:
+    - id: macos
+      title: Mac
+    - id: windows
+      title: Windows
+- id: keyvault-languages
+  title: Programming Language
+  prompt: Choose a programming language
+  pivots:
+  - id: nodejs
+    title: Node.js
+  - id: dotnet
+    title: ASP.NET
