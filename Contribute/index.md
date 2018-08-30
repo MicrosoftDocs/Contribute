@@ -41,6 +41,12 @@ Once you have made your changes, scroll to the bottom of the page. Enter a title
 
 ![proposing your change](./media/index/submit-pull-request.png)
 
+Now that you've proposed your change, you need to ask the owners of the repository to "pull" your changes into their repository. This is done using something called a "pull request". When you clicked on **Propose file change** in the figure above, you should have been taken to a new page that looks like the following figure:
+
+![create pull request](media/index/create-pull-request.png)
+
+Click **Create pull request**, enter a title (and optionally a description) for the pull request, and then click **Create pull request** again.
+
 That's it! Content team members will review and merge your PR. You may get some feedback requesting changes if you made larger changes.
 
 The GitHub editing UI responds to your permissions on the repository. The preceding images are accurate for contributors that do not have write permissions to the target repository. GitHub automatically creates a fork of the target repository in your account. If you have write access to the target repository, GitHub creates a new branch in the target repo. The branch name has the form **\<GitHubId\>-patch-n** using your GitHub ID, and a numeric identifier for the patch branch.
