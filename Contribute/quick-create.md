@@ -6,7 +6,7 @@ author: syntaxc4
 manager: erifkin
 ms.date: 07/24/2018
 ms.author: cfowler
-zone_pivot_groups: keyvault-languages, keyvault-platforms
+zone_pivot_groups: keyvault-languages
 ROBOTS: NOINDEX, NOFOLLOW
 ---
 
@@ -24,26 +24,20 @@ This quickstart shows you how to store a secret in Key Vault and how to retrieve
 
 Before you proceed make sure that you are familiar with the [basic concepts](https://docs.microsoft.com/azure/key-vault/key-vault-whatis#basic-concepts).
 
->[!NOTE]
-To understand why the below tutorial is the best practice we need to understand a few concepts. Key Vault is a central repository to store secrets programmatically. But to do so applications / users need to first authenticate to Key Vault i.e. present a secret. To follow security best practices this first secret needs to be rotated periodically as well. But with [Managed Service Identity](https://docs.microsoft.com/azure/active-directory/managed-service-identity/overview) applications that run in Azure are given an identity which is automatically managed by Azure. This helps solve the **Secret Introduction Problem** where users / applications can follow best practices and not have to worry about rotating the first secret
+>  [!NOTE]
+> To understand why the below tutorial is the best practice we need to understand a few concepts. Key Vault is a central repository to store secrets programmatically. But to do so applications / users need to first authenticate to Key Vault i.e. present a secret. To follow security best practices this first secret needs to be rotated periodically as well. But with [Managed Service Identity](https://docs.microsoft.com/azure/active-directory/managed-service-identity/overview) applications that run in Azure are given an identity which is automatically managed by Azure. This helps solve the **Secret Introduction Problem** where users / applications can follow best practices and not have to worry about rotating the first secret
 
 ## Prerequisites
 
 ::: zone pivot="nodejs"
 * [Node JS](https://nodejs.org/en/)
 ::: zone-end
-
-::: zone pivot="dotnet, windows"
+::: zone pivot="dotnet"
 * [Visual Studio 2017 version 15.7.3 or later](https://www.microsoft.com/net/download/windows) with the following workloads:
   * ASP.NET and web development
   * .NET Core cross-platform development
 * [.NET Core 2.1 SDK or later](https://www.microsoft.com/net/download/windows)
-:::zone-end
-
-::: zone pivot="dotnet, mac"
-* See [What’s New in Visual Studio for Mac](https://visualstudio.microsoft.com/vs/mac/).
-:::zone-end
-
+::: zone-end
 * Git ([download](https://git-scm.com/downloads)).
 * An Azure subscription. If you don't have an Azure subscription, create a [free account](https://azure.microsoft.com/free/?WT.mc_id=A261C142F) before you begin.
 * [Azure CLI](https://docs.microsoft.com/cli/azure/install-azure-cli?view=azure-cli-latest) version 2.0.4 or later. This is available for Windows, Mac, and Linux.
@@ -168,10 +162,10 @@ Below are the few steps we need to do
     ```bash
     git remote add azure <url>
     ```
+    
 ::: zone-end
 
 ::: zone pivot="dotnet"
-
 ## Open and edit the solution
 
 Edit the program.cs file to run the sample with your specific key vault name:
@@ -197,7 +191,6 @@ Publish this app to Azure to see it live as a web app, and to see that you can f
 5. Select **Create**.
 
 >[!VIDEO https://sec.ch9.ms/ch9/e93d/a6ac417f-2e63-4125-a37a-8f34bf0fe93d/KeyVault_high.mp4]
-
 ::: zone-end
 
 ## Enable managed service identities
@@ -243,6 +236,7 @@ git push azure master
 
 After this when you browse https://<app_name>.azurewebsites.net you can see the secret value.
 Make sure that you replaced the name <YourKeyVaultName> with your vault name
+
 ::: zone-end
 
 ::: zone pivot="dotnet"
