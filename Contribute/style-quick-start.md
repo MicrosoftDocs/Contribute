@@ -9,8 +9,8 @@ This quick start is a brief guide to writing technical content for publication o
 
 Best practices:
 
-- Check the spelling and grammar in your articles, even if you have to copy and paste into Word to do it.
-- Use a casual and friendly voice--like you're talking to another person one-on-one.
+- Check the spelling and grammar in your articles, even if you have to copy and paste into Microsoft Word to check.
+- Use a casual and friendly voice—like you're talking to another person one-on-one.
 - Use simple sentences. Easy-to-read sentences mean the reader can quickly use the guidance you share.
 
 ## Use the Microsoft voice principles
@@ -39,11 +39,11 @@ Our technical articles are translated into several languages, and some are modif
 - For steps that include code snippets, put additional information about the step into the code as comments. This reduces the amount of text that people have to read through. The key information gets copied into the code project to remind people of what the code is doing when they refer to it later.
 - Use sentence case for all titles and headings.
 - Use "sign in" and not "log in."
-- Include the words "as follows" or "following" in any sentence that precedes a list or code snippet.
+- For more guidelines, see the [Microsoft Writing Style Guide](https://docs.microsoft.com/style-guide/welcome).
 
 ## Localized documentation
 
 - If you are contributing to localized documentation, refer to the [Microsoft Language Portal](https://www.microsoft.com/Language/Default.aspx).
 - For localization guidelines, information on language style and usage in technical publications, and information on market-specific data formats, download the [style guide](https://www.microsoft.com/Language/StyleGuides) in your language.
 - For Microsoft localized terminology, search for [product-specific approved terminology](https://www.microsoft.com/Language/Default.aspx) or download the [Microsoft Terminology Collection](https://www.microsoft.com/Language/Terminology.aspx) in your language.
-- You can learn more in the [localization section](https://docs.microsoft.com/style-guide/global-communications/) of the Microsoft style guide.
+- To learn more about localization, see "Global communications" in the [Microsoft Writing Style Guide](https://docs.microsoft.com/style-guide/global-communications).
