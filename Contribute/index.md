@@ -26,7 +26,7 @@ The user experience on [docs.microsoft.com](https://docs.microsoft.com) integrat
 
 ## Quick edits to existing documents
 
-Quick edits streamline the process to report and fix small errors and omissions in documents. Despite all efforts, small grammar and spelling errors do make their way into our published documents. While you can create issues to report mistakes, it's faster and easier to create a pull request (PR) to fix the issue. Almost every article displays an edit button as shown in the following figure. Clicking the **Edit** button takes you to the source file on GitHub.
+Quick edits streamline the process to report and fix small errors and omissions in documents. Despite all efforts, small grammar and spelling errors do make their way into our published documents. While you can create issues to report mistakes, it's faster and easier to create a pull request (PR) to fix the issue. Almost every article displays an edit button as shown in the following figure. Clicking the **Edit** (or equivalent localized) button takes you to the source file on GitHub.
 
 ![Location of the Edit link](./media/index/edit-article.png)
 
@@ -48,6 +48,12 @@ The GitHub editing UI responds to your permissions on the repository. The preced
 We use PRs for all changes, even for contributors that have write access. Most repositories have the `master` branch protected so that updates must be submitted as PRs.
 
 The in-browser editing experience is best for minor or infrequent changes. If you make large contributions, or use advanced Git features (such as branch management or advanced merge conflict resolution), you need to [fork the repo and work locally](how-to-write-workflows-major.md).
+
+> [!NOTE]
+> If enabled, you can edit an article in **any language** and, based on the type of edit, the following will happen:
+> 1. any linguistic change that is approved, will also help improve our Machine Translation engine
+> 2. any edit that significantly modifies the content of the article, will be handled internally to submit a change to the same article in English, so that it will get localized in all languages, if approved.
+> So your suggested improvements will not only positively affect articles in your own language, but in all avaliable languages.
 
 ## Review open PRs
 
