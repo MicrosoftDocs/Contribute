@@ -4,7 +4,6 @@ description: The guide describes how you can contribute to the Microsoft documen
 author: billwagner
 ms.author: wiwagn
 manager: wpickett
-ms.date: 04/17/2018
 ---
 
 # Microsoft Docs contributor guide overview
