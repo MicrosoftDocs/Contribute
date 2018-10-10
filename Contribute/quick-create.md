@@ -12,11 +12,11 @@ ROBOTS: NOINDEX, NOFOLLOW
 
 # Quickstart: Set and retrieve a secret from Azure Key Vault
 
-This quickstart shows you how to store a secret in Key Vault and how to retrieve it using a Web app. To see the secret value you would have to run this on Azure. The quickstart uses Node.js and Managed service identities (MSIs)
+This quickstart shows you how to store a secret in Key Vault and how to retrieve it using a Web app. To see the secret value you would have to run this on Azure. The quickstart uses Node.js and Managed service identities (MSIs).
 
 > [!div class="checklist"]
 > * Create a Key Vault.
-> * Store a secret in Key Vault.
+> * Store a secret in the Key Vault.
 > * Retrieve a secret from Key Vault.
 > * Create an Azure Web Application.
 > * [Enable managed service identities](https://docs.microsoft.com/azure/active-directory/managed-service-identity/overview).
@@ -25,7 +25,7 @@ This quickstart shows you how to store a secret in Key Vault and how to retrieve
 Before you proceed make sure that you are familiar with the [basic concepts](https://docs.microsoft.com/azure/key-vault/key-vault-whatis#basic-concepts).
 
 > [!NOTE]
-> To understand why the below tutorial is the best practice we need to understand a few concepts. Key Vault is a central repository to store secrets programmatically. But to do so applications / users need to first authenticate to Key Vault i.e. present a secret. To follow security best practices this first secret needs to be rotated periodically as well. But with [Managed Service Identity](https://docs.microsoft.com/azure/active-directory/managed-service-identity/overview) applications that run in Azure are given an identity which is automatically managed by Azure. This helps solve the **Secret Introduction Problem** where users / applications can follow best practices and not have to worry about rotating the first secret
+> To understand why the below tutorial is the best practice we need to understand a few concepts. Key Vault is a central repository to store secrets programmatically. But to do so applications / users need to first authenticate to Key Vault i.e. present a secret. To follow security best practices this first secret needs to be rotated periodically as well. But with [Managed Service Identity](https://docs.microsoft.com/azure/active-directory/managed-service-identity/overview), applications that run in Azure are given an identity which is automatically managed by Azure. This helps solve the **Secret Introduction Problem** where users / applications can follow best practices and not have to worry about rotating the first secret
 
 ## Prerequisites
 
@@ -119,14 +119,14 @@ This project used 2 node modules:
 
 ## Publish the web application to Azure
 
-Below are the few steps we need to do
+Below are the few steps we need to do to publish the application to Azure.
 
 * The 1st step is to create a [Azure App Service](https://azure.microsoft.com/services/app-service/) Plan. You can store multiple web apps in this plan.
 
     ```azurecli
     az appservice plan create --name myAppServicePlan --resource-group myResourceGroup
     ```
-* Next we create a web app. In the following example, replace <app_name> with a globally unique app name (valid characters are a-z, 0-9, and -). The runtime is set to NODE|6.9. To see all supported runtimes, run az webapp list-runtimes
+* Next we create a web app. In the following example, replace <app_name> with a globally unique app name (valid characters are a-z, 0-9, and -). The runtime is set to NODE|6.9. To see all supported runtimes, run `az webapp list-runtimes`
 
     ```azurecli
     az webapp create --resource-group myResourceGroup --plan myAppServicePlan --name <app_name> --runtime "NODE|6.9" --deployment-local-git
