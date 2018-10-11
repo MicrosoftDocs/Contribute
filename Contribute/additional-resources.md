@@ -5,7 +5,7 @@ author: billwagner
 ms.author: wiwagn
 manager: wpickett
 ---
-# Additional Git and Github resources
+Additional Git and Github resources
 
 If you are unfamiliar with Git or GitHub, these resources can help you learn, be productive, or answer questions.
 
