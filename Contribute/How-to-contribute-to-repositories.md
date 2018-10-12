@@ -36,7 +36,3 @@ git push origin master
 7. Go to your GitHub fork, which is some commits aheads of the original. Press `Compare` to review the changes.
 8. Describe the changes you want to push and send a `Pull Request`.
 9. Your changes will be added to the original repository once your Pull Request is reviewed and accepted.
-
-## License
-
-By contributing to this project, you agree that your contributions will be licensed under its [MIT license](https://github.com/cseas/oss-dummies/blob/master/LICENSE).
