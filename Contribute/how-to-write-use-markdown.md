@@ -1,20 +1,17 @@
 ---
-title: How to use Markdown for writing Docs
-description: This article provides the basics and reference information for the Markdown language used for writing docs.microsoft.com articles.
+title: How to Use Markdown for Writing Docs
+description: This article provides reference information for the Markdown language used in writing docs.microsoft.com articles.
 ms.date: 07/13/2017
 ---
-# How to use Markdown for writing Docs
+# How To Use Markdown For Writing Docs
 
-Docs.microsoft.com articles are written in a lightweight markup language called [Markdown](https://daringfireball.net/projects/markdown/), which is both easy to read and easy to learn. Because of this, it has quickly become an industry standard.
+[Docs.microsoft.com](http://docs.microsoft.com) articles are written in a lightweight markup language called [Markdown](https://daringfireball.net/projects/markdown/), which is both easy to read and easy to learn. Because of this, it has quickly become an industry standard.
 
-Because Docs content is stored in GitHub, it can use a superset of Markdown called [GitHub Flavored Markdown (GFM)](https://help.github.com/categories/writing-on-github/), which provides additional functionality for common formatting needs. Additionally, Open Publishing Services (OPS) implements Markdig Markdown Parser. Markdig is highly compatible with GitHub Flavored Markdown (GFM), adding functionality to enable Docs-specific features.
+Since Docs content is stored in GitHub, it can use a superset of Markdown called [GitHub Flavored Markdown (GFM)](https://help.github.com/categories/writing-on-github/), which provides additional functionality for common formatting needs. Additionally, Open Publishing Services (OPS) implements Markdig Markdown Parser. Markdig is highly compatible with GFM, adding functionality to enable Docs-specific features.
 
-* Markdig is a fast, powerful, CommonMark compliant, extensible Markdown processor for .NET.
-* https://github.com/lunet-io/markdig
-* Better community support
-* Better standards support
+> [Markdig](https://github.com/lunet-io/markdig) is a fast, powerful, CommonMark compliant, extensible Markdown processor for .NET and offers better community and standards support.
 
-## Markdown basics
+## Markdown Basics
 
 ### Headings
 
@@ -27,7 +24,7 @@ To create a heading, you use a hash mark (#), as follows:
     #### This is heading 4
 ```
 
-### Bold and italic text
+### Bold and Italic Text
 
 To format text as **bold**, you enclose it in two asterisks:
 
@@ -49,7 +46,7 @@ To format text as both ***bold and italic***, you enclose it in three asterisks:
 
 ### Lists
 
-#### Unordered list
+#### Unordered/Bulleted Lists
 
 To format an unordered/bulleted list, you can use either asterisks or dashes. For example, the following Markdown:
 
@@ -81,7 +78,7 @@ will be rendered as:
   - List item B
 - List item 2
 
-#### Ordered list
+#### Ordered/Stepwise Lists
 
 To format an ordered/stepwise list, you use corresponding numbers. For example, the following Markdown:
 
@@ -139,12 +136,12 @@ will be rendered as:
 
 For more information on creating tables, see:
 
-- The Markdig [table wrapping feature](#table-wrapping), which can help with formatting of wide tables
-- GitHub's [Organizing information with tables](https://help.github.com/articles/organizing-information-with-tables/)
-- The [Markdown Tables Generator](https://www.tablesgenerator.com/markdown_tables) web app
-- [Adam Pritchard's Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#wiki-tables)
-- [Michel Fortin's Markdown Extra](https://michelf.ca/projects/php-markdown/extra/#table)
-- [Convert HTML tables to Markdown](https://jmalarcon.github.io/markdowntables/)
+- The Markdig [table wrapping feature](#table-wrapping), which can help with formatting of wide tables.
+- GitHub's [Organizing Information With Tables](https://help.github.com/articles/organizing-information-with-tables/).
+- The [Markdown Tables Generator](https://www.tablesgenerator.com/markdown_tables) web app.
+- [Adam Pritchard's Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#wiki-tables).
+- [Michel Fortin's Markdown Extra](https://michelf.ca/projects/php-markdown/extra/#table).
+- [Convert HTML tables to Markdown](https://jmalarcon.github.io/markdowntables/).
 
 ### Links
 
@@ -155,14 +152,14 @@ The Markdown syntax for an inline link consists of the `[link text]` portion, wh
 For more information on linking, see:
 
 - The [Markdown syntax guide](https://daringfireball.net/projects/markdown/syntax#link) for details on Markdown's base linking support.
-- The [Links](how-to-write-links.md) section of this guide for details on additional linking syntax that Markdig provides.
+- The [Links](how-to-write-links.md) section of this guide for details on the additional linking syntax that Markdig provides.
 
-### Code snippets
+### Code Snippets
 
 Markdown supports the placement of code snippets both inline in a sentence and as a separate "fenced" block between sentences. For details, see:
 
-- [Markdown's native support for code blocks](https://daringfireball.net/projects/markdown/syntax#precode)
-- [GFM support for code fencing and syntax highlighting](https://help.github.com/articles/creating-and-highlighting-code-blocks/)
+- [Markdown's native support for code blocks](https://daringfireball.net/projects/markdown/syntax#precode).
+- [GFM support for code fencing and syntax highlighting](https://help.github.com/articles/creating-and-highlighting-code-blocks/).
 
 Fenced code blocks are an easy way to enable syntax highlighting for your code snippets. The general format for fenced code blocks is:
 
@@ -206,6 +203,7 @@ These languages have friendly name support and most have language highlighting.
 |PowerShell|powershell|
 |Python|python|
 |Q#|qsharp|
+|R|r|
 |Ruby|ruby|
 |SQL|sql|
 |Swift|swift|
@@ -263,7 +261,7 @@ CREATE TABLE T1 (
 );
 ```
 
-## OPS custom Markdown extensions
+## OPS Custom Markdown Extensions
 
 > [!NOTE]
 > Open Publishing Services (OPS) implements a Markdig Parser for Markdown, which is highly compatible with GitHub Flavored Markdown (GFM). Markdig adds some functionality through Markdown extensions. As such, selected articles from the full OPS Authoring Guide are included in this guide for reference. (For example, see "Markdig and Markdown extensions" and "Code snippets" in the table of contents.)
@@ -278,7 +276,7 @@ Docs articles use GFM for most article formatting, such as paragraphs, links, li
 
 For the complete list, refer to "Markdig and Markdown extensions" and "Code snippets" in the table of contents.
 
-### Note blocks
+### Note Blocks
 
 You can choose from four types of note blocks to draw attention to specific content:
 
@@ -316,16 +314,16 @@ Use selectors in technical articles when you author multiple flavors of the same
 
 Because the same selector Markdown goes in each article in the selection, we recommend placing the selector for your article in an include. Then you can reference that include in all your articles that use the same selector.
 
-### Code snippets
+### Code Snippets
 
 Markdig supports advanced inclusion of code in an article, via its code snippet extension. It provides advanced rendering that builds on GFM features such as programming language selection and syntax coloring, plus nice features such as:
 
 - Inclusion of centralized code samples/snippets from an external repository.
 - Tabbed UI to show multiple versions of code samples in different languages.
 
-## Gotchas and troubleshooting
+## Gotchas and Troubleshooting
 
-### Alt text
+### Alt Text
 
 Alt text that contains underscores won't be rendered properly. For example, instead of using this:
 
@@ -339,7 +337,7 @@ Escape the underscores like this:
 ![ADextension\_2FA\_Configure\_Step4] (./media/bogusfilename/ADextension_2FA_Configure_Step4.PNG)
 ```
 
-### Apostrophes and quotation marks
+### Apostrophes and Quotation Marks
 
 If you copy from Word into a Markdown editor, the text might contain "smart" (curly) apostrophes or quotation marks. These need to be encoded or changed to basic apostrophes or quotation marks. Otherwise, you end up with things like this when the file is published: Itâ€™s
 
@@ -350,15 +348,15 @@ Here are the encodings for the "smart" versions of these punctuation marks:
 - Right (closing) single quotation mark or apostrophe: `&#8217;`
 - Left (opening) single quotation mark (rarely used): `&#8216;`
 
-### Angle brackets
+### Angle Brackets
 
 If you use angle brackets in text (not code) in your file--for example, to denote a placeholder--you need to manually encode the angle brackets. Otherwise, Markdown thinks that they're intended to be an HTML tag.
 
 For example, encode `<script name>` as `&lt;script name&gt;`
 
-## See also
+## See Also:
 
-### Markdown resources
+### Markdown Resources
 
 - [Introduction to Markdown](https://daringfireball.net/projects/markdown/syntax)
 - [Docs Markdown cheat sheet](./media/documents/markdown-cheatsheet.pdf?raw=true)
