@@ -7,6 +7,7 @@
 ## [Full workflow](how-to-write-workflows-major.md)
 # Writing essentials
 ## [Markdown](how-to-write-use-markdown.md)
+## [Markdown reference](markdown-reference.md)
 ## [Style and voice quick start](style-quick-start.md)
 ## [Links](how-to-write-links.md)
 ## [Docs Authoring Pack](how-to-write-docs-auth-pack.md)
@@ -62,12 +63,12 @@
      compile and run).
 
      I'm in favor of the former: Everyone writing Python should follow the Python
-     guidance; everyone writing C# should follow the C# rules. Those should be 
+     guidance; everyone writing C# should follow the C# rules. Those should be
      consistent regardless of project team.
 
 ## List of documentation repositories -->
 
-   <!-- 
+   <!--
      This will take the list of repos from git-github-fundamentals
      for the public repositories.
 

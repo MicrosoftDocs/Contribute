@@ -21,10 +21,10 @@ Because Docs content is stored in GitHub, it can use a superset of Markdown call
 To create a heading, you use a hash mark (#), as follows:
 
 ```markdown
-    # This is heading 1
-    ## This is heading 2
-    ### This is heading 3
-    #### This is heading 4
+# This is heading 1
+## This is heading 2
+### This is heading 3
+#### This is heading 4
 ```
 
 ### Bold and italic text
@@ -32,19 +32,19 @@ To create a heading, you use a hash mark (#), as follows:
 To format text as **bold**, you enclose it in two asterisks:
 
 ```markdown
-    This text is **bold**.
+This text is **bold**.
 ```
 
 To format text as *italic*, you enclose it in a single asterisk:
 
 ```markdown
-    This text is *italic*.
+This text is *italic*.
 ```
 
 To format text as both ***bold and italic***, you enclose it in three asterisks:
 
 ```markdown
-    This is text is both ***bold and italic***.
+This is text is both ***bold and italic***.
 ```
 
 ### Lists
@@ -101,16 +101,16 @@ To nest a list within another list, indent the child list items. For example, th
 
 ```markdown
 1. First instruction
-    1. Sub-instruction
-    2. Sub-instruction
+   1. Sub-instruction
+   2. Sub-instruction
 2. Second instruction
 ```
 
 will be rendered as:
 
 1. First instruction
-    1. Sub-instruction
-    2. Sub-instruction
+   1. Sub-instruction
+   2. Sub-instruction
 2. Second instruction
 
 ### Tables
@@ -139,7 +139,7 @@ will be rendered as:
 
 For more information on creating tables, see:
 
-- The Markdig [table wrapping feature](#table-wrapping), which can help with formatting of wide tables
+- The DFM [table wrapping feature](#table-wrapping), which can help with formatting of wide tables
 - GitHub's [Organizing information with tables](https://help.github.com/articles/organizing-information-with-tables/)
 - The [Markdown Tables Generator](https://www.tablesgenerator.com/markdown_tables) web app
 - [Adam Pritchard's Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#wiki-tables)
@@ -312,13 +312,20 @@ Here are requirements and considerations for includes:
 
 ### Selectors
 
-Use selectors in technical articles when you author multiple flavors of the same article, to address differences in implementation across technologies or platforms. This is typically most applicable to our mobile platform content for developers. There are currently two different types of selectors in Markdig, a single selector and a multi-selector.
+Use selectors in technical articles when you author multiple flavors of the same article, to
+address differences in implementation across technologies or platforms. This is typically most
+applicable to our mobile platform content for developers. There are currently two different types
+of selectors in Markdig, a single selector and a multi-selector.
 
-Because the same selector Markdown goes in each article in the selection, we recommend placing the selector for your article in an include. Then you can reference that include in all your articles that use the same selector.
+Because the same selector Markdown goes in each article in the selection, we recommend placing the
+selector for your article in an include. Then you can reference that include in all your articles
+that use the same selector.
 
 ### Code snippets
 
-Markdig supports advanced inclusion of code in an article, via its code snippet extension. It provides advanced rendering that builds on GFM features such as programming language selection and syntax coloring, plus nice features such as:
+Markdig supports advanced inclusion of code in an article, via its code snippet extension. It
+provides advanced rendering that builds on GFM features such as programming language selection and
+syntax coloring, plus nice features such as:
 
 - Inclusion of centralized code samples/snippets from an external repository.
 - Tabbed UI to show multiple versions of code samples in different languages.
@@ -330,18 +337,20 @@ Markdig supports advanced inclusion of code in an article, via its code snippet 
 Alt text that contains underscores won't be rendered properly. For example, instead of using this:
 
 ```markdown
-![ADextension_2FA_Configure_Step4] (./media/bogusfilename/ADextension_2FA_Configure_Step4.PNG)
+![ADextension_2FA_Configure_Step4](./media/bogusfilename/ADextension_2FA_Configure_Step4.PNG)
 ```
 
 Escape the underscores like this:
 
 ```markdown
-![ADextension\_2FA\_Configure\_Step4] (./media/bogusfilename/ADextension_2FA_Configure_Step4.PNG)
+![ADextension\_2FA\_Configure\_Step4](./media/bogusfilename/ADextension_2FA_Configure_Step4.PNG)
 ```
 
 ### Apostrophes and quotation marks
 
-If you copy from Word into a Markdown editor, the text might contain "smart" (curly) apostrophes or quotation marks. These need to be encoded or changed to basic apostrophes or quotation marks. Otherwise, you end up with things like this when the file is published: Itâ€™s
+If you copy from Word into a Markdown editor, the text might contain "smart" (curly) apostrophes or
+quotation marks. These need to be encoded or changed to basic apostrophes or quotation marks.
+Otherwise, you end up with things like this when the file is published: Itâ€™s
 
 Here are the encodings for the "smart" versions of these punctuation marks:
 
@@ -352,7 +361,9 @@ Here are the encodings for the "smart" versions of these punctuation marks:
 
 ### Angle brackets
 
-If you use angle brackets in text (not code) in your file--for example, to denote a placeholder--you need to manually encode the angle brackets. Otherwise, Markdown thinks that they're intended to be an HTML tag.
+It is common to use angle brackets to denote a placeholder. When you do this in text (not code),
+you must encode the angle brackets. Otherwise, Markdown thinks that they're intended to be an HTML
+tag.
 
 For example, encode `<script name>` as `&lt;script name&gt;`
 
