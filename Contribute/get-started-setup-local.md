@@ -78,7 +78,7 @@ Make a local folder to hold a copy of the repository locally. Some of the reposi
 
    To determine the current directory, type `pwd` at the $ prompt. 
 
-3. Change directory (cd) into the folder that you created for hosting the repository locally. Note that Git Bash uses Linux convention of forward-slashes instead of back-slashes for folder paths.
+3. Change directory (cd) into the folder that you created for hosting the repository locally. Note that Git Bash uses the Linux convention of forward-slashes instead of back-slashes for folder paths.
 
    For example, `cd /c/docs/ ` or `cd ~/Documents/docs/`
 
