@@ -16,7 +16,7 @@ When the validation service is enabled on a repo, you'll see the following behav
    Build can pass even if commit validation fails.
 
 1. Click **Details** for more information.
-1. On the Details page, you'll see all the validation checks that failed, with information about how to fix the issues:
+1. On the Details page, you'll see all the validation checks that failed, along with informations about how to fix the issues:
 
    ![validation message](media/validation-details.png)
 
