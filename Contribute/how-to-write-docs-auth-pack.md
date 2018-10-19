@@ -97,7 +97,7 @@ The Templates extension supports three dynamic metadata fields: author, ms.autho
 |----------|---------------|
 |author    |Your GitHub ID, if specified in your VS Code settings file.|
 |ms.author |Your Microsoft alias, if specified in your VS Code settings file. If you are not a Microsoft employee, leave this unspecified.|
-|ms.date   |The current date in the Docs-supported format, MM/DD/YYYY. Note that the date is not automatically updated if you subsequently update the file - you must update this manually to indicate the article freshness date.|
+|ms.date   |The current date in the Docs-supported format, MM/DD/YYYY. Note that the date is not automatically updated if you subsequently update the file - you must update this manually to indicate the file's last modified date.|
 
 ### To set author (GitHub ID) and/or ms.author (Microsoft alias)
 
