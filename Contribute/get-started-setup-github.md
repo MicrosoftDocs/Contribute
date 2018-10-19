@@ -7,7 +7,7 @@ ms.date: 02/27/2018
 
 ## Set up your GitHub account
 
-To contribute to Docs technical content, you need to set up your own GitHub account. The good news is, you have to do most steps only one time.
+To contribute to Docs technical content, you need to set up your own GitHub account. The good news is, you usually only have to perform these steps once.
 
 ### 1. Create a GitHub account and set up your profile
 
