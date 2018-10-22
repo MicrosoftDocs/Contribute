@@ -1,14 +1,13 @@
 ---
-title: Docs Authoring Pack for VS Code
-description: This article describes the VS Code extension pack to facilitate Markdown authoring for docs.microsoft.com.
+title: Docs Authoring Pack for Visual Studio Code
+description: This article describes the Visual Studio Code extension pack to facilitate Markdown authoring for docs.microsoft.com.
 author: meganbradley
 ms.author: mbradley
-manager: jemash
-ms.date: 04/06/2018
+ms.date: 10/22/2018
 ---
 # Docs Authoring Pack for VS Code
 
-The Docs Authoring Pack is a collection of VS Code extensions to aid with Markdown authoring for docs.microsoft.com. The pack is [available in the VS Code Marketplace](https://marketplace.visualstudio.com/items?itemName=docsmsft.docs-authoring-pack) and contains the following extensions:
+The Docs Authoring Pack is a collection of Visual Studio Code extensions to aid with Markdown authoring for docs.microsoft.com. The pack is [available in the VS Code Marketplace](https://marketplace.visualstudio.com/items?itemName=docsmsft.docs-authoring-pack) and contains the following extensions:
 
 - [markdownlint](https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint): A popular Markdown linter by David Anson to help ensure your Markdown follows best practices.
 - [Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker): A fully offline spell checker by Street Side Software.
