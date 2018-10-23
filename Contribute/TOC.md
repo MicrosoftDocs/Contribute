@@ -1,15 +1,16 @@
 # [Contributor Guide overview and browser-based tasks](index.md)
-## Set up and work locally
-### [1. Sign up for GitHub](get-started-setup-github.md)
-### [2. Install Git and Markdown tools](get-started-setup-tools.md)
-### [3. Set up a local Git repository](get-started-setup-local.md)
-### [Git and GitHub fundamentals](git-github-fundamentals.md)
-### [Full workflow](how-to-write-workflows-major.md)
-## Writing essentials
-### [Markdown](how-to-write-use-markdown.md)
-### [Style and voice quick start](style-quick-start.md)
-### [Links](how-to-write-links.md)
-### [Docs Authoring Pack](how-to-write-docs-auth-pack.md)
+# Set up and work locally
+## [1. Sign up for GitHub](get-started-setup-github.md)
+## [2. Install Git and Markdown tools](get-started-setup-tools.md)
+## [3. Set up a local Git repository](get-started-setup-local.md)
+## [Git and GitHub fundamentals](git-github-fundamentals.md)
+## [Full workflow](how-to-write-workflows-major.md)
+# Writing essentials
+## [Markdown](how-to-write-use-markdown.md)
+## [Markdown reference](markdown-reference.md)
+## [Style and voice quick start](style-quick-start.md)
+## [Links](how-to-write-links.md)
+## [Docs Authoring Pack](how-to-write-docs-auth-pack.md)
 
 <!--
 ## Creating new content
@@ -62,12 +63,12 @@
      compile and run).
 
      I'm in favor of the former: Everyone writing Python should follow the Python
-     guidance; everyone writing C# should follow the C# rules. Those should be 
-     consistent regardless of the project team.
-     
+     guidance; everyone writing C# should follow the C# rules. Those should be
+     consistent regardless of project team.
+
 ## List of documentation repositories -->
 
-   <!-- 
+   <!--
      This will take the list of repos from git-github-fundamentals
      for the public repositories.
 
