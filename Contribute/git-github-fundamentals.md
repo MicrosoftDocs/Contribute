@@ -24,8 +24,8 @@ Git also uses a tiered structure to store and manage content for a project:
 
 Contributors interact with Git to update and manipulate repositories at both the local and GitHub levels:
 
-- Locally through tools such as the Git Bash console, which supports Git commands for managing local repositories and communicating with GitHub repositories
-- Via [www.github.com](https://www.github.com), which integrates Git to manage the reconciliation of contributions that flow back into the main repository
+- Locally through tools such as the Git Bash console, which supports Git commands for managing local repositories and communicating with GitHub repositories.
+- Via [www.github.com](https://www.github.com), which integrates Git to manage the reconciliation of contributions that flow back into the main repository.
 
 ## GitHub
 
@@ -43,7 +43,7 @@ As mentioned earlier, a project's default/master branch serves as the current ve
 You can typically find a main `articles` directory off the root of the repository. The articles
 directory contains a set of subdirectories. Articles in the subdirectories are formatted as
 Markdown files that use an *.md* extension. Some repositories that support multiple services use a
-generic `/articles` subdirectory, such as the
+generic `/articles` subdirectory, such as the 
 [Azure-Docs](https://github.com/MicrosoftDocs/Azure-Docs) repository. Others might use a
 service-specific name, such as the [IntuneDocs](https://github.com/MicrosoftDocs/IntuneDocs)
 repository, which uses `/IntuneDocs`.

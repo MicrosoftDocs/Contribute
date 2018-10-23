@@ -30,7 +30,7 @@
 
       It will have condensed versions of get-started-setup-github,
       get-started-setup-tools, and get-started-setup-local.
-
+      
 ### Git and GitHub essentials
 
    <!--
@@ -48,7 +48,7 @@
      Process content will also be taken from how-to-contribute.
 #### Content types
 #### Markdown resources
-#### Tone, voice and style
+#### Tone, voice, and style
 
 ### Contribute new samples
 
@@ -59,7 +59,7 @@
 
      We have an important decision to make here: This contributing guide
      can contain the union of all code style rules for all different languages
-     and frameworks, or it can contain the intersection (coode samples must
+     and frameworks, or it can contain the intersection (code samples must
      compile and run).
 
      I'm in favor of the former: Everyone writing Python should follow the Python
@@ -74,4 +74,4 @@
 
      Open question: How to keep this up to date?
    -->
-# [Additional resources](additional-resources.md)
+## [Additional resources](additional-resources.md)
