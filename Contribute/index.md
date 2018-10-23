@@ -33,7 +33,7 @@ Quick edits streamline the process to report and fix small errors and omissions 
 Next, click the pencil icon, shown in the following figure to edit the article.
 
 > [!NOTE]
-> If the pencil icon is grayed out, you need to login to your GitHub account, or create a new account. Make your changes in the web editor. You can click the **Preview changes** tab to check formatting of your change.
+> If the pencil icon is grayed out, you need to login to your GitHub account, or create a new account. Make your changes in the web editor. You can click the **Preview changes** tab to check the formatting of your change.
 
 ![Location of the pencil icon](./media/index/editicon.png)
 
