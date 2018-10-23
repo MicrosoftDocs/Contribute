@@ -5,9 +5,9 @@ ms.date: 07/13/2017
 ---
 # How to use Markdown for writing Docs
 
-Docs.microsoft.com articles are written in a lightweight markup language called [Markdown](https://daringfireball.net/projects/markdown/), which is both easy to read and easy to learn. Because of this, it has quickly become an industry standard.
+[Docs.microsoft.com](http://docs.microsoft.com) articles are written in a lightweight markup language called [Markdown](https://daringfireball.net/projects/markdown/), which is both easy to read and easy to learn. Because of this, it has quickly become an industry standard.
 
-Because Docs content is stored in GitHub, it can use a superset of Markdown called [GitHub Flavored Markdown (GFM)](https://help.github.com/categories/writing-on-github/), which provides additional functionality for common formatting needs. Additionally, Open Publishing Services (OPS) implements Markdig Markdown Parser. Markdig is highly compatible with GitHub Flavored Markdown (GFM), adding functionality to enable Docs-specific features.
+Since Docs content is stored in GitHub, it can use a superset of Markdown called [GitHub Flavored Markdown (GFM)](https://help.github.com/categories/writing-on-github/), which provides additional functionality for common formatting needs. Additionally, Open Publishing Services (OPS) implements Markdig Markdown Parser. Markdig is highly compatible with GFM, adding functionality to enable Docs-specific features.
 
 * Markdig is a fast, powerful, CommonMark compliant, extensible Markdown processor for .NET.
 * https://github.com/lunet-io/markdig
@@ -139,12 +139,12 @@ will be rendered as:
 
 For more information on creating tables, see:
 
-- The Markdig [table wrapping feature](#table-wrapping), which can help with formatting of wide tables
-- GitHub's [Organizing information with tables](https://help.github.com/articles/organizing-information-with-tables/)
-- The [Markdown Tables Generator](https://www.tablesgenerator.com/markdown_tables) web app
-- [Adam Pritchard's Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#wiki-tables)
-- [Michel Fortin's Markdown Extra](https://michelf.ca/projects/php-markdown/extra/#table)
-- [Convert HTML tables to Markdown](https://jmalarcon.github.io/markdowntables/)
+- The Markdig [table wrapping feature](#table-wrapping), which can help with formatting of wide tables.
+- GitHub's [Organizing information with tables](https://help.github.com/articles/organizing-information-with-tables/).
+- The [Markdown Tables Generator](https://www.tablesgenerator.com/markdown_tables) web app.
+- [Adam Pritchard's Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#wiki-tables).
+- [Michel Fortin's Markdown Extra](https://michelf.ca/projects/php-markdown/extra/#table).
+- [Convert HTML tables to Markdown](https://jmalarcon.github.io/markdowntables/).
 
 ### Links
 
@@ -155,7 +155,7 @@ The Markdown syntax for an inline link consists of the `[link text]` portion, wh
 For more information on linking, see:
 
 - The [Markdown syntax guide](https://daringfireball.net/projects/markdown/syntax#link) for details on Markdown's base linking support.
-- The [Links](how-to-write-links.md) section of this guide for details on additional linking syntax that Markdig provides.
+- The [Links](how-to-write-links.md) section of this guide for details on the additional linking syntax that Markdig provides.
 
 ### Code snippets
 
@@ -206,6 +206,7 @@ These languages have friendly name support and most have language highlighting.
 |PowerShell|powershell|
 |Python|python|
 |Q#|qsharp|
+|R|r|
 |Ruby|ruby|
 |SQL|sql|
 |Swift|swift|
@@ -356,7 +357,7 @@ If you use angle brackets in text (not code) in your file--for example, to denot
 
 For example, encode `<script name>` as `&lt;script name&gt;`
 
-## See also
+## See also:
 
 ### Markdown resources
 

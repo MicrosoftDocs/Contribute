@@ -29,7 +29,7 @@
 
       It will have condensed versions of get-started-setup-github,
       get-started-setup-tools, and get-started-setup-local.
-
+      
 ### Git and GitHub essentials
 
    <!--
@@ -47,7 +47,7 @@
      Process content will also be taken from how-to-contribute.
 #### Content types
 #### Markdown resources
-#### Tone, voice and style
+#### Tone, voice, and style
 
 ### Contribute new samples
 
@@ -63,8 +63,8 @@
 
      I'm in favor of the former: Everyone writing Python should follow the Python
      guidance; everyone writing C# should follow the C# rules. Those should be 
-     consistent regardless of project team.
-
+     consistent regardless of the project team.
+     
 ## List of documentation repositories -->
 
    <!-- 
