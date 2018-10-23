@@ -5,9 +5,9 @@ ms.date: 07/13/2017
 ---
 # How to use Markdown for writing Docs
 
-Docs.microsoft.com articles are written in a lightweight markup language called [Markdown](https://daringfireball.net/projects/markdown/), which is both easy to read and easy to learn. Because of this, it has quickly become an industry standard.
+[Docs.microsoft.com](http://docs.microsoft.com) articles are written in a lightweight markup language called [Markdown](https://daringfireball.net/projects/markdown/), which is both easy to read and easy to learn. Because of this, it has quickly become an industry standard.
 
-Because Docs content is stored in GitHub, it can use a superset of Markdown called [GitHub Flavored Markdown (GFM)](https://help.github.com/categories/writing-on-github/), which provides additional functionality for common formatting needs. Additionally, Open Publishing Services (OPS) implements Markdig Markdown Parser. Markdig is highly compatible with GitHub Flavored Markdown (GFM), adding functionality to enable Docs-specific features.
+Since Docs content is stored in GitHub, it can use a superset of Markdown called [GitHub Flavored Markdown (GFM)](https://help.github.com/categories/writing-on-github/), which provides additional functionality for common formatting needs. Additionally, Open Publishing Services (OPS) implements Markdig Markdown Parser. Markdig is highly compatible with GFM, adding functionality to enable Docs-specific features.
 
 * Markdig is a fast, powerful, CommonMark compliant, extensible Markdown processor for .NET.
 * https://github.com/lunet-io/markdig
@@ -21,10 +21,10 @@ Because Docs content is stored in GitHub, it can use a superset of Markdown call
 To create a heading, you use a hash mark (#), as follows:
 
 ```markdown
-    # This is heading 1
-    ## This is heading 2
-    ### This is heading 3
-    #### This is heading 4
+# This is heading 1
+## This is heading 2
+### This is heading 3
+#### This is heading 4
 ```
 
 ### Bold and italic text
@@ -32,19 +32,19 @@ To create a heading, you use a hash mark (#), as follows:
 To format text as **bold**, you enclose it in two asterisks:
 
 ```markdown
-    This text is **bold**.
+This text is **bold**.
 ```
 
 To format text as *italic*, you enclose it in a single asterisk:
 
 ```markdown
-    This text is *italic*.
+This text is *italic*.
 ```
 
 To format text as both ***bold and italic***, you enclose it in three asterisks:
 
 ```markdown
-    This is text is both ***bold and italic***.
+This is text is both ***bold and italic***.
 ```
 
 ### Lists
@@ -139,12 +139,12 @@ will be rendered as:
 
 For more information on creating tables, see:
 
-- The Markdig [table wrapping feature](#table-wrapping), which can help with formatting of wide tables
-- GitHub's [Organizing information with tables](https://help.github.com/articles/organizing-information-with-tables/)
-- The [Markdown Tables Generator](https://www.tablesgenerator.com/markdown_tables) web app
-- [Adam Pritchard's Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#wiki-tables)
-- [Michel Fortin's Markdown Extra](https://michelf.ca/projects/php-markdown/extra/#table)
-- [Convert HTML tables to Markdown](https://jmalarcon.github.io/markdowntables/)
+- The Markdig [table wrapping feature](#table-wrapping), which can help with formatting of wide tables.
+- GitHub's [Organizing information with tables](https://help.github.com/articles/organizing-information-with-tables/).
+- The [Markdown Tables Generator](https://www.tablesgenerator.com/markdown_tables) web app.
+- [Adam Pritchard's Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#wiki-tables).
+- [Michel Fortin's Markdown Extra](https://michelf.ca/projects/php-markdown/extra/#table).
+- [Convert HTML tables to Markdown](https://jmalarcon.github.io/markdowntables/).
 
 ### Links
 
@@ -155,7 +155,7 @@ The Markdown syntax for an inline link consists of the `[link text]` portion, wh
 For more information on linking, see:
 
 - The [Markdown syntax guide](https://daringfireball.net/projects/markdown/syntax#link) for details on Markdown's base linking support.
-- The [Links](how-to-write-links.md) section of this guide for details on additional linking syntax that Markdig provides.
+- The [Links](how-to-write-links.md) section of this guide for details on the additional linking syntax that Markdig provides.
 
 ### Code snippets
 
@@ -206,6 +206,7 @@ These languages have friendly name support and most have language highlighting.
 |PowerShell|powershell|
 |Python|python|
 |Q#|qsharp|
+|R|r|
 |Ruby|ruby|
 |SQL|sql|
 |Swift|swift|
@@ -312,13 +313,20 @@ Here are requirements and considerations for includes:
 
 ### Selectors
 
-Use selectors in technical articles when you author multiple flavors of the same article, to address differences in implementation across technologies or platforms. This is typically most applicable to our mobile platform content for developers. There are currently two different types of selectors in Markdig, a single selector and a multi-selector.
+Use selectors in technical articles when you author multiple flavors of the same article, to
+address differences in implementation across technologies or platforms. This is typically most
+applicable to our mobile platform content for developers. There are currently two different types
+of selectors in Markdig, a single selector and a multi-selector.
 
-Because the same selector Markdown goes in each article in the selection, we recommend placing the selector for your article in an include. Then you can reference that include in all your articles that use the same selector.
+Because the same selector Markdown goes in each article in the selection, we recommend placing the
+selector for your article in an include. Then you can reference that include in all your articles
+that use the same selector.
 
 ### Code snippets
 
-Markdig supports advanced inclusion of code in an article, via its code snippet extension. It provides advanced rendering that builds on GFM features such as programming language selection and syntax coloring, plus nice features such as:
+Markdig supports advanced inclusion of code in an article, via its code snippet extension. It
+provides advanced rendering that builds on GFM features such as programming language selection and
+syntax coloring, plus nice features such as:
 
 - Inclusion of centralized code samples/snippets from an external repository.
 - Tabbed UI to show multiple versions of code samples in different languages.
@@ -330,18 +338,20 @@ Markdig supports advanced inclusion of code in an article, via its code snippet 
 Alt text that contains underscores won't be rendered properly. For example, instead of using this:
 
 ```markdown
-![ADextension_2FA_Configure_Step4] (./media/bogusfilename/ADextension_2FA_Configure_Step4.PNG)
+![ADextension_2FA_Configure_Step4](./media/bogusfilename/ADextension_2FA_Configure_Step4.PNG)
 ```
 
 Escape the underscores like this:
 
 ```markdown
-![ADextension\_2FA\_Configure\_Step4] (./media/bogusfilename/ADextension_2FA_Configure_Step4.PNG)
+![ADextension\_2FA\_Configure\_Step4](./media/bogusfilename/ADextension_2FA_Configure_Step4.PNG)
 ```
 
 ### Apostrophes and quotation marks
 
-If you copy from Word into a Markdown editor, the text might contain "smart" (curly) apostrophes or quotation marks. These need to be encoded or changed to basic apostrophes or quotation marks. Otherwise, you end up with things like this when the file is published: Itâ€™s
+If you copy from Word into a Markdown editor, the text might contain "smart" (curly) apostrophes or
+quotation marks. These need to be encoded or changed to basic apostrophes or quotation marks.
+Otherwise, you end up with things like this when the file is published: Itâ€™s
 
 Here are the encodings for the "smart" versions of these punctuation marks:
 
@@ -352,11 +362,13 @@ Here are the encodings for the "smart" versions of these punctuation marks:
 
 ### Angle brackets
 
-If you use angle brackets in text (not code) in your file--for example, to denote a placeholder--you need to manually encode the angle brackets. Otherwise, Markdown thinks that they're intended to be an HTML tag.
+It is common to use angle brackets to denote a placeholder. When you do this in text (not code),
+you must encode the angle brackets. Otherwise, Markdown thinks that they're intended to be an HTML
+tag.
 
 For example, encode `<script name>` as `&lt;script name&gt;`
 
-## See also
+## See also:
 
 ### Markdown resources
 

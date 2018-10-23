@@ -3,7 +3,6 @@ title: Set up Git repository locally
 description: This article provides guidance to create your local Git repository and contribute to documentation, including the forking and cloning process.
 author: jasonwhowell
 ms.author: jasonh
-manager: kfile
 ms.date: 01/18/2018
 ---
 # Set up Git repository locally for documentation
@@ -24,7 +23,7 @@ You run these one-time setup activities to get started contributing:
 
 ## Overview
 
-To contribute to Microsoft's documentation site, you can make and edit Markdown files locally by cloning the corresponding documentation repository. Microsoft requires you to fork the appropriate repository into your own github account, so that you have read/write permissions there to store your proposed changes. Then you use pull requests to merge changes into the read-only central shared repository.
+To contribute to Microsoft's documentation site, you can make and edit Markdown files locally by cloning the corresponding documentation repository. Microsoft requires you to fork the appropriate repository into your own GitHub account, so that you have read/write permissions there to store your proposed changes. Then you use pull requests to merge changes into the read-only central shared repository.
 
 ![GitHub Triangle](./media/git-and-github-initial-setup.png)
 
@@ -54,7 +53,7 @@ Documentation hosted at [docs.microsoft.com](https://docs.microsoft.com) resides
 ## Fork the repository
 Using the appropriate repository, create a fork of the repository into your own GitHub account by using the GitHub website.
 
-A personal fork is required since all main documentation repositories provide read-only access, which means you cannot make changes directly on content in the repositories. To make changes, you must submit a [pull request](git-github-fundamentals.md#pull-requests) from your fork into the main repository. To facilitate this process, you first need your own copy of the repository, in which you have write access. A GitHub *fork* serves that purpose.
+A personal fork is required since all main documentation repositories provide read-only access. To make changes, you must submit a [pull request](git-github-fundamentals.md#pull-requests) from your fork into the main repository. To facilitate this process, you first need your own copy of the repository, in which you have write access. A GitHub *fork* serves that purpose.
 
 1. Go to the main repository's GitHub page and click the **Fork** button on the upper right.
 
@@ -78,7 +77,7 @@ Make a local folder to hold a copy of the repository locally. Some of the reposi
 
    To determine the current directory, type `pwd` at the $ prompt. 
 
-3. Change directory (cd) into the folder that you created for hosting the repository locally. Note that Git Bash uses Linux convention of forward-slashes instead of back-slashes for folder paths.
+3. Change directory (cd) into the folder that you created for hosting the repository locally. Note that Git Bash uses the Linux convention of forward-slashes instead of back-slashes for folder paths.
 
    For example, `cd /c/docs/ ` or `cd ~/Documents/docs/`
 

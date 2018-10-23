@@ -7,11 +7,11 @@ ms.date: 02/27/2018
 
 ## Set up your GitHub account
 
-To contribute to Docs technical content, you need to set up your own GitHub account. The good news is, you have to do most steps only one time.
+To contribute to Docs technical content, you need to set up your own GitHub account. The good news is, you usually only have to perform these steps once.
 
 ### 1. Create a GitHub account and set up your profile
 
-If you don't already have a GitHub account, [create one](https://github.com/join). Identify any affilations in your GitHub profile. Contributions to [docs.microsoft.com](https://docs.microsoft.com) count toward [MVP award](https://mvp.microsoft.com) consideration. Identification helps us build a complete profile of all your activitives.
+If you don't already have a GitHub account, [create one](https://github.com/join). Identify any affiliations in your GitHub profile. Contributions to [docs.microsoft.com](https://docs.microsoft.com) count toward [MVP award](https://mvp.microsoft.com) consideration. Identification helps us build a complete profile of all your activities.
 
 >[!NOTE]
 > Microsoft employees participating in Open Source projects always identify themselves as such their in GitHub profiles. Community contributors should ensure that their profile does not incorrectly imply an employment relationship.

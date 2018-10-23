@@ -156,7 +156,7 @@ don't have to specify a version moniker. And you won't have links to conceptual
 content that must be updated when the version changes.
 
 To create the correct link, find the page that you want to link to in your browser, and copy the URL.
-Then, remove ´ "https://docs.microsoft.com" ´ and the locale info.
+Then, remove  `https://docs.microsoft.com` and the locale info.
 
 When you're linking from a TOC, you must use the full URL without the locale information.
 

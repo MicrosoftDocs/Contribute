@@ -24,8 +24,8 @@ Git also uses a tiered structure to store and manage content for a project:
 
 Contributors interact with Git to update and manipulate repositories at both the local and GitHub levels:
 
-- Locally through tools such as the Git Bash console, which supports Git commands for managing local repositories and communicating with GitHub repositories
-- Via [www.github.com](https://www.github.com), which integrates Git to manage the reconciliation of contributions that flow back into the main repository
+- Locally through tools such as the Git Bash console, which supports Git commands for managing local repositories and communicating with GitHub repositories.
+- Via [www.github.com](https://www.github.com), which integrates Git to manage the reconciliation of contributions that flow back into the main repository.
 
 ## GitHub
 
@@ -40,7 +40,13 @@ All workflows begin and end at the GitHub level, where the main repository for a
 
 As mentioned earlier, a project's default/master branch serves as the current version of content for the project. The content in the master branch--and branches created from it--is loosely aligned with the organization of the articles on the corresponding Docs pages. Subdirectories are used for separation of like content (such as services), media content (such as image files), and "include" files (which enable reuse of content).
 
-You can typically find a main `articles` directory off the root of the repository. The articles directory contains a set of subdirectories. Articles in the subdirectories are formatted as Markdown files that use an *.md* extension. Some repositories that support multiple services use a generic `/articles` subdirectory, such as the [https://github.com/MicrosoftDocs/Azure-Docs](https://github.com/MicrosoftDocs/Azure-Docs) repository. Others might use a service-specific name, such as the [https://github.com/MicrosoftDocs/IntuneDocs](https://github.com/MicrosoftDocs/IntuneDocs) repository, which uses `/IntuneDocs`.
+You can typically find a main `articles` directory off the root of the repository. The articles
+directory contains a set of subdirectories. Articles in the subdirectories are formatted as
+Markdown files that use an *.md* extension. Some repositories that support multiple services use a
+generic `/articles` subdirectory, such as the 
+[Azure-Docs](https://github.com/MicrosoftDocs/Azure-Docs) repository. Others might use a
+service-specific name, such as the [IntuneDocs](https://github.com/MicrosoftDocs/IntuneDocs)
+repository, which uses `/IntuneDocs`.
 
 Within the root of this directory, you can find general articles that relate to the overall service or product. And typically, you can then find another series of subdirectories that match the features/services or common scenarios. For instance, Azure "virtual machine" articles are in the `/virtual-machines` subdirectory, and Intune "understand and explore" articles are in the `/understand-explore` subdirectory.
 
