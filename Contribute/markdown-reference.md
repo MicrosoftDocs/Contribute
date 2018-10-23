@@ -404,31 +404,31 @@ You can use a selector when you want to connect different pages for the same art
 
 ```
 > [!div class="op_multi_selector" title1="Platform" title2="Backend"]
-> - [(iOS | .NET)](./mobile-services-dotnet-backend-ios-get-started-push.md)
-> - [(iOS | JavaScript)](./mobile-services-javascript-backend-ios-get-started-push.md)
-> - [(Windows universal C# | .NET)](./mobile-services-dotnet-backend-windows-universal-dotnet-get-started-push.md)
-> - [(Windows universal C# | Javascript)](./mobile-services-javascript-backend-windows-universal-dotnet-get-started-push.md)
-> - [(Windows Phone | .NET)](./mobile-services-dotnet-backend-windows-phone-get-started-push.md)
-> - [(Windows Phone | Javascript)](./mobile-services-javascript-backend-windows-phone-get-started-push.md)
-> - [(Android | .NET)](./mobile-services-dotnet-backend-android-get-started-push.md)
-> - [(Android | Javascript)](./mobile-services-javascript-backend-android-get-started-push.md)
-> - [(Xamarin iOS | Javascript)](./partner-xamarin-mobile-services-ios-get-started-push.md)
-> - [(Xamarin Android | Javascript)](./partner-xamarin-mobile-services-android-get-started-push.md)
+> - [(iOS | .NET)](how-to-write-workflows-major.md)
+> - [(iOS | JavaScript)](how-to-write-workflows-major.md)
+> - [(Windows universal C# | .NET)](how-to-write-workflows-major.md)
+> - [(Windows universal C# | Javascript)](how-to-write-workflows-major.md)
+> - [(Windows Phone | .NET)](how-to-write-workflows-major.md)
+> - [(Windows Phone | Javascript)](how-to-write-workflows-major.md)
+> - [(Android | .NET)](how-to-write-workflows-major.md)
+> - [(Android | Javascript)](how-to-write-workflows-major.md)
+> - [(Xamarin iOS | Javascript)](how-to-write-workflows-major.md)
+> - [(Xamarin Android | Javascript)](how-to-write-workflows-major.md)
 ```
 
 ... will be rendered like this:
 
 > [!div class="op_multi_selector" title1="Platform" title2="Backend"]
-> - [(iOS | .NET)](../index.yml)
-> - [(iOS | JavaScript)](../index.yml)
-> - [(Windows universal C# | .NET)](../index.yml)
-> - [(Windows universal C# | Javascript)](../index.yml)
-> - [(Windows Phone | .NET)](../index.yml)
-> - [(Windows Phone | Javascript)](../index.yml)
-> - [(Android | .NET)](../index.yml)
-> - [(Android | Javascript)](../index.yml)
-> - [(Xamarin iOS | Javascript)](../index.yml)
-> - [(Xamarin Android | Javascript)](../index.yml)
+> - [(iOS | .NET)](how-to-write-workflows-major.md)
+> - [(iOS | JavaScript)](how-to-write-workflows-major.md)
+> - [(Windows universal C# | .NET)](how-to-write-workflows-major.md)
+> - [(Windows universal C# | Javascript)](how-to-write-workflows-major.md)
+> - [(Windows Phone | .NET)](how-to-write-workflows-major.md)
+> - [(Windows Phone | Javascript)](how-to-write-workflows-major.md)
+> - [(Android | .NET)](how-to-write-workflows-major.md)
+> - [(Android | Javascript)](how-to-write-workflows-major.md)
+> - [(Xamarin iOS | Javascript)](how-to-write-workflows-major.md)
+> - [(Xamarin Android | Javascript)](how-to-write-workflows-major.md)
 
 <!-- uncomment and link when Cory's topic is live
 ## Tabbed content
