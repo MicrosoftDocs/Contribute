@@ -74,7 +74,6 @@ You can embed code snippets in your Markdown files:
 [!code-<language>[<name>](<codepath><queryoption><queryoptionvalue> "<title>")]
 ```
 
-For more information about how to store and embed snippets, see [Code Snippets](codesnippets.md).
 ## Headings
 
 OPS supports six levels of Markdown headings:
@@ -118,13 +117,7 @@ Images should be stored in a `/media` folder within your doc set. The following 
 - .jpg
 - .png
 
-You can add support for other image types by adding them as resources to the docfx.json file<!--add link to reference when available--> for your doc set. For example, add .gif to enable animated .gif files:
-
-![Responsive design](media/markdown-reference/responsivedesign.gif)
-
-## Included Markdown files
-
-You can include other Markdown files within a Markdown file. For more information, see [Include reusable content in articles](includes-best-practices.md).
+You can add support for other image types by adding them as resources to the docfx.json file<!--add link to reference when available--> for your doc set.
 
 ## Links
 
@@ -338,13 +331,13 @@ For example:
 
 ```markdown
 > [!div class="nextstepaction"]
-> [Learn about moving files](moving-files.md)
+> [Learn about basic style](style-quick-start.md)
 ```
 
 This renders as follows:
 
 > [!div class="nextstepaction"]
-> [Learn about moving files](moving-files.md)
+> [Learn about basic style](style-quick-start.md)
 
 You can use any supported link in a next step action, including a Markdown link to another web page. In most cases, the next action link will be a relative link to another file in the same doc set.
 
@@ -385,57 +378,57 @@ You can use a selector when you want to connect different pages for the same art
 
 ```
 > [!div class="op_single_selector"]
-> - [Universal Windows](../articles/notification-hubs-windows-store-dotnet-get-started/)
-> - [Windows Phone](../articles/notification-hubs-windows-phone-get-started/)
-> - [iOS](../articles/notification-hubs-ios-get-started/)
-> - [Android](../articles/notification-hubs-android-get-started/)
-> - [Kindle](../articles/notification-hubs-kindle-get-started/)
-> - [Baidu](../articles/notification-hubs-baidu-get-started/)
-> - [Xamarin.iOS](../articles/partner-xamarin-notification-hubs-ios-get-started/)
-> - [Xamarin.Android](../articles/partner-xamarin-notification-hubs-android-get-started/)
+> - [Universal Windows](how-to-write-use-markdown.md)
+> - [Windows Phone](how-to-write-use-markdown.md)
+> - [iOS](how-to-write-use-markdown.md)
+> - [Android](how-to-write-use-markdown.md)
+> - [Kindle](how-to-write-use-markdown.md)
+> - [Baidu](how-to-write-use-markdown.md)
+> - [Xamarin.iOS](how-to-write-use-markdown.md)
+> - [Xamarin.Android](how-to-write-use-markdown.md)
 ```
 
 ... will be rendered like this:
 
 > [!div class="op_single_selector"]
-> - [Universal Windows](../index.yml)
-> - [Windows Phone](../index.yml)
-> - [iOS](../index.yml)
-> - [Android](../index.yml)
-> - [Kindle](../index.yml)
-> - [Baidu](../index.yml)
-> - [Xamarin.iOS](../index.yml)
-> - [Xamarin.Android](../index.yml)
+> - [Universal Windows](how-to-write-use-markdown.md)
+> - [Windows Phone](how-to-write-use-markdown.md)
+> - [iOS](how-to-write-use-markdown.md)
+> - [Android](how-to-write-use-markdown.md)
+> - [Kindle](how-to-write-use-markdown.md)
+> - [Baidu](how-to-write-use-markdown.md)
+> - [Xamarin.iOS](how-to-write-use-markdown.md)
+> - [Xamarin.Android](how-to-write-use-markdown.md)
 
 ### Multi-selector
 
 ```
 > [!div class="op_multi_selector" title1="Platform" title2="Backend"]
-> - [(iOS | .NET)](./mobile-services-dotnet-backend-ios-get-started-push.md)
-> - [(iOS | JavaScript)](./mobile-services-javascript-backend-ios-get-started-push.md)
-> - [(Windows universal C# | .NET)](./mobile-services-dotnet-backend-windows-universal-dotnet-get-started-push.md)
-> - [(Windows universal C# | Javascript)](./mobile-services-javascript-backend-windows-universal-dotnet-get-started-push.md)
-> - [(Windows Phone | .NET)](./mobile-services-dotnet-backend-windows-phone-get-started-push.md)
-> - [(Windows Phone | Javascript)](./mobile-services-javascript-backend-windows-phone-get-started-push.md)
-> - [(Android | .NET)](./mobile-services-dotnet-backend-android-get-started-push.md)
-> - [(Android | Javascript)](./mobile-services-javascript-backend-android-get-started-push.md)
-> - [(Xamarin iOS | Javascript)](./partner-xamarin-mobile-services-ios-get-started-push.md)
-> - [(Xamarin Android | Javascript)](./partner-xamarin-mobile-services-android-get-started-push.md)
+> - [(iOS | .NET)](how-to-write-workflows-major.md)
+> - [(iOS | JavaScript)](how-to-write-workflows-major.md)
+> - [(Windows universal C# | .NET)](how-to-write-workflows-major.md)
+> - [(Windows universal C# | Javascript)](how-to-write-workflows-major.md)
+> - [(Windows Phone | .NET)](how-to-write-workflows-major.md)
+> - [(Windows Phone | Javascript)](how-to-write-workflows-major.md)
+> - [(Android | .NET)](how-to-write-workflows-major.md)
+> - [(Android | Javascript)](how-to-write-workflows-major.md)
+> - [(Xamarin iOS | Javascript)](how-to-write-workflows-major.md)
+> - [(Xamarin Android | Javascript)](how-to-write-workflows-major.md)
 ```
 
 ... will be rendered like this:
 
 > [!div class="op_multi_selector" title1="Platform" title2="Backend"]
-> - [(iOS | .NET)](../index.yml)
-> - [(iOS | JavaScript)](../index.yml)
-> - [(Windows universal C# | .NET)](../index.yml)
-> - [(Windows universal C# | Javascript)](../index.yml)
-> - [(Windows Phone | .NET)](../index.yml)
-> - [(Windows Phone | Javascript)](../index.yml)
-> - [(Android | .NET)](../index.yml)
-> - [(Android | Javascript)](../index.yml)
-> - [(Xamarin iOS | Javascript)](../index.yml)
-> - [(Xamarin Android | Javascript)](../index.yml)
+> - [(iOS | .NET)](how-to-write-workflows-major.md)
+> - [(iOS | JavaScript)](how-to-write-workflows-major.md)
+> - [(Windows universal C# | .NET)](how-to-write-workflows-major.md)
+> - [(Windows universal C# | Javascript)](how-to-write-workflows-major.md)
+> - [(Windows Phone | .NET)](how-to-write-workflows-major.md)
+> - [(Windows Phone | Javascript)](how-to-write-workflows-major.md)
+> - [(Android | .NET)](how-to-write-workflows-major.md)
+> - [(Android | Javascript)](how-to-write-workflows-major.md)
+> - [(Xamarin iOS | Javascript)](how-to-write-workflows-major.md)
+> - [(Xamarin Android | Javascript)](how-to-write-workflows-major.md)
 
 <!-- uncomment and link when Cory's topic is live
 ## Tabbed content
