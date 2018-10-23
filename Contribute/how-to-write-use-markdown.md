@@ -101,16 +101,16 @@ To nest a list within another list, indent the child list items. For example, th
 
 ```markdown
 1. First instruction
-    1. Sub-instruction
-    2. Sub-instruction
+   1. Sub-instruction
+   2. Sub-instruction
 2. Second instruction
 ```
 
 will be rendered as:
 
 1. First instruction
-    1. Sub-instruction
-    2. Sub-instruction
+   1. Sub-instruction
+   2. Sub-instruction
 2. Second instruction
 
 ### Tables
@@ -363,3 +363,4 @@ For example, encode `<script name>` as `&lt;script name&gt;`
 - [Introduction to Markdown](https://daringfireball.net/projects/markdown/syntax)
 - [Docs Markdown cheat sheet](./media/documents/markdown-cheatsheet.pdf?raw=true)
 - [GitHub's Markdown Basics](https://help.github.com/articles/markdown-basics/)
+- [The Markdown Guide](https://www.markdownguide.org/)
