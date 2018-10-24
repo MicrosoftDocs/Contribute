@@ -35,7 +35,7 @@ If you're new to GitHub, watch the following video for a conceptual overview of 
 
 Documentation hosted at [docs.microsoft.com](https://docs.microsoft.com) resides in several different repositories at [github.com](https://www.github.com).
 
-1. If you are unsure of which repository to use, then visit the article on docs.microsoft.com using your web browser. Select the **Edit** link (pencil icon) on the upper right of the article.
+1. If you are unsure of which repository to use, then visit the article on [docs.microsoft.com](https://docs.microsoft.com) using your web browser. Select the **Edit** link (pencil icon) on the upper right of the article.
 
    ![Click Edit to determine the repo and file location.](media/index/edit-article.png)
 
