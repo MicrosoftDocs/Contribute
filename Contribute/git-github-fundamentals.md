@@ -24,8 +24,8 @@ Git also uses a tiered structure to store and manage content for a project:
 
 Contributors interact with Git to update and manipulate repositories at both the local and GitHub levels:
 
-- Locally through tools such as the Git Bash console, which supports Git commands for managing local repositories and communicating with GitHub repositories
-- Via [www.github.com](https://www.github.com), which integrates Git to manage the reconciliation of contributions that flow back into the main repository
+- Locally through tools such as the Git Bash console, which supports Git commands for managing local repositories and communicating with GitHub repositories.
+- Via [www.github.com](https://www.github.com), which integrates Git to manage the reconciliation of contributions that flow back into the main repository.
 
 ## GitHub
 
