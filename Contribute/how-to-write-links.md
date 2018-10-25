@@ -142,7 +142,7 @@ Structure of the URL:
   - `/powershell/azure/<topic-file-name>[?view=<moniker-name>]`
   - `/powershell/azure/<service-name>/<topic-file-name>[?view=<moniker-name>]`
 
-The &lt;moniker-name&gt; portion is optional. If it's omitted, you will be directed to the latest version of the content. The &lt;service-name&gt; portion is one of the examples shown in the following base URLs:
+The `<moniker-name>` portion is optional. If it's omitted, you will be directed to the latest version of the content. The `<service-name>` portion is one of the examples shown in the following base URLs:
 
 - Azure PowerShell (AzureRM) content: [https://docs.microsoft.com/powershell/azure/](https://docs.microsoft.com/powershell/azure/)
 - Azure PowerShell (ASM) content: [https://docs.microsoft.com/powershell/azure/_servicemanagement_](https://docs.microsoft.com/powershell/azure/servicemanagement)
