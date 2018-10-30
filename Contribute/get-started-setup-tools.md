@@ -9,10 +9,10 @@ ms.date: 04/30/2018
 # Install content authoring tools
 
 This article describes the steps to interactively install Git client tools and Visual Studio Code.
-> [!div class="checklist"]
-> * Install [Git](https://git-scm.com/)
-> * Install [Visual Studio Code](https://code.visualstudio.com/)
-> * Install [Docs Authoring Pack](https://marketplace.visualstudio.com/items?itemName=docsmsft.docs-authoring-pack)
+
+1. Install [Git](https://git-scm.com/)
+2. Install [Visual Studio Code](https://code.visualstudio.com/)
+3. Install [Docs Authoring Pack](https://marketplace.visualstudio.com/items?itemName=docsmsft.docs-authoring-pack)
 
 >[!IMPORTANT]
 > If you're making only minor changes to an article, you *do not* need to complete the steps in this article and can continue directly to the [quick changes workflow](index.md#quick-edits-to-existing-documents).
