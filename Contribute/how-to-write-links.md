@@ -1,7 +1,9 @@
 ---
 title: How to use links in documentation
 description: This article provides guidance on creating links to content within docs.microsoft.com.
-ms.date: 06/29/2017
+author: gewarren
+ms.author: gewarren
+ms.date: 10/31/2018
 ---
 # Using links in documentation
 This article describes how to use hyperlinks from pages hosted at docs.microsoft.com. Links are easy to add into markdown with a few varying conventions. Links point users to content in the same page, point off into other neighboring pages, or point to external sites and URLs.
