@@ -15,7 +15,7 @@ If you are unfamiliar with Git or GitHub, these resources can help you learn, be
 - [Pro Git e-book (web)](https://go.microsoft.com/fwlink/?linkid=853940): This is a thorough git reference, in HTML format.
 - [Pro Git e-book (PDF)](https://progit2.s3.amazonaws.com/en/2016-03-22-f3531/progit-en.1084.pdf): Same as the preceding link, in PDF form.
 - [Learn Git course from Codecademy](https://www.codecademy.com/learn/learn-git): Git tutorial from Codeacademy.
-- [Try Git course from Code School](https://www.codeschool.com/courses/try-git): Git tutorial from Code School
+- [Try Git course from Code School on Pluralsight](https://www.codeschool.com/courses/try-git): Git tutorial from Code School on Pluralsight.
 
 ## GitHub resources
 
