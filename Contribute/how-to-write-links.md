@@ -87,7 +87,7 @@ Because include files are located in another directory, you must use longer rela
 
 ## Links in selectors
 
-A selector is a navigation component that appears in a docs article as a drop down list. When a reader selects a value in the drop down, the browser opens the selected article. Typically the selector list contains links to closely related articles, for example the same subject matter in multiple programming languages or a closely related series of articles. 
+A selector is a navigation component that appears in a docs article as a drop-down list. When a reader selects a value in the drop-down, the browser opens the selected article. Typically the selector list contains links to closely related articles, for example the same subject matter in multiple programming languages or a closely related series of articles. 
 
 If you have selectors that are embedded in an include, use the following link structure:
 
