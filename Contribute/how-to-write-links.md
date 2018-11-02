@@ -1,7 +1,9 @@
 ---
 title: How to use links in documentation
 description: This article provides guidance on creating links to content within docs.microsoft.com.
-ms.date: 06/29/2017
+author: gewarren
+ms.author: gewarren
+ms.date: 10/31/2018
 ---
 # Using links in documentation
 This article describes how to use hyperlinks from pages hosted at docs.microsoft.com. Links are easy to add into markdown with a few varying conventions. Links point users to content in the same page, point off into other neighboring pages, or point to external sites and URLs.
@@ -16,7 +18,7 @@ The docs.microsoft.com site backend uses Open Publishing Services (OPS) which im
 The words that you include in link text should be friendly. In other words, they should be normal English words or the title of the page that you're linking to.
 
 > [!IMPORTANT]
-> Do not use "click here." It's bad for SEO and doesn't adequately describe the target.
+> Do not use "click here." It's bad for search engine optimization, and doesn't adequately describe the target.
 
 **Correct:**
 
@@ -79,17 +81,23 @@ You do not have to create anchors. They're automatically generated at publishing
 
 Because include files are located in another directory, you must use longer relative paths. To link to an article from an include file, use this format:
 
-    [link text](../articles/folder/article-name.md)
+   ```markdown
+   [link text](../articles/folder/article-name.md)
+   ```
 
 ## Links in selectors
 
-If you have selectors that are embedded in an include--as does the Azure documentation team--use the following link structure:
+A selector is a navigation component that appears in a docs article as a drop-down list. When a reader selects a value in the drop-down, the browser opens the selected article. Typically the selector list contains links to closely related articles, for example the same subject matter in multiple programming languages or a closely related series of articles. 
 
-    > [AZURE.SELECTOR-LIST (Dropdown1 | Dropdown2 )]
-    - [(Text1 | Example1 )](../articles/folder/article-name1.md)
-    - [(Text1 | Example2 )](../articles/folder/article-name2.md)
-    - [(Text2 | Example3 )](../articles/folder/article-name3.md)
-    - [(Text2 | Example4 )](../articles/folder/article-name4.md) -->
+If you have selectors that are embedded in an include, use the following link structure:
+
+   ```markdown
+   > [AZURE.SELECTOR-LIST (Dropdown1 | Dropdown2 )]
+   - [(Text1 | Example1 )](../articles/folder/article-name1.md)
+   - [(Text1 | Example2 )](../articles/folder/article-name2.md)
+   - [(Text2 | Example3 )](../articles/folder/article-name3.md)
+   - [(Text2 | Example4 )](../articles/folder/article-name4.md) -->
+   ```
 
 ## Reference-style links
 
@@ -97,23 +105,29 @@ You can use reference-style links to make your source content easier to read. Re
 
 Inline text:
 
-    I get 10 times more traffic from [Google][1] than from [Yahoo][2] or [MSN][3].
+   ```markdown
+   I get 10 times more traffic from [Google][1] than from [Yahoo][2] or [MSN][3].
+   ```
 
 Link references at the end of the article:
 
-    <!--Reference links in article-->
-    [1]: http://google.com/
-    [2]: http://search.yahoo.com/
-    [3]: http://search.msn.com/
-
+   ```markdown
+   <!--Reference links in article-->
+   [1]: http://google.com/
+   [2]: http://search.yahoo.com/
+   [3]: http://search.msn.com/
+   ```
+   
 Make sure that you include the space after the colon, before the link. When you link to other technical articles, if you forget to include the space, the link will be broken in the published article.
 
 ## Links to pages that are not part of the technical documentation set
 
 To link to a page on another Microsoft property (such as a pricing page, SLA page, or anything else that is not a documentation article), use an absolute URL, but omit the locale. The goal here is that links work in GitHub and on the rendered site:
 
-    [link text](https://azure.microsoft.com/pricing/details/virtual-machines/)
-
+   ```markdown
+   [link text](https://azure.microsoft.com/pricing/details/virtual-machines/)
+   ```
+   
 ## Links to third-party sites
 
 The best user experience minimizes sending users to another site. So base any links to third-party sites, which we do sometimes need, on this info:
