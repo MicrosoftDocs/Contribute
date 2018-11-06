@@ -26,7 +26,7 @@ Markdown is a lightweight markup language with plain text formatting syntax. OPS
 
 You can use any text editor to author Markdown. For an editor that facilitates inserting both standard Markdown syntax and custom OPS extensions, we recommend [VS Code](https://code.visualstudio.com/) with the [Docs Authoring Pack](https://aka.ms/DocsAuthoringPack) installed.
 
-OPS has standardized on Markdig for all new repos, and older repos are migrating to Markdig. You can test the rendering of Markdown in Markdig vs. other engines at [https://babelmark.github.io/](https://babelmark.github.io/).
+OPS was standardized on Markdig for all new repos, and older repos are migrating to Markdig. You can test the rendering of Markdown in Markdig vs. other engines at [https://babelmark.github.io/](https://babelmark.github.io/).
 
 ## Alerts (Note, Tip, Important, Caution, Warning)
 
