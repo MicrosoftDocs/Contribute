@@ -1,9 +1,11 @@
-# Contributing
+---
+title: Contribute to the .NET docs repositories
+description: This article provides a brief introduction to contributing to the .NET docs repositories. You'll learn the repositories used, the process for organizing content, and the policies for managing code samples and other assets.
+ms.date: 11/07/2018
+---
+# Learn how to contribute to the .NET docs repositories
 
 Thank you for your interest in contributing to the .NET documentation!
-
-> We're in the process of moving our guidelines into a site-wide contribution guide. 
-> To see the new guidance, visit [Microsoft Docs contributor guide overview](https://docs.microsoft.com/contribute/).
 
 The document covers the process for contributing to the articles and code samples that are hosted on the [.NET documentation site](https://docs.microsoft.com/dotnet). Contributions may be as simple as typo corrections or as complex as new articles.
 
@@ -12,13 +14,15 @@ The document covers the process for contributing to the articles and code sample
 * [DOs and DON'Ts](#dos-and-donts)
 * [Contributor License Agreement](#contributor-license-agreement)
 
-This repository contains the conceptual documentation for .NET. The .NET documentation site is built from multiple repositories in addition to this one:
+The .NET documentation site is built from multiple repositories:
 
+- [.NET Conceptual articles](https://github.com/dotnet/docs)
 - [Code samples and snippets](https://github.com/dotnet/samples)
 - [API reference](https://github.com/dotnet/dotnet-api-docs)
 - [.NET Compiler Platform SDK reference](https://github.com/dotnet/roslyn-api-docs)
+- [ML.NET API reference](https://github.com/dotnet/ml-api-docs)
 
-Issues and tasks for all these repositories are tracked here.
+Issues and tasks for all these repositories are tracked [here](https://github.com/dotnet/docs/issues).
 
 ## Process for contributing
 
@@ -37,16 +41,15 @@ You can also choose from existing issues for which community contributions are w
 
 - **New content authoring**. If you're interested in authoring your own topic, these issues list topics that we know we'd like to add to our doc set. Let us know before you begin working on a topic, though. If you're interested in writing a topic that isn't listed here, open an issue. 
 
-You can also look at our [open issues](https://github.com/dotnet/docs/issues) list and volunteer to work on the ones you're interested in. We use the [up-for-grabs](https://github.com/dotnet/docs/labels/up-for-grabs) label to tag issues open for contribution. 
+You can also look at our [open issues](https://github.com/dotnet/docs/issues) list and volunteer to work on the ones you're interested in. We use the [up-for-grabs](https://github.com/dotnet/docs/labels/up-for-grabs) label to tag issues open for contribution.
 
 **Step 2:** Fork the `/dotnet/docs`, `dotnet/samples` or `dotnet/dotnet-api-docs` repos as needed and create a branch for your changes.
 
-For small changes, you can use GitHub's web interface. Simply click the **Edit the file in your fork of this project** on the file you'd like to change. 
-GitHub creates the new branch for you when you submit the changes.
+For small changes, see the instructions on editing in GitHub on the [home page](index.md) of the contributor guide.
 
 **Step 3:** Make the changes on this new branch.
 
-If it's a new topic, you can use this [template file](./styleguide/template.md) as your starting point. It contains the writing guidelines and also explains the metadata required for each article, such as author information.
+If it's a new topic, you can use this [template file](dotnet-template.md) as your starting point. It contains the writing guidelines and also explains the metadata required for each article, such as author information.
 
 Navigate to the folder that corresponds to the TOC location determined for your article in step 1.
 That folder contains the Markdown files for all articles in that section.
@@ -54,7 +57,7 @@ If necessary, create a new folder to place the files for your content. The main 
 For images and other static resources, create a subfolder called **media** inside the folder that contains your article, if it doesn't already exist. Inside the **media** folder, create a subfolder with the article name (except for the index file).
 Include larger samples in the *samples* folder under the root of the repo.
 
-Be sure to follow the proper Markdown syntax. For more information, see the [style guide](./styleguide/template.md).
+Be sure to follow the proper Markdown syntax. For examples of common , see the [template and markdown cheatsheet](dotnet-template.md).
 
 ### Example structure
 
@@ -87,7 +90,7 @@ We make the following distinction for code that exists in our repository:
 
 - Samples: readers can download and run the samples. All samples should be complete applications or libraries. Where the sample creates a library, it should include unit tests or an application that lets readers run the code.
 
-- Snippets: illustrate a smaller concept or task. They compile but they are not intended to be complete applications.
+- Snippets: illustrate a smaller concept or task. They compile but they are not intended to be complete applications. They should run correctly, but aren't an example application for a typical scenario. Instead, they are designed to be as small as possible to illustrate a single concept or feature.
 
 Code all lives in the [dotnet/samples](https://github.com/dotnet/samples) repository. We are working toward a model where our samples folder structure matches our docs folder structure. Standards that we follow are:
 
@@ -97,14 +100,14 @@ Code all lives in the [dotnet/samples](https://github.com/dotnet/samples) reposi
 
 In addition, all samples under the *core* and *standard* folders should build and run on all platforms supported by .NET Core. Our CI build system will enforce that. The top level *framework* folder contains samples that are only built and validated on Windows.
 
-We may expand these directories as the docs repository adds new content. For example, we will add Xamarin directories, like `xamarin-ios` and `xamarin-android` directories.
+We may expand these directories as the docs repository adds new content. 
 
 Each complete sample that you create should contain a *readme.md* file. This file should
 contain a short description of the sample (one or two paragraphs). Your *readme.md*
 should tell readers what they will learn by exploring this sample. The *readme.md* file should also contain
 a link to the live document on the [.NET documentation site](https://docs.microsoft.com/dotnet/welcome).
 To determine where a given file in the repository maps to that site, replace `/docs` in the repository path
-with `http://docs.microsoft.com/dotnet/articles`.
+with `http://docs.microsoft.com/dotnet`.
 
 Your topic will also contain links to the sample. Link directly to the sample's folder on GitHub.
 
@@ -117,7 +120,7 @@ specify a C# sample that runs in the browser. (Inline code samples use the
 `csharp-interactive` tag, for snippets included from source, use the
 `code-csharp-interactive` tag.) These code samples
 display a code window and an output window in the article. The output window displays any output from
-executing the interactive code once the user has run the sample. 
+executing the interactive code once the user has run the sample.
 
 The C# interactive experience changes how we work with samples. Visitors can run the sample
 to see the results. A number of factors help determine if the sample
@@ -130,7 +133,7 @@ or corresponding text should include information about the output.
 - When both the sample and the expected output is short, consider showing the output. It saves a bit of time.
 - Articles explaining how current culture or invariant culture affect output should explain the expected output. The interactive REPL (Read Evaluate Print Loop) runs on a Linux-based host. The default culture, and the invariant culture produce different output on different operating systems and machines. The article should explain the output in Windows, Linux, and Mac systems.
 
-### When to exclude expected output from the sample 
+### When to exclude expected output from the sample
 
 - Articles where the sample generates a larger output should not include that in comments. It obscures the code once the sample has been run.
 - Articles where the sample demonstrates a topic, but the output isn't integral to understanding it. For example, code that runs a LINQ query to explain query syntax and then display every item in the output collection.
@@ -140,13 +143,13 @@ or corresponding text should include information about the output.
 The following list shows some guiding rules that you should keep in mind when you're contributing to the .NET documentation:
 
 - **DON'T** surprise us with large pull requests. Instead, file an issue and start a discussion so we can agree on a direction before you invest a large amount of time.
-- **DO** read the [style guide](./styleguide/template.md) and [voice and tone](./styleguide/voice-tone.md) guidelines.
-- **DO** use the [template](./styleguide/template.md) file as the starting point of your work.
+- **DO** follow these instructions and [voice and tone](./styleguide/voice-tone.md) guidelines.
+- **DO** use the [template](dotnet-template.md) file as the starting point of your work.
 - **DO** create a separate branch on your fork before working on the articles.
 - **DO** follow the [GitHub Flow workflow](https://guides.github.com/introduction/flow/).
 - **DO** blog and tweet (or whatever) about your contributions, frequently!
 
-> Note: you might notice that some of the topics are not currently following all the guidelines specified here and on the [style guide](./styleguide/template.md) as well. We're working towards achieving consistency throughout the site. Check the list of [open issues](https://github.com/dotnet/docs/issues?q=is%3Aissue+is%3Aopen+label%3Aguidelines-adherence) we're currently tracking for that specific goal.
+> Note: you might notice that some of the topics are not currently following all the guidelines specified here. We're working towards achieving consistency throughout the site. Check the list of [open issues](https://github.com/dotnet/docs/issues?q=is%3Aissue+is%3Aopen+label%3Aguidelines-adherence) we're currently tracking for that specific goal.
 
 ## Contributor License Agreement
 
@@ -154,4 +157,4 @@ You must sign the [.NET Foundation Contribution License Agreement (CLA)](https:/
 
 The agreement: [net-foundation-contribution-license-agreement.pdf](https://github.com/dotnet/home/blob/master/guidance/net-foundation-contribution-license-agreement.pdf)
 
-You don't have to sign the agreement up-front. You can clone, fork, and submit your PR as usual. When your PR is created, it is classified by a CLA bot. If the change is trivial (for example, you fixed a typo), then the PR is labeled with `cla-not-required`. Otherwise, it's classified as `cla-required`. Once you signed the CLA, the current and all future pull requests are labeled as `cla-signed`.
+You don't have to sign the agreement up-front. You can clone, fork, and submit your PR as usual. When your PR is created, it is classified by a CLA bot. If the change is small (for example, you fixed a typo), then the PR is labeled with `cla-not-required`. Otherwise, it's classified as `cla-required`. Once you signed the CLA, the current and all future pull requests are labeled as `cla-signed`.

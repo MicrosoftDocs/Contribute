@@ -1,45 +1,37 @@
 ---
-# required/recommended metadata
-
-title: [ARTICLE TITLE]
-description:
-author: [GITHUB USERNAME]
-ms.author: [MICROSOFT ALIAS OF INTERNAL OWNER]
-ms.date: [CREATION/UPDATE DATE - mm/dd/yyyy]
-ms.topic: [TOPIC TYPE]
-ms.prod: [PRODUCT VALUE]
-helpviewer_keywords: [OFFLINE BOOK INDEX ENTRIES]
-
-# optional metadata
-
-#ROBOTS:
-#ms.technology:
-#keywords:
-#ms.devlang: [LANGUAGES]
-#manager: [MICROSOFT ALIAS]
-
+title: Template and cheatsheet for .NET articles 
+description: This contains a handy template you can use to create new articles for the .NET docs repositories
+ms.date: 11/07/2018
 ---
-# Metadata and Markdown Template
+# Metadata and Markdown template for .NET docs
 
-This dotnet/docs template contains examples of Markdown syntax, as well as guidance on setting the metadata. To get the most of it, you must view both the [raw Markdown](https://raw.githubusercontent.com/dotnet/docs/master/styleguide/template.md) and the [rendered view](https://github.com/dotnet/docs/blob/master/styleguide/template.md) (for instance, the raw Markdown shows the metadata block, while the rendered view does not).
+This dotnet/docs template contains examples of Markdown syntax, as well as guidance on setting the metadata. 
 
-When creating a Markdown file, you should copy this template to a new file, fill out the metadata as specified below, set the H1 heading above to the title of the article, and delete the content.
+When creating a Markdown file, you should copy the included template to a new file, fill out the metadata as specified below, set the H1 heading above to the title of the article, and delete the content.
 
 ## Metadata
 
-The full metadata block is above (in the [raw Markdown](https://raw.githubusercontent.com/dotnet/docs/master/styleguide/template.md)), divided into required fields and optional fields. Some key notes:
+The full metadata block is in the following sample metadata block:
+
+```markdown
+---
+# required/recommended metadata
+
+title: [ARTICLE TITLE]
+description: [usually a summary of your first paragraph. It gets displayed in search results, and can help drive the correct traffic if well written.]
+author: [GITHUB USERNAME]
+ms.date: [CREATION/UPDATE DATE - mm/dd/yyyy]
+---
+# The H1 should note be the same as the title, but should describe the article contents.
+
+```
 
 - You **must** have a space between the colon (:) and the value for a metadata element.
-- If an optional metadata element doesn't have a value, comment out the element with a # or remove it (don't leave it blank or use "na"). If you're adding a value to an element that was commented out, be sure to remove the #.
+- If an optional metadata element doesn't have a value, remove it (don't leave it blank or use "na"). If you're adding a value to an element that was commented out, be sure to remove the #.
 - Colons in a value (for example, a title) break the metadata parser. In this case, surround the title with double quotes (for example, `title: "Writing .NET Core console apps: An advanced step-by-step guide"`).
 - **title**: Appears in search engine results. The title shouldn't be identical to the title in your H1 heading, and it should contain 60 characters or less.
 - **description**: Summarizes the content of the article. It's usually shown in the search results page, but it isn't used for search ranking. Its length should be 115-145 characters including spaces.
-- **author**, **manager**, **ms.author**: The author field should contain the **GitHub username** of the author, not his/her alias.  The "manager" and "ms.author" fields, on the other hand, should contain Microsoft aliases.
-- **ms.topic**: The topic type. The most common value is `article`. Other common values used are `get-started-article`, `managed-reference`, and `reference`.
-- **ms.devlang** defines the language filter displayed for the topic. Some of the supported values are: dotnet, cpp, csharp, fsharp, vb, powershell and xml.
-- **ms.prod**: Product identification used for BI purposes. Possible values are `.net-core` for topics on the .NET Core Guide, `.net-framework` for topics on the .NET Framework Guide and `.net` for all other topics.
-- **ms.technology**: Additional BI classification. Some of the supported values are: `devlang-csharp` for C# topics, `devlang-fsharp` for F# topics, and `devlang-visual-basic` for VB topics. For other guides, the values will vary, so ask a member of the team for guidance.
-- **helpviewer_keywords**: Entries are used for the offline books index (functionality in Visual Studio).
+- **author**: The author field should contain the **GitHub username** of the author.
 
 ## Basic Markdown, GFM, and special characters
 
@@ -53,7 +45,7 @@ Markdown uses special characters such as \*, \`, and \# for formatting. If you w
 - Put a backslash before the special character to "escape" it (for example, `\*` for a \*)
 - Use the [HTML entity code](http://www.ascii.cl/htmlcodes.htm) for the character (for example, `&#42;` for a &#42;).
 
-## File name
+## File names
 
 File names use the following rules:
 
@@ -142,7 +134,7 @@ The UID equates to the fully qualified type and member name.
 
 If you add a \* (or %2A) after the UID, the link then represents the overload page and not a specific API. For example, you can use that when you want to link to the [List\<T>.BinarySearch Method](https://docs.microsoft.com/dotnet/api/system.collections.generic.list-1.binarysearch) page in a generic way instead of a specific overload such as [List\<T>.BinarySearch(T, IComparer\<T>)](https://docs.microsoft.com/dotnet/api/system.collections.generic.list-1.binarysearch#System_Collections_Generic_List_1_BinarySearch__0_). You can also use \* to link to a member page when the member is not overloaded; this saves you from having to include the parameter list in the UID.
 
-To link to a specific method overload, you must include the fully qualified type name of each of the method's parameters. For example, \<xref:System.DateTime.ToString> links to the parameterless [DateTime.ToString](https://docs.microsoft.com/dotnet/api/system.datetime.tostring#System_DateTime_ToString) method, while \<xref:System.DateTime.ToString(System.String,System.IFormatProvider)> links to the  [DateTime.ToString(String,IFormatProvider)](https://docs.microsoft.com/dotnet/api/system.datetime.tostring#System_DateTime_ToString_System_String_System_IFormatProvider_) method. You can find the UIDs of a particular overloaded member from `https://xref.docs.microsoft.com/autocomplete`. The query string "?text=*\<type-member-name>*" identifies the type or member whose UIDs you'd like to see. For example, `https://xref.docs.microsoft.com/autocomplete?text=string.format` retrieves the [String.Format](https://docs.microsoft.com/dotnet/api/system.string.format) overloads.
+To link to a specific method overload, you must include the fully qualified type name of each of the method's parameters. For example, \<xref:System.DateTime.ToString> links to the parameterless [DateTime.ToString](https://docs.microsoft.com/dotnet/api/system.datetime.tostring#System_DateTime_ToString) method, while \<xref:System.DateTime.ToString(System.String,System.IFormatProvider)> links to the  [DateTime.ToString(String,IFormatProvider)](https://docs.microsoft.com/dotnet/api/system.datetime.tostring#System_DateTime_ToString_System_String_System_IFormatProvider_) method. You can find the UIDs of a particular overloaded member from `https://xref.docs.microsoft.com/autocomplete`. The query string "?text=*\<type-member-name>*" identifies the type or member whose UIDs you'd like to see. For example, `https://xref.docs.microsoft.com/autocomplete?text=string.format` retrieves the [String.Format](https://docs.microsoft.com/dotnet/api/system.string.format) overloads. The tool searches for the provided `text` query parameter in any part of the UID. For example, you can search for member name (ToString), partial member name (ToStri), type and member name (Double.ToString), etc.
 
 To link to a generic type, such as [System.Collections.Generic.List\<T>](https://docs.microsoft.com/dotnet/api/system.collections.generic.list-1), you use the ` (%60) character followed by the number of generic type parameters. For example, \<xref:System.Nullable%601> links to the [System.Nullable\<T>](https://docs.microsoft.com/dotnet/api/system.nullable-1) type, while \<xref:System.Func%602> links to the [System.Func\<T,TResult>](https://docs.microsoft.com/dotnet/api/system.func-2) delegate.
 
@@ -164,11 +156,6 @@ Examples:
 
 For more information about using this notation, see [Using cross reference](https://dotnet.github.io/docfx/tutorial/links_and_cross_references.html#using-cross-reference).
 
-There are two ways to find the UID:
-
-- View the source for the API page you want to link to and find the ms.assetid value. Note that individual overload values are not shown in the source.
-- Use the following tool to search for UIDs: https://xref.docs.microsoft.com/autocomplete?text=tostring (replace tostring with parts of the API name you're trying to find). The tool searches for the provided `text` query parameter in any part of the UID. For example, you can search for member name (ToString), partial member name (ToStri), type and member name (Double.ToString), etc.
-
 When the UID contains the special characters \`, \# or \*, the UID value needs to be HTML encoded as `%60`, `%23` and `%2A` respectively. You'll sometimes see parentheses encoded but it's not a requirement.
 
 Examples:
@@ -176,7 +163,6 @@ Examples:
 - System.Threading.Tasks.Task\`1 becomes `System.Threading.Tasks.Task%601`
 - System.Exception.\#ctor becomes `System.Exception.%23ctor`
 - System.Lazy\`1.\#ctor(System.Threading.LazyThreadSafetyMode) becomes  `System.Lazy%601.%23ctor%28System.Threading.LazyThreadSafetyMode%29`
-
 
 ## Lists
 
@@ -187,6 +173,8 @@ Examples:
 1. An
 1. Ordered
 1. List
+
+Note that we use 1. for all entries. It makes diffs easier to review for later updates.
 
 #### Ordered list with an embedded list
 
@@ -237,7 +225,7 @@ You can use a [Markdown table generator tool](http://www.tablesgenerator.com/mar
 ## Code
 
 The best way to include code is to include snippets from a working sample. Create your
-sample following the instructions in the [contributing guide](../CONTRIBUTING.md#contributing-to-samples).
+sample following the instructions in the [contributing to .NET](dotnet-contribute.md#contributing-to-samples) article.
 
 You can include the code using the following syntax:
 
@@ -262,10 +250,10 @@ You can include the code using the following syntax:
     * `dedent`: `?dedent=8` Dedents the lines by a number of spaces--in this case, 8. This can be combined with the `range` and other query options that select a subset of the lines of a file.
     * `outdent`: `?outdent=8` Reverses the indent of the lines by a number of spaces--in this case, 8. This can be combined with `range` and other query options that select a subset of the lines of a file.
 
-We recommend using the tag name option whenever possible. The tag name is the name of a region or of a code comment in the format of `Snippettagname` present in the source code. The following example shows how to refer to the tag name `1`:
+We recommend using the tag name option whenever possible. The tag name is the name of a region or of a code comment in the format of `Snippettagname` present in the source code. The following example shows how to refer to the tag name `BasicThrow`:
 
 ```markdown
-[!code-csharp[csrefKeyword#1](../../../../samples/snippets/csharp/language-reference/keywords/throw/throw-1.cs#1)]
+[!code-csharp[csrefKeyword#1](../../../../samples/snippets/csharp/language-reference/keywords/throw/throw-1.cs#BasicThrow)]
 ```
 
 And you can see how the snippet tags are structured in [this source file](https://github.com/dotnet/samples/blob/master/snippets/csharp/language-reference/keywords/throw/throw-1.cs). For details about tag name representation in code snippet source files by language, see the [DocFX guidelines](https://dotnet.github.io/docfx/spec/docfx_flavored_markdown.html#tag-name-representation-in-code-snippet-source-file).
