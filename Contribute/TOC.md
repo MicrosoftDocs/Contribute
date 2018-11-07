@@ -11,6 +11,11 @@
 ## [Style and voice quick start](style-quick-start.md)
 ## [Links](how-to-write-links.md)
 ## [Docs Authoring Pack](how-to-write-docs-auth-pack.md)
+# Repository-specific guidance
+## .NET
+### [Contribute to .NET Docs](dotnet-contribute.md)
+### [Template and markdown cheat sheet](dotnet-docs-template.md)
+### [Style and voice guide](dotnet-docs-style-and-voice.md)
 
 <!--
 ## Creating new content
