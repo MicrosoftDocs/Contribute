@@ -57,7 +57,7 @@ If necessary, create a new folder to place the files for your content. The main 
 For images and other static resources, create a subfolder called **media** inside the folder that contains your article, if it doesn't already exist. Inside the **media** folder, create a subfolder with the article name (except for the index file).
 Include larger samples in the *samples* folder under the root of the repo.
 
-Be sure to follow the proper Markdown syntax. For examples of common , see the [template and markdown cheatsheet](dotnet-styleguide.md).
+Be sure to follow the proper Markdown syntax. For examples of common , see the [template and markdown cheatsheet](dotnet-style-guide.md).
 
 ### Example structure
 
@@ -144,7 +144,7 @@ The following list shows some guiding rules that you should keep in mind when yo
 
 - **DON'T** surprise us with large pull requests. Instead, file an issue and start a discussion so we can agree on a direction before you invest a large amount of time.
 - **DO** follow these instructions and [voice and tone](dotnet-voice-tone.md) guidelines.
-- **DO** use the [template](dotnet-styleguide.md) file as the starting point of your work.
+- **DO** use the [template](dotnet-style-guide.md) file as the starting point of your work.
 - **DO** create a separate branch on your fork before working on the articles.
 - **DO** follow the [GitHub Flow workflow](https://guides.github.com/introduction/flow/).
 - **DO** blog and tweet (or whatever) about your contributions, frequently!
