@@ -143,7 +143,7 @@ or corresponding text should include information about the output.
 The following list shows some guiding rules that you should keep in mind when you're contributing to the .NET documentation:
 
 - **DON'T** surprise us with large pull requests. Instead, file an issue and start a discussion so we can agree on a direction before you invest a large amount of time.
-- **DO** follow these instructions and [voice and tone](./styleguide/voice-tone.md) guidelines.
+- **DO** follow these instructions and [voice and tone](dotnet-voice-tone.md) guidelines.
 - **DO** use the [template](dotnet-template.md) file as the starting point of your work.
 - **DO** create a separate branch on your fork before working on the articles.
 - **DO** follow the [GitHub Flow workflow](https://guides.github.com/introduction/flow/).

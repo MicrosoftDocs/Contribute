@@ -27,6 +27,14 @@ To create a heading, you use a hash mark (#), as follows:
 #### This is heading 4
 ```
 
+Headings should be done using atx-style, that is, use 1-6 hash characters (#) at the start of the line to indicate a heading, corresponding to HTML headings levels H1 through H6. Examples of first- and second-level headers are used above.
+
+There **must** be only one first-level heading (H1) in your topic, which will be displayed as the on-page title.
+
+If your heading finishes with a `#` character, you need to add an extra `#` character in the end in order for the title to render correctly. For example, `# Async Programming in F# #`.
+
+Second-level headings will generate the on-page TOC that appears in the "In this article" section underneath the on-page title.
+
 ### Bold and italic text
 
 To format text as **bold**, you enclose it in two asterisks:
@@ -46,6 +54,10 @@ To format text as both ***bold and italic***, you enclose it in three asterisks:
 ```markdown
 This is text is both ***bold and italic***.
 ```
+
+### Blockquotes
+
+> The drought had lasted now for ten million years, and the reign of the terrible lizards had long since ended. Here on the Equator, in the continent which would one day be known as Africa, the battle for existence had reached a new climax of ferocity, and the victor was not yet in sight. In this barren and desiccated land, only the small or the swift or the fierce could flourish, or even hope to survive.
 
 ### Lists
 
@@ -87,8 +99,8 @@ To format an ordered/stepwise list, you use corresponding numbers. For example, 
 
 ```markdown
 1. First instruction
-2. Second instruction
-3. Third instruction
+1. Second instruction
+1. Third instruction
 ```
 
 will be rendered as:
@@ -102,8 +114,8 @@ To nest a list within another list, indent the child list items. For example, th
 ```markdown
 1. First instruction
    1. Sub-instruction
-   2. Sub-instruction
-2. Second instruction
+   1. Sub-instruction
+1. Second instruction
 ```
 
 will be rendered as:
@@ -112,6 +124,8 @@ will be rendered as:
    1. Sub-instruction
    2. Sub-instruction
 2. Second instruction
+
+Note that we use '1.' for all entries. It makes diffs easier to review when later updates include new steps or remove existing steps.
 
 ### Tables
 
@@ -188,6 +202,8 @@ These languages have friendly name support and most have language highlighting.
 |C++/CX|cppcx|
 |C++/WinRT|cppwinrt|
 |C#|csharp|
+|C# in browser|csharp-interactive|
+|Console|console|
 |CSHTML|cshtml|
 |DAX|dax|
 |F#|fsharp|
@@ -215,6 +231,8 @@ These languages have friendly name support and most have language highlighting.
 |VSTS CLI|vstscli|
 |XAML|xaml|
 |XML|xml|
+
+The `csharp-interactive` name specifies the C# language, and the ability to run the samples from the browser. These snippets are compiled and executed in a Docker container, and the results of that program execution are displayed in the user's browser window.
 
 #### Example: C\#
 
@@ -290,6 +308,36 @@ You can choose from four types of note blocks to draw attention to specific cont
 
 In general, note blocks should be used sparingly because they can be disruptive. Although they also support code blocks, images, lists, and links, try to keep your note blocks simple and straightforward.
 
+Examples:
+
+```markdown
+> [!NOTE]
+> This is a NOTE
+
+> [!WARNING]
+> This is a WARNING
+
+> [!TIP]
+> This is a TIP
+
+> [!IMPORTANT]
+> This is IMPORTANT
+```
+
+These render as follows:
+
+> [!NOTE]
+> This is a NOTE
+
+> [!WARNING]
+> This is a WARNING
+
+> [!TIP]
+> This is a TIP
+
+> [!IMPORTANT]
+> This is IMPORTANT
+
 ### Includes
 
 When you have reusable text or image files that need to be included in article files, you can use a reference to the "include" file via the Markdig file include feature. This feature instructs OPS to include the file in your article file at build time, making it part of your published article. Three types of includes are available to help you reuse content:
@@ -311,6 +359,12 @@ Here are requirements and considerations for includes:
 - As with regular articles, don't share media between include files. Use a separate file with a unique name for each include and article. Store the media file in the media folder that's associated with the include.
 - Don't use an include as the only content of an article.  Includes are meant to be supplemental to the content in the rest of the article.
 
+Example:
+
+```markdown
+[!INCLUDE[sample include file](../includes/sampleinclude.md)]
+```
+
 ### Selectors
 
 Use selectors in technical articles when you author multiple flavors of the same article, to
@@ -322,7 +376,7 @@ Because the same selector Markdown goes in each article in the selection, we rec
 selector for your article in an include. Then you can reference that include in all your articles
 that use the same selector.
 
-### Code snippets
+### Code includes
 
 Markdig supports advanced inclusion of code in an article, via its code snippet extension. It
 provides advanced rendering that builds on GFM features such as programming language selection and

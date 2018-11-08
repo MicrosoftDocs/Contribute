@@ -14,7 +14,7 @@
 # Repository-specific guidance
 ## .NET
 ### [Contribute to .NET Docs](dotnet-contribute.md)
-### [Template and markdown cheat sheet](dotnet-template.md)
+### [.NET docs style conventions](dotnet-style-guide.md)
 ### [Voice and tone guide](dotnet-voice-tone.md)
 
 <!--

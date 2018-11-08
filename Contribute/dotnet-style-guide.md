@@ -5,7 +5,7 @@ ms.date: 11/07/2018
 ---
 # Metadata and Markdown template for .NET docs
 
-This dotnet/docs template contains examples of Markdown syntax, as well as guidance on setting the metadata. 
+This dotnet/docs template contains examples of Markdown syntax, as well as guidance on setting the metadata.
 
 When creating a Markdown file, you should copy the included template to a new file, fill out the metadata as specified below, set the H1 heading above to the title of the article, and delete the content.
 
@@ -35,10 +35,7 @@ ms.date: [CREATION/UPDATE DATE - mm/dd/yyyy]
 
 ## Basic Markdown, GFM, and special characters
 
-All basic and GitHub Flavored Markdown (GFM) is supported. For more information on these, see:
-
-- [Baseline Markdown syntax](https://daringfireball.net/projects/markdown/syntax)
-- [GFM documentation](https://guides.github.com/features/mastering-markdown)
+You can learn the basics of Markdown, GitHub Flavored Markdown (GFM), and OPS specific extensions in the general articles on [Markdown](how-to-write-use-markdown.md) and [Markdown reference](markdown-reference.md).
 
 Markdown uses special characters such as \*, \`, and \# for formatting. If you wish to include one of these characters in your content, you must do one of two things:
 
@@ -63,19 +60,6 @@ Use sentence-style capitalization. Always capitalize:
 - The first word of a heading.
 - The word following a colon in a title or heading (for example, "How to: Sort an array").
 
-Headings should be done using atx-style, that is, use 1-6 hash characters (#) at the start of the line to indicate a heading, corresponding to HTML headings levels H1 through H6. Examples of first- and second-level headers are used above.
-
-There **must** be only one first-level heading (H1) in your topic, which will be displayed as the on-page title.
-
-If your heading finishes with a `#` character, you need to add an extra `#` character in the end in order for the title to render correctly. For example, `# Async Programming in F# #`.
-
-Second-level headings will generate the on-page TOC that appears in the "In this article" section underneath the on-page title.
-
-### Third-level heading
-#### Fourth-level heading
-##### Fifth level heading
-###### Sixth-level heading
-
 ## Text styling
 
 *Italics*
@@ -89,41 +73,17 @@ Use for inline code, language keywords, NuGet package names, command-line comman
 
 ## Links
 
-### Internal Links
+See the general article on [Links](how-to-write-links.md) for information about anchors, internal links, links to other documents, code includes, and external links.
 
-To link to a header in the same Markdown file (also known as anchor links), you'll need to find out the id of the header you're trying to link to. To confirm the ID, view the source of the rendered article, find the id of the header (for example, `id="blockquote"`), and link using # + id (for example, `#blockquote`).
-The id is auto-generated based on the header text. So, for example, given a unique section named `## Step 2`, the id would look like this `id="step-2"`.
+The .NET Docs team uses the following conventions:
 
-- Example: `[Declare inline blocks with a language identifier](#inline-code-blocks-with-language-identifier)` produces [Declare inline blocks with a language identifier](#inline-code-blocks-with-language-identifier).
+- In most cases, we use the relative links and discourage the use of `~/` in links because relative links resolve in the source on GitHub. However, whenever we link to a file in a dependent repo, we'll use the `~/` character to provide the path. Because the files in the dependent repo are in a different location in GitHub the links won't resolve correctly with relative links regardless of how they were written.
 
-To link to a Markdown file in the same repo, use [relative links](https://www.w3.org/TR/WD-html40-970917/htmlweb.html#h-5.1.2), including the ".md" at the end of the filename.
-
-- Example: `[Readme file](../README.md)` produces [Readme file](../README.md). (Note that links are case-sensitive.)
-- Example: `[Welcome to .NET](../docs/welcome.md)` produces [Welcome to .NET](../docs/welcome.md).
-
-To link to a header in a Markdown file in the same repo, use relative linking + hashtag linking.
-
-- Example: `[.NET Community](../docs/welcome.md#open-source)` produces [.NET Community](../docs/welcome.md#open-source).
-
-In most cases, we use the relative links and discourage the use of `~/` in links because relative links resolve in the source on GitHub. However, whenever we link to a file in a dependent repo, we'll use the `~/` character to provide the path. Because the files in the dependent repo are in a different location in GitHub the links won't resolve correctly with relative links regardless of how they were written.
-
-The C# language specification and the Visual Basic language specification are included in the .NET docs by including the source from the language repositories. The markdown sources are managed in the [csharplang](https://github.com/dotnet/csharplang) and [visual basic](https://github.com/dotnet/vblang) repositories.
+- The C# language specification and the Visual Basic language specification are included in the .NET docs by including the source from the language repositories. The markdown sources are managed in the [csharplang](https://github.com/dotnet/csharplang) and [visual basic](https://github.com/dotnet/vblang) repositories.
 
 Links to the spec must point to the source directories where those specs are included. For C#, it's **~/_csharplang/spec** and for VB, it's **~/_vblang/spec**.
 
-- Example: `[C# Query Expressions](~/_csharplang/spec/expressions.md#query-expressions)` produces [C# Query Expressions](~/_csharplang/spec/expressions.md#query-expressions).
-
-### External Links
-
-To link to an external file, use the full URL as the link.
-
-- Example: `[GitHub](https://www.github.com)` produces [GitHub](https://www.github.com).
-
-If a URL appears in a Markdown file, it will be transformed into a clickable link.
-
-- Example: `<https://www.github.com>` produces <https://www.github.com>.
-
-Prefer the `https` protocol for external links. Only use `http` links for sites that do not support `https`.
+- Example: `[C# Query Expressions](~/_csharplang/spec/expressions.md#query-expressions)`
 
 ### Links to APIs
 
@@ -164,68 +124,10 @@ Examples:
 - System.Exception.\#ctor becomes `System.Exception.%23ctor`
 - System.Lazy\`1.\#ctor(System.Threading.LazyThreadSafetyMode) becomes  `System.Lazy%601.%23ctor%28System.Threading.LazyThreadSafetyMode%29`
 
-## Lists
-
-### Ordered lists
-
-1. This
-1. Is
-1. An
-1. Ordered
-1. List
-
-Note that we use 1. for all entries. It makes diffs easier to review for later updates.
-
-#### Ordered list with an embedded list
-
-1. Here
-1. comes
-1. an
-1. embedded
-    1. Miss Scarlett
-    1. Professor Plum
-1. ordered
-1. list
-
-### Unordered Lists
-
-- This
-- is
-- a
-- bulleted
-- list
-
-#### Unordered list with an embedded list
-
-- This
-- bulleted
-- list
-  - Mrs. Peacock
-  - Mr. Green
-- contains
-- other
-  1. Colonel Mustard
-  1. Mrs. White
-- lists
-
-## Horizontal rule
-
----
-
-## Tables
-
-| Tables        | Are           | Cool  |
-| ------------- |:-------------:| -----:|
-| col 3 is      | right-aligned | $1600 |
-| col 2 is      | centered      |   $12 |
-| col 1 is default | left-aligned     |    $1 |
-
-You can use a [Markdown table generator tool](http://www.tablesgenerator.com/markdown_tables) to help creating them more easily.
-
 ## Code
 
 The best way to include code is to include snippets from a working sample. Create your
-sample following the instructions in the [contributing to .NET](dotnet-contribute.md#contributing-to-samples) article.
+sample following the instructions in the [contributing to .NET](dotnet-contribute.md#contributing-to-samples) article. The basic rules for including code are located in the general guidance on [code](how-to-write-use-markdown.md#code-includes)
 
 You can include the code using the following syntax:
 
@@ -262,106 +164,19 @@ Including snippets from full programs ensures that all code runs through our Con
 system. However, if you need to show something that causes compile time or
 runtime errors, you can use inline code blocks.
 
-### Inline code blocks with language identifier
-
-Use three backticks (\`\`\`) + a language ID to apply language-specific color coding to a code block. Here is the list of supported languages showing the markdown label for each language ID.
-
-#### Supported languages
-
-|Name|Markdown label|
-|-----|-------|
-|ASP.NET with C#|aspx-csharp|
-|ASP.NET with VB|aspx-vb|
-|Azure CLI|azurecli|
-|AzCopy|azcopy|
-|C++|cpp|
-|C#|csharp|
-|C# in browser|csharp-interactive|
-|Console|console|
-|F#|fsharp|
-|Java|java|
-|JavaScript|javascript|
-|JSON|json|
-|NodeJS|nodejs|
-|Objective-C|objc|
-|PHP|php|
-|PowerShell|powershell|
-|Python|python|
-|Ruby|ruby|
-|SQL|sql|
-|Swift|swift|
-|VB|vb|
-|XAML|xaml|
-|XML|xml|
-
-The `csharp-interactive` name specifies the C# language, and the ability to run the samples from the browser. These snippets are compiled and executed in a Docker container, and the results of that program execution are displayed in the user's browser window.
-
-The following are examples of code blocks using the language IDs for C# (\`\`\`csharp), Python (\`\`\`python), and PowerShell (\`\`\`powershell).
-
-##### C&#9839;
-
-```csharp
-using System;
-namespace HelloWorld
-{
-    class Hello
-    {
-        static void Main()
-        {
-            Console.WriteLine("Hello World!");
-
-            // Keep the console window open in debug mode.
-            Console.WriteLine("Press any key to exit.");
-            Console.ReadKey();
-        }
-    }
-}
-```
-
-#### Python
-
-```python
-friends = ['john', 'pat', 'gary', 'michael']
-for i, name in enumerate(friends):
-    print "iteration {iteration} is {name}".format(iteration=i, name=name)
-```
-
-#### PowerShell
-
-```powershell
-Clear-Host
-$Directory = "C:\Windows\"
-$Files = Get-Childitem $Directory -recurse -Include *.log `
--ErrorAction SilentlyContinue
-```
-
-### Generic code block
-
-Use three backticks (&#96;&#96;&#96;) for generic code block coding.
-
-> The recommended approach is to use code blocks with language identifiers as explained in the previous section to ensure the proper syntax highlighting in the documentation site. Use generic code blocks only when necessary.
-
-```
-function fancyAlert(arg) {
-    if(arg) {
-        $.docs({div:'#foo'})
-    }
-}
-```
-
-## Blockquotes
-
-> The drought had lasted now for ten million years, and the reign of the terrible lizards had long since ended. Here on the Equator, in the continent which would one day be known as Africa, the battle for existence had reached a new climax of ferocity, and the victor was not yet in sight. In this barren and desiccated land, only the small or the swift or the fierce could flourish, or even hope to survive.
-
 ## Images
 
 ### Static Image or Animated gif
 
+```markdown
 ![this is the alt text](../images/Logo_DotNet.png)
+```
 
 ### Linked Image
 
+```markdown
 [![alt text for linked image](../images/Logo_DotNet.png)](https://dot.net)
+```
 
 ## Videos
 
@@ -397,42 +212,20 @@ For example:
 
 docs.microsoft provides a few additional extensions to GitHub Flavored Markdown.
 
-### Alerts
-
-It's important to use the following alert styles so they render with the proper style in the documentation site. However, the rendering engine on GitHub doesn't diferentiate them.
-
-#### Note
-
-> [!NOTE]
-> This is a NOTE
-
-#### Warning
-
-> [!WARNING]
-> This is a WARNING
-
-#### Tip
-
-> [!TIP]
-> This is a TIP
-
-#### Important
-
-> [!IMPORTANT]
-> This is IMPORTANT
-
-And they'll render like this:
-![Alert styles](../images/alerts.png)
-
-### Includes
-
-You can embed the Markdown of one file into another using an include.
-
-[!INCLUDE[sample include file](../includes/sampleinclude.md)]
-
 ### Checked lists
 
 A custom style is available for lists. You can render lists with green check marks.
+
+```markdown
+> [!div class="checklist"]
+> * How to create a .NET Core app
+> * How to add a reference to the Microsoft.XmlSerializer.Generator package
+> * How to edit your MyApp.csproj to add dependencies
+> * How to add a class and an XmlSerializer
+> * How to build and run the application
+```
+
+This renders as:
 
 > [!div class="checklist"]
 > * How to create a .NET Core app
@@ -445,23 +238,36 @@ You can see an example of checked lists in action in the [.NET Core docs](https:
 
 ### Buttons
 
+Button links:
+
+```markdown
 > [!div class="button"]
-[button links](../docs/core/index.md)
+[button links](dotnet-contribute.md)
+```
+
+This renders as:
+
+> [!div class="button"]
+[button links](dotnet-contribute.md)
 
 You can see an example of buttons in action in the [Visual Studio docs](https://docs.microsoft.com/visualstudio/install/install-visual-studio#step-2---download-visual-studio).
 
 ### Selectors
 
+```markdown
 > [!div class="op_single_selector"]
 - [macOS](../docs/core/tutorials/using-on-macos.md)
 - [Windows](../docs/core/tutorials/with-visual-studio.md)
+```
 
 You can see an example of selectors in action at the [Azure docs](https://docs.microsoft.com/azure/expressroute/expressroute-howto-circuit-classic).
 
 ### Step-By-Steps
 
+```markdown
 >[!div class="step-by-step"]
 [Pre](../docs/csharp/expression-trees-interpreting.md)
 [Next](../docs/csharp/expression-trees-translating.md)
+```
 
 You can see an example of step-by-steps in action at the [C# Guide](https://docs.microsoft.com/dotnet/csharp/tour-of-csharp/program-structure).
