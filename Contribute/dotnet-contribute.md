@@ -29,6 +29,7 @@ Issues and tasks for all these repositories are tracked [here](https://github.co
 You need a basic understanding of [Git and GitHub.com](https://guides.github.com/activities/hello-world/).
 
 **Step 1:** Skip this step for small changes. If you're interested in writing new content or in thoroughly revising existing content, open an [issue](https://github.com/dotnet/docs/issues) describing what you want to do.
+
 The content inside the **docs** folder is organized into sections that are reflected in the Table of Contents (TOC). Define where the topic will be located in the TOC. Get feedback on your proposal.
 
 -or-
@@ -51,11 +52,7 @@ For small changes, see the instructions on editing in GitHub on the [home page](
 
 If it's a new topic, you can use this [template file](dotnet-style-guide.md) as your starting point. It contains the writing guidelines and also explains the metadata required for each article, such as author information.
 
-Navigate to the folder that corresponds to the TOC location determined for your article in step 1.
-That folder contains the Markdown files for all articles in that section.
-If necessary, create a new folder to place the files for your content. The main article for that section is called *index.md*.
-For images and other static resources, create a subfolder called **media** inside the folder that contains your article, if it doesn't already exist. Inside the **media** folder, create a subfolder with the article name (except for the index file).
-Include larger samples in the *samples* folder under the root of the repo.
+Navigate to the folder that corresponds to the TOC location determined for your article in step 1. That folder contains the Markdown files for all articles in that section. If necessary, create a new folder to place the files for your content. The main article for that section is called *index.md*. For images and other static resources, create a subfolder called **media** inside the folder that contains your article, if it doesn't already exist. Inside the **media** folder, create a subfolder with the article name (except for the index file). Include larger samples in the *samples* folder under the root of the repo.
 
 Be sure to follow the proper Markdown syntax. For examples of common , see the [template and markdown cheatsheet](dotnet-style-guide.md).
 
@@ -102,29 +99,17 @@ In addition, all samples under the *core* and *standard* folders should build an
 
 We may expand these directories as the docs repository adds new content. 
 
-Each complete sample that you create should contain a *readme.md* file. This file should
-contain a short description of the sample (one or two paragraphs). Your *readme.md*
-should tell readers what they will learn by exploring this sample. The *readme.md* file should also contain
-a link to the live document on the [.NET documentation site](https://docs.microsoft.com/dotnet/welcome).
-To determine where a given file in the repository maps to that site, replace `/docs` in the repository path
-with `http://docs.microsoft.com/dotnet`.
+Each complete sample that you create should contain a *readme.md* file. This file should contain a short description of the sample (one or two paragraphs). Your *readme.md* should tell readers what they will learn by exploring this sample. The *readme.md* file should also contain a link to the live document on the [.NET documentation site](https://docs.microsoft.com/dotnet/welcome). To determine where a given file in the repository maps to that site, replace `/docs` in the repository path with `http://docs.microsoft.com/dotnet`.
 
 Your topic will also contain links to the sample. Link directly to the sample's folder on GitHub.
 
 For more information, see the [Samples Readme](https://github.com/dotnet/samples/blob/master/README.md).
 
-## The C# interactive experience #
+## The C# interactive experience
 
-Short code samples in C# can use the `csharp-interactive` language tag to
-specify a C# sample that runs in the browser. (Inline code samples use the
-`csharp-interactive` tag, for snippets included from source, use the
-`code-csharp-interactive` tag.) These code samples
-display a code window and an output window in the article. The output window displays any output from
-executing the interactive code once the user has run the sample.
+Short code samples in C# can use the `csharp-interactive` language tag to specify a C# sample that runs in the browser. (Inline code samples use the `csharp-interactive` tag, for snippets included from source, use the `code-csharp-interactive` tag.) These code samples display a code window and an output window in the article. The output window displays any output from executing the interactive code once the user has run the sample.
 
-The C# interactive experience changes how we work with samples. Visitors can run the sample
-to see the results. A number of factors help determine if the sample
-or corresponding text should include information about the output.
+The C# interactive experience changes how we work with samples. Visitors can run the sample to see the results. A number of factors help determine if the sample or corresponding text should include information about the output.
 
 ### When to display the expected output without running the sample
 
@@ -149,9 +134,10 @@ The following list shows some guiding rules that you should keep in mind when yo
 - **DO** follow the [GitHub Flow workflow](https://guides.github.com/introduction/flow/).
 - **DO** blog and tweet (or whatever) about your contributions, frequently!
 
-> Note: you might notice that some of the topics are not currently following all the guidelines specified here. We're working towards achieving consistency throughout the site. Check the list of [open issues](https://github.com/dotnet/docs/issues?q=is%3Aissue+is%3Aopen+label%3Aguidelines-adherence) we're currently tracking for that specific goal.
+> [!NOTE]
+> You might notice that some of the topics are not currently following all the guidelines specified here. We're working towards achieving consistency throughout the site. Check the list of [open issues](https://github.com/dotnet/docs/issues?q=is%3Aissue+is%3Aopen+label%3Aguidelines-adherence) we're currently tracking for that specific goal.
 
-## Contributor License Agreement
+## Contributor license agreement
 
 You must sign the [.NET Foundation Contribution License Agreement (CLA)](https://cla.dotnetfoundation.org) before your PR is merged. This is a one-time requirement for projects in the .NET Foundation. You can read more about [Contribution License Agreements (CLA)](http://en.wikipedia.org/wiki/Contributor_License_Agreement) on Wikipedia.
 

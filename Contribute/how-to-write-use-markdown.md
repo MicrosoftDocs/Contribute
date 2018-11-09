@@ -367,20 +367,13 @@ Example:
 
 ### Selectors
 
-Use selectors in technical articles when you author multiple flavors of the same article, to
-address differences in implementation across technologies or platforms. This is typically most
-applicable to our mobile platform content for developers. There are currently two different types
-of selectors in Markdig, a single selector and a multi-selector.
+Use selectors in technical articles when you author multiple flavors of the same article, to  address differences in implementation across technologies or platforms. This is typically most applicable to our mobile platform content for developers. There are currently two different types of selectors in Markdig, a single selector and a multi-selector.
 
-Because the same selector Markdown goes in each article in the selection, we recommend placing the
-selector for your article in an include. Then you can reference that include in all your articles
-that use the same selector.
+Because the same selector Markdown goes in each article in the selection, we recommend placing the selector for your article in an include. Then you can reference that include in all your articles that use the same selector.
 
 ### Code includes
 
-Markdig supports advanced inclusion of code in an article, via its code snippet extension. It
-provides advanced rendering that builds on GFM features such as programming language selection and
-syntax coloring, plus nice features such as:
+Markdig supports advanced inclusion of code in an article, via its code snippet extension. It provides advanced rendering that builds on GFM features such as programming language selection and syntax coloring, plus nice features such as:
 
 - Inclusion of centralized code samples/snippets from an external repository.
 - Tabbed UI to show multiple versions of code samples in different languages.
@@ -403,9 +396,7 @@ Escape the underscores like this:
 
 ### Apostrophes and quotation marks
 
-If you copy from Word into a Markdown editor, the text might contain "smart" (curly) apostrophes or
-quotation marks. These need to be encoded or changed to basic apostrophes or quotation marks.
-Otherwise, you end up with things like this when the file is published: Itâ€™s
+If you copy from Word into a Markdown editor, the text might contain "smart" (curly) apostrophes or quotation marks. These need to be encoded or changed to basic apostrophes or quotation marks. Otherwise, you end up with things like this when the file is published: Itâ€™s
 
 Here are the encodings for the "smart" versions of these punctuation marks:
 
@@ -416,9 +407,7 @@ Here are the encodings for the "smart" versions of these punctuation marks:
 
 ### Angle brackets
 
-It is common to use angle brackets to denote a placeholder. When you do this in text (not code),
-you must encode the angle brackets. Otherwise, Markdown thinks that they're intended to be an HTML
-tag.
+It is common to use angle brackets to denote a placeholder. When you do this in text (not code), you must encode the angle brackets. Otherwise, Markdown thinks that they're intended to be an HTML tag.
 
 For example, encode `<script name>` as `&lt;script name&gt;`
 
