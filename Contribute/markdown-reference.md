@@ -211,7 +211,7 @@ To go to a section on another page.
 To link to auto-generated API references pages in the current doc set or other doc sets, use XREF links with the unique ID (UID).
 
 > [!NOTE]
-> To reference API reference pages in other docsets, you need to add `xrefService` configuration in `docfx.json` file.
+> To reference API reference pages in other doc sets, you need to add `xrefService` configuration in `docfx.json` file.
 > ```
 > "build": {
 >   ...
@@ -313,7 +313,7 @@ This example renders on docs.microsoft.com like this:
 > * List item 2
 > * List item 3
 
-Use checklits at the beginning or end of an article to summarize "What will you learn" or "What have you learned" content. Do not add random checklists throughout your articles.
+Use checklists at the beginning or end of an article to summarize "What will you learn" or "What have you learned" content. Do not add random checklists throughout your articles.
 <!-- is this guidance still accurate? -->
 
 ## Next step action
