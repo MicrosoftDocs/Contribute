@@ -22,7 +22,7 @@ audience: internal,external
 ---
 # Markdown Reference for OPS
 
-Markdown is a lightweight markup language with plain text formatting syntax. OPS supports the CommonMark standard for Markdown, plus some custom Markdown extensions designed to provide richer content on docs.microsoft.com. This article provides an alphabetical reference for using Markdown in OPS for docs.microsoft.com.
+Markdown is a lightweight markup language with plain text formatting syntax. Open Publishing Services (OPS) supports the CommonMark standard for Markdown, plus some custom Markdown extensions designed to provide richer content on docs.microsoft.com. This article provides an alphabetical reference for using Markdown in OPS for docs.microsoft.com.
 
 You can use any text editor to author Markdown. For an editor that facilitates inserting both standard Markdown syntax and custom OPS extensions, we recommend [VS Code](https://code.visualstudio.com/) with the [Docs Authoring Pack](https://aka.ms/DocsAuthoringPack) installed.
 
@@ -30,7 +30,7 @@ OPS has standardized on Markdig for all new repos, and older repos are migrating
 
 ## Alerts (Note, Tip, Important, Caution, Warning)
 
-Alerts an OPS-specific Markdown extension to create block quotes that render on docs.microsoft.com with colors and icons that indicate the significance of the content. The following alert types are supported:
+Alerts is an OPS-specific Markdown extension to create block quotes that render on docs.microsoft.com with colors and icons that indicate the significance of the content. The following alert types are supported:
 
 ```markdown
 > [!NOTE]
