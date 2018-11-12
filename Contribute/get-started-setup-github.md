@@ -14,7 +14,7 @@ To contribute to Docs technical content, you need to set up your own GitHub acco
 If you don't already have a GitHub account, [create one](https://github.com/join). Identify any affiliations in your GitHub profile. Contributions to [docs.microsoft.com](https://docs.microsoft.com) count toward [MVP award](https://mvp.microsoft.com) consideration. Identification helps us build a complete profile of all your activities.
 
 >[!NOTE]
-> Microsoft employees participating in Open Source projects always identify themselves as such their in GitHub profiles. Community contributors should ensure that their profile does not incorrectly imply an employment relationship.
+> Microsoft employees participating in Open Source projects always identify themselves as such in their GitHub profiles. Community contributors should ensure that their profile does not incorrectly imply an employment relationship.
 
 ## Next steps
 
