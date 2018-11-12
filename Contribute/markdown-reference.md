@@ -22,7 +22,7 @@ audience: internal,external
 ---
 # Markdown Reference for OPS
 
-Markdown is a lightweight markup language with plain text formatting syntax. OPS supports the CommonMark standard for Markdown, plus some custom Markdown extensions designed to provide richer content on docs.microsoft.com. This article provides an alphabetical reference for using Markdown in OPS for docs.microsoft.com.
+Markdown is a lightweight markup language with plain text formatting syntax. Open Publishing Services (OPS) supports the CommonMark standard for Markdown, plus some custom Markdown extensions designed to provide richer content on docs.microsoft.com. This article provides an alphabetical reference for using Markdown in OPS for docs.microsoft.com.
 
 You can use any text editor to author Markdown. For an editor that facilitates inserting both standard Markdown syntax and custom OPS extensions, we recommend [VS Code](https://code.visualstudio.com/) with the [Docs Authoring Pack](https://aka.ms/DocsAuthoringPack) installed.
 
@@ -30,7 +30,7 @@ OPS has standardized on Markdig for all new repos, and older repos are migrating
 
 ## Alerts (Note, Tip, Important, Caution, Warning)
 
-Alerts an OPS-specific Markdown extension to create block quotes that render on docs.microsoft.com with colors and icons that indicate the significance of the content. The following alert types are supported:
+Alerts is an OPS-specific Markdown extension to create block quotes that render on docs.microsoft.com with colors and icons that indicate the significance of the content. The following alert types are supported:
 
 ```markdown
 > [!NOTE]
@@ -127,7 +127,7 @@ In most cases, OPS uses standard Markdown links to other files and pages. The ty
 > The Docs Authoring Pack for VS Code can help insert relative links and bookmarks correctly without the tedium of figuring out the paths!
 
 > [!IMPORTANT]
-> Do not include locale codes, such as en-us, in your links to Microsoft sites. Hard-coded locale codes prevent localized content from rendering, which is a bad customer experience for users in other locales and incurs significant localization costs. When you copy a URL from a browser, the locale code is included by default, so you need to manually delete in when you create your link. For example, use:
+> Do not include locale codes, such as en-us, in your links to Microsoft sites. Hard-coded locale codes prevent localized content from rendering, which is a bad customer experience for users in other locales and incurs significant localization costs. When you copy a URL from a browser, the locale code is included by default, so you need to manually delete it when you create your link. For example, use:
 >
 > `[Microsoft](https://www.microsoft.com)`
 >
@@ -211,7 +211,7 @@ To go to a section on another page.
 To link to auto-generated API references pages in the current doc set or other doc sets, use XREF links with the unique ID (UID).
 
 > [!NOTE]
-> To reference API reference pages in other docsets, you need to add `xrefService` configuration in `docfx.json` file.
+> To reference API reference pages in other doc sets, you need to add `xrefService` configuration in `docfx.json` file.
 > ```
 > "build": {
 >   ...
@@ -313,7 +313,7 @@ This example renders on docs.microsoft.com like this:
 > * List item 2
 > * List item 3
 
-Use checklits at the beginning or end of an article to summarize "What will you learn" or "What have you learned" content. Do not add random checklists throughout your articles.
+Use checklists at the beginning or end of an article to summarize "What will you learn" or "What have you learned" content. Do not add random checklists throughout your articles.
 <!-- is this guidance still accurate? -->
 
 ## Next step action
