@@ -16,6 +16,6 @@ If you don't already have a GitHub account, [create one](https://github.com/join
 >[!NOTE]
 > Microsoft employees participating in Open Source projects always identify themselves as such in their GitHub profiles. Community contributors should ensure that their profile does not incorrectly imply an employment relationship.
 
-## Next steps
+## Next step
 
 * Continue to the [Tool installations](get-started-setup-tools.md) article to install Git Bash, a Markdown editor, and more.
