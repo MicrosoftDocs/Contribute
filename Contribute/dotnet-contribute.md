@@ -7,26 +7,19 @@ ms.date: 11/07/2018
 
 Thank you for your interest in contributing to the .NET documentation!
 
-The document covers the process for contributing to the articles and code samples that are hosted on the [.NET documentation site](https://docs.microsoft.com/dotnet). Contributions may be as simple as typo corrections or as complex as new articles.
-
-* [Process for contributing](#process-for-contributing)
-* [The C# interactive experience](#the-c-interactive-experience)
-* [DOs and DON'Ts](#dos-and-donts)
-* [Contributor License Agreement](#contributor-license-agreement)
+This document covers the process for contributing to the articles and code samples that are hosted on the [.NET documentation site](https://docs.microsoft.com/dotnet). Contributions may be as simple as typo corrections or as complex as new articles.
 
 The .NET documentation site is built from multiple repositories:
 
 - [.NET Conceptual articles](https://github.com/dotnet/docs)
 - [Code samples and snippets](https://github.com/dotnet/samples)
-- [API reference](https://github.com/dotnet/dotnet-api-docs)
+- [.NET Standard, .NET Core, .NET Framework API reference](https://github.com/dotnet/dotnet-api-docs)
 - [.NET Compiler Platform SDK reference](https://github.com/dotnet/roslyn-api-docs)
 - [ML.NET API reference](https://github.com/dotnet/ml-api-docs)
 
-Issues and tasks for all these repositories are tracked [here](https://github.com/dotnet/docs/issues).
+Issues and tasks for all these repositories are tracked at the [dotnet/docs](https://github.com/dotnet/docs/issues) repository.
 
 ## Process for contributing
-
-You need a basic understanding of [Git and GitHub.com](https://guides.github.com/activities/hello-world/).
 
 **Step 1:** Skip this step for small changes. If you're interested in writing new content or in thoroughly revising existing content, open an [issue](https://github.com/dotnet/docs/issues) describing what you want to do.
 
@@ -34,25 +27,27 @@ The content inside the **docs** folder is organized into sections that are refle
 
 -or-
 
-You can also choose from existing issues for which community contributions are welcome. [Projects for .NET Community contributors](https://github.com/dotnet/docs/projects/35) lists many of the work items that are available for community contributors. Depending on your interests and level of commitment, you can choose from issues in the following categories:
+You can also choose from existing issues for which community contributions are welcome. [Projects for .NET Community contributors](https://github.com/dotnet/docs/projects/35) lists many of the issues that are available for community contributors. Depending on your interests and level of commitment, you can choose from issues in the following categories:
 
-- **Maintenance**. This category includes fairly simple contributions, such as fixing broken or incorrect links, adding missing code examples, or addressing limited content issues. In some cases, these issues may concern large numbers of files. In that case, you should let us know what you'd like to work on before you begin.
+- **Maintenance**. This category includes fairly simple contributions, such as fixing broken or incorrect links, adding missing code examples, or addressing limited content issues. In some cases, these issues may concern large numbers of files. In that case, you should let us know what you'd like to work on before you begin. Add a comment on the issue to tell us that you are working on it.
 
 - **Content updates**. Given the enormity of the doc set, content easily becomes outdated and requires revision. In addition, for a variety of reason, some content has been duplicated or even triplicated. Updating content involves making sure that individual topics are current or revising content in a feature area to eliminate duplication and ensure that all unique content is preserved in the smaller documentation set.
 
-- **New content authoring**. If you're interested in authoring your own topic, these issues list topics that we know we'd like to add to our doc set. Let us know before you begin working on a topic, though. If you're interested in writing a topic that isn't listed here, open an issue. 
+- **New content authoring**. If you're interested in authoring your own topic, these issues list topics that we know we'd like to add to our doc set. Let us know before you begin working on a topic, though. If you're interested in writing a topic that isn't listed here, open an issue.
 
-You can also look at our [open issues](https://github.com/dotnet/docs/issues) list and volunteer to work on the ones you're interested in. We use the [up-for-grabs](https://github.com/dotnet/docs/labels/up-for-grabs) label to tag issues open for contribution.
+You can also look at our [open issues](https://github.com/dotnet/docs/issues) list and volunteer to work on the ones you're interested in. We use the [up-for-grabs](https://github.com/dotnet/docs/labels/up-for-grabs) label to tag issues identified for community contribution. These usually require minimal context and are well-suited for first issues. We encourage experienced contributors in our community to look at any issues of interest. When you find one, add a comment to ask if it's open.
 
-**Step 2:** Fork the `/dotnet/docs`, `dotnet/samples` or `dotnet/dotnet-api-docs` repos as needed and create a branch for your changes.
+Once you've picked a task to work on, follow the [get started](get-started-setup-github.md) guide to create a GitHub account and setup your environment.
 
-For small changes, see the instructions on editing in GitHub on the [home page](index.md) of the contributor guide.
+**Step 2:** Fork the `/dotnet/docs`, `dotnet/samples`, `dotnet/dotnet-api-docs`, `dotnet/roslyn-api-docs`, or `dotnet/ml-api-docs` repos as needed and create a branch for your changes.
+
+For small changes, see the instructions on editing in GitHub on the [home page](index.md#quick-edits-to-existing-documents) of the contributor guide.
 
 **Step 3:** Make the changes on this new branch.
 
 If it's a new topic, you can use this [template file](dotnet-style-guide.md) as your starting point. It contains the writing guidelines and also explains the metadata required for each article, such as author information.
 
-Navigate to the folder that corresponds to the TOC location determined for your article in step 1. That folder contains the Markdown files for all articles in that section. If necessary, create a new folder to place the files for your content. The main article for that section is called *index.md*. For images and other static resources, create a subfolder called **media** inside the folder that contains your article, if it doesn't already exist. Inside the **media** folder, create a subfolder with the article name (except for the index file). Include larger samples in the *samples* folder under the root of the repo.
+Navigate to the folder that corresponds to the TOC location determined for your article in step 1. That folder contains the Markdown files for all articles in that section. If necessary, create a new folder to place the files for your content. The main article for that section is called *index.md*. For images and other static resources, create a subfolder called **media** inside the folder that contains your article, if it doesn't already exist. Inside the **media** folder, create a subfolder with the article name (except for the index file). Sample code should be in the `dotnet/samples` repo, as described in the section on [samples](#contributing-to-samples).
 
 Be sure to follow the proper Markdown syntax. For examples of common , see the [template and markdown cheatsheet](dotnet-style-guide.md).
 
@@ -67,11 +62,11 @@ Be sure to follow the proper Markdown syntax. For examples of common , see the [
             /porting-overview
                 portability_report.png
 
-**Step 4:** Submit a Pull Request (PR) from your branch to `dotnet/docs/master`.
+**Step 4:** Submit a Pull Request (PR) from your branch to the master branch.
 
-Each PR should usually address one issue at a time. The PR can modify one or multiple files. If you're addressing multiple fixes on different files, separate PRs are preferred.
+Each PR should usually address one issue at a time. The PR can modify one or multiple files. If you're addressing multiple fixes on different files, separate PRs are preferred. If you are creating samples as well as updating markdown, you'll need to create a separate PR for samples.
 
-If your PR is addressing an existing issue, add the `Fixes #Issue_Number` keyword to the commit message or PR description. That way, the issue is automatically closed when the PR is merged. For more information, see [Closing issues via commit messages](https://help.github.com/articles/closing-issues-via-commit-messages/).
+If your PR fixes an existing issue, add the `Fixes #Issue_Number` keyword to the commit message or PR description. That way, the issue is automatically closed when the PR is merged. For more information, see [Closing issues via commit messages](https://help.github.com/articles/closing-issues-via-commit-messages/).
 
 The .NET team will review your PR and let you know if there are any other updates/changes necessary in order to approve it.
 
@@ -79,7 +74,7 @@ The .NET team will review your PR and let you know if there are any other update
 
 The maintainers will merge your PR into the master branch once feedback has been applied and your change is approved.
 
-On a certain cadence, we push all commits from master branch into the live branch and then you'll be able to see your contribution live at https://docs.microsoft.com/dotnet/.
+We regularly push all commits from master branch into the live branch and then you'll be able to see your contribution live at https://docs.microsoft.com/dotnet/. We typically publish daily during the work week. Maintenance activities may delay publishing for a few days.
 
 ### Contributing to samples
 
@@ -92,7 +87,7 @@ We make the following distinction for code that exists in our repository:
 Code all lives in the [dotnet/samples](https://github.com/dotnet/samples) repository. We are working toward a model where our samples folder structure matches our docs folder structure. Standards that we follow are:
 
 - The top level *snippets* folder contains snippets for small, focused samples.
-- API reference samples have been in a folder following this pattern: *snippets/\<language>/api/\<namespace>/\<apiname>*.
+- API reference samples are placed in a folder following this pattern: *snippets/\<language>/api/\<namespace>/\<apiname>*.
 - Other top-level folders match the top level folders in the *docs* repository. For example, the docs repository has a *machine-learning/tutorials* folder, and the samples for machine learning tutorials are in the *samples/machine-learning/tutorials* folder.
 
 In addition, all samples under the *core* and *standard* folders should build and run on all platforms supported by .NET Core. Our CI build system will enforce that. The top level *framework* folder contains samples that are only built and validated on Windows.
@@ -135,7 +130,7 @@ The following list shows some guiding rules that you should keep in mind when yo
 - **DO** blog and tweet (or whatever) about your contributions, frequently!
 
 > [!NOTE]
-> You might notice that some of the topics are not currently following all the guidelines specified here. We're working towards achieving consistency throughout the site. Check the list of [open issues](https://github.com/dotnet/docs/issues?q=is%3Aissue+is%3Aopen+label%3Aguidelines-adherence) we're currently tracking for that specific goal.
+> You might notice that some of the topics are not currently following all the guidelines specified here. We're working towards achieving consistency throughout the site. Check the list of [open issues](https://github.com/dotnet/docs/issues?q=is%3Aopen+is%3Aissue+label%3A%22%3Abookmark_tabs%3A+Information+Architecture%22) we're currently tracking for that specific goal.
 
 ## Contributor license agreement
 

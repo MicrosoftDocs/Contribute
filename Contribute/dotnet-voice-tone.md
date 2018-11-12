@@ -7,13 +7,6 @@ ms.date: 11/07/2018
 
 A wide variety of people including IT Pros and developers read your documents both to learn .NET and to use it in their regular work. Your goal is to create great documentation that helps the reader on their journey. Our guidelines help with that. Our style guide contains the following recommendations:
 
-- [Use a conversational tone](#use-a-conversational-tone)
-- [Write in second person](#write-in-2nd-person)
-- [Use active voice](#use-active-voice)
-- [Target a 5th grade reading level](#target-a-fifth-grade-reading-level)
-- [Avoid future tense](#avoid-future-tense)
-- [What is it - so what?](#what-is-it-so-what)
-
 You can see examples of each of these as you read this style guide. We've written this guide following our guidelines to provide examples for you to follow as you build documentation for .NET. We also provide contrasting samples so you can see what articles look like when you don't follow our guidelines.
 
 ## Use a conversational tone
