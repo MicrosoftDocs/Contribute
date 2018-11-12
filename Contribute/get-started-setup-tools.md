@@ -41,7 +41,7 @@ Markdown is a lightweight markup language that is both easy to read and easy to 
 
 Markdown text is saved into files with .md extension.
 
-Additional details on how to write with Markdown, including Markdown basics and the features supported by OPS custom Markdown extensions, are covered later in the [How to use Markdown](how-to-write-use-markdown.md) article.
+Additional details on how to write with Markdown, including Markdown basics and the features supported by Open Publishing Services (OPS) custom Markdown extensions, are covered in the [How to use Markdown for writing Docs](how-to-write-use-markdown.md) and [Markdown Reference for OPS](markdown-reference.md) articles.
 
 ## Visual Studio Code
 
