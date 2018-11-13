@@ -57,7 +57,7 @@ This is text is both ***bold and italic***.
 
 ### Blockquotes
 
-Blockquotes are created using the `>`character:
+Blockquotes are created using the `>` character:
 
 ```markdown
 > The drought had lasted now for ten million years, and the reign of the terrible lizards had long since ended. Here on the Equator, in the continent which would one day be known as Africa, the battle for existence had reached a new climax of ferocity, and the victor was not yet in sight. In this barren and desiccated land, only the small or the swift or the fierce could flourish, or even hope to survive.

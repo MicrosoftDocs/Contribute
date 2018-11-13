@@ -11,19 +11,16 @@ When creating a Markdown file, you should copy the included template to a new fi
 
 ## Metadata
 
-The full metadata block is in the following sample metadata block:
+The required metadata block is in the following sample metadata block:
 
 ```markdown
 ---
-# required/recommended metadata
-
 title: [ARTICLE TITLE]
 description: [usually a summary of your first paragraph. It gets displayed in search results, and can help drive the correct traffic if well written.]
 author: [GITHUB USERNAME]
 ms.date: [CREATION/UPDATE DATE - mm/dd/yyyy]
 ---
-# The H1 should note be the same as the title, but should describe the article contents.
-
+# The H1 should not be the same as the title, but should describe the article contents
 ```
 
 - You **must** have a space between the colon (:) and the value for a metadata element.
@@ -31,6 +28,9 @@ ms.date: [CREATION/UPDATE DATE - mm/dd/yyyy]
 - **title**: Appears in search engine results. The title shouldn't be identical to the title in your H1 heading, and it should contain 60 characters or less.
 - **description**: Summarizes the content of the article. It's usually shown in the search results page, but it isn't used for search ranking. Its length should be 115-145 characters including spaces.
 - **author**: The author field should contain the **GitHub username** of the author.
+- **ms.date**: The date of the last significant update. Update this on existing articles if you reviewed and updated the entire article. Small fixes, such as typos or similar do not warrant an update.
+
+Other metadata is attached to each article, but we typically apply most metadata values at the folder level, specified in **docfx.json**.
 
 ## Basic Markdown, GFM, and special characters
 
@@ -54,10 +54,7 @@ File names use the following rules:
 
 ## Headings
 
-Use sentence-style capitalization. Always capitalize:
-
-- The first word of a heading.
-- The word following a colon in a title or heading (for example, "How to: Sort an array").
+Use sentence-style capitalization. Always capitalize the first word of a heading.
 
 ## Text styling
 
@@ -74,7 +71,7 @@ Use for inline code, language keywords, NuGet package names, command-line comman
 
 See the general article on [Links](how-to-write-links.md) for information about anchors, internal links, links to other documents, code includes, and external links.
 
-The .NET Docs team uses the following conventions:
+The .NET docs team uses the following conventions:
 
 - In most cases, we use the relative links and discourage the use of `~/` in links because relative links resolve in the source on GitHub. However, whenever we link to a file in a dependent repo, we'll use the `~/` character to provide the path. Because the files in the dependent repo are in a different location in GitHub the links won't resolve correctly with relative links regardless of how they were written.
 - The C# language specification and the Visual Basic language specification are included in the .NET docs by including the source from the language repositories. The markdown sources are managed in the [csharplang](https://github.com/dotnet/csharplang) and [vblang](https://github.com/dotnet/vblang) repositories.
@@ -117,11 +114,11 @@ If you add a \* (or %2A) after the UID, the link then represents the overload pa
 
 To link to a specific method overload, you must include the fully qualified type name of each of the method's parameters. For example, \<xref:System.DateTime.ToString> links to the parameterless [DateTime.ToString](https://docs.microsoft.com/dotnet/api/system.datetime.tostring#System_DateTime_ToString) method, while \<xref:System.DateTime.ToString(System.String,System.IFormatProvider)> links to the  [DateTime.ToString(String,IFormatProvider)](https://docs.microsoft.com/dotnet/api/system.datetime.tostring#System_DateTime_ToString_System_String_System_IFormatProvider_) method.
 
-To link to a generic type, such as [System.Collections.Generic.List\<T>](https://docs.microsoft.com/dotnet/api/system.collections.generic.list-1), you use the ` (%60) character followed by the number of generic type parameters. For example, \<xref:System.Nullable%601> links to the [System.Nullable\<T>](https://docs.microsoft.com/dotnet/api/system.nullable-1) type, while \<xref:System.Func%602> links to the [System.Func\<T,TResult>](https://docs.microsoft.com/dotnet/api/system.func-2) delegate.
+To link to a generic type, such as [System.Collections.Generic.List\<T>](https://docs.microsoft.com/dotnet/api/system.collections.generic.list-1), you use the \` (%60) character followed by the number of generic type parameters. For example, \<xref:System.Nullable%601> links to the [System.Nullable\<T>](https://docs.microsoft.com/dotnet/api/system.nullable-1) type, while \<xref:System.Func%602> links to the [System.Func\<T,TResult>](https://docs.microsoft.com/dotnet/api/system.func-2) delegate.
 
 ## Code
 
-The best way to include code is to include snippets from a working sample. Create your sample following the instructions in the [contributing to .NET](dotnet-contribute.md#contributing-to-samples) article. The basic rules for including code are located in the general guidance on [code](how-to-write-use-markdown.md#code-includes).
+The best way to include code is to include snippets from a working sample. Create your sample following the instructions in the [contributing to .NET](dotnet-contribute-process.md#contributing-to-samples) article. The basic rules for including code are located in the general guidance on [code](how-to-write-use-markdown.md#code-includes).
 
 You can include the code using the following syntax:
 
@@ -140,15 +137,17 @@ You can include the code using the following syntax:
 
 * `<queryoption>` (*optional*)
   * Used to specify how the code should be retrieved from the file:
-    * `#`:  `#L{startlinenumber}-L{endlinenumber}` (line range) *or* `#{tagname}` (tag name).
-    We discourage the use of line numbers because they are very brittle. Tag name is the preferred way of referencing code snippets.
+    * `#`:  `#{tagname}` (tag name) *or* `#L{startlinenumber}-L{endlinenumber}` (line range).
+    We discourage the use of line numbers because they are very brittle. Tag name is the preferred way of referencing code snippets. Use meaningful tag names. (Many snippets were migrated from a previous platform and the tags have names such as `Snippet1`, `Snippet2` etc. That practice is much harder to maintain.)
     * `range`: `?range=1,3-5` A range of lines. This example includes lines 1, 3, 4, and 5.
 
 We recommend using the tag name option whenever possible. The tag name is the name of a region or of a code comment in the format of `Snippettagname` present in the source code. The following example shows how to refer to the tag name `BasicThrow`:
 
 ```markdown
-[!code-csharp[csrefKeyword#1](../../../../samples/snippets/csharp/language-reference/keywords/throw/throw-1.cs#BasicThrow)]
+[!code-csharp[csrefKeyword#1](~/samples/snippets/csharp/language-reference/keywords/throw/throw-1.cs#BasicThrow)]
 ```
+
+The relative path to the source in the **dotnet/samples** repo follows the `~/samples` path.
 
 And you can see how the snippet tags are structured in [this source file](https://github.com/dotnet/samples/blob/master/snippets/csharp/language-reference/keywords/throw/throw-1.cs). For details about tag name representation in code snippet source files by language, see the [DocFX guidelines](https://dotnet.github.io/docfx/spec/docfx_flavored_markdown.html#tag-name-representation-in-code-snippet-source-file).
 

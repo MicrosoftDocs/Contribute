@@ -52,7 +52,7 @@ We provide this final guideline because many of our readers are not native Engli
 
 However, you are still writing for technical professionals. You can assume that your readers have programming knowledge and the specific vocabulary for programming terms. Object Oriented Programming, Class, and Object, Function and Method are familiar terms. However, not everyone reading your articles has a formal computer science degree. Terms like 'idempotent' probably need to be defined if you use it:
 
->The Close() method is idempotent, meaning that you can call it multiple times and the effect is the same as if you called it once.
+>The `Close()` method is idempotent, meaning that you can call it multiple times and the effect is the same as if you called it once.
 
 ## Avoid future tense
 
