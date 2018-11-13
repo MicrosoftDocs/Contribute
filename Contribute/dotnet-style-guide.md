@@ -133,7 +133,7 @@ You can include the code using the following syntax:
   * Name for the code snippet. It doesn’t have any impact on the output HTML, but you can use it to improve the readability of your Markdown source.
 
 * `<pathToFile>` (*mandatory*)
-  * Relative path in the file system that indicates the code snippet file to reference.
+  * Relative path in the file system that indicates the code snippet file to reference. This can be complicated by the different repos that make up the .NET doc set. The .NET samples are in the dotnet/samples repo. All snippet paths would start with `~/samples`, the rest of the path being the path to the source from the root of that repo.
 
 * `<queryoption>` (*optional*)
   * Used to specify how the code should be retrieved from the file:
@@ -144,12 +144,12 @@ You can include the code using the following syntax:
 We recommend using the tag name option whenever possible. The tag name is the name of a region or of a code comment in the format of `Snippettagname` present in the source code. The following example shows how to refer to the tag name `BasicThrow`:
 
 ```markdown
-[!code-csharp[csrefKeyword#1](~/samples/snippets/csharp/language-reference/keywords/throw/throw-1.cs#BasicThrow)]
+[!code-csharp[csrefKeyword#1](~/samples/snippets/snippets/csharp/language-reference/operators/ConditionalExamples.csConditionalRef)]
 ```
 
 The relative path to the source in the **dotnet/samples** repo follows the `~/samples` path.
 
-And you can see how the snippet tags are structured in [this source file](https://github.com/dotnet/samples/blob/master/snippets/csharp/language-reference/keywords/throw/throw-1.cs). For details about tag name representation in code snippet source files by language, see the [DocFX guidelines](https://dotnet.github.io/docfx/spec/docfx_flavored_markdown.html#tag-name-representation-in-code-snippet-source-file).
+And you can see how the snippet tags are structured in [this source file](https://github.com/dotnet/samples/blob/master/snippets/csharp/language-reference/operators/ConditionalExamples.cs). For details about tag name representation in code snippet source files by language, see the [DocFX guidelines](https://dotnet.github.io/docfx/spec/docfx_flavored_markdown.html#tag-name-representation-in-code-snippet-source-file).
 
 The following example shows code included in all three .NET languages:
 
