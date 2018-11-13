@@ -25,7 +25,7 @@ Before you start, let's review some of the Git/GitHub terms and monikers used in
 | Name | Description |
 |-----------|-------------|
 |fork|Normally used as a noun, when referring to a copy of a main GitHub repository. In practice, a fork is just another repository. But it's special in the sense that GitHub maintains a connection back to the main/parent repository. It's sometimes used as a verb, as in "You must fork the repository first."|
-|remote|A named connection to a remote repository, such as the "origin" or "upstream" remote. Git refers to these as remotes because they are used to reference a repository that's hosted on another computer. In this workflow, a remote is always a GitHub repository.|
+|remote|A named connection to a remote repository, such as the "origin" or "upstream" remote. Git refers to this as remote because it is used to reference a repository that's hosted on another computer. In this workflow, a remote is always a GitHub repository.|
 |origin|The name assigned to the connection between your local repository and the repository from which it was cloned. In this workflow, origin represents the connection to your fork. It's sometimes used as a moniker for the origin repository itself, as in "Remember to push your changes to origin."|
 |upstream|Like the origin remote, upstream is a named connection to another repository. In this workflow, upstream represents the connection between your local repository and the main repository, from which your fork was created. It's sometimes used as a moniker for the upstream repository itself, as in "Remember to pull the changes from upstream."|
 
