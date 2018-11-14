@@ -32,10 +32,12 @@ Quick edits streamline the process to report and fix small errors and omissions 
 
 Next, click the pencil icon, shown in the following figure to edit the article.
 
-> [!NOTE]
-> If the pencil icon is grayed out, you need to login to your GitHub account, or create a new account. Make your changes in the web editor. You can click the **Preview changes** tab to check the formatting of your change.
-
 ![Location of the pencil icon](./media/index/editicon.png)
+
+> [!NOTE]
+> If the pencil icon is grayed out, you need to login to your GitHub account, or create a new account.
+
+Make your changes in the web editor. You can click the **Preview changes** tab to check the formatting of your change.
 
 Once you have made your changes, scroll to the bottom of the page. Enter a title and description for your PR and click **Propose file change** as shown in the following figure:
 
