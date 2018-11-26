@@ -11,6 +11,12 @@
 ## [Style and voice quick start](style-quick-start.md)
 ## [Links](how-to-write-links.md)
 ## [Docs Authoring Pack](how-to-write-docs-auth-pack.md)
+# Documentation set-specific guidance
+## [.NET docs](dotnet-contribute.md)
+### [Contribute to .NET docs](dotnet-contribute-process.md)
+### [.NET docs style conventions](dotnet-style-guide.md)
+### [Voice and tone guide](dotnet-voice-tone.md)
+# [Additional resources](additional-resources.md)
 
 <!--
 ## Creating new content
@@ -74,4 +80,3 @@
 
      Open question: How to keep this up to date?
    -->
-## [Additional resources](additional-resources.md)

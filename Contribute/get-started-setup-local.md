@@ -23,7 +23,7 @@ You run these one-time setup activities to get started contributing:
 
 ## Overview
 
-To contribute to Microsoft's documentation site, you can make and edit Markdown files locally by cloning the corresponding documentation repository. Microsoft requires you to fork the appropriate repository into your own GitHub account, so that you have read/write permissions there to store your proposed changes. Then you use pull requests to merge changes into the read-only central shared repository.
+To contribute to Microsoft's documentation site, you can make and edit Markdown files locally by cloning the corresponding documentation repository. Microsoft requires you to fork the appropriate repository into your own GitHub account so that you have read/write permissions there to store your proposed changes. Then you use pull requests to merge changes into the read-only central shared repository.
 
 ![GitHub Triangle](./media/git-and-github-initial-setup.png)
 
@@ -86,7 +86,7 @@ Make a local folder to hold a copy of the repository locally. Some of the reposi
 Using Git Bash, prepare to run the **clone** command to pull a copy of a repository (your fork) down to your device on the current directory. 
 
 ### Authenticate by using Git Credential Manager
-If you installed the latest version of Git for Windows and accepted the default installation, Git Credential Manager is enabled by default. Git Credential Manager makes authentication much easier, because you don't need to recall your personal access token when re-establishing authenticated connections and remotes with GitHub.
+If you installed the latest version of Git for Windows and accepted the default installation, Git Credential Manager is enabled by default. Git Credential Manager makes authentication much easier because you don't need to recall your personal access token when re-establishing authenticated connections and remotes with GitHub.
 
 1. Run the **clone** command, by providing the repository name. Cloning downloads (clone) the forked repository on your local computer. 
 

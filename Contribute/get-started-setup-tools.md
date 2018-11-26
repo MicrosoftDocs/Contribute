@@ -41,7 +41,7 @@ Markdown is a lightweight markup language that is both easy to read and easy to 
 
 Markdown text is saved into files with .md extension.
 
-Additional details on how to write with Markdown, including Markdown basics and the features supported by OPS custom Markdown extensions, are covered later in the [How to use Markdown](how-to-write-use-markdown.md) article.
+Additional details on how to write with Markdown, including Markdown basics and the features supported by Open Publishing Services (OPS) custom Markdown extensions, are covered in the [How to use Markdown for writing Docs](how-to-write-use-markdown.md) and [Markdown Reference for OPS](markdown-reference.md) articles.
 
 ## Visual Studio Code
 
@@ -54,7 +54,7 @@ Download and install [VS Code](https://code.visualstudio.com/). The VS Code home
 - [Linux](https://code.visualstudio.com/docs/setup/linux)
 
 > [!TIP]
-> To launch VS Code and open the current folder, run the command `code .` in the command line or bash shell. If the current folder is part of a local git repo, the github integration appears in Visual Studio Code automatically.
+> To launch VS Code and open the current folder, run the command `code .` in the command line or bash shell. If the current folder is part of a local git repo, the GitHub integration appears in Visual Studio Code automatically.
 
 ## Docs Authoring Pack
 Install the Docs Authoring Pack for Visual Studio Code. This set of extensions includes basic authoring assistance for help when writing Markdown, and a preview feature, so that you can see what the Markdown looks like in the style of the docs.microsoft.com site.
