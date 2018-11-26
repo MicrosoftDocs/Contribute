@@ -1,6 +1,6 @@
 ---
 title: Contribute to the .NET docs repositories
-description: This article of the repositories that make up the .NET documentation.
+description: This article one of the repositories that make up the .NET documentation.
 ms.date: 11/07/2018
 ---
 # Learn how to contribute to the .NET docs repositories
