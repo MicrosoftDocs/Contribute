@@ -125,6 +125,7 @@ To create a sample:
 2. Write the topic that explains the concepts demonstrated in your sample (example: `docs/standard/linq/where-clause.md`).
 3. Write your sample (example: `WhereClause-Sample1.cs`).
 4. Create a Program.cs with a Main entry point that calls your samples. If there is already one there, add the call to your sample:
+
     ```csharp
     public class Program
     {
@@ -137,6 +138,7 @@ To create a sample:
         }
     }
     ```
+
 You build any .NET Core snippet or sample using the .NET Core CLI, which can be installed with [the .NET Core SDK](https://www.microsoft.com/net/download). To build and run your sample:
 
 1. Go to the sample folder and build to check for errors:
