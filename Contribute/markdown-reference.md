@@ -1,7 +1,7 @@
 ---
 # required metadata
-title: Markdown reference for OPS and docs.microsoft.com
-description: The OPS platform guide to Markdown and DocFX Flavored Markdown (DFM) extensions.
+title: Markdown reference for docs.microsoft.com
+description: The Docs platform guide to Markdown.
 author: meganbradley
 ms.author: mbradley
 manager: jemash
@@ -20,17 +20,17 @@ audience: internal,external
 #ms.custom:
 
 ---
-# Markdown Reference for OPS
+# Markdown Reference
 
-Markdown is a lightweight markup language with plain text formatting syntax. Open Publishing Services (OPS) supports the CommonMark standard for Markdown, plus some custom Markdown extensions designed to provide richer content on docs.microsoft.com. This article provides an alphabetical reference for using Markdown in OPS for docs.microsoft.com.
+Markdown is a lightweight markup language with plain text formatting syntax. The Docs platform supports the CommonMark standard for Markdown, plus some custom Markdown extensions designed to provide richer content on docs.microsoft.com. This article provides an alphabetical reference for using Markdown for docs.microsoft.com.
 
-You can use any text editor to author Markdown. For an editor that facilitates inserting both standard Markdown syntax and custom OPS extensions, we recommend [VS Code](https://code.visualstudio.com/) with the [Docs Authoring Pack](https://aka.ms/DocsAuthoringPack) installed.
+You can use any text editor to author Markdown. For an editor that facilitates inserting both standard Markdown syntax and custom Docs extensions, we recommend [VS Code](https://code.visualstudio.com/) with the [Docs Authoring Pack](https://aka.ms/DocsAuthoringPack) installed.
 
-OPS has standardized on Markdig for all new repos, and older repos are migrating to Markdig. You can test the rendering of Markdown in Markdig vs. other engines at [https://babelmark.github.io/](https://babelmark.github.io/).
+Docs uses the Markdig Markdown engine. You can test the rendering of Markdown in Markdig vs. other engines at [https://babelmark.github.io/](https://babelmark.github.io/).
 
 ## Alerts (Note, Tip, Important, Caution, Warning)
 
-Alerts is an OPS-specific Markdown extension to create block quotes that render on docs.microsoft.com with colors and icons that indicate the significance of the content. The following alert types are supported:
+Alerts are a Docs Markdown extension to create block quotes that render on docs.microsoft.com with colors and icons that indicate the significance of the content. The following alert types are supported:
 
 ```markdown
 > [!NOTE]
@@ -76,7 +76,7 @@ You can embed code snippets in your Markdown files:
 
 ## Headings
 
-OPS supports six levels of Markdown headings:
+Docs supports six levels of Markdown headings:
 
 ```markdown
 # This is a first level heading (H1)
@@ -97,7 +97,7 @@ OPS supports six levels of Markdown headings:
 
 ## HTML
 
-Although Markdown supports inline HTML, HTML is not recommended for publishing via OPS, and except for a limited list of values will cause build errors or warnings. <!--For more information, see HTML Whitelist. // do we want to add the whitelist? -->
+Although Markdown supports inline HTML, HTML is not recommended for publishing to Docs, and except for a limited list of values will cause build errors or warnings. <!--For more information, see HTML Whitelist. // do we want to add the whitelist? -->
 
 ## Images
 
@@ -121,7 +121,7 @@ You can add support for other image types by adding them as resources to the doc
 
 ## Links
 
-In most cases, OPS uses standard Markdown links to other files and pages. The types of links are described in subsections below.
+In most cases, Docs uses standard Markdown links to other files and pages. The types of links are described in subsections below.
 
 > [!TIP]
 > The Docs Authoring Pack for VS Code can help insert relative links and bookmarks correctly without the tedium of figuring out the paths!
@@ -137,7 +137,7 @@ In most cases, OPS uses standard Markdown links to other files and pages. The ty
 
 ### Relative links to files in the same doc set
 
-A relative path is the path to the target file relative to the current file. In OPS, you can use a relative path to link to another file within the same doc set. The syntax for a relative path is as follows:
+A relative path is the path to the target file relative to the current file. In Docs, you can use a relative path to link to another file within the same doc set. The syntax for a relative path is as follows:
 
 ```markdown
 [link text](../../folder/filename.md)
@@ -147,7 +147,7 @@ Where `../` indicates one level above in the hierarchy.
 
 - The relative path will be resolved during the build, including removal of the .md extension.
 - You can use "../" to link to a file in the parent folder, but that file has to be in the same doc set. You cannot use "../" to link to a file in another doc set folder.
-- OPS also supports a special form of relative path that starts with "~" (for example, ~/foo/bar.md). This syntax indicates a file relative to the root folder of a doc set. This kind of path is also validated and resolved during the build.
+- Docs also supports a special form of relative path that starts with "~" (for example, ~/foo/bar.md). This syntax indicates a file relative to the root folder of a doc set. This kind of path is also validated and resolved during the build.
 
 > [!IMPORTANT]
 > Include the file extension in the relative path. Build validates the existence of the target file of that relative path. If relative path does not include file extension, it is likely build will report a warning of broken link. For example, use:
@@ -158,7 +158,7 @@ Where `../` indicates one level above in the hierarchy.
 >
 > `[link text](../../folder/filename)`
 
-### Absolute links to other files in OPS
+### Site relative links to other files on Docs
 
 ```markdown
 [Azure and Linux](/articles/virtual-machines/linux/overview)
@@ -257,7 +257,7 @@ Using XREF may require some configuration. For more information, see XREF Servic
 
 To create a numbered list, you can use all 1s, which are rendered as a sequential list when published. For increased source readability, you can increment your lists.
 
-Do not use letters in lists, including nested lists. They do not render correctly when published via OPS. Nested lists using numbers will render as lowercase letters when published. For example:
+Do not use letters in lists, including nested lists. They do not render correctly when published to Docs. Nested lists using numbers will render as lowercase letters when published. For example:
 
 ```markdown
 1. This is
@@ -430,14 +430,6 @@ You can use a selector when you want to connect different pages for the same art
 > - [(Xamarin iOS | Javascript)](how-to-write-workflows-major.md)
 > - [(Xamarin Android | Javascript)](how-to-write-workflows-major.md)
 
-<!-- uncomment and link when Cory's topic is live
-## Tabbed content
-
-Tabs are a Markdown extension for docs.microsoft.com that allow us to present different versions of content, such as procedural steps to accomplish the same task on different platforms, in a tabbed format.
-
-Because the syntax and requirements for tabbed content are fairly complex, they are documented separately in Tabbed Content.
--->
-
 ## Tables
 
 The simplest way to create a table in Markdown is to use pipes and lines. To create a standard table with a header, follow the first line with dashed line:
@@ -542,13 +534,13 @@ HTML tables are not recommended for docs.microsoft.com. They are not human reada
 
 ### Embedding videos into a Markdown page
 
-Currently, OPS can support videos published to one of three locations:
+Currently, Docs can support videos published to one of three locations:
 
 - YouTube
 - Channel 9
 - Microsoft's own 'One Player' system
 
-You can embed a video with the following syntax, and OPS will render it.
+You can embed a video with the following syntax, and Docs will render it.
 
 ```markdown
 > [!VIDEO <embedded_video_link>]
