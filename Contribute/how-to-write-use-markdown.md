@@ -276,8 +276,8 @@ __Markdown__
 
     ```sql
     CREATE TABLE T1 (
-      c1 int PRIMARY KEY,
-      c2 varchar(50) SPARSE NULL
+      c1 int PRIMARY KEY,
+      c2 varchar(50) SPARSE NULL
     );
     ```
 
@@ -285,8 +285,8 @@ __Render__
 
 ```sql
 CREATE TABLE T1 (
-  c1 int PRIMARY KEY,
-  c2 varchar(50) SPARSE NULL
+  c1 int PRIMARY KEY,
+  c2 varchar(50) SPARSE NULL
 );
 ```
 
@@ -348,21 +348,21 @@ These render as follows:
 
 ### Include files
 
-When you have reusable text or image files that need to be included in article files, you can use a reference to the "include" file via the Markdig file include feature. This feature instructs OPS to include the file in your article file at build time, making it part of your published article. Three types of include extensions are available to help you reuse content:
+When you have reusable text or image files that need to be included in article files, you can use a reference to the "include" file via the Markdig file include feature. This feature instructs OPS to include the file in your article file at build time, making it part of your published article. Three types of include references are available to help you reuse content:
 
 - Inline: Reuse a common text snippet inline with within another sentence.
 - Block: Reuse an entire Markdown file as a block, nested within a section of an article.
 - Image: This is how standard image inclusion is implemented in Docs.
 
-An inline or block include extension is just a simple Markdown (.md) file. It can contain any valid Markdown. All include Markdown files should be placed in a [common `/includes` subdirectory](git-github-fundamentals.md#includes-subdirectory), in the root of the repository. When the article is published, the included file is seamlessly integrated into it.
+An inline or block include file is just a simple Markdown (.md) file. It can contain any valid Markdown. All include Markdown files should be placed in a [common `/includes` subdirectory](git-github-fundamentals.md#includes-subdirectory), in the root of the repository. When the article is published, the included file is seamlessly integrated into it.
 
-Here are requirements and considerations for include extensions:
+Here are requirements and considerations for include files:
 
-- Use an include extension whenever you need the same text to appear in multiple articles.
-- Use a block include extension for significant amounts of content--a paragraph or two, a shared procedure, or a shared section. Do not use them for anything smaller than a sentence.
-- Include extensions won't be rendered in the GitHub rendered view of your article, because they rely on Markdig extensions. They'll be rendered only after publication.
+- Use an include file whenever you need the same text to appear in multiple articles.
+- Use a block include reference for significant amounts of content--a paragraph or two, a shared procedure, or a shared section. Do not use them for anything smaller than a sentence.
+- Include references won't be rendered in the GitHub rendered view of your article, because they rely on Markdig extensions. They'll be rendered only after publication.
 - Ensure that all the text in an include file is written in complete sentences or phrases that do not depend on preceding text or following text in the article that references the include file. Ignoring this guidance creates an untranslatable string in the article that breaks the localized experience.
-- Don't embed include extensions within other include files. They are not supported.
+- Don't embed include references within other include files. They are not supported.
 - Place media files in a media folder that's specific to the include subdirectory--for instance, the `<repo>`/includes/media folder. The media directory should not contain any images in its root. If the include file does not have images, a corresponding media directory is not required.
 - As with regular articles, don't share media between include files. Use a separate file with a unique name for each include file and article. Store the media file in the media folder that's associated with the include file.
 - Don't use an include file as the only content of an article.  Include files are meant to be supplemental to the content in the rest of the article.
@@ -389,7 +389,7 @@ The following shows an example selector:
 
 You can see an example of selectors in action at the [Azure docs](https://docs.microsoft.com/azure/expressroute/expressroute-howto-circuit-classic).
 
-### Code include extensions
+### Code include references
 
 Markdig supports advanced inclusion of code in an article, via its code snippet extension. It provides advanced rendering that builds on GFM features such as programming language selection and syntax coloring, plus nice features such as:
 
