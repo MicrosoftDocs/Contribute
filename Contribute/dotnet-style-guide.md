@@ -243,13 +243,13 @@ Button links:
 
 ```markdown
 > [!div class="button"]
-[button links](dotnet-contribute.md)
+> [button links](dotnet-contribute.md)
 ```
 
 This renders as:
 
 > [!div class="button"]
-[button links](dotnet-contribute.md)
+> [button links](dotnet-contribute.md)
 
 You can see an example of buttons in action in the [Visual Studio docs](https://docs.microsoft.com/visualstudio/install/install-visual-studio#step-2---download-visual-studio).
 
@@ -257,8 +257,8 @@ You can see an example of buttons in action in the [Visual Studio docs](https://
 
 ```markdown
 >[!div class="step-by-step"]
-[Pre](../docs/csharp/expression-trees-interpreting.md)
-[Next](../docs/csharp/expression-trees-translating.md)
+> [Pre](../docs/csharp/expression-trees-interpreting.md)
+> [Next](../docs/csharp/expression-trees-translating.md)
 ```
 
 You can see an example of step-by-steps in action at the [C# Guide](https://docs.microsoft.com/dotnet/csharp/tour-of-csharp/program-structure).
