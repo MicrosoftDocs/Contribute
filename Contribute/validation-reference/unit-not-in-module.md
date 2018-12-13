@@ -4,7 +4,7 @@ description: Explanation and resolution for Docs build issue unit-not-in-module.
 author: meganbradley
 ms.author: mbradley
 ms.topic: error-reference
-ms.date: {@date}
+ms.date: 12/12/2018
 ms.prod: non-product-specific
 ---
 # unit-not-in-module
