@@ -1,9 +1,48 @@
 - name: PR validation service reference
   href: index.md
   items:
-  - name: Locale-specific links
-    href: locale-specific-links.md
-  - name: Markdown headings
-    href: markdown-headings.md
-  - name: Tabbed conceptual
-    href: tabbed-conceptual.md
+  - name: author-missing
+    displayName: author missing, author required
+    href: author-missing.md
+  - name: BackendEngineExceptionError
+    displayName:
+    href: backendengineexceptionerror.md
+  - name: child-not-found
+    displayName: childen UIDs not found
+    href: child-not-found.md
+  - name: GitInfoNotFound
+    displayName: Git info not found, Git ID not found, invalid GitHub ID
+    href: gitinfonotfound.md
+  - name: h1-blank
+    displayName:
+    href: h1-blank.md
+  - name: h1-missing
+    displayName:
+    href: h1-missing.md
+  - name: hard-coded-locale
+    displayName: locale specific link, hardcoded locale in link
+    href: hard-coded-locale.md
+  - name:
+    displayName:
+    href:
+  - name:
+    displayName:
+    href:
+  - name:
+    displayName:
+    href:
+  - name:
+    displayName:
+    href:
+  - name:
+    displayName:
+    href:
+  - name:
+    displayName:
+    href:
+  - name:
+    displayName:
+    href:
+  - name:
+    displayName:
+    href:
