@@ -1,10 +1,10 @@
 ---
 title: #error-code
 description: Explanation and resolution for Docs build issue #error-code
-author: {github-id}
-ms.author: {ms-alias} # Microsoft employees only
+author: meganbradley
+ms.author: mbradley
 ms.topic: error-reference
-ms.date: {@date}
+ms.date: 12/12/2018
 ms.prod: non-product-specific
 ---
 # child-not-found
