@@ -22,27 +22,6 @@
   - name: hard-coded-locale
     displayName: locale specific link, hardcoded locale in link
     href: hard-coded-locale.md
-  - name:
+  - name: unit-not-in-module
     displayName:
-    href:
-  - name:
-    displayName:
-    href:
-  - name:
-    displayName:
-    href:
-  - name:
-    displayName:
-    href:
-  - name:
-    displayName:
-    href:
-  - name:
-    displayName:
-    href:
-  - name:
-    displayName:
-    href:
-  - name:
-    displayName:
-    href:
+    href: unit-not-in-module.md
