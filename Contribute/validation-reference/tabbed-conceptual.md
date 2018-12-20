@@ -76,6 +76,7 @@ The following tab name/tab ID pairs are whitelisted. Dependent tab IDs are not p
 |`[.NET Core 2.2]`     |`(#tab/netcore22)`|
 |`[.NET Core 3.x]`     |`(#tab/netcore3x)`|
 |`[.NET Core 3.0]`     |`(#tab/netcore30)`|
+|`[.NET Core 3.0 Preview 1]` |`(#tab/netcore30)`|
 |`[.NET Core CLI]`     |`(#tab/netcore-cli)`|
 |`[Azure CLI]`         |`(#tab/azure-cli)`|
 |`[Android]`           |`(#tab/android)`  |
