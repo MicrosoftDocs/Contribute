@@ -85,6 +85,7 @@ The following tab name/tab ID pairs are whitelisted. Dependent tab IDs are not p
 |`[C# Script]`         |`(#tab/csharp-script)`|
 |`[CentOS]`            |`(#tab/centos)`|
 |`[Command Line]`      |`(#tab/command-line)`|
+|`[curl]`              |`(#curl)`      |     
 |`[Debian]`            |`(#tab/debian)`|
 |`[Docker Hub]`        |`(#tab/docker-hub)`|
 |`[F#]`                |`(#tab/fsharp)`|
@@ -109,12 +110,15 @@ The following tab name/tab ID pairs are whitelisted. Dependent tab IDs are not p
 |`[PEAR]`              |`(#tab/pear)`|
 |`[pip]`               |`(#tab/pip)`|
 |`[Portal]`            |`(#tab/azure-portal)`    |
+|`[Portal]`            |`(#tab/portal1)`|
 |`[PowerShell]`        |`(#tab/azure-powershell)`|
 |`[Private Registry]`  |`(#tab/private-registry)`|
 |`[Python]`            |`(#tab/python)`|
 |`[Resource Manager Template]`|`(#tab/azure-resource-manager)`|
+|`[REST]`              |`(#tab/rest)`|
 |`[RHEL]`              |`(#tab/rhel)`|
 |`[RubyGems]`          |`(#tab/rubygems)`|
+|`[Server]`            |`(#tab/server)`|
 |`[SQL Server]`        |`(#tab/sql-server)`|
 |`[SQLite]`            |`(#tab/sqlite)`|
 |`[TypeScript]`        |`(#tab/typescript)`|
