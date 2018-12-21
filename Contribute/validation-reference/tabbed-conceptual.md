@@ -97,9 +97,11 @@ The following tab name/tab ID pairs are whitelisted. Dependent tab IDs are not p
 |`[Managed Kubernetes]`|`(#tab/kubernetes-managed)`|
 |`[Maven]`             |`(#tab/maven)`|
 |`[Mint]`              |`(#tab/mint)`|
+|`[MSTest]`            |`(#tab/mstest)`|
 |`[Node.js]`           |`(#tab/nodejs)`|
 |`[npm]`               |`(#tab/npm)` |
 |`[NuGet]`             |`(#tab/nuget)`|
+|`[NUnit]`             |`#tab/nunit)`|
 |`[openSUSE]`          |`(#tab/opensuse)`|
 |`[Other]`             |`(#tab/other)` |
 |`[Oracle Linux]`      |`(#tab/oracle-linux)`|
@@ -124,4 +126,5 @@ The following tab name/tab ID pairs are whitelisted. Dependent tab IDs are not p
 |`[Visual Studio for Mac]`         |`(#tab/visual-studio-mac)`|
 |`[Ubuntu]`                        |`(#tab/ubuntu)`|
 |`[Unmanaged Kubernetes]`          |`(#tab/kubernetes-unmanaged)`|
-|`[Windows]`   |`(#tab/windows)`   |
+|`[xUnit]`                         |`(#tab/xunit)`|
+|`[Windows]`                       |`(#tab/windows)`|
