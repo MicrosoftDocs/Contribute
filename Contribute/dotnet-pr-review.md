@@ -9,7 +9,7 @@ Many repositories don't have PR Merger webhooks enabled. This article describes
 the PR review process for those repositories. The PR review process was designed
 with these goals:
 
-1. Publish high-quality content from out team, product team members, and community members.
+1. Publish high-quality content from our team, product team members, and community members.
 1. Provide timely, actionable feedback to authors in a consistent manner.
 1. Facilitate discussion between authors and reviewers.
 
