@@ -5,7 +5,7 @@ ms.date: 01/-4/2019
 ---
 # Pull request review process for the .NET docs repositories
 
-Many repositories don't have PR Merger webhooks enabled. This article describes
+Many repositories don't have PR Merger webhooks enabled, which automatically merges minor PRs. This article describes
 the PR review process for those repositories. The PR review process was designed
 with these goals:
 
@@ -29,7 +29,7 @@ Reviews follow one of the three paths based on the PR:
 - **Major contributions** - Major contributions are significant edits to an existing article, new articles, or edits to a number of articles.
 - **Work in progress** - Authors can request an in-progress review by opening a PR with the "[WIP]" tag in the title. The "WIP" tag stands for "Work in Progress." 
 
-The processing used by the CLA bot is a good guideline for the distinction between "small" and "large" contributions. PRs that do not require the CLA to be signed are likely "small." PRs that do require the CLA are likely "large."
+The processing used by the Contributor License Agreement (CLA) bot is a good guideline for the distinction between "small" and "large" contributions. PRs that do not require the CLA to be signed are likely "small." PRs that do require the CLA are likely "large."
 
 ### Small PRs
 
@@ -44,7 +44,7 @@ Larger PRs undergo a more thorough review. The following are all checked:
 - Sample code must be included in the PR, in source and as a downloadable zip file.
 - Sample code compiles and runs correctly.
 - The article clearly describes the goals for the reader, and those goals are met.
-- The article meets style and grammar guidelines (see CONTRIBUTING.MD in the root folder of the repo.)
+- The article meets [style and grammar guidelines](dotnet-style-guide.md) and follows our [voice and tone principles](dotnet-voice-tone.md).
 - All links should resolve correctly.
 
 Content team members will review the PR, and submit the review with comments. If only minor changes are requested, team members may "approve" the PR with the feedback. The author can then address the feedback and merge the PR. Most reviews will request changes and when those changes are made, the reviewer will review again.
