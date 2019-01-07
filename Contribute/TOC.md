@@ -16,6 +16,7 @@
 ### [Contribute to .NET docs](dotnet-contribute-process.md)
 ### [.NET docs style conventions](dotnet-style-guide.md)
 ### [Voice and tone guide](dotnet-voice-tone.md)
+### [Pull request review process](dotnet-pr-review.md)
 # [Additional resources](additional-resources.md)
 
 <!--
