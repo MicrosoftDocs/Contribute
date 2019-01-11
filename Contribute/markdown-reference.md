@@ -188,7 +188,12 @@ Bookmark link to a heading in the current file:
 [Managed Disks](#managed-disks)
 ```
 
-Use a hash tag followed by the words of the heading with punctuation removed and spaces replaced with dashes.
+Use a hash tag followed by the words of the heading. The link text must
+- be all lowercase,
+- have punctuation removed, and 
+- have all spaces replaced with dashes.
+
+If the section name is "2.2 Security concerns", then the link text will be "#22-security-concerns".
 
 ### Explicit anchor links
 
