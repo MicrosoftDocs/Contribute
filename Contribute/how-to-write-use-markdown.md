@@ -1,7 +1,7 @@
 ---
 title: How to use Markdown for writing Docs
 description: This article provides the basics and reference information for the Markdown language used for writing docs.microsoft.com articles.
-ms.date: 07/13/2017
+ms.date: 01/29/2019
 ---
 # How to use Markdown for writing Docs
 
@@ -222,7 +222,6 @@ These languages have friendly name support and most have language highlighting.
 |JavaScript|javascript|
 |JSON|json|
 |Markdown|md|
-|NodeJS|nodejs|
 |Objective-C|objc|
 |OData|odata|
 |PHP|php|
