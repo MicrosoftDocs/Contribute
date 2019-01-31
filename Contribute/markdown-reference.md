@@ -3,11 +3,11 @@ title: Markdown reference for docs.microsoft.com
 description: Learn the Markdown features and syntax used in the Microsoft Docs platform.
 author: meganbradley
 ms.author: mbradley
-manager: jemash
 ms.date: 05/18/2018
 ms.topic: contributor-guide
 ms.prod: non-product-specific
 ---
+
 # Markdown Reference
 
 Markdown is a lightweight markup language with plain text formatting syntax. The Docs platform supports the CommonMark standard for Markdown, plus some custom Markdown extensions designed to provide richer content on docs.microsoft.com. This article provides an alphabetical reference for using Markdown for docs.microsoft.com.
