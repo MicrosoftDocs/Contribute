@@ -1,6 +1,6 @@
 ---
 title: Markdown reference for docs.microsoft.com
-description: This article provides tips on the essential markdown used in the Microsoft Docs platform.
+description: Learn the Markdown features and syntax used in the Microsoft Docs platform.
 author: meganbradley
 ms.author: mbradley
 manager: jemash
