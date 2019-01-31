@@ -214,6 +214,7 @@ These languages have friendly name support and most have language highlighting.
 |Console|console|
 |CSHTML|cshtml|
 |DAX|dax|
+|Docker|dockerfile|
 |F#|fsharp|
 |Go|go|
 |HTML|html|
@@ -221,6 +222,7 @@ These languages have friendly name support and most have language highlighting.
 |Java|java|
 |JavaScript|javascript|
 |JSON|json|
+|Kusto Query Language|kusto|
 |Markdown|md|
 |Objective-C|objc|
 |OData|odata|
