@@ -13,7 +13,7 @@ ms.prod: non-product-specific
 
 ## Warning
 
-`Invalid value for ms.date. The freshness date can't be more than 5 days in the future.`
+`Invalid value for ms.date. The freshness date can't be more than five days in the future.`
 
 The `ms.date` attribute is used to indicate "freshness" - that is, when the article was last reviewed for relevance, accuracy, correct screen shots, and working links. Therefore, it can't be in the future! Five days are allowed to account for release time, such as when content is frozen for QA in preparation for a major event.
 
