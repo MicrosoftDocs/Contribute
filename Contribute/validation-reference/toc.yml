@@ -3,10 +3,6 @@
   items:
   - name: author-missing
     href: author-missing.md
-  - name: h1-empty
-    href: h1-empty.md
-  - name: h1-empty
-    href: h1-missing.md
   - name: Locale-specific links
     href: locale-specific-links.md
   - name: Markdown headings
