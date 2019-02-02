@@ -1,4 +1,4 @@
-- name: PR validation service reference
+- name: Docs validation reference
   href: index.md
   items:
   - name: author-missing
