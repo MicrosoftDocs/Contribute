@@ -1,9 +1,33 @@
 - name: PR validation service reference
   href: index.md
   items:
+  - name: author-missing
+    href: author-missing.md
   - name: Locale-specific links
     href: locale-specific-links.md
   - name: Markdown headings
     href: markdown-headings.md
+  - name: ms-author-missing
+    href: ms-author-missing.md
+  - name: ms-component-deprecated
+    href: ms-component-deprecated.md
+  - name: ms-date-invalid
+    href: ms-date-invalid.md
+  - name: ms-date-missing
+    href: ms-date-missing.md
+  - name: ms-date-too-late
+    href: ms-date-too-late.md
+  - name: ms-prod-and-service
+    href: ms-prod-and-service.md
+  - name: ms-prod-or-service-missing
+    href: ms-prod-or-service-missing.md
+  - name: ms-prod-service-mismatch
+    href: ms-prod-service-mismatch.md
+  - name: ms-prod-service-mismatch
+    href: ms-prod-service-mismatch.md
+  - name: ms-prod-technology-invalid
+    href: ms-prod-technology-invalid.md
+  - name: ms-service-subservice-invalid
+    href: ms-service-subservice-invalid.md
   - name: Tabbed conceptual
     href: tabbed-conceptual.md
