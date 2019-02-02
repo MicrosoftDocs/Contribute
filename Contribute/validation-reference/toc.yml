@@ -1,4 +1,4 @@
-- name: PR validation service reference
+- name: Docs validation reference
   href: index.md
   items:
   - name: author-missing
@@ -23,8 +23,6 @@
     href: ms-prod-missing.md
   - name: ms-prod-or-service-missing
     href: ms-prod-or-service-missing.md
-  - name: ms-prod-service-mismatch
-    href: ms-prod-service-mismatch.md
   - name: ms-prod-service-mismatch
     href: ms-prod-service-mismatch.md
   - name: ms-prod-technology-invalid
