@@ -9,13 +9,17 @@ ms.prod: non-product-specific
 ---
 # ms-date-invalid
 
+**Coming soon!**
+
 [!INCLUDE [suggestion-note](includes/suggestion-note.md)]
 
 ## Suggestion
 
-`ms.date must be in MM/DD/YYYY format.`
+`Invalid value for ms.date: '{value}'. Must be a date in format MM/DD/YYYY.`
 
 ## Resolution
+
+Confirm that the article is up-to-date with no broken content, then add a valid date in the format MM/DD/YYYY.
 
 <!--make sure to add this file to your includes folder and verify the path-->
 [!INCLUDE [validation-reference-help](includes/validation-reference-help.md)]

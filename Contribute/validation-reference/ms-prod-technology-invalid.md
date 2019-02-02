@@ -9,6 +9,8 @@ ms.prod: non-product-specific
 ---
 # ms-prod-and-technology-invalid
 
+**Coming soon!**
+
 ## Warning
 
 `Invalid value for ms.prod: '{value}'.`

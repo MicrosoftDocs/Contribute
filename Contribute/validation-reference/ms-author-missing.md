@@ -9,6 +9,8 @@ ms.prod: non-product-specific
 ---
 # ms-author-missing
 
+**Coming soon!**
+
 [!INCLUDE [suggestion-note](includes/suggestion-note.md)]
 
 ## Suggestion
@@ -16,6 +18,8 @@ ms.prod: non-product-specific
 `Missing attribute: ms.author. Add a valid Microsoft alias.`
 
 ## Resolution
+
+Add a valid Microsoft alias for ms.author. This should be either the individual author of the article, or a designated team alias.
 
 <!--make sure to add this file to your includes folder and verify the path-->
 [!INCLUDE [validation-reference-help](includes/validation-reference-help.md)]
