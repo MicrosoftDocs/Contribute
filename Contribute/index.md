@@ -32,7 +32,7 @@ Quick edits streamline the process to report and fix small errors and omissions 
 
 Next, click the pencil icon, shown in the following figure to edit the article.
 
-![Location of the pencil icon](./media/index/editicon.png)
+![Location of the pencil icon](./media/index/edit-icon.png)
 
 > [!NOTE]
 > If the pencil icon is grayed out, you need to login to your GitHub account, or create a new account.
