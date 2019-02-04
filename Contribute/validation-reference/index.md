@@ -2,22 +2,10 @@
 author: meganbradley
 ms.author: mbradley
 ---
-# Docs PR validation service
+# Docs validation reference
 
-The Docs PR validation service is a GitHub app that runs validation rules on the files in a PR.
+The articles in this section provide information about Errors, Warnings, and Suggestions you might see when submitting a PR to a docs.microsoft.com repo, or when building a repo to publish to docs.microsoft.com.
 
-When the validation service is enabled on a repo, you'll see the following behavior:
+Note that not all issues will be enabled on all repos; some are specific to certain content sets. Fix the issues listed in your build report, not every issue described in this reference.
 
-1. You submit a PR.
-1. In the GitHub comment that indicates the status of your PR, you'll see the status of "checks" enabled on the repo. Note that in this example, there are two checks enabled, "Commit Validation" and "OpenPublishing.Build":
-
-   ![some checks failed](media/validation-failed.png)
-
-   Build can pass even if commit validation fails.
-
-1. Click **Details** for more information.
-1. On the Details page, you'll see all the validation checks that failed, with information about how to fix the issues:
-
-   ![validation message](media/validation-details.png)
-
-See the left-hand TOC of this article for the list of validations currently in the service.
+Also note that this reference is not complete - new articles will be added and linked from build report error codes as an ongoing effort. Although build reports are public, some of the information required to fix some issues is not available outside of Microsoft. If you can't find documentation for an Error or Warning, if the message or documentation isn't clear, or if you're a non-Microsoft contributor and can't access additional information, use the documentation feedback button below to file a GitHub issue.
