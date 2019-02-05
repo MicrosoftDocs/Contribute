@@ -7,12 +7,7 @@ ms.date: 01/29/2019
 
 [Docs.microsoft.com](http://docs.microsoft.com) articles are written in a lightweight markup language called [Markdown](https://daringfireball.net/projects/markdown/), which is both easy to read and easy to learn. Because of this, it has quickly become an industry standard.
 
-Since Docs content is stored in GitHub, it can use a superset of Markdown called [GitHub Flavored Markdown (GFM)](https://help.github.com/categories/writing-on-github/), which provides additional functionality for common formatting needs. Additionally, Open Publishing Services (OPS) implements Markdig Markdown Parser. Markdig is highly compatible with GFM, adding functionality to enable Docs-specific features.
-
-* Markdig is a fast, powerful, CommonMark compliant, extensible Markdown processor for .NET.
-* https://github.com/lunet-io/markdig
-* Better community support
-* Better standards support
+The docs.microsoft.com site backend uses Open Publishing Services (OPS) which supports [CommonMark](https://commonmark.org/) compliant markdown parsed through [Markdig](https://github.com/lunet-io/markdig) and [DocFX Flavored Markdown (DFM)](https://dotnet.github.io/docfx/). These markdown flavors are compatible with [GitHub Flavored Markdown (GFM)](https://help.github.com/categories/writing-on-github/). Additional functionality is added through Markdown extensions.
 
 ## Markdown basics
 
