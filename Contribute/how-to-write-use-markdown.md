@@ -233,7 +233,6 @@ These languages have friendly name support and most have language highlighting.
 |Swift|swift|
 |TypeScript|typescript|
 |VB|vb|
-|VSTS CLI|vstscli|
 |XAML|xaml|
 |XML|xml|
 
