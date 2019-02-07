@@ -15,7 +15,7 @@ ms.prod: non-product-specific
 
 ## Suggestion
 
-`Missing attribute: title. Add a title string to show in search engine results.`
+`Missing attribute: title. Add a title string (19 - 59 characters) to show in search engine results.`
 
 ## Resolution
 
