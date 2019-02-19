@@ -3,15 +3,14 @@ title: Microsoft Docs contributor guide overview
 description: The guide describes how you can contribute to the Microsoft documentation site docs.microsoft.com.
 author: billwagner
 ms.author: wiwagn
-manager: wpickett
-ms.date: 04/17/2018
+ms.date: 02/19/2019
 ---
 
 # Microsoft Docs contributor guide overview
 
 Welcome to the [docs.microsoft.com](https://docs.microsoft.com) (Docs) Contributor Guide!
 
-Several of our documentation sets are open source, hosted on GitHub. More teams at Microsoft are adopting this model all the time. Even document sets that are not completely open source have public-facing repos where you are invited to make pull requests. It streamlines and improves communication between the product engineers, the content teams, and our customers. Working in the open provides several advantages:
+Several of the Microsoft documentation sets are open source and hosted on GitHub. Some document sets are not completely open source, but many have public-facing repos where you are invited to make pull requests. It streamlines and improves communication between the product engineers, the content teams, and our customers. Working in the open provides several advantages:
 
 - Open source repos plan in the open to get feedback on what docs are most needed.
 - Open source repos review in the open to publish the most helpful content on our first release.
@@ -26,36 +25,34 @@ The user experience on [docs.microsoft.com](https://docs.microsoft.com) integrat
 
 ## Quick edits to existing documents
 
-Quick edits streamline the process to report and fix small errors and omissions in documents. Despite all efforts, small grammar and spelling errors do make their way into our published documents. While you can create issues to report mistakes, it's faster and easier to create a pull request (PR) to fix the issue, when possible. 
+Quick edits streamline the process to report and fix small errors and omissions in documents. Despite all efforts, small grammar and spelling errors do make their way into our published documents. While you can create issues to report mistakes, it's faster and easier to create a pull request (PR) to fix the issue, when the option is available.
 
-1. Some docs pages allow you to edit content directly in the browser. If so, you'll see an edit button like the one shown below. Clicking the **Edit** (or equivalent localized) button takes you to the source file on GitHub.
+1. Some docs pages allow you to edit content directly in the browser. If so, you'll see an **Edit** button like the one shown below. Clicking the **Edit** (or equivalent localized) button takes you to the source file on GitHub. If the **Edit** button (pencil icon) is missing, that means the documentation page is not available to be changed.
 
-![Location of the Edit link](./media/index/edit-article.png)
+   ![Location of the Edit link](./media/index/edit-article.png)
 
-2. Next, click the pencil icon, shown in the following figure to edit the article.
+2. Next, click the pencil icon, to edit the article as shown. If the pencil icon is grayed out, you need to login to your GitHub account, or create a new account. 
 
-![Location of the pencil icon](./media/index/edit-icon.png)
+   ![Location of the pencil icon](./media/index/edit-icon.png)
 
-   > [!NOTE]
-   > If the pencil icon is missing, that means the page is not available to be edited. If the pencil icon is grayed out, you need to login to your GitHub account, or create a new account.
 
-3. Make your changes in the web editor. You can click the **Preview changes** tab to check the formatting of your change.
+3. Make your changes in the web editor. Click the **Preview changes** tab to check the formatting of your change.
 
 4. Once you have made your changes, scroll to the bottom of the page. Enter a title and description for your changes and click **Propose file change** as shown in the following figure:
 
-   ![proposing your change](./media/index/submit-pull-request.png)
+   ![Propose file change](./media/index/submit-pull-request.png)
 
 5. Now that you've proposed your change, you need to ask the owners of the repository to "pull" your changes into their repository. This is done using something called a "pull request". When you clicked on **Propose file change** in the figure above, you should have been taken to a new page that looks like the following figure:
 
    ![create pull request](media/index/create-pull-request.png)
 
-6. Click **Create pull request**, enter a title (and optionally a description) for the pull request, and then click **Create pull request** again.
+   Click **Create pull request**, enter a title (and optionally a description) for the pull request, and then click **Create pull request** again.
 
-7. That's it! Content team members will review and merge your PR. You may get some feedback requesting changes if you made larger changes.
+6. That's it! Content team members will review and merge your PR. You may get some feedback requesting changes if you made larger changes.
 
 The GitHub editing UI responds to your permissions on the repository. The preceding images are accurate for contributors that do not have write permissions to the target repository. GitHub automatically creates a fork of the target repository in your account. If you have write access to the target repository, GitHub creates a new branch in the target repo. The branch name has the form **\<GitHubId\>-patch-n** using your GitHub ID, and a numeric identifier for the patch branch.
 
-We use PRs for all changes, even for contributors that have write access. Most repositories have the `master` branch protected so that updates must be submitted as PRs.
+We use pull requests for all changes, even for contributors that have write access. Most repositories have the `master` branch protected so that updates must be submitted as pull requests.
 
 The in-browser editing experience is best for minor or infrequent changes. If you make large contributions, or use advanced Git features (such as branch management or advanced merge conflict resolution), you need to [fork the repo and work locally](how-to-write-workflows-major.md).
 
@@ -72,6 +69,8 @@ You can read new topics before they are published by checking the currently open
 ## Create quality issues
 
 Our docs are a continuous work in progress. Good issues help us focus our efforts on the highest priorities for the community. The more detail you can provide, the more helpful the issue. Tell us what information you sought. Tell us the search terms you used. If you can't get started, tell us how you want to start exploring unfamiliar technology.
+
+Many of Microsoft's documentation pages have a **Feedback** section at the bottom of the page where you can click to leave **Product feedback** or **Content feedback** to track issues that are specific to that article.
 
 Issues start the conversation about what's needed. The content team will respond to these issues with ideas for what we can add, and ask for your opinions. When we create a draft, we'll ask you to [review the PR](#review-open-prs).
 
