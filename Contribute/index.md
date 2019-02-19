@@ -26,30 +26,32 @@ The user experience on [docs.microsoft.com](https://docs.microsoft.com) integrat
 
 ## Quick edits to existing documents
 
-Quick edits streamline the process to report and fix small errors and omissions in documents. Despite all efforts, small grammar and spelling errors do make their way into our published documents. While you can create issues to report mistakes, it's faster and easier to create a pull request (PR) to fix the issue. Almost every article displays an edit button as shown in the following figure. Clicking the **Edit** (or equivalent localized) button takes you to the source file on GitHub.
+Quick edits streamline the process to report and fix small errors and omissions in documents. Despite all efforts, small grammar and spelling errors do make their way into our published documents. While you can create issues to report mistakes, it's faster and easier to create a pull request (PR) to fix the issue, when possible. 
+
+1. Some docs pages allow you to edit content directly in the browser. If so, you'll see an edit button like the one shown below. Clicking the **Edit** (or equivalent localized) button takes you to the source file on GitHub.
 
 ![Location of the Edit link](./media/index/edit-article.png)
 
-Next, click the pencil icon, shown in the following figure to edit the article.
+2. Next, click the pencil icon, shown in the following figure to edit the article.
 
 ![Location of the pencil icon](./media/index/edit-icon.png)
 
-> [!NOTE]
-> If the pencil icon is grayed out, you need to login to your GitHub account, or create a new account.
+   > [!NOTE]
+   > If the pencil icon is missing, that means the page is not available to be edited. If the pencil icon is grayed out, you need to login to your GitHub account, or create a new account.
 
-Make your changes in the web editor. You can click the **Preview changes** tab to check the formatting of your change.
+3. Make your changes in the web editor. You can click the **Preview changes** tab to check the formatting of your change.
 
-Once you have made your changes, scroll to the bottom of the page. Enter a title and description for your PR and click **Propose file change** as shown in the following figure:
+4. Once you have made your changes, scroll to the bottom of the page. Enter a title and description for your changes and click **Propose file change** as shown in the following figure:
 
-![proposing your change](./media/index/submit-pull-request.png)
+   ![proposing your change](./media/index/submit-pull-request.png)
 
-Now that you've proposed your change, you need to ask the owners of the repository to "pull" your changes into their repository. This is done using something called a "pull request". When you clicked on **Propose file change** in the figure above, you should have been taken to a new page that looks like the following figure:
+5. Now that you've proposed your change, you need to ask the owners of the repository to "pull" your changes into their repository. This is done using something called a "pull request". When you clicked on **Propose file change** in the figure above, you should have been taken to a new page that looks like the following figure:
 
-![create pull request](media/index/create-pull-request.png)
+   ![create pull request](media/index/create-pull-request.png)
 
-Click **Create pull request**, enter a title (and optionally a description) for the pull request, and then click **Create pull request** again.
+6. Click **Create pull request**, enter a title (and optionally a description) for the pull request, and then click **Create pull request** again.
 
-That's it! Content team members will review and merge your PR. You may get some feedback requesting changes if you made larger changes.
+7. That's it! Content team members will review and merge your PR. You may get some feedback requesting changes if you made larger changes.
 
 The GitHub editing UI responds to your permissions on the repository. The preceding images are accurate for contributors that do not have write permissions to the target repository. GitHub automatically creates a fork of the target repository in your account. If you have write access to the target repository, GitHub creates a new branch in the target repo. The branch name has the form **\<GitHubId\>-patch-n** using your GitHub ID, and a numeric identifier for the patch branch.
 
