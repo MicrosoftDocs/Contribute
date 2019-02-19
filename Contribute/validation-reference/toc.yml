@@ -3,14 +3,14 @@
   items:
   - name: author-missing
     href: author-missing.md
+  - name: deprecated-attribute
+    href: deprecated-attribute.md
   - name: Locale-specific links
     href: locale-specific-links.md
   - name: Markdown headings
     href: markdown-headings.md
   - name: ms-author-missing
     href: ms-author-missing.md
-  - name: ms-component-deprecated
-    href: ms-component-deprecated.md
   - name: ms-date-invalid
     href: ms-date-invalid.md
   - name: ms-date-missing

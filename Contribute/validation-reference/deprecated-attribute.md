@@ -1,13 +1,13 @@
 ---
-title: ms-component-deprecated
-description: Explanation and resolution for Docs build issue ms-component-deprecated
+title: deprecated-attribute
+description: Explanation and resolution for Docs build issue deprecated-attribute
 author: meganbradley
 ms.author: mbradley # Microsoft employees only
 ms.topic: error-reference
 ms.date: 2/1/2019
 ms.prod: non-product-specific
 ---
-# ms-component-deprecated
+# deprecated-attribute
 
 **Coming soon!**
 
