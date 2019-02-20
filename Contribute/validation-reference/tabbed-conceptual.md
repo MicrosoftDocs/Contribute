@@ -17,7 +17,7 @@ Optional dependent tab:
 
 Example of a single-level tab section with two tabs and the tab group terminator (---):
 
-```
+```markdown
 # [Linux](#tab/linux)
 
 Content for Linux...
