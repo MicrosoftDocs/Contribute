@@ -9,6 +9,8 @@ ms.prod: non-product-specific
 ---
 # ms-topic-invalid
 
+**Coming soon!**
+
 [!INCLUDE [suggestion-note](includes/suggestion-note.md)]
 
 ## Suggestion

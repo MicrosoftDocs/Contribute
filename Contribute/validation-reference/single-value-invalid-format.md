@@ -9,6 +9,8 @@ ms.prod: non-product-specific
 ---
 # single-value-invalid-format
 
+**Coming soon!**
+
 [!INCLUDE [suggestion-note](includes/suggestion-note.md)]
 
 ## Suggestion
