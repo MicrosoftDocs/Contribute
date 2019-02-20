@@ -23,7 +23,7 @@ The `author` attribute identifies the author of the article by GitHub ID.
 
 Add the author's GitHub ID to the YML header:
 
-```markdown
+```yml
 ---
 author: meganbradley
 ms.author: mbradley
