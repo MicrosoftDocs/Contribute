@@ -19,7 +19,13 @@ ms.prod: non-product-specific
 
 ## Resolution
 
-Confirm that the article is up-to-date with no broken content, then add a valid date in the format MM/DD/YYYY.
+Confirm that the article is up-to-date with no broken content, then add a valid date in the format MM/DD/YYYY:
+
+```yml
+---
+ms.date: 02/19/2019
+---
+```
 
 <!--make sure to add this file to your includes folder and verify the path-->
 [!INCLUDE [validation-reference-help](includes/validation-reference-help.md)]

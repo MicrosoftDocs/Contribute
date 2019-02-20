@@ -31,6 +31,14 @@
     href: ms-service-missing.md
   - name: ms-service-subservice-invalid
     href: ms-service-subservice-invalid.md
+  - name: ms-topic-invalid
+    href: ms-topic-invalid.md
+  - name: ms-topic-missing
+    href: ms-topic-missing.md
+  - name: multiple-vales
+    href: multiple-values.md
+  - name: single-value-invalid-format
+    href: single-value-invalid-format.md
   - name: Tabbed conceptual
     href: tabbed-conceptual.md
   - name: title-missing
