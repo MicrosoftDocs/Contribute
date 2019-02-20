@@ -19,7 +19,13 @@ The `ms.date` attribute is used to indicate "freshness" - that is, when the arti
 
 ## Resolution
 
-Specify an `ms.date` no more than five days from today, in format MM/DD/YYYY.
+Specify an `ms.date` no more than five days from today, in format MM/DD/YYYY:
+
+```yml
+---
+ms.date: 02/19/2019
+---
+```
 
 <!--make sure to add this file to your includes folder and verify the path-->
 [!INCLUDE [validation-reference-help](includes/validation-reference-help.md)]
