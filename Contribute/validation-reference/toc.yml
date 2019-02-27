@@ -1,10 +1,30 @@
 - name: Docs validation reference
   href: index.md
   items:
+  - name: author-invalid
+    href: author-invalid.md
   - name: author-missing
     href: author-missing.md
+  - name: circular-reference
+    href: circular-reference.md
+  - name: committish-not-found
+    href: committish-not-found.md
+  - name: config-not-found.md
+    href: config-not-found.md
   - name: deprecated-attribute
     href: deprecated-attribute.md
+  - name: external-bookmark-invalid
+    href: external-bookmark-invalid.md
+  - name: file-link-invalid
+    href: file-link-invalid.md
+  - name: h1-empty
+    href: h1-empty.md
+  - name: h1-missing
+    href: h1-missing.md
+  - name: hard-coded-locale
+    href: hard-coded-locale.md
+  - name: local-file-path
+    href: local-file-path.md
   - name: Locale-specific links
     href: locale-specific-links.md
   - name: Markdown headings
@@ -35,8 +55,18 @@
     href: ms-topic-invalid.md
   - name: ms-topic-missing
     href: ms-topic-missing.md
+  - name: multiple-h1s
+    href: multiple-h1s.md
   - name: multiple-values
     href: multiple-values.md
+  - name: no-space-in-h1
+    href: no-space-in-h1.md
+  - name: redirected-file-not-removed
+    href: redirected-file-not-removed.md
+  - name: snippet-invalid
+    href: snippet-invalid.md
+  - name: tab-group-invalid
+    href: tab-group-invalid.md
   - name: Tabbed conceptual
     href: tabbed-conceptual.md
   - name: title-missing
