@@ -25,12 +25,18 @@
     href: h1-missing.md
   - name: hard-coded-locale
     href: hard-coded-locale.md
+  - name: included-file-redirected
+    href: included-file-redirected.md
   - name: internal-bookmark-not-found
     href: internal-bookmark-not-found.md
   - name: local-file-path
     href: local-file-path.md
   - name: Locale-specific links
     href: locale-specific-links.md
+  - name: manager-invalid
+    href: manager-invalid.md
+  - name: manager-missing
+    href: manager-missing.md
   - name: Markdown headings
     href: markdown-headings.md
   - name: ms-author-missing
