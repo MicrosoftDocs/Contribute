@@ -1,21 +1,19 @@
 ---
-title: config-not-found
-description: Explanation and resolution for Docs build issue config-not-found
+title: redirection-invalid
+description: Explanation and resolution for Docs build issue redirection-invalid
 author: meganbradley
 ms.author: mbradley # Microsoft employees only
 ms.topic: error-reference
-ms.date: 2/26/2019
+ms.date: 3/4/2019
 ms.prod: non-product-specific
 ---
-# config-not-found
+# redirection-invalid
 
-## Error
+## Warning
 
-`Can't find config file '{file name}' at {docset path}.`
+`File '{file name}' is redirected to '{target file path}'. Only content files can be redirected.`
 
 ## Resolution
-
-Make sure your config file is at the expected location in the repo.
 
 <!--make sure to add this file to your includes folder and verify the path-->
 [!INCLUDE [validation-reference-help](includes/validation-reference-help.md)]
