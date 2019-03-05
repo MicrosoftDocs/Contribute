@@ -15,5 +15,7 @@ ms.prod: non-product-specific
 
 ## Resolution
 
+Restructure your content so you aren't including a redirected file. For example, create a new file to include or remove the included reference and link to content or write it inline.
+
 <!--make sure to add this file to your includes folder and verify the path-->
 [!INCLUDE [validation-reference-help](includes/validation-reference-help.md)]

@@ -13,6 +13,8 @@ ms.prod: non-product-specific
 
 `Can't find branch, tag, or commit '{committish}' for repo {repo}.`
 
+See [committish](https://git-scm.com/docs/gitglossary#gitglossary-aiddefcommit-ishacommit-ishalsocommittish).
+
 ## Resolution
 
 <!--make sure to add this file to your includes folder and verify the path-->

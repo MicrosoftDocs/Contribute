@@ -75,6 +75,8 @@
     href: no-space-in-h1.md
   - name: redirected-file-not-removed
     href: redirected-file-not-removed.md
+  - name: redirection-invalid
+    href: redirection-invalid.md
   - name: snippet-not-found
     href: snippet-not-found.md
   - name: tab-group-invalid
@@ -87,3 +89,5 @@
     href: xref-not-found.md
   - name: yaml-header-invalid
     href: yaml-header-invalid.md
+  - name: zone-invalid
+    href: zone-invalid.md

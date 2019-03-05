@@ -13,7 +13,11 @@ ms.prod: non-product-specific
 
 `Files '{file name 1}' and '{file name 2}' reference each other.`
 
+For example, this might be an included file that links to the current file, or a link to a file that's been redirected to the current file.
+
 ## Resolution
+
+Review the links in the files and make necessary edits so no file links to or includes itself.
 
 <!--make sure to add this file to your includes folder and verify the path-->
 [!INCLUDE [validation-reference-help](includes/validation-reference-help.md)]
