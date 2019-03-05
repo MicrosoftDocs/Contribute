@@ -28,7 +28,7 @@ ms.author: mbradley
 ```
 
 > [!NOTE]
-> This rule does not apply to included files. If you get H1 warnings on included files, you most likely need to move your included files into an `includes` folder. The `includes` folder can be at any level in the file path. Based on the path, Docs build will recognize t he file as an included file and H1 validations won't run.
+> This rule does not apply to included files. If you get H1 warnings on included files, you most likely need to move your included files into an `includes` folder. The `includes` folder can be at any level in the file path. Based on the path, Docs build will recognize the file as an included file and H1 validations won't run.
 
 <!--make sure to add this file to your includes folder and verify the path-->
 [!INCLUDE [validation-reference-help](includes/validation-reference-help.md)]
