@@ -15,5 +15,7 @@ ms.prod: non-product-specific
 
 ## Resolution
 
+Add `::: zone-end` at the end of your zone.
+
 <!--make sure to add this file to your includes folder and verify the path-->
 [!INCLUDE [validation-reference-help](includes/validation-reference-help.md)]
