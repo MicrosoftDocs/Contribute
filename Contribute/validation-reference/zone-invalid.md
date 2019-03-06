@@ -1,21 +1,21 @@
 ---
-title: config-not-found
-description: Explanation and resolution for Docs build issue config-not-found
+title: zone-invalid
+description: Explanation and resolution for Docs build issue zone-invalid
 author: meganbradley
 ms.author: mbradley # Microsoft employees only
 ms.topic: error-reference
-ms.date: 2/26/2019
+ms.date: 3/4/2019
 ms.prod: non-product-specific
 ---
-# config-not-found
+# zone-invalid
 
-## Error
+## Warning
 
-`Can't find config file '{file name}' at {docset path}.`
+`Invalid zone: No "::: zone-end" found. Blocks should be explicitly closed.`
 
 ## Resolution
 
-Make sure your config file is at the expected location in the repo.
+Add `::: zone-end` at the end of your zone.
 
 <!--make sure to add this file to your includes folder and verify the path-->
 [!INCLUDE [validation-reference-help](includes/validation-reference-help.md)]
