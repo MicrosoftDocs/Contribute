@@ -15,13 +15,13 @@ ms.prod: non-product-specific
 
 ## Suggestion
 
-`Invalid value for ms.author: '{value}' is not a valid Microsoft alias, or is not a whitelisted distribution list.`
+`Invalid value for ms.author: '{value}' is not a valid Microsoft alias, or is not an allowed distribution list.`
 
 ## Resolution
 
-Verify that the `ms.author` value is a valid Microsoft alias. If the alias is a distribution list, it must also be whitelisted.
+Verify that the `ms.author` value is a valid Microsoft alias. If the alias is a distribution list, it must also be on the allow list.
 
-Valid values can be found on [this Microsoft-internal site](https://docsmetadatatool.azurewebsites.net/whitelists).
+Valid values for DLs can be found on [this Microsoft-internal site](https://docsmetadatatool.azurewebsites.net/allowlists).
 
 <!--make sure to add this file to your includes folder and verify the path-->
 [!INCLUDE [validation-reference-help](includes/validation-reference-help.md)]

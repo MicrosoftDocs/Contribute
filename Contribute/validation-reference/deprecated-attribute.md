@@ -23,7 +23,7 @@ Use `ms.service` to specify cloud services. To specify more detailed information
 
 Confirm that your `ms.service` value is correct for your article. Then choose a valid `ms.subservice` value.
 
-Valid values can be found on [this Microsoft-internal site](https://docsmetadatatool.azurewebsites.net/whitelists).
+Valid values can be found on [this Microsoft-internal site](https://docsmetadatatool.azurewebsites.net/allowlists).
 
 <!--make sure to add this file to your includes folder and verify the path-->
 [!INCLUDE [validation-reference-help](includes/validation-reference-help.md)]

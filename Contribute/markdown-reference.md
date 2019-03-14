@@ -85,7 +85,7 @@ Docs supports six levels of Markdown headings:
 
 ## HTML
 
-Although Markdown supports inline HTML, HTML is not recommended for publishing to Docs, and except for a limited list of values will cause build errors or warnings. <!--For more information, see HTML Whitelist. // do we want to add the whitelist? -->
+Although Markdown supports inline HTML, HTML is not recommended for publishing to Docs, and except for a limited list of values will cause build errors or warnings.
 
 ## Images
 
@@ -164,7 +164,7 @@ URL-based link to another web page (must include https://).
 
 ### Bookmark links
 
-Bookmark link to a heading in another file in the same repo:
+Bookmark link to a heading in another file in the same repo. For example:
 
 ```markdown
 [Managed Disks](../../linux/overview.md#managed-disks)
@@ -176,7 +176,12 @@ Bookmark link to a heading in the current file:
 [Managed Disks](#managed-disks)
 ```
 
-Use a hash tag followed by the words of the heading with punctuation removed and spaces replaced with dashes.
+Use a hash mark `#` followed by the words of the heading. To change the heading text into link text:
+- Use all lowercase characters
+- Remove punctuation
+- Replace spaces with dashes
+
+For example, if the heading name is "2.2 Security concerns", then the bookmark link text will be "#22-security-concerns".
 
 ### Explicit anchor links
 
