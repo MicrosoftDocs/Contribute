@@ -58,13 +58,13 @@ The following validations apply to tab syntax:
 - Only one level of dependency is allowed.
 - No fewer than two tabs are allowed.
 - No more than four tabs are allowed.
-- Tabs must be whitelisted.
+- Tabs must be approved.
 - Tab/ID pairs must be valid.
 - Cannot have the same tab ID multiple times in one tab group.
 
-## Tab whitelist
+## Approved tabs
 
-The following tab name/tab ID pairs are whitelisted. Dependent tab IDs are not paired but must be valid per the Tab ID column. The values are case-sensitive
+The following tab name/tab ID pairs are approved. Dependent tab IDs are not paired but must be valid per the Tab ID column. The values are case-sensitive
 
 |Tab name              |Tab ID            |
 |----------------------|------------------|

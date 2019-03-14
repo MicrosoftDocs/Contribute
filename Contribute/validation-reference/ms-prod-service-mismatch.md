@@ -25,7 +25,7 @@ Use `ms.prod` to specify on-premises products; `ms.service` for cloud services. 
 
 First, verify that you have selected the correct parent attribute (`ms.prod` or `ms.service`) for your article. Then, add the appropriate child field with a valid paired value. Remove any extra fields.
 
-Valid values can be found on [this Microsoft-internal site](https://docsmetadatatool.azurewebsites.net/whitelists).
+Valid values can be found on [this Microsoft-internal site](https://docsmetadatatool.azurewebsites.net/allowlists).
 
 <!--make sure to add this file to your includes folder and verify the path-->
 [!INCLUDE [validation-reference-help](includes/validation-reference-help.md)]

@@ -85,7 +85,7 @@ Docs supports six levels of Markdown headings:
 
 ## HTML
 
-Although Markdown supports inline HTML, HTML is not recommended for publishing to Docs, and except for a limited list of values will cause build errors or warnings. <!--For more information, see HTML Whitelist. // do we want to add the whitelist? -->
+Although Markdown supports inline HTML, HTML is not recommended for publishing to Docs, and except for a limited list of values will cause build errors or warnings.
 
 ## Images
 
