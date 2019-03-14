@@ -23,9 +23,7 @@ Use `ms.prod` to specify on-premises products. To specify more detailed informat
 
 Confirm that your `ms.prod` value is correct for your article. Then choose a valid `ms.technology` value.
 
-Valid values can be found on [this Microsoft-internal site](https://docsmetadatatool.azurewebsites.net/whitelists).
-
-<!-- Can we link to whitelist externally? -->
+Valid values can be found on [this Microsoft-internal site](https://docsmetadatatool.azurewebsites.net/allowlists).
 
 <!--make sure to add this file to your includes folder and verify the path-->
 [!INCLUDE [validation-reference-help](includes/validation-reference-help.md)]
