@@ -5,7 +5,7 @@ ms.date: 03/26/2019
 ---
 # How to use Markdown for writing Docs
 
-[Docs.microsoft.com](http://docs.microsoft.com) articles are written in a lightweight markup language called [Markdown](https://daringfireball.net/projects/markdown/), which is both easy to read and easy to learn. Because of this, it has quickly become an industry standard. The docs site uses the [Markdig flavor](markdown-flavor) of Markdown.
+[Docs.microsoft.com](http://docs.microsoft.com) articles are written in a lightweight markup language called [Markdown](https://daringfireball.net/projects/markdown/), which is both easy to read and easy to learn. Because of this, it has quickly become an industry standard. The docs site uses the [Markdig flavor](#markdown-flavor) of Markdown.
 
 
 ## Markdown basics
