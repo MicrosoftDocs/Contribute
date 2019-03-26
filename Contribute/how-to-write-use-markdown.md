@@ -1,11 +1,11 @@
 ---
 title: How to use Markdown for writing Docs
 description: This article provides the basics and reference information for the Markdown language used for writing docs.microsoft.com articles.
-ms.date: 01/29/2019
+ms.date: 03/26/2019
 ---
 # How to use Markdown for writing Docs
 
-[Docs.microsoft.com](http://docs.microsoft.com) articles are written in a lightweight markup language called [Markdown](https://daringfireball.net/projects/markdown/), which is both easy to read and easy to learn. Because of this, it has quickly become an industry standard.
+[Docs.microsoft.com](http://docs.microsoft.com) articles are written in a lightweight markup language called [Markdown](https://daringfireball.net/projects/markdown/), which is both easy to read and easy to learn. Because of this, it has quickly become an industry standard. The docs site uses the [Markdig flavor](markdown-flavor) of Markdown.
 
 
 ## Markdown basics
@@ -423,7 +423,7 @@ It is common to use angle brackets to denote a placeholder. When you do this in 
 
 For example, encode `<script name>` as `&lt;script name&gt;`
 
-## Markdown flavors
+## Markdown flavor
 
 The docs.microsoft.com site backend uses Open Publishing Services (OPS) which supports [CommonMark](https://commonmark.org/) compliant markdown parsed through the [Markdig](https://github.com/lunet-io/markdig) parsing engine. This markdown flavor is mostly compatible with [GitHub Flavored Markdown (GFM)](https://help.github.com/categories/writing-on-github/), as most docs are stored in GitHub and can be edited there. Additional functionality is added through Markdown extensions.
 
