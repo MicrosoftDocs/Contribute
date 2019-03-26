@@ -155,7 +155,6 @@ will be rendered as:
 
 For more information on creating tables, see:
 
-- The Markdig [table wrapping feature](#table-wrapping), which can help with formatting of wide tables.
 - GitHub's [Organizing information with tables](https://help.github.com/articles/organizing-information-with-tables/).
 - The [Markdown Tables Generator](https://www.tablesgenerator.com/markdown_tables) web app.
 - [Adam Pritchard's Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#wiki-tables).
