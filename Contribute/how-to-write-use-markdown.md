@@ -1,13 +1,12 @@
 ---
 title: How to use Markdown for writing Docs
 description: This article provides the basics and reference information for the Markdown language used for writing docs.microsoft.com articles.
-ms.date: 01/29/2019
+ms.date: 03/26/2019
 ---
 # How to use Markdown for writing Docs
 
-[Docs.microsoft.com](http://docs.microsoft.com) articles are written in a lightweight markup language called [Markdown](https://daringfireball.net/projects/markdown/), which is both easy to read and easy to learn. Because of this, it has quickly become an industry standard.
+[Docs.microsoft.com](http://docs.microsoft.com) articles are written in a lightweight markup language called [Markdown](https://daringfireball.net/projects/markdown/), which is both easy to read and easy to learn. Because of this, it has quickly become an industry standard. The docs site uses the [Markdig flavor](#markdown-flavor) of Markdown.
 
-The docs.microsoft.com site backend uses Open Publishing Services (OPS) which supports [CommonMark](https://commonmark.org/) compliant markdown parsed through [Markdig](https://github.com/lunet-io/markdig) and also supports [DocFX Flavored Markdown (DFM)](https://dotnet.github.io/docfx/). These markdown flavors are mostly compatible with [GitHub Flavored Markdown (GFM)](https://help.github.com/categories/writing-on-github/), as most docs are stored in GitHub and can be edited there. Additional functionality is added through Markdown extensions.
 
 ## Markdown basics
 
@@ -156,7 +155,6 @@ will be rendered as:
 
 For more information on creating tables, see:
 
-- The Markdig [table wrapping feature](#table-wrapping), which can help with formatting of wide tables.
 - GitHub's [Organizing information with tables](https://help.github.com/articles/organizing-information-with-tables/).
 - The [Markdown Tables Generator](https://www.tablesgenerator.com/markdown_tables) web app.
 - [Adam Pritchard's Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#wiki-tables).
@@ -201,6 +199,7 @@ These languages have friendly name support and most have language highlighting.
 |AzCopy|azcopy|
 |Azure CLI|azurecli|
 |Azure PowerShell|azurepowershell|
+|Bash|bash|
 |C++|cpp|
 |C++/CX|cppcx|
 |C++/WinRT|cppwinrt|
@@ -424,6 +423,10 @@ Here are the encodings for the "smart" versions of these punctuation marks:
 It is common to use angle brackets to denote a placeholder. When you do this in text (not code), you must encode the angle brackets. Otherwise, Markdown thinks that they're intended to be an HTML tag.
 
 For example, encode `<script name>` as `&lt;script name&gt;`
+
+## Markdown flavor
+
+The docs.microsoft.com site backend uses Open Publishing Services (OPS) which supports [CommonMark](https://commonmark.org/) compliant markdown parsed through the [Markdig](https://github.com/lunet-io/markdig) parsing engine. This markdown flavor is mostly compatible with [GitHub Flavored Markdown (GFM)](https://help.github.com/categories/writing-on-github/), as most docs are stored in GitHub and can be edited there. Additional functionality is added through Markdown extensions.
 
 ## See also:
 
