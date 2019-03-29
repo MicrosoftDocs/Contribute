@@ -9,8 +9,6 @@ ms.prod: non-product-specific
 ---
 # ms-prod-or-service-missing
 
-**Coming soon!**
-
 [!INCLUDE [suggestion-note](includes/suggestion-note.md)]
 
 ## Suggestion

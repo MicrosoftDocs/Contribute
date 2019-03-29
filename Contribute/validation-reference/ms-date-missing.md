@@ -9,15 +9,13 @@ ms.prod: non-product-specific
 ---
 # ms-date-missing
 
-**Coming soon!**
-
 [!INCLUDE [suggestion-note](includes/suggestion-note.md)]
 
 ## Suggestion
 
 `Missing attribute: ms.date. A freshness date is required for this content. Add a date in format MM/DD/YYYY.`
 
-This date is used to indicate "freshness" - that is, when the article was last reviewed for relevance, accuracy, correct screen shots, and working links. This is not the same as the last date the article was *published*, which will show on the page if `ms.date` is not explicitly specified.
+Some content groups require `ms.date` to indicate "freshness" - that is, when the article was last reviewed for relevance, accuracy, correct screen shots, and working links. This is not the same as the last date the article was *published*, which will show on the page if `ms.date` is not explicitly specified.
 
 ## Resolution
 
