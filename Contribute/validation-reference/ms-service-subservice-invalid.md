@@ -9,9 +9,9 @@ ms.prod: non-product-specific
 ---
 # ms-service-and-subservice-invalid
 
-**Coming soon!**
+[!INCLUDE [suggestion-note](includes/suggestion-note.md)]
 
-## Warning
+## Suggestion
 
 `Invalid value for ms.service: '{value}'.`
 
