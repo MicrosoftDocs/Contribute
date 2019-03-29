@@ -1,3 +1,8 @@
+---
+author: meganbradley
+ms.author: mbradley
+ms.date: 03/29/2019
+---
 # Locale-specific links
 
 Locale codes, such as `en-us`, should not be included in links to certain Microsoft sites. If you include a locale code in a link in English content, it will also be included in localized links, which leads to a bad localized experience. For example, if a link in German localized content includes `en-us`, German customers will find themselves linking to the English article, even if a German version is available.
