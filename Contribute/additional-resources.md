@@ -4,6 +4,7 @@ description: This article lists suggested resources for Git and GitHub learning 
 author: billwagner
 ms.author: wiwagn
 manager: wpickett
+ms.date: 03/29/2019
 ---
 # Additional Git and GitHub resources
 
