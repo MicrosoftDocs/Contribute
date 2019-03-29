@@ -129,7 +129,7 @@ You can include the code using the following syntax:
 ```
 
 * `-<language>` (*optional* but *recommended*)
-  * Language of the code snippet being referenced. For a list of supported values, see [Supported languages](#supported-languages).
+  * Language of the code snippet being referenced.
 
 * `<name>` (*optional*)
   * Name for the code snippet. It doesn’t have any impact on the output HTML, but you can use it to improve the readability of your Markdown source.
