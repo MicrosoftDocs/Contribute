@@ -9,8 +9,6 @@ ms.prod: non-product-specific
 ---
 # title-missing
 
-**Coming soon!**
-
 [!INCLUDE [suggestion-note](includes/suggestion-note.md)]
 
 ## Suggestion

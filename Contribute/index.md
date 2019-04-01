@@ -72,7 +72,7 @@ Our docs are a continuous work in progress. Good issues help us focus our effort
 
 Many of Microsoft's documentation pages have a **Feedback** section at the bottom of the page where you can click to leave **Product feedback** or **Content feedback** to track issues that are specific to that article.
 
-Issues start the conversation about what's needed. The content team will respond to these issues with ideas for what we can add, and ask for your opinions. When we create a draft, we'll ask you to [review the PR](#review-open-PRs).
+Issues start the conversation about what's needed. The content team will respond to these issues with ideas for what we can add, and ask for your opinions. When we create a draft, we'll ask you to [review the PR](#review-open-prs).
 
 ## Get more involved
 
