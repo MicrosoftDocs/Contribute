@@ -51,5 +51,19 @@ author: meganbradley
 
 If you have a single-valued array, change it to the scalar format above.
 
+## Attributes in scope
+
+The following attributes are required to be single-valued:
+
+- `author`
+- `ms.author`
+- `ms.date`
+- `ms.prod`
+- `ms.service`
+- `ms.subservice`
+- `ms.technology`
+- `ms.topic`
+- `title`
+
 <!--make sure to add this file to your includes folder and verify the path-->
 [!INCLUDE [validation-reference-help](includes/validation-reference-help.md)]
