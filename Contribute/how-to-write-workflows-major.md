@@ -45,7 +45,29 @@ Isolating related changes to a specific branch allows you to control and introdu
 >[!TIP]
 >Making your changes in the master branch is *not* a good practice. Imagine that you use the master branch to introduce a set of changes for a timed feature release. You finish the changes and are waiting to release them. Then in the interim, you have an urgent request to fix something, so you make the change to a file in the master branch and then publish the change. In this example, you inadvertently publish both the fix *and* the changes that you were holding for release on a specific date.
 
-Now let's create a new working branch in your local repository, to capture your proposed changes. Each git client is different, so consult the help for your preferred client. You can see an overview of the process in the GitHub Guide on [GitHub flow](https://guides.github.com/introduction/flow/).
+Now let's create a new working branch in your local repository, to capture your proposed changes. If you've setup Git Bash (see [Install content authoring tools](get-started-setup-tools.md)), you can create a new branch and "checkout" that branch with one command from within your cloned repository:
+
+````
+git checkout -b "branchname"
+````
+
+Each git client is different, so consult the help for your preferred client. You can see an overview of the process in the GitHub Guide on [GitHub flow](https://guides.github.com/introduction/flow/).
+
+## Making your changes
+
+Now that you have a copy ("clone") of the Microsoft repository and you've created a branch, you're now free to make whatever changes you think would benefit the community using any text or Markdown editor, as outlined on the [Install content authoring tools](get-started-setup-tools.md) page.  You can save your changes locally without needing to submit them to Microsoft until you're ready.
+
+## Saving changes to your repository
+
+Before sending your changes to the author, you must first save them to your Github repository.  Again, while all tools are different, if you're using the Git Bash command line, this can be done in just a few easy steps.
+
+First, from within the repository, you need to _stage_ all of your changes to be commmited.  This can be done by executing:
+
+````
+git add --all
+````
+
+
 
 [!INCLUDE[contribute-how-to-write-workflows-pull-request-processing](includes/contribute-how-to-write-workflows-pull-request-processing.md)]
 
