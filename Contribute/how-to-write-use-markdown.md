@@ -144,7 +144,7 @@ For example, the following Markdown:
 | $1                   | $1                   | $1              |
 ```
 
-will be rendered as:
+Will be rendered as:
 
 | Fun                  | With                 | Tables          |
 | :------------------- | -------------------: |:---------------:|
