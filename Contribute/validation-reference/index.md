@@ -2,6 +2,7 @@
 author: meganbradley
 ms.author: mbradley
 ms.date: 03/29/2019
+title: Index page for validation reference
 ---
 # Docs validation reference
 
