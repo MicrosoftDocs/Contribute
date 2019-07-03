@@ -1,7 +1,7 @@
 - name: Docs
-  href: /
-  homepage: /
+  tocHref: /
+  topicHref: /
   items:
   - name: Contributor Guide
-    href: /contribute/
-    homepage: /contribute/
+    tocHref: /contribute/
+    topicHref: /contribute/
