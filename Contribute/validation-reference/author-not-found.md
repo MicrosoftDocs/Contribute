@@ -15,7 +15,7 @@ ms.prod: non-product-specific
 
 ## Resolution
 
-Add a valid GitHub ID as the `author` value.
+Add the current author's GitHub ID as the `author` value.
 
 <!--make sure to add this file to your includes folder and verify the path-->
 [!INCLUDE [validation-reference-help](includes/validation-reference-help.md)]
