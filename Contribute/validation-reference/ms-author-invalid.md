@@ -17,7 +17,7 @@ ms.prod: non-product-specific
 
 ## Resolution
 
-Verify that the `ms.author` value is a valid Microsoft alias. If the alias is a distribution list, it must also be on the allow list.
+Verify that the `ms.author` value is the current author's valid Microsoft alias. If the alias is a distribution list, it must also be on the allow list.
 
 Valid values for DLs can be found on [this Microsoft-internal site](https://docsmetadatatool.azurewebsites.net/allowlists).
 
