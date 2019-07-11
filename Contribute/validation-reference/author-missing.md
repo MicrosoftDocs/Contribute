@@ -13,13 +13,13 @@ ms.prod: non-product-specific
 
 ## Suggestion
 
-`Missing attribute: author. Add a valid GitHub ID.`
+`Missing attribute: author. Add the current author's GitHub ID.`
 
 The `author` attribute identifies the author of the article by GitHub ID. 
 
 ## Resolution
 
-Add the author's GitHub ID to the YML header:
+Add the current author's GitHub ID to the YML header:
 
 ```yml
 ---
@@ -27,6 +27,8 @@ author: meganbradley
 ms.author: mbradley
 ---
 ```
+
+Note that this should be the *current* owner of the article, not the original author if ownership has changed.
 
 <!--make sure to add this file to your includes folder and verify the path-->
 [!INCLUDE [validation-reference-help](includes/validation-reference-help.md)]
