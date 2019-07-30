@@ -9,7 +9,7 @@ ms.date: 01/18/2018
 
 This article describes the steps to set up a git repository on your local machine, with the intent to contribute to Microsoft documentation. Contributors may use a locally cloned repository to add new articles, do major edits on existing articles, or change artwork.
 
-You run these one-time setup activities to get started contributing:
+You run these one-time setup activities to start contributing:
 > [!div class="checklist"]
 > * Determine the appropriate repository
 > * Fork the repository to your GitHub account
