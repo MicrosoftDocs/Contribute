@@ -49,6 +49,7 @@ Documentation hosted at [docs.microsoft.com](https://docs.microsoft.com) resides
    - Visual Studio documentation [https://github.com/MicrosoftDocs/visualstudio-docs](https://github.com/MicrosoftDocs/visualstudio-docs)
    - .NET Documentation [https://github.com/dotnet/docs](https://github.com/dotnet/docs)
    - Azure .Net SDK documentation [https://github.com/azure/azure-docs-sdk-dotnet](https://github.com/azure/azure-docs-sdk-dotnet)
+   - ConfigMgr documentation [https://github.com/MicrosoftDocs/SCCMdocs] (https://github.com/MicrosoftDocs/SCCMdocs/)
 
 ## Fork the repository
 Using the appropriate repository, create a fork of the repository into your own GitHub account by using the GitHub website.
