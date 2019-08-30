@@ -17,7 +17,7 @@ ms.prod: non-product-specific
 
 ## Resolution
 
-Add a title string to show in search results. In general, titles should be between 19 and 59 characters, shoud be distinct from the H1 of the article, and should include relevant branding words. You shouldn't include " | Microsoft Docs" in your title - this is added automatically by Docs, and is ignored if you add it explicitly. If you want to add additional branding, such as " - Azure", to all titles in a content set, set the `titleSuffix` metadata value globally or for a folder.
+Add a title string to show in search results. In general, titles should be between 19 and 59 characters, should be distinct from the H1 of the article, and should include relevant branding words. You shouldn't include " | Microsoft Docs" in your title - this is added automatically by Docs, and is ignored if you add it explicitly. If you want to add additional branding, such as " - Azure", to all titles in a content set, set the `titleSuffix` metadata value globally or for a folder.
 
 You can preview how your title will look in Google on [https://moz.com/learn/seo/title-tag](https://moz.com/learn/seo/title-tag).
 
