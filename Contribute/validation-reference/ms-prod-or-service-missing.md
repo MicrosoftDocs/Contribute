@@ -9,9 +9,7 @@ ms.prod: non-product-specific
 ---
 # ms-prod-or-service-missing
 
-[!INCLUDE [suggestion-note](includes/suggestion-note.md)]
-
-## Suggestion
+## Warning
 
 `Missing attribute: either ms.prod or ms.service is required. Use ms.prod for on-premise products, or ms.service for cloud services.`
 
