@@ -9,9 +9,7 @@ ms.prod: non-product-specific
 ---
 # ms-prod-missing
 
-[!INCLUDE [suggestion-note](includes/suggestion-note.md)]
-
-## Suggestion
+## Warning
 
 `Missing attribute: ms.prod. If you specify ms.technology, you must also specify ms.prod.`
 
@@ -21,7 +19,7 @@ Use `ms.prod` to specify on-premises products. To specify more detailed informat
 
 Confirm that the `ms.technology` value you've specified is correct for your article. Then add the appropriate `ms.prod` value that is a valid parent for the `ms.technology`.
 
-Valid values can be found on [this Microsoft-internal site](https://docsmetadatatool.azurewebsites.net/allowlists).
+Valid values can be found on [this Microsoft-internal site](https://docsmetadatatool.azurewebsites.net/allowlists). To request new values, follow [this process](https://review.docs.microsoft.com/help/contribute/metadata-changes?branch=master).
 
 <!--make sure to add this file to your includes folder and verify the path-->
 [!INCLUDE [validation-reference-help](includes/validation-reference-help.md)]

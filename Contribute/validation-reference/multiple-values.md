@@ -9,9 +9,7 @@ ms.prod: non-product-specific
 ---
 # multiple-values
 
-[!INCLUDE [suggestion-note](includes/suggestion-note.md)]
-
-## Suggestion
+## Warning
 
 `Single-valued attribute {attribute} has multiple values. Remove additional values.`
 

@@ -9,9 +9,7 @@ ms.prod: non-product-specific
 ---
 # ms-author-invalid
 
-[!INCLUDE [suggestion-note](includes/suggestion-note.md)]
-
-## Suggestion
+## Warning
 
 `Invalid value for ms.author: '{value}' is not a valid Microsoft alias, or is not an allowed distribution list.`
 

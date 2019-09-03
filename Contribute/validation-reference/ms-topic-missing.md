@@ -9,9 +9,7 @@ ms.prod: non-product-specific
 ---
 # ms-topic-missing
 
-[!INCLUDE [suggestion-note](includes/suggestion-note.md)]
-
-## Suggestion
+## Warning
 
 `Missing attribute: ms.topic. Add a valid value to indicate the article type.`
 

@@ -9,9 +9,7 @@ ms.prod: non-product-specific
 ---
 # ms-date-missing
 
-[!INCLUDE [suggestion-note](includes/suggestion-note.md)]
-
-## Suggestion
+## Warning
 
 `Missing attribute: ms.date. A freshness date is required for this content. Add a date in format MM/DD/YYYY.`
 
