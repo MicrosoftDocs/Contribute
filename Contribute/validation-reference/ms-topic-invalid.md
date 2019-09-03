@@ -9,9 +9,7 @@ ms.prod: non-product-specific
 ---
 # ms-topic-invalid
 
-[!INCLUDE [suggestion-note](includes/suggestion-note.md)]
-
-## Suggestion
+## Warning
 
 `Invalid value for ms.topic: '{value}'.`
 

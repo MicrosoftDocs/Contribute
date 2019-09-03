@@ -9,9 +9,7 @@ ms.prod: non-product-specific
 ---
 # ms-service-missing
 
-[!INCLUDE [suggestion-note](includes/suggestion-note.md)]
-
-## Suggestion
+## Warning
 
 `Missing attribute: ms.service. If you specify ms.subservice, you must also specify ms.service.`
 

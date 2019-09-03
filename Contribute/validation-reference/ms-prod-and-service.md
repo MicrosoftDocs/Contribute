@@ -9,9 +9,7 @@ ms.prod: non-product-specific
 ---
 # ms-prod-and-service
 
-[!INCLUDE [suggestion-note](includes/suggestion-note.md)]
-
-## Suggestion
+## Warning
 https://review.docs.microsoft.com/en-us/help/contribute/metadata-changes?branch=master
 `Both ms.prod and ms.service can't be specified. Use ms.prod for on-premise products, or ms.service for cloud services.`
 

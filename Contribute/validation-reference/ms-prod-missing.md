@@ -9,9 +9,7 @@ ms.prod: non-product-specific
 ---
 # ms-prod-missing
 
-[!INCLUDE [suggestion-note](includes/suggestion-note.md)]
-
-## Suggestion
+## Warning
 
 `Missing attribute: ms.prod. If you specify ms.technology, you must also specify ms.prod.`
 
