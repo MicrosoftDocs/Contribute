@@ -9,9 +9,7 @@ ms.prod: non-product-specific
 ---
 # ms-author-missing
 
-[!INCLUDE [suggestion-note](includes/suggestion-note.md)]
-
-## Suggestion
+## Warning
 
 `Missing attribute: ms.author. Add the current author's Microsoft alias.`
 
