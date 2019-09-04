@@ -9,9 +9,7 @@ ms.prod: non-product-specific
 ---
 # author-missing
 
-[!INCLUDE [suggestion-note](includes/suggestion-note.md)]
-
-## Suggestion
+## Warning
 
 `Missing attribute: author. Add the current author's GitHub ID.`
 

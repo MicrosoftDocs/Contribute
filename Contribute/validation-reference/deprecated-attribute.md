@@ -9,9 +9,7 @@ ms.prod: non-product-specific
 ---
 # deprecated-attribute
 
-[!INCLUDE [suggestion-note](includes/suggestion-note.md)]
-
-## Suggestion
+## Warning
 
 `Deprecated attribute: ms.component. Use ms.subservice instead.`
 

@@ -9,9 +9,7 @@ ms.prod: non-product-specific
 ---
 # ms-date-invalid
 
-[!INCLUDE [suggestion-note](includes/suggestion-note.md)]
-
-## Suggestion
+## Warning
 
 `Invalid value for ms.date: '{value}'. Must be a date in format MM/DD/YYYY.`
 

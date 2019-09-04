@@ -9,9 +9,7 @@ ms.prod: non-product-specific
 ---
 # title-missing
 
-[!INCLUDE [suggestion-note](includes/suggestion-note.md)]
-
-## Suggestion
+## Warning
 
 `Missing attribute: title. Add a title string (19 - 59 characters) to show in search engine results.`
 
