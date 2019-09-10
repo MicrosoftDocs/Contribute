@@ -9,7 +9,9 @@ ms.prod: non-product-specific
 ---
 # h1-empty
 
-## Warning
+[!INCLUDE [suggestion-note](includes/suggestion-note.md)]
+
+## Suggestion
 
 `H1 is required. Add content to your top-level heading.`
 

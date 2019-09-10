@@ -7,6 +7,8 @@
     href: author-missing.md
   - name: block-section-invalid
     href: block-section-invalid.md
+  - name: bookmark-not-found
+    href: bookmark-not-found.md
   - name: circular-reference
     href: circular-reference.md
   - name: committish-not-found
@@ -15,20 +17,18 @@
     href: config-not-found.md
   - name: deprecated-attribute
     href: deprecated-attribute.md
-  - name: external-bookmark-not-found
-    href: external-bookmark-not-found.md
   - name: file-not-found
     href: file-not-found.md
   - name: h1-empty
     href: h1-empty.md
   - name: h1-missing
     href: h1-missing.md
+  - name: h1-no-space
+    href: h1-no-space
   - name: hard-coded-locale
     href: hard-coded-locale.md
   - name: included-file-redirected
     href: included-file-redirected.md
-  - name: internal-bookmark-not-found
-    href: internal-bookmark-not-found.md
   - name: local-file-path
     href: local-file-path.md
   - name: Locale-specific links
