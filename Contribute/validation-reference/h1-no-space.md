@@ -1,6 +1,6 @@
 ---
 title: h1-no-space
-description: Explanation and resolution for Docs build issue no-space-in-h1.
+description: Explanation and resolution for Docs build issue h1-no-space.
 author: meganbradley
 ms.author: mbradley
 ms.topic: error-reference
