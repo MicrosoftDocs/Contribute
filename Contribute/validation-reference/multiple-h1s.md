@@ -9,7 +9,9 @@ ms.prod: non-product-specific
 ---
 # multiple-h1
 
-## Warning
+[!INCLUDE [suggestion-note](includes/suggestion-note.md)]
+
+## Suggestion
 
 `Multiple H1s are not allowed. You can only have one top-level heading.`
 
