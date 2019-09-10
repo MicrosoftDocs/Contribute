@@ -9,7 +9,9 @@ ms.prod: non-product-specific
 ---
 # h1-missing
 
-## Warning
+[!INCLUDE [suggestion-note](includes/suggestion-note.md)]
+
+## Suggestion
 
 `H1 is required. Use a single hash (#) followed by a space to create your top-level heading.`
 
