@@ -1,15 +1,17 @@
 ---
-title: no-space-in-h1
-description: Explanation and resolution for Docs build issue no-space-in-h1.
+title: h1-no-space
+description: Explanation and resolution for Docs build issue h1-no-space.
 author: meganbradley
 ms.author: mbradley
 ms.topic: error-reference
 ms.date: 12/12/2018
 ms.prod: non-product-specific
 ---
-# no-space-in-h1
+# h1-no-space
 
-## Warning
+[!INCLUDE [suggestion-note](includes/suggestion-note.md)]
+
+## Suggestion
 
 `A space is required after the hash (#) in H1.`
 

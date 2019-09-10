@@ -4,20 +4,16 @@ description: Explanation and resolution for Docs build issue internal-bookmark-n
 author: meganbradley
 ms.author: mbradley # Microsoft employees only
 ms.topic: error-reference
-ms.date: 2/28/2019
+ms.date: 9/10/2019
 ms.prod: non-product-specific
 ---
-# internal-bookmark-not-found
+# bookmark-not-found
 
-**Coming soon!**
+## Warning
 
-[!INCLUDE [suggestion-note](includes/suggestion-note.md)]
+`Cannot find bookmark '{bookmark-id}' in '{parent-file}'.`
 
-## Suggestion
-
-`Current file doesn't contain a bookmark named '{bookmark}'.`
-
-You're trying to link to a heading in the current file that doesn't exist.
+You're trying to link to a heading in the current file or another file that doesn't exist.
 
 ## Resolution
 
@@ -29,6 +25,12 @@ To link to a section in the current article, use a hash symbol, followed by the 
 
 ```markdown
 [Managed Disks](#managed-disks)
+```
+
+To link to a heading in another file, use a relative link to that file, followed by a hash symbol and the words of the heading. Remove punctuation from the heading and replace spaces with dashes. The following is an example:
+
+```markdown
+See [the Resolution section in h1-empty](h1-empty.md#resolution).
 ```
 
 <!--make sure to add this file to your includes folder and verify the path-->
