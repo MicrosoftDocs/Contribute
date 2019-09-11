@@ -25,6 +25,8 @@
     href: h1-missing.md
   - name: h1-no-space
     href: h1-no-space.md
+  - name: h1-not-first
+    href: h1-not-first.md
   - name: hard-coded-locale
     href: hard-coded-locale.md
   - name: included-file-redirected
