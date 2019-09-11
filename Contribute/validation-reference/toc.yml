@@ -69,8 +69,6 @@
     href: multiple-h1s.md
   - name: multiple-values
     href: multiple-values.md
-  - name: no-space-in-h1
-    href: no-space-in-h1.md
   - name: redirected-file-not-removed
     href: redirected-file-not-removed.md
   - name: redirection-invalid
