@@ -9,7 +9,7 @@ ms.prod: non-product-specific
 ---
 # h1-not-first
 
-[!INCLUDE [suggestion-note](../../../../Contribute/Contribute/validation-reference/includes/suggestion-note.md)]
+[!INCLUDE [suggestion-note](includes/suggestion-note.md)]
 
 ## Suggestion
 
