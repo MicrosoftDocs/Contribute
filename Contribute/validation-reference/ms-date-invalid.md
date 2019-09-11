@@ -4,14 +4,14 @@ description: Explanation and resolution for Docs build issue ms-date-invalid
 author: meganbradley
 ms.author: mbradley # Microsoft employees only
 ms.topic: error-reference
-ms.date: 1/15/2019
+ms.date: 09/10/2019
 ms.prod: non-product-specific
 ---
 # ms-date-invalid
 
 ## Warning
 
-`Invalid value for ms.date: '{value}'. Must be a date in format MM/DD/YYYY.`
+`Invalid value for ms.date: '{value}'. Must be a date in format MM/DD/YYYY, no more than five days from today.`
 
 ## Resolution
 
