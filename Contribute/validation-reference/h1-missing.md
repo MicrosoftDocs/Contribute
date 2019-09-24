@@ -30,7 +30,9 @@ ms.author: mbradley
 ```
 
 > [!NOTE]
-> This rule does not apply to included files. If you get H1 warnings on included files, you most likely need to move your included files into an `includes` folder. The `includes` folder can be at any level in the file path. Based on the path, Docs build will recognize the file as an included file and H1 validations won't run.
+> This rule does not apply to included files. If you get H1 results on included files, you most likely need to move your included files into an `includes` folder. The `includes` folder can be at any level in the file path. Based on the path, Docs build will recognize the file as an included file and H1 validations won't run.
+>
+> A common cause of missing H1s in parent files is misuse of included files: the H1 is in the included file, not in the parent file. This isn't allowed, because using an H1 in an included file either means there are duplicate H1s in parent files or the included file is used only once. H1s should be unique within a content set and included files should only be used to share content among multiple files. If you get `h1-missing` results because the H1 is in an included file, the solution is to move the H1 - and all the included content if the included file is used only once - into the parent file. For more information about included files in Docs, see the Microsoft-internal article [Include reusable content in articles](https://review.docs.microsoft.com/en-us/help/contribute/includes-best-practices?branch=master).
 
 <!--make sure to add this file to your includes folder and verify the path-->
 [!INCLUDE [validation-reference-help](includes/validation-reference-help.md)]
