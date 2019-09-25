@@ -97,7 +97,7 @@ Sample projects should build and run on the widest set of platforms possible for
 
 We are working toward having a CI system in place for all code. When you make any updates to samples, make sure each update is part of a buildable project. Ideally, add tests for correctness on samples as well.
 
-Each complete sample that you create should contain a *readme.md* file. This file should contain a short description of the sample (one or two paragraphs). Your *readme.md* should tell readers what they will learn by exploring this sample. The *readme.md* file should also contain a link to the live document on the [.NET documentation site](https://docs.microsoft.com/dotnet/welcome). To determine where a given file in the repository maps to that site, replace `/docs` in the repository path with `http://docs.microsoft.com/dotnet`.
+Each complete sample that you create should contain a *readme.md* file. This file should contain a short description of the sample (one or two paragraphs). Your *readme.md* should tell readers what they will learn by exploring this sample. The *readme.md* file should also contain a link to the live document on the [.NET documentation site](https://docs.microsoft.com/dotnet/welcome). To determine where a given file in the repository maps to that site, replace `/docs` in the repository path with `https://docs.microsoft.com/dotnet`.
 
 Your topic will also contain links to the sample. Link directly to the sample's folder on GitHub.
 
@@ -152,7 +152,7 @@ You build any .NET Core snippet or sample using the .NET Core CLI, which can be 
     dotnet run
     ```
 
-3. Add a readme.md to the root directory of your sample. 
+3. Add a readme.md to the root directory of your sample.
 
    This should include a brief description of the code, and refer people to the article that references the sample.
 
