@@ -22,7 +22,7 @@ Change all URLs to Microsoft sites to use `https` instead of `http`.
 > [!TIP]
 > The Docs Markdown extension for VS Code includes a cleanup script for Microsoft links. The script checks all links to Microsoft sites in a repo to ensure that they begin with `https` instead of `http` and don't contain locale codes, such as `en-us`. To run the script:
 >
-> 1. Install the Docs Markdown extension for VS Code.
+> 1. Install the [Docs Markdown](https://marketplace.visualstudio.com/items?itemName=docsmsft.docs-markdown) extension for VS Code.
 > 1. Click alt + M to open the Markdown menu.
 > 1. Select **Cleanup**, then **Microsoft links**.
 
