@@ -17,6 +17,12 @@
 ### [.NET docs style conventions](dotnet-style-guide.md)
 ### [Voice and tone guide](dotnet-voice-tone.md)
 ### [Pull request review process](dotnet-pr-review.md)
+##  [PowerShell docs](powershell\powershell-contribute.md)
+### [Contribution process](powershell\powershell-contribute-process.md)
+### [Quickstart for writing PowerShell articles](powershell\powershell-style-basic-markdown.md)
+### [Script sample style guide](powershell\powershell-style-code.md)
+### [Cmdlet reference style guide](powershell\powershell-style-reference.md)
+### [Submitting a Pull Request](powershell\powershell-pull-requests.md)
 # [Additional resources](additional-resources.md)
 
 <!--
@@ -37,7 +43,7 @@
 
       It will have condensed versions of get-started-setup-github,
       get-started-setup-tools, and get-started-setup-local.
-      
+
 ### Git and GitHub essentials
 
    <!--
