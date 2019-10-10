@@ -123,16 +123,16 @@ Only use [ATX headings][atx] (# style, as opposed to `=` or `-` style headers).
 
 > [!CAUTION]
 > The schema enforced by [PlatyPS][platyPS] for cmdlet reference requires specific H2 and H3
-> headers. Adding or removing headers can break the build. For more information, see
-> [6-UPDATING-REFERENCE](6-UPDATING-REFERENCE.md).
+> headers. Adding or removing headers can break the build. For more information, see the
+> [cmdlet reference style guide](powershell-style-reference.md).
 
 ## Limit line length to 100 characters
 
 This simplifies the command-line output of diffs and history.
 
 This rule was not in force for much of the existing content in PowerShell-Docs, but we are working
-towards it over time. Feel free to help out. The [reflow extension][reflow] in VSCode makes it easy
-to reformat paragraphs to this limit.
+towards it over time. Feel free to help out. The [reflow extension][reflow] in Visual Studio Code
+(VSCode) makes it easy to reformat paragraphs to this limit.
 
 ## Lists
 
@@ -253,7 +253,7 @@ standardizes the indentation of subordinate content.
   ```
 
 - When showing example usage of an external command, the example should be wrapped in backticks.
-  When there is a name collisions with an alias you must include the file extension in the command
+  When there is a name collision with an alias you must include the file extension in the command
   example. For example:
 
   ```markdown
@@ -291,14 +291,14 @@ Where `alt text` is a brief description of the image and `<folder path>` is a re
 image. Alternate text is required for screen readers for the visually impaired. It is also useful in
 case there is a site bug where the image cannot be rendered.
 
-Images should be stored in a `images/<article-name>` folder within the folder containing your
+Images should be stored in a `media/<article-name>` folder within the folder containing your
 article. Images should not be shared between articles. Create a folder that matches the filename of
-your article under the `images` folder. Copy the images for that article to that new folder. If an
+your article under the `media` folder. Copy the images for that article to that new folder. If an
 image is used by multiple articles, each image folder must have a copy of that image file. This
 practice prevents a change to an image in one article affecting another article.
 
 In some cases, you want to share images, like logos and icons, across multiple articles. These
-images are stored in a the `/images/shared` folder at the root of the repository.
+images are stored in the `/media/shared` folder at the root of the repository.
 
 The following image file types are supported: *.png", *.gif", *.jpeg", *.jpg", *.svg
 

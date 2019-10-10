@@ -6,14 +6,14 @@ ms.date: 10/09/2019
 # Formatting code samples
 
 The existing documentation has used multiple styles, over time, and the formatting rules have
-changed multiple times. We are trying establish a consistent style for PowerShell code blocks and
+changed multiple times. We are trying to establish a consistent style for PowerShell code blocks and
 output in our documentation.
 
 Markdown supports two different code styles:
 
 - Code spans (inline) - marked by a single backtick (`` ` ``) character. Used inline in a paragraph
   rather than as a standalone block. Most commonly used around cmdlet names. See
-  [Formatting command syntax elements](powershell-basic-markdown-style.md#formatting-command-syntax-elements).
+  [Formatting command syntax elements](powershell-style-basic-markdown.md#formatting-command-syntax-elements).
 - Code blocks - a multi-line block surrounded by triple-backtick (`` ``` ``) strings.
 
 ## Using code blocks
@@ -189,7 +189,3 @@ in the code.
 
 Avoid using positional parameters. In general, you should use always include the parameter name in
 an example, even if the parameter positional. This reduces the chance of confusion in your examples.
-
-## Next Steps
-
-See the [Updating Reference](6-UPDATING-REFERENCE.md) article.

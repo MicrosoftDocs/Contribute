@@ -19,7 +19,7 @@ errors that must be fixed before we can accept your contribution.
 - Do not remove any of the header structures. PlatyPS expects a specific set of headers.
 - The **Input type** and **Output type** headers must have a type. If the cmdlet does not take input
   or return a value then use the value "None".
-- Fenced code blocks are only allowed in the [Examples](#writing-examples) section.
+- Fenced code blocks are only allowed in the [Examples](#format-for-examples) section.
 - Inline code spans can be used in any paragraph.
 
 ## Formatting About_ files
@@ -78,12 +78,9 @@ Get-Command
 ```
 ~~~
 
-## Next Steps
-
-See the [Pull Requests](7-PULL-REQUESTS.md) article.
 
 [PlatyPS]: https://github.com/powershell/platyps
 [platyPS.schema.md]: https://github.com/PowerShell/platyPS/blob/master/platyPS.schema.md
 [issue1806]: https://github.com/PowerShell/PowerShell-Docs/issues/1806
-[about-example]: ../reference/5.1/Microsoft.PowerShell.Core/About/about_Comparison_Operators.md
+[about-example]: https://github.com/MicrosoftDocs/PowerShell-Docs/blob/staging/reference/6/Microsoft.PowerShell.Core/About/about_Comparison_Operators.md
 [Pandoc]: https://pandoc.org

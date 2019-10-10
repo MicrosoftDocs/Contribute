@@ -10,8 +10,10 @@ should keep in mind when you're contributing to the PowerShell documentation:
 
 - **DON'T** surprise us with large pull requests. Instead, file an issue and start a discussion so
   we can agree on a direction before you invest a large amount of time.
-- **DO** follow these instructions and [voice and tone](powershell-voice-tone.md) guidelines.
-- **DO** use the [template](powershell-style-guide.md) file as the starting point of your work.
+- **DO** follow these instructions and the [code](powershell\powershell-style-code.md) and
+  [reference](powershell\powershell-style-reference.md) style guides..
+- **DO** use the [template](powershell-style-basic-markdown.md) file as the starting point of your
+  work.
 - **DO** create a separate branch on your fork before working on the articles.
 - **DO** follow the [GitHub Flow workflow](../how-to-write-workflows-major.md).
 - **DO** blog and tweet (or whatever) about your contributions, frequently!
@@ -60,9 +62,9 @@ changes.
 
 **Step 3:** Make the changes in this new branch.
 
-If it's a new topic, use the template in the [style guide](powershell-style-guide.md) as your
-starting point. The style guide contains the writing guidelines and explains the metadata required
-for each article.
+If it's a new topic, use the template in the [style guide](powershell-style-basic-markdown.md) as
+your starting point. The style guide contains the writing guidelines and explains the metadata
+required for each article.
 
 Navigate to the folder that corresponds to the TOC location determined for your article in step 1.
 That folder contains the Markdown files for all articles in that section. If necessary, create a new
@@ -72,19 +74,19 @@ contains your article, if it doesn't already exist. Inside the **media** folder,
 with the article name (except for the index file).
 
 Be sure to follow the proper Markdown syntax. Please read the
-[style guide](powershell-style-guide.md) for detailed instructions and examples.
+[style guide](powershell-style-basic-markdown.md) for detailed instructions and examples.
 
-## Example structure
+**Example structure**
 
 ```
-   reference
-     /docs-conceptual
-       /learn
-         /remoting
-           managing-remote-sessions.md
-           /images
-             /managing-remote-sessions
-               sesssion-list.png
+reference
+  /docs-conceptual
+    /learn
+      /remoting
+        managing-remote-sessions.md
+        /images
+          /managing-remote-sessions
+            sesssion-list.png
 ```
 
 **Step 4:** Submit a Pull Request (PR) from your working branch to the *staging* branch.
@@ -103,8 +105,8 @@ order to approve it.
 **Step 5:** Make any necessary updates to your branch as discussed with the team.
 
 Once the PR is approved, the maintainers merge your PR into the *staging* branch. We periodically
-push all commits from *staging* branch into the *live* branch. Once your your contribution is live,
-you can see it in the [PowerShell docs site](https://docs.microsoft.com/PowerShell/). Typically, we
+push all commits from *staging* branch into the *live* branch. Once your contribution is live, you
+can see it in the [PowerShell docs site](https://docs.microsoft.com/PowerShell/). Typically, we
 publish a two to three times during the work week.
 
 ## Contributor license agreement
