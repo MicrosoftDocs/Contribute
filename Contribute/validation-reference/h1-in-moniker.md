@@ -29,7 +29,7 @@ You might also get this message if a moniker section contains a line of equals s
 
 ## Resolution
 
-To fix this issue, removed H1s from all moniker sections, and make sure the H1 at the top of the article is appropriate for all moniker sections. Note that skipping heading levels, such as following H1 with H3, isn't allowed.
+To fix this issue, remove H1s from all moniker sections, and make sure the H1 at the top of the article is appropriate for all moniker sections. Note that skipping heading levels, such as following H1 with H3, isn't allowed.
 
 If an H1 in a moniker section is actually a double underline (`=======`), remove it or replace it with a hashtag heading, such as `##`, as appropriate. If the double underline is part of a merge conflict, make sure to also remove the merge conflict beginning and ending markers and the obsolete text.
 
