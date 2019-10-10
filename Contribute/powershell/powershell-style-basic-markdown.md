@@ -271,7 +271,7 @@ standardizes the indentation of subordinate content.
   uses the **Object** parameter to ...
   ```
 
-  For more information, see [Hyperlinks](3-STYLE-GUIDE.md#hyperlinks) section of the Style Guide.
+  For more information, see [Hyperlinks](#hyperlinks) section of the Style Guide.
 
 ## Images
 

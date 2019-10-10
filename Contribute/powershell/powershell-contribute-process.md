@@ -10,8 +10,8 @@ should keep in mind when you're contributing to the PowerShell documentation:
 
 - **DON'T** surprise us with large pull requests. Instead, file an issue and start a discussion so
   we can agree on a direction before you invest a large amount of time.
-- **DO** follow these instructions and the [code](powershell\powershell-style-code.md) and
-  [reference](powershell\powershell-style-reference.md) style guides..
+- **DO** follow these instructions and the [code](powershell-style-code.md) and
+  [reference](powershell-style-reference.md) style guides..
 - **DO** use the [template](powershell-style-basic-markdown.md) file as the starting point of your
   work.
 - **DO** create a separate branch on your fork before working on the articles.

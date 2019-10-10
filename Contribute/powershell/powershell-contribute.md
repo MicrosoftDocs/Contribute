@@ -14,24 +14,29 @@ complex as new articles.
 The PowerShell documentation site is built from multiple repositories containing one or more
 docsets:
 
-- [PowerShell conceptual articles](https://github.com/MicrosoftDocs/PowerShell-Docs)
+- [PowerShell concepts & cmdlet reference][psdocs]
 - PowerShell SDK code samples - private repository containing the samples used in the SDK articles
 - [PowerShell .NET SDK reference](/dotnet/api/?view=pscore-6.2.0) - private repository contents
   generated from PowerShell source code
 
-Issues for all this content are tracked in the [PowerShell-Docs](https://github.com/MicrosoftDocs/PowerShell-Docs)
-repository.
+Issues for all this content are tracked in the [PowerShell-Docs][docsrepo] repository.
 
 ## Repository Structure
 
-The PowerShell-Docs repository consists of three docsets that are published to [Microsoft Docs](https://docs.microsoft.com/powershell). The docsets are contained in the following folders:
+The PowerShell-Docs repository consists of three docsets that are published to
+[Microsoft Docs][psdocs]. The docsets are contained in the following folders:
 
-- [/reference/](https://docs.microsoft.com/powershell/scripting/) - contains the PowerShell cmdlet
-  reference for the cmdlets that ship in PowerShell. The reference is collected in versions folders
-  (3.0, 4.0, 5.0, 5.1, 6, and 7). This docset does not contain the reference for the modules that
-  ship in Windows or other Microsoft products.
-- [/reference/docs-conceptual](https://docs.microsoft.com/powershell/scripting/) - contains the
-  PowerShell conceptual documentation. This include setup instructions, sample scripts, how-to
-  topics, and more.
-- [/developer/](https://docs.microsoft.com/powershell/developer/) - contains the PowerShell SDK
-  conceptual documentation.
+- [/reference/][ref] - contains the PowerShell cmdlet reference for the cmdlets that ship in
+  PowerShell. The reference is collected in versions folders (3.0, 4.0, 5.0, 5.1, 6, and 7). This
+  docset does not contain the reference for the modules that ship in Windows or other Microsoft
+  products.
+- [/reference/docs-conceptual][conceptual] - contains the PowerShell conceptual documentation. This
+  include setup instructions, sample scripts, how-to topics, and more.
+- [/developer/][SDK] - contains the PowerShell SDK conceptual documentation.
+
+<!--link refs-->
+[psdocs]: https://docs.microsoft.com/powershell
+[docsrepo]: https://github.com/MicrosoftDocs/PowerShell-Docs
+[ref]: https://github.com/MicrosoftDocs/PowerShell-Docs/tree/staging/reference
+[conceptual]: https://github.com/MicrosoftDocs/PowerShell-Docs/tree/staging/reference/docs-conceptual
+[SDK]: https://github.com/MicrosoftDocs/PowerShell-Docs/tree/staging/developer
