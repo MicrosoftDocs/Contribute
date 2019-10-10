@@ -21,6 +21,8 @@
     href: file-not-found.md
   - name: h1-empty
     href: h1-empty.md
+  - name: h1-in-moniker
+    href: h1-in-moniker.md
   - name: h1-missing
     href: h1-missing.md
   - name: h1-no-space
