@@ -4,7 +4,7 @@ description: Explanation and resolution for Docs build issue multiple-h1.
 author: meganbradley
 ms.author: mbradley
 ms.topic: error-reference
-ms.date: 12/12/2018
+ms.date: 10/09/2019
 ms.prod: non-product-specific
 ---
 # multiple-h1
