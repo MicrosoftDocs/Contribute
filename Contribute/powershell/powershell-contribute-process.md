@@ -22,7 +22,7 @@ Following these guidelines ensures a better experience for you and for us.
 
 ## Make a contribution to PowerShell docs
 
-You can choose from existing [issues](https://github.com/MicrosoftDocs/PowerShell-Docs/issues/choose).
+You can choose from existing [issues](https://github.com/MicrosoftDocs/PowerShell-Docs/issues/new/choose).
 Depending on your interests and level of commitment, the efforts fall into the following categories:
 
 - **Small changes**. For small changes, see the instructions on editing in GitHub on the
