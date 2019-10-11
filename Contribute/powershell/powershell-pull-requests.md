@@ -1,6 +1,11 @@
 ---
 title: Submitting a Pull Request
 description: This article describes the PR process and best practices to ensure your contribution can be merged.
+ms.topic: contributor-guide
+ms.prod: non-product-specific
+ms.custom: external-contributor-guide
+author: sdwheeler
+ms.author: sewhee
 ms.date: 10/09/2019
 ---
 # Best Practices for Pull requests

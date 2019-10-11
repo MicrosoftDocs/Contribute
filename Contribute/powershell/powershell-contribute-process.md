@@ -1,6 +1,11 @@
 ---
 title: Contribution process for PowerShell docs repositories
 description: This article provides a brief introduction to contributing to the PowerShell docs repositories. You'll learn the repositories used, the process for organizing content, and the policies for managing code samples and other assets.
+ms.topic: contributor-guide
+ms.prod: non-product-specific
+ms.custom: external-contributor-guide
+author: sdwheeler
+ms.author: sewhee
 ms.date: 10/07/2019
 ---
 # Process for contributing to PowerShell docs

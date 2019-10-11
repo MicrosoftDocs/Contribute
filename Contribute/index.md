@@ -4,6 +4,9 @@ description: The guide describes how you can contribute to the Microsoft documen
 author: billwagner
 ms.author: wiwagn
 ms.date: 02/19/2019
+ms.topic: contributor-guide
+ms.prod: non-product-specific
+ms.custom: external-contributor-guide
 ---
 
 # Microsoft Docs contributor guide overview

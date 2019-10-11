@@ -1,6 +1,9 @@
 ---
 title: How to use links in documentation
 description: This article provides guidance on creating links to content within docs.microsoft.com.
+ms.topic: contributor-guide
+ms.prod: non-product-specific
+ms.custom: external-contributor-guide
 author: gewarren
 ms.author: gewarren
 ms.date: 10/31/2018
