@@ -1,6 +1,9 @@
 ---
 title: Contribute to the .NET docs repositories
-description: This article covers the process for contributing to the articles and code samples in the repositories that make up the .NET documentation.
+description: This article describes the process for contributing to the articles and code samples in the repositories that make up the .NET documentation.
+ms.topic: contributor-guide
+ms.prod: non-product-specific
+ms.custom: external-contributor-guide
 ms.date: 11/07/2018
 ---
 # Learn how to contribute to the .NET docs repositories

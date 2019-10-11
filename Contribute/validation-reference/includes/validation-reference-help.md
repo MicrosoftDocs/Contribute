@@ -1,6 +1,9 @@
 ---
 author: meganbradley
 ms.author: mbradley
+ms.topic: contributor-guide
+ms.prod: non-product-specific
+ms.custom: external-contributor-guide
 ---
 ## Need help?
 

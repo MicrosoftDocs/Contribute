@@ -1,6 +1,9 @@
 ---
 title: Contribution process for .NET docs repositories
 description: This article provides a brief introduction to contributing to the .NET docs repositories. You'll learn the repositories used, the process for organizing content, and the policies for managing code samples and other assets.
+ms.topic: contributor-guide
+ms.prod: non-product-specific
+ms.custom: external-contributor-guide
 ms.date: 11/07/2018
 ---
 # Process for contributing to .NET docs
