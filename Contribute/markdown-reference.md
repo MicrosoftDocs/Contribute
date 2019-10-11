@@ -6,6 +6,7 @@ ms.author: mbradley
 ms.date: 05/18/2018
 ms.topic: contributor-guide
 ms.prod: non-product-specific
+ms.custom: external-contributor-guide
 ---
 
 # Markdown Reference

@@ -1,6 +1,11 @@
 ---
 title: Specific guidance for writing cmdlet reference
 description: This article provides specific rules for formatting PowerShell code samples. This applies to conceptual articles with examples, as well as cmdlet reference.
+ms.topic: contributor-guide
+ms.prod: non-product-specific
+ms.custom: external-contributor-guide
+author: sdwheeler
+ms.author: sewhee
 ms.date: 10/09/2019
 ---
 # Updating reference articles

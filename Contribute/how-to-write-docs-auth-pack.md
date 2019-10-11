@@ -1,6 +1,9 @@
 ---
 title: Docs Authoring Pack for Visual Studio Code
 description: This article describes the Visual Studio Code extension pack to facilitate Markdown authoring for docs.microsoft.com.
+ms.topic: contributor-guide
+ms.prod: non-product-specific
+ms.custom: external-contributor-guide
 author: meganbradley
 ms.author: mbradley
 ms.date: 10/22/2018

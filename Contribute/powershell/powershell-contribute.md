@@ -1,6 +1,11 @@
 ---
 title: Contribute to the PowerShell docs repositories
 description: This article of the repositories that make up the PowerShell documentation.
+ms.topic: contributor-guide
+ms.prod: non-product-specific
+ms.custom: external-contributor-guide
+author: sdwheeler
+ms.author: sewhee
 ms.date: 10/09/2019
 ---
 # Contributing to PowerShell Documentation

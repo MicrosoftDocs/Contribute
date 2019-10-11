@@ -1,6 +1,11 @@
 ---
 title: Template and cheatsheet for PowerShell articles
 description: This article contains a handy template you can use to create new articles for the PowerShell docs
+ms.topic: contributor-guide
+ms.prod: non-product-specific
+ms.custom: external-contributor-guide
+author: sdwheeler
+ms.author: sewhee
 ms.date: 10/09/2019
 ---
 # Markdown style guide for PowerShell-Docs

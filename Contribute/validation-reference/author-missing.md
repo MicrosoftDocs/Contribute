@@ -4,8 +4,8 @@ description: Explanation and resolution for Docs build issue author-missing.
 author: meganbradley
 ms.author: mbradley
 ms.topic: error-reference
-ms.date: 09/10/2019
 ms.prod: non-product-specific
+ms.date: 09/10/2019
 ---
 # author-missing
 
