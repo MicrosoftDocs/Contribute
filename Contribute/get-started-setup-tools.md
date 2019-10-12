@@ -1,9 +1,11 @@
 ---
 title: Install content authoring tools
 description: This article helps you download and install the client tools you will need for Git and editing markdown files.
+ms.topic: contributor-guide
+ms.prod: non-product-specific
+ms.custom: external-contributor-guide
 author: jasonwhowell
 ms.author: jasonh
-manager: kfile
 ms.date: 04/30/2018
 ---
 # Install content authoring tools
