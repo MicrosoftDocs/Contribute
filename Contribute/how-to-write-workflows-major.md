@@ -53,4 +53,4 @@ Now let's create a new working branch in your local repository, to capture your 
 
 That's it! You've made a contribution to docs.microsoft.com content!
 
-- To learn more about topics such as Markdown and Markdown extensions syntax, continue to the ["Writing essentials"](how-to-write-use-markdown.md) section.
+- To learn more about topics such as Markdown and Markdown extensions syntax, continue to the [Writing essentials](how-to-write-use-markdown.md) article.
