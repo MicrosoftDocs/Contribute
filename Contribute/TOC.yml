@@ -1,0 +1,56 @@
+- name: Contributor Guide overview and browser-based tasks
+  href: index.md
+- name: Set up and work locally
+  items:
+    - name: 1. Sign up for GitHub
+      href: get-started-setup-github.md
+    - name: 2. Install Git and Markdown tools
+      href: get-started-setup-tools.md
+    - name: 3. Set up a local Git repository
+      href: get-started-setup-local.md
+    - name: Git and GitHub fundamentals
+      href: git-github-fundamentals.md
+    - name: Full workflow
+      href: how-to-write-workflows-major.md
+- name: Writing essentials
+  items:
+    - name: Markdown
+      href: how-to-write-use-markdown.md
+    - name: Markdown reference
+      href: markdown-reference.md
+    - name: Style and voice quick start
+      href: style-quick-start.md
+    - name: Links
+      href: how-to-write-links.md
+    - name: Docs Authoring Pack
+      href: how-to-write-docs-auth-pack.md
+- name: Documentation set-specific guidance
+  items:
+    - name: .NET docs
+      items:
+        - name: How to contribute to .NET docs
+          href: dotnet-contribute.md
+        - name: Contribute to .NET docs
+          href: dotnet-contribute-process.md
+        - name: .NET docs style conventions
+          href: dotnet-style-guide.md
+        - name: Voice and tone guide
+          href: dotnet-voice-tone.md
+        - name: Pull request review process
+          href: dotnet-pr-review.md
+    - name: PowerShell docs
+      items:
+        - name: How to contribute to PowerShell docs
+          href: powershell\powershell-contribute.md
+        - name: Contribution process for PowerShell
+          href: powershell\powershell-contribute-process.md
+        - name: Quickstart for writing PowerShell articles
+          href: powershell\powershell-style-basic-markdown.md
+        - name: PowerShell Script sample style guide
+          href: powershell\powershell-style-code.md
+        - name: PowerShell Cmdlet reference style guide
+          href: powershell\powershell-style-reference.md
+        - name: Submitting a Pull Request for PowerShell
+          href: powershell\powershell-pull-requests.md
+- name: Additional resources
+  href: additional-resources.md
