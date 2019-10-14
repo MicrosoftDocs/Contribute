@@ -33,6 +33,8 @@
     href: hard-coded-locale.md
   - name: included-file-redirected
     href: included-file-redirected.md
+  - name: insecure-link
+    href: insecure-link.md
   - name: local-file-path
     href: local-file-path.md
   - name: Locale-specific links
