@@ -15,9 +15,13 @@ ms.prod: non-product-specific
 
 `Link '{URL}' is insecure. Links to Microsoft sites must use 'https' instead of 'http'.`
 
+This message means that you either used an explicit Markdown link with `http` or you used a raw URL, such as `www.microsoft.com`. Raw URLs are converted to insecure links when published to Docs, and should not be used.
+
 ## Resolution
 
 Change all URLs to Microsoft sites to use `https` instead of `http`.
+
+If your link is a raw URL, change it to an explicit Markdown link beginning with `https`.
 
 > [!TIP]
 > The Docs Markdown extension for VS Code includes a cleanup script for Microsoft links. The script checks all links to Microsoft sites in a repo to ensure that they begin with `https` instead of `http` and don't contain locale codes, such as `en-us`. To run the script:
