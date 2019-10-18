@@ -11,7 +11,7 @@ ms.prod: non-product-specific
 
 ## Warning
 
-`Invalid value for ms.date: '{value}'. Must be a date in format MM/DD/YYYY, no more than five days from today.`
+`Invalid value for ms.date: '{value}'. Must be a date in format MM/DD/YYYY, no more than 30 days from today.`
 
 ## Resolution
 
