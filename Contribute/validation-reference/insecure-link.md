@@ -9,7 +9,8 @@ ms.prod: non-product-specific
 ---
 # insecure-link
 
-[!INCLUDE [suggestion-note](includes/suggestion-note.md)]
+> [!IMPORTANT]
+> This rule was initially enabled as a "Suggestion" to give content teams time to gauge impact and develop a plan to clean up their repos. **It will be elevated to a "Warning" on 12/20/2019**.
 
 ## Suggestion
 
