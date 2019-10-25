@@ -11,7 +11,7 @@ ms.date: 10/09/2019
 # Best Practices for Pull requests
 
 To publish changes to content, you submit a pull request from your fork. Every pull request has to
-be reviewed before it can merged.
+be reviewed before it can be merged.
 
 ## Target the correct branch
 
