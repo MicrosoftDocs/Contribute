@@ -26,7 +26,7 @@ If you're a repo admin, you can force a full build as follows:
 1. Go to [Docs Portal](https://ops.microsoft.com/#/) and sign in.
 1. Find your repo by searching in the upper left corner, and select it.
 
-   :::image type="content" source="includes/find-repo.png" alt-text="find your repo via the Docs Portal search box":::
+   :::image type="content" source="media/find-repo.png" alt-text="find your repo via the Docs Portal search box":::
 1. On the **Build History** tab, click **+ Manual Publish***.
 1. Select the branch that's getting the Warning, such as Master.
 1. For target, keep the default, **Docs site**.
