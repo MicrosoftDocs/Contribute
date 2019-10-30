@@ -17,19 +17,23 @@ Sometimes transient issues in the validation service, such as a server in a bad 
 
 ## Resolution
 
-Try closing and re-opening your PR, or forcing a full build via [Docs Portal](https://ops.microsoft.com/#/). Often service issues clear themselves up after the initial retry. 
+Try closing and re-opening your PR, or forcing a full build via [Docs Portal](https://ops.microsoft.com/#/). Often service issues clear themselves up after the initial retry.
 
-Note that you must be a repo admin to access the repo via Docs Portal. If you don't know who your repo admin is, or if you continue to get this message after a forced build, file an issue via [https://SiteHelp](https://SiteHelp) if you're a Microsoft employee, or @ mention the author of an article in your PR for assistance if you're an external contributor.
+Note that you must be a repo admin to force a build via Docs Portal. If you don't know who your repo admin is, or if you continue to get this message after a forced build, file an issue via [https://SiteHelp](https://SiteHelp) if you're a Microsoft employee, or @ mention the author of an article in your PR for assistance if you're an external contributor.
 
 If you're a repo admin, you can force a full build as follows:
 
 1. Go to [Docs Portal](https://ops.microsoft.com/#/) and sign in.
 1. Find your repo by searching in the upper left corner, and select it.
+
+   :::image type="content" source="includes/find-repo.png" alt-text="find your repo via the Docs Portal search box":::
 1. On the **Build History** tab, click **+ Manual Publish***.
 1. Select the branch that's getting the Warning, such as Master.
 1. For target, keep the default, **Docs site**.
 1. Check the **Force Publish** checkbox.
 1. Click **Publish**.
+
+   :::image type="content" source="media/force-build.png" alt-text="steps to force a full build":::
 
 This will force a full build on the branch.
 
