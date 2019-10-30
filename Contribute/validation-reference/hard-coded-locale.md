@@ -14,7 +14,7 @@ ms.prod: non-product-specific
 
 ## Suggestion
 
-`Link '{URL}' contains locale code '{code}'. For localizability, remove '{code}' from links to Microsoft sites.`
+`Link '{URL}' contains locale code '{code}'. For localizability, remove '{code}' from links to most Microsoft sites.`
 
 Locale codes, such as `en-us`, should not be included in links to certain Microsoft sites. If you include a locale code in a link in English content, it will also be included in localized links, which leads to a bad localized experience. For example, if a link in German localized content includes `en-us`, German customers will find themselves linking to the English article, even if a German version is available.
 
@@ -22,7 +22,7 @@ The following sites are in scope for this validation:
 
 - azure.microsoft.com
 - docs.microsoft.com
-- msdn.microsoft.com
+- msdn.microsoft.com (excluding social.msdn.com, which needs locale to ensure the correct forum is linked to)
 - technet.microsoft.com
 
 ## Resolution
