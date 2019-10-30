@@ -11,7 +11,7 @@ ms.prod: non-product-specific
 
 ## Warning
 
-`The call to the validation service timed out and validation was not completed. This happens when there's an issue with the service and continuing to retry the call could cause build delays. You might have content issues that were not reported. To retry validation, close and re-open your PR, or rebuild your branch via Docs Portal (requires admin permissions). If you need admin help or if you continue to see this message, file an issue via https://SiteHelp.`
+`The call to the validation service timed out and validation was not completed. This happens when there's an issue with the service and continuing to retry the call could cause build delays. You might have content issues that were not reported. To retry validation, close and re-open your PR, or force a full build of your branch via https://ops.microsoft.com. Note that forcing a full build requires admin permissions to the repo. If you don’t know who your repo admin is, or if you continue to see this message after a forced build, file an issue via https://SiteHelp.`
 
 Sometimes transient issues in the validation service, such as a server in a bad state, prevent Docs Build from successfully calling the service. After several tries, the call times out and validation is canceled to avoid build delays and clogging the build pipeline.
 
