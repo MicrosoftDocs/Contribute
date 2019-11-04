@@ -58,7 +58,7 @@ To create an inline link from a Docs technical article to another Docs technical
 
 - An article links to an article in a different docset (even if in the same repository):
 
-  `[link text](/docset-root/directory/article-name)`
+   `[link text](/docset-root/directory/article-name)`
 
 > [!IMPORTANT]
 > None of the above examples use the `~/` as part of the link. To link to a path at the root of the repository, start the link with `/`. Including the `~/` produces invalid links when navigating the source repositories on GitHub. Starting the path with `/` resolves correctly.
