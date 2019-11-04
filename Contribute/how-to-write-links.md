@@ -8,10 +8,11 @@ author: gewarren
 ms.author: gewarren
 ms.date: 10/31/2018
 ---
-# Using links in documentation
-This article describes how to use hyperlinks from pages hosted at docs.microsoft.com. Links are easy to add into markdown with a few varying conventions. Links point users to content in the same page, point off into other neighboring pages, or point to external sites and URLs.
+# Use links in documentation
 
-The docs.microsoft.com site backend uses Open Publishing Services (OPS) which supports [CommonMark](https://commonmark.org/) compliant markdown parsed through the [Markdig](https://github.com/lunet-io/markdig) parsing engine. This markdown flavor is mostly compatible with [GitHub Flavored Markdown (GFM)](https://help.github.com/categories/writing-on-github/), as most docs are stored in GitHub and can be edited there. Additional functionality is added through Markdown extensions.
+This article describes how to use hyperlinks from pages hosted at docs.microsoft.com. Links are easy to add into markdown with a few varying conventions. Links point users to content in the same page, in other neighboring pages, or on external sites and URLs.
+
+The docs.microsoft.com site backend uses Open Publishing Services (OPS), which supports [CommonMark](https://commonmark.org/)-compliant markdown parsed through the [Markdig](https://github.com/lunet-io/markdig) parsing engine. This markdown flavor is mostly compatible with [GitHub Flavored Markdown (GFM)](https://help.github.com/categories/writing-on-github/), as most docs are stored in GitHub and can be edited there. Additional functionality is added through Markdown extensions.
 
 > [!IMPORTANT]
 > All links must be secure (`https` vs `http`) whenever the target supports it (which the vast majority should).
@@ -21,7 +22,7 @@ The docs.microsoft.com site backend uses Open Publishing Services (OPS) which su
 The words that you include in link text should be friendly. In other words, they should be normal English words or the title of the page that you're linking to.
 
 > [!IMPORTANT]
-> Do not use "click here." It's bad for search engine optimization, and doesn't adequately describe the target.
+> Do not use "click here." It's bad for search engine optimization and doesn't adequately describe the target.
 
 **Correct:**
 
@@ -37,29 +38,30 @@ The words that you include in link text should be friendly. In other words, they
 
 ## Links from one article to another
 
-To create an inline link from a Docs technical article to another Docs technical article within the same docset, use the following link syntax:
+To create an inline link from a Docs technical article to another Docs technical article within the same *docset*, which is the set of files in a repo that are published to the same root URL, use the following link syntax:
 
-- An article in a directory links to another article in the same directory:
+- An article links to another article in the same directory:
 
   `[link text](article-name.md)`
 
-- An article links from a subdirectory to an article in the root directory:
+- An article links to an article in the parent directory of the current directory:
 
   `[link text](../article-name.md)`
 
-- An article in the root directory links to an article in a subdirectory:
+- An article links to an article in a subdirectory of the current directory:
 
-  `[link text](./directory/article-name.md)`
+  `[link text](./directory/article-name.md)` or `[link text](directory/article-name.md)`
 
-- An article in a subdirectory links to an article in another subdirectory:
+- An article links to an article in a subdirectory of the parent directory of the current directory:
 
   `[link text](../directory/article-name.md)`
 
-- An article linking across docsets (even if in the same repository):
-  `[link text](./directory/article-name)`
+- An article links to an article in a different docset (even if in the same repository):
+
+  `[link text](/docset-root/directory/article-name)`
 
 > [!IMPORTANT]
-> None of the above examples use the `~/` as part of the link. If you are linking to a path at the root of the repository, start with the `/`. Including the `~/` produces invalid links when navigating the source repositories on GitHub. Starting the path with `/` resolves correctly.
+> None of the above examples use the `~/` as part of the link. To link to a path at the root of the repository, start the link with `/`. Including the `~/` produces invalid links when navigating the source repositories on GitHub. Starting the path with `/` resolves correctly.
 
 ## Links to anchors
 
@@ -70,12 +72,12 @@ You do not have to create anchors. They're automatically generated at publishing
   `[link](#the-text-of-the-H2-section-separated-by-hyphens)`
   `[Create cache](#create-cache)`
 
-- To link to an anchor in another article in the same subdirectory:
+- To link to an anchor in another article in the same directory:
 
   `[link text](article-name.md#anchor-name)`
   `[Configure your profile](media-services-create-account.md#configure-your-profile)`
 
-- To link to an anchor in another service subdirectory:
+- To link to an anchor in another directory:
 
   `[link text](../directory/article-name.md#anchor-name)`
   `[Configure your profile](../directory/media-services-create-account.md#configure-your-profile)`
@@ -142,14 +144,9 @@ The best user experience minimizes sending users to another site. So base any li
 - **Next steps**: It’s fine to add a link to, say, an MVP blog in a "Next steps" section. Again, just make sure that users understand they’ll be leaving the site.
 - **Legal**: We are covered legally under **Links to Third Party Sites** in the **Terms of Use** footer on every ms.com page.
 
-## Links to MSDN or TechNet
-
-When you need to link to MSDN or TechNet, use the full link to the topic, and remove the "en-us" language locale from the link.
-
 ## Links to Azure PowerShell reference content
 
-The Azure PowerShell reference content has been through several changes since November 2016. Use
-the following guidelines for linking to this content from other articles on docs.microsoft.com.
+The Azure PowerShell reference content has been through several changes since November 2016. Use the following guidelines for linking to this content from other articles on docs.microsoft.com.
 
 Structure of the URL:
 
@@ -168,22 +165,17 @@ The `<moniker-name>` portion is optional. If it's omitted, you will be directed 
 - Azure Information Protection PowerShell: [https://docs.microsoft.com/powershell/azure/_aip_](https://docs.microsoft.com/powershell/azure/aip)
 - Azure Elastic DB Jobs PowerShell: [https://docs.microsoft.com/powershell/azure/_elasticdbjobs_](https://docs.microsoft.com/powershell/azure/elasticdbjobs)
 
-When you use these URLs, you will be redirected to the latest version of the content. This way, you
-don't have to specify a version moniker. And you won't have links to conceptual
-content that must be updated when the version changes.
+When you use these URLs, you'll be redirected to the latest version of the content. This way, you don't have to specify a version moniker. And, you won't have links to conceptual content that must be updated when the version changes.
 
-To create the correct link, find the page that you want to link to in your browser, and copy the URL.
-Then, remove  `https://docs.microsoft.com` and the locale info.
-
-When you're linking from a TOC, you must use the full URL without the locale information.
+To create the correct link, find the page that you want to link to in your browser, copy the URL, and then remove the locale code, for example, **en-us**.
 
 Example markdown:
 
 ```markdown
-[Get-AzureRmResourceGroup](/powershell/module/azurerm.resources/get-azurermresourcegroup)
-[Get-AzureRmResourceGroup](/powershell/module/azurerm.resources/get-azurermresourcegroup?view=azurermps-4.1.0)
-[New-AzureVM](/powershell/module/azure/new-azurevm?view=azuresmps-4.0.0)
-[New-AzureRmVM](/powershell/module/azurerm.compute/new-azurermvm)
-[Install Azure PowerShell for Service Management](/powershell/azure/servicemanagement/install-azurerm-ps)
-[Install Azure PowerShell](/powershell/azure/install-azurerm-ps)
+[Get-AzureRmResourceGroup](https://docs.microsoft.com/powershell/module/azurerm.resources/get-azurermresourcegroup)
+[Get-AzureRmResourceGroup](https://docs.microsoft.com/powershell/module/azurerm.resources/get-azurermresourcegroup?view=azurermps-4.1.0)
+[New-AzureVM](https://docs.microsoft.com/powershell/module/azure/new-azurevm?view=azuresmps-4.0.0)
+[New-AzureRmVM](https://docs.microsoft.com/powershell/module/azurerm.compute/new-azurermvm)
+[Install Azure PowerShell for Service Management](https://docs.microsoft.com/powershell/azure/servicemanagement/install-azurerm-ps)
+[Install Azure PowerShell](https://docs.microsoft.com/powershell/azure/install-azurerm-ps)
 ```
