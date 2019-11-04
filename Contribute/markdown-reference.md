@@ -21,7 +21,7 @@ Docs uses the Markdig Markdown engine. You can test the rendering of Markdown in
 
 Alerts are a Docs Markdown extension to create block quotes that render on docs.microsoft.com with colors and icons that indicate the significance of the content. The following alert types are supported:
 
-```markdown
+```md
 > [!NOTE]
 > Information the user should notice even if skimming.
 
@@ -40,26 +40,13 @@ Alerts are a Docs Markdown extension to create block quotes that render on docs.
 
 These alerts look like this on docs.microsoft.com:
 
-> [!NOTE]
-> Information the user should notice even if skimming.
-
-> [!TIP]
-> Optional information to help a user be more successful.
-
-> [!IMPORTANT]
-> Essential information required for user success.
-
-> [!CAUTION]
-> Negative potential consequences of an action.
-
-> [!WARNING]
-> Dangerous certain consequences of an action.
+![shows how the alerts in the previous example look on the published Docs page with different icons and colors](media/alerts-rendering.png)
 
 ## Code snippets
 
 You can embed code snippets in your Markdown files:
 
-```markdown
+```md
 [!code-<language>[<name>](<codepath><queryoption><queryoptionvalue> "<title>")]
 ```
 
@@ -67,7 +54,7 @@ You can embed code snippets in your Markdown files:
 
 Docs supports six levels of Markdown headings:
 
-```markdown
+```md
 # This is a first level heading (H1)
 
 ## This is a second level heading (H2)
@@ -92,7 +79,7 @@ Although Markdown supports inline HTML, HTML is not recommended for publishing t
 
 The syntax to include an image is:
 
-```markdown
+```md
 ![[alt text]](<folderPath>)
 
 Example:
@@ -128,7 +115,7 @@ In most cases, Docs uses standard Markdown links to other files and pages. The t
 
 A relative path is the path to the target file relative to the current file. In Docs, you can use a relative path to link to another file within the same doc set. The syntax for a relative path is as follows:
 
-```markdown
+```md
 [link text](../../folder/filename.md)
 ```
 
@@ -149,7 +136,7 @@ Where `../` indicates one level above in the hierarchy.
 
 ### Site relative links to other files on Docs
 
-```markdown
+```md
 [Azure and Linux](/articles/virtual-machines/linux/overview)
 ```
 
@@ -157,7 +144,7 @@ Do not include the file extension (.md). This links to the Linux overview file f
 
 ### Links to external sites
 
-```markdown
+```md
 [Microsoft](https://www.microsoft.com)
 ```
 
@@ -167,13 +154,13 @@ URL-based link to another web page (must include https://).
 
 Bookmark link to a heading in another file in the same repo. For example:
 
-```markdown
+```md
 [Managed Disks](../../linux/overview.md#managed-disks)
 ```
 
 Bookmark link to a heading in the current file:
 
-```markdown
+```md
 [Managed Disks](#managed-disks)
 ```
 
@@ -192,7 +179,7 @@ Explicit anchor links using the `<a>` HTML tag are **not required or recommended
 
 To link to explicit anchors, use the following syntax:
 
-```markdown
+```md
 To go to a section on the same page:
 [text](#AnchorText)
 
@@ -253,7 +240,7 @@ To create a numbered list, you can use all 1s, which are rendered as a sequentia
 
 Do not use letters in lists, including nested lists. They do not render correctly when published to Docs. Nested lists using numbers will render as lowercase letters when published. For example:
 
-```markdown
+```md
 1. This is
 1. a parent numbered list
    1. and this is
@@ -273,7 +260,7 @@ This renders as follows:
 
 To create a bulleted list, use `-` followed by a space at the beginning of each line:
 
-```markdown
+```md
 - This is
 - a parent bulleted list
   - and this is
@@ -293,7 +280,7 @@ This renders as follows:
 
 Checklists are available for use on docs.microsoft.com (only) via a custom Markdown extension:
 
-```markdown
+```md
 > [!div class="checklist"]
 > * List item 1
 > * List item 2
@@ -316,14 +303,14 @@ You can use a custom extension to add a next step action button to pages on docs
 
 The syntax is as follows:
 
-```markdown
+```md
 > [!div class="nextstepaction"]
 > [button text](link to topic)
 ```
 
 For example:
 
-```markdown
+```md
 > [!div class="nextstepaction"]
 > [Learn about basic style](style-quick-start.md)
 ```
@@ -428,7 +415,7 @@ You can use a selector when you want to connect different pages for the same art
 
 The simplest way to create a table in Markdown is to use pipes and lines. To create a standard table with a header, follow the first line with dashed line:
 
-```markdown
+```md
 |This is   |a simple   |table header|
 |----------|-----------|------------|
 |table     |data       |here        |
@@ -444,7 +431,7 @@ This renders as follows:
 
 You can also create a table without a header. For example, to create a multiple-column list:
 
-```markdown
+```md
 |   |   |
 | - | - |
 | This | table |
@@ -460,7 +447,7 @@ This renders like this:
 
 You can align the columns by using colons:
 
-```markdown
+```md
 |                  |
 |------------------|
 |    right aligned:|
@@ -490,7 +477,7 @@ If you create a table in Markdown, the table might expand to the right navigatio
 
 Here is a Markdown sample of a table with three rows that will be wrapped by a `div` with the class name `mx-tdBreakAll`.
 
-```markdown
+```md
 > [!div class="mx-tdBreakAll"]
 > |Name|Syntax|Mandatory for silent installation?|Description|
 > |-------------|----------|---------|---------|
@@ -536,13 +523,13 @@ Currently, Docs can support videos published to one of three locations:
 
 You can embed a video with the following syntax, and Docs will render it.
 
-```markdown
+```md
 > [!VIDEO <embedded_video_link>]
 ```
 
 Example:
 
-```markdown
+```md
 > [!VIDEO https://channel9.msdn.com/Series/Youve-Got-Key-Values-A-Redis-Jump-Start/03/player]
 
 > [!VIDEO https://www.youtube.com/embed/iAtwVM-Z7rY]
@@ -586,6 +573,6 @@ Any new videos should be uploaded using the following process:
 1. Once you have grabbed the video link, close the work item.
 1. The video link can then be added to your post, using this syntax:
 
-   ```markdown
+   ```md
    > [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE1XVQS]
    ```

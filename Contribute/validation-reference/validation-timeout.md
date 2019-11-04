@@ -28,8 +28,8 @@ If you're a repo admin, you can force a full build as follows:
 
    :::image type="content" source="media/find-repo.png" alt-text="find your repo via the Docs Portal search box":::
 1. On the **Build History** tab, click **+ Manual Publish**.
-1. Select the branch that's getting the Warning, such as Master.
-1. For target, keep the default, **Docs site**.
+1. Select the branch that's getting the Warning, such as master.
+1. For target, keep the default, **Docs Site**.
 1. Check the **Force Publish** checkbox.
 1. Click **Publish**.
 
