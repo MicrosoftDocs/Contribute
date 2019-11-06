@@ -31,7 +31,7 @@ If your link is a raw URL, change it to an explicit Markdown link beginning with
 > 1. Click alt + M to open the Markdown menu.
 > 1. Select **Cleanup**, then **Microsoft links**.
 
-In some cases, you might need to document addresses web addresses, such as fully-qualified domain names, that aren't meant to be clickable links. These should be styled as inline code, such as:
+In some cases, you might need to document web addresses, such as fully-qualified domain names, that aren't meant to be clickable links. These should be styled as inline code, such as:
 
 ```md
 `www.microsoft.com:90`
