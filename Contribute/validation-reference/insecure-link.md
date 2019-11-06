@@ -22,7 +22,11 @@ This message means that you either used an explicit Markdown link with `http` or
 
 Change all URLs to Microsoft sites to use `https` instead of `http`.
 
-If your link is a raw URL, change it to an explicit Markdown link beginning with `https`, such as `[www.microsoft.com](https://www.microsoft.com)`.
+If your link is a raw URL, change it to an explicit Markdown link beginning with `https`, such as:
+
+```md
+`[www.microsoft.com](https://www.microsoft.com)`.
+```
 
 > [!TIP]
 > The Docs Markdown extension for VS Code includes a cleanup script for Microsoft links. The script checks all links to Microsoft sites in a repo to ensure that they begin with `https` instead of `http` and don't contain locale codes, such as `en-us`. To run the script:
