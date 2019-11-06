@@ -22,7 +22,7 @@ This message means that you either used an explicit Markdown link with `http` or
 
 Change all URLs to Microsoft sites to use `https` instead of `http`.
 
-If your link is a raw URL, change it to an explicit Markdown link beginning with `https`.
+If your link is a raw URL, change it to an explicit Markdown link beginning with `https`, such as `[www.microsoft.com](https://www.microsoft.com)`.
 
 > [!TIP]
 > The Docs Markdown extension for VS Code includes a cleanup script for Microsoft links. The script checks all links to Microsoft sites in a repo to ensure that they begin with `https` instead of `http` and don't contain locale codes, such as `en-us`. To run the script:
@@ -30,6 +30,12 @@ If your link is a raw URL, change it to an explicit Markdown link beginning with
 > 1. Install the [Docs Markdown](https://marketplace.visualstudio.com/items?itemName=docsmsft.docs-markdown) extension for VS Code.
 > 1. Click alt + M to open the Markdown menu.
 > 1. Select **Cleanup**, then **Microsoft links**.
+
+In some cases, you might need to document addresses web addresses, such as fully-qualified domain names, that aren't meant to be clickable links. These should be styled as inline code, such as:
+
+```md
+`www.microsoft.com:90`
+```
 
 <!--make sure to add this file to your includes folder and verify the path-->
 [!INCLUDE [validation-reference-help](includes/validation-reference-help.md)]
