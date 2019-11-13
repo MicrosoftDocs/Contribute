@@ -38,14 +38,23 @@
     }
   ],
   "branch_target_mapping": {
-        "live": ["Publish","Pdf"], 
-        "master": ["Publish","Pdf"]
+    "live": [
+      "Publish",
+      "Pdf"
+    ],
+    "master": [
+      "Publish",
+      "Pdf"
+    ]
   },
-  "Targets": {  
-    "Pdf": {  
-    "template_folder": "_themes.pdf"  
-    }  
-   },
+  "Targets": {
+    "Pdf": {
+      "template_folder": "_themes.pdf"
+    }
+  },
   "need_generate_pdf_url_template": true,
-  "git_repository_branch_open_to_public_contributors": "master"
+  "git_repository_branch_open_to_public_contributors": "master",
+  "docs_build_engine": {
+    "name": "docfx_v3"
+  }
 }
