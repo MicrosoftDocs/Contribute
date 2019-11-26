@@ -1,13 +1,13 @@
 ---
-title: multiple-h1
-description: Explanation and resolution for Docs build issue multiple-h1.
+title: multiple-h1s
+description: Explanation and resolution for Docs build issue multiple-h1s.
 author: meganbradley
 ms.author: mbradley
 ms.topic: error-reference
 ms.date: 10/09/2019
 ms.prod: non-product-specific
 ---
-# multiple-h1
+# multiple-h1s
 
 [!INCLUDE [suggestion-note](includes/suggestion-note.md)]
 
