@@ -4,7 +4,7 @@ description: Explanation and resolution for Docs build issue h1-no-space.
 author: meganbradley
 ms.author: mbradley
 ms.topic: error-reference
-ms.date: 12/12/2018
+ms.date: 11/25/2019
 ms.prod: non-product-specific
 ---
 # h1-no-space
