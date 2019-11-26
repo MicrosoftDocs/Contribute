@@ -4,14 +4,12 @@ description: Explanation and resolution for Docs build issue h1-empty.
 author: meganbradley
 ms.author: mbradley
 ms.topic: error-reference
-ms.date: 12/12/2018
+ms.date: 11/25/2019
 ms.prod: non-product-specific
 ---
 # h1-empty
 
-[!INCLUDE [suggestion-note](includes/suggestion-note.md)]
-
-## Suggestion
+## Warning
 
 `H1 is required. Add content to your top-level heading.`
 
