@@ -9,9 +9,7 @@ ms.prod: non-product-specific
 ---
 # h1-in-moniker
 
-[!INCLUDE [suggestion-note](includes/suggestion-note.md)]
-
-## Suggestion
+## Warning
 
 `H1s are not allowed in moniker sections. Each article should have one and only one H1.`
 
