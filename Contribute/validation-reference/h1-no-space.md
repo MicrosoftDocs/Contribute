@@ -9,9 +9,7 @@ ms.prod: non-product-specific
 ---
 # h1-no-space
 
-[!INCLUDE [suggestion-note](includes/suggestion-note.md)]
-
-## Suggestion
+## Warning
 
 `A space is required after the hash (#) in H1.`
 
