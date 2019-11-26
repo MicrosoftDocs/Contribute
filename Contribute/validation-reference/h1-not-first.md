@@ -4,14 +4,12 @@ description: Explanation and resolution for Docs build issue h1-not-first
 author: meganbradley
 ms.author: mbradley
 ms.topic: error-reference
-ms.date: 09/10/2019
+ms.date: 11/25/2019
 ms.prod: non-product-specific
 ---
 # h1-not-first
 
-[!INCLUDE [suggestion-note](includes/suggestion-note.md)]
-
-## Suggestion
+## Warning
 
 `Markdown content is not allowed before H1.`
 
