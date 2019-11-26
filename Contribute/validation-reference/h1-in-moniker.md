@@ -4,7 +4,7 @@ description: Explanation and resolution for Docs build issue h1-in-moniker.
 author: meganbradley
 ms.author: mbradley
 ms.topic: error-reference
-ms.date: 10/09/2019
+ms.date: 11/25/2019
 ms.prod: non-product-specific
 ---
 # h1-in-moniker
