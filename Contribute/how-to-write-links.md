@@ -56,17 +56,17 @@ To create an inline link from a Docs technical article to another Docs technical
 
   `[link text](../directory/article-name.md)`
 
-- An article links to an article in a different docset (even if in the same repository):
+> [!NOTE]
+> None of the previous examples use the `~/` as part of the link. To link to an absolute path that begins at the root of the repository, start the link with `/`. Including the `~/` produces invalid links when navigating the source repositories on GitHub. Starting the path with `/` resolves correctly.
 
-   `[link text](/docset-root/directory/article-name)`
+To link to an article in a different docset, even if the file is in the same repository, use the following syntax:
+
+`[link text](/docset-root/directory/article-name)`
    
-   For example, if an article whose root URL is `https://docs.microsoft.com/dotnet` links to an article whose root URL is `https://docs.microsoft.com/visualstudio`, the link would look like `[link text](/visualstudio/directory/article-name)`.
+For example, if an article whose root URL is `https://docs.microsoft.com/dotnet` links to an article whose root URL is `https://docs.microsoft.com/visualstudio`, the link would look like `[link text](/visualstudio/directory/article-name)`.
 
 > [!TIP]
 > Articles in the same *docset* have the same URL fragment after "docs.microsoft.com". For example, `https://docs.microsoft.com/dotnet/core/get-started` and `https://docs.microsoft.com/dotnet/framework/install` are in the same docset, and `https://docs.microsoft.com/dotnet/core/get-started` and `https://docs.microsoft.com/visualstudio/whats-new` are in different docsets.
-
-> [!IMPORTANT]
-> None of the above examples use the `~/` as part of the link. To link to an absolute path that begins at the root of the repository, start the link with `/`. Including the `~/` produces invalid links when navigating the source repositories on GitHub. Starting the path with `/` resolves correctly.
 
 ## Links to anchors
 
