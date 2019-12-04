@@ -38,7 +38,7 @@ The words that you include in link text should be friendly. In other words, they
 
 ## Links from one article to another
 
-To create an inline link from a Docs technical article to another Docs technical article within the same *docset*, which is the set of files in a repo that are published to the same root URL, use the following link syntax:
+To create an inline link from a Docs technical article to another Docs technical article within the same *docset*, use the following link syntax:
 
 - An article links to another article in the same directory:
 
@@ -59,6 +59,11 @@ To create an inline link from a Docs technical article to another Docs technical
 - An article links to an article in a different docset (even if in the same repository):
 
    `[link text](/docset-root/directory/article-name)`
+   
+   For example, if an article whose root URL is `https://docs.microsoft.com/dotnet` links to an article whose root URL is `https://docs.microsoft.com/visualstudio`, the link would look like `[link text](/visualstudio/directory/article-name)`.
+
+> [!TIP]
+> Articles in the same *docset* have the same URL fragment after "docs.microsoft.com". For example, `https://docs.microsoft.com/dotnet/core/get-started` and `https://docs.microsoft.com/dotnet/framework/install` are in the same docset, and `https://docs.microsoft.com/dotnet/core/get-started` and `https://docs.microsoft.com/visualstudio/whats-new` are in different docsets.
 
 > [!IMPORTANT]
 > None of the above examples use the `~/` as part of the link. To link to an absolute path that begins at the root of the repository, start the link with `/`. Including the `~/` produces invalid links when navigating the source repositories on GitHub. Starting the path with `/` resolves correctly.
@@ -72,12 +77,7 @@ You do not have to create anchors. They're automatically generated at publishing
   `[link](#the-text-of-the-H2-section-separated-by-hyphens)`
   `[Create cache](#create-cache)`
 
-- To link to an anchor in another article in the same directory:
-
-  `[link text](article-name.md#anchor-name)`
-  `[Configure your profile](media-services-create-account.md#configure-your-profile)`
-
-- To link to an anchor in another directory:
+- To link to an anchor in another article:
 
   `[link text](../directory/article-name.md#anchor-name)`
   `[Configure your profile](../directory/media-services-create-account.md#configure-your-profile)`
