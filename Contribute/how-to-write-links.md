@@ -50,7 +50,7 @@ To create an inline link from a Docs technical article to another Docs technical
 
 - An article links to an article in a subdirectory of the current directory:
 
-  `[link text](./directory/article-name.md)` or `[link text](directory/article-name.md)`
+  `[link text](directory/article-name.md)`
 
 - An article links to an article in a subdirectory of the parent directory of the current directory:
 
@@ -61,7 +61,7 @@ To create an inline link from a Docs technical article to another Docs technical
    `[link text](/docset-root/directory/article-name)`
 
 > [!IMPORTANT]
-> None of the above examples use the `~/` as part of the link. To link to a path at the root of the repository, start the link with `/`. Including the `~/` produces invalid links when navigating the source repositories on GitHub. Starting the path with `/` resolves correctly.
+> None of the above examples use the `~/` as part of the link. To link to an absolute path that begins at the root of the repository, start the link with `/`. Including the `~/` produces invalid links when navigating the source repositories on GitHub. Starting the path with `/` resolves correctly.
 
 ## Links to anchors
 
