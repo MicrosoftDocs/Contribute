@@ -26,7 +26,7 @@ Some syntax supported by the extension, such as alerts and snippets, are custom 
 
 ## How to use the Docs Markdown extension
 
-To access the Docs Markdown menu, type `ALT+M`. You can click or use up/down arrows to select the function you want, or type to start filtering, then hit `ENTER` when the function you want is highlighted in the menu. The following are available:
+To access the Docs Markdown menu, press `ALT+M`. You can click or use up/down arrows to select the function you want, or type to start filtering, then hit `ENTER` when the function you want is highlighted in the menu. The following are available:
 
 |Function     |Description           |
 |-------------|----------------------|
