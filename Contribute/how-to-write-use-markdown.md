@@ -17,7 +17,7 @@ ms.date: 03/26/2019
 
 To create a heading, you use a hash mark (#), as follows:
 
-```markdown
+```md
 # This is heading 1
 ## This is heading 2
 ### This is heading 3
@@ -36,19 +36,19 @@ Second-level headings will generate the on-page TOC that appears in the "In this
 
 To format text as **bold**, you enclose it in two asterisks:
 
-```markdown
+```md
 This text is **bold**.
 ```
 
 To format text as *italic*, you enclose it in a single asterisk:
 
-```markdown
+```md
 This text is *italic*.
 ```
 
 To format text as both ***bold and italic***, you enclose it in three asterisks:
 
-```markdown
+```md
 This is text is both ***bold and italic***.
 ```
 
@@ -56,7 +56,7 @@ This is text is both ***bold and italic***.
 
 Blockquotes are created using the `>` character:
 
-```markdown
+```md
 > The drought had lasted now for ten million years, and the reign of the terrible lizards had long since ended. Here on the Equator, in the continent which would one day be known as Africa, the battle for existence had reached a new climax of ferocity, and the victor was not yet in sight. In this barren and desiccated land, only the small or the swift or the fierce could flourish, or even hope to survive.
 ```
 
@@ -70,7 +70,7 @@ The preceding example renders as follows:
 
 To format an unordered/bulleted list, you can use either asterisks or dashes. For example, the following Markdown:
 
-```markdown
+```md
 - List item 1
 - List item 2
 - List item 3
@@ -84,7 +84,7 @@ will be rendered as:
 
 To nest a list within another list, indent the child list items. For example, the following Markdown:
 
-```markdown
+```md
 - List item 1
   - List item A
   - List item B
@@ -102,7 +102,7 @@ will be rendered as:
 
 To format an ordered/stepwise list, you use corresponding numbers. For example, the following Markdown:
 
-```markdown
+```md
 1. First instruction
 1. Second instruction
 1. Third instruction
@@ -116,7 +116,7 @@ will be rendered as:
 
 To nest a list within another list, indent the child list items. For example, the following Markdown:
 
-```markdown
+```md
 1. First instruction
    1. Sub-instruction
    1. Sub-instruction
@@ -138,7 +138,7 @@ Tables are not part of the core Markdown specification, but GFM supports them. Y
 
 For example, the following Markdown:
 
-```markdown
+```md
 | Fun                  | With                 | Tables          |
 | :------------------- | -------------------: |:---------------:|
 | left-aligned column  | right-aligned column | centered column |
@@ -190,7 +190,7 @@ Fenced code blocks are an easy way to enable syntax highlighting for your code s
     ...
     ```
 
-The alias after the initial three backtick (`) characters defines the syntax highlighting to be used. The following is a list of commonly used programming languages in Docs content and the matching label:
+The alias after the initial three backtick (\`) characters defines the syntax highlighting to be used. The following is a list of commonly used programming languages in Docs content and the matching label:
 
 These languages have friendly name support and most have language highlighting.
 
