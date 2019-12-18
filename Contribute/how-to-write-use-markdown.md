@@ -190,7 +190,7 @@ Fenced code blocks are an easy way to enable syntax highlighting for your code s
     ...
     ```
 
-The alias after the initial three backtick (`) characters defines the syntax highlighting to be used. The following is a list of commonly used programming languages in Docs content and the matching label:
+The alias after the initial three backtick (\`) characters defines the syntax highlighting to be used. The following is a list of commonly used programming languages in Docs content and the matching label:
 
 These languages have friendly name support and most have language highlighting.
 
@@ -224,6 +224,7 @@ These languages have friendly name support and most have language highlighting.
 |Objective-C|objc|
 |OData|odata|
 |PHP|php|
+|protobuf|protobuf|
 |PowerApps (dot decimal separator)|powerapps-dot|
 |PowerApps (comma decimal separator)|powerapps-comma|
 |PowerShell|powershell|
