@@ -68,7 +68,7 @@ Docs supports six levels of Markdown headings:
 - Each Markdown file must have one and only one H1.
 - The H1 must be the first content in the file after the YML metadata block.
 - H2s automatically appear in the right-hand navigating menu of the published file. Lower-level headings do not, so use H2s strategically to help readers navigate your content.
-- HMTL headings, such as `<h1>`, are not recommended and in some cases will cause build warnings.
+- HTML headings, such as `<h1>`, are not recommended and in some cases will cause build warnings.
 - You can link to individual headings in a file via [bookmarks](#bookmark-links).
 
 ## HTML
