@@ -28,7 +28,7 @@ If your link is a raw URL, change it to an explicit Markdown link beginning with
 [www.microsoft.com](https://www.microsoft.com).
 ```
 
-If your link is a web address that isn't meant to be a clickable link, such as a fully-qualified domain name or a namespace reference, style it as inline code, such as:
+If your link is a web address that isn't meant to be clickable, such as a fully-qualified domain name or a namespace reference, style it as inline code, such as:
 
 ```md
 `www.microsoft.com:90`
