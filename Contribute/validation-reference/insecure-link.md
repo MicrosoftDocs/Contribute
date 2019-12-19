@@ -28,7 +28,7 @@ If your link is a raw URL, change it to an explicit Markdown link beginning with
 [www.microsoft.com](https://www.microsoft.com).
 ```
 
-If your link is a web addresses - such as a fully-qualified domain name, a namespace reference, and so on - that isn't meant to be a clickable link, style it as inline code, such as:
+If your link is a web address that isn't meant to be a clickable link, such as a fully-qualified domain name or a namespace reference, style it as inline code, such as:
 
 ```md
 `www.microsoft.com:90`
@@ -40,8 +40,6 @@ If your link is a web addresses - such as a fully-qualified domain name, a names
 > 1. Install the [Docs Markdown](https://marketplace.visualstudio.com/items?itemName=docsmsft.docs-markdown) extension for VS Code.
 > 1. Click alt + M to open the Markdown menu.
 > 1. Select **Cleanup**, then **Microsoft links**.
-
-
 
 <!--make sure to add this file to your includes folder and verify the path-->
 [!INCLUDE [validation-reference-help](includes/validation-reference-help.md)]
