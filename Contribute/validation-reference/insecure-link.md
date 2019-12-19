@@ -10,7 +10,7 @@ ms.prod: non-product-specific
 # insecure-link
 
 > [!IMPORTANT]
-> This rule was initially enabled as a "Suggestion" to give content teams time to gauge impact and develop a plan to clean up their repos. **It will be elevated to a "Warning" on 01/06/2020**. [](https://docs.microsoft.com/en-us/contribute/validation-reference/)
+> This rule was initially enabled as a "Suggestion" to give content teams time to gauge impact and develop a plan to clean up their repos. **It will be elevated to a "Warning" on 01/06/2020**. [   ](https://docs.microsoft.com/en-us/contribute/validation-reference/)
 
 ## Suggestion
 
