@@ -4,15 +4,12 @@ description: Explanation and resolution for Docs build issue hard-coded-locale.
 author: meganbradley
 ms.author: mbradley
 ms.topic: error-reference
-ms.date: 10/18/2019
+ms.date: 12/19/2019
 ms.prod: non-product-specific
 ---
 # hard-coded-locale
 
-> [!IMPORTANT]
-> This rule was initially enabled as a "Suggestion" to give content teams time to gauge impact and develop a plan to clean up their repos. **It will be elevated to a "Warning" on 12/20/2019**.
-
-## Suggestion
+## Warning
 
 `Link '{URL}' contains locale code '{code}'. For localizability, remove '{code}' from links to most Microsoft sites.`
 
