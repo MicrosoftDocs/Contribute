@@ -4,15 +4,12 @@ description: Explanation and resolution for Docs build issue insecure-link
 author: meganbradley
 ms.author: mbradley # Microsoft employees only
 ms.topic: error-reference
-ms.date: 10/1/2019
+ms.date: 12/19/2019
 ms.prod: non-product-specific
 ---
 # insecure-link
 
-> [!IMPORTANT]
-> This rule was initially enabled as a "Suggestion" to give content teams time to gauge impact and develop a plan to clean up their repos. **It will be elevated to a "Warning" on 01/06/2020**.
-
-## Suggestion
+## Warning
 
 `Link '{URL}' is insecure. Links to Microsoft sites must use 'https' instead of 'http'.`
 
