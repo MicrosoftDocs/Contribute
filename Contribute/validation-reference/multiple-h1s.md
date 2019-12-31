@@ -19,13 +19,11 @@ H1 refers to the first heading in a Markdown file. When published to docs.micros
 
 You might also get this message if your article contains a line of equals signs making a double underline, like this: `=======`. This is an alternative Markdown syntax for an H1. It's also commonly seen in merge conflicts:
 
-```markdown
 <<<<<<< HEAD
 ...
 =======
 ...
 >>>>>>> 1d82c7efe18f86136247fb366df5030843199c19
-```
 
 ## Resolution
 
