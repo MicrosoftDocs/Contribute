@@ -433,3 +433,6 @@ The docs.microsoft.com site backend supports [CommonMark](https://commonmark.org
 - [Docs Markdown cheat sheet](./media/documents/markdown-cheatsheet.pdf?raw=true)
 - [GitHub's Markdown Basics](https://help.github.com/articles/markdown-basics/)
 - [The Markdown Guide](https://www.markdownguide.org/)
+
+> [!div class="mx-imgBorder"]
+> ![how to edit an article on Docs](media/contribute-get-started-setup-local/edit-article.png)
