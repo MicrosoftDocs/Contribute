@@ -436,3 +436,7 @@ The docs.microsoft.com site backend supports [CommonMark](https://commonmark.org
 
 > [!div class="mx-imgBorder"]
 > ![how to edit an article on Docs](media/contribute-get-started-setup-local/edit-article.png)
+
+
+> [!div class="mx-imgBorder"]
+> ![test for image with no border](media/image-no-border.png)
