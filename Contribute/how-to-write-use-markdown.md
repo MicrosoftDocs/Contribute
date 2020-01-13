@@ -517,7 +517,7 @@ available attribute values are:
 For the Azure Cloud Shell and PowerShell Cloud Shell, users can run commands against only their own
 Azure account.
 
-For Try .NET, there are three options for interactivity: `try-dotnet`, `try-dotnet-class`, and `try-dotnet-method`. Use of these options require no additional configuration within the code snippet. The default usings that are being used are:
+[Try .NET](https://github.com/dotnet/try) enables interactive execution of .NET code (C#) in the browser. For Try .NET, there are three options for interactivity: `try-dotnet`, `try-dotnet-class`, and `try-dotnet-method`. Use of these options require no additional configuration within the code snippet. The default usings that are being used are:
 
 - System
 - System.Linq
