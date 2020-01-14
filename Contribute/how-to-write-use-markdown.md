@@ -497,11 +497,11 @@ of the code file are highlighted.
 You can enable interactive mode for code snippets included by reference. Here are examples:
 
 ```markdown
-:::code source="PowerShell.ps1" interactive="cloudshell-powershell":::
+:::code language="powershell" source="PowerShell.ps1" interactive="cloudshell-powershell":::
 ```
 
 ```markdown
-:::code source="Bash.sh" interactive="cloudshell-bash":::
+:::code language="bash" source="Bash.sh" interactive="cloudshell-bash":::
 ```
 
 To turn on this feature for a particular code block, use the `interactive` attribute. The
@@ -513,6 +513,8 @@ available attribute values are:
 - `try-dotnet` - Enables Try .NET
 - `try-dotnet-class` - Enables Try .NET with class scaffolding
 - `try-dotnet-method` - Enables Try .NET with method scaffolding
+
+There are pairs of `language` and `interactive` that are compatible. For example, if `interactive` is `try-dotnet`, the language must be `csharp`. Similarly, `cloudshell-powershell` would only work with `powershell` and `cloudshell-bash` would work only with `bash` as the language.
 
 For the Azure Cloud Shell and PowerShell Cloud Shell, users can run commands against only their own
 Azure account.
@@ -531,13 +533,13 @@ The `try-dotnet` attribute value enables users to run C# code in the browser wit
 Example:
 
 ```md
-:::code source="relative/path/source.cs" interactive="try-dotnet"::
+:::code language="csharp" source="relative/path/source.cs" interactive="try-dotnet":::
 ```
 
 The `try-dotnet-class` value applies class-level scaffolding to the code passed to the interactive component.
 
 ```md
-:::code source="relative/path/source.cs" interactive="try-dotnet-class":::
+:::code language="csharp" source="relative/path/source.cs" id="snippet-tag" interactive="try-dotnet-class":::
 ```
 
 Example:
@@ -592,7 +594,7 @@ class NameOfClass {
 The `try-dotnet-method` value applies method-level scaffolding to the code passed to the interactive component.
 
 ```md
-:::code source="relative/path/source.cs" interactive="try-dotnet-method"::
+:::code language="csharp" source="relative/path/source.cs" id="snippet-tag" interactive="try-dotnet-method":::
 ```
 
 Example:
@@ -603,8 +605,6 @@ Code Snippet without Method Scaffolding Applied
 /*Print some string in C#*/
 
 Console.WriteLine("Hello C#.);
-
-Console.ReadKey();
 ```
 
 Code Snippet with Method Scaffolding Applied
@@ -615,9 +615,6 @@ public static void Main(string args[]) {
 /*Print some string in C#*/
 
 Console.WriteLine("Hello C#.);
-
-Console.ReadKey();
-
 }
 ```
 
