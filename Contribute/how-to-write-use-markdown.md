@@ -207,7 +207,6 @@ These languages have friendly name support and most have language highlighting.
 |C++/CX|cppcx|
 |C++/WinRT|cppwinrt|
 |C#|csharp|
-|C# in browser|csharp-interactive|
 |Console|console|
 |CSHTML|cshtml|
 |DAX|dax|
@@ -238,8 +237,6 @@ These languages have friendly name support and most have language highlighting.
 |VB|vb|
 |XAML|xaml|
 |XML|xml|
-
-The `csharp-interactive` name specifies the C# language, and the ability to run the samples from the browser. These snippets are compiled and executed in a Docker container, and the results of that program execution are displayed in the user's browser window.
 
 #### Example: C\#
 
@@ -658,13 +655,10 @@ Syntax:
 |ASP.NET with C#|`aspx-csharp`|
 |ASP.NET with VB|`aspx-vb`|
 |Azure CLI|`azurecli`|
-|Azure CLI in browser|`azurecli-interactive`|
-|Azure PowerShell in browser|`azurepowershell-interactive`|
 |AzCopy|`azcopy`|
 |Bash|`bash`|
 |C++|`cpp`|
 |C#|`csharp`|
-|C# in browser|`csharp-interactive`|
 |Console|`console`|
 |CSHTML|`cshtml`|
 |DAX|`dax`|
