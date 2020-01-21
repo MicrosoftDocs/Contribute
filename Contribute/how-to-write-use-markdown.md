@@ -546,32 +546,32 @@ Example:
 
 Code Snippet without Class Scaffolding Applied
 
-```md
+```csharp
 public static void Main()
+{
+    // Specify the data source.  
+    int[] scores = new int[] { 97, 92, 81, 60 };        // Define the query expression.
+
+    IEnumerable<int> scoreQuery =
+        from score in scores  
+        where score > 80  
+        select score;
+
+    // Execute the query.  
+    foreach (int i in scoreQuery)
     {  
-        // Specify the data source.  
-        int[] scores = new int[] { 97, 92, 81, 60 };        // Define the query expression.
-
-        IEnumerable<int> scoreQuery =
-            from score in scores  
-            where score > 80  
-            select score;
-
-        // Execute the query.  
-        foreach (int i in scoreQuery)
-        {  
-            Console.Write(i + " ");
-        }
-    }  
+        Console.Write(i + " ");
+    }
 }
 ```
 
 Code Snippet with Class Scaffolding Applied
 
-```md
-class NameOfClass {
+```csharp
+class NameOfClass
+{
 
-   public static void Main()
+    public static void Main()
     {
         // Specify the data source.
         int[] scores = new int[] { 97, 92, 81, 60 };
@@ -587,7 +587,7 @@ class NameOfClass {
         {
             Console.Write(i + " ");
         }
-    }  
+    }
 }
 ```
 
@@ -601,20 +601,21 @@ Example:
 
 Code Snippet without Method Scaffolding Applied
 
-```md
+```csharp
 /*Print some string in C#*/
 
-Console.WriteLine("Hello C#.);
+Console.WriteLine("Hello C#");
 ```
 
 Code Snippet with Method Scaffolding Applied
 
 ```md
-public static void Main(string args[]) {
+public static void Main(string args[])
+{
 
 /*Print some string in C#*/
 
-Console.WriteLine("Hello C#.);
+Console.WriteLine("Hello C#");
 }
 ```
 
