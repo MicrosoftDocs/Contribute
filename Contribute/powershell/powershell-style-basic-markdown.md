@@ -67,8 +67,7 @@ In general, references to "Windows PowerShell" in documentation can be changed t
 ## Basic Markdown, GFM, and special characters
 
 You can learn the basics of Markdown, GitHub Flavored Markdown (GFM), and OPS specific extensions in
-the general articles on [Markdown](../how-to-write-use-markdown.md) and
-[Markdown reference](../markdown-reference.md).
+the [Markdown reference](../markdown-reference.md) article.
 
 Markdown uses special characters such as \*, \`, and \# for formatting. If you wish to include one
 of these characters in your content, you must do one of two things:

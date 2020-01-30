@@ -104,4 +104,4 @@ You're now back in a new branch and you're well on your way to being a master co
 
 That's it! You've made a contribution to docs.microsoft.com content!
 
-- To learn more about topics such as Markdown and Markdown extensions syntax, continue to the [Writing essentials](how-to-write-use-markdown.md) article.
+- To learn more about topics such as Markdown and Markdown extensions syntax, continue to the [Markdown reference](markdown-reference.md) article.
