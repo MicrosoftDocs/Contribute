@@ -184,7 +184,7 @@ Docs supports six levels of Markdown headings:
 - The H1 heading must be the first content in the file after the YML metadata block.
 - H2 headings automatically appear in the right-hand navigating menu of the published file. Lower-level headings don't appear, so use H2s strategically to help readers navigate your content.
 - HTML headings, such as `<h1>`, aren't recommended, and in some cases will cause build warnings.
-- You can link to individual headings in a file via [bookmarks](links-how-to.md#bookmark-links).
+- You can link to individual headings in a file via [bookmark links](how-to-write-links.md#links-to-anchors).
 
 ## HTML
 
@@ -297,7 +297,7 @@ Here are requirements and considerations for include files:
 
 ## Links
 
-For information on syntax for links, see [Links](links-how-to.md).
+For information on syntax for links, see [Use links in documentation](how-to-write-links.md).
 
 ## Lists (Numbered, Bulleted, Checklist)
 
@@ -493,14 +493,14 @@ There are two types of selectors: a single selector and a multi-selector.
 ... will be rendered like this:
 
 > [!div class="op_single_selector"]
-> - [Universal Windows](../index.yml)
-> - [Windows Phone](../index.yml)
-> - [iOS](../index.yml)
-> - [Android](../index.yml)
-> - [Kindle](../index.yml)
-> - [Baidu](../index.yml)
-> - [Xamarin.iOS](../index.yml)
-> - [Xamarin.Android](../index.yml)
+> - [Universal Windows](how-to-write-links.md)
+> - [Windows Phone](how-to-write-links.md)
+> - [iOS](how-to-write-links.md)
+> - [Android](how-to-write-links.md)
+> - [Kindle](how-to-write-links.md)
+> - [Baidu](how-to-write-links.md)
+> - [Xamarin.iOS](how-to-write-links.md)
+> - [Xamarin.Android](how-to-write-links.md)
 
 ### Multi-selector
 
@@ -521,16 +521,16 @@ There are two types of selectors: a single selector and a multi-selector.
 ... will be rendered like this:
 
 > [!div class="op_multi_selector" title1="Platform" title2="Backend"]
-> - [(iOS | .NET)](../index.yml)
-> - [(iOS | JavaScript)](../index.yml)
-> - [(Windows universal C# | .NET)](../index.yml)
-> - [(Windows universal C# | Javascript)](../index.yml)
-> - [(Windows Phone | .NET)](../index.yml)
-> - [(Windows Phone | Javascript)](../index.yml)
-> - [(Android | .NET)](../index.yml)
-> - [(Android | Javascript)](../index.yml)
-> - [(Xamarin iOS | Javascript)](../index.yml)
-> - [(Xamarin Android | Javascript)](../index.yml)
+> - [(iOS | .NET)](how-to-write-links.md)
+> - [(iOS | JavaScript)](how-to-write-links.md)
+> - [(Windows universal C# | .NET)](how-to-write-links.md)
+> - [(Windows universal C# | Javascript)](how-to-write-links.md)
+> - [(Windows Phone | .NET)](how-to-write-links.md)
+> - [(Windows Phone | Javascript)](how-to-write-links.md)
+> - [(Android | .NET)](how-to-write-links.md)
+> - [(Android | Javascript)](how-to-write-links.md)
+> - [(Xamarin iOS | Javascript)](how-to-write-links.md)
+> - [(Xamarin Android | Javascript)](how-to-write-links.md)
 
 ## Subscript and superscript
 
