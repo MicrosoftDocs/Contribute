@@ -37,7 +37,7 @@ Other metadata is attached to each article, but we typically apply most metadata
 
 ## Basic Markdown, GFM, and special characters
 
-You can learn the basics of Markdown, GitHub Flavored Markdown (GFM), and OPS specific extensions in the general articles on [Markdown](how-to-write-use-markdown.md) and [Markdown reference](markdown-reference.md).
+You can learn the basics of Markdown, GitHub Flavored Markdown (GFM), and OPS specific extensions in the [Markdown reference](markdown-reference.md) article.
 
 Markdown uses special characters such as \*, \`, and \# for formatting. If you wish to include one of these characters in your content, you must do one of two things:
 
@@ -123,7 +123,7 @@ To link to a generic type, such as [System.Collections.Generic.List\<T>](https:/
 
 ## Code
 
-The best way to include code is to include snippets from a working sample. Create your sample following the instructions in the [contributing to .NET](dotnet-contribute-process.md#contributing-to-samples) article. The basic rules for including code are located in the general guidance on [code](how-to-write-use-markdown.md#code-snippets).
+The best way to include code is to include snippets from a working sample. Create your sample following the instructions in the [contributing to .NET](dotnet-contribute-process.md#contributing-to-samples) article. The basic rules for including code are located in the general guidance on [code](code-in-docs.md).
 
 You can include the code using the following syntax:
 
