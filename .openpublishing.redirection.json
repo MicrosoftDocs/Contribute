@@ -1,6 +1,10 @@
 {
     "redirections": [
         {
+            "source_path": "Contribute/contribute-how-to-write-use-markdown.md",
+            "redirect_url": "/contribute/markdown-reference"
+        },
+        {
             "source_path": "Contribute/how-to-contribute.md",
             "redirect_url": "/"
         },

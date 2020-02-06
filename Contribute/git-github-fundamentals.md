@@ -61,7 +61,7 @@ Each article directory contains a `/media` subdirectory for corresponding media 
 
 Whenever we have reusable content that is shared across two or more articles, it is placed in an `/includes` subdirectory off the main `articles` directory. In a Markdown file that uses the include file, a corresponding "include" Markdown extension is placed in the location where the include file needs to be referenced.
 
-See [How to use Markdown: Includes](how-to-write-use-markdown.md#include-files) for additional guidance.
+See [Markdown reference: Includes](markdown-reference.md#included-markdown-files) for additional guidance.
 
 ### Markdown file template
 

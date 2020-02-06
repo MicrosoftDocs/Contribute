@@ -14,14 +14,18 @@
       href: how-to-write-workflows-major.md
 - name: Writing essentials
   items:
-    - name: Markdown
-      href: how-to-write-use-markdown.md
     - name: Markdown reference
       href: markdown-reference.md
+      displayName: alerts notes tips important caution warnings apostrophes quotation marks quotes blockquotes bold italic code snippets columns headings html images includes links lists bullets bulleted checklist numbered next steps button localize non-localized section selector superscript subscript table tables tabs tabbed videos icons
     - name: Style and voice quick start
       href: style-quick-start.md
     - name: Style guide
       href: /style-guide/
+    - name: Add code to articles
+      href: code-in-docs.md
+      displayName: backtick, code blocks, inline code blocks, repo snippet reference, !code-, interactive code snippets, programming languages, languages, code extensions, extensions
+    - name: Format text
+      href: text-formatting-guidelines.md
     - name: Links
       href: how-to-write-links.md
     - name: Docs Authoring Pack
