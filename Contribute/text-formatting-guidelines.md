@@ -141,4 +141,4 @@ styling everywhere. You might choose bold styling in that context.
 
 If you choose an alternate text style where code is normally called for, make sure it's okay for the text
 to be translated in localized versions of the article. Code is the only style that automatically
-prevents translation. For scenarios where you want to prevent localization without using code style, see [Non-localized strings](/help/contribute/markdown-reference#non-localized-strings).
+prevents translation. For scenarios where you want to prevent localization without using code style, see [Non-localized strings](markdown-reference.md#non-localized-strings).
