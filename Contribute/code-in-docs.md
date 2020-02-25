@@ -436,41 +436,207 @@ Syntax:
 
 |Name|Markdown label|
 |-----|-------|
-|.NET Core CLI|`dotnetcli`|
-|ASP.NET with C#|`aspx-csharp`|
-|ASP.NET with VB|`aspx-vb`|
-|Azure CLI|`azurecli`|
-|Azure CLI in browser|`azurecli-interactive`|
-|Azure PowerShell in browser|`azurepowershell-interactive`|
-|AzCopy|`azcopy`|
-|Bash|`bash`|
-|C++|`cpp`|
-|C#|`csharp`|
-|C# in browser|`csharp-interactive`|
-|Console|`console`|
-|CSHTML|`cshtml`|
-|DAX|`dax`|
-|Docker|`Dockerfile`|
-|F#|`fsharp`|
-|HTML|`html`|
-|Java|`java`|
-|JavaScript|`javascript`|
-|JSON|`json`|
-|Kusto Query Language|`kusto`|
-|Markdown|`md`|
-|Objective-C|`objc`|
-|PHP|`php`|
-|PowerShell|`powershell`|
-|Power Query M|`powerquery-m`|
-|protobuf|`protobuf`|
-|Python|`python`|
-|Ruby|`ruby`|
-|SQL|`sql`|
-|Swift|`swift`|
-|VB|`vb`|
-|XAML|`xaml`|
-|XML|`xml`|
-|YAML|`yml`|
+| .NET Core CLI | `dotnetcli` |
+| 1C | `1c` |
+| ABNF | `abnf` |
+| Access logs | `accesslog` |
+| Ada | `ada` |
+| ARM assembler | `armasm` |
+| AVR assembler | `avrasm` |
+| ActionScript | `actionscript` |
+| Alan | `alan` |
+| AngelScript | `angelscript` |
+| ANTLR | `antlr` |
+| Apache | `apache` |
+| AppleScript | `applescript` |
+| Arcade | `arcade` |
+| AsciiDoc | `asciidoc` |
+| AspectJ | `aspectj` |
+| ASPX | `aspx` |
+| ASP.NET (C#) | `aspx-csharp` |
+| ASP.NET (VB) | `aspx-vb` |
+| AutoHotkey | `autohotkey` |
+| AutoIt | `autoit` |
+| Awk | `awk` |
+| Axapta | `axapta` |
+| AzCopy | `azcopy` |
+| Azure CLI | `azurecli` |
+| Azure CLI (Interactive) | `azurecli-interactive` |
+| Azure Powershell | `azurepowershell` |
+| Azure Powershell (Interactive) | `azurepowershell-interactive` |
+| Bash | `bash` |
+| Basic | `basic` |
+| BNF | `bnf` |
+| C | `c` |
+| C# | `csharp` |
+| C# (Interactive) | `csharp-interactive` |
+| C++ | `cpp` |
+| C++/CX | `cppcx` |
+| C++/WinRT | `cppwinrt` |
+| C/AL | `cal` |
+| Cache Object Script | `cos` |
+| CMake | `cmake` |
+| Coq | `coq` |
+| CSP | `csp` |
+| CSS | `css` |
+| Cap’n Proto | `capnproto` |
+| Clojure | `clojure` |
+| CoffeeScript | `coffeescript` |
+| Command Prompt | `console` |
+| Crmsh | `crmsh` |
+| Crystal | `crystal` |
+| Cypher (Neo4j) | `cypher` |
+| D | `d` |
+| DAX Power BI | `dax` |
+| DNS Zone file | `dns` |
+| DOS | `dos` |
+| Dart | `dart` |
+| Delphi | `delphi` |
+| Diff | `diff` |
+| Django | `django` |
+| Dockerfile | `dockerfile` |
+| dsconfig | `dsconfig` |
+| DTS (Device Tree) | `dts` |
+| Dust | `dust` |
+| Dylan | `dylan` |
+| EBNF | `ebnf` |
+| Elixir | `elixir` |
+| Elm | `elm` |
+| Erlang | `erlang` |
+| Excel | `excel` |
+| Extempore | `extempore` |
+| F# | `fsharp` |
+| FIX | `fix` |
+| Fortran | `fortran` |
+| G-Code | `gcode` |
+| Gams | `gams` |
+| GAUSS | `gauss` |
+| GDScript | `godot` |
+| Gherkin | `gherkin` |
+| GN for Ninja | `gn` |
+| Go | `go` |
+| Golo | `golo` |
+| Gradle | `gradle` |
+| Groovy | `groovy` |
+| HTML | `html` |
+| HTTP | `http` |
+| Haml | `haml` |
+| Handlebars | `handlebars` |
+| Haskell | `haskell` |
+| Haxe | `haxe` |
+| Hy | `hy` |
+| Ini | `ini` |
+| Inform7 | `inform7` |
+| IRPF90 | `irpf90` |
+| JSON | `json` |
+| Java | `java` |
+| JavaScript | `javascript` |
+| Kotlin | `kotlin` |
+| Kusto | `kusto` |
+| Leaf | `leaf` |
+| Lasso | `lasso` |
+| Less | `less` |
+| LDIF | `ldif` |
+| Lisp | `lisp` |
+| LiveCode Server | `livecodeserver` |
+| LiveScript | `livescript` |
+| Lua | `lua` |
+| Makefile | `makefile` |
+| Markdown | `markdown` |
+| Mathematica | `mathematica` |
+| Matlab | `matlab` |
+| Maxima | `maxima` |
+| Maya Embedded Language | `mel` |
+| Mercury | `mercury` |
+| mIRC Scripting Language | `mirc` |
+| Mizar | `mizar` |
+| Managed Object Format | `mof` |
+| Mojolicious | `mojolicious` |
+| Monkey | `monkey` |
+| Moonscript | `moonscript` |
+| MS Graph (Interactive) | `msgraph-interactive` |
+| N1QL | `n1ql` |
+| NSIS | `nsis` |
+| Nginx | `nginx` |
+| Nimrod | `nimrod` |
+| Nix | `nix` |
+| OCaml | `ocaml` |
+| Objective C | `objectivec` |
+| OpenGL Shading Language | `glsl` |
+| OpenSCAD | `openscad` |
+| Oracle Rules Language | `ruleslanguage` |
+| Oxygene | `oxygene` |
+| PF | `pf` |
+| PHP | `php` |
+| Parser3 | `parser3` |
+| Perl | `perl` |
+| Plaintext no highlight | `plaintext` |
+| Pony | `pony` |
+| PostgreSQL & PL/pgSQL | `pgsql` |
+| PowerShell | `powershell` |
+| PowerShell (Interactive) | `powershell-interactive` |
+| Processing | `processing` |
+| Prolog | `prolog` |
+| Properties | `properties` |
+| Protocol Buffers | `protobuf` |
+| Puppet | `puppet` |
+| Python | `python` |
+| Python profiler results | `profile` |
+| Q# | `qsharp` |
+| Q | `k` |
+| QML | `qml` |
+| R | `r` |
+| Razor CSHTML | `cshtml` |
+| ReasonML | `reasonml` |
+| RenderMan RIB | `rib` |
+| RenderMan RSL | `rsl` |
+| Roboconf | `graph` |
+| Robot Framework | `robot` |
+| RPM spec files | `rpm-specfile` |
+| Ruby | `ruby` |
+| Rust | `rust` |
+| SAS | `SAS` |
+| SCSS | `scss` |
+| SQL | `sql` |
+| STEP Part 21 | `p21` |
+| Scala | `scala` |
+| Scheme | `scheme` |
+| Scilab | `scilab` |
+| Shape Expressions | `shexc` |
+| Shell | `shell` |
+| Smali | `smali` |
+| Smalltalk | `smalltalk` |
+| Solidity | `solidity` |
+| Stan | `stan` |
+| Stata | `stata` |
+| Structured Text | `iecst` |
+| Stylus | `stylus` |
+| SubUnit | `subunit` |
+| Supercollider | `supercollider` |
+| Swift | `swift` |
+| Tcl | `tcl` |
+| Terraform (HCL) | `terraform` |
+| Test Anything Protocol | `tap` |
+| TeX | `tex` |
+| Thrift | `thrift` |
+| TOML | `toml` |
+| TP | `tp` |
+| Twig | `twig` |
+| TypeScript | `typescript` |
+| VB.NET | `vbnet` |
+| VBScript | `vbscript` |
+| VHDL | `vhdl` |
+| Vala | `vala` |
+| Verilog | `verilog` |
+| Vim Script | `vim` |
+| X++ | `xpp` |
+| x86 Assembly | `x86asm` |
+| XL | `xl` |
+| XQuery | `xquery` |
+| XAML | `xaml` |
+| XML | `xml` |
+| YAML | `yml` |
+| Zephir | `zephir` |
 
 ### Code extensions
 
