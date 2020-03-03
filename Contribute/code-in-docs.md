@@ -198,7 +198,7 @@ that word appears in the code section title bar on the rendered page. Whenever p
 environment indicator in your inline code blocks.
 
 > [!NOTE]
-> If you copy and paste code from a Word document, make sure it has no "curly quotes", which aren't valid in code (for example, `"` and `'`). If it does, change them back to normal quotes (`'` and `"`). Alternatively, rely on the Docs Authoring Pack, [smart quotes replacement feature](docs-authoring/smart-quote-replacement.md).
+> If you copy and paste code from a Word document, make sure it has no "curly quotes," which aren't valid in code (for example, `"` and `'`). If it does, change them back to normal quotes (`'` and `"`). Alternatively, rely on the Docs Authoring Pack, [smart quotes replacement feature](docs-authoring/smart-quote-replacement.md).
 
 ## In-repo snippet references
 
