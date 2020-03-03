@@ -6,7 +6,7 @@ ms.author: tdykstra
 ms.date: 03/03/2020
 ms.prod: non-product-specific
 ms.topic: contributor-guide
-ms.custom: internal-contributor-guide
+ms.custom: external-contributor-guide
 ---
 
 # How to include code in docs
