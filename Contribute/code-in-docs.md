@@ -3,7 +3,7 @@ title: How to include code in docs
 description: Learn how to include code elements and snippets in articles to be published on docs.microsoft.com.
 author: tdykstra
 ms.author: tdykstra
-ms.date: 01/30/2020
+ms.date: 03/03/2020
 ms.prod: non-product-specific
 ms.topic: contributor-guide
 ms.custom: external-contributor-guide
@@ -25,7 +25,7 @@ There are several ways to include code in an article published on docs.microsoft
       ```csharp
       public static void Log(string message)
       {
-          _logger.LogInformation(message});
+          _logger.LogInformation(message);
       }
       ```
   ```
@@ -197,13 +197,16 @@ If you use a language or environment word after the triple-backticks (\`\`\`) th
 that word appears in the code section title bar on the rendered page. Whenever possible, use a language or
 environment indicator in your inline code blocks.
 
+> [!NOTE]
+> If you copy and paste code from a Word document, make sure it has no "curly quotes," which aren't valid in code (for example, `“` and `’`). If it does, change them back to normal quotes (`'` and `"`). Alternatively, rely on the Docs Authoring Pack, [smart quotes replacement feature](docs-authoring/smart-quote-replacement.md).
+
 ## In-repo snippet references
 
 The preferred way to include code snippets for programming languages in docs is by reference to a code file. This method gives you the ability to highlight lines of code and makes the wider context of the snippet available on GitHub for developers to use. You can include code by using the triple colon format (:\:\:) either manually or in Visual Studio Code with the help of the [docs.microsoft.com Authoring Pack](https://marketplace.visualstudio.com/items?itemName=docsmsft.docs-authoring-pack).
 
-1. In Visual Studio Code, click **Alt + M** or **Option + M** and select Snippet.
+1. In Visual Studio Code, click <kbd>Alt + M</kbd> or <kbd>Option + M</kbd> and select Snippet.
 2. Once Snippet is selected, you will be prompted for Full Search, Scoped Search or Cross-Repository Reference. To search locally, select Full Search.
-3. Enter a search term to find the file. Once you’ve found the file, select the file.
+3. Enter a search term to find the file. Once you've found the file, select the file.
 4. Next, select an option to determine which line(s) of code should be included in the snippet. The options are: **ID**, **Range** and **None**.
 5. Based on your selection from Step 4, provide a value if necessary.
 
@@ -324,10 +327,10 @@ actually referring to the root folder in the *azure-functions-durable-extension*
 
 You can include code by using the triple colon format (:\:\:) either manually or in Visual Studio Code with the help of the [docs.microsoft.com Authoring Pack](https://marketplace.visualstudio.com/items?itemName=docsmsft.docs-authoring-pack).
 
-1. In Visual Studio Code, click **Alt + M** or **Option + M** and select Snippet.
+1. In Visual Studio Code, click <kbd>Alt + M</kbd> or <kbd>Option + M</kbd> and select Snippet.
 2. Once Snippet is selected, you will be prompted for Full Search, Scoped Search or Cross-Repository Reference. To search across repositories, select Cross-Repository Reference.
 3. You will be given a selection of repositories that are in *.openpublishing.publish.config.json*. Select a repository.
-4. Enter a search term to find the file. Once you’ve found the file, select the file.
+4. Enter a search term to find the file. Once you've found the file, select the file.
 5. Next, select an option to determine which line(s) of code should be included in the snippet. The options are: **ID**, **Range** and **None**.
 6. Based on your selection from Step 5, provide a value.
 
@@ -341,7 +344,7 @@ In the *azure-functions-durable-extension* repository, that code file is in the 
 folder. As noted [earlier](#highlighting-selected-lines), line numbers for highlighting are relative to the start of the snippet rather than the start of the file.
 
 > [!NOTE]
-> The name you assign to the dependent repository is relative to the root of the main repository, but the tilde (~) refers to the root of the doc set. The doc set root is determined by `build_source_folder` in *.openpublishing.publish.config.json*. The path to the snippet in the preceding example works in the azure-docs repo because `build_source_folder` refers to the repo root (`.`). If `build_source_folder` were `articles`, the path would start with `~/../samples-durable-functions` instead of `~/samples-durable-functions`.	
+> The name you assign to the dependent repository is relative to the root of the main repository, but the tilde (~) refers to the root of the doc set. The doc set root is determined by `build_source_folder` in *.openpublishing.publish.config.json*. The path to the snippet in the preceding example works in the azure-docs repo because `build_source_folder` refers to the repo root (`.`). If `build_source_folder` were `articles`, the path would start with `~/../samples-durable-functions` instead of `~/samples-durable-functions`.
 
 ## Interactive code snippets
 
@@ -432,60 +435,215 @@ Syntax:
 
 ## Supported languages
 
+The [Docs Authoring Pack](how-to-write-docs-auth-pack.md) includes a feature to provide statement completion and validation of the available language identifiers for code fence blocks.
+
 ### Fenced code blocks
 
-|Name|Markdown label|
-|-----|-------|
-|.NET Core CLI|`dotnetcli`|
-|ASP.NET with C#|`aspx-csharp`|
-|ASP.NET with VB|`aspx-vb`|
-|Azure CLI|`azurecli`|
-|Azure CLI in browser|`azurecli-interactive`|
-|Azure PowerShell in browser|`azurepowershell-interactive`|
-|AzCopy|`azcopy`|
-|Bash|`bash`|
-|C++|`cpp`|
-|C#|`csharp`|
-|C# in browser|`csharp-interactive`|
-|Console|`console`|
-|CSHTML|`cshtml`|
-|DAX|`dax`|
-|Docker|`Dockerfile`|
-|F#|`fsharp`|
-|HTML|`html`|
-|Java|`java`|
-|JavaScript|`javascript`|
-|JSON|`json`|
-|Kusto Query Language|`kusto`|
-|Markdown|`md`|
-|Objective-C|`objc`|
-|PHP|`php`|
-|PowerShell|`powershell`|
-|Power Query M|`powerquery-m`|
-|protobuf|`protobuf`|
-|Python|`python`|
-|Ruby|`ruby`|
-|SQL|`sql`|
-|Swift|`swift`|
-|VB|`vb`|
-|XAML|`xaml`|
-|XML|`xml`|
-|YAML|`yml`|
+| Name                           | Valid aliases                                                                  |
+|--------------------------------|--------------------------------------------------------------------------------|
+| .NET Core CLI                  | `dotnetcli`                                                                    |
+| 1C                             | `1c`                                                                           |
+| ABNF                           | `abnf`                                                                         |
+| Access logs                    | `accesslog`                                                                    |
+| Ada                            | `ada`                                                                          |
+| ARM assembler                  | `armasm`, `arm`                                                                |
+| AVR assembler                  | `avrasm`                                                                       |
+| ActionScript                   | `actionscript`, `as`                                                           |
+| Alan                           | `alan`, `i`                                                                    |
+| AngelScript                    | `angelscript`, `asc`                                                           |
+| ANTLR                          | `antlr`                                                                        |
+| Apache                         | `apache`, `apacheconf`                                                         |
+| AppleScript                    | `applescript`, `osascript`                                                     |
+| Arcade                         | `arcade`                                                                       |
+| AsciiDoc                       | `asciidoc`, `adoc`                                                             |
+| AspectJ                        | `aspectj`                                                                      |
+| ASPX                           | `aspx`                                                                         |
+| ASP.NET (C#)                   | `aspx-csharp`                                                                  |
+| ASP.NET (VB)                   | `aspx-vb`                                                                      |
+| AutoHotkey                     | `autohotkey`                                                                   |
+| AutoIt                         | `autoit`                                                                       |
+| Awk                            | `awk`, `mawk`, `nawk`, `gawk`                                                  |
+| Axapta                         | `axapta`                                                                       |
+| AzCopy                         | `azcopy`                                                                       |
+| Azure CLI                      | `azurecli`                                                                     |
+| Azure CLI (Interactive)        | `azurecli-interactive`                                                         |
+| Azure Powershell               | `azurepowershell`                                                              |
+| Azure Powershell (Interactive) | `azurepowershell-interactive`                                                  |
+| Bash                           | `bash`, `sh`, `zsh`                                                            |
+| Basic                          | `basic`                                                                        |
+| BNF                            | `bnf`                                                                          |
+| C                              | `c`                                                                            |
+| C#                             | `csharp`, `cs`                                                                 |
+| C# (Interactive)               | `csharp-interactive`                                                           |
+| C++                            | `cpp`, `c`, `cc`, `h`, `c++`, `h++`, `hpp`                                     |
+| C++/CX                         | `cppcx`                                                                        |
+| C++/WinRT                      | `cppwinrt`                                                                     |
+| C/AL                           | `cal`                                                                          |
+| Cache Object Script            | `cos`, `cls`                                                                   |
+| CMake                          | `cmake`, `cmake.in`                                                            |
+| Coq                            | `coq`                                                                          |
+| CSP                            | `csp`                                                                          |
+| CSS                            | `css`                                                                          |
+| Cap'n Proto                    | `capnproto`, `capnp`                                                           |
+| Clojure                        | `clojure`, `clj`                                                               |
+| CoffeeScript                   | `coffeescript`, `coffee`, `cson`, `iced`                                       |
+| Crmsh                          | `crmsh`, `crm`, `pcmk`                                                         |
+| Crystal                        | `crystal`, `cr`                                                                |
+| Cypher (Neo4j)                 | `cypher`                                                                       |
+| D                              | `d`                                                                            |
+| DAX Power BI                   | `dax`                                                                          |
+| DNS Zone file                  | `dns`, `zone`, `bind`                                                          |
+| DOS                            | `dos`, `bat`, `cmd`                                                            |
+| Dart                           | `dart`                                                                         |
+| Delphi                         | `delphi`, `dpr`, `dfm`, `pas`, `pascal`, `freepascal`, `lazarus`, `lpr`, `lfm` |
+| Diff                           | `diff`, `patch`                                                                |
+| Django                         | `django`, `jinja`                                                              |
+| Dockerfile                     | `dockerfile`, `docker`                                                         |
+| dsconfig                       | `dsconfig`                                                                     |
+| DTS (Device Tree)              | `dts`                                                                          |
+| Dust                           | `dust`, `dst`                                                                  |
+| Dylan                          | `dylan`                                                                        |
+| EBNF                           | `ebnf`                                                                         |
+| Elixir                         | `elixir`                                                                       |
+| Elm                            | `elm`                                                                          |
+| Erlang                         | `erlang`, `erl`                                                                |
+| Excel                          | `excel`, `xls`, `xlsx`                                                         |
+| Extempore                      | `extempore`, `xtlang`, `xtm`                                                   |
+| F#                             | `fsharp`, `fs`                                                                 |
+| FIX                            | `fix`                                                                          |
+| Fortran                        | `fortran`, `f90`, `f95`                                                        |
+| G-Code                         | `gcode`, `nc`                                                                  |
+| Gams                           | `gams`, `gms`                                                                  |
+| GAUSS                          | `gauss`, `gss`                                                                 |
+| GDScript                       | `godot`, `gdscript`                                                            |
+| Gherkin                        | `gherkin`                                                                      |
+| GN for Ninja                   | `gn`, `gni`                                                                    |
+| Go                             | `go`, `golang`                                                                 |
+| Golo                           | `golo`, `gololang`                                                             |
+| Gradle                         | `gradle`                                                                       |
+| Groovy                         | `groovy`                                                                       |
+| HTML                           | `html`, `xhtml`                                                                |
+| HTTP                           | `http`, `https`                                                                |
+| Haml                           | `haml`                                                                         |
+| Handlebars                     | `handlebars`, `hbs`, `html.hbs`, `html.handlebars`                             |
+| Haskell                        | `haskell`, `hs`                                                                |
+| Haxe                           | `haxe`, `hx`                                                                   |
+| Hy                             | `hy`, `hylang`                                                                 |
+| Ini                            | `ini`                                                                          |
+| Inform7                        | `inform7`, `i7`                                                                |
+| IRPF90                         | `irpf90`                                                                       |
+| JSON                           | `json`                                                                         |
+| Java                           | `java`, `jsp`                                                                  |
+| JavaScript                     | `javascript`, `js`, `jsx`                                                      |
+| Kotlin                         | `kotlin`, `kt`                                                                 |
+| Kusto                          | `kusto`                                                                        |
+| Leaf                           | `leaf`                                                                         |
+| Lasso                          | `lasso`, `ls`, `lassoscript`                                                   |
+| Less                           | `less`                                                                         |
+| LDIF                           | `ldif`                                                                         |
+| Lisp                           | `lisp`                                                                         |
+| LiveCode Server                | `livecodeserver`                                                               |
+| LiveScript                     | `livescript`, `ls`                                                             |
+| Lua                            | `lua`                                                                          |
+| Makefile                       | `makefile`, `mk`, `mak`                                                        |
+| Markdown                       | `markdown`, `md`, `mkdown`, `mkd`                                              |
+| Mathematica                    | `mathematica`, `mma`, `wl`                                                     |
+| Matlab                         | `matlab`                                                                       |
+| Maxima                         | `maxima`                                                                       |
+| Maya Embedded Language         | `mel`                                                                          |
+| Mercury                        | `mercury`                                                                      |
+| mIRC Scripting Language        | `mirc`, `mrc`                                                                  |
+| Mizar                          | `mizar`                                                                        |
+| Managed Object Format          | `mof`                                                                          |
+| Mojolicious                    | `mojolicious`                                                                  |
+| Monkey                         | `monkey`                                                                       |
+| Moonscript                     | `moonscript`, `moon`                                                           |
+| MS Graph (Interactive)         | `msgraph-interactive`                                                          |
+| N1QL                           | `n1ql`                                                                         |
+| NSIS                           | `nsis`                                                                         |
+| Nginx                          | `nginx`, `nginxconf`                                                           |
+| Nimrod                         | `nimrod`, `nim`                                                                |
+| Nix                            | `nix`                                                                          |
+| OCaml                          | `ocaml`, `ml`                                                                  |
+| Objective C                    | `objectivec`, `mm`, `objc`, `obj-c`                                            |
+| OpenGL Shading Language        | `glsl`                                                                         |
+| OpenSCAD                       | `openscad`, `scad`                                                             |
+| Oracle Rules Language          | `ruleslanguage`                                                                |
+| Oxygene                        | `oxygene`                                                                      |
+| PF                             | `pf`, `pf.conf`                                                                |
+| PHP                            | `php`, `php3`, `php4`, `php5`, `php6`                                          |
+| Parser3                        | `parser3`                                                                      |
+| Perl                           | `perl`, `pl`, `pm`                                                             |
+| Plaintext no highlight         | `plaintext`                                                                    |
+| Pony                           | `pony`                                                                         |
+| PostgreSQL & PL/pgSQL          | `pgsql`, `postgres`, `postgresql`                                              |
+| PowerShell                     | `powershell`, `ps`                                                             |
+| PowerShell (Interactive)       | `powershell-interactive`                                                       |
+| Processing                     | `processing`                                                                   |
+| Prolog                         | `prolog`                                                                       |
+| Properties                     | `properties`                                                                   |
+| Protocol Buffers               | `protobuf`                                                                     |
+| Puppet                         | `puppet`, `pp`                                                                 |
+| Python                         | `python`, `py`, `gyp`                                                          |
+| Python profiler results        | `profile`                                                                      |
+| Q#                             | `qsharp`                                                                       |
+| Q                              | `k`, `kdb`                                                                     |
+| QML                            | `qml`                                                                          |
+| R                              | `r`                                                                            |
+| Razor CSHTML                   | `cshtml`, `razor`, `razor-cshtml`                                              |
+| ReasonML                       | `reasonml`, `re`                                                               |
+| RenderMan RIB                  | `rib`                                                                          |
+| RenderMan RSL                  | `rsl`                                                                          |
+| Roboconf                       | `graph`, `instances`                                                           |
+| Robot Framework                | `robot`, `rf`                                                                  |
+| RPM spec files                 | `rpm-specfile`, `rpm`, `spec`, `rpm-spec`, `specfile`                          |
+| Ruby                           | `ruby`, `rb`, `gemspec`, `podspec`, `thor`, `irb`                              |
+| Rust                           | `rust`, `rs`                                                                   |
+| SAS                            | `SAS`, `sas`                                                                   |
+| SCSS                           | `scss`                                                                         |
+| SQL                            | `sql`                                                                          |
+| STEP Part 21                   | `p21`, `step`, `stp`                                                           |
+| Scala                          | `scala`                                                                        |
+| Scheme                         | `scheme`                                                                       |
+| Scilab                         | `scilab`, `sci`                                                                |
+| Shape Expressions              | `shexc`                                                                        |
+| Shell                          | `shell`, `console`                                                             |
+| Smali                          | `smali`                                                                        |
+| Smalltalk                      | `smalltalk`, `st`                                                              |
+| Solidity                       | `solidity`, `sol`                                                              |
+| Stan                           | `stan`                                                                         |
+| Stata                          | `stata`                                                                        |
+| Structured Text                | `iecst`, `scl`, `stl`, `structured-text`                                       |
+| Stylus                         | `stylus`, `styl`                                                               |
+| SubUnit                        | `subunit`                                                                      |
+| Supercollider                  | `supercollider`, `sc`                                                          |
+| Swift                          | `swift`                                                                        |
+| Tcl                            | `tcl`, `tk`                                                                    |
+| Terraform (HCL)                | `terraform`, `tf`, `hcl`                                                       |
+| Test Anything Protocol         | `tap`                                                                          |
+| TeX                            | `tex`                                                                          |
+| Thrift                         | `thrift`                                                                       |
+| TOML                           | `toml`                                                                         |
+| TP                             | `tp`                                                                           |
+| Twig                           | `twig`, `craftcms`                                                             |
+| TypeScript                     | `typescript`, `ts`                                                             |
+| VB.NET                         | `vbnet`, `vb`                                                                  |
+| VBScript                       | `vbscript`, `vbs`                                                              |
+| VHDL                           | `vhdl`                                                                         |
+| Vala                           | `vala`                                                                         |
+| Verilog                        | `verilog`, `v`                                                                 |
+| Vim Script                     | `vim`                                                                          |
+| X++                            | `xpp`                                                                          |
+| x86 Assembly                   | `x86asm`                                                                       |
+| XL                             | `xl`, `tao`                                                                    |
+| XQuery                         | `xquery`, `xpath`, `xq`                                                        |
+| XAML                           | `xaml`                                                                         |
+| XML                            | `xml`, `xhtml`, `rss`, `atom`, `xjb`, `xsd`, `xsl`, `plist`                    |
+| YAML                           | `yml`, `yaml`                                                                  |
+| Zephir                         | `zephir`, `zep`                                                                |
 
-### Code extensions
-
-|Name|Markdown label|File extension|
-|-----|-------|-----|
-|C#|csharp|.cs, .csx|
-|C++|cpp|.cpp, .h|
-|F#|fsharp|.fs|
-|Java|java|.java|
-|JavaScript|javascript|.js|
-|Python|python|.py|
-|SQL|sql|.sql|
-|VB|vb|.vb|
-|XAML|xaml|.xaml|
-|XML|xml|.xml|
+> [!TIP]
+> The Docs Authoring Pack, [Dev Lang Completion feature](docs-authoring/dev-lang-completion.md) uses the first valid alias when multiple aliases are available.
 
 ## Next steps
 
