@@ -37,7 +37,7 @@ From the **Explorer** navigation pane, right-click on a folder containing images
 
 ## Considerations
 
-Large resolution images are implicitly resized. The maximum dimensions are based on the platform suggested max width, [suggested here](../contribute-how-to-create-screenshot.md#considerations). The max is only used when images are larger than they are recommended to be, and they will maintain the aspect ratio when automatically resized.
+Large resolution images are implicitly resized. The maximum dimensions are based on the platform suggested max width of `1,200px`. The max is only used when images are larger than they are recommended to be, and they will maintain the aspect ratio when automatically resized.
 
 ## Preferences
 
