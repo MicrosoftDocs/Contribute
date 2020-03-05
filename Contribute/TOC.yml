@@ -28,8 +28,26 @@
       href: text-formatting-guidelines.md
     - name: Links
       href: how-to-write-links.md
-    - name: Docs Authoring Pack
-      href: how-to-write-docs-auth-pack.md
+    - name: Docs Authoring pack
+      items:
+      - name: Overview
+        href: how-to-write-docs-auth-pack.md
+      - name: Features
+        items:
+        - name: Dev lang completion
+          href: docs-authoring/dev-lang-completion.md
+        - name: Image compression
+          href: docs-authoring/image-compression.md
+        - name: Metadata updates
+          href: docs-authoring/metadata-updates.md
+        - name: Reformat Markdown tables
+          href: docs-authoring/reformat-table.md
+        - name: Smart quote replacement
+          href: docs-authoring/smart-quote-replacement.md
+        - name: Sort redirects
+          href: docs-authoring/sort-redirects.md
+        - name: Sort selection
+          href: docs-authoring/sort-selection.md
 - name: Documentation set-specific guidance
   items:
     - name: .NET docs
