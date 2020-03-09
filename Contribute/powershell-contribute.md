@@ -22,4 +22,4 @@ guides are available .
 
 <!--link refs-->
 [docs]: https://docs.microsoft.com/
-[psdocs]: https://docs.microsoft.com/powershell
+[psdocs]: https://docs.microsoft.com/powershell/scripting/community/contributing/overview
