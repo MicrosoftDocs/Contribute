@@ -53,15 +53,15 @@
     - name: .NET docs
       items:
         - name: How to contribute to .NET docs
-          href: dotnet-contribute.md
+          href: dotnet/dotnet-contribute.md
         - name: Contribute to .NET docs
-          href: dotnet-contribute-process.md
+          href: dotnet/dotnet-contribute-process.md
         - name: .NET docs style conventions
-          href: dotnet-style-guide.md
+          href: dotnet/dotnet-style-guide.md
         - name: Voice and tone guide
-          href: dotnet-voice-tone.md
+          href: dotnet/dotnet-voice-tone.md
         - name: Pull request review process
-          href: dotnet-pr-review.md
+          href: dotnet/dotnet-pr-review.md
     - name: PowerShell docs
       items:
         - name: How to contribute to PowerShell docs
