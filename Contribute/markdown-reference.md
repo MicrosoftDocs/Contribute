@@ -625,6 +625,19 @@ It will be rendered like this:
 
 You might want line breaks to be automatically inserted within words only in the second column of a table. To limit the breaks to the second column, apply the class `mx-tdCol2BreakAll` by using the `div` wrapper syntax as shown earlier.
 
+### Data matrix tables
+
+A data matrix table has both a header and a weighted first column, creating a matrix with an empty cell in the top left. Docs has custom Markdown for data matrix tables:
+
+```md
+|                  |Header 1 |Header 2|
+|------------------|---------|--------|
+|**First column A**|Cell 1A  |Cell 2A |
+|**First column B**|Cell 1B  |Cell 2B |
+```
+
+Every entry in the first column must be styled as bold (`**bold**`); otherwise the tables won't be accessible for screen readers or valid for Docs.
+
 ### HTML Tables
 
 HTML tables aren't recommended for docs.microsoft.com. They aren't human readable in the source - which is a key principle of Markdown.
