@@ -55,7 +55,7 @@ that includes the full URL syntax (for example, `https://github.com/MicrosoftDoc
   reference and conceptual articles within the docset.
 - The simplest way to create a relative link is to copy the URL from your browser, then remove
   `https://docs.microsoft.com/en-us` from the value you paste into markdown.
-   - Do not include locales in URLs on Microsoft properties (eg. remove "/en-us" from URL).
+   - Do not include locales in URLs for Microsoft properties (for example, remove "/en-us" from the URL).
 
 A file link is used to link from one article to another within the docset.
 
