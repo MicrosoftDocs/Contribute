@@ -59,7 +59,7 @@ that includes the full URL syntax (for example, `https://github.com/MicrosoftDoc
 
 A file link is used to link from one article to another within the docset.
 
-- All file paths use forward-slash (`/`) characters
+- All file paths use forward-slash (`/`) characters instead of back-slash characters.
 - An article links to another article in the same directory:
 
   `[link text](article-name.md)`
