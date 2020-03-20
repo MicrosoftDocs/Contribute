@@ -108,7 +108,6 @@ https://docs.microsoft.com/en-us/powershell/azure/overview?view=azurermps-5.1.1
   has multiple versions available (example: azps-3.5.0)
 
 > [!TIP]
-
 > In most cases, articles in the same _docset_ have the same `<product-service>` URL fragment. For
 > example:
 > - Same docset
