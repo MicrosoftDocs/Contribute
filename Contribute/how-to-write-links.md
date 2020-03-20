@@ -144,7 +144,7 @@ hash).
 
 ### Explicit anchor links
 
-Adding explicit anchor links using the `<a>` HTML tag aren't required or recommended, except in hub
+Adding explicit anchor links using the `<a>` HTML tag isn't required or recommended, except in hub
 and landing pages. Instead, use the auto-generated bookmarks as described in
 [bookmark links](#bookmark-links). For hub and landing pages, declare anchors as follows:
 
