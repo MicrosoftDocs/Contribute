@@ -123,7 +123,8 @@ For a bookmark link to a heading in the *current* file, use a hash symbol follow
 words of the heading. Remove punctuation from the heading and replace spaces with dashes:
 
 ```markdown
-[Managed Disks](#managed-disks) ```
+[Managed Disks](#managed-disks)
+```
 
 To link to a bookmark heading in another article, use the file-relative or site-relative link plus a
 hash symbol, followed by the words of the heading. Remove punctuation from the heading and replace
@@ -136,10 +137,13 @@ spaces with dashes:
 You can also copy the bookmark link from the URL. To find the URL, hover your mouse over the heading
 line on docs.microsoft.com. You should see a link icon appear:
 
-![Link icon in article heading](media/contribute-how-to-write-links/bookmark-link.png)
+![Link icon in article heading](media/how-to-write-links/bookmark-link.png)
 
 Click the link icon and then copy the bookmark anchor text from the URL (that is, the part after the
 hash).
+
+> [!NOTE]
+> The Docs Extension also has tools to help create links.
 
 ### Explicit anchor links
 
