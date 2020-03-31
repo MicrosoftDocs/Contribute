@@ -62,19 +62,7 @@
           href: dotnet/dotnet-voice-tone.md
         - name: Pull request review process
           href: dotnet/dotnet-pr-review.md
-    - name: PowerShell docs
-      items:
-        - name: How to contribute to PowerShell docs
-          href: powershell\powershell-contribute.md
-        - name: Contribution process for PowerShell
-          href: powershell\powershell-contribute-process.md
-        - name: Quickstart for writing PowerShell articles
-          href: powershell\powershell-style-basic-markdown.md
-        - name: PowerShell Script sample style guide
-          href: powershell\powershell-style-code.md
-        - name: PowerShell Cmdlet reference style guide
-          href: powershell\powershell-style-reference.md
-        - name: Submitting a Pull Request for PowerShell
-          href: powershell\powershell-pull-requests.md
+    - name: PowerShell-Docs
+      href: powershell-overview.md
 - name: Additional resources
   href: additional-resources.md

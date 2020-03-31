@@ -6,7 +6,7 @@ ms.prod: non-product-specific
 ms.custom: external-contributor-guide
 author: gewarren
 ms.author: gewarren
-ms.date: 10/31/2018
+ms.date: 03/31/2020
 ---
 # Use links in documentation
 

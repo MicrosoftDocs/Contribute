@@ -3,7 +3,7 @@ title: Markdown reference for docs.microsoft.com
 description: Learn the Markdown features and syntax used in the Microsoft Docs platform.
 author: meganbradley
 ms.author: mbradley
-ms.date: 01/30/2020
+ms.date: 03/31/2020
 ms.topic: contributor-guide
 ms.prod: non-product-specific
 ms.custom: external-contributor-guide
@@ -65,7 +65,7 @@ Angle brackets don't have to be escaped in text formatted as inline code or in c
 
 ## Apostrophes and quotation marks
 
-If you copy from Word into a Markdown editor, the text might contain "smart" (curly) apostrophes or quotation marks. These need to be encoded or changed to basic apostrophes or quotation marks. Otherwise, you end up with things like this when the file is published: Itâ€™s
+If you copy from Word into a Markdown editor, the text might contain "smart" (curly) apostrophes or quotation marks. These need to be encoded or changed to basic apostrophes or quotation marks. Otherwise, you end up with things like this when the file is published: Itâ&euro;&trade;s
 
 Here are the encodings for the "smart" versions of these punctuation marks:
 
@@ -184,11 +184,11 @@ Docs supports six levels of Markdown headings:
 - The H1 heading must be the first content in the file after the YML metadata block.
 - H2 headings automatically appear in the right-hand navigating menu of the published file. Lower-level headings don't appear, so use H2s strategically to help readers navigate your content.
 - HTML headings, such as `<h1>`, aren't recommended, and in some cases will cause build warnings.
-- You can link to individual headings in a file via [bookmark links](how-to-write-links.md#links-to-anchors).
+- You can link to individual headings in a file via [bookmark links](how-to-write-links.md#explicit-anchor-links).
 
 ## HTML
 
-Although Markdown supports inline HTML, HTML isn't recommended for publishing to Docs, and except for a limited list of values will cause build errors or warnings. 
+Although Markdown supports inline HTML, HTML isn't recommended for publishing to Docs, and except for a limited list of values will cause build errors or warnings.
 
 ## Images
 
