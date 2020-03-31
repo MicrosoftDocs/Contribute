@@ -179,10 +179,10 @@ You can use one of the following syntaxes:
 
 Examples:
 
-- **\<xref:System.String>** displays as <xref:System.String>
+- **\<xref:System.String>** displays as [String class](xref:System.String)
 
-- **\<xref:System.String?displayProperty=nameWithType>** displays as
-  <xref:System.String?displayProperty=nameWithType>
+- **\<xref:System.String?displayProperty=nameWithType>** displays as [String class]
+  (xref:System.String?displayProperty=nameWithType)
 
 - **\[String class](xref:System.String)** displays as [String class](xref:System.String).
 
