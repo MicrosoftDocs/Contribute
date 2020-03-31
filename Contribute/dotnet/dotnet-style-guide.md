@@ -1,5 +1,5 @@
 ---
-title: Template and cheatsheet for .NET articles 
+title: Template and cheatsheet for .NET articles
 description: This article contains a handy template you can use to create new articles for the .NET docs repositories
 ms.topic: contributor-guide
 ms.prod: non-product-specific
@@ -37,7 +37,7 @@ Other metadata is attached to each article, but we typically apply most metadata
 
 ## Basic Markdown, GFM, and special characters
 
-You can learn the basics of Markdown, GitHub Flavored Markdown (GFM), and OPS specific extensions in the [Markdown reference](markdown-reference.md) article.
+You can learn the basics of Markdown, GitHub Flavored Markdown (GFM), and OPS specific extensions in the [Markdown reference](../markdown-reference.md) article.
 
 Markdown uses special characters such as \*, \`, and \# for formatting. If you wish to include one of these characters in your content, you must do one of two things:
 
@@ -72,7 +72,7 @@ Use for inline code, language keywords, NuGet package names, command-line comman
 
 ## Links
 
-See the general article on [Links](how-to-write-links.md) for information about anchors, internal links, links to other documents, code includes, and external links.
+See the general article on [Links](../how-to-write-links.md) for information about anchors, internal links, links to other documents, code includes, and external links.
 
 The .NET docs team uses the following conventions:
 
@@ -123,7 +123,7 @@ To link to a generic type, such as [System.Collections.Generic.List\<T>](https:/
 
 ## Code
 
-The best way to include code is to include snippets from a working sample. Create your sample following the instructions in the [contributing to .NET](dotnet-contribute-process.md#contributing-to-samples) article. The basic rules for including code are located in the general guidance on [code](code-in-docs.md).
+The best way to include code is to include snippets from a working sample. Create your sample following the instructions in the [contributing to .NET](dotnet-contribute-process.md#contributing-to-samples) article. The basic rules for including code are located in the general guidance on [code](../code-in-docs.md).
 
 You can include the code using the following syntax:
 
@@ -135,7 +135,7 @@ You can include the code using the following syntax:
   * Language of the code snippet being referenced.
 
 * `<name>` (*optional*)
-  * Name for the code snippet. It doesn’t have any impact on the output HTML, but you can use it to improve the readability of your Markdown source.
+  * Name for the code snippet. It doesn't have any impact on the output HTML, but you can use it to improve the readability of your Markdown source.
 
 * `<pathToFile>` (*mandatory*)
   * Relative path in the file system that indicates the code snippet file to reference. This can be complicated by the different repos that make up the .NET doc set. The .NET samples are in the dotnet/samples repo. All snippet paths would start with `~/samples`, the rest of the path being the path to the source from the root of that repo.
@@ -161,7 +161,7 @@ The following example shows code included in all three .NET languages:
 ```markdown
 [!code-fsharp[ToPigLatin](../../../samples/snippets/fsharp/getting-started/pig-latin.fs#L1-L14)]
  [!code-csharp[ADCreateDomain#2](../../../samples/snippets/csharp/VS_Snippets_CLR/ADCreateDomain/CS/source2.cs#2)]
- [!code-vb[ADCreateDomain#2](../../../samples/snippets/visualbasic/VS_Snippets_CLR/ADCreateDomain/VB/source2.vb#2)]  
+ [!code-vb[ADCreateDomain#2](../../../samples/snippets/visualbasic/VS_Snippets_CLR/ADCreateDomain/VB/source2.vb#2)]
 ```
 
 Including snippets from full programs ensures that all code runs through our Continuous Integration (CI)
