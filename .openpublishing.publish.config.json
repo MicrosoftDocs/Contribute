@@ -14,8 +14,9 @@
             "ZonePivotGroups": "Toc"
         },
         "build_entry_point": "docs",
-        "template_folder": "_themes"
-    }],
+        "template_folder": "_themes",
+        "xref_query_tags": ["/dotnet", "/uwp/api"]
+     }],
     "notification_subscribers": [],
     "branches_to_filter": [],
     "skip_source_output_uploading": false,
@@ -51,7 +52,6 @@
     },
     "need_generate_pdf_url_template": true,
     "git_repository_branch_open_to_public_contributors": "master",
-    "xref_query_tags": ["/dotnet", "/uwp/api"],
     "docs_build_engine": {
         "name": "docfx_v3"
     }
