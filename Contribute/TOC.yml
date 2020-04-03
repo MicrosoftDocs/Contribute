@@ -57,7 +57,7 @@
         - name: Contribute to .NET docs
           href: dotnet/dotnet-contribute-process.md
         - name: Labels and projects roadmap
-+         href: dotnet/labels-projects.md
+          href: dotnet/labels-projects.md
         - name: .NET docs style conventions
           href: dotnet/dotnet-style-guide.md
         - name: Voice and tone guide
