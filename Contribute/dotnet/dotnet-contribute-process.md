@@ -37,11 +37,11 @@ You can also choose from existing issues for which community contributions are w
 
 You can also look at our [open issues](https://github.com/dotnet/docs/issues) list and volunteer to work on the ones you're interested in. We use the [up-for-grabs](https://github.com/dotnet/docs/labels/up-for-grabs) label to tag issues identified for community contribution. These usually require minimal context and are well-suited for first issues. We encourage experienced contributors in our community to look at any issues of interest. When you find one, add a comment to ask if it's open.
 
-Once you've picked a task to work on, follow the [get started](get-started-setup-github.md) guide to create a GitHub account and setup your environment.
+Once you've picked a task to work on, follow the [get started](../get-started-setup-github.md) guide to create a GitHub account and setup your environment.
 
 **Step 2:** Fork the `/dotnet/docs`, `dotnet/samples`, `dotnet/dotnet-api-docs`, `dotnet/roslyn-api-docs`, or `dotnet/ml-api-docs` repos as needed and create a branch for your changes.
 
-For small changes, see the instructions on editing in GitHub on the [home page](index.md#quick-edits-to-existing-documents) of the contributor guide.
+For small changes, see the instructions on editing in GitHub on the [home page](../index.md#quick-edits-to-existing-documents) of the contributor guide.
 
 **Step 3:** Make the changes on this new branch.
 
@@ -65,7 +65,7 @@ Be sure to follow the proper Markdown syntax. For examples of common , see the [
 **Step 4:** Submit a Pull Request (PR) from your branch to the master branch.
 
 > [!IMPORTANT]
-> The [comment automation](how-to-write-workflows-major.md#review-and-sign-off) functionality is not available on any of the .NET docs repositories at this time. Members of the .NET docs team will review and merge your PR.
+> The [comment automation](../how-to-write-workflows-major.md#review-and-sign-off) functionality is not available on any of the .NET docs repositories at this time. Members of the .NET docs team will review and merge your PR.
 
 Each PR should usually address one issue at a time. The PR can modify one or multiple files. If you're addressing multiple fixes on different files, separate PRs are preferred. If you are creating samples as well as updating markdown, you'll need to create a separate PR for samples.
 
@@ -163,7 +163,7 @@ Except where noted, all samples build from the command line on any platform supp
 
 ## The C# interactive experience
 
-All samples included in an article use a [language tag](code-in-docs.md) to indicate the source language. Short code samples in C# can use the `csharp-interactive` language tag to specify a C# sample that runs in the browser. (Inline code samples use the `csharp-interactive` tag, for snippets included from source, use the `code-csharp-interactive` tag.) These code samples display a code window and an output window in the article. The output window displays any output from executing the interactive code once the user has run the sample.
+All samples included in an article use a [language tag](../code-in-docs.md) to indicate the source language. Short code samples in C# can use the `csharp-interactive` language tag to specify a C# sample that runs in the browser. (Inline code samples use the `csharp-interactive` tag, for snippets included from source, use the `code-csharp-interactive` tag.) These code samples display a code window and an output window in the article. The output window displays any output from executing the interactive code once the user has run the sample.
 
 The C# interactive experience changes how we work with samples. Visitors can run the sample to see the results. A number of factors help determine if the sample or corresponding text should include information about the output.
 
