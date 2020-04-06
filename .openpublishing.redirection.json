@@ -13,8 +13,7 @@
         },
         {
             "source_path": "Contribute/dotnet-contribute-process.md",
-            "redirect_url": "/contribute/dotnet/dotnet-contribute-process",
-            "redirect_document_id": true
+            "redirect_url": "/contribute/dotnet/dotnet-contribute"
         },
         {
             "source_path": "Contribute/dotnet-contribute.md",
