@@ -101,6 +101,8 @@ Issues tagged for a specific release are noted with the `:checkered_flag: Releas
 
 - .NET Core 2.2
 - .NET Core 3.0
+- .NET Framework 4.8
+- .NET 5
 
 ### Priority
 
@@ -109,6 +111,7 @@ Priority labels are all `P` followed by a single digit. Lower numbers are higher
 - P0
 - P1
 - P2
+- P3
 
 ### What about the other labels?
 
