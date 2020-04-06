@@ -119,9 +119,7 @@ There are many other labels used by the content teams to manage different classi
 
 ## Projects
 
-Contributors should check the [Projects for .NET community collaborators](https://github.com/dotnet/docs/projects/35). We've created different columns for maintenance, document updates, and new content tasks. This can be a way to find tasks of interest. (Note that the project view can be filtered using the labels described above.)
-
-We also use projects in two other ways:
+We use projects in two ways:
 
 - Month YYYY project types: These are scrum boards for each month's working plan.
 - Long-running epics: These are used to organize tasks toward a goal when the work will occur over several months.
