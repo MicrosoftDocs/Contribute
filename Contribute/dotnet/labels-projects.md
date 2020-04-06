@@ -1,6 +1,6 @@
 ---
 title: Labels and projects roadmap 
-description: This article contains explains how labels and projects are used in the dotnet/docs repository.
+description: This article explains how labels and projects are used in the dotnet/docs repository.
 ms.topic: contributor-guide
 ms.prod: non-product-specific
 ms.custom: external-contributor-guide
