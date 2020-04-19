@@ -34,7 +34,7 @@ Quick edits streamline the process to report and fix small errors and omissions 
 
    ![Location of the Edit link](./media/index/edit-article.png)
 
-2. Next, click the pencil icon, to edit the article as shown. If the pencil icon is grayed out, you need to either login to your GitHub account or create a new account. 
+2. Next, click the pencil icon, to edit the article as shown. If the pencil icon is grayed out, you need to either log in to your GitHub account or create a new account. 
 
    ![Location of the pencil icon](./media/index/edit-icon.png)
 
@@ -63,7 +63,7 @@ The in-browser editing experience is best for minor or infrequent changes. If yo
 > If enabled, you can edit an article in **any language** and, based on the type of edit, the following will happen:
 > 1. any linguistic change that is approved, will also help improve our Machine Translation engine
 > 2. any edit that significantly modifies the content of the article will be handled internally to submit a change to the same article in English so that it will get localized in all languages if approved.
-> So your suggested improvements will not only positively affect articles in your own language, but in all available languages.
+> Thus, your suggested improvements will not only positively affect articles in your own language, but in all available languages.
 
 ## Review open PRs
 
