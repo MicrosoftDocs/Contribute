@@ -97,7 +97,7 @@ Be sure to follow the proper Markdown syntax. For examples of common , see the [
 
 The structure shown above includes one image, *portability_report.png*, and three code projects that include **code snippets** that are included in the *porting-overview.md* article.
 
-For historical reasons, many of hte included snippets are stored under the */samples* folder in the *dotnet/docs* repository. If you are making major changes to an article, those snippets should be moved to the new structure. Do not move snippets for small changes.
+For historical reasons, many of the included snippets are stored under the */samples* folder in the *dotnet/docs* repository. If you are making major changes to an article, those snippets should be moved to the new structure. Do not move snippets for small changes.
 
 **Step 4:** Submit a Pull Request (PR) from your branch to the master branch.
 
@@ -192,7 +192,7 @@ You build any .NET Core snippet or sample using the .NET Core CLI, which can be 
 
 3. Add a readme.md to the root directory of your sample.
 
-   This should include a brief description of the code, and refer people to the article that references the sample. The top of the readme.md must have the metadata required for the [samples browser](https://docs.microsoft.com/samples). The header block should contain the following fields:
+   This should include a brief description of the code, and refer people to the article that references the sample. The top of the *readme.md* must have the metadata required for the [samples browser](https://docs.microsoft.com/samples). The header block should contain the following fields:
 
    ```yml
    ---
