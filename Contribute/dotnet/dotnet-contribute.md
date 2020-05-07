@@ -141,6 +141,8 @@ Your topic will also contain links to the sample. Link directly to the sample's 
 
 ### Writing a new sample
 
+Samples are full programs and libraries meant for download. They may be small in scope, but they demonstrate concepts in a manner that enables people to explore and experiment on their own. The guidelines for samples ensure readers can download and explore. Examine the [Parallel LINQ (PLINQ)](https://github.com/dotnet/samples/tree/master/csharp/parallel/PLINQ) samples as an example of each of the guidelines.
+
 1. Your sample **must be part of a buildable project**. Where possible, the projects should build on all platforms supported by .NET Core. Exceptions to this are samples that demonstrate a platform specific feature or platform specific tool.
 
 2. Your sample should conform to the [corefx coding style](https://github.com/dotnet/corefx/blob/master/Documentation/coding-guidelines/coding-style.md) to maintain consistency.
@@ -205,10 +207,16 @@ You build any .NET Core snippet or sample using the .NET Core CLI, which can be 
      - vbnet
    products:
      - dotnet-core
+     - dotnet
+     - dotnet-standard
+     - aspnet
+     - aspnet-core
+     - ef-core
    ---
    ```
 
-   The `languages` collection should include only those languages available for your sample.
+   - The `languages` collection should include only those languages available for your sample.
+   - The `products` collection should include only those products relevant to your sample.
 
 Except where noted, all samples build from the command line on any platform supported by .NET Core. There are a few samples that are specific to Visual Studio and require Visual Studio 2017 or later. In addition, some samples show platform specific features and will require a specific platform. Other samples and snippets require the .NET Framework and will run on Windows platforms, and will need the Developer Pack for the target Framework version.
 
