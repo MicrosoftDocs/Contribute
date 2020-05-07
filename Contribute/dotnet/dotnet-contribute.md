@@ -63,7 +63,11 @@ For small changes, see the instructions on editing in GitHub on the [home page](
 
 If it's a new topic, you can use this [template file](dotnet-style-guide.md) as your starting point. It contains the writing guidelines and also explains the metadata required for each article, such as author information.
 
-Navigate to the folder that corresponds to the TOC location determined for your article in step 1. That folder contains the Markdown files for all articles in that section. If necessary, create a new folder to place the files for your content. The main article for that section is called *index.md*. For images and other static resources, create a subfolder called **media** inside the folder that contains your article, if it doesn't already exist. Inside the **media** folder, create a subfolder with the article name (except for the index file). Sample code should be in the `dotnet/samples` repo, as described in the section on [samples](#contributing-to-samples).
+Navigate to the folder that corresponds to the TOC location determined for your article in step 1. That folder contains the Markdown files for all articles in that section. If necessary, create a new folder to place the files for your content. The main article for that section is called *index.md*.
+
+For images and other static resources, create a subfolder called **media** inside the folder that contains your article, if it doesn't already exist. Inside the **media** folder, create a subfolder with the article name (except for the index file). 
+
+For **code snippets**, create a subfolder called **snippets** inside the folder that contains your article, if it doesn't already exist. In most cases, you'll have code snippets for all three of the main .NET languages, C#, F#, and Visual Basic. In that case, create sub-folders named **csharp**, **fsharp**, and **vb** for each of the three projects. For simplicity, use the **snippets** folder for your project in the C# Guide, F# Guide, and Visual Basic Guide. Those areas typically have snippets for one language. Code snippets are small, focused examples of code that demonstrate the concepts covered in an article. Larger programs, intended for download and exploration should be located in the [dotnet/samples](https://github.com/dotnet/samples) repository. Full samples are covered in the section on [Contributing to samples](#contributing-to-samples).
 
 Be sure to follow the proper Markdown syntax. For examples of common , see the [template and markdown cheatsheet](dotnet-style-guide.md).
 
@@ -77,6 +81,23 @@ Be sure to follow the proper Markdown syntax. For examples of common , see the [
           /media
             /porting-overview
                 portability_report.png
+          /snippets
+            /csharp
+              porting.csproj
+              porting-overview.cs
+              Program.cs
+            /fsharp
+              porting.fsproj
+              porting-overview.fs
+              Program.fs
+            /vb
+              porting.vbproj
+              porting-overview.vb
+              Program.vb
+
+The structure shown above includes one image, *portability_report.png*, and three code projects that include **code snippets** that are included in the *porting-overview.md* article.
+
+For historical reasons, many of hte included snippets are stored under the */samples* folder in the *dotnet/docs* repository. If you are making major changes to an article, those snippets should be moved to the new structure. Do not move snippets for small changes.
 
 **Step 4:** Submit a Pull Request (PR) from your branch to the master branch.
 
@@ -99,16 +120,14 @@ We regularly push all commits from master branch into the live branch and then y
 
 The [dotnet/samples](https://github.com/dotnet/samples) repo contains all the sample code that is part of any topic under the .NET documentation. There are several different projects that are organized in sub-folders. These sub-folders are organized similarly to the organization of the docs for .NET.
 
-We make the following distinction for code that exists in our repository:
+We make the following distinction for code that supports our content:
 
 - Samples: readers can download and run the samples. All samples should be complete applications or libraries. Where the sample creates a library, it should include unit tests or an application that lets readers run the code. They often use more than one technology, feature, or toolkit. The readme.md file for each sample will refer to the article so that you can read more about the concepts covered in each sample.
 - Snippets: illustrate a smaller concept or task. They compile but they are not intended to be complete applications. They should run correctly, but aren't an example application for a typical scenario. Instead, they are designed to be as small as possible to illustrate a single concept or feature. These should be no more than a single screen of code.
 
-Code all lives in the [dotnet/samples](https://github.com/dotnet/samples) repository. We are working toward a model where our samples folder structure matches our docs folder structure. Standards that we follow are:
+Samples are stored in the [dotnet/samples](https://github.com/dotnet/samples) repository. We are working toward a model where our samples folder structure matches our docs folder structure. Standards that we follow are:
 
-- The top level *snippets* folder contains snippets for small, focused samples.
-- API reference samples are placed in a folder following this pattern: *snippets/\<language>/api/\<namespace>/\<apiname>*.
-- Other top-level folders match the top level folders in the *docs* repository. For example, the docs repository has a *machine-learning/tutorials* folder, and the samples for machine learning tutorials are in the *samples/machine-learning/tutorials* folder.
+- Top-level folders match the top level folders in the *docs* repository. For example, the docs repository has a *machine-learning/tutorials* folder, and the samples for machine learning tutorials are in the *samples/machine-learning/tutorials* folder.
 
 In addition, all samples under the *core* and *standard* folders should build and run on all platforms supported by .NET Core. Our CI build system will enforce that. The top level *framework* folder contains samples that are only built and validated on Windows.
 
@@ -120,7 +139,7 @@ Each complete sample that you create should contain a *readme.md* file. This fil
 
 Your topic will also contain links to the sample. Link directly to the sample's folder on GitHub.
 
-### Writing a new snippet or sample
+### Writing a new sample
 
 1. Your sample **must be part of a buildable project**. Where possible, the projects should build on all platforms supported by .NET Core. Exceptions to this are samples that demonstrate a platform specific feature or platform specific tool.
 
@@ -173,7 +192,23 @@ You build any .NET Core snippet or sample using the .NET Core CLI, which can be 
 
 3. Add a readme.md to the root directory of your sample.
 
-   This should include a brief description of the code, and refer people to the article that references the sample.
+   This should include a brief description of the code, and refer people to the article that references the sample. The top of the readme.md must have the metadata required for the [samples browser](https://docs.microsoft.com/samples). The header block should contain the following fields:
+
+   ```yml
+   ---
+   name: "really cool sample"
+   description: "Learn everything about this really cool sample."
+   page_type: sample
+   languages:
+     - csharp
+     - fsharp
+     - vbnet
+   products:
+     - dotnet-core
+   ---
+   ```
+
+   The `languages` collection should include only those languages available for your sample.
 
 Except where noted, all samples build from the command line on any platform supported by .NET Core. There are a few samples that are specific to Visual Studio and require Visual Studio 2017 or later. In addition, some samples show platform specific features and will require a specific platform. Other samples and snippets require the .NET Framework and will run on Windows platforms, and will need the Developer Pack for the target Framework version.
 
@@ -198,9 +233,9 @@ The C# interactive experience changes how we work with samples. Visitors can run
 > [!NOTE]
 > You might notice that some of the topics are not currently following all the guidelines specified here. We're working towards achieving consistency throughout the site. Check the list of [open issues](https://github.com/dotnet/docs/issues?q=is%3Aopen+is%3Aissue+label%3A%22%3Abookmark_tabs%3A+Information+Architecture%22) we're currently tracking for that specific goal.
 
-### Contributing to International content	
+### Contributing to International content
 
-Contributions for Machine Translated (MT) content are currently not accepted. In an effort to improve the quality of MT content, we've transitioned to a Neural MT engine. We accept and encourage contributions for Human Translated (HT) content, which is used to train the Neural MT engine. So over time, contributions to HT content will improve the quality of both HT and MT. MT topics will have a disclaimer stating that part of the topic may be MT, and the **Edit** button won't be displayed, as editing is disabled.	
+Contributions for Machine Translated (MT) content are currently not accepted. In an effort to improve the quality of MT content, we've transitioned to a Neural MT engine. We accept and encourage contributions for Human Translated (HT) content, which is used to train the Neural MT engine. So over time, contributions to HT content will improve the quality of both HT and MT. MT topics will have a disclaimer stating that part of the topic may be MT, and the **Edit** button won't be displayed, as editing is disabled.
 
 ## Contributor license agreement
 
