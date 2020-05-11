@@ -92,22 +92,9 @@ Be sure to follow the proper Markdown syntax. For examples of common , see the [
                 porting-overview.fs
                 Program.fs
                /vb
-                 porting.vbproj
-                 porting-overview.vb
-          Program.vb
-              /snippets
-            /csharp
-              porting.csproj
-              porting-overview.cs
-              Program.cs
-            /fsharp
-              porting.fsproj
-              porting-overview.fs
-              Program.fs
-            /vb
-              porting.vbproj
-              porting-overview.vb
-              Program.vb
+                porting.vbproj
+                porting-overview.vb
+                Program.vb
 
 The structure shown above includes one image, *portability_report.png*, and three code projects that include **code snippets** that are included in the *porting-overview.md* article. An accepted alternative structure contains one project per language that contains all snippets for all articles in that folder. This alternative has been used in the language reference areas because of very small snippets to demonstrate language syntax. It is discouraged in other areas.
 
