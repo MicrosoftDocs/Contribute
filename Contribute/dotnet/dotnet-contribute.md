@@ -4,7 +4,7 @@ description: This article describes the process for contributing to the articles
 ms.topic: contributor-guide
 ms.prod: non-product-specific
 ms.custom: external-contributor-guide
-ms.date: 11/07/2018
+ms.date: 05/14/2020
 ---
 # Learn how to contribute to the .NET docs repositories
 
@@ -67,7 +67,7 @@ Navigate to the folder that corresponds to the TOC location determined for your 
 
 For images and other static resources, create a subfolder called **media** inside the folder that contains your article, if it doesn't already exist. Inside the **media** folder, create a subfolder with the article name (except for the index file). 
 
-For **code snippets**, create a subfolder called **snippets** inside the folder that contains your article, if it doesn't already exist. In most cases, you'll have code snippets for all three of the main .NET languages, C#, F#, and Visual Basic. In that case, create sub-folders named **csharp**, **fsharp**, and **vb** for each of the three projects. For simplicity, use the **snippets** folder for your project in the C# Guide, F# Guide, and Visual Basic Guide. Those areas typically have snippets for one language. Code snippets are small, focused examples of code that demonstrate the concepts covered in an article. Larger programs, intended for download and exploration should be located in the [dotnet/samples](https://github.com/dotnet/samples) repository. Full samples are covered in the section on [Contributing to samples](#contributing-to-samples).
+For **code snippets**, create a subfolder called **snippets** inside the folder that contains your article, if it doesn't already exist.  Inside the **snippets** folder, create a subfolder with the article name. In most cases, you'll have code snippets for all three of the main .NET languages, C#, F#, and Visual Basic. In that case, create sub-folders named **csharp**, **fsharp**, and **vb** for each of the three projects. For simplicity, use the **snippets** folder for your project in the C# Guide, F# Guide, and Visual Basic Guide. Those areas typically have snippets for one language. Code snippets are small, focused examples of code that demonstrate the concepts covered in an article. Larger programs, intended for download and exploration should be located in the [dotnet/samples](https://github.com/dotnet/samples) repository. Full samples are covered in the section on [Contributing to samples](#contributing-to-samples).
 
 Be sure to follow the proper Markdown syntax. For examples of common , see the [template and markdown cheatsheet](dotnet-style-guide.md).
 
