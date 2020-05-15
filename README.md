@@ -1,8 +1,8 @@
-# Microsoft Docs contributor guide
+# Інструкція для співавторів Документації Microsoft
 
-This GitHub repository is the source for the pages at [https://docs.microsoft.com/contribute](https://docs.microsoft.com/contribute). 
+Даний GitHub репозиторій є основним джерелом для сторінок [https://docs.microsoft.com/contribute](https://docs.microsoft.com/contribute). 
 
-## Microsoft Open Source Code of Conduct
+## Правила поведінки з відкритим кодом  компанії Microsoft
 
-This project has adopted the [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/).
-For more information see the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) or contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any additional questions or comments.
+Даний проект розробляється у відповідності з  [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/).
+Для отримання детальної інформації читайте [запитання та відповіді по правилах поведінкм](https://opensource.microsoft.com/codeofconduct/faq/) або звертайтеся за адресою [opencode@microsoft.com](mailto:opencode@microsoft.com)

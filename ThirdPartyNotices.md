@@ -1,16 +1,9 @@
-# Legal Notices
+# Юридичні Відомості
 
-Microsoft and any contributors grant you a license to the Microsoft documentation and other content
-in this repository under the [Creative Commons Attribution 4.0 International Public License](https://creativecommons.org/licenses/by/4.0/legalcode),
-see the [LICENSE](LICENSE) file, and grant you a license to any code in the repository under the [MIT License](https://opensource.org/licenses/MIT), see the
-[LICENSE-CODE](LICENSE-CODE) file.
+Корпорація Майкрософт та всі співавторb надають вам ліцензію для роботи з документацією Microsoft та вмістом даного репозиторію в межах  [міжнародної відкритої ліцензії Creative Commons Attribution 4.0](https://creativecommons.org/licenses/by/4.0/legalcode)(детальна інформація в файлі [LICENSE](LICENSE)), а також в межах [ліцензії MIT](https://opensource.org/licenses/MIT) (детальна інформація в файлі [LICENSE-CODE](LICENSE-CODE)).
 
-Microsoft, Windows, Microsoft Azure and/or other Microsoft products and services referenced in the documentation
-may be either trademarks or registered trademarks of Microsoft in the United States and/or other countries.
-The licenses for this project do not grant you rights to use any Microsoft names, logos, or trademarks.
-Microsoft's general trademark guidelines can be found at https://go.microsoft.com/fwlink/?LinkID=254653.
+Microsoft, Windows, Microsoft Azure та(або) інші продукти та послуги компанії Microsoft згадані в документі можуть бути товарними знаками або зареєстрованими товарними знаками корпорації Майкростофт в Сполучених Штатах Америки та інших країнах. Ліцензії даного проекту не надають права на використання будь яких імен, логотипів чи товарних знаків Корпорації Майкрософт. Загальні вказівки про товарні знаки корпорації Майкрософт можна знайти за посиланням https://go.microsoft.com/fwlink/?LinkID=254653.
 
-Privacy information can be found at https://privacy.microsoft.com/
+Детальна інформація про конфденційність за посиланням https://privacy.microsoft.com/
 
-Microsoft and any contributors reserve all other rights, whether under their respective copyrights, patents,
-or trademarks, whether by implication, estoppel or otherwise.
+Корпорація Майкрософт та всі учасники зберігають за собою всі інші права, такі як авторські права, права на патенти чи товарні знаки,в тому числі непрямі, передбачувані з процесуального відведення та інші.

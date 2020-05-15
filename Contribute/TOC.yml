@@ -1,20 +1,20 @@
-- name: Contributor Guide overview and browser-based tasks
+- name: Путівник для співавторів. Загальні відомості та завдання на основі браузера
   href: index.md
-- name: Set up and work locally
+- name: Налаштування та робота в локальному середовищі
   items:
-    - name: 1. Sign up for GitHub
+    - name: 1. Реєстрація в GitHub
       href: get-started-setup-github.md
-    - name: 2. Install Git and Markdown tools
+    - name: 2. Встановлення інструментів Git та Markdown
       href: get-started-setup-tools.md
-    - name: 3. Set up a local Git repository
+    - name: 3. Налаштування локального Git репозиторію
       href: get-started-setup-local.md
-    - name: Git and GitHub fundamentals
+    - name: Основи Git та GitHub
       href: git-github-fundamentals.md
-    - name: Full workflow
+    - name: Повний робочий цикл
       href: how-to-write-workflows-major.md
-- name: Writing essentials
+- name: Основи письма
   items:
-    - name: Markdown reference
+    - name: Довідник розмітки Markdown
       href: markdown-reference.md
       displayName: alerts notes tips important caution warnings apostrophes quotation marks quotes blockquotes bold italic code snippets columns headings html images includes links lists bullets bulleted checklist numbered next steps button localize non-localized section selector superscript subscript table tables tabs tabbed videos icons
     - name: Style and voice quick start
