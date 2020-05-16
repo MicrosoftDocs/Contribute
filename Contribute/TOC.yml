@@ -12,57 +12,57 @@
       href: git-github-fundamentals.md
     - name: Повний робочий цикл
       href: how-to-write-workflows-major.md
-- name: Основи письма
+- name: Основи створення документів
   items:
     - name: Довідник розмітки Markdown
       href: markdown-reference.md
       displayName: alerts notes tips important caution warnings apostrophes quotation marks quotes blockquotes bold italic code snippets columns headings html images includes links lists bullets bulleted checklist numbered next steps button localize non-localized section selector superscript subscript table tables tabs tabbed videos icons
-    - name: Style and voice quick start
+    - name: Короткий посібник стилю та інтонації
       href: style-quick-start.md
-    - name: Style guide
+    - name: Довідник стилю
       href: /style-guide/
-    - name: Add code to articles
+    - name: Додавання коду в статті
       href: code-in-docs.md
       displayName: backtick, code blocks, inline code blocks, repo snippet reference, !code-, interactive code snippets, programming languages, languages, code extensions, extensions
-    - name: Format text
+    - name: Форматування тексту
       href: text-formatting-guidelines.md
-    - name: Links
+    - name: Посилання
       href: how-to-write-links.md
     - name: Docs Authoring pack
       items:
-      - name: Overview
+      - name: Огляд
         href: how-to-write-docs-auth-pack.md
-      - name: Features
+      - name: Функції
         items:
-        - name: Dev lang completion
+        - name: Доповнення dev lang 
           href: docs-authoring/dev-lang-completion.md
-        - name: Image compression
+        - name: Стискання зображень
           href: docs-authoring/image-compression.md
-        - name: Metadata updates
+        - name: Оновлення метаданих
           href: docs-authoring/metadata-updates.md
-        - name: Reformat Markdown tables
+        - name: Повторне форматування Markdown таблиць
           href: docs-authoring/reformat-table.md
-        - name: Smart quote replacement
+        - name: Розумна заміна цитат
           href: docs-authoring/smart-quote-replacement.md
-        - name: Sort redirects
+        - name: Сортування перенаправлень
           href: docs-authoring/sort-redirects.md
-        - name: Sort selection
+        - name: Сортування вибраних елементів
           href: docs-authoring/sort-selection.md
-- name: Documentation set-specific guidance
+- name: Довідник для конкретної документації
   items:
-    - name: .NET docs
+    - name: .NET документація
       items:
-        - name: How to contribute to .NET docs
+        - name: Як стати співавтором .NET документації
           href: dotnet/dotnet-contribute.md
-        - name: Labels and projects roadmap
+        - name: Стратегія використання міток та проектів
           href: dotnet/labels-projects.md
-        - name: .NET docs style conventions
+        - name: Правила стилю .NET документації
           href: dotnet/dotnet-style-guide.md
-        - name: Voice and tone guide
+        - name: Довідник для тону та інтонації
           href: dotnet/dotnet-voice-tone.md
-        - name: Pull request review process
+        - name: Процес перегляду запиту на внесення змін
           href: dotnet/dotnet-pr-review.md
-    - name: PowerShell-Docs
+    - name: PowerShell документація
       href: powershell-overview.md
-- name: Additional resources
+- name: Додаткові ресурси
   href: additional-resources.md
