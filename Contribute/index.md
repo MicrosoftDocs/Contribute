@@ -1,7 +1,7 @@
 ---
-title: Microsoft Docs contributor guide overview
-description: The guide describes how you can contribute to the Microsoft documentation site docs.microsoft.com.
-author: billwagner
+title: Довідник співавторів документаціі Майкрософт
+description: The guide describes how you can contribute to the Microsoft documentation site docs.microsoft.com. Довідник описує як взяти участь в створенні документації Майкрософт.
+author: andysvints
 ms.author: wiwagn
 ms.date: 02/19/2019
 ms.topic: contributor-guide
@@ -9,17 +9,18 @@ ms.prod: non-product-specific
 ms.custom: external-contributor-guide
 ---
 
-# Microsoft Docs contributor guide overview
+# Довідник співавторів документаціі Майкрософт
 
-Welcome to the [docs.microsoft.com](https://docs.microsoft.com) (Docs) Contributor Guide!
+Ласкаво просимо до довідника співатора [docs.microsoft.com](https://docs.microsoft.com) (Docs)!
 
-Several of the Microsoft documentation sets are open source and hosted on GitHub. Not all document sets are completely open source but many have public-facing repos where you can make suggested changes via pull requests. This open source approach streamlines and improves communication between product engineers, content teams, and customers, and has other advantages:
+Деяка документація компанії Майкрософт надається з відкритим кодом та розміщується на GitHub. Не вся документація надається з повним відкритим кодом, але багато документів розміщені в публічних репозиторіях де є можливість вносити правки за допомогою запиту на внесення змін. Даний підхід до відкритого коду дозволяє пришвидшити та покращити комунікацію між розробниками продуктів, командами які відповідають за наповнення вмісту та клієнтами, а також має додаткові переваги: 
 
-- Open source repos _plan in the open_ to get feedback on what docs are most needed.
-- Open source repos _review in the open_ to publish the most helpful content on our first release.
+- Можливість  _відкритого планування_ вмісту репозиторіїв з відкритим кодом дозволяє отримувати відгуки та визначати  найнеобхідніші документи.
+- Можливість _відкритого огляду_ вмісту репозиторіїв з відкритим кодом дозволяє публікацію найкориснішого вмісту під час першого випуску.
 - Open source repos _update in the open_ to make it easier to continuously improve the content.
+- Можливість _відкритого оновлення_ вмісту репозиторіїв з відкритим кодом спрощує безперервне вдосконалення опублікованого вмісту.
 
-The user experience on [docs.microsoft.com](https://docs.microsoft.com) integrates [GitHub](https://github.com) workflows directly to make it even easier. Start by [editing the document you are viewing](#quick-edits-to-existing-documents). Or, help by [reviewing new topics](#review-open-prs), or [create quality issues](#create-quality-issues).
+Користувацький інтерфейс сайту [docs.microsoft.com](https://docs.microsoft.com) безпосередньо інтегрує робочі процеси [GitHub](https://github.com), роблячи їх використання ще більш зручним. Почніть з [редагування документа, який ви переглядаєте](#quick-edits-to-existing-documents). Крім того ви можете допомогти [переглядаючи нові розділи](#review-open-prs), чи [створюючи звіти про проблеми з якістю](#create-quality-issues). 
 
 > [!IMPORTANT]
 > All repositories that publish to docs.microsoft.com have adopted the [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/) or the [.NET Foundation Code of Conduct](https://dotnetfoundation.org/code-of-conduct). For more information, see the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/). Or contact [opencode@microsoft.com](mailto:opencode@microsoft.com), or [conduct@dotnetfoundation.org](mailto:conduct@dotnetfoundation.org) with any questions or comments.<br>

@@ -1,4 +1,4 @@
-- name: Путівник для співавторів. Загальні відомості та завдання на основі браузера
+- name: Довідник для співавторів. Загальні відомості та завдання на основі браузера
   href: index.md
 - name: Налаштування та робота в локальному середовищі
   items:
@@ -58,7 +58,7 @@
           href: dotnet/labels-projects.md
         - name: Правила стилю .NET документації
           href: dotnet/dotnet-style-guide.md
-        - name: Довідник для тону та інтонації
+        - name: Довідник тону та інтонації
           href: dotnet/dotnet-voice-tone.md
         - name: Процес перегляду запиту на внесення змін
           href: dotnet/dotnet-pr-review.md
