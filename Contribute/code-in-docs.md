@@ -426,12 +426,14 @@ Syntax:
   * Relative path in the file system that indicates the code snippet file to reference.
 
 * `<attribute>` and `<attribute-value>` (*optional*)
-  * Used together to specify how the code should be retrieved from the file and how it should be displayed:
-    * `range`: `1,3-5` A range of lines. This example includes lines 1, 3, 4, and 5.
-    * `id`: `snippet_Create` The ID of the snippet that needs to be inserted from the code file. This value cannot co-exist with range.
-    * `highlight`: `2-4,6` Range and/or numbers of lines that need to be highlighted in the generated code snippet. The numbering is relative to the lines displayed (as specified by range or id), not the file.
-    * `interactive`: `cloudshell-powershell`, `cloudshell-bash`, `try-dotnet`, `try-dotnet-class`, `try-dotnet-method` String value determines what kinds of interactivity are enabled.
-    * For details about tag name representation in code snippet source files by language, see the [DocFX guidelines](https://dotnet.github.io/docfx/spec/docfx_flavored_markdown.html#tag-name-representation-in-code-snippet-source-file).
+
+  Used together to specify how the code should be retrieved from the file and how it should be displayed:
+
+  * `range`: `1,3-5` A range of lines. This example includes lines 1, 3, 4, and 5.
+  * `id`: `snippet_Create` The ID of the snippet that needs to be inserted from the code file. This value cannot co-exist with range.
+  * `highlight`: `2-4,6` Range and/or numbers of lines that need to be highlighted in the generated code snippet. The numbering is relative to the lines displayed (as specified by range or id), not the file.
+  * `interactive`: `cloudshell-powershell`, `cloudshell-bash`, `try-dotnet`, `try-dotnet-class`, `try-dotnet-method` String value determines what kinds of interactivity are enabled.
+  * For details about tag name representation in code snippet source files by language, see the [DocFX guidelines](https://dotnet.github.io/docfx/spec/docfx_flavored_markdown.html#tag-name-representation-in-code-snippet-source-file).
 
 ## Supported languages
 
