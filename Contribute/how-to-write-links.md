@@ -236,7 +236,7 @@ See a full list of [percent-codes](https://en.wikipedia.org/wiki/Percent-encodin
 
 Encoding examples:
 
-- `System.Threading.Tasks.Task``1` encodes as `System.Threading.Tasks.Task%601` (see the [section on generic types](#generic-types))
+- ``System.Threading.Tasks.Task`1`` encodes as `System.Threading.Tasks.Task%601` (see the [section on generic types](#generic-types))
 
 - `System.Exception.#ctor` encodes as `System.Exception.%23ctor`
 
