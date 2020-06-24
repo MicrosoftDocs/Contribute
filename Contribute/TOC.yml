@@ -28,11 +28,11 @@
   items:
     - name: .NET docs
       items:
-        - name: How to contribute to .NET docs
+        - name: Overview
           href: dotnet-contribute.md
-        - name: Contribute to .NET docs
+        - name: Contribute
           href: dotnet-contribute-process.md
-        - name: .NET docs style conventions
+        - name: Style conventions
           href: dotnet-style-guide.md
         - name: Voice and tone guide
           href: dotnet-voice-tone.md
@@ -40,7 +40,7 @@
           href: dotnet-pr-review.md
     - name: PowerShell docs
       items:
-        - name: How to contribute to PowerShell docs
+        - name: How to contribute
           href: powershell\powershell-contribute.md
         - name: Contribution process for PowerShell
           href: powershell\powershell-contribute-process.md

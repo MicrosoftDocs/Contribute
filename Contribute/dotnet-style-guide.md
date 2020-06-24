@@ -8,9 +8,9 @@ ms.date: 11/07/2018
 ---
 # Metadata and Markdown template for .NET docs
 
-This dotnet/docs template contains examples of Markdown syntax, as well as guidance on setting the metadata.
+This dotnet/docs template contains examples of Markdown syntax and guidance on setting the metadata.
 
-When creating a Markdown file, you should copy the included template to a new file, fill out the metadata as specified below, and set the H1 heading above to the title of the article.
+When creating a Markdown file, copy the included template to a new file, fill out the metadata as specified below, and set the H1 heading above to the title of the article.
 
 ## Metadata
 
@@ -37,11 +37,11 @@ Other metadata is attached to each article, but we typically apply most metadata
 
 ## Basic Markdown, GFM, and special characters
 
-You can learn the basics of Markdown, GitHub Flavored Markdown (GFM), and OPS specific extensions in the general articles on [Markdown](how-to-write-use-markdown.md) and [Markdown reference](markdown-reference.md).
+You can learn the basics of Markdown, GitHub Flavored Markdown (GFM), and OPS-specific extensions in the general articles on [Markdown](how-to-write-use-markdown.md) and [Markdown reference](markdown-reference.md).
 
 Markdown uses special characters such as \*, \`, and \# for formatting. If you wish to include one of these characters in your content, you must do one of two things:
 
-- Put a backslash before the special character to "escape" it (for example, `\*` for a \*)
+- Put a backslash before the special character to "escape" it (for example, `\*` for a \*).
 - Use the [HTML entity code](http://www.ascii.cl/htmlcodes.htm) for the character (for example, `&#42;` for a &#42;).
 
 ## File names
@@ -61,13 +61,13 @@ Use sentence-style capitalization. Always capitalize the first word of a heading
 
 ## Text styling
 
-*Italics*
- Use for files, folders, paths (for long items, split onto their own line), new terms.
+*Italics*\
+Use for files, folders, paths (for long items, split onto their own line), new terms.
 
-**Bold**
+**Bold**\
 Use for UI elements.
 
-`Code`
+`Code`\
 Use for inline code, language keywords, NuGet package names, command-line commands, database table and column names, and URLs that you don't want to be clickable.
 
 ## Links
@@ -76,7 +76,7 @@ See the general article on [Links](how-to-write-links.md) for information about 
 
 The .NET docs team uses the following conventions:
 
-- In most cases, we use the relative links and discourage the use of `~/` in links because relative links resolve in the source on GitHub. However, whenever we link to a file in a dependent repo, we'll use the `~/` character to provide the path. Because the files in the dependent repo are in a different location in GitHub the links won't resolve correctly with relative links regardless of how they were written.
+- In most cases, we use the relative links and discourage the use of `~/` in links because relative links resolve in the source on GitHub. However, whenever we link to a file in a dependent repo, we use the `~/` character to provide the path. Because the files in the dependent repo are in a different location in GitHub the links won't resolve correctly with relative links regardless of how they were written.
 - The C# language specification and the Visual Basic language specification are included in the .NET docs by including the source from the language repositories. The markdown sources are managed in the [csharplang](https://github.com/dotnet/csharplang) and [vblang](https://github.com/dotnet/vblang) repositories.
 
 Links to the spec must point to the source directories where those specs are included. For C#, it's **~/_csharplang/spec** and for VB, it's **~/_vblang/spec**, as in the following example:
@@ -135,7 +135,7 @@ You can include the code using the following syntax:
   * Language of the code snippet being referenced.
 
 * `<name>` (*optional*)
-  * Name for the code snippet. It doesn’t have any impact on the output HTML, but you can use it to improve the readability of your Markdown source.
+  * Name for the code snippet. It doesn't have any impact on the output HTML, but you can use it to improve the readability of your Markdown source.
 
 * `<pathToFile>` (*mandatory*)
   * Relative path in the file system that indicates the code snippet file to reference. This can be complicated by the different repos that make up the .NET doc set. The .NET samples are in the dotnet/samples repo. All snippet paths would start with `~/samples`, the rest of the path being the path to the source from the root of that repo.

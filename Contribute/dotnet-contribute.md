@@ -16,8 +16,6 @@ The .NET documentation site is built from multiple repositories:
 
 - [.NET conceptual articles](https://github.com/dotnet/docs)
 - [Code samples and snippets](https://github.com/dotnet/samples)
-- [.NET Standard, .NET Core, .NET Framework API reference](https://github.com/dotnet/dotnet-api-docs)
+- [.NET API reference](https://github.com/dotnet/dotnet-api-docs)
 - [.NET Compiler Platform SDK reference](https://github.com/dotnet/roslyn-api-docs)
 - [ML.NET API reference](https://github.com/dotnet/ml-api-docs)
-
-Issues for all these repositories are tracked at the [dotnet/docs](https://github.com/dotnet/docs/issues) repository.
