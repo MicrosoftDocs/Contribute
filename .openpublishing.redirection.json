@@ -1,5 +1,8 @@
 {
-    "redirections": [
+    "redirections": [{
+            "source_path": "Contribute/contribute-how-to-write-use-markdown.md",
+            "redirect_url": "/contribute/markdown-reference"
+        },
         {
             "source_path": "Contribute/how-to-contribute.md",
             "redirect_url": "/"
@@ -7,6 +10,30 @@
         {
             "source_path": "Contribute/light-workflow.md",
             "redirect_url": "/"
+        },
+        {
+            "source_path": "Contribute/dotnet-contribute-process.md",
+            "redirect_url": "/contribute/dotnet/dotnet-contribute"
+        },
+        {
+            "source_path": "Contribute/dotnet-contribute.md",
+            "redirect_url": "/contribute/dotnet/dotnet-contribute",
+            "redirect_document_id": true
+        },
+        {
+            "source_path": "Contribute/dotnet-pr-review.md",
+            "redirect_url": "/contribute/dotnet/dotnet-pr-review",
+            "redirect_document_id": true
+        },
+        {
+            "source_path": "Contribute/dotnet-style-guide.md",
+            "redirect_url": "/contribute/dotnet/dotnet-style-guide",
+            "redirect_document_id": true
+        },
+        {
+            "source_path": "Contribute/dotnet-voice-tone.md",
+            "redirect_url": "/contribute/dotnet/dotnet-voice-tone",
+            "redirect_document_id": true
         }
     ]
 }

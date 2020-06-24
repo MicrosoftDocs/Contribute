@@ -3,7 +3,7 @@ title: Microsoft Docs contributor guide overview
 description: The guide describes how you can contribute to the Microsoft documentation site docs.microsoft.com.
 author: billwagner
 ms.author: wiwagn
-ms.date: 02/19/2019
+ms.date: 06/23/2020
 ms.topic: contributor-guide
 ms.prod: non-product-specific
 ms.custom: external-contributor-guide
@@ -30,11 +30,11 @@ The user experience on [docs.microsoft.com](https://docs.microsoft.com) integrat
 
 Quick edits streamline the process to report and fix small errors and omissions in documents. Despite all efforts, small grammar and spelling errors _do_ make their way into our published documents. While you can create issues to report mistakes, it's faster and easier to create a pull request (PR) to fix the issue, when the option is available.
 
-1. Some docs pages allow you to edit content directly in the browser. If so, you'll see an **Edit** button like the one shown below. Clicking the **Edit** (or equivalently localized) button takes you to the source file on GitHub. If the **Edit** button (pencil icon without text) is missing, that means the documentation page is not available to be changed.
+1. Some docs pages allow you to edit content directly in the browser. If so, you'll see an **Edit** button like the one shown below. Clicking the **Edit** (or equivalently localized) button takes you to the source file on GitHub. If the **Edit** button is missing, that means the documentation page is not available to be changed.
 
    ![Location of the Edit link](./media/index/edit-article.png)
 
-2. Next, click the pencil icon, to edit the article as shown. If the pencil icon is grayed out, you need to either login to your GitHub account or create a new account. 
+2. Next, click the pencil icon, to edit the article as shown. If the pencil icon is grayed out, you need to either log in to your GitHub account or create a new account. 
 
    ![Location of the pencil icon](./media/index/edit-icon.png)
 
@@ -63,7 +63,7 @@ The in-browser editing experience is best for minor or infrequent changes. If yo
 > If enabled, you can edit an article in **any language** and, based on the type of edit, the following will happen:
 > 1. any linguistic change that is approved, will also help improve our Machine Translation engine
 > 2. any edit that significantly modifies the content of the article will be handled internally to submit a change to the same article in English so that it will get localized in all languages if approved.
-> So your suggested improvements will not only positively affect articles in your own language, but in all available languages.
+> Your suggested improvements will not only positively affect articles in your own language, but in all available languages.
 
 ## Review open PRs
 

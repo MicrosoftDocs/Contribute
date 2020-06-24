@@ -14,43 +14,55 @@
       href: how-to-write-workflows-major.md
 - name: Writing essentials
   items:
-    - name: Markdown
-      href: how-to-write-use-markdown.md
     - name: Markdown reference
       href: markdown-reference.md
+      displayName: alerts notes tips important caution warnings apostrophes quotation marks quotes blockquotes bold italic code snippets columns headings html images includes links lists bullets bulleted checklist numbered next steps button localize non-localized section selector superscript subscript table tables tabs tabbed videos icons
     - name: Style and voice quick start
       href: style-quick-start.md
+    - name: Style guide
+      href: /style-guide/
+    - name: Add code to articles
+      href: code-in-docs.md
+      displayName: backtick, code blocks, inline code blocks, repo snippet reference, !code-, interactive code snippets, programming languages, languages, code extensions, extensions
+    - name: Format text
+      href: text-formatting-guidelines.md
     - name: Links
       href: how-to-write-links.md
-    - name: Docs Authoring Pack
-      href: how-to-write-docs-auth-pack.md
+    - name: Docs Authoring pack
+      items:
+      - name: Overview
+        href: how-to-write-docs-auth-pack.md
+      - name: Features
+        items:
+        - name: Dev lang completion
+          href: docs-authoring/dev-lang-completion.md
+        - name: Image compression
+          href: docs-authoring/image-compression.md
+        - name: Metadata updates
+          href: docs-authoring/metadata-updates.md
+        - name: Reformat Markdown tables
+          href: docs-authoring/reformat-table.md
+        - name: Smart quote replacement
+          href: docs-authoring/smart-quote-replacement.md
+        - name: Sort redirects
+          href: docs-authoring/sort-redirects.md
+        - name: Sort selection
+          href: docs-authoring/sort-selection.md
 - name: Documentation set-specific guidance
   items:
     - name: .NET docs
       items:
-        - name: Overview
-          href: dotnet-contribute.md
-        - name: Contribute
-          href: dotnet-contribute-process.md
-        - name: Style conventions
-          href: dotnet-style-guide.md
-        - name: Voice and tone guide
-          href: dotnet-voice-tone.md
-        - name: Pull request review process
-          href: dotnet-pr-review.md
-    - name: PowerShell docs
-      items:
         - name: How to contribute
-          href: powershell\powershell-contribute.md
-        - name: Contribution process for PowerShell
-          href: powershell\powershell-contribute-process.md
-        - name: Quickstart for writing PowerShell articles
-          href: powershell\powershell-style-basic-markdown.md
-        - name: PowerShell Script sample style guide
-          href: powershell\powershell-style-code.md
-        - name: PowerShell Cmdlet reference style guide
-          href: powershell\powershell-style-reference.md
-        - name: Submitting a Pull Request for PowerShell
-          href: powershell\powershell-pull-requests.md
+          href: dotnet/dotnet-contribute.md
+        - name: Labels and projects roadmap
+          href: dotnet/labels-projects.md
+        - name: Style conventions
+          href: dotnet/dotnet-style-guide.md
+        - name: Voice and tone guide
+          href: dotnet/dotnet-voice-tone.md
+        - name: Pull request review process
+          href: dotnet/dotnet-pr-review.md
+    - name: PowerShell-Docs
+      href: powershell-overview.md
 - name: Additional resources
   href: additional-resources.md
