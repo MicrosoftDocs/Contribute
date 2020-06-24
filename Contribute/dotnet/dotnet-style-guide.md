@@ -123,7 +123,7 @@ To link to a generic type, such as [System.Collections.Generic.List\<T>](https:/
 
 ## Code
 
-The best way to include code is to include snippets from a working sample. Create your sample following the instructions in the [contributing to .NET](dotnet-contribute.md#contributing-to-samples) article. The basic rules for including code are located in the general guidance on [code](../code-in-docs.md).
+The best way to include code is to include snippets from a working sample. Create your sample following the instructions in the [contributing to .NET](dotnet-contribute.md#contribute-to-samples) article. The basic rules for including code are located in the general guidance on [code](../code-in-docs.md).
 
 You can include the code using the following syntax:
 
