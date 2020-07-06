@@ -29,7 +29,7 @@ Reviews follow one of the three paths based on the PR:
 
 - **Small PRs** - Small PRs are single bug fix: typos, broken links, small code changes, or similar changes.
 - **Major contributions** - Major contributions are significant edits to an existing article, new articles, or edits to a number of articles.
-- **Work in progress** - Authors can request an in-progress review by opening a *draft* pull request.
+- **Work in progress** - Authors can can create a PR that is marked as not ready for review yet by opening a *draft* pull request.
 
 The processing used by the Contributor License Agreement (CLA) bot is a good guideline for the distinction between "small" and "large" contributions. PRs that do not require the CLA to be signed are likely "small." PRs that do require the CLA are likely "large."
 
@@ -55,7 +55,7 @@ If the edits require a technical review, the content team reviewer will request 
 
 ### Review draft pull requests
 
-New authors may want feedback earlier in the process. They can open a draft PR and request an early review. These early reviews focus on the structure of the article: the outline, the overall content, and the samples. These reviews do not include a thorough check for grammar and correct links.
+You may want feedback earlier in the process. Open a draft PR and add a comment that requests an early review. These early reviews focus on the structure of the article: the outline, the overall content, and the samples. These reviews do not include a thorough check for grammar and correct links.
 
 ## Respond to reviews
 
