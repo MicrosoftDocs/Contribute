@@ -69,32 +69,32 @@ Be sure to follow the proper Markdown syntax. For more information, see the [tem
 
 ## Example structure
 
-    docs
-      /about
-      /core
-        /porting
-          porting-overview.md
-          /media
-            /porting-overview
-                portability_report.png
-          /snippets
-            /porting-overview
-              /csharp
-                porting.csproj
-                porting-overview.cs
-                Program.cs
-              /fsharp
-                porting.fsproj
-                porting-overview.fs
-                Program.fs
-               /vb
-                porting.vbproj
-                porting-overview.vb
-                Program.vb
+docs
+  /about
+  /core
+    /porting
+      porting-overview.md
+      /media
+        /porting-overview
+          portability_report.png
+      /snippets
+        /porting-overview
+          /csharp
+            porting.csproj
+            porting-overview.cs
+            Program.cs
+          /fsharp
+            porting.fsproj
+            porting-overview.fs
+            Program.fs
+          /vb
+            porting.vbproj
+            porting-overview.vb
+            Program.vb
 
 The structure shown above includes one image, *portability_report.png*, and three code projects that include **code snippets** that are included in the *porting-overview.md* article. An accepted alternative structure contains one project per language that contains all snippets for all articles in that folder. This alternative has been used in the language reference areas because of very small snippets to demonstrate language syntax. It is discouraged in other areas.
 
-For historical reasons, many of the included snippets are stored under the */samples* folder in the *dotnet/docs* repository. If you are making major changes to an article, those snippets should be moved to the new structure. Do not move snippets for small changes.
+For historical reasons, many of the included snippets are stored under the */samples* folder in the *dotnet/docs* repository. If you're making major changes to an article, those snippets should be moved to the new structure. Do not move snippets for small changes.
 
 **Step 4:** Submit a Pull Request (PR) from your branch to the master branch.
 
