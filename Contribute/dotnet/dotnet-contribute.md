@@ -14,13 +14,13 @@ This document covers the process for contributing to the articles and code sampl
 
 The .NET documentation site is built from multiple repositories:
 
-- [.NET conceptual articles](https://github.com/dotnet/docs)
+- [.NET conceptual articles and code snippets](https://github.com/dotnet/docs)
 - [Code samples and snippets](https://github.com/dotnet/samples)
 - [.NET Standard, .NET Core, .NET Framework API reference](https://github.com/dotnet/dotnet-api-docs)
 - [.NET Compiler Platform SDK reference](https://github.com/dotnet/roslyn-api-docs)
 - [ML.NET API reference](https://github.com/dotnet/ml-api-docs)
 
-Issues for all these repositories are tracked at the [dotnet/docs](https://github.com/dotnet/docs/issues) repository.
+Issues for all these repositories are tracked in the [dotnet/docs](https://github.com/dotnet/docs/issues) repository.
 
 ## Guidelines for contributions
 
@@ -49,14 +49,6 @@ Choose an existing issue and address it. You can look at our [open issues](https
 
 When you find an issue to work on, add a comment to ask if it's open.
 
-Depending on your interests and level of commitment, you can choose from issues in the following categories:
-
-- **Maintenance**. This category includes fairly simple contributions, such as fixing broken or incorrect links, adding missing code examples, or addressing limited content issues. In some cases, these issues may concern large numbers of files. In that case, you should let us know what you'd like to work on before you begin. Add a comment on the issue to tell us that you are working on it.
-
-- **Content updates**. Given the enormity of the doc set, content easily becomes outdated and requires revision. In addition, for a variety of reason, some content has been duplicated or even triplicated. Updating content involves making sure that individual topics are current or revising content in a feature area to eliminate duplication and ensure that all unique content is preserved in the smaller documentation set.
-
-- **New content authoring**. If you're interested in authoring your own topic, these issues list topics that we know we'd like to add to our doc set. Let us know before you begin working on a topic, though. If you're interested in writing a topic that isn't listed here, open an issue.
-
 Once you've picked a task to work on, follow the [get started](../get-started-setup-github.md) guide to create a GitHub account and set up your environment.
 
 **Step 2:** Fork the `/dotnet/docs`, `dotnet/samples`, `dotnet/dotnet-api-docs`, `dotnet/roslyn-api-docs`, or `dotnet/ml-api-docs` repos as needed and create a branch for your changes.
@@ -65,7 +57,7 @@ For small changes, see the instructions on editing in GitHub on the [home page](
 
 **Step 3:** Make the changes on this new branch.
 
-If it's a new topic, you can use this [template file](dotnet-style-guide.md) as your starting point. It contains the writing guidelines and also explains the metadata required for each article, such as author information.
+If it's a new topic, you can use this [template file](dotnet-style-guide.md) as your starting point. It contains the writing guidelines and also explains the metadata required for each article, such as author information. For more information on the Markdown syntax used in the docs.microsoft.com site, see [Markdown reference](../markdown-reference.md).
 
 Navigate to the folder that corresponds to the TOC location determined for your article in step 1. That folder contains the Markdown files for all articles in that section. If necessary, create a new folder to place the files for your content. The main article for that section is called *index.md*.
 
@@ -75,9 +67,7 @@ For **code snippets**, create a subfolder called **snippets** inside the folder 
 
 Code snippets are small, focused examples of code that demonstrate the concepts covered in an article. Larger programs intended for download and exploration should be located in the [dotnet/samples](https://github.com/dotnet/samples) repository. Full samples are covered in the section on [Contributing to samples](#contribute-to-samples).
 
-Be sure to follow the proper Markdown syntax. For more information, see the [template and markdown cheatsheet](dotnet-style-guide.md).
-
-## Example structure
+## Example folder structure
 
 docs
   /about
@@ -124,8 +114,6 @@ The maintainers will merge your PR into the master branch once feedback has been
 We regularly push all commits from master branch into the live branch and then you'll be able to see your contribution live at https://docs.microsoft.com/dotnet/. We typically publish daily during the work week.
 
 ## Contribute to samples
-
-The [dotnet/samples](https://github.com/dotnet/samples) repo contains all the sample code that's part of any topic under the .NET documentation. There are several different projects that are organized in subfolders. These subfolders are organized similarly to the organization of the docs for .NET.
 
 We make the following distinction for code that supports our content:
 
