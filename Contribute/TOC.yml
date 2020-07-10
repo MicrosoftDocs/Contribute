@@ -52,11 +52,11 @@
   items:
     - name: .NET docs
       items:
-        - name: How to contribute to .NET docs
+        - name: How to contribute
           href: dotnet/dotnet-contribute.md
         - name: Labels and projects roadmap
           href: dotnet/labels-projects.md
-        - name: .NET docs style conventions
+        - name: Style conventions
           href: dotnet/dotnet-style-guide.md
         - name: Voice and tone guide
           href: dotnet/dotnet-voice-tone.md

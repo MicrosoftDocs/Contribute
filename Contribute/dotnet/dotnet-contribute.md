@@ -24,26 +24,32 @@ Issues for all these repositories are tracked at the [dotnet/docs](https://githu
 
 ## Guidelines for contributions
 
-We appreciate community contributions to docs. The following list shows some guiding rules that you should keep in mind when you're contributing to the .NET documentation:
+We appreciate community contributions to docs. The following list shows some guiding rules to keep in mind when you're contributing to the .NET documentation:
 
 - **DON'T** surprise us with large pull requests. Instead, file an issue and start a discussion so we can agree on a direction before you invest a large amount of time.
 - **DO** follow these instructions and [voice and tone](dotnet-voice-tone.md) guidelines.
 - **DO** use the [template](dotnet-style-guide.md) file as the starting point of your work.
 - **DO** create a separate branch on your fork before working on the articles.
-- **DO** follow the [GitHub Flow workflow](https://guides.github.com/introduction/flow/).
-- **DO** blog and tweet (or whatever) about your contributions, frequently!
+- **DO** follow the [GitHub flow](https://guides.github.com/introduction/flow/).
+- **DO** blog and tweet (or whatever) about your contributions if you like!
 
 Following these guidelines will ensure a better experience for you and for us.
 
 ## Make a contribution to .NET docs
 
-**Step 1:** Skip this step for small changes. If you're interested in writing new content or in thoroughly revising existing content, open an [issue](https://github.com/dotnet/docs/issues) describing what you want to do.
-
-The content inside the **docs** folder is organized into sections that are reflected in the Table of Contents (TOC). Define where the topic will be located in the TOC. Get feedback on your proposal.
+**Step 1:** If you're interested in writing new content or in thoroughly revising existing content, open an [issue](https://github.com/dotnet/docs/issues) describing what you want to do. The content inside the **docs** folder is organized into sections that are reflected in the Table of Contents (TOC). Define where the topic will be located in the TOC. Get feedback on your proposal.
 
 -or-
 
-You can also choose from existing issues for which community contributions are welcome. [Projects for .NET Community contributors](https://github.com/dotnet/docs/projects/35) lists many of the issues that are available for community contributors. Depending on your interests and level of commitment, you can choose from issues in the following categories:
+Choose an existing issue and address it. You can look at our [open issues](https://github.com/dotnet/docs/issues) list and volunteer to work on the ones you're interested in:
+
+- Filter by the [good-first-issue](https://github.com/dotnet/docs/labels/good-first-issue) label for, well, good first issues.
+- Filter by the [up-for-grabs](https://github.com/dotnet/docs/labels/up-for-grabs) label for issues appropriate for community contribution. These issues usually require minimal context.
+- Experienced contributors can tackle any issues of interest.
+
+When you find an issue to work on, add a comment to ask if it's open.
+
+Depending on your interests and level of commitment, you can choose from issues in the following categories:
 
 - **Maintenance**. This category includes fairly simple contributions, such as fixing broken or incorrect links, adding missing code examples, or addressing limited content issues. In some cases, these issues may concern large numbers of files. In that case, you should let us know what you'd like to work on before you begin. Add a comment on the issue to tell us that you are working on it.
 
@@ -51,9 +57,7 @@ You can also choose from existing issues for which community contributions are w
 
 - **New content authoring**. If you're interested in authoring your own topic, these issues list topics that we know we'd like to add to our doc set. Let us know before you begin working on a topic, though. If you're interested in writing a topic that isn't listed here, open an issue.
 
-You can also look at our [open issues](https://github.com/dotnet/docs/issues) list and volunteer to work on the ones you're interested in. We use the [up-for-grabs](https://github.com/dotnet/docs/labels/up-for-grabs) label to tag issues identified for community contribution. These usually require minimal context and are well-suited for first issues. We encourage experienced contributors in our community to look at any issues of interest. When you find one, add a comment to ask if it's open.
-
-Once you've picked a task to work on, follow the [get started](../get-started-setup-github.md) guide to create a GitHub account and setup your environment.
+Once you've picked a task to work on, follow the [get started](../get-started-setup-github.md) guide to create a GitHub account and set up your environment.
 
 **Step 2:** Fork the `/dotnet/docs`, `dotnet/samples`, `dotnet/dotnet-api-docs`, `dotnet/roslyn-api-docs`, or `dotnet/ml-api-docs` repos as needed and create a branch for your changes.
 
@@ -65,47 +69,49 @@ If it's a new topic, you can use this [template file](dotnet-style-guide.md) as 
 
 Navigate to the folder that corresponds to the TOC location determined for your article in step 1. That folder contains the Markdown files for all articles in that section. If necessary, create a new folder to place the files for your content. The main article for that section is called *index.md*.
 
-For images and other static resources, create a subfolder called **media** inside the folder that contains your article, if it doesn't already exist. Inside the **media** folder, create a subfolder with the article name (except for the index file). 
+For images and other static resources, create a subfolder called **media** inside the folder that contains your article, if it doesn't already exist. Inside the **media** folder, create a subfolder with the article name (except for the index file).
 
-For **code snippets**, create a subfolder called **snippets** inside the folder that contains your article, if it doesn't already exist.  Inside the **snippets** folder, create a subfolder with the article name. In most cases, you'll have code snippets for all three of the main .NET languages, C#, F#, and Visual Basic. In that case, create sub-folders named **csharp**, **fsharp**, and **vb** for each of the three projects. For simplicity, use the **snippets** folder for your project in the C# Guide, F# Guide, and Visual Basic Guide. Those areas typically have snippets for one language. Code snippets are small, focused examples of code that demonstrate the concepts covered in an article. Larger programs, intended for download and exploration should be located in the [dotnet/samples](https://github.com/dotnet/samples) repository. Full samples are covered in the section on [Contributing to samples](#contributing-to-samples).
+For **code snippets**, create a subfolder called **snippets** inside the folder that contains your article, if it doesn't already exist. Inside the **snippets** folder, create a subfolder with the article name. In most cases, you'll have code snippets for all three of the main .NET languages, C#, F#, and Visual Basic. In that case, create subfolders named **csharp**, **fsharp**, and **vb** for each of the three projects. If you're creating a snippet for an article under the [docs/csharp](https://github.com/dotnet/docs/tree/master/docs/csharp), [docs/fsharp](https://github.com/dotnet/docs/tree/master/docs/fsharp), or [docs/visual-basic](https://github.com/dotnet/docs/tree/master/docs/visual-basic) folders, the snippet will only be in one language so you can omit the language subfolder.
 
-Be sure to follow the proper Markdown syntax. For examples of common , see the [template and markdown cheatsheet](dotnet-style-guide.md).
+Code snippets are small, focused examples of code that demonstrate the concepts covered in an article. Larger programs intended for download and exploration should be located in the [dotnet/samples](https://github.com/dotnet/samples) repository. Full samples are covered in the section on [Contributing to samples](#contribute-to-samples).
+
+Be sure to follow the proper Markdown syntax. For more information, see the [template and markdown cheatsheet](dotnet-style-guide.md).
 
 ## Example structure
 
-    docs
-      /about
-      /core
-        /porting
-          porting-overview.md
-          /media
-            /porting-overview
-                portability_report.png
-          /snippets
-            /porting-overview
-              /csharp
-                porting.csproj
-                porting-overview.cs
-                Program.cs
-              /fsharp
-                porting.fsproj
-                porting-overview.fs
-                Program.fs
-               /vb
-                porting.vbproj
-                porting-overview.vb
-                Program.vb
+docs
+  /about
+  /core
+    /porting
+      porting-overview.md
+      /media
+        /porting-overview
+          portability_report.png
+      /snippets
+        /porting-overview
+          /csharp
+            porting.csproj
+            porting-overview.cs
+            Program.cs
+          /fsharp
+            porting.fsproj
+            porting-overview.fs
+            Program.fs
+          /vb
+            porting.vbproj
+            porting-overview.vb
+            Program.vb
 
 The structure shown above includes one image, *portability_report.png*, and three code projects that include **code snippets** that are included in the *porting-overview.md* article. An accepted alternative structure contains one project per language that contains all snippets for all articles in that folder. This alternative has been used in the language reference areas because of very small snippets to demonstrate language syntax. It is discouraged in other areas.
 
-For historical reasons, many of the included snippets are stored under the */samples* folder in the *dotnet/docs* repository. If you are making major changes to an article, those snippets should be moved to the new structure. Do not move snippets for small changes.
+For historical reasons, many of the included snippets are stored under the */samples* folder in the *dotnet/docs* repository. If you're making major changes to an article, those snippets should be moved to the new structure. Do not move snippets for small changes.
 
 **Step 4:** Submit a Pull Request (PR) from your branch to the master branch.
 
 > [!IMPORTANT]
 > The [comment automation](../how-to-write-workflows-major.md#review-and-sign-off) functionality is not available on any of the .NET docs repositories at this time. Members of the .NET docs team will review and merge your PR.
 
-Each PR should usually address one issue at a time. The PR can modify one or multiple files. If you're addressing multiple fixes on different files, separate PRs are preferred. If you are creating samples as well as updating markdown, you'll need to create a separate PR for samples.
+Each PR should usually address one issue at a time. The PR can modify one or multiple files. If you're addressing multiple fixes on different files, separate PRs are preferred. If you're creating samples as well as updating markdown, you'll need to create a separate PR for samples.
 
 If your PR fixes an existing issue, add the `Fixes #Issue_Number` keyword to the commit message or PR description. That way, the issue is automatically closed when the PR is merged. For more information, see [Closing issues via commit messages](https://help.github.com/articles/closing-issues-via-commit-messages/).
 
@@ -115,11 +121,11 @@ The .NET team will review your PR and let you know if there are any other update
 
 The maintainers will merge your PR into the master branch once feedback has been applied and your change is approved.
 
-We regularly push all commits from master branch into the live branch and then you'll be able to see your contribution live at https://docs.microsoft.com/dotnet/. We typically publish daily during the work week. Maintenance activities may delay publishing for a few days.
+We regularly push all commits from master branch into the live branch and then you'll be able to see your contribution live at https://docs.microsoft.com/dotnet/. We typically publish daily during the work week.
 
-## Contributing to samples
+## Contribute to samples
 
-The [dotnet/samples](https://github.com/dotnet/samples) repo contains all the sample code that is part of any topic under the .NET documentation. There are several different projects that are organized in sub-folders. These sub-folders are organized similarly to the organization of the docs for .NET.
+The [dotnet/samples](https://github.com/dotnet/samples) repo contains all the sample code that's part of any topic under the .NET documentation. There are several different projects that are organized in subfolders. These subfolders are organized similarly to the organization of the docs for .NET.
 
 We make the following distinction for code that supports our content:
 
@@ -140,7 +146,7 @@ Each complete sample that you create should contain a *readme.md* file. This fil
 
 Your topic will also contain links to the sample. Link directly to the sample's folder on GitHub.
 
-### Writing a new sample
+### Write a new sample
 
 Samples are full programs and libraries meant for download. They may be small in scope, but they demonstrate concepts in a manner that enables people to explore and experiment on their own. The guidelines for samples ensure readers can download and explore. Examine the [Parallel LINQ (PLINQ)](https://github.com/dotnet/samples/tree/master/csharp/parallel/PLINQ) samples as an example of each of the guidelines.
 
@@ -148,7 +154,7 @@ Samples are full programs and libraries meant for download. They may be small in
 
 2. Your sample should conform to the [corefx coding style](https://github.com/dotnet/corefx/blob/master/Documentation/coding-guidelines/coding-style.md) to maintain consistency.
 
-    - Additionally, we prefer the use of `static` methods rather than instance methods when demonstrating something that doesn't require instantiating a new object.
+   Additionally, we prefer the use of `static` methods rather than instance methods when demonstrating something that doesn't require instantiating a new object.
 
 3. Your sample should include **appropriate exception handling**. It should handle all exceptions that are likely to be thrown in the context of the sample. For example, a sample that calls the [Console.ReadLine](https://docs.microsoft.com/dotnet/api/system.console.readline) method to retrieve user input should use appropriate exception handling when the input string is passed as an argument to a method. Similarly, if your sample expects a method call to fail, the resulting exception must be handled. Always handle the specific exceptions thrown by the method, rather than base class exceptions such as [Exception](https://docs.microsoft.com/dotnet/api/system.exception) or [SystemException](https://docs.microsoft.com/dotnet/api/system.systemexception).
 
