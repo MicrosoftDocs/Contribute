@@ -8,7 +8,7 @@ ms.date: 11/07/2018
 ---
 # Voice and tone guidelines
 
-A wide variety of people including IT Pros and developers read your documents both to learn .NET and to use it in their regular work. Your goal is to create great documentation that helps the reader on their journey. Our guidelines help with that. Our style guide contains the following recommendations:
+A wide variety of people including IT Pros and developers read the .NET docs both to learn .NET and to use it in their regular work. Your goal is to create great documentation that helps the reader on their journey. Our guidelines help with that. Our style guide contains the following recommendations:
 
 You can see examples of each of these as you read this style guide. We've written this guide following our guidelines to provide examples for you to follow as you build documentation for .NET. We also provide contrasting samples so you can see what articles look like when you don't follow our guidelines.
 
@@ -28,7 +28,7 @@ The first paragraph above follows our recommendation conversational style. The s
 
 ### Appropriate style
 
-You should write your articles as though you are speaking directly to the reader. You should use second person often (as I just have in these two sentences). 2nd person doesn't always mean using the word 'you'. Write directly to the reader. Write imperative sentences. Tell your reader what you want them to learn.
+You should write your articles as though you are speaking directly to the reader. Use second person often (as I just have in these two sentences). 2nd person doesn't always mean using the word 'you'. Write directly to the reader. Write imperative sentences. Tell your reader what you want them to learn.
 
 ### Inappropriate style
 
@@ -49,7 +49,7 @@ The first sentence uses active voice. The second sentence was written in passive
 
 We recommend active voice because it is more readable. Passive voice can be more difficult to read.
 
-## Target a fifth grade reading level
+## Target a fifth-grade reading level
 
 We provide this final guideline because many of our readers are not native English speakers. You are reaching an international audience with your articles. Please take into account that they may not have the English vocabulary you have.
 
