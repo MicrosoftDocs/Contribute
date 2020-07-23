@@ -69,6 +69,7 @@ Code snippets are small, focused examples of code that demonstrate the concepts 
 
 ## Example folder structure
 
+```
 docs
   /about
   /core
@@ -91,6 +92,7 @@ docs
             porting.vbproj
             porting-overview.vb
             Program.vb
+```
 
 The structure shown above includes one image, *portability_report.png*, and three code projects that include **code snippets** that are included in the *porting-overview.md* article. An accepted alternative structure contains one project per language that contains all snippets for all articles in that folder. This alternative has been used in the language reference areas because of very small snippets to demonstrate language syntax. It is discouraged in other areas.
 
