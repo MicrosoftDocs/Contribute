@@ -1,16 +1,17 @@
 ---
-title: Labels and projects roadmap 
-description: This article explains how labels and projects are used in the dotnet/docs repository.
+title: Labels, projects, and milestones roadmap
+description: This article explains how labels, projects, and milestones are used in the dotnet/docs repository.
 ms.topic: contributor-guide
 ms.prod: non-product-specific
 ms.custom: external-contributor-guide
-ms.date: 03/24/2020
+ms.date: 08/06/2020
 ---
-# Labels and projects roadmap
 
-The .NET docs team makes extensive use of [GitHub labels](https://github.com/dotnet/docs/labels) to organize our work. By filtering on combinations of labels, we can quickly focus on sections of interest on the [.NET docs website](https://docs.microsoft.com/dotnet).
+# Labels, projects, and milestones roadmap
 
-We also use [GitHub projects](https://github.com/dotnet/docs/projects) to organize sprints and other goal-oriented epics.
+The .NET docs team makes extensive use of [GitHub labels](https://github.com/dotnet/docs/labels) to organize our work. By filtering on combinations of labels, we can quickly focus on sections of interest on the [.NET docs website](https://docs.microsoft.com/dotnet). For example, we could filter to all of the open priority one `P1` issues with a query to [`is:open label:p1 repo:dotnet/docs`](https://github.com/pulls?q=is%3Aopen+label%3Ap1+repo%3Adotnet%2Fdocs).
+
+We use [GitHub projects](https://github.com/dotnet/docs/projects) to organize sprints and other goal-oriented epics. We also use [GitHub milestones](https://github.com/dotnet/docs/milestones) to track work. It is best to think of projects for planning (issues), and milestones for work (pull requests).
 
 This roadmap explains how we use these organizational tools and has links to handy filters we use to find areas of interest.
 
@@ -108,18 +109,27 @@ Issues tagged for a specific release are noted with the `:checkered_flag: Releas
 
 Priority labels are all `P` followed by a single digit. Lower numbers are higher priority:
 
-- P0
-- P1
-- P2
-- P3
+- P0 - Indicates issues or PRs that are critical priority
+- P1 - High priority
+- P2 - Medium priority
+- P3 - Low priority
 
-### What about the other labels?
+### What about the other labels
 
 There are many other labels used by the content teams to manage different classifications of issues. If you're not on the content team, you can ignore these other labels.
 
 ## Projects
 
+Projects are intended for planning purposes, where prioritized work is automated through a Kanban board. Projects should only ever contain GitHub issues, _not_ pull requests. Projects differ from milestones, in that milestones only contain pull requests.
+
 We use projects in two ways:
 
-- Month YYYY project types: These are scrum boards for each month's working plan.
+- `Month YYYY` project types: These are Kanban boards for each month's working plan.
+  - Examples, [July 2020](https://github.com/dotnet/docs/projects/103), [August 2020](https://github.com/dotnet/docs/projects/117), and so on.
 - Long-running epics: These are used to organize tasks toward a goal when the work will occur over several months.
+  - Examples: [.NET 5 Wave - Reorganization](https://github.com/dotnet/docs/projects/105), [.NET Languages (.NET 5 wave)
+](https://github.com/dotnet/docs/projects/106), and so on.
+
+## Milestones
+
+Milestones typically follow the same naming convention of projects `Month YYYY`, but they're different from projects. We use milestones to track completed work. Milestones should _not_ contain issues (potential work), but rather exclusively contain pull requests. The current milestone is automatically applied to new pull requests.
