@@ -151,13 +151,6 @@ Samples are full programs and libraries meant for download. They may be small in
 
 3. Your sample should include **appropriate exception handling**. It should handle all exceptions that are likely to be thrown in the context of the sample. For example, a sample that calls the [Console.ReadLine](https://docs.microsoft.com/dotnet/api/system.console.readline) method to retrieve user input should use appropriate exception handling when the input string is passed as an argument to a method. Similarly, if your sample expects a method call to fail, the resulting exception must be handled. Always handle the specific exceptions thrown by the method, rather than base class exceptions such as [Exception](https://docs.microsoft.com/dotnet/api/system.exception) or [SystemException](https://docs.microsoft.com/dotnet/api/system.systemexception).
 
-4. If your sample builds a standalone package, you must include the runtimes used by our CI build system, in addition to any runtimes used by your sample:
-
-    - `win7-x64`
-    - `win8-x64`
-    - `win81-x64`
-    - `ubuntu.16.04-x64`
-
 To create a sample:
 
 1. File an [issue](https://github.com/dotnet/docs/issues) or add a comment to an existing one that you are working on it.
