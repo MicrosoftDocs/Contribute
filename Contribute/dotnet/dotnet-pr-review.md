@@ -57,6 +57,10 @@ If the edits require a technical review, the content team reviewer will request 
 
 You may want feedback earlier in the process. Open a draft PR and add a comment that requests an early review. These early reviews focus on the structure of the article: the outline, the overall content, and the samples. These reviews do not include a thorough check for grammar and correct links.
 
+## Explain suggestions
+
+GitHub lets you enter comments in triple-back-tick blocks of type `suggestion` that are displayed as a diff and can be merged by clicking a button. On short lines, GitHub does a good job of highlighting the changes. On longer lines, such as a long paragraph in one line of text, GitHub doesn't highlight the changes. When entering a suggestion for a long line, notice whether your changes are clearly highlighted. If the changes aren't highlighted, include comments outside the suggestion block explaining what you changed. Without an explanation it's often time-consuming for subsequent reviewers or the PR author to figure out what the changes are.
+
 ## Respond to reviews
 
 The author updates the PR to respond to comments and marks each addressed comment with the "+1" reaction to indicate it was addressed. If the author disagrees with the comment, or addresses the comment in a different PR, the author adds a comment explaining their change.
