@@ -54,7 +54,7 @@
       items:
         - name: How to contribute
           href: dotnet/dotnet-contribute.md
-        - name: Labels and projects roadmap
+        - name: Labels, projects, and milestones roadmap
           href: dotnet/labels-projects.md
         - name: Style conventions
           href: dotnet/dotnet-style-guide.md
