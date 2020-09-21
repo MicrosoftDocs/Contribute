@@ -123,50 +123,11 @@ To link to a generic type, such as [System.Collections.Generic.List\<T>](https:/
 
 ## Code
 
-The best way to include code is to include snippets from a working sample. Create your sample following the instructions in the [contributing to .NET](dotnet-contribute.md#contribute-to-samples) article. The basic rules for including code are located in the general guidance on [code](../code-in-docs.md).
-
-You can include the code using the following syntax:
-
-```markdown
-[!code-<language>[<name>](<pathToFile><queryoption><queryoptionvalue>)]
-```
-
-* `-<language>` (*optional* but *recommended*)
-  * Language of the code snippet being referenced.
-
-* `<name>` (*optional*)
-  * Name for the code snippet. It doesn't have any impact on the output HTML, but you can use it to improve the readability of your Markdown source.
-
-* `<pathToFile>` (*mandatory*)
-  * Relative path in the file system that indicates the code snippet file to reference. This can be complicated by the different repos that make up the .NET doc set. The .NET samples are in the dotnet/samples repo. All snippet paths would start with `~/samples`, the rest of the path being the path to the source from the root of that repo.
-
-* `<queryoption>` (*optional*)
-  * Used to specify how the code should be retrieved from the file:
-    * `#`:  `#{tagname}` (tag name) *or* `#L{startlinenumber}-L{endlinenumber}` (line range).
-    We discourage the use of line numbers because they are very brittle. Tag name is the preferred way of referencing code snippets. Use meaningful tag names. (Many snippets were migrated from a previous platform and the tags have names such as `Snippet1`, `Snippet2` etc. That practice is much harder to maintain.)
-    * `range`: `?range=1,3-5` A range of lines. This example includes lines 1, 3, 4, and 5.
-
-We recommend using the tag name option whenever possible. The tag name is the name of a region or of a code comment in the format of `Snippettagname` present in the source code. The following example shows how to refer to the tag name `BasicThrow`:
-
-```markdown
-[!code-csharp[csrefKeyword#1](~/samples/snippets/snippets/csharp/language-reference/operators/ConditionalExamples.csConditionalRef)]
-```
-
-The relative path to the source in the **dotnet/samples** repo follows the `~/samples` path.
-
-And you can see how the snippet tags are structured in [this source file](https://github.com/dotnet/samples/blob/master/snippets/csharp/language-reference/operators/ConditionalExamples.cs). For details about tag name representation in code snippet source files by language, see the [DocFX guidelines](https://dotnet.github.io/docfx/spec/docfx_flavored_markdown.html#tag-name-representation-in-code-snippet-source-file).
-
-The following example shows code included in all three .NET languages:
-
-```markdown
-[!code-fsharp[ToPigLatin](../../../samples/snippets/fsharp/getting-started/pig-latin.fs#L1-L14)]
- [!code-csharp[ADCreateDomain#2](../../../samples/snippets/csharp/VS_Snippets_CLR/ADCreateDomain/CS/source2.cs#2)]
- [!code-vb[ADCreateDomain#2](../../../samples/snippets/visualbasic/VS_Snippets_CLR/ADCreateDomain/VB/source2.vb#2)]
-```
-
-Including snippets from full programs ensures that all code runs through our Continuous Integration (CI)
+The best way to include code is to include snippets from a working sample. Create your sample following the instructions in the [contributing to .NET](dotnet-contribute.md#contribute-to-samples) article. Including snippets from full programs ensures that all code runs through our Continuous Integration (CI)
 system. However, if you need to show something that causes compile time or
 runtime errors, you can use inline code blocks.
+
+For information about the Markdown syntax for showing code in docs, see [How to include code in docs](../code-in-docs.md).
 
 ## Images
 
