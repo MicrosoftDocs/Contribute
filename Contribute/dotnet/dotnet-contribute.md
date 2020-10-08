@@ -80,7 +80,7 @@ Code snippets are small, focused examples of code that demonstrate the concepts 
 
 #### Contribute docs for 'CAxxxx' rules
 
-Please follow the below steps to contribute documentation for CA rules to the [dotnet/docs](https://github.com/dotnet/docs) repo:
+Please follow the following steps to contribute documentation for code quality analysis rules to the [dotnet/docs](https://github.com/dotnet/docs) repo:
 
 1. Determine `Rule ID` and `Category`: Ensure that you know the 'CAxxxx' rule ID and category for the rule to be documented. This means either your CA analyzer has been merged into [dotnet/roslyn-analyzers](https://github.com/dotnet/roslyn-analyzers) repo or you have an open PR with an approved ID and category that has been assigned to the rule.
 2. Add an entry for the rule to following tables:
