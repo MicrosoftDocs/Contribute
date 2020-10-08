@@ -67,6 +67,60 @@ For **code snippets**, create a subfolder called **snippets** inside the folder 
 
 Code snippets are small, focused examples of code that demonstrate the concepts covered in an article. Larger programs intended for download and exploration should be located in the [dotnet/samples](https://github.com/dotnet/samples) repository. Full samples are covered in the section on [Contributing to samples](#contribute-to-samples).
 
+### Contribute .NET analyzer docs
+
+.NET compiler platform (Roslyn) analyzers inspect your C# or Visual Basic code for code quality and code style issues. Starting in .NET 5.0, these analyzers are [included with the .NET SDK](/dotnet/fundamentals/code-analysis/overview).
+
+- [Code quality analysis ("CAxxxx" rules)](/dotnet/fundamentals/code-analysis/overview#code-quality-analysis):
+  - Implemented [here](https://github.com/dotnet/roslyn-analyzers/tree/master/src/NetAnalyzers) in `dotnet/roslyn-analyzers` repo.
+  - Documented [here](https://github.com/dotnet/docs/blob/master/docs/fundamentals/code-analysis/quality-rules) in the `dotnet/docs` repo. See [Contribute docs for 'CAxxxx' rules](#contribute-docs-for-caxxxx-rules).
+- [Code style analysis ("IDExxxx" rules)](/dotnet/fundamentals/code-analysis/overview#code-style-analysis):
+  - Implemented [here](https://github.com/dotnet/roslyn/tree/master/src/Analyzers) in `dotnet/roslyn` repo.
+  - Documented [here](https://github.com/dotnet/docs/blob/master/docs/fundamentals/code-analysis/style-rules) in the `dotnet/docs` repo. See [Contribute docs for 'IDExxxx' rules](#contribute-docs-for-idexxxx-rules).
+
+#### Contribute docs for 'CAxxxx' rules
+
+Please follow the below steps to contribute documentation for CA rules to the [dotnet/docs](https://github.com/dotnet/docs) repo:
+
+1. Determine `Rule ID` and `Category`: Ensure that you know the 'CAxxxx' rule ID and category for the rule to be documented. This means either your CA analyzer has been merged into [dotnet/roslyn-analyzers](https://github.com/dotnet/roslyn-analyzers) repo or you have an open PR with an approved ID and category that has been assigned to the rule.
+2. Add an entry for the rule to following tables:
+  1. In [table of contents](https://github.com/dotnet/docs/blob/master/docs/fundamentals/toc.yml) file under the rule category list. For example, for a CA rule with `Performance` category, search for the term `- name: Performance rules` in the file and add an entry to the list. If none exists, create a new category list under `- name: Code quality rules`.
+  2. In [top-level rule index](https://github.com/dotnet/docs/blob/master/docs/fundamentals/code-analysis/quality-rules/index.md) file.
+  3. In `category` based rule index file:
+    1. Identify the category based index file under [root](https://github.com/dotnet/docs/blob/master/docs/fundamentals/code-analysis/quality-rules) folder. For example, for a CA rule with `Performance` category, this file is named `performance-warnings.md`. If none exists, create a new category based index file by cloning an existing one.
+    2. Add an entry for the rule ID in this file.
+3. Add rule doc:
+  1. Clone an existing CA rule file under [root](https://github.com/dotnet/docs/blob/master/docs/fundamentals/code-analysis/quality-rules) folder, say `ca1000.md`, and rename it.
+  2. Update the content of the file appropriately.
+
+> [!TIP]
+>
+> Perform a repo search on `dotnet\docs` repo, for a known, existing CA rule ID to identify potential places that might need an update. For example, see https://github.com/dotnet/docs/search?q=CA2000.
+
+#### Contribute docs for 'IDExxxx' rules
+
+Please follow the below steps to contribute documentation for IDE rules to the [dotnet/docs](https://github.com/dotnet/docs) repo:
+
+1. Determine `Rule ID` and code style option(s), if any: Ensure that you know the 'IDExxxx' rule ID and code style option(s) for the rule to be documented. This means either your IDE analyzer has been merged into [dotnet/roslyn](https://github.com/dotnet/roslyn) repo or you have an open PR with an approved ID and code style option(s) that have been assigned to the rule.
+2. Determine rule `sub-category`: IDE rules have category `Style`. Identify the rule sub-category by reading through the introductory section of [this document](/dotnet/fundamentals/code-analysis/style-rules/index). Most of the IDE code style rules will be under `Language` sub-category.
+3. Determine rule `preference group`: Identify the `preference group` for the rule by reading through the preferences headers [here](/dotnet/fundamentals/code-analysis/style-rules/language-rules#net-style-rules).
+  - If the rule has known, associated code style option(s), the preferences group will match the `OptionGroup` specified in the code style option declaration.
+  - Otherwise, you should determine if the rule belongs to an existing preference group or needs a new preference group.
+4. Add an entry for the IDE rule and/or code style option(s) to the following tables:
+  1. In [table of contents](https://github.com/dotnet/docs/blob/master/docs/fundamentals/toc.yml) file under the rule's sub-category and preferences list. For example, for an IDE code style rule with `Language` sub-category and `Modifier preferences` group, search for the term `- name: Language rules` and a child node `- name: Modifier preferences` in the file and add an entry to the list. If either the sub-category list or the preferences list under the sub-category does not exist, create a new one under `- name: Code style rules`.
+  2. In [code style option based index](https://github.com/dotnet/docs/blob/master/docs/fundamentals/code-analysis/style-rules/language-rules.md) file.
+  3. In [rule ID based index](https://github.com/dotnet/docs/blob/master/docs/fundamentals/code-analysis/style-rules/index.md) file.
+  4. In `preferences group` based rule index file:
+    1. Identify the preferences group based index file under [root](https://github.com/dotnet/docs/blob/master/docs/fundamentals/code-analysis/style-rules) folder. For example, for an IDE rule for `Modifier preferences`, this file is named `modifier-preferences.md`. If none exists, create a new preferences group based index file by cloning an existing one.
+    2. Add an entry for the rule ID in this file.
+5. Add rule doc:
+  1. Clone an existing IDE rule file under [root](https://github.com/dotnet/docs/blob/master/docs/fundamentals/code-analysis/style-rules) folder, say `ide0011.md`, and rename it.
+  2. Update the content of the file appropriately.
+
+> [!TIP]
+>
+> Perform a repo search on `dotnet\docs` repo, for a known, existing IDE rule and/or code style option(s) to identify potential places that might need an update. For example, see https://github.com/dotnet/docs/search?q=IDE0011 and https://github.com/dotnet/docs/search?q=csharp_prefer_braces.
+
 ## Example folder structure
 
 ```
