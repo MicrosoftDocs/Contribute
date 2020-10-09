@@ -4,7 +4,7 @@ description: This article describes the process for contributing to the articles
 ms.topic: contributor-guide
 ms.prod: non-product-specific
 ms.custom: external-contributor-guide
-ms.date: 05/14/2020
+ms.date: 10/09/2020
 ---
 # Learn how to contribute docs for .NET code analysis rules to the .NET docs repository
 
