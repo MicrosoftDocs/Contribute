@@ -1,12 +1,14 @@
 ---
 title: Contribute docs for .NET code analysis rules to the .NET docs repository
 description: This article describes the process for contributing to the articles and code samples for .NET code analysis rules in the .NET docs repository.
+author: mavasani
+ms.author: mavasani
 ms.topic: contributor-guide
 ms.prod: non-product-specific
 ms.custom: external-contributor-guide
 ms.date: 05/14/2020
 ---
-# Learn how to contribute docs for .NET code analysis rules to the .NET docs repository
+# Contribute docs for .NET code analysis rules to the .NET docs repository
 
 .NET compiler platform (Roslyn) analyzers inspect your C# or Visual Basic code for code quality and code style issues. Starting in .NET 5.0, these analyzers are [included with the .NET SDK](/dotnet/fundamentals/code-analysis/overview).
 
