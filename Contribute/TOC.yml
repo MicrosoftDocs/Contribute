@@ -54,6 +54,8 @@
       items:
         - name: How to contribute
           href: dotnet/dotnet-contribute.md
+        - name: Code analysis docs
+          href: dotnet/dotnet-contribute-code-analysis.md
         - name: Labels, projects, and milestones roadmap
           href: dotnet/labels-projects.md
         - name: Style conventions
