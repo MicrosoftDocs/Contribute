@@ -89,10 +89,13 @@ You've done it!  Your code is now up in your GitHub repository and ready for you
 
 Need to fix something you submitted?  No problem!  Just make your changes in the same branch and then commit and push again (no need to set the upstream server on subsequent pushes of the same branch).
 
-Got more changes you need to make unrelated to this one?  Switch back to the master branch and checkout another fresh branch,  Using Git Bash, this is as easy as:
+## Making your next change
+
+Got more changes you need to make unrelated to this one?  It might be some time since you did your first change and your fork will not be up to date with the main repository. To update your fork you need to pull from the upstream repository. Switch back to the master branch, pull from the upstream repository and checkout another fresh branch,  Using Git Bash, this is as easy as:
 
 ````
 git checkout master
+git pull upstream master
 git checkout -b "branchname"
 ````
 
