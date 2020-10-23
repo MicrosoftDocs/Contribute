@@ -109,10 +109,21 @@ Issues tagged for a specific release are noted with the `:checkered_flag: Releas
 
 Priority labels are all `P` followed by a single digit. Lower numbers are higher priority:
 
-- P0 - Indicates issues or PRs that are critical priority
+- P0 - Critical priority
+
+  Security issue or legally required for compliance. We drop everything else to fix.
+  
 - P1 - High priority
+
+  Essential for common scenarios. Or highly visible error on high page view article. We do these before P2 or P3 work.
+  
 - P2 - Medium priority
+
+  Helpful for common scenarios but not blocking.  We do these if quick and easy, or fit them in while addressing a P1 issue in the same article.
+  
 - P3 - Low priority
+
+  Helpful for edge cases, trivial corrections for common scenarios, low page view article, or deprecated technology. Not worth our time but up for grabs for community contribution. A P3 issue may be closed if not addressed after two months.
 
 ### What about the other labels
 
