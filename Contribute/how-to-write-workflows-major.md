@@ -91,7 +91,7 @@ Need to fix something you submitted?  No problem!  Just make your changes in the
 
 ## Making your next change
 
-Got more changes you need to make unrelated to this one?  It might be some time since you did your first change and your fork will not be up to date with the main repository. To update your fork you need to pull from the upstream repository. Switch back to the master branch, pull from the upstream repository and checkout another fresh branch,  Using Git Bash, this is as easy as:
+Got more changes you need to make unrelated to this one? Switch back to the master branch, pull from the upstream repository to make sure that your fork is up to date, and check out a new branch.  Run the following commands in Git Bash:
 
 ````
 git checkout master
