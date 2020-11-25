@@ -24,7 +24,7 @@ ms.custom: external-contributor-guide
 > [!Важливо]
 > Усі репозиторії, які публікують до docs.microsoft.com, прийняли [Кодекс поведінки з відкритим кодом Microsoft](https://opensource.microsoft.com/codeofconduct/) або [Кодекс поведінки .NET Foundation](https://dotnetfoundation.org/code-of-conduct). Для отримання додаткової інформації дивіться [Поширені запитання щодо Кодексу поведінки](https://opensource.microsoft.com/codeofconduct/faq/). Або зв’яжіться з [opencode@microsoft.com](mailto:opencode@microsoft.com) або [conduct@dotnetfoundation.org](mailto:conduct@dotnetfoundation.org) із будь-якими запитаннями чи коментарями.<br>
 >
-> Minor corrections or clarifications to documentation and code examples in public repositories are covered by the [docs.microsoft.com Terms of Use](https://docs.microsoft.com/legal/termsofuse). New or significant changes generate a comment in the pull request, asking you to submit an online Contribution License Agreement (CLA) if you are not an employee of Microsoft. We need you to complete the online form before we can review or accept your pull request.
+>Незначні виправлення або уточнення до документації та прикладів коду в загальнодоступних репозиторіях охоплюються [Умовами використання docs.microsoft.com](https://docs.microsoft.com/legal/termsofuse). Нові або суттєві зміни генерують коментар у запиті на внесення змін з проханням подати он-лайн згоду з ліцензією Contribution License Agreement (CLA), якщо ви не є співробітником Microsoft. Нам потрібно, щоб ви заповнили онлайн-форму, перш ніж ми зможемо переглянути або прийняти ваш запит на внесення змін.
 
 ## Quick edits to existing documents
 
