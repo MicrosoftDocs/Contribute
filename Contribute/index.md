@@ -1,6 +1,6 @@
 ---
 title: Довідник співавторів документаціі Майкрософт
-description: The guide describes how you can contribute to the Microsoft documentation site docs.microsoft.com. Довідник описує як взяти участь в створенні документації Майкрософт.
+description: Довідник описує як взяти участь в створенні документації Майкрософт docs.microsoft.com.
 author: andysvints
 ms.author: wiwagn
 ms.date: 02/19/2019
@@ -17,13 +17,14 @@ ms.custom: external-contributor-guide
 
 - Можливість  _відкритого планування_ вмісту репозиторіїв з відкритим кодом дозволяє отримувати відгуки та визначати  найнеобхідніші документи.
 - Можливість _відкритого огляду_ вмісту репозиторіїв з відкритим кодом дозволяє публікацію найкориснішого вмісту під час першого випуску.
-- Open source repos _update in the open_ to make it easier to continuously improve the content.
 - Можливість _відкритого оновлення_ вмісту репозиторіїв з відкритим кодом спрощує безперервне вдосконалення опублікованого вмісту.
 
 Користувацький інтерфейс сайту [docs.microsoft.com](https://docs.microsoft.com) безпосередньо інтегрує робочі процеси [GitHub](https://github.com), роблячи їх використання ще більш зручним. Почніть з [редагування документа, який ви переглядаєте](#quick-edits-to-existing-documents). Крім того ви можете допомогти [переглядаючи нові розділи](#review-open-prs), чи [створюючи звіти про проблеми з якістю](#create-quality-issues). 
 
-> [!IMPORTANT]
+> [!Важливо]
 > All repositories that publish to docs.microsoft.com have adopted the [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/) or the [.NET Foundation Code of Conduct](https://dotnetfoundation.org/code-of-conduct). For more information, see the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/). Or contact [opencode@microsoft.com](mailto:opencode@microsoft.com), or [conduct@dotnetfoundation.org](mailto:conduct@dotnetfoundation.org) with any questions or comments.<br>
+
+Усі репозиторії, які публікують до docs.microsoft.com, прийняли [Кодекс поведінки з відкритим кодом Microsoft](https://opensource.microsoft.com/codeofconduct/) або [Кодекс поведінки .NET Foundation](https://dotnetfoundation.org/code-of-conduct). Для отримання додаткової інформації дивіться [Поширені запитання щодо Кодексу поведінки](https://opensource.microsoft.com/codeofconduct/faq/). Або зв’яжіться з [opencode@microsoft.com](mailto:opencode@microsoft.com) або [conduct@dotnetfoundation.org](mailto:conduct@dotnetfoundation.org) із будь-якими запитаннями чи коментарями.<br>
 >
 > Minor corrections or clarifications to documentation and code examples in public repositories are covered by the [docs.microsoft.com Terms of Use](https://docs.microsoft.com/legal/termsofuse). New or significant changes generate a comment in the pull request, asking you to submit an online Contribution License Agreement (CLA) if you are not an employee of Microsoft. We need you to complete the online form before we can review or accept your pull request.
 
