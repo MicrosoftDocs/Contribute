@@ -56,8 +56,6 @@ ms.custom: external-contributor-guide
 
 Ми використовуємо запити на внесення змін для всіх змін, навіть для співавторів, які мають  права доступу на запис. У більшості репозиторіїв головна гілка є захищеною, тому оновлення потрібно подавати як запити на внесення змін.
 
-The in-browser editing experience is best for minor or infrequent changes. If you make large contributions or use advanced Git features (such as branch management or advanced merge conflict resolution), you need to [fork the repo and work locally](how-to-write-workflows-major.md).
-
 Редагування у веб-переглядачі найкраще підходить для незначних або нечастих змін. Якщо ви робите значний внесок або використовуєте розширені функції Git (наприклад, управління гілками або розширене вирішення конфліктів злиття), вам потрібно [відгалузити репозиторій та працювати локально](how-to-write-workflows-major.md).
 
 > [!ПРИМІТКА]
