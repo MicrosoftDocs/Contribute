@@ -26,57 +26,58 @@ ms.custom: external-contributor-guide
 >
 >Незначні виправлення або уточнення до документації та прикладів коду в загальнодоступних репозиторіях охоплюються [Умовами використання docs.microsoft.com](https://docs.microsoft.com/legal/termsofuse). Нові або суттєві зміни генерують коментар у запиті на внесення змін з проханням подати он-лайн згоду з ліцензією Contribution License Agreement (CLA), якщо ви не є співробітником Microsoft. Нам потрібно, щоб ви заповнили онлайн-форму, перш ніж ми зможемо переглянути або прийняти ваш запит на внесення змін.
 
-## Quick edits to existing documents
+## Швидке редагування існуючих документів
 
-Quick edits streamline the process to report and fix small errors and omissions in documents. Despite all efforts, small grammar and spelling errors _do_ make their way into our published documents. While you can create issues to report mistakes, it's faster and easier to create a pull request (PR) to fix the issue, when the option is available.
+Швидкі редагування впорядковують процес звітування та виправлення невеликих помилок та упущень в документах. Незважаючи на всі зусилля, невеликі граматичні та орфографічні помилки _потрапляють_ у наші опубліковані документи. Хоча ви можете створювати проблеми для повідомлення про помилки, але швидше і простіше створити запит на внесення змін (PR), щоб виправити проблему, коли така опція доступна.
 
-1. Some docs pages allow you to edit content directly in the browser. If so, you'll see an **Edit** button like the one shown below. Clicking the **Edit** (or equivalently localized) button takes you to the source file on GitHub. If the **Edit** button (pencil icon without text) is missing, that means the documentation page is not available to be changed.
+1. Деякі сторінки документів дозволяють редагувати вміст безпосередньо у браузері. Якщо це так, то ви побачите кнопку **Редагувати**, як показано нижче. Натискання кнопки **Редагувати** (або еквівалентну назву відповідно до налаштувань локалізації) переходить до вихідного файлу на GitHub. Якщо кнопка Редагувати (піктограма олівця без тексту) відсутня, це означає, що сторінка документації недоступна для зміни.
 
    ![Location of the Edit link](./media/index/edit-article.png)
 
-2. Next, click the pencil icon, to edit the article as shown. If the pencil icon is grayed out, you need to either log in to your GitHub account or create a new account. 
+2. Далі натисніть значок олівця, щоб відредагувати статтю, як показано нижче. Якщо піктограма олівця неактивна, вам потрібно або увійти у свій обліковий запис GitHub, або створити новий. 
 
    ![Location of the pencil icon](./media/index/edit-icon.png)
 
+3. Внесіть зміни у веб-редакторі. Клацніть на вкладку **Попередній перегляд**, щоб перевірити форматування внесених змін.
 
-3. Make your changes in the web editor. Click the **Preview changes** tab to check the formatting of your change.
-
-4. Once you have made your changes, scroll to the bottom of the page. Enter a title and description for your changes and click **Propose file change** as shown in the following figure:
+4. Після внесення змін прокрутіть сторінку до кінця. Введіть заголовок та опис змін та натисніть **Запропонувати зміну файлу**, як показано на наступному малюнку:
 
    ![Propose file change](./media/index/submit-pull-request.png)
 
-5. Now that you've proposed your change, you need to ask the owners of the repository to "pull" your changes into their repository. This is done using something called a "pull request". When you clicked on **Propose file change** in the figure above, you should have been taken to a new page that looks like the following figure:
+5. Тепер, коли ви запропонували свою зміну, вам потрібно попросити власників репозиторію "внести" ваші зміни до свого репозиторію. Це робиться за допомогою процесу, який має назву "запит на внесення змін". Коли ви натиснули на **Запропонувати зміну файлу** на малюнку вище, ви повинні були потрапити на нову сторінку, яка виглядає так, як показано на малюнку:
 
    ![create pull request](media/index/create-pull-request.png)
 
-   Click **Create pull request**, enter a title (and optionally a description) for the pull request, and then click **Create pull request** again. (If you are new to GitHub, see [About Pull Requests](https://help.github.com/en/articles/about-pull-requests) for more information.)
+   Клацніть **Створити запит на внесення змін**, введіть заголовок (і, за бажанням, опис) запиту на внесення змін, а потім знову натисніть **Створити запит на внесення змін**. (Якщо ви новачок у GitHub, див. [Докладніше про запити на внесення змін](https://help.github.com/en/articles/about-pull-requests).)
+ 
+6. Ось і все! Учасники команди відповідальної за вміст розглянуть і об’єднають ваш запит не внесення змін (PR). Якщо ви внесли великі зміни, ви можете отримати відгук із проханням внести деякі додаткові зміни.
 
-6. That's it! Content team members will review and merge your PR. You may get some feedback requesting changes if you made larger changes.
+Інтерфейс редагування GitHub відповідає вашим правам доступу на сховище. Попередні зображення є точні для співавторів, які не мають прав на запис у цільовий репозиторій. GitHub автоматично створює відгалуження цільового репозиторію у вашому обліковому записі. Якщо у вас є доступ на запис до цільового сховища, GitHub створює нову гілку в репозиторії. Ім'я гілки має вигляд **\<GitHubId> -patch-n**, використовуючи ваш GitHub ID, та числовий ідентифікатор гілки виправлення.
 
-The GitHub editing UI responds to your permissions on the repository. The preceding images are accurate for contributors that do not have write permissions to the target repository. GitHub automatically creates a fork of the target repository in your account. If you have write-access to the target repository, GitHub creates a new branch in the target repo. The branch name has the form **\<GitHubId\>-patch-n** using your GitHub ID, and a numeric identifier for the patch branch.
-
-We use pull requests for all changes, even for contributors that have write-access. Most repositories have the `master` branch protected so that updates must be submitted as pull requests.
+Ми використовуємо запити на внесення змін для всіх змін, навіть для співавторів, які мають  права доступу на запис. У більшості репозиторіїв головна гілка є захищеною, тому оновлення потрібно подавати як запити на внесення змін.
 
 The in-browser editing experience is best for minor or infrequent changes. If you make large contributions or use advanced Git features (such as branch management or advanced merge conflict resolution), you need to [fork the repo and work locally](how-to-write-workflows-major.md).
 
-> [!NOTE]
-> If enabled, you can edit an article in **any language** and, based on the type of edit, the following will happen:
-> 1. any linguistic change that is approved, will also help improve our Machine Translation engine
-> 2. any edit that significantly modifies the content of the article will be handled internally to submit a change to the same article in English so that it will get localized in all languages if approved.
-> Your suggested improvements will not only positively affect articles in your own language, but in all available languages.
+Редагування у веб-переглядачі найкраще підходить для незначних або нечастих змін. Якщо ви робите значний внесок або використовуєте розширені функції Git (наприклад, управління гілками або розширене вирішення конфліктів злиття), вам потрібно [відгалузити репозиторій та працювати локально](how-to-write-workflows-major.md).
 
-## Review open PRs
+> [!ПРИМІТКА]
+> Якщо увімкнено, ви можете редагувати статтю **будь-якою мовою**, і, залежно від типу редагування, відбуватиметься наступне:
+> 1. будь-які лінгвістичні зміни, які будуть затверджені, також допоможуть вдосконалити наш механізм Машинного Перекладу.
+> 2. будь-яке редагування, яке суттєво змінює зміст статті, буде оброблятися внутрішньо, для подання змін до тієї самої статті англійською мовою, щоб вона могла бути локалізованою на всі мови після затвердження. 
+> Пропоновані вами вдосконалення не лише позитивно вплинуть на статті вашою рідною мовою, але й усіма доступними мовами.
 
-You can read new topics before they are published by checking the currently open PRs. Reviews follow the [GitHub flow](https://guides.github.com/introduction/flow/) process. You can see proposed updates or new articles in public repositories. Review them and add your comments. Look at any of our docs repositories, and check the open pull requests (PRs) for areas that interest you. Community feedback on proposed updates helps the entire community.
+## Перегляд відкритих запитів на внесення змін
 
-## Create quality issues
+Ви можете прочитати нові теми до їх публікації, перевіривши відкриті запити на внесення змін. Перегляд проводиться з  дотриманням [GitHub flow](https://guides.github.com/introduction/flow/) процесу. Ви можете бачити запропоновані оновлення або нові статті в загальнодоступних репозиторіях. Перегляньте їх та додайте свої коментарі. Перегляньте будь-які з наших репозиторіїв з документами та перевірте відкриті запити на внесення змін для областей, які вас цікавлять. Відгуки спільноти на рахунок запропонованих оновлень допомагають всій спільноті.
 
-Our docs are a continuous work in progress. Good issues help us focus our efforts on the highest priorities for the community. The more detail you can provide, the more helpful the issue. Tell us what information you sought. Tell us the search terms you used. If you can't get started, tell us how you want to start exploring unfamiliar technology.
+## Створюйте "проблеми з якістю"
 
-Many of Microsoft's documentation pages have a **Feedback** section at the bottom of the page where you can click to leave **Product feedback** or **Content feedback** to track issues that are specific to that article.
+Наші документи - це безперервна робота. Хороші проблеми (з якістю) допомагають нам зосередити свої зусилля на найвищих пріоритетах для громади. Чим більше деталей ви можете надати, тим кориснішою буде "проблема"( з якістю). Розкажіть, яку інформацію ви шукали. Розкажіть пошукові терміни, які ви використували. Якщо вам не вдається розпочати роботу, розкажіть нам, як ви хочете почати вивчати незнайомі технології.
 
-Issues start the conversation about what's needed. The content team will respond to these issues with ideas for what we can add, and ask for your opinions. When we create a draft, we'll ask you to [review the PR](#review-open-prs).
+Багато сторінок документації корпорації Майкрософт мають розділ **Зворотній зв'язок** внизу сторінки, де Ви можете натиснути та **залишити відгук про товар** чи **залишити відгук про вміст**, щоб відстежувати проблеми, характерні для цієї статті.
 
-## Get more involved
+Проблеми починають розмову про те, що є необхідним. Команда відповідальна за вміст дасть відповідь на ці проблеми ідеями щодо того, що ми можемо додати, і запитає вашу думку. Коли ми створюємо чорновий варіант, ми просимо вас [переглянути запит на внесення змін.](#review-open-prs)
 
-Other topics help you get started productively contributing to Microsoft Docs. They explain working with GitHub repositories, Markdown tools, and extensions used in the Microsoft Docs platform.
+## Дізнатись більше
+
+Інші теми допомагають розпочати продуктивно робити свій внесок у Документи Microsoft. Вони пояснюють роботу з репозиторіями GitHub, інструментами Markdown та розширеннями, що використовуються на платформі Microsoft Docs.
