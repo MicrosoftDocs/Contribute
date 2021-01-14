@@ -1,9 +1,9 @@
 ---
 title: Microsoft Docs contributor guide overview
 description: The guide describes how you can contribute to the Microsoft documentation site docs.microsoft.com.
-author: billwagner
-ms.author: wiwagn
-ms.date: 06/23/2020
+author: Jim-Parker
+ms.author: jimpark
+ms.date: 01/13/2021
 ms.topic: contributor-guide
 ms.prod: non-product-specific
 ms.custom: external-contributor-guide
@@ -30,9 +30,11 @@ The user experience on [docs.microsoft.com](https://docs.microsoft.com) integrat
 
 Quick edits streamline the process to report and fix small errors and omissions in documents. Despite all efforts, small grammar and spelling errors _do_ make their way into our published documents. While you can create issues to report mistakes, it's faster and easier to create a pull request (PR) to fix the issue, when the option is available.
 
-1. Some docs pages allow you to edit content directly in the browser. If so, you'll see an **Edit** button like the one shown below. Clicking the **Edit** (or equivalently localized) button takes you to the source file on GitHub. If the **Edit** button is missing, that means the documentation page is not available to be changed.
+1. **Some** docs pages allow you to edit content directly in the browser. If so, you'll see an **Edit** button like the one shown below. Clicking the **Edit** (or equivalently localized) button takes you to the source file on GitHub. If the **Edit** button is missing, that means the documentation page is not available to be changed.
 
    ![Location of the Edit link](./media/index/edit-article.png)
+
+   If the **Edit** button doesn't appear it means the content is not open to public contributions.
 
 2. Next, click the pencil icon, to edit the article as shown. If the pencil icon is grayed out, you need to either log in to your GitHub account or create a new account. 
 
