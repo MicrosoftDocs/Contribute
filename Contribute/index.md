@@ -1,9 +1,9 @@
 ---
 title: Microsoft Docs contributor guide overview
 description: The guide describes how you can contribute to the Microsoft documentation site docs.microsoft.com.
-author: billwagner
-ms.author: wiwagn
-ms.date: 06/23/2020
+author: Jim-Parker
+ms.author: jimpark
+ms.date: 01/13/2021
 ms.topic: contributor-guide
 ms.prod: non-product-specific
 ms.custom: external-contributor-guide
@@ -34,7 +34,7 @@ Quick edits streamline the process to report and fix small errors and omissions 
 
    ![Location of the Edit link](./media/index/edit-article.png)
 
-   If the **Edit** button doesn't exist it means the content is not open to public contributions.
+   If the **Edit** button doesn't appear it means the content is not open to public contributions.
 
 2. Next, click the pencil icon, to edit the article as shown. If the pencil icon is grayed out, you need to either log in to your GitHub account or create a new account. 
 
