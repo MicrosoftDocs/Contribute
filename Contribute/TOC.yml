@@ -48,6 +48,8 @@
           href: docs-authoring/sort-redirects.md
         - name: Sort selection
           href: docs-authoring/sort-selection.md
+        - name: Jupyter notebooks 
+          href: docs-authoring/jupyter-notebooks.md
 - name: Documentation set-specific guidance
   items:
     - name: .NET docs
