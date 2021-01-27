@@ -358,31 +358,31 @@ You can reference a cell in a Jupyter notebook as a code snippet. In order to re
 
 1. Name the cell by adding cell metadata in the Jupyter notebook.  
 
- * In Jupyter, you can [edit cell metadata](https://juyterbook.org/advanced/advanced.html#adding-tags-using-notebook-interfaces) by first enabling the the cell toolbar:  **View > Cell Toolbar > Edit Metadata**.
-  * Once the cell toolbar is enabled, select **Edit Metadata** on the cell you wish to name.
-  * Or you can edit metadata directly in the notebook's JSON structure.
+    * In Jupyter, you can [edit cell metadata](https://jupyterbook.org/advanced/advanced.html#adding-tags-using-notebook-interfaces) by first enabling the the cell toolbar:  **View > Cell Toolbar > Edit Metadata**.
+    * Once the cell toolbar is enabled, select **Edit Metadata** on the cell you wish to name.
+    * Or you can edit metadata directly in the notebook's JSON structure.
 
-1. In the cell metadata, add a "name" attribute:
-
-  ```json
-  "metadata": {"name": "<name>"},
-  ```
+1.  In the cell metadata, add a "name" attribute:
+ 
+    ```json
+    "metadata": {"name": "<name>"},
+    ```
   
-  For example:
+    For example:
 
-  ```json
-  "metadata": {"name": "workspace"},
-  ```
+    ```json
+    "metadata": {"name": "workspace"},
+    ```
 
-  > [!TIP]
-  > You can add any other metadata you'd like to help you track where the cell is being used.  For example:
-  >
-  > ```json
-  >     "metadata": {
-  >       "name": "workspace",
-  >       "msdoc": "how-to-track-experiments.md"
-  >     },
-  > ```
+    > [!TIP]
+    > You can add any other metadata you'd like to help you track where the cell is being used.  For example:
+    >
+    > ```json
+    >     "metadata": {
+    >       "name": "workspace",
+    >       "msdoc": "how-to-track-experiments.md"
+    >     },
+    > ```
 
 ### Set up repository access
 
@@ -393,13 +393,13 @@ If the notebook file you want to reference is in a different repository, set up 
  Once your notebook contains the required metadata, reference it in your markdown file. Use the `<cell-name-value>` you added to the notebook, and the `<path>` you set up as your dependent repository.
 
 ```markdown
-[!notebook-<language>[] (<path>/<notebook-name.ipynb>?name=<cell-name-value>)]
+[!notebook-<language>[] (<path>/<notebook-name.ipynb>?name=<cell-name-value>)]
 ```
 
 For example:
 
 ```markdown
-[!notebook-python[] (~/MachineLearningNotebooks/train-on-local.ipynb?name=workspace)]
+[!notebook-python[] (~/MachineLearningNotebooks/train-on-local.ipynb?name=workspace)]
 ```
 
 > [!IMPORTANT]
