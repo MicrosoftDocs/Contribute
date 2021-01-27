@@ -346,6 +346,67 @@ folder. As noted [earlier](#highlighting-selected-lines), line numbers for highl
 > [!NOTE]
 > The name you assign to the dependent repository is relative to the root of the main repository, but the tilde (~) refers to the root of the doc set. The doc set root is determined by `build_source_folder` in *.openpublishing.publish.config.json*. The path to the snippet in the preceding example works in the azure-docs repo because `build_source_folder` refers to the repo root (`.`). If `build_source_folder` were `articles`, the path would start with `~/../samples-durable-functions` instead of `~/samples-durable-functions`.
 
+## Snippets in a Jupyter notebook
+
+You can reference a cell in a Jupyter notebook as a code snippet. In order to reference the cell:
+
+1. Add cell metadata to the notebook for the cells you wish to reference.
+1. Set up access to the repository.
+1. Use Jupyter notebook snippet syntax in your markdown file.
+
+### Add metadata to notebook
+
+1. Name the cell by adding cell metadata in the Jupyter notebook.  
+
+ * In Jupyter, you can [edit cell metadata](https://jupyterbook.org/advanced/advanced.html#adding-tags-using-notebook-interfaces) by first enabling the the cell toolbar:  **View > Cell Toolbar > Edit Metadata**.
+ * Once the cell toolbar is enabled, select **Edit Metadata** on the cell you wish to name.
+ * Or you can edit metadata directly in the notebook's JSON structure.
+
+1. In the cell metadata, add a "name" attribute:
+
+  ```json
+  "metadata": {"name": "<name>"},
+  ```
+  
+  For example:
+
+  ```json
+  "metadata": {"name": "workspace"},
+  ```
+
+  > [!TIP]
+  > You can add any other metadata you'd like to help you track where the cell is being used.  For example:
+  >
+  > ```json
+  >     "metadata": {
+  >       "name": "workspace",
+  >       "msdoc": "how-to-track-experiments.md"
+  >     },
+  > ```
+
+### Set up repository access
+
+If the notebook file you want to reference is in a different repository, set up the code repository as a [dependent repository](#out-of-repo-snippet-references).
+
+### Jupyter notebook snippet syntax reference
+
+ Once your notebook contains the required metadata, reference it in your markdown file. Use the `<cell-name-value>` you added to the notebook, and the `<path>` you set up as your dependent repository.
+
+```markdown
+[!notebook-<language>[] (<path>/<notebook-name.ipynb>?name=<cell-name-value>)]
+```
+
+For example:
+
+```markdown
+[!notebook-python[] (~/MachineLearningNotebooks/train-on-local.ipynb?name=workspace)]
+```
+
+> [!IMPORTANT]
+> This syntax is a block Markdown extension. It must be used on its own line.
+
+Use any of the [supported languages](#supported-languages) for the `<language>` identifier.
+
 ## Interactive code snippets
 
 ### Inline interactive code blocks
