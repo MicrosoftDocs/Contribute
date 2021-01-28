@@ -35,7 +35,7 @@ ms.date: 01/28/2021
 
 ## Examples
 
-### [What are breaking changes](/dotnet/core/compatibility/)
+### [Changes that affect compatibility](/dotnet/core/compatibility/)
 
 | Before .NET 5 | Current recommendation |
 | --- | --- |
