@@ -66,6 +66,8 @@
           href: dotnet/dotnet-voice-tone.md
         - name: Pull request review process
           href: dotnet/dotnet-pr-review.md
+        - name: .NET 5 and .NET Core naming
+          href: dotnet/net-core-5-naming.md
     - name: PowerShell-Docs
       href: powershell-overview.md
 - name: Additional resources
