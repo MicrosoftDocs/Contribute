@@ -1,16 +1,16 @@
 ---
-title: "How to refer to .NET Core / 5+ in docs"
+title: "How to refer to .NET in docs"
 description: "Learn how to refer to .NET Core, .NET 5, and later versions in docs."
 ms.topic: contributor-guide
 ms.prod: non-product-specific
 ms.custom: external-contributor-guide
 ms.date: 01/28/2021
 ---
-# How to refer to .NET Core / 5+ in docs
+# How to refer to .NET in docs
 
 ## Recommended terminology
 
-**In Doc Title/H1:**
+**In doc title and first heading (h1):**
 
 - ".NET" (without mention of 5 or Core)
 
