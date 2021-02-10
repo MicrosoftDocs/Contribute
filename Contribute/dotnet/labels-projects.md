@@ -27,15 +27,15 @@ We use labels to classify issues in many different ways:
 
 You can combine a label from each set (guide, release, priority) to create a narrow focus to find issues you want to work on.
 
-### Find a single .NET guide
+### Find issues for a single .NET guide
 
 We use labels for each of the architecture e-books and for each .NET Guide. All ebooks are noted with the [dotnet-architecture/prod](https://github.com/dotnet/docs/labels/dotnet-architecture%2Fprod) label. Each book has a unique label that ends with `/tech`.
 
 Each .NET Guide is noted with the [`/prod`](https://github.com/dotnet/docs/labels?q=prod) suffix and has a blue-gray background. Here are current issues filtered for each of the .NET guides.
 
 - [.NET Guide - `dotnet/prod`](https://github.com/dotnet/docs/labels/dotnet%2Fprod)
-- [.NET Fundamentals Guide - `dotnet-fundamentals/prod`](https://github.com/dotnet/docs/labels/dotnet-fundamentals%2Fprod)
-- [.NET Core Guide - `dotnet-core/prod`](https://github.com/dotnet/docs/labels/dotnet-core%2Fprod)
+- [.NET Fundamentals Guide (formerly .NET Standard Guide) - `dotnet-fundamentals/prod`](https://github.com/dotnet/docs/labels/dotnet-fundamentals%2Fprod)
+- [.NET Fundamentals Guide (formerly .NET Core Guide) - `dotnet-core/prod`](https://github.com/dotnet/docs/labels/dotnet-core%2Fprod)
 - [.NET Framework Guide - `dotnet-framework/prod`](https://github.com/dotnet/docs/labels/dotnet-framework%2Fprod)
 - [API Reference - `dotnet-api/prod`](https://github.com/dotnet/docs/labels/dotnet-api%2Fprod)
 - [C# Guide - `dotnet-csharp/prod`](https://github.com/dotnet/docs/labels/dotnet-csharp%2Fprod)
@@ -48,7 +48,7 @@ Each .NET Guide is noted with the [`/prod`](https://github.com/dotnet/docs/label
 
 Other product labels are defined for areas that cross repositories.
 
-#### Search one section of a guide
+#### Find issues for one section of a guide
 
 The .NET guides are large, so these labels further limit the scope by a section of a guide. Each .NET Guide subarea is noted with the [`/tech`](https://github.com/dotnet/docs/labels?q=tech) suffix and has a light blue background. Many of these labels apply to multiple guides, while others are in only one guide. After filtering on an area, add one of these labels to further limit the scope of issues.
 
@@ -60,9 +60,9 @@ Issues tagged for a specific release are noted with the [`:checkered_flag: Relea
 
 ### Priority
 
-Priority labels are all `P` followed by a single digit. Lower numbers are higher priority:
+Priority labels are all `Pri` followed by a single digit. Lower numbers are higher priority:
 
-- Pri - Critical priority
+- Pri0 - Critical priority
 
   Security issue or legally required for compliance. We drop everything else to fix.
   
