@@ -4,12 +4,12 @@ description: This article explains how labels, projects, and milestones are used
 ms.topic: contributor-guide
 ms.prod: non-product-specific
 ms.custom: external-contributor-guide
-ms.date: 08/06/2020
+ms.date: 02/10/2021
 ---
 
 # Labels, projects, and milestones roadmap
 
-The .NET docs team makes extensive use of [GitHub labels](https://github.com/dotnet/docs/labels) to organize our work. By filtering on combinations of labels, we can quickly focus on sections of interest on the [.NET docs website](https://docs.microsoft.com/dotnet). For example, we could filter to all of the open priority one `P1` issues with a query to [is:issue is:open label:":books: Area - .NET Architecture Guide"](https://github.com/dotnet/docs/issues?q=is%3Aissue+is%3Aopen+label%3A%22%3Abooks%3A+Area+-+.NET+Architecture+Guide%22).
+The .NET docs team makes extensive use of [GitHub labels](https://github.com/dotnet/docs/labels) to organize our work. By filtering on combinations of labels, we can quickly focus on sections of interest on the [.NET docs website](https://docs.microsoft.com/dotnet). For example, we could filter to all of the open issues on the architecture guides with a query to [is:issue is:open label:"dotnet-architecture/prod"](https://github.com/dotnet/docs/labels/dotnet-architecture%2Fprod).
 
 We use [GitHub projects](https://github.com/dotnet/docs/projects) to organize sprints and other goal-oriented epics. We also use [GitHub milestones](https://github.com/dotnet/docs/milestones) to track work. It is best to think of projects for planning (issues), and milestones for work (pull requests).
 
@@ -29,98 +29,52 @@ You can combine a label from each set (guide, release, priority) to create a nar
 
 ### Find a single .NET guide
 
-We use labels for each of the architecture e-books and for each .NET Guide.
+We use labels for each of the architecture e-books and for each .NET Guide. All ebooks are noted with the [dotnet-architecture/prod](https://github.com/dotnet/docs/labels/dotnet-architecture%2Fprod) label. Each book has a unique label that ends with `/tech`.
 
-![:book: guide on light green background](./media/labels-projects/guide.png "Prefix for architecture guide labels")
+Each .NET Guide is noted with the [`/prod`](https://github.com/dotnet/docs/labels?q=prod) suffix and has a blue-gray background. Here are current issues filtered for each of the .NET guides.
 
-Architecture e-books are noted with the `:book: guide` prefix and have a light green background. These are the long-form areas that cover recommended architecture. Here are current issues filtered for each of the .NET architecture guides.
+- [.NET Guide - `dotnet/prod`](https://github.com/dotnet/docs/labels/dotnet%2Fprod)
+- [.NET Fundamentals Guide - `dotnet-fundamentals/prod`](https://github.com/dotnet/docs/labels/dotnet-fundamentals%2Fprod)
+- [.NET Core Guide - `dotnet-core/prod`](https://github.com/dotnet/docs/labels/dotnet-core%2Fprod)
+- [.NET Framework Guide - `dotnet-framework/prod`](https://github.com/dotnet/docs/labels/dotnet-framework%2Fprod)
+- [API Reference - `dotnet-api/prod`](https://github.com/dotnet/docs/labels/dotnet-api%2Fprod)
+- [C# Guide - `dotnet-csharp/prod`](https://github.com/dotnet/docs/labels/dotnet-csharp%2Fprod)
+- [F# Guide- `dotnet-fsharp/prod`](https://github.com/dotnet/docs/labels/dotnet-fsharp%2Fprod)
+- [Visual Basic Guide - `dotnet-visualbasic/prod](https://github.com/dotnet/docs/labels/dotnet-visualbasic%2Fprod)
+- [ML.NET Guide - `dotnet-ml/prod`](https://github.com/dotnet/docs/labels/dotnet-ml%2Fprod)
+- [Azure .NET SDK - `azure-dotnet/prod`](https://github.com/dotnet/docs/labels/azure-dotnet%2Fprod)
+- [.NET for Apache Spark Guide - `dotnet-spark/prod`](https://github.com/dotnet/docs/labels/dotnet-spark%2Fprod)
+- [.NET Desktop Guide - `dotnet-desktop/prod`](https://github.com/dotnet/docs/labels/dotnet-desktop%2Fprod)
 
-- [ASP.NET Core web apps](https://github.com/dotnet/docs/labels/%3Abook%3A%20guide%20-%20ASP.NET%20Core%20web%20apps)
-- [Blazor](https://github.com/dotnet/docs/labels/%3Abook%3A%20guide%20-%20Blazor)
-- [Cloud Native](https://github.com/dotnet/docs/labels/%3Abook%3A%20guide%20-%20Cloud%20Native)
-- [Docker lifecycle](https://github.com/dotnet/docs/labels/%3Abook%3A%20guide%20-%20Docker%20lifecycle)
-- [gRPC](https://github.com/dotnet/docs/labels/%3Abook%3A%20guide%20-%20gRPC)
-- [Modernizing w/ Windows containers](https://github.com/dotnet/docs/labels/%3Abook%3A%20guide%20-%20Modernizing%20w%2F%20Windows%20containers)
-- [.NET Microservices](https://github.com/dotnet/docs/labels/%3Abook%3A%20guide%20-%20.NET%20Microservices)
-- [Serverless apps](https://github.com/dotnet/docs/labels/%3Abook%3A%20guide%20-%20Serverless%20apps)
-
-This label style is also applied to the [Framework design guidelines](https://github.com/dotnet/docs/labels/%3Abook%3A%20guide%20-%20Framework%20Design%20Guidelines). This area has the same label design, but community PRs are discouraged. This is material reprinted with permission and should not be edited.
-
-![:books: Area on dark blue background](./media/labels-projects/area.png "Prefix for .NET Guide area labels")
-
-Each .NET Guide is noted with the `:books: Area` prefix and has a dark blue background. Here are current issues filtered for each of the .NET guides.
-
-- [API Reference](https://github.com/dotnet/docs/labels/%3Abooks%3A%20Area%20-%20API%20Reference)
-- [Azure .NET SDK](https://github.com/dotnet/docs/labels/%3Abooks%3A%20Area%20-%20Azure%20.NET%20SDk)
-- [C# Guide](https://github.com/dotnet/docs/labels/%3Abooks%3A%20Area%20-%20C%23%20Guide)
-- [F# Guide](https://github.com/dotnet/docs/labels/%3Abooks%3A%20Area%20-%20F%23%20Guide)
-- [ML.NET Guide](https://github.com/dotnet/docs/labels/%3Abooks%3A%20Area%20-%20ML.NET%20Guide)
-- [.NET Architecture Guide](https://github.com/dotnet/docs/labels/%3Abooks%3A%20Area%20-%20.NET%20Architecture%20Guide) - Could be removed
-- [.NET Core Guide](https://github.com/dotnet/docs/labels/%3Abooks%3A%20Area%20-%20.NET%20Core%20Guide)
-- [.NET for Apache Spark Guide](https://github.com/dotnet/docs/labels/%3Abooks%3A%20Area%20-%20.NET%20for%20Apache%20Spark%20Guide)
-- [.NET Framework Guide](https://github.com/dotnet/docs/labels/%3Abooks%3A%20Area%20-%20.NET%20Framework%20Guide)
-- [.NET Guide](https://github.com/dotnet/docs/labels/%3Abooks%3A%20Area%20-%20.NET%20Guide)
-- [Roslyn API Reference](https://github.com/dotnet/docs/labels/%3Abooks%3A%20Area%20-%20Roslyn%20API%20Reference) - could be removed.
-- [Visual Basic Guide](https://github.com/dotnet/docs/labels/%3Abooks%3A%20Area%20-%20Visual%20Basic%20Guide)
+Other product labels are defined for areas that cross repositories.
 
 #### Search one section of a guide
 
-![:card_file_box: Area on medium blue background](./media/labels-projects/technology.png "Prefix for .NET Guide sub-area labels")
-
-The .NET guides are large, so these labels further limit the scope by a section of a guide. Each .NET Guide subarea is noted with the `:card_file_box: Technology` prefix and has a medium blue background. Many of these labels apply to multiple guides, while others are in only one guide. After filtering on an area, add one of these labels to further limit the scope of issues.
-
-- AppCompat
-- Async Task
-- C# Advanced concepts
-- C# compiler
-- C# Fundamentals
-- C# Get Started
-- C# Language Reference
-- C# Null safety
-- C# What's new
-- CLI
-- Data Access
-- Docker
-- Installers
-- LINQ
-- NCL
-- .NET Standard
-- Roslyn APIs
-- Security
-- WCF
-- WF
-- WIF
-- WinForms
-- WPF
+The .NET guides are large, so these labels further limit the scope by a section of a guide. Each .NET Guide subarea is noted with the [`/tech`](https://github.com/dotnet/docs/labels?q=tech) suffix and has a light blue background. Many of these labels apply to multiple guides, while others are in only one guide. After filtering on an area, add one of these labels to further limit the scope of issues.
 
 ### Releases
 
 ![:checkered_flag: Release: on dark yellow](./media/labels-projects/release.png "Prefix for release labels")
 
-Issues tagged for a specific release are noted with the `:checkered_flag: Release:` prefix and have a dark yellow background.
-
-- .NET Core 2.2
-- .NET Core 3.0
-- .NET Framework 4.8
-- .NET 5
+Issues tagged for a specific release are noted with the [`:checkered_flag: Release:`](https://github.com/dotnet/docs/labels?q=%3Acheckered_flag%3A+Release) prefix and have a dark yellow background.
 
 ### Priority
 
 Priority labels are all `P` followed by a single digit. Lower numbers are higher priority:
 
-- P0 - Critical priority
+- Pri - Critical priority
 
   Security issue or legally required for compliance. We drop everything else to fix.
   
-- P1 - High priority
+- Pri1 - High priority
 
   Essential for common scenarios. Or highly visible error on high page view article. We do these before P2 or P3 work.
   
-- P2 - Medium priority
+- Pri2 - Medium priority
 
   Helpful for common scenarios but not blocking.  We do these if quick and easy, or fit them in while addressing a P1 issue in the same article.
   
-- P3 - Low priority
+- Pri3 - Low priority
 
   Helpful for edge cases, trivial corrections for common scenarios, low page view article, or deprecated technology. Not worth our time but up for grabs for community contribution. A P3 issue may be closed if not addressed after two months.
 
