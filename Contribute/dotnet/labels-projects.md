@@ -21,7 +21,7 @@ If this is your first experience contributing to [dotnet/docs](https://github.co
 
 We use labels to classify issues in many different ways:
 
-- [.NET Guides](#find-a-single-net-guide) and [sections of a guide](#search-one-section-of-a-guide).
+- [.NET Guides](#find-issues-for-a-single-net-guide) and [sections of a guide](#find-issues-for-one-section-of-a-guide).
 - [Target release](#releases)
 - [Priority](#priority)
 
