@@ -41,12 +41,12 @@ In this workflow, changes flow in a repetitive cycle. Starting from your device'
 
 ### Use GitHub flow
 
-Recall from [Git and GitHub fundamentals](git-github-fundamentals.md#git) that a Git repository contains a master branch, plus any additional work-in-progress branches that have not been integrated into master. Whenever you introduce a set of logically related changes, it’s a best practice to create a *working branch* to manage your changes through the workflow. We refer to it here as a working branch because it's a workspace to iterate/refine changes, until they can be integrated back into the master branch.
+Recall from [Git and GitHub fundamentals](git-github-fundamentals.md#git) that a Git repository contains a default branch, plus any additional work-in-progress branches that have not been integrated into the default branch. Whenever you introduce a set of logically related changes, it’s a best practice to create a *working branch* to manage your changes through the workflow. We refer to it here as a working branch because it's a workspace to iterate/refine changes, until they can be integrated back into the default branch.
 
 Isolating related changes to a specific branch allows you to control and introduce those changes independently, targeting them to a specific release time in the publishing cycle. In reality, depending on the type of work you do, you can easily end up with several working branches in your repository. It's not uncommon to be working on multiple branches at the same time, each representing a different project.
 
 >[!TIP]
->Making your changes in the master branch is *not* a good practice. Imagine that you use the master branch to introduce a set of changes for a timed feature release. You finish the changes and are waiting to release them. Then in the interim, you have an urgent request to fix something, so you make the change to a file in the master branch and then publish the change. In this example, you inadvertently publish both the fix *and* the changes that you were holding for release on a specific date.
+>Making your changes in the default branch is *not* a good practice. Imagine that you use the default branch to introduce a set of changes for a timed feature release. You finish the changes and are waiting to release them. Then in the interim, you have an urgent request to fix something, so you make the change to a file in the default branch and then publish the change. In this example, you inadvertently publish both the fix *and* the changes that you were holding for release on a specific date.
 
 Now let's create a new working branch in your local repository, to capture your proposed changes. If you've setup Git Bash (see [Install content authoring tools](get-started-setup-tools.md)), you can create a new branch and "checkout" that branch with one command from within your cloned repository:
 
@@ -91,15 +91,15 @@ Need to fix something you submitted?  No problem!  Just make your changes in the
 
 ## Making your next change
 
-Got more changes you need to make unrelated to this one? Switch back to the master branch, pull from the upstream repository to make sure that your fork is up to date, and check out a new branch.  Run the following commands in Git Bash:
+Got more changes you need to make unrelated to this one? Switch back to the default branch, pull from the upstream repository to make sure that your fork is up to date, and check out a new branch.  Run the following commands in Git Bash:
 
 ````
-git checkout master
-git pull upstream master
+git checkout main
+git pull upstream main
 git checkout -b "branchname"
 ````
 
-You're now back in a new branch and you're well on your way to being a master contributer.
+You're now back in a new branch and you're well on your way to being an expert contributer.
 
 [!INCLUDE[contribute-how-to-write-workflows-pull-request-processing](includes/contribute-how-to-write-workflows-pull-request-processing.md)]
 

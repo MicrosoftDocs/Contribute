@@ -126,7 +126,7 @@ itself, like IntelliSense. Don't use screenshots just to show colorization and h
 
 Some repositories have implemented processes that automatically compile all sample code to check for
 errors. The .NET repository does this. For more information,
-see [Contributing](https://github.com/dotnet/docs/blob/master/CONTRIBUTING.md) in the .NET
+see [Contributing](https://github.com/dotnet/docs/blob/main/CONTRIBUTING.md) in the .NET
 repository.
 
 If you are including code blocks from another repository, work with the owners on a maintenance strategy for the code so that
@@ -246,9 +246,9 @@ Example:
 :::code language="csharp" source="intro/samples/cu/Controllers/StudentsController.cs" range="2-24,26":::
 ```
 
-The example is from the ASP.NET docs repo, [aspnetcore/data/ef-mvc/crud.md](https://github.com/aspnet/Docs/blob/master/aspnetcore/data/ef-mvc/crud.md)
+The example is from the ASP.NET docs repo, [aspnetcore/data/ef-mvc/crud.md](https://github.com/dotnet/AspNetCore.Docs/blob/main/aspnetcore/data/ef-mvc/crud.md)
 article file. The code file is referenced by a relative path to
-[aspnetcore/data/ef-mvc/intro/samples/cu/Controllers/StudentsController.cs](https://github.com/aspnet/Docs/blob/master/aspnetcore/data/ef-mvc/intro/samples/cu/Controllers/StudentsController.cs)
+[aspnetcore/data/ef-mvc/intro/samples/cu/Controllers/StudentsController.cs](https://github.com/dotnet/AspNetCore.Docs/blob/main/aspnetcore/data/ef-mvc/intro/samples/cu/Controllers/StudentsController.cs)
 in the same repository.
 
 ### Selected line numbers
