@@ -99,6 +99,9 @@ git pull upstream main
 git checkout -b "branchname"
 ````
 
+> [!NOTE]
+> The preceding commands assume the repo you're working with has `main` as its default branch. If the first command fails, it's likely that the default branch hasn't been renamed. Replace `main` in the first two commands with `master` to verify this.
+
 You're now back in a new branch and you're well on your way to being an expert contributer.
 
 [!INCLUDE[contribute-how-to-write-workflows-pull-request-processing](includes/contribute-how-to-write-workflows-pull-request-processing.md)]
