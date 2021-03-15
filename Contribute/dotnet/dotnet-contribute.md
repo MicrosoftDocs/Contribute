@@ -63,7 +63,7 @@ Navigate to the folder that corresponds to the TOC location determined for your 
 
 For images and other static resources, create a subfolder called **media** inside the folder that contains your article, if it doesn't already exist. Inside the **media** folder, create a subfolder with the article name (except for the index file).
 
-For **code snippets**, create a subfolder called **snippets** inside the folder that contains your article, if it doesn't already exist. Inside the **snippets** folder, create a subfolder with the article name. In most cases, you'll have code snippets for all three of the main .NET languages, C#, F#, and Visual Basic. In that case, create subfolders named **csharp**, **fsharp**, and **vb** for each of the three projects. If you're creating a snippet for an article under the [docs/csharp](https://github.com/dotnet/docs/tree/master/docs/csharp), [docs/fsharp](https://github.com/dotnet/docs/tree/master/docs/fsharp), or [docs/visual-basic](https://github.com/dotnet/docs/tree/master/docs/visual-basic) folders, the snippet will only be in one language so you can omit the language subfolder.
+For **code snippets**, create a subfolder called **snippets** inside the folder that contains your article, if it doesn't already exist. Inside the **snippets** folder, create a subfolder with the article name. In most cases, you'll have code snippets for all three of the main .NET languages, C#, F#, and Visual Basic. In that case, create subfolders named **csharp**, **fsharp**, and **vb** for each of the three projects. If you're creating a snippet for an article under the [docs/csharp](https://github.com/dotnet/docs/tree/main/docs/csharp), [docs/fsharp](https://github.com/dotnet/docs/tree/main/docs/fsharp), or [docs/visual-basic](https://github.com/dotnet/docs/tree/main/docs/visual-basic) folders, the snippet will only be in one language so you can omit the language subfolder.
 
 Code snippets are small, focused examples of code that demonstrate the concepts covered in an article. Larger programs intended for download and exploration should be located in the [dotnet/samples](https://github.com/dotnet/samples) repository. Full samples are covered in the section on [Contributing to samples](#contribute-to-samples).
 
@@ -101,7 +101,7 @@ The structure shown above includes one image, *portability_report.png*, and thre
 
 For historical reasons, many of the included snippets are stored under the */samples* folder in the *dotnet/docs* repository. If you're making major changes to an article, those snippets should be moved to the new structure. Do not move snippets for small changes.
 
-**Step 4:** Submit a Pull Request (PR) from your branch to the master branch.
+**Step 4:** Submit a Pull Request (PR) from your branch to the default branch.
 
 > [!IMPORTANT]
 > The [comment automation](../how-to-write-workflows-major.md#review-and-sign-off) functionality is not available on any of the .NET docs repositories at this time. Members of the .NET docs team will review and merge your PR.
@@ -114,9 +114,9 @@ The .NET team will review your PR and let you know if there are any other update
 
 **Step 5:** Make any necessary updates to your branch as discussed with the team.
 
-The maintainers will merge your PR into the master branch once feedback has been applied and your change is approved.
+The maintainers will merge your PR into the default branch once feedback has been applied and your change is approved.
 
-We regularly push all commits from master branch into the live branch and then you'll be able to see your contribution live at https://docs.microsoft.com/dotnet/. We typically publish daily during the work week.
+We regularly push all commits from default branch into the live branch and then you'll be able to see your contribution live at https://docs.microsoft.com/dotnet/. We typically publish daily during the work week.
 
 ## Contribute to samples
 
@@ -141,11 +141,11 @@ Your topic will also contain links to the sample. Link directly to the sample's 
 
 ### Write a new sample
 
-Samples are full programs and libraries meant for download. They may be small in scope, but they demonstrate concepts in a manner that enables people to explore and experiment on their own. The guidelines for samples ensure readers can download and explore. Examine the [Parallel LINQ (PLINQ)](https://github.com/dotnet/samples/tree/master/csharp/parallel/PLINQ) samples as an example of each of the guidelines.
+Samples are full programs and libraries meant for download. They may be small in scope, but they demonstrate concepts in a manner that enables people to explore and experiment on their own. The guidelines for samples ensure readers can download and explore. Examine the [Parallel LINQ (PLINQ)](https://github.com/dotnet/samples/tree/main/csharp/parallel/PLINQ) samples as an example of each of the guidelines.
 
 1. Your sample **must be part of a buildable project**. Where possible, the projects should build on all platforms supported by .NET Core. Exceptions to this are samples that demonstrate a platform specific feature or platform specific tool.
 
-2. Your sample should conform to the [corefx coding style](https://github.com/dotnet/corefx/blob/master/Documentation/coding-guidelines/coding-style.md) to maintain consistency.
+2. Your sample should conform to the [corefx coding style](https://github.com/dotnet/corefx/blob/main/Documentation/coding-guidelines/coding-style.md) to maintain consistency.
 
    Additionally, we prefer the use of `static` methods rather than instance methods when demonstrating something that doesn't require instantiating a new object.
 
@@ -242,6 +242,6 @@ Contributions for Machine Translated (MT) content are currently not accepted. In
 
 You must sign the [.NET Foundation Contribution License Agreement (CLA)](https://cla.dotnetfoundation.org) before your PR is merged. This is a one-time requirement for projects in the .NET Foundation. You can read more about [Contribution License Agreements (CLA)](http://en.wikipedia.org/wiki/Contributor_License_Agreement) on Wikipedia.
 
-The agreement: [net-foundation-contribution-license-agreement.pdf](https://github.com/dotnet/home/blob/master/guidance/net-foundation-contribution-license-agreement.pdf)
+The agreement: [net-foundation-contribution-license-agreement.pdf](https://github.com/dotnet/home/blob/main/guidance/net-foundation-contribution-license-agreement.pdf)
 
 You don't have to sign the agreement up-front. You can clone, fork, and submit your PR as usual. When your PR is created, it is classified by a CLA bot. If the change is small (for example, you fixed a typo), then the PR is labeled with `cla-not-required`. Otherwise, it's classified as `cla-required`. Once you signed the CLA, the current and all future pull requests are labeled as `cla-signed`.
