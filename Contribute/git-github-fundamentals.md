@@ -23,7 +23,7 @@ If you're familiar with centralized version control systems (such as Team Founda
 Git also uses a tiered structure to store and manage content for a project:
 
 - *Repository*: Also known as a *repo*, this is the highest unit of storage. A repository contains one or more branches.
-- *Branch*: A unit of storage that contains the files and  folders that make up a project's content set. Branches separate streams of work (typically referred to as versions). Contributions are always made and scoped to a specific branch. All repositories contain a default branch (typically named "master") and one or more branches that are destined to be merged back into the master branch. The master branch serves as the current version and "single source of truth" for the project. It's the parent from which all other branches in the repository are created.
+- *Branch*: A unit of storage that contains the files and  folders that make up a project's content set. Branches separate streams of work (typically referred to as versions). Contributions are always made and scoped to a specific branch. All repositories contain a default branch (typically named "main") and one or more branches that are destined to be merged back into the default branch. The default branch serves as the current version and "single source of truth" for the project. It's the parent from which all other branches in the repository are created.
 
 Contributors interact with Git to update and manipulate repositories at both the local and GitHub levels:
 
@@ -41,7 +41,7 @@ All workflows begin and end at the GitHub level, where the main repository for a
 
 ### Directory organization
 
-As mentioned earlier, a project's default/master branch serves as the current version of content for the project. The content in the master branch--and branches created from it--is loosely aligned with the organization of the articles on the corresponding Docs pages. Subdirectories are used for separation of like content (such as services), media content (such as image files), and "include" files (which enable reuse of content).
+As mentioned earlier, a project's default branch serves as the current version of content for the project. The content in the default branch--and branches created from it--is loosely aligned with the organization of the articles on the corresponding Docs pages. Subdirectories are used for separation of like content (such as services), media content (such as image files), and "include" files (which enable reuse of content).
 
 You can typically find a main `articles` directory off the root of the repository. The articles
 directory contains a set of subdirectories. Articles in the subdirectories are formatted as
