@@ -570,7 +570,7 @@ This renders as follows:
 |This is   |a simple   |table header|
 |----------|-----------|------------|
 |table     |data       |here        |
-|it doesn't|actually   |have to line up nicely!||
+|it doesn't|actually   |have to line up nicely!|
 
 You can align the columns by using colons:
 
