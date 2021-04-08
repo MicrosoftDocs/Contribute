@@ -74,7 +74,7 @@ Code snippets are small, focused examples of code that demonstrate the concepts 
 
 Each PR should usually address one issue at a time, unless multiple issues are related to the same PR fix. The PR can modify one or multiple files. If you're addressing multiple fixes on different files, separate PRs are preferred.
 
-If your PR fixes an existing issue, add the `Fixes #Issue_Number` keyword to the commit message or PR description. That way, the issue is automatically closed when the PR is merged. For more information, see [Closing issues via commit messages](https://help.github.com/articles/closing-issues-via-commit-messages/).
+If your PR fixes an existing issue, add the `Fixes #Issue_Number` keyword to the PR description. That way, the issue is automatically closed when the PR is merged. For more information, see [Linking a pull request to an issue using a keyword](https://docs.github.com/github/managing-your-work-on-github/linking-a-pull-request-to-an-issue#linking-a-pull-request-to-an-issue-using-a-keyword).
 
 The .NET team will review your PR and let you know if there are any other updates/changes necessary in order to approve it.
 
