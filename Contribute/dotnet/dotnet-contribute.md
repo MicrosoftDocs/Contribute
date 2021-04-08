@@ -4,7 +4,7 @@ description: This article describes the process for contributing to the articles
 ms.topic: contributor-guide
 ms.prod: non-product-specific
 ms.custom: external-contributor-guide
-ms.date: 05/14/2020
+ms.date: 04/08/2021
 ---
 # Learn how to contribute to the .NET docs repositories
 
@@ -61,11 +61,28 @@ If it's a new topic, you can use this [template file](dotnet-style-guide.md) as 
 
 Navigate to the folder that corresponds to the TOC location determined for your article in step 1. That folder contains the Markdown files for all articles in that section. If necessary, create a new folder to place the files for your content. The main article for that section is called *index.md*.
 
-For images and other static resources, create a subfolder called **media** inside the folder that contains your article, if it doesn't already exist. Inside the **media** folder, create a subfolder with the article name (except for the index file).
+For images and other static resources, create a subfolder called **media** inside the folder that contains your article, if it doesn't already exist. Inside the **media** folder, create a subfolder with the article name (except for the index file). For more information about where to place your files, see the [Example folder structure](#example-folder-structure) section.
 
-For **code snippets**, create a subfolder called **snippets** inside the folder that contains your article, if it doesn't already exist. Inside the **snippets** folder, create a subfolder with the article name. In most cases, you'll have code snippets for all three of the main .NET languages, C#, F#, and Visual Basic. In that case, create subfolders named **csharp**, **fsharp**, and **vb** for each of the three projects. If you're creating a snippet for an article under the [docs/csharp](https://github.com/dotnet/docs/tree/main/docs/csharp), [docs/fsharp](https://github.com/dotnet/docs/tree/main/docs/fsharp), or [docs/visual-basic](https://github.com/dotnet/docs/tree/main/docs/visual-basic) folders, the snippet will only be in one language so you can omit the language subfolder.
+For **code snippets**, create a subfolder called **snippets** inside the folder that contains your article, if it doesn't already exist. Inside the **snippets** folder, create a subfolder with the article name. In most cases, you'll have code snippets for all three of the main .NET languages, C#, F#, and Visual Basic. In that case, create subfolders named **csharp**, **fsharp**, and **vb** for each of the three projects. If you're creating a snippet for an article under the [docs/csharp](https://github.com/dotnet/docs/tree/main/docs/csharp), [docs/fsharp](https://github.com/dotnet/docs/tree/main/docs/fsharp), or [docs/visual-basic](https://github.com/dotnet/docs/tree/main/docs/visual-basic) folders, the snippet will only be in one language so you can omit the language subfolder. For more information about where to place your files, see the [Example folder structure](#example-folder-structure) section.
 
 Code snippets are small, focused examples of code that demonstrate the concepts covered in an article. Larger programs intended for download and exploration should be located in the [dotnet/samples](https://github.com/dotnet/samples) repository. Full samples are covered in the section on [Contributing to samples](#contribute-to-samples).
+
+**Step 4:** Submit a Pull Request (PR) from your branch to the default branch.
+
+> [!IMPORTANT]
+> The [comment automation](../how-to-write-workflows-major.md#review-and-sign-off) functionality is not available on any of the .NET docs repositories at this time. Members of the .NET docs team will review and merge your PR.
+
+Each PR should usually address one issue at a time, unless multiple issues are related to the same PR fix. The PR can modify one or multiple files. If you're addressing multiple fixes on different files, separate PRs are preferred.
+
+If your PR fixes an existing issue, add the `Fixes #Issue_Number` keyword to the commit message or PR description. That way, the issue is automatically closed when the PR is merged. For more information, see [Closing issues via commit messages](https://help.github.com/articles/closing-issues-via-commit-messages/).
+
+The .NET team will review your PR and let you know if there are any other updates/changes necessary in order to approve it.
+
+**Step 5:** Make any necessary updates to your branch as discussed with the team.
+
+The maintainers will merge your PR into the default branch once feedback has been applied and your change is approved.
+
+We regularly push all commits from default branch into the live branch and then you'll be able to see your contribution live at https://docs.microsoft.com/dotnet/. We typically publish daily during the work week.
 
 ## Example folder structure
 
@@ -92,31 +109,21 @@ docs
             porting.vbproj
             porting-overview.vb
             Program.vb
+        /shared
+          /csharp ...
+          /fsharp ...
+          /vb ...
 ```
 
 > [!NOTE]
-> The language folders under snippets are not needed in the language guide area, where only one language is assumed.
+> The language folders under snippets are not needed in the language guide area, where only one language is assumed. For example, in the C# guide, it's assumed that all snippets are C#.
 
-The structure shown above includes one image, *portability_report.png*, and three code projects that include **code snippets** that are included in the *porting-overview.md* article. An accepted alternative structure contains one project per language that contains all snippets for all articles in that folder. This alternative has been used in the language reference areas because of very small snippets to demonstrate language syntax. It is discouraged in other areas.
+The structure shown above includes one image, *portability_report.png*, and three code projects that include **code snippets** that are included in the *porting-overview.md* article. 
 
-For historical reasons, many of the included snippets are stored under the */samples* folder in the *dotnet/docs* repository. If you're making major changes to an article, those snippets should be moved to the new structure. Do not move snippets for small changes.
-
-**Step 4:** Submit a Pull Request (PR) from your branch to the default branch.
+The *snippets/shared* folder is used for snippets that may span multiple articles within the same parent folder, such as the *porting* folder in the previous example. Only use the *shared* folder when you have a specific reason to do so, such as XAML code that's referenced by multiple articeles, yet can't compile in the *article-specific* folder.
 
 > [!IMPORTANT]
-> The [comment automation](../how-to-write-workflows-major.md#review-and-sign-off) functionality is not available on any of the .NET docs repositories at this time. Members of the .NET docs team will review and merge your PR.
-
-Each PR should usually address one issue at a time. The PR can modify one or multiple files. If you're addressing multiple fixes on different files, separate PRs are preferred. If you're creating samples as well as updating markdown, you'll need to create a separate PR for samples.
-
-If your PR fixes an existing issue, add the `Fixes #Issue_Number` keyword to the commit message or PR description. That way, the issue is automatically closed when the PR is merged. For more information, see [Closing issues via commit messages](https://help.github.com/articles/closing-issues-via-commit-messages/).
-
-The .NET team will review your PR and let you know if there are any other updates/changes necessary in order to approve it.
-
-**Step 5:** Make any necessary updates to your branch as discussed with the team.
-
-The maintainers will merge your PR into the default branch once feedback has been applied and your change is approved.
-
-We regularly push all commits from default branch into the live branch and then you'll be able to see your contribution live at https://docs.microsoft.com/dotnet/. We typically publish daily during the work week.
+> For historical reasons, many of the included snippets are stored under the */samples* folder in the *dotnet/docs* repository. If you're making major changes to an article, those snippets should be moved to the new structure. However, don't worry about moveing snippets for small changes.
 
 ## Contribute to samples
 
@@ -215,21 +222,21 @@ Except where noted, all samples build from the command line on any platform supp
 
 ## The C# interactive experience
 
-All samples included in an article use a [language tag](../code-in-docs.md) to indicate the source language. Short code samples in C# can use the `csharp-interactive` language tag to specify a C# sample that runs in the browser. (Inline code samples use the `csharp-interactive` tag, for snippets included from source, use the `code-csharp-interactive` tag.) These code samples display a code window and an output window in the article. The output window displays any output from executing the interactive code once the user has run the sample.
+All snippets included in an article use a [language tag](../code-in-docs.md) to indicate the source language. Short code snippets in C# can use the `csharp-interactive` language tag to specify a C# snippet that runs in the browser. (Inline code snippets use the `csharp-interactive` tag, for snippets included from source, use the `code-csharp-interactive` tag.) These code snippets display a **code window** and an **output window** in the article. The **output window** displays any output from executing the interactive code once the user has run the snippet.
 
-The C# interactive experience changes how we work with samples. Visitors can run the sample to see the results. A number of factors help determine if the sample or corresponding text should include information about the output.
+The C# interactive experience changes how we work with snippets. Visitors can run the snippet to see the results. A number of factors help determine if the snippet or corresponding text should include information about the output.
 
-### When to display the expected output without running the sample
+### When to display the expected output without running the snippet
 
 - Articles intended for beginners should provide output so that readers can compare the output of their work with the expected answer.
-- Samples where the output is integral to the topic should display that output. For example, articles on formatted text should show the text format without running the sample.
-- When both the sample and the expected output is short, consider showing the output. It saves a bit of time.
+- Snippets where the output is integral to the topic should display that output. For example, articles on formatted text should show the text format without running the snippet.
+- When both the snippet and the expected output is short, consider showing the output. It saves a bit of time.
 - Articles explaining how current culture or invariant culture affect output should explain the expected output. The interactive REPL (Read Evaluate Print Loop) runs on a Linux-based host. The default culture, and the invariant culture produce different output on different operating systems and machines. The article should explain the output in Windows, Linux, and Mac systems.
 
-### When to exclude expected output from the sample
+### When to exclude expected output from the snippet
 
-- Articles where the sample generates a larger output should not include that in comments. It obscures the code once the sample has been run.
-- Articles where the sample demonstrates a topic, but the output isn't integral to understanding it. For example, code that runs a LINQ query to explain query syntax and then display every item in the output collection.
+- Articles where the snippet generates a larger output should not include that in comments. It obscures the code once the snippet has been run.
+- Articles where the snippet demonstrates a topic, but the output isn't integral to understanding it. For example, code that runs a LINQ query to explain query syntax and then display every item in the output collection.
 
 > [!NOTE]
 > You might notice that some of the topics are not currently following all the guidelines specified here. We're working towards achieving consistency throughout the site. Check the list of [open issues](https://github.com/dotnet/docs/issues?q=is%3Aopen+is%3Aissue+label%3A%22%3Abookmark_tabs%3A+Information+Architecture%22) we're currently tracking for that specific goal.
