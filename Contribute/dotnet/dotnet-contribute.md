@@ -123,7 +123,7 @@ The structure shown above includes one image, *portability_report.png*, and thre
 
 The *snippets/shared* folder is used for snippets that may span multiple articles within the same parent folder, such as the *porting* folder in the previous example. Only use the *shared* folder when you have a specific reason to do so, such as XAML code that's referenced by multiple articeles, yet can't compile in the *article-specific* folder.
 
-Media can also be shared across articles when those articles are in the same parent folder, such as the *porting* folder in the previous example. This *shared* folder should only be used when you have a specific reason to do so, such as a loading screen for an app or Visual Studio dialogs.
+Media can also be shared across articles when those articles are in the same parent folder, such as the *porting* folder in the previous example. This *shared* folder should be avoided if possible, and only used when it makes sense. For example, it may make sense to share a common loading screen for the app being demonstrated, or share Visual Studio dialogs that are reused across multiple articles.
 
 > [!IMPORTANT]
 > For historical reasons, many of the included snippets are stored under the */samples* folder in the *dotnet/docs* repository. If you're making major changes to an article, those snippets should be moved to the new structure. However, don't worry about moving snippets for small changes.
