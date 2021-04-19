@@ -1,6 +1,6 @@
 # Інструкція для співавторів Документації Microsoft
 
-Даний GitHub репозиторій є основним джерелом для сторінок [https://docs.microsoft.com/contribute](https://docs.microsoft.com/contribute). 
+Даний GitHub репозиторій є основним джерелом для сторінок [https://docs.microsoft.com/contribute](https://docs.microsoft.com/contribute).  
 
 ## Правила поведінки з відкритим кодом  компанії Microsoft
 
