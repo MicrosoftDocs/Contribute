@@ -4,7 +4,7 @@ description: This article contains a handy template you can use to create new ar
 ms.topic: contributor-guide
 ms.prod: non-product-specific
 ms.custom: external-contributor-guide
-ms.date: 11/07/2018
+ms.date: 04/21/2021
 ---
 # Metadata and Markdown template for .NET docs
 
@@ -33,7 +33,16 @@ ms.date: [CREATION/UPDATE DATE - mm/dd/yyyy]
 - **author**: The author field should contain the **GitHub username** of the author.
 - **ms.date**: The date of the last significant update. Update this on existing articles if you reviewed and updated the entire article. Small fixes, such as typos or similar do not warrant an update.
 
-Other metadata is attached to each article, but we typically apply most metadata values at the folder level, specified in **docfx.json**.
+Other metadata may be attached to each article if it's specified at the global-level or folder-level in the *docfx.json* file.
+
+### Optional metadata
+
+You may want to apply additional metadata to your article. The following table shows some of the tags you can use.
+
+| Tag | Values | Description |
+| - | - |
+| **ms.custom** | updateeachrelease | For articles that mention specific versions that should be incremented for each release. |
+|               | updatefuturerelease | For articles that contain information that should be updated or removed in some future release. |
 
 ## Basic Markdown, GFM, and special characters
 
