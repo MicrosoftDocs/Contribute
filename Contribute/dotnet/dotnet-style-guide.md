@@ -39,7 +39,7 @@ Other metadata may be attached to each article if it's specified at the global-l
 
 You may want to apply additional metadata to your article. The following table shows some of the tags you can use.
 
-| Tag | Values | Description |
+| Tag | Value | Description |
 | - | - |
 | **ms.custom** | updateeachrelease | For articles that mention specific versions that should be incremented for each release. |
 |               | updatefuturerelease | For articles that contain information that should be updated or removed in some future release. |
