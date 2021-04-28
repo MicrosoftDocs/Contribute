@@ -47,7 +47,7 @@ Quick edits streamline the process to report and fix small errors and omissions 
 
    ![Propose file change](./media/index/submit-pull-request.png)
 
-5. Now that you've proposed your change, you need to ask the owners of the repository to "pull" your changes into their repository. This is done using something called a "pull request". When you click on **Propose file change**, a new page that appears similar to the following is displayed:
+5. Now that you've proposed your change, you need to ask the owners of the repository to "pull" your changes into their repository. This is done using something called a "pull request". When you select **Propose file change**, a new page similar to the following is displayed:
 
    ![create pull request](media/index/create-pull-request.png)
 
