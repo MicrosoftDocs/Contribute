@@ -36,24 +36,24 @@ Quick edits streamline the process to report and fix small errors and omissions 
 
    If the **Edit** button doesn't appear it means the content is not open to public contributions.
 
-2. Next, click the pencil icon, to edit the article as shown. If the pencil icon is grayed out, you need to either log in to your GitHub account or create a new account. 
+2. Select the pencil icon to edit the article. If the pencil icon is grayed out, you need to either log in to your GitHub account or create a new account. 
 
    ![Location of the pencil icon](./media/index/edit-icon.png)
 
 
-3. Make your changes in the web editor. Click the **Preview changes** tab to check the formatting of your change.
+3. Make changes in the web editor. Click the **Preview changes** tab to check the formatting of your change.
 
 4. Once you have made your changes, scroll to the bottom of the page. Enter a title and description for your changes and click **Propose file change** as shown in the following figure:
 
    ![Propose file change](./media/index/submit-pull-request.png)
 
-5. Now that you've proposed your change, you need to ask the owners of the repository to "pull" your changes into their repository. This is done using something called a "pull request". When you clicked on **Propose file change** in the figure above, you should have been taken to a new page that looks like the following figure:
+5. Now that you've proposed your change, you need to ask the owners of the repository to "pull" your changes into their repository. This is done using something called a "pull request". When you select **Propose file change**, a new page similar to the following is displayed:
 
    ![create pull request](media/index/create-pull-request.png)
 
-   Click **Create pull request**, enter a title (and optionally a description) for the pull request, and then click **Create pull request** again. (If you are new to GitHub, see [About Pull Requests](https://help.github.com/en/articles/about-pull-requests) for more information.)
+   Select **Create pull request**, enter a title, and optionally a description for the pull request, and then select **Create pull request**. If you are new to GitHub, see [About Pull Requests](https://help.github.com/en/articles/about-pull-requests) for more information.
 
-6. That's it! Content team members will review and merge your PR. You may get some feedback requesting changes if you made larger changes.
+6. That's it! Content team members will review and merge your PR when it's approved. You may get feedback requesting changes.
 
 The GitHub editing UI responds to your permissions on the repository. The preceding images are accurate for contributors that do not have write permissions to the target repository. GitHub automatically creates a fork of the target repository in your account. If you have write-access to the target repository, GitHub creates a new branch in the target repo. The branch name has the form **\<GitHubId\>-patch-n** using your GitHub ID, and a numeric identifier for the patch branch.
 
