@@ -10,7 +10,7 @@ ms.date: 03/31/2020
 ---
 # Use links in documentation
 
-This article describes how to use hyperlinks from pages hosted at docs.microsoft.com. Links are easy to add into markdown with a few varying conventions. Links point users to content in the same page, in other neighboring pages, or on external sites and URLs.
+This article describes how to use hyperlinks from pages hosted at docs.microsoft.com. Links are easy to add using markdown with a few varying conventions. Links point users to content in the same page, in other neighboring pages, or on external sites and URLs.
 
 The docs.microsoft.com site backend uses Open Publishing Services (OPS), which supports [CommonMark][]-compliant markdown parsed through the [Markdig][] parsing engine. This markdown flavor is mostly compatible with [GitHub Flavored Markdown (GFM)][GFM], as most docs are stored in GitHub and can be edited there. Additional functionality is added through Markdown extensions.
 
