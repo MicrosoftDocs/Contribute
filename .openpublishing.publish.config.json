@@ -33,6 +33,11 @@
             "path_to_root": "_themes.pdf",
             "url": "https://github.com/Microsoft/templates.docs.msft.pdf",
             "branch": "master"
+        },
+        {  
+            "path_to_root": "contribute/guide",
+            "url": "https://github.com/MicrosoftDocs/docs-help-pr",
+            "branch": "master"
         }
     ],
     "branch_target_mapping": {
