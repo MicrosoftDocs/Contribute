@@ -29,6 +29,7 @@ This install includes the Git version control system and Git Bash, the command-l
 
 [!INCLUDE[Install Git client tools for Windows](~/guide/help-content/includes/proc-contribute-install-git-client-tools.md)]
 
+
 ### Install Git client tools for Mac and Linux
 
 * Git for Mac is provided as part of the Xcode Command Line Tools. Simply run `git` from the command line. You will be prompted to install the command line tools if needed. You can also download [Git for Mac](https://git-scm.com/download/mac) from the Software Freedom Conservancy.
@@ -44,17 +45,12 @@ In the next article, you will [Set up a local Git repository](get-started-setup-
 
 [Visual Studio Code](https://code.visualstudio.com/), also known as VS Code, is a lightweight editor that works on Windows, Linux, and Mac. It includes git integration, and support for extensions.
 
-Download and install [VS Code](https://code.visualstudio.com/). The VS Code home page should detect your operating system correctly.
-
 > [!TIP]
 > To launch VS Code and open the current folder, run the command `code .` in the command line or bash shell. If the current folder is part of a local git repo, the GitHub integration appears in Visual Studio Code automatically.
 
-### Install Visual Studio Code for Windows
+### Install Visual Studio Code for Window, mac and Linux
 
-[!INCLUDE[Install Visual Studio Code](~/guide/help-content/includes/proc-contribute-install-vscode.md)]
-
-### Install Visual Studio Code for mac and Linux
-
+- [Windows](https://code.visualstudio.com/). The VS Code home page should detect your operating system correctly.
 - [Mac](https://code.visualstudio.com/docs/setup/mac)
 - [Linux](https://code.visualstudio.com/docs/setup/linux)
 
