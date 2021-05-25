@@ -35,7 +35,7 @@
             "branch": "master"
         },
         {  
-            "path_to_root": "Contribute_include",
+            "path_to_root": "contribute/guide",
             "url": "https://github.com/MicrosoftDocs/docs-help-pr",
             "branch": "master"
         }
