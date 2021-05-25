@@ -21,7 +21,9 @@ This article describes the steps to interactively install Git client tools and V
 >
 > Major contributors are encouraged to complete these steps, which enable you to use the [major/long-running changes workflow](how-to-write-workflows-major.md). Even if you have write permissions in the main repository, *we highly recommend (and this guide assumes) that you fork and clone the repository*, so that you have read/write permissions to store your proposed changes in your fork.
 
-## Install Git client tools 
+## Install Git client tools
+
+[!INCLUDE[Install Git client tools for Windows](~/contribute/guide/proc-contribute-install-git-client-tools.md)]
 
  Install the latest version of [Software Freedom Conservancy's Git client tools](https://git-scm.com/download/) for your platform. 
 
