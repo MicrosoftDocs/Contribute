@@ -23,13 +23,11 @@ This article describes the steps to interactively install Git client tools and V
 
 ## Install Git client tools
 
+This install includes the Git version control system and Git Bash, the command-line app that you use to interact with your local Git repository.
+
 ### Install Git client tools for Windows
 
 [!INCLUDE[Install Git client tools for Windows](~/guide/help-content/includes/proc-contribute-install-git-client-tools.md)]
-
- Install the latest version of [Software Freedom Conservancy's Git client tools](https://git-scm.com/download/) for your platform. 
-
-* [Git for Windows](https://git-scm.com/download/win). This install includes the Git version control system and Git Bash, the command-line app that you use to interact with your local Git repository.
 
 ### Install Git client tools for Mac and Linux
 
