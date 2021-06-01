@@ -19,7 +19,7 @@ This article describes the steps to interactively install Git client tools and V
 >[!IMPORTANT]
 > If you're making only minor changes to an article, you *do not* need to complete the steps in this article and can continue directly to the [quick changes workflow](index.md#quick-edits-to-existing-documents).
 >
-> Major contributors are encouraged to complete these steps, which enable you to use the [major/long-running changes workflow](how-to-write-workflows-major.md). Even if you have write permissions in the main repository, *we highly recommend (and this guide assumes) that you fork and clone the repository*, so that you have read/write permissions to store your proposed changes in your fork.
+> Contributors who will be making major changes are encouraged to complete these steps, which enable you to use the [major/long-running changes workflow](how-to-write-workflows-major.md). Even if you have write permissions in the main repository, *we highly recommend (and this guide assumes) that you fork and clone the repository*, so that you have read/write permissions to store your proposed changes in your fork.
 
 ## Install Git client tools
 
@@ -56,7 +56,7 @@ In the next article, you will [Set up a local Git repository](get-started-setup-
 
 ## Install Visual Studio Code extensions
 
-[!INCLUDE[Install Visual Studio Code extentsion](~/guide/help-content/includes/proc-contribute-install-vscode-extensions.md)]
+[!INCLUDE[Install Visual Studio Code extension](~/guide/help-content/includes/proc-contribute-install-vscode-extensions.md)]
 
 ### Install Docs Authoring Pack
 
@@ -64,11 +64,7 @@ In the next article, you will [Set up a local Git repository](get-started-setup-
 
 ## Understand Markdown editors
 
-Markdown is a lightweight markup language that is both easy to read and easy to learn. Therefore, it has rapidly become an industry standard. To write articles in Markdown, we recommend that you first download and install a Markdown editor.  [Visual Studio Code](https://code.visualstudio.com/) is the preferred tool for editing Markdown at Microsoft. [Atom](https://atom.io) is another popular tool for editing Markdown.
-
-Markdown text is saved into files with .md extension.
-
-Additional details on how to write with Markdown, including Markdown basics and the features supported by Open Publishing Services (OPS) custom Markdown extensions, are covered in the [Markdown Reference](markdown-reference.md) article.
+Markdown is a lightweight markup language used to author the content. [Visual Studio Code](https://code.visualstudio.com/) is the preferred tool for editing Markdown at Microsoft. [Atom](https://atom.io) is another popular tool for editing Markdown. Markdown basics and the features supported by Open Publishing Services (OPS) custom Markdown extensions, are covered in the [Markdown Reference](markdown-reference.md) article.
 
 ## Next steps
 
