@@ -12,9 +12,9 @@ ms.custom: external-contributor-guide
 
 # Metadata for docs
 
-At Microsoft, we use metadata on Docs for reporting, discoverability of the content via search, and to drive aspects of the site experience. If you're making an edit to an existing article, you probably won't have to change any metadata. However, if you're adding a new article, there are certain required metadata values that you'll need to include in the YAML front matter of the file.
+At Microsoft, we use metadata on Docs for reporting, discoverability of the content via search, and to drive aspects of the site experience. Metadata can be applied in the article (in the YAML front matter) or globally in the *docfx.json* file for the repo.
 
-Metadata can be applied in the article (in the YAML front matter) or globally in the *docfx.json* file for the repo.
+If you're making an edit to an existing article, you probably won't have to change any metadata. However, if you're adding a new article, there are certain required metadata values that you'll need to include in the YAML front matter of the file.
 
 ## Required metadata
 
@@ -32,7 +32,7 @@ The following table shows the required metadata keys. If you omit any of these, 
 
 ## Optional metadata
 
-In addition to the required metadata, there are many optional metadata keys you can specify. The following table shows optional metadata.
+In addition to the required metadata, there are many optional metadata keys you can specify. The following table shows some of the optional metadata keys.
 
 | Field | Value | Why? |
 | ----- | ----- | ---- |
