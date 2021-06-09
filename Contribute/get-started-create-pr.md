@@ -1,12 +1,12 @@
 ---
 title: Create a pull request
-description: This article helps you download and install the client tools you will need for Git and editing markdown files.
+description: This article helps you complete creating a PR after you have pushed your commits.
 ms.topic: contributor-guide
 ms.prod: non-product-specific
 ms.custom: external-contributor-guide
 author: v-ashwinik
 ms.author: v-ashwinik
-ms.date: 05/25/2021
+ms.date: 06/09/2021
 ---
 
 You create a pull request (PR) after you've updated or added your content. This step is required for getting your changes published. You'll push the changes from Visual Studio Code and continue to GitHub to complete the creation of the pull request.
@@ -39,7 +39,7 @@ Each time you add a commit to the same working branch in your GitHub fork, the c
 
 ### Automated labels
 
-[!INCLUDE[Contribute how to pull requests apex automation](../includes/contribute-how-to-pull-requests-apex-automation.md)]
+[!INCLUDE[Contribute how to pull requests apex automation](./includes/contribute-how-to-pull-requests-apex-automation.md)]
 
 When the pull request is free of errors and signed off, your changes are merged back into the parent branch and the pull request is closed.
 
