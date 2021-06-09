@@ -28,6 +28,8 @@
       href: text-formatting-guidelines.md
     - name: Links
       href: how-to-write-links.md
+    - name: Metadata
+      href: metadata.md
     - name: Docs Authoring pack
       items:
       - name: Overview
