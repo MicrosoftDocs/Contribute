@@ -1,0 +1,60 @@
+---
+title: How to create a pull request to have your changes updated to an article on MicrosoftDocs
+description: This article shows how to complete creating a pull request on GitHub.com so your updates to an article can be reviewed and published on docs.microsoft.com. 
+author: v-ashwinik
+ms.topic: how-to
+ms.date: 06/09/2021
+ms.author: v-ashwinik
+ms.prod: non-product-specific
+ms.custom: internal-contributor-guide
+
+---
+<!-- customer intent: As a new content creator, I want create a pull request, so that the content changes I made can be published on docs.microsoft.com.-->
+
+# Create a pull request
+
+[!INCLUDE [contribute-create-pull-request](~/guide/help-content/includes/proc-contribute-create-pr.md)]
+
+## Pull request processing
+
+[!INCLUDE [contribute-pull-request-processing](~/guide/help-content/includes/contribute-pull-request-processing.md)]
+
+## Update the pull request
+
+After all PR processing is completed, you should review the results (PR comments, preview URLs, and validation) to determine if more changes are required before you sign-off for merging. If a PR reviewer has reviewed your pull request, they can also provide feedback through comments if there are outstanding issues/questions to be resolved before merge.
+
+### To update the PR
+
+When you're making changes, you almost always have to add commits to the PR:
+
+* To address any rendering issues.
+* To address feedback from peer reviewers.
+* To address feedback from PR reviewers (certain repositories).
+
+[!INCLUDE [contribute-update-pull-request](~/guide/help-content/includes/proc-contribute-update-pr.md)]
+
+Each time you add a commit to the same working branch in your GitHub fork, the commit is automatically added to the PR. And the publishing system automatically reruns Acrolinx and restages the affected article(s).
+
+## Sign-off and merge pull request
+
+[!INCLUDE [contribute-pull-request-publishing](~/guide/help-content/includes/contribute-pull-request-publishing.md)]
+
+### Automated labels
+
+[!INCLUDE [contribute-how-to-pull-requests-apex-automation.md](../includes/contribute-how-to-pull-requests-apex-automation.md)]
+
+When the pull request is free of errors and signed off, your changes are merged back into the parent branch and the pull request is closed.
+
+### Merge the PR
+
+Typically, when your PR is ready to go, you get it reviewed before it's merged. Ask for a review from a team member who is familiar with the docs editing process for your repository. Continue to merge the PR when the reviewer approves the PR.
+
+1. Use the repository-specific method for getting a PR merged. For example:
+
+   * In the Azure repository, add a PR comment *#sign-off*.
+   * In the .NET and ASP.NET repositories, select the **Squash and merge** button.
+
+   After the PR is merged, your changes will be included in the next publish.
+
+2. After the next publish, go to the production URL for the article you changed, and verify that your changes are live.
+
