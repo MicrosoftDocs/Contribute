@@ -1,17 +1,15 @@
 ---
-title: How to create a pull request to have your changes updated to an article on docs.microsoft.com
-description: This article shows how to complete creating a pull request on GitHub.com so your updates to an article can be reviewed and published on docs.microsoft.com. 
+title: Create a pull request
+description: This article helps you download and install the client tools you will need for Git and editing markdown files.
 ms.topic: contributor-guide
 ms.prod: non-product-specific
 ms.custom: external-contributor-guide
 author: v-ashwinik
 ms.author: v-ashwinik
-ms.date: 06/09/2021
+ms.date: 05/25/2021
 ---
 
-<!-- customer intent: As a new content creator, I want create a pull request, so that the content changes I made can be published on docs.microsoft.com.-->
-
-# Create a pull request
+You create a pull request (PR) after you've updated or added your content. This step is required for getting your changes published. You'll push the changes from Visual Studio Code and continue to GitHub to complete the creation of the pull request.
 
 [!INCLUDE[Contribute create pull request](~/guide/help-content/includes/proc-contribute-create-pr.md)]
 
@@ -62,4 +60,4 @@ Typically, when your PR is ready to go, you get it reviewed before it's merged. 
 
 That's it! You've made a contribution to docs.microsoft.com content!
 
-- To learn more about Markdown and Markdown extensions, continue to the [Markdown reference](markdown-reference.md) article.
+* To learn more about Markdown and Markdown extensions, continue to the [Markdown reference](markdown-reference.md) article.
