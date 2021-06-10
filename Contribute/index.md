@@ -60,13 +60,7 @@ We use pull requests for all changes, even for contributors that have write acce
 
 The in-browser editing experience is best for minor or infrequent changes. If you make large contributions or use advanced Git features (such as branch management or advanced merge conflict resolution), you need to [fork the repo and work locally](how-to-write-workflows-major.md).
 
-> [!NOTE]
-> If enabled, you can edit an article in **any language** and, based on the type of edit, the following will happen:
->
-> 1. Any linguistic change that is approved will also help improve our Machine Translation engine.
-> 2. Any edit that significantly modifies the content of the article will be handled internally to submit a change to the same article in English so that it will get localized in all languages, if approved.
->
-> Your suggested improvements will not only positively affect articles in your own language, but in all available languages.
+[!INCLUDE[note-docsitelocfeedback](includes/note-docsitelocfeedback.md)]
 
 ## Review open PRs
 
