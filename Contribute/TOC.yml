@@ -40,6 +40,8 @@
           href: docs-authoring/dev-lang-completion.md
         - name: Image compression
           href: docs-authoring/image-compression.md
+        - name: Metadata explorer
+          href: docs-authoring/metadata-explorer.md
         - name: Metadata updates
           href: docs-authoring/metadata-updates.md
         - name: Reformat Markdown tables
