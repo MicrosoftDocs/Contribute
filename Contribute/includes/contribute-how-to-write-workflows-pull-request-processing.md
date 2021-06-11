@@ -10,8 +10,6 @@ Before your pull request can be merged into its destination branch, it might be 
 - **CLA**: If you are contributing to a public repository and are not a Microsoft employee, depending on the magnitude of the proposed changes, you might be asked to complete a short Contribution License Agreement (CLA) the first time you submit a pull request to that repository. After the CLA step is cleared, your pull request is processed.
 - **Labeling**: Labels are automatically applied to your pull request, to indicate the state of your pull request as it passes through the validation workflow. For instance, new pull requests might automatically receive the "do-not-merge" label, indicating that the pull request has not yet completed the validation, review, and sign-off steps.
 - **Validation and build**: Automated checks verify whether your changes pass validation tests. The validation tests might yield warnings or errors, requiring you to make changes to one or more files in your pull request before it can be merged. The validation test results are added as a comment in your pull request for your review, and they might be sent to you in e-mail.
-- **Staging**: The article pages affected by your changes are automatically deployed to a staging environment for review upon successful validation and build. Preview URLs appear in a PR comment.
-- **Auto-merge**: The pull request might be automatically merged, if it passes validation testing and certain criteria. In this case, you don't need to take any further action.
 
 ### Review and sign-off
 

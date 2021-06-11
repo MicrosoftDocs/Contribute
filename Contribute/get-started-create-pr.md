@@ -11,8 +11,6 @@ ms.date: 06/09/2021
 
 # Create a pull request
 
-You create a pull request (PR) after you've updated or added your content. This step is required for getting your changes published. You'll commit and push the changes from Visual Studio Code and continue to GitHub to complete the creation of the pull request.
-
 [!INCLUDE[Contribute create pull request](~/guide/help-content/includes/proc-contribute-create-pr.md)]
 
 ## Pull request processing
