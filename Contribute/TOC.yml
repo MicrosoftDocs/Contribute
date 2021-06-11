@@ -8,6 +8,8 @@
       href: get-started-setup-tools.md
     - name: 3. Set up a local Git repository
       href: get-started-setup-local.md
+    - name: Create a pull request
+      href: get-started-create-pr.md
     - name: Git and GitHub fundamentals
       href: git-github-fundamentals.md
     - name: Full workflow
