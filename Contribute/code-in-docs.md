@@ -702,6 +702,8 @@ The [Docs Authoring Pack](how-to-write-docs-auth-pack.md) includes a feature to 
 | Vala                           | `vala`                                                                         |
 | Verilog                        | `verilog`, `v`                                                                 |
 | Vim Script                     | `vim`                                                                          |
+| Visual Basic                   | `vb`                                                                           |
+| Visual Basic for Applications  | `vba`                                                                          |
 | X++                            | `xpp`                                                                          |
 | x86 Assembly                   | `x86asm`                                                                       |
 | XL                             | `xl`, `tao`                                                                    |

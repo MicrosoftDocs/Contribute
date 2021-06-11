@@ -40,7 +40,6 @@ Quick edits streamline the process to report and fix small errors and omissions 
 
    ![Location of the pencil icon](./media/index/edit-icon.png)
 
-
 3. Make changes in the web editor. Click the **Preview changes** tab to check the formatting of your change.
 
 4. Once you have made your changes, scroll to the bottom of the page. Enter a title and description for your changes and click **Propose file change** as shown in the following figure:
@@ -57,14 +56,16 @@ Quick edits streamline the process to report and fix small errors and omissions 
 
 The GitHub editing UI responds to your permissions on the repository. The preceding images are accurate for contributors that do not have write permissions to the target repository. GitHub automatically creates a fork of the target repository in your account. If you have write-access to the target repository, GitHub creates a new branch in the target repo. The branch name has the form **\<GitHubId\>-patch-n** using your GitHub ID, and a numeric identifier for the patch branch.
 
-We use pull requests for all changes, even for contributors that have write-access. Most repositories have the default branch protected so that updates must be submitted as pull requests.
+We use pull requests for all changes, even for contributors that have write access. Most repositories have the default branch protected so that updates must be submitted as pull requests.
 
 The in-browser editing experience is best for minor or infrequent changes. If you make large contributions or use advanced Git features (such as branch management or advanced merge conflict resolution), you need to [fork the repo and work locally](how-to-write-workflows-major.md).
 
 > [!NOTE]
 > If enabled, you can edit an article in **any language** and, based on the type of edit, the following will happen:
-> 1. any linguistic change that is approved, will also help improve our Machine Translation engine
-> 2. any edit that significantly modifies the content of the article will be handled internally to submit a change to the same article in English so that it will get localized in all languages if approved.
+>
+> 1. Any linguistic change that is approved will also help improve our Machine Translation engine.
+> 2. Any edit that significantly modifies the content of the article will be handled internally to submit a change to the same article in English so that it will get localized in all languages, if approved.
+>
 > Your suggested improvements will not only positively affect articles in your own language, but in all available languages.
 
 ## Review open PRs
