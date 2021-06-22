@@ -3,7 +3,7 @@ title: Microsoft Docs contributor guide overview
 description: The guide describes how you can contribute to the Microsoft documentation site docs.microsoft.com.
 author: Jim-Parker
 ms.author: jimpark
-ms.date: 01/13/2021
+ms.date: 06/22/2021
 ms.topic: contributor-guide
 ms.prod: non-product-specific
 ms.custom: external-contributor-guide
