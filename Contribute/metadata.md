@@ -42,3 +42,7 @@ In addition to the required metadata, there are many optional metadata keys you 
 | `ms.technology` | The technology to which the content belongs. Only use `ms.technology` if you're also using `ms.prod`. |`ms.technology` by itself isn't valid metadata. The author must associate it with a parent `ms.prod` value. This attribute is a way to drill down further in reporting for a given `ms.prod`. |
 | `ROBOTS` | `NOINDEX`, `UNFOLLOW` | Use ROBOTS in your metadata section to prevent the build and publishing process from showing content on search pages. When you want to use `ROBOTS` (and yes, it's all capitalized, even though other metadata tags aren't):<br>- Add `ROBOTS: NOINDEX` to your metadata section.<br>- `NOINDEX` causes the asset to not show up in search results.<br>- Use `NOFOLLOW` only when you archive an entire content set. |
 | `no-loc` | A list of words in the article that should never be translated (localized). | Use this metadata to prevent "overlocalization". |
+
+## See also
+
+- [Metadata explorer](docs-authoring/metadata-explorer.md)

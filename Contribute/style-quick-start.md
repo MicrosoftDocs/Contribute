@@ -50,3 +50,5 @@ Our technical articles are translated into several languages, and some are modif
 - For localization guidelines, information on language style and usage in technical publications, and information on market-specific data formats, download the [style guide](https://www.microsoft.com/Language/StyleGuides) in your language.
 - For Microsoft localized terminology, search for [product-specific approved terminology](https://www.microsoft.com/Language/Default.aspx) or download the [Microsoft Terminology Collection](https://www.microsoft.com/language/Terminology) in your language.
 - To learn more about localization, see "Global communications" in the [Microsoft Writing Style Guide](https://docs.microsoft.com/style-guide/global-communications).
+
+[!INCLUDE[note-docsitelocfeedback](includes/note-docsitelocfeedback.md)]
