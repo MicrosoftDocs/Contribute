@@ -28,7 +28,7 @@ The following table shows the required metadata keys. If you omit any of these, 
 | `ms.date` | A date in the format MM/DD/YYYY. | Displayed on the published page to indicate the last time the article was substantially edited or guaranteed fresh. The date is entered without time and is interpreted as 0:00 and in the UTC time zone. The date displayed to users is converted to their time zone. |
 | `ms.service` *or* <br/>`ms.prod` | The service or product identifier. Use one or the other, never both. This value is often set globally in the *docfx.json* file. | Used for issue triage and reporting. <br/><br/>Generally, use `ms.service` for cloud applications and use `ms.prod` for on-premises servers and applications.|
 | `ms.topic`  | Usually one of the following values:<br/><br/>`article`, `conceptual`, `contributor-guide`, `interactive-tutorial`, `overview`, `quickstart`, `reference`, `sample`, `tutorial`. | Identifies the type of content for reporting purposes. |
-| `title` | The page title. | It's the most important metadata for SEO. |
+| `title` | The page title. | This is the page title that's displayed on the browser tab. It's the most important metadata for SEO. |
 
 ## Optional metadata
 
