@@ -19,7 +19,7 @@ You can use any text editor to write Markdown, but we recommend [Visual Studio C
 
 ## Alerts (Note, Tip, Important, Caution, Warning)
 
-Alerts are a Markdown extension to create block quotes that render on docs.microsoft.com with colors and icons that indicate the significance of the content. The following alert types are supported:
+Alerts are a Markdown extension to create block quotes that render on Docs with colors and icons that indicate the significance of the content. The following alert types are supported:
 
 ```markdown
 > [!NOTE]
@@ -38,7 +38,7 @@ Alerts are a Markdown extension to create block quotes that render on docs.micro
 > Dangerous certain consequences of an action.
 ```
 
-These alerts look like this on docs.microsoft.com:
+These alerts look like this on Docs:
 
 > [!NOTE]
 > Information the user should notice even if skimming.
@@ -55,9 +55,9 @@ These alerts look like this on docs.microsoft.com:
 > [!WARNING]
 > Dangerous certain consequences of an action.
 
-### Angle brackets
+## Angle brackets
 
-If you use angle brackets in text in your file--for example, to denote a placeholder--you need to manually encode the angle brackets. Otherwise, Markdown thinks that they're intended to be an HTML tag.
+If you use angle brackets in text in your file (for example, to denote a placeholder), you need to manually encode the angle brackets. Otherwise, Markdown thinks that they're intended to be an HTML tag.
 
 For example, encode `<script name>` as `&lt;script name&gt;` or `\<script name>`.
 
@@ -105,6 +105,8 @@ To format text as both ***bold and italic***, enclose it in three asterisks:
 ```markdown
 This text is both ***bold and italic***.
 ```
+
+For guidance on when to use bold and italic text, see [text formatting guidelines](text-formatting-guidelines.md).
 
 ## Code snippets
 
@@ -164,6 +166,17 @@ This renders as follows:
       ![Doc.U.Ment](media/markdown-reference/document.png)
    :::column-end:::
 :::row-end:::
+
+## Comments
+
+Docs supports HTML comments if you must comment out sections of your article:
+
+```
+<!--- Here's my comment --->
+```
+
+> [!WARNING]
+> Do not put private or sensitive information in HTML comments. Docs carries HTML comments through to the published HTML that goes public. While HTML comments are invisible to the reader's eye, they are exposed in the HTML underneath.
 
 ## Headings
 
@@ -640,4 +653,4 @@ Every entry in the first column must be styled as bold (`**bold**`); otherwise t
 
 ### HTML Tables
 
-HTML tables aren't recommended for docs.microsoft.com. They aren't human readable in the source - which is a key principle of Markdown.
+HTML tables aren't recommended for Docs. They aren't human readable in the source - which is a key principle of Markdown.
