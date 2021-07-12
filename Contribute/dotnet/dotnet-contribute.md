@@ -155,7 +155,7 @@ Samples are full programs and libraries meant for download. They may be small in
 
 1. Your sample **must be part of a buildable project**. Where possible, the projects should build on all platforms supported by .NET Core. Exceptions to this are samples that demonstrate a platform specific feature or platform specific tool.
 
-2. Your sample should conform to the [corefx coding style](https://github.com/dotnet/corefx/blob/main/Documentation/coding-guidelines/coding-style.md) to maintain consistency.
+2. Your sample should conform to the [runtime coding style](https://github.com/dotnet/runtime/blob/main/docs/coding-guidelines/coding-style.md) to maintain consistency.
 
    Additionally, we prefer the use of `static` methods rather than instance methods when demonstrating something that doesn't require instantiating a new object.
 
@@ -254,6 +254,6 @@ Contributions for Machine Translated (MT) content are currently not accepted. In
 
 You must sign the [.NET Foundation Contribution License Agreement (CLA)](https://cla.dotnetfoundation.org) before your PR is merged. This is a one-time requirement for projects in the .NET Foundation. You can read more about [Contribution License Agreements (CLA)](http://en.wikipedia.org/wiki/Contributor_License_Agreement) on Wikipedia.
 
-The agreement: [net-foundation-contribution-license-agreement.pdf](https://github.com/dotnet/home/blob/main/guidance/net-foundation-contribution-license-agreement.pdf)
+The agreement: [.NET Foundation Contributor License Agreement (CLA)](https://github.com/dotnet/home/blob/master/guidance/net-foundation-contribution-license-agreement.pdf)
 
 You don't have to sign the agreement up-front. You can clone, fork, and submit your PR as usual. When your PR is created, it is classified by a CLA bot. If the change is small (for example, you fixed a typo), then the PR is labeled with `cla-not-required`. Otherwise, it's classified as `cla-required`. Once you signed the CLA, the current and all future pull requests are labeled as `cla-signed`.
