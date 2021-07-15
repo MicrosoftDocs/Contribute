@@ -198,7 +198,7 @@ that word appears in the code section title bar on the rendered page. Whenever p
 environment indicator in your inline code blocks.
 
 > [!NOTE]
-> If you copy and paste code from a Word document, make sure it has no "curly quotes," which aren't valid in code (for example, `“` and `’`). If it does, change them back to normal quotes (`'` and `"`). Alternatively, rely on the Docs Authoring Pack, [smart quotes replacement feature](docs-authoring/smart-quote-replacement.md).
+> If you copy and paste code from a Word document, make sure it has no "curly quotes," which aren't valid in code. If it does, change them back to normal quotes (`'` and `"`). Alternatively, rely on the Docs Authoring Pack, [smart quotes replacement feature](docs-authoring/smart-quote-replacement.md).
 
 ## In-repo snippet references
 
@@ -358,7 +358,7 @@ You can reference a cell in a Jupyter notebook as a code snippet. In order to re
 
 1. Name the cell by adding cell metadata in the Jupyter notebook.  
 
-    * In Jupyter, you can [edit cell metadata](https://jupyterbook.org/advanced/advanced.html#adding-tags-using-notebook-interfaces) by first enabling the the cell toolbar:  **View > Cell Toolbar > Edit Metadata**.
+    * In Jupyter, you can [edit cell metadata](https://jupyterbook.org/content/metadata.html#adding-tags-using-notebook-interfaces) by first enabling the the cell toolbar:  **View > Cell Toolbar > Edit Metadata**.
     * Once the cell toolbar is enabled, select **Edit Metadata** on the cell you wish to name.
     * Or you can edit metadata directly in the notebook's JSON structure.
 
