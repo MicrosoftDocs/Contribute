@@ -55,6 +55,8 @@ These alerts look like this on Docs:
 > [!WARNING]
 > Dangerous certain consequences of an action.
 
+Multiple notes should never be next to each other in an article.
+
 ## Angle brackets
 
 If you use angle brackets in text in your file (for example, to denote a placeholder), you need to manually encode the angle brackets. Otherwise, Markdown thinks that they're intended to be an HTML tag.
