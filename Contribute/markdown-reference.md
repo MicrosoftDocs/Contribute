@@ -19,7 +19,13 @@ You can use any text editor to write Markdown, but we recommend [Visual Studio C
 
 ## Alerts (Note, Tip, Important, Caution, Warning)
 
-Alerts are a Markdown extension to create block quotes that render on Docs with colors and icons that indicate the significance of the content. The following alert types are supported:
+Alerts are a Markdown extension to create block quotes that render on Docs with colors and icons that indicate the significance of the content. 
+
+Avoid notes, tips, and important boxes. Readers tend to skip over them. It's better to put that info directly into the article text.
+
+If you need to use alerts, limit them to one or two per article. Multiple notes should never be next to each other in an article.
+
+The following alert types are supported:
 
 ```markdown
 > [!NOTE]
