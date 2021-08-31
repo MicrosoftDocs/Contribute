@@ -3,7 +3,7 @@ title: Markdown reference for docs.microsoft.com
 description: Learn the Markdown features and syntax used in the Microsoft Docs platform.
 author: meganbradley
 ms.author: mbradley
-ms.date: 03/31/2020
+ms.date: 08/31/2021
 ms.topic: contributor-guide
 ms.prod: non-product-specific
 ms.custom: external-contributor-guide
@@ -307,6 +307,52 @@ Here are requirements and considerations for include files:
 - Place media files in a media folder that's specific to the include subdirectory--for instance, the `<repo>`*/includes/media* folder. The *media* directory should not contain any images in its root. If the include does not have images, a corresponding *media* directory is not required.
 - As with regular articles, don't share media between include files. Use a separate file with a unique name for each include and article. Store the media file in the media folder that's associated with the include.
 - Don't use an include as the only content of an article.  Includes are meant to be supplemental to the content in the rest of the article.
+
+## Indentation
+
+In Markdown, spaces before the first character of a line determine the line's alignment relative to the preceding lines. Indentation especially influences numbered and bulleted lists to render multiple levels of nesting in a hierarchical or outline format.
+
+To indent text to align with a preceding paragraph or an item in a numbered or bulleted list, use spaces.
+
+The following two examples show how indented paragraphs render based on their relationship to other paragraphs.
+
+```
+1. This is a numbered list example (one space after the period before the letter T).
+   This sentence is indented three spaces.
+   This code block is indented three spaces.
+   
+- This is a bulleted list example (one space after the bullet before the letter T).
+  This sentence is indented two spaces.
+  > [!TIP]
+  > This tip is indented two spaces.
+  - This is a second-level bullet (indented two spaces, with one space after the bullet before the letter T).
+    This sentence is indented four spaces.
+    > This quote block is indented four spaces.
+```
+
+The example above renders as:
+
+1. This is a numbered list example (one space after the period before the letter T).
+
+   This sentence is indented three spaces.
+
+   ```
+   This code block is indented three spaces.
+   ```
+
+- This is a bulleted list example (one space after the bullet before the letter T).
+
+  This sentence is indented two spaces.
+
+  > [!TIP]
+  > This tip is indented two spaces.
+  - This is a second-level bullet (indented two spaces, with one space after the bullet before the letter T).
+
+    This sentence is indented four spaces.
+
+    > This quote block is indented four spaces.
+
+For a similar example using images, see [Indent images in Markdown](/contribute/contribute-how-to-create-screenshot?branch=master#indent-images-in-markdown).
 
 ## Links
 
