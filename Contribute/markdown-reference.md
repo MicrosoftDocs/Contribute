@@ -352,8 +352,6 @@ The example above renders as:
 
     > This quote block is indented four spaces.
 
-For a similar example using images, see [Indent images in Markdown](/contribute/contribute-how-to-create-screenshot?branch=master#indent-images-in-markdown).
-
 ## Links
 
 For information on syntax for links, see [Use links in documentation](how-to-write-links.md).
