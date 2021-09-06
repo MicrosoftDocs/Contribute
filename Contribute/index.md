@@ -9,7 +9,7 @@ ms.prod: non-product-specific
 ms.custom: external-contributor-guide
 ---
 
-# Microsoft Docs contributor guide overview
+# MICROSOFT DOCS contributor guide overview
 
 Welcome to the [docs.microsoft.com](https://docs.microsoft.com) (Docs) Contributor Guide!
 
