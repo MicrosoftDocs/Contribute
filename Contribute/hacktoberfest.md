@@ -19,6 +19,8 @@ To discover if a docs repo is participating in Hacktoberfest, you will see the *
 
 :::image type="content" source="media/hacktoberfest/github-topic.png" lightbox="media/hacktoberfest/github-topic.png" alt-text="GitHub .NET docs repository with hacktoberfest topic.":::
 
+To filter all Microsoft docs and .NET repos that have the **hacktoberfest** topic see, [GitHub Topics: Hacktoberfest](https://github.com/topics/hacktoberfest?q=org%3AMicrosoftDocs+org%3Adotnet).
+
 Alternatively, a repository may choose to use the `Hacktoberfest` label instead. This is convenient for filtering issues with &mdash; for more information see, [Filtering issues and pull requests by labels](https://docs.github.com/github/administering-a-repository/finding-information-in-a-repository/filtering-issues-and-pull-requests-by-labels).
 
 ## Contribute
