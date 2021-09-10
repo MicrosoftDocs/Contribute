@@ -3,7 +3,7 @@ title: Hacktoberfest and Microsoft docs
 description: Learn how to discover which docs repositories participate in Hacktoberfest, how to contribute, and what you can expect as a contributor.
 author: IEvangelist
 ms.author: dapine
-ms.date: 09/09/2021
+ms.date: 09/10/2021
 ms.topic: contributor-guide
 ms.prod: non-product-specific
 ms.custom: external-contributor-guide
@@ -11,7 +11,7 @@ ms.custom: external-contributor-guide
 
 # Hacktoberfest and Microsoft docs
 
-Hacktoberfest is an annual world-wide event that drives open source contributions through the month of October. During the month, open source developers are encouraged to contribute to repositories through pull requests (PRs). There are many Microsoft docs open source repositories on GitHub, all of which contribute to the <docs.microsoft.com> content. Some of the repositories actively participate in the Hacktoberfest event. In this article you'll learn how to discover which repos are accepting pull requests, and what you can expect as a contributor.
+Hacktoberfest is an annual world-wide event that drives open source contributions through the month of October. During the month, open source developers are encouraged to contribute to repositories through pull requests (PRs). There are many Microsoft docs open source repositories on GitHub, all of which contribute to the [docs.microsoft.com](https://docs.microsoft.com) content. Some of the repositories actively participate in the Hacktoberfest event. In this article you'll learn how to discover which repos are accepting pull requests, and what you can expect as a contributor.
 
 ## Discoverability
 
