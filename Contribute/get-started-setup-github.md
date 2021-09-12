@@ -21,4 +21,4 @@ If you don't already have a GitHub account, [create one](https://github.com/join
 
 ## Next step
 
-* Continue to the [Tool installations](get-started-setup-tools.md) article to install Git Bash, a Markdown editor, and more.
+* Continue to the [Tool installations](get-started-setup-tools.md) article to install Git Bash, a Markdown editor and more.
