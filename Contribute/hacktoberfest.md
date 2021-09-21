@@ -37,7 +37,7 @@ In addition to the contributing markdown file, if a repository has a *CODE_OF_CO
 
 ### Choose an issue
 
-More often than not, finding an issue to work on in a participating repository can be achieved by filtering to issues that are labeled with either `up-for-grabs` or `help-wanted` GitHub labels. While other issues can be addressed, it's easier to focus on issues that have a well-defines scope and are self-contained. In addition to the docs repos, you can use the following sites for beginners:
+To find an issue to work on in a participating repository, filter the issues with either `up-for-grabs` or `help-wanted` GitHub labels. While other issues can be addressed, it's easier to focus on issues that have a well-defined scope and are self-contained. In addition to the docs repos, you can use the following sites for beginners:
 
 - [Awesome for beginners](https://github.com/mungell/awesome-for-beginners)
 - [Up for grabs](https://up-for-grabs.net)
