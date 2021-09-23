@@ -139,10 +139,6 @@ Here's a short video that demonstrates the following features of the Docs Author
 
 > [!VIDEO https://www.youtube.com/embed/6zfbBRdjlw8]
 
-## Contribution expectations
-
-The Docs Authoring Pack extension is open source and available for contributions to anyone with a GitHub account. There is a dedicated internal Microsoft team that actively works on this project. This team monitors issues and pull requests. The service level agreement (SLA) and expectation of getting a pull request reviewed is currently one week. The team is undergoing automation efforts to improve this turn around time.
-
 ## Next steps
 
 Explore the various features available in the Docs Authoring Pack, Visual Studio Code extension.

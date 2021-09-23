@@ -52,7 +52,7 @@
           href: docs-authoring/sort-redirects.md
         - name: Sort selection
           href: docs-authoring/sort-selection.md
-        - name: Jupyter notebooks 
+        - name: Jupyter notebooks
           href: docs-authoring/jupyter-notebooks.md
 - name: Documentation set-specific guidance
   items:
@@ -74,5 +74,7 @@
           href: dotnet/net-core-5-naming.md
     - name: PowerShell-Docs
       href: powershell-overview.md
+- name: Hacktoberfest
+  href: hacktoberfest.md
 - name: Additional resources
   href: additional-resources.md
