@@ -59,7 +59,7 @@ To have a successful contribution to an open source Docs repository, [create a m
 
 Finally, one PR to fix a typo is fine, but five PRs to remove a stray whitespace are not.
 
-For more information, see [Hacktoberfest: Quality standards](https://hacktoberfest.digitalocean.com/resources/quality-standards).
+For more information, see [Hacktoberfest: Quality standards](https://hacktoberfest.digitalocean.com/resources/qualitystandards).
 
 ### Open a PR
 
