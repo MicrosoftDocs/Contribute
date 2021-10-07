@@ -64,7 +64,7 @@ Now that you have a copy ("clone") of the Microsoft repository and you've create
 
 Before sending your changes to the author, you must first save them to your Github repository.  Again, while all tools are different, if you're using the Git Bash command line, this can be done in just a few easy steps.
 
-First, from within the repository, you need to _stage_ all of your changes to be commited.  This can be done by executing:
+First, from within the repository, you need to _stage_ all of your changes in preparation for the next commit.  This can be done by executing:
 
 ````
 git add --all
