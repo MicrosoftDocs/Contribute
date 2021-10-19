@@ -6,7 +6,7 @@ ms.prod: non-product-specific
 ms.custom: external-contributor-guide
 author: jasonwhowell
 ms.author: jasonh
-ms.date: 05/25/2021
+ms.date: 10/18/2021
 ---
 # Install content authoring tools
 
@@ -60,7 +60,14 @@ In the next article, you will [Set up a local Git repository](get-started-setup-
 
 ### Install Docs Authoring Pack
 
-[!INCLUDE[Install Docs Authoring Pack](~/guide/help-content/includes/proc-contribute-install-docs-authoring-pack.md)]
+> [!IMPORTANT]
+> The Docs Authoring Pack for Visual Studio Code includes basic Markdown authoring assistance, page previews, support for Markdown templates, markdownlint, and Code Spell Checker. These features ease and streamline the contributions process. As such, we consider the Docs Authoring Pack a **required** extension for contributors.
+
+To install the Docs Authoring Pack, choose **Install** from the [Docs Authoring Pack page](https://marketplace.visualstudio.com/items?itemName=docsmsft.docs-authoring-pack) in the VS Code Marketplace.
+
+To use the Docs Authoring Pack functionality, press Alt+M in Visual Studio Code. To configure a toolbar to show the functions available, edit the Visual Studio Code settings (Control+comma), and add user setting `"markdown.showToolbar": true`.
+
+For more information, see [Docs Authoring Pack for Visual Studio Code](how-to-write-docs-auth-pack.md).
 
 ## Understand Markdown editors
 
