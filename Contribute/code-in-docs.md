@@ -3,7 +3,7 @@ title: How to include code in docs
 description: Learn how to include code elements and snippets in articles to be published on docs.microsoft.com.
 author: tdykstra
 ms.author: tdykstra
-ms.date: 03/03/2020
+ms.date: 11/09/2021
 ms.prod: non-product-specific
 ms.topic: contributor-guide
 ms.custom: external-contributor-guide
@@ -65,7 +65,7 @@ A "code element" is a programming language keyword, class name, property name, a
 not always obvious what qualifies as code. For example, NuGet package names should be treated as
 code. When in doubt, see [Text formatting guidelines](text-formatting-guidelines.md).
 
-### Inline code style
+## Inline code style
 
 To include a code element in article text, surround it with backticks (\`) to indicate code style.
 Inline code style shouldn't use the triple-backtick format.
@@ -77,24 +77,34 @@ Inline code style shouldn't use the triple-backtick format.
 When an article is localized (translated into other languages), text styled as code is left
 untranslated. If you want to prevent localization without using code style, see [Non-localized strings](markdown-reference.md#non-localized-strings).
 
-### Bold style
+## Bold style
 
 Some older style guides specify bold for inline code. Bold is an option when code style is so
 obtrusive as to compromise readability. For example, a Markdown table with mostly code elements
 might look too busy with code styling everywhere. If you choose to use bold style, use [non-localized strings syntax](markdown-reference.md#non-localized-strings) to make sure that code is not localized.
 
-### Links
+## Links
 
 A link to reference documentation may be more helpful than code format in some contexts. If you use a link, don't apply code format to the link text. Styling a link as code can obscure the fact that the text is a link.
 
 If you use a link and refer to the same element later in the same context, make the subsequent instances code format rather than links.
 
-### Placeholders
+## Placeholders
 
 If you want the user to replace a section of displayed code with their own values, use placeholder
-text marked off by angle brackets or curly braces. For example:
-`az group delete -n <ResourceGroupName>`. Explain that the brackets or braces must be removed when
-substituting real values.
+text marked off by angle brackets. For example:
+
+> `az group delete -n <ResourceGroupName>`  
+
+You may note that the brackets must be removed when substituting real values. The Microsoft Writing Style Guide calls for italics, which you may format within angle bracketed inline code:
+
+> *`<ResourceGroupName>`* is the resource group where...
+
+Curly braces { } are discouraged for use as syntactical placeholders. They may be confused with the same notation used in replaceable text, format strings, string interpolation, text templates, and similar programming constructs.
+
+Placeholder names can be separated by hyphens ("kebab case"), with underscores, or not separated at all (Pascal case). Kebab case may generate syntax errors and underscores may conflict with underlining. All-caps may conflict with named constants in many languages, though it may also draw attention to the placeholder name.
+
+> *`<Resource-Group-Name>`* or *`<ResourceGroupName>`*
 
 ## Code blocks
 
@@ -106,9 +116,11 @@ The syntax for including code in a doc depends on where the code is located:
 
 Following are guidelines that apply to all three types of code blocks:
 
-* [Automate code validation.](#code-validation)
-* [Highlight key lines of code.](#highlighting)
-* [Avoid horizontal scroll bars.](#horizontal-scroll-bars)
+* [Screenshots](#screenshots)
+* [Automate code validation](#code-validation)
+* [Highlight key lines of code](#highlighting)
+* [Avoid horizontal scroll bars](#horizontal-scroll-bars)
+* [Clearly identify bad code](#horizontal-scroll-bars)
 
 ### Screenshots
 
@@ -154,6 +166,25 @@ longer than 85 characters. But keep in mind that the presence or absence of a sc
 only criterion of readability. If breaking a line before 85 hurts readability or copy-paste convenience, feel
 free to go over 85.
 
+### Clearly identify bad code
+
+In some scenarios, it's helpful to point out coding patterns that should be avoided, for example:
+
+* Code that will cause a compiler error if attempted.
+* Code that will compile correctly but is not recommended.
+
+For these scenarios:
+
+* Explain the error both in code comments and article text.
+
+  Readers often skip article text and look only at code, so it's not enough to explain the error only in article text. It's also not enough to explain the error only in code comments, because code comments aren't localized.
+
+* Consider commenting out the code if it would cause a compiler error.
+
+  Commented-out code won't disrupt the continuous integration (CI) system if the article's repo has one now or implements one in the future.
+
+For an example of how to present code that isn't recommended, see [Rune usage example: changing letter case](https://docs.microsoft.com/dotnet/standard/base-types/character-encoding-introduction#rune-usage-example-changing-letter-case). In this example, the advice to avoid it is even built into the code itself, as the C# method name is `ConvertToUpperBadExample`.
+
 ## Inline code blocks
 
 Use inline code blocks only when it's impractical to display code by reference to a code file. Inline code is generally more difficult to test and keep up to date compared to a code file that is part of a complete project.  And inline code may omit context that could help the developer to understand and use the code. These considerations apply mainly to programming languages. Inline code blocks can also be used for outputs and inputs (such as JSON), query languages (such as SQL), and scripting languages (such as PowerShell).
@@ -189,6 +220,10 @@ Rendered:
     }
 }
 ```
+
+> [!TIP]
+> [GitHub Flavored Markdown](https://github.github.com/gfm/#fenced-code-blocks) supports delimiting code blocks with tildes (~) as well as with backticks (`).
+> The symbol used to open and close the code block must be consistent within the same code block.
 
 For information about the values you can use as language indicators, see
 [Language names and aliases](http://highlightjs.readthedocs.io/en/latest/css-classes-reference.html#language-names-and-aliases).
@@ -283,6 +318,21 @@ has snippet tags in comments in the C# code:
 // </snippet_Create>
 // code excluded from the snippet
 ```
+
+Named code snippets can be nested, as shown in the following example:
+
+```cs
+// <Method>
+public static void SomeMethod()
+{
+    // <Line>
+    // Single line of code.
+    // </Line>
+}
+// </Method>
+```
+
+When the `Method` code snippet is rendered, the `Line` tags aren't included in the rendered output.
 
 Whenever you can, refer to a named section rather than specifying line numbers. Line number
 references are brittle because code files inevitably change in ways that make line numbers change.
@@ -432,6 +482,22 @@ renders as follows:
 New-AzResourceGroup -Name myResourceGroup -Location westeurope
 ```
 
+And
+
+```md
+    ```csharp-interactive
+    var aFriend = "Maria";
+    Console.WriteLine($"Hello {aFriend}");
+    ```
+```
+
+renders as:
+
+```csharp-interactive
+    var aFriend = "Maria";
+    Console.WriteLine($"Hello {aFriend}");
+```
+
 To turn on this feature for a particular code block, use a special language identifier. The
 available options are:
 
@@ -445,25 +511,26 @@ Azure account.
 
 ### Code snippets included by reference
 
-You can enable interactive mode for code snippets included by reference. Here are examples:
-
-```markdown
-:::code source="PowerShell.ps1" interactive="cloudshell-powershell":::
-```
-
-```markdown
-:::code source="Bash.sh" interactive="cloudshell-bash":::
-```
-
+You can enable interactive mode for code snippets included by reference. 
 To turn on this feature for a particular code block, use the `interactive` attribute. The
 available attribute values are:
 
 * `cloudshell-powershell` - Enables the Azure PowerShell Cloud Shell, as in the preceding
   example
 * `cloudshell-bash` - Enables the Azure Cloud Shell
-* `try-dotnet` - Enables .NET Interactive
-* `try-dotnet-class` - Enables .NET Interactive with class scaffolding
-* `try-dotnet-method` - Enables .NET Interactive with method scaffolding
+* `try-dotnet` - Enables Try .NET
+* `try-dotnet-class` - Enables Try .NET with class scaffolding
+* `try-dotnet-method` - Enables Try .NET with method scaffolding
+
+Here are some examples:
+
+```md
+:::code source="PowerShell.ps1" interactive="cloudshell-powershell":::
+```
+
+```md
+:::code source="Bash.sh" interactive="cloudshell-bash":::
+```
 
 For the Azure Cloud Shell and PowerShell Cloud Shell, users can only run commands against their own
 Azure account.
@@ -493,14 +560,12 @@ Syntax:
   * Relative path in the file system that indicates the code snippet file to reference.
 
 * `<attribute>` and `<attribute-value>` (*optional*)
-
-  Used together to specify how the code should be retrieved from the file and how it should be displayed:
-
-  * `range`: `1,3-5` A range of lines. This example includes lines 1, 3, 4, and 5.
-  * `id`: `snippet_Create` The ID of the snippet that needs to be inserted from the code file. This value cannot co-exist with range.
-  * `highlight`: `2-4,6` Range and/or numbers of lines that need to be highlighted in the generated code snippet. The numbering is relative to the lines displayed (as specified by range or id), not the file.
-  * `interactive`: `cloudshell-powershell`, `cloudshell-bash`, `try-dotnet`, `try-dotnet-class`, `try-dotnet-method` String value determines what kinds of interactivity are enabled.
-  * For details about tag name representation in code snippet source files by language, see the [DocFX guidelines](https://dotnet.github.io/docfx/spec/docfx_flavored_markdown.html#tag-name-representation-in-code-snippet-source-file).
+  * Used together to specify how the code should be retrieved from the file and how it should be displayed:
+    * `range`: `1,3-5` A range of lines. This example includes lines 1, 3, 4, and 5.
+    * `id`: `Create` The ID of the snippet that needs to be inserted from the code file. This value cannot coexist with range.
+    * `highlight`: `2-4,6` Range and/or numbers of lines that need to be highlighted in the generated code snippet. The numbering is relative to the lines displayed (as specified by range or id), not the file.
+    * `interactive`: `cloudshell-powershell`, `cloudshell-bash`, `try-dotnet`, `try-dotnet-class`, `try-dotnet-method` String value determines what kinds of interactivity are enabled.
+    * For details about tag name representation in code snippet source files by language, see the [DocFX guidelines](https://dotnet.github.io/docfx/spec/docfx_flavored_markdown.html#tag-name-representation-in-code-snippet-source-file).
 
 ## Supported languages
 
