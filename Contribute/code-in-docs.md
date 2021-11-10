@@ -3,7 +3,7 @@ title: How to include code in docs
 description: Learn how to include code elements and snippets in articles to be published on docs.microsoft.com.
 author: tdykstra
 ms.author: tdykstra
-ms.date: 03/03/2020
+ms.date: 11/09/2021
 ms.prod: non-product-specific
 ms.topic: contributor-guide
 ms.custom: external-contributor-guide
