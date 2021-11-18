@@ -6,7 +6,6 @@ ms.prod: non-product-specific
 ms.custom: external-contributor-guide
 ms.date: 02/10/2021
 ---
-
 # Labels, projects, and milestones roadmap
 
 The .NET docs team makes extensive use of [GitHub labels](https://github.com/dotnet/docs/labels) to organize our work. By filtering on combinations of labels, we can quickly focus on sections of interest on the [.NET docs website](https://docs.microsoft.com/dotnet). For example, we could filter to all of the open issues on the architecture guides with a query to [is:issue is:open label:"dotnet-architecture/prod"](https://github.com/dotnet/docs/labels/dotnet-architecture%2Fprod).
@@ -14,6 +13,8 @@ The .NET docs team makes extensive use of [GitHub labels](https://github.com/dot
 We use [GitHub projects](https://github.com/dotnet/docs/projects) to organize sprints and other goal-oriented epics. We also use [GitHub milestones](https://github.com/dotnet/docs/milestones) to track work. It is best to think of projects for planning (issues), and milestones for work (pull requests).
 
 This roadmap explains how we use these organizational tools and has links to handy filters we use to find areas of interest.
+
+Lorem ipsum.
 
 ## Labels
 
@@ -40,7 +41,7 @@ Each .NET Guide is noted with the [`/prod`](https://github.com/dotnet/docs/label
 - [API Reference - `dotnet-api/prod`](https://github.com/dotnet/docs/labels/dotnet-api%2Fprod)
 - [C# Guide - `dotnet-csharp/prod`](https://github.com/dotnet/docs/labels/dotnet-csharp%2Fprod)
 - [F# Guide- `dotnet-fsharp/prod`](https://github.com/dotnet/docs/labels/dotnet-fsharp%2Fprod)
-- [Visual Basic Guide - `dotnet-visualbasic/prod](https://github.com/dotnet/docs/labels/dotnet-visualbasic%2Fprod)
+- [Visual Basic Guide - \`dotnet-visualbasic/prod](https://github.com/dotnet/docs/labels/dotnet-visualbasic%2Fprod)
 - [ML.NET Guide - `dotnet-ml/prod`](https://github.com/dotnet/docs/labels/dotnet-ml%2Fprod)
 - [Azure .NET SDK - `azure-dotnet/prod`](https://github.com/dotnet/docs/labels/azure-dotnet%2Fprod)
 - [.NET for Apache Spark Guide - `dotnet-spark/prod`](https://github.com/dotnet/docs/labels/dotnet-spark%2Fprod)
@@ -65,15 +66,15 @@ Priority labels are all `Pri` followed by a single digit. Lower numbers are high
 - Pri0 - Critical priority
 
   Security issue or legally required for compliance. We drop everything else to fix.
-  
+
 - Pri1 - High priority
 
   Essential for common scenarios. Or highly visible error on high page view article. We do these before P2 or P3 work.
-  
+
 - Pri2 - Medium priority
 
   Helpful for common scenarios but not blocking.  We do these if quick and easy, or fit them in while addressing a P1 issue in the same article.
-  
+
 - Pri3 - Low priority
 
   Helpful for edge cases, trivial corrections for common scenarios, low page view article, or deprecated technology. Not worth our time but up for grabs for community contribution. A P3 issue may be closed if not addressed after two months.
@@ -91,8 +92,8 @@ We use projects in two ways:
 - `Month YYYY` project types: These are Kanban boards for each month's working plan.
   - Examples, [July 2020](https://github.com/dotnet/docs/projects/103), [August 2020](https://github.com/dotnet/docs/projects/117), and so on.
 - Long-running epics: These are used to organize tasks toward a goal when the work will occur over several months.
-  - Examples: [.NET 5 Wave - Reorganization](https://github.com/dotnet/docs/projects/105), [.NET Languages (.NET 5 wave)
-](https://github.com/dotnet/docs/projects/106), and so on.
+  - Examples: [.NET 5 Wave - Reorganization](https://github.com/dotnet/docs/projects/105), [.NET Languages (.NET 5 wave)](https://github.com/dotnet/docs/projects/106)
+    , and so on.
 
 ## Milestones
 
