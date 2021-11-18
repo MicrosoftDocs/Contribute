@@ -14,6 +14,8 @@ ms.custom: external-contributor-guide
 
 Hacktoberfest is an annual worldwide event held during the month of October. The event encourages open source developers to contribute to repositories through pull requests (PR). GitHub hosts many Microsoft Docs open source repositories, all of which contribute to the [docs.microsoft.com](https://docs.microsoft.com) content. Some of the repositories actively participate in the Hacktoberfest event. In this article, you'll learn how to discover which repos are accepting PRs, and what you can expect as a contributor.
 
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque sagittis sagittis mi, id pharetra risus tempor vel. Quisque faucibus nibh enim, eget varius ligula euismod vel. Sed ornare finibus urna. Phasellus in gravida quam, eleifend gravida ante. Duis luctus ligula id dui sollicitudin scelerisque. Duis dapibus mauris et lacus dignissim, id bibendum elit dapibus. Maecenas id mattis turpis. Donec aliquam sed massa in posuere.
+
 ## Find a repo
 
 To discover if a Docs repo is participating in Hacktoberfest, you'll see the **hacktoberfest** topic on the project.
