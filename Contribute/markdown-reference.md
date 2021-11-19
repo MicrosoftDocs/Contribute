@@ -3,7 +3,7 @@ title: Markdown reference for docs.microsoft.com
 description: Learn the Markdown features and syntax used in the Microsoft Docs platform.
 author: meganbradley
 ms.author: mbradley
-ms.date: 08/31/2021
+ms.date: 11/09/2021
 ms.topic: contributor-guide
 ms.prod: non-product-specific
 ms.custom: external-contributor-guide
@@ -80,6 +80,9 @@ Here are the encodings for the "smart" versions of these punctuation marks:
 - Right (closing) single quotation mark or apostrophe: `&#8217;`
 - Left (opening) single quotation mark (rarely used): `&#8216;`
 
+> [!TIP]
+> To avoid "smart" characters in your Markdown files, rely on the Docs Authoring Pack's smart quote replacement feature. For more information, see [smart quote replacement](docs-authoring/smart-quote-replacement.md).
+
 ## Blockquotes
 
 Blockquotes are created using the `>` character:
@@ -121,6 +124,8 @@ Docs Markdown supports the placement of code snippets both inline in a sentence 
 ## Columns
 
 The **columns** Markdown extension gives Docs authors the ability to add column-based content layouts that are more flexible and powerful than basic Markdown tables, which are only suited for true tabular data. You can add up to four columns, and use the optional `span` attribute to merge two or more columns.
+
+While the **columns** extension still works, we no longer recommend it for creating custom layouts. We've found that many custom column layouts have accessibility issues or otherwise violate Docs style guidelines. Don't create custom layouts. Use standard Docs features.
 
 The syntax for columns is as follows:
 
@@ -216,6 +221,18 @@ The following file types are supported by default for images:
 - .jpg
 - .png
 
+To support other image types, such as .gif, you must add them as resources in *docfx.json*:
+
+```md
+"resource": [
+  {
+    "files" : [
+      "**/*.png",
+      "**/*.jpg,
+      "**/*.gif"
+    ],
+```
+
 ### Standard conceptual images (default Markdown)
 
 The basic Markdown syntax to embed an image is:
@@ -265,9 +282,27 @@ You can also use this extension to add an image with a long description that is 
 
 If `type="complex"`, `source`, `alt-text`, a long description, and the `:::image-end:::` tag are all required.
 
+When your changes are in preview or published, you can check whether the long description exists by right-clicking on the image and selecting **Inspect** (when using Microsoft Edge browser, although other browsers have similar features). This action brings you to the image source in the HTML code, underneath which you'll find a *visually-hidden* class. Expand the dropdown on this class, and you'll find your long description:
+
+:::image type="content" source="media/markdown-reference/long-description.png" alt-text="Screenshot of the HTML for an image and its long description.":::
+
+### Automatic borders
+
+The `:::image:::` extension also supports the `border` property, which  automatically adds a 1-pixel gray border around your image. The `border` property is `true` by default for `content` and `complex` images, so you'll get the border automatically unless you explicitly add the property with a value of `false`. The `border` property is `false` by default for `icon` images.
+
+The `border` property is the recommended way to add a border. Don't create your own borders manually.
+
+<!-- This section can be allowed publicly, but there's no external guide article for how to use lightboxes, so we can't add it until we have an external-guide equivalent.
+
+### Creating an expandable image
+
+The optional `lightbox` property allows you to create an expanded image, as described in [Create an expandable screenshot (lightbox)](contribute-how-to-use-lightboxes.md). The value of `lightbox` is the path to the expanded image. 
+
+-->
+
 ### Specifying loc-scope
 
-Sometimes the localization scope for an image is different from that of the article or module that contains it. This can cause a bad global experience: for example, if a screenshot of a product is accidentally localized into a language the product isn't available in. To prevent this, you can specify the optional `loc-scope` attribute in images of types `content` and `complex`.
+Sometimes the localization scope for an image is different from that of the article or module that contains it. This can cause a bad global experience: for example, if a screenshot of a product is accidentally localized into a language the product isn't available in. To prevent this, you can specify the optional `loc-scope` attribute in images of types `content` and `complex`, and is required for screenshots that show a product with a different localization scope than the article or module that contains it.
 
 ### Icons
 
@@ -277,7 +312,15 @@ The image extension supports icons, which are decorative images and should not h
 :::image type="icon" source="<folderPath>":::
 ```
 
-If `type="icon"`, only `source` should be specified.
+If `type="icon"`, `source` should be specified but `alt-text` shouldn't be.
+
+The `border` property  is `false` by default for icons. If your decorative image requires the standard image border, explicitly add `border="true"` to the `:::image:::` tag.
+
+<!-- No lightbox article in external guide, so commenting this out for now. 
+
+The `lightbox` property works the same for `icon` images as for standard `content` images. 
+
+-->
 
 ## Included Markdown files
 
@@ -306,11 +349,11 @@ Where `<title>` is the name of the file and `<filepath>` is the relative path to
 
 Here are requirements and considerations for include files:
 
-- Use block includes for significant amounts of content--a paragraph or two, a shared procedure, or a shared section. Do not use them for anything smaller than a sentence.
-- Includes won't be rendered in the GitHub rendered view of your article, because they rely on Docs extensions. They'll be rendered only after publication.
-- Ensure that all the text in an include file is written in complete sentences or phrases that do not depend on preceding text or following text in the article that references the include. Ignoring this guidance creates an untranslatable string in the article.
+- Use block includes for significant amounts of content--a paragraph or two, a shared procedure, or a shared section. Don't use them for anything smaller than a sentence.
+- Includes won't be rendered in the GitHub-rendered view of your article because they rely on Docs extensions. They'll be rendered only after publication.
+- Write all the text in an include file in complete sentences or phrases that don't depend on preceding or following text in the article that references the include. Ignoring this guidance creates an untranslatable string in the article.
 - Don't embed include files within other include files.
-- Place media files in a media folder that's specific to the include subdirectory--for instance, the `<repo>`*/includes/media* folder. The *media* directory should not contain any images in its root. If the include does not have images, a corresponding *media* directory is not required.
+- `/Includes` folders are excluded from build. Therefore, images stored in `/includes` folders and referenced in included files won't be displayed in published content. Store images in a `/media` folder outside the `/includes` folder.
 - As with regular articles, don't share media between include files. Use a separate file with a unique name for each include and article. Store the media file in the media folder that's associated with the include.
 - Don't use an include as the only content of an article.  Includes are meant to be supplemental to the content in the rest of the article.
 
@@ -688,6 +731,13 @@ It will be rendered like this:
 
 You might want line breaks to be automatically inserted within words only in the second column of a table. To limit the breaks to the second column, apply the class `mx-tdCol2BreakAll` by using the `div` wrapper syntax as shown earlier.
 
+### Inconsistent column widths between tables
+
+You may notice that the column widths of the tables in your articles look odd or inconsistent. This behavior occurs because the length of text within the cells determines the layout of the table. Unfortunately, there's no way to control how the tables render. This is a limitation of Markdown. Even though it would look nicer to have the width of table columns be consistent, this would have some disadvantages too:
+
+- Interlacing HTML code with Markdown makes topics more complicated and discourages community contributions.
+- A table that you make look good for a specific screen size may end up looking unreadable at different screen sizes as it preempts responsive rendering.
+
 ### Data matrix tables
 
 A data matrix table has both a header and a weighted first column, creating a matrix with an empty cell in the top left. Docs has custom Markdown for data matrix tables:
@@ -699,7 +749,17 @@ A data matrix table has both a header and a weighted first column, creating a ma
 |**First column B**|Cell 1B  |Cell 2B |
 ```
 
+The example renders as:
+
+|                  |Header 1 |Header 2|
+|------------------|---------|--------|
+|**First column A**|Cell 1A  |Cell 2A |
+|**First column B**|Cell 1B  |Cell 2B |
+
 Every entry in the first column must be styled as bold (`**bold**`); otherwise the tables won't be accessible for screen readers or valid for Docs.
+
+> [!TIP]
+> The Docs Authoring Pack for VS Code includes a function to convert a regular Markdown table into a data matrix table. Just select the table, right-click, and select **Convert to data matrix table**.
 
 ### HTML Tables
 
