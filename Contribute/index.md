@@ -34,7 +34,7 @@ Quick edits streamline the process to report and fix small errors and omissions 
 
    ![Location of the Edit link](./media/index/edit-article.png)
 
-   If the **Edit** button is not present, it means the content is generated, e.g. from inline documentation in code, and must be edited there.
+   If the **Edit** button is not present, it means the content is not open to public contributions.  Some pages are generated, e.g. from inline documentation in code, and must be edited in the project they belong to.
 
 2. Select the pencil icon to edit the article. If the pencil icon is grayed out, you need to either log in to your GitHub account or create a new account. 
 
