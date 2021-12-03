@@ -30,9 +30,6 @@ To contribute to Microsoft's documentation site, you can make and edit Markdown 
 
 ![GitHub Triangle](./media/git-and-github-initial-setup.png)
 
-If you're new to GitHub, watch the following video for a conceptual overview of the forking and cloning process:
-
->[!VIDEO https://channel9.msdn.com/Blogs/CoolMoose/Git-Repository-Setup/player]
 
 ## Determine the repository
 
