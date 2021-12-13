@@ -30,7 +30,7 @@ The user experience on [docs.microsoft.com](https://docs.microsoft.com) integrat
 
 Quick edits streamline the process to report and fix small errors and omissions in documents. Despite all efforts, small grammar and spelling errors _do_ make their way into our published documents. While you can create issues to report mistakes, it's faster and easier to create a pull request (PR) to fix the issue, when the option is available.
 
-1. **Some** docs pages allow you to edit content directly in the browser. If so, you'll see an **Edit** button like the one shown below. Clicking the **Edit** (or equivalently localized) button takes you to the source file on GitHub. If the **Edit** button is missing, that means the documentation page is not available to be changed.
+1. **Some** docs pages allow you to edit content directly in the browser. If so, you'll see an **Edit** button like the one shown below. Clicking the **Edit** (or equivalently localized) button takes you to the source file on GitHub.
 
    ![Location of the Edit link](./media/index/edit-article.png)
 
