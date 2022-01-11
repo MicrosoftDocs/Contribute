@@ -1,5 +1,5 @@
 ---
-title: Microsoft Docs Contributor Guide overview
+title: Microsoft Docs contributor guide overview
 description: The guide describes how you can contribute to the Microsoft documentation site docs.microsoft.com.
 author: Jim-Parker
 ms.author: jimpark
@@ -9,9 +9,9 @@ ms.prod: non-product-specific
 ms.custom: external-contributor-guide
 ---
 
-# Microsoft Docs Contributor Guide overview
+# Microsoft Docs contributor guide overview
 
-Welcome to the [docs.microsoft.com](https://docs.microsoft.com) (Microsoft Docs) Contributor Guide!
+Welcome to the [docs.microsoft.com](https://docs.microsoft.com) (Microsoft Docs) contributor guide!
 
 Several of the Microsoft documentation sets are open source and hosted on GitHub. Not all document sets are completely open source, but many have public-facing repos where you can make suggested changes via pull requests. This open source approach streamlines and improves communication between product engineers, content teams, and customers, and has other advantages:
 
