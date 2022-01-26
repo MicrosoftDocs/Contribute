@@ -27,9 +27,9 @@ Remember, your pull request has to be merged by a PR reviewer before the changes
 
 After your contributions are approved and merged, the docs.microsoft.com publishing process picks them up. Depending on the team that manages the repository you are contributing to, publishing times can vary. Articles published under the following paths are normally deployed at approximately 10:30 AM and 3:30 PM Pacific Time, Monday-Friday:
 
-- /azure/
-- /aspnet/
-- /dotnet/
-- /enterprise-mobility-security
+- [https://docs.microsoft.com/azure/](/azure/)
+- [https://docs.microsoft.com/aspnet/](/aspnet/)
+- [https://docs.microsoft.com/dotnet/](/dotnet/)
+- [https://docs.microsoft.com/enterprise-mobility-security](/enterprise-mobility-security)
 
 It can take up to 45 minutes for articles to appear online after publishing. After your article is published, you can verify your changes at the appropriate URL: `https://docs.microsoft.com/<path-to-your-article-without-the-md-extension>`.
