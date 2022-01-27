@@ -1,13 +1,16 @@
 ---
 name: General issue template
-about: This template is for all feedback/issues for the Contribute repo.
+about: Use this template to report all feedback/issues for the contributor guide.
 title: ''
 labels: ''
 assignees: carlyrevier, jehchow
 
 ---
 
-Welcome to the Microsoft Docs contributor guide feedback form! 
+---
+**PLEASE READ AND THEN DELETE BEFORE SUBMITTING YOUR ISSUE**
+
+Welcome to the Microsoft Docs contributor guide feedback form!
 
 Issues submitted here are reviewed by the repo managers of the Docs contributor guide, **not product teams.** Your issue should pertain to the documentation in this [contributor guide](https://docs.microsoft.com/en-us/contribute/?branch=main) only. Requests for updates to products or product documentation will be closed.
 
