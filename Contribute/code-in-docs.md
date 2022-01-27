@@ -367,7 +367,7 @@ In the root folder of *azure-docs*, add the following section in
     {
       "path_to_root": "samples-durable-functions",
       "url": "https://github.com/Azure/azure-functions-durable-extension",
-      "branch": "master",
+      "branch": "main",
       "branch_mapping": {}
     },
 ```
