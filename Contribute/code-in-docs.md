@@ -183,7 +183,7 @@ For these scenarios:
 
   Commented-out code won't disrupt the continuous integration (CI) system if the article's repo has one now or implements one in the future.
 
-For an example of how to present code that isn't recommended, see [Rune usage example: changing letter case](https://docs.microsoft.com/dotnet/standard/base-types/character-encoding-introduction#rune-usage-example-changing-letter-case). In this example, the advice to avoid it is even built into the code itself, as the C# method name is `ConvertToUpperBadExample`.
+For an example of how to present code that isn't recommended, see [Rune usage example: changing letter case](/dotnet/standard/base-types/character-encoding-introduction#rune-usage-example-changing-letter-case). In this example, the advice to avoid it is even built into the code itself, as the C# method name is `ConvertToUpperBadExample`.
 
 ## Inline code blocks
 

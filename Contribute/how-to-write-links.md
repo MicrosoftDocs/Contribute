@@ -244,7 +244,7 @@ Encoding examples:
 
 ### Generic types
 
-Generic types are those types such as `System.Collections.Generic.List<T>`. If you browse to this type in the [.NET API browser](https://docs.microsoft.com/dotnet/api/) and look at its URL, you see that `<T>` is written as `-1` in the URL, which actually represents **`1**:
+Generic types are those types such as `System.Collections.Generic.List<T>`. If you browse to this type in the [.NET API browser](/dotnet/api/) and look at its URL, you see that `<T>` is written as `-1` in the URL, which actually represents **`1**:
 
 `https://docs.microsoft.com/dotnet/api/system.collections.generic.list-1`
 
@@ -335,7 +335,7 @@ The best user experience minimizes sending users to another site. So base any li
 [Markdig]: https://github.com/lunet-io/markdig
 [GFM]: https://help.github.com/categories/writing-on-github/
 [docs]: https://docs.microsoft.com
-[.NET API browser]: https://docs.microsoft.com/dotnet/api/
-[Windows UWP]: https://docs.microsoft.com/uwp/api
+[.NET API browser]: /dotnet/api/
+[Windows UWP]: /uwp/api
 [docsextension]: https://marketplace.visualstudio.com/items?itemName=docsmsft.docs-markdown
 [autocomplete site]: https://xref.docs.microsoft.com/autocomplete?text=
