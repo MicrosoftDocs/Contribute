@@ -9,7 +9,7 @@ ms.date: 02/10/2021
 
 # Labels, projects, and milestones roadmap
 
-The .NET docs team makes extensive use of [GitHub labels](https://github.com/dotnet/docs/labels) to organize our work. By filtering on combinations of labels, we can quickly focus on sections of interest on the [.NET docs website](https://docs.microsoft.com/dotnet). For example, we could filter to all of the open issues on the architecture guides with a query to [is:issue is:open label:"dotnet-architecture/prod"](https://github.com/dotnet/docs/labels/dotnet-architecture%2Fprod).
+The .NET docs team makes extensive use of [GitHub labels](https://github.com/dotnet/docs/labels) to organize our work. By filtering on combinations of labels, we can quickly focus on sections of interest on the [.NET docs website](/dotnet). For example, we could filter to all of the open issues on the architecture guides with a query to [is:issue is:open label:"dotnet-architecture/prod"](https://github.com/dotnet/docs/labels/dotnet-architecture%2Fprod).
 
 We use [GitHub projects](https://github.com/dotnet/docs/projects) to organize sprints and other goal-oriented epics. We also use [GitHub milestones](https://github.com/dotnet/docs/milestones) to track work. It is best to think of projects for planning (issues), and milestones for work (pull requests).
 
