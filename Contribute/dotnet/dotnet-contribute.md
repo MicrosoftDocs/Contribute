@@ -84,6 +84,7 @@ The maintainers will merge your PR into the default branch once feedback has bee
 
 We regularly push all commits from default branch into the live branch and then you'll be able to see your contribution live at `https://docs.microsoft.com/dotnet/`. We typically publish daily during the work week.
 
+
 ## Example folder structure
 
 ```
