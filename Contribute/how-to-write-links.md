@@ -73,14 +73,14 @@ A file link is used to link from one article to another within the docset.
 Content published on docs.microsoft.com has the following URL structure:
 
 ```
-https://docs.microsoft.com/<locale>/<product-service>/[<feature-service>]/[<subfolder>]/<topic>[?view=<view-name>]
+`https://docs.microsoft.com/<locale>/<product-service>/[<feature-service>]/[<subfolder>]/<topic>[?view=<view-name>]`
 ```
 
 Examples:
 
 ```
-/azure/load-balancer/load-balancer-overview
-/powershell/azure/overview?view=azurermps-5.1.1
+`https://docs.microsoft.com/azure/load-balancer/load-balancer-overview`
+`https://docs.microsoft.com/powershell/azure/overview?view=azurermps-5.1.1`
 ```
 
 - `<locale>` - identifies the language of the article (example: en-us or de-de)
