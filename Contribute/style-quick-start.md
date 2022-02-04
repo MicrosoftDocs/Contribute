@@ -42,13 +42,13 @@ Our technical articles are translated into several languages, and some are modif
 - For steps that include code snippets, put additional information about the step into the code as comments. This reduces the amount of text that people have to read through. The key information gets copied into the code project to remind people of what the code is doing when they refer to it later.
 - Use sentence case for all titles and headings.
 - Use "sign in" and not "log in."
-- For more guidelines, see the [Microsoft Writing Style Guide](https://docs.microsoft.com/style-guide/welcome).
+- For more guidelines, see the [Microsoft Writing Style Guide](/style-guide/welcome).
 
 ## Localized documentation
 
 - If you are contributing to localized documentation, refer to the [Microsoft Language Portal](https://www.microsoft.com/Language/Default.aspx).
 - For localization guidelines, information on language style and usage in technical publications, and information on market-specific data formats, download the [style guide](https://www.microsoft.com/Language/StyleGuides) in your language.
 - For Microsoft localized terminology, search for [product-specific approved terminology](https://www.microsoft.com/Language/Default.aspx) or download the [Microsoft Terminology Collection](https://www.microsoft.com/language/Terminology) in your language.
-- To learn more about localization, see "Global communications" in the [Microsoft Writing Style Guide](https://docs.microsoft.com/style-guide/global-communications).
+- To learn more about localization, see "Global communications" in the [Microsoft Writing Style Guide](/style-guide/global-communications).
 
 [!INCLUDE[note-docsitelocfeedback](includes/note-docsitelocfeedback.md)]

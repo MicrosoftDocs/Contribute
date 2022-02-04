@@ -10,7 +10,7 @@ ms.date: 04/08/2021
 
 Thank you for your interest in contributing to the .NET documentation!
 
-This document covers the process for contributing to the articles and code samples that are hosted on the [.NET documentation site](https://docs.microsoft.com/dotnet). Contributions may be as simple as typo corrections or as complex as new articles.
+This document covers the process for contributing to the articles and code samples that are hosted on the [.NET documentation site](/dotnet). Contributions may be as simple as typo corrections or as complex as new articles.
 
 The .NET documentation site is built from multiple repositories:
 
@@ -82,7 +82,7 @@ The .NET team will review your PR and let you know if there are any other update
 
 The maintainers will merge your PR into the default branch once feedback has been applied and your change is approved.
 
-We regularly push all commits from default branch into the live branch and then you'll be able to see your contribution live at https://docs.microsoft.com/dotnet/. We typically publish daily during the work week.
+We regularly push all commits from default branch into the live branch and then you'll be able to see your contribution live at [https://docs.microsoft.com/dotnet/](/dotnet/). We typically publish daily during the work week.
 
 ## Example folder structure
 
@@ -145,7 +145,7 @@ Sample projects should build and run on the widest set of platforms possible for
 
 We are working toward having a CI system in place for all code. When you make any updates to samples, make sure each update is part of a buildable project. Ideally, add tests for correctness on samples as well.
 
-Each complete sample that you create should contain a *readme.md* file. This file should contain a short description of the sample (one or two paragraphs). Your *readme.md* should tell readers what they will learn by exploring this sample. The *readme.md* file should also contain a link to the live document on the [.NET documentation site](https://docs.microsoft.com/dotnet/welcome). To determine where a given file in the repository maps to that site, replace `/docs` in the repository path with `https://docs.microsoft.com/dotnet`.
+Each complete sample that you create should contain a *readme.md* file. This file should contain a short description of the sample (one or two paragraphs). Your *readme.md* should tell readers what they will learn by exploring this sample. The *readme.md* file should also contain a link to the live document on the [.NET documentation site](/dotnet/welcome). To determine where a given file in the repository maps to that site, replace `/docs` in the repository path with `https://docs.microsoft.com/dotnet`.
 
 Your topic will also contain links to the sample. Link directly to the sample's folder on GitHub.
 
@@ -159,7 +159,7 @@ Samples are full programs and libraries meant for download. They may be small in
 
    Additionally, we prefer the use of `static` methods rather than instance methods when demonstrating something that doesn't require instantiating a new object.
 
-3. Your sample should include **appropriate exception handling**. It should handle all exceptions that are likely to be thrown in the context of the sample. For example, a sample that calls the [Console.ReadLine](https://docs.microsoft.com/dotnet/api/system.console.readline) method to retrieve user input should use appropriate exception handling when the input string is passed as an argument to a method. Similarly, if your sample expects a method call to fail, the resulting exception must be handled. Always handle the specific exceptions thrown by the method, rather than base class exceptions such as [Exception](https://docs.microsoft.com/dotnet/api/system.exception) or [SystemException](https://docs.microsoft.com/dotnet/api/system.systemexception).
+3. Your sample should include **appropriate exception handling**. It should handle all exceptions that are likely to be thrown in the context of the sample. For example, a sample that calls the [Console.ReadLine](/dotnet/api/system.console.readline) method to retrieve user input should use appropriate exception handling when the input string is passed as an argument to a method. Similarly, if your sample expects a method call to fail, the resulting exception must be handled. Always handle the specific exceptions thrown by the method, rather than base class exceptions such as [Exception](/dotnet/api/system.exception) or [SystemException](/dotnet/api/system.systemexception).
 
 To create a sample:
 
@@ -197,7 +197,7 @@ You build any .NET Core snippet or sample using the .NET Core CLI, which can be 
 
 3. Add a readme.md to the root directory of your sample.
 
-   This should include a brief description of the code, and refer people to the article that references the sample. The top of the *readme.md* must have the metadata required for the [samples browser](https://docs.microsoft.com/samples). The header block should contain the following fields:
+   This should include a brief description of the code, and refer people to the article that references the sample. The top of the *readme.md* must have the metadata required for the [samples browser](/samples). The header block should contain the following fields:
 
    ```yml
    ---

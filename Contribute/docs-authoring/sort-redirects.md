@@ -17,7 +17,7 @@ ms.author: dapine
 With the evolution of a docs.microsoft.com docset, some Markdown files eventually will be deleted. When a Markdown file is deleted, we're required to provide a redirect so that any reference to the deleted article is properly resolved via the redirect. Redirections are specified in the *.openpublishing.redirection.json* file.
 
 1. Open the Command Palette, press <kbd>F1</kbd> (or <kbd>⇧⌘P</kbd> on macOS)
-1. Type: **Docs: Sort master redirection file**
+1. Type: **Docs: Sort main redirection file**
 1. Select the command to execute it
 1. Observe changes to *.openpublishing.redirection.json* file
 
