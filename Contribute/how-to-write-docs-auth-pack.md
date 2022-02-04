@@ -34,13 +34,13 @@ To access the **Docs Markdown** menu, type <kbd>ALT+M</kbd>. You can click or us
 
 See the [Docs Markdown readme](https://marketplace.visualstudio.com/items?itemName=docsmsft.docs-markdown) for an up-to-date list of commands.
 
-## How to generate a master redirect file
+## How to generate a main redirect file
 
-The Docs Markdown extension includes a script to generate or update a master redirection file for a repo, based on the `redirect_url` metadata in individual files. This script checks every Markdown file in the repo for `redirect_url`, adds the redirection metadata to the master redirection file (*.openpublishing.redirection.json*) for the repo, and moves the redirected files to a folder outside the repo. To run the script:
+The Docs Markdown extension includes a script to generate or update a main redirection file for a repo, based on the `redirect_url` metadata in individual files. This script checks every Markdown file in the repo for `redirect_url`, adds the redirection metadata to the main redirection file (*.openpublishing.redirection.json*) for the repo, and moves the redirected files to a folder outside the repo. To run the script:
 
 1. Select <kbd>F1</kbd> to open the VS Code command palette.
 2. Start typing "Docs: Generate..."
-3. Select the command `Docs: Generate master redirection file`.
+3. Select the command `Docs: Generate main redirection file`.
 4. When the script finishes running, the redirection results will show in the VS Code output pane, and the removed Markdown files will be added to the Docs Authoring\redirects folder under your default path.
 5. Review the results. If they are as expected, submit a pull request to update the repo.
 
