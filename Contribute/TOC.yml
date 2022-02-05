@@ -74,7 +74,5 @@
           href: dotnet/net-core-5-naming.md
     - name: PowerShell-Docs
       href: powershell-overview.md
-- name: Hacktoberfest
-  href: hacktoberfest.md
 - name: Additional resources
   href: additional-resources.md
