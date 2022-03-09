@@ -19,7 +19,7 @@ Several of the Microsoft documentation sets are open source and hosted on GitHub
 - Open-source repos _review in the open_ to publish the most helpful content on our first release.
 - Open-source repos _update in the open_ to make it easier to continuously improve the content.
 
-The user experience on Microsoft Docs integrates [GitHub](https://github.com) workflows directly to make it even easier. Start by [editing the document you're viewing](#quick-edits-to-existing-documents). Or help by [reviewing new topics](#review-open-prs) or [creating quality issues](#create-quality-issues).
+The user experience on Microsoft Docs integrates [GitHub](https://github.com) workflows directly to make it even easier. Start by [editing the document you're viewing](#quick-edits-to-documentation). Or help by [reviewing new topics](#review-open-prs) or [creating quality issues](#create-quality-issues).
 
 > [!IMPORTANT]
 > All repositories that publish to docs.microsoft.com have adopted the [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/) or the [.NET Foundation Code of Conduct](https://dotnetfoundation.org/code-of-conduct). For more information, see the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/). Contact [opencode@microsoft.com](mailto:opencode@microsoft.com) or [conduct@dotnetfoundation.org](mailto:conduct@dotnetfoundation.org) with any questions or comments.<br>

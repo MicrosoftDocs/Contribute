@@ -53,7 +53,7 @@ Once you've picked a task to work on, follow the [get started](../get-started-se
 
 **Step 2:** Fork the `/dotnet/docs`, `dotnet/samples`, `dotnet/dotnet-api-docs`, `dotnet/roslyn-api-docs`, or `dotnet/ml-api-docs` repos as needed and create a branch for your changes.
 
-For small changes, see the instructions on editing in GitHub on the [home page](../index.md#quick-edits-to-existing-documents) of the contributor guide.
+For small changes, see the instructions on editing in GitHub on the [home page](../index.md#quick-edits-to-documentation) of the contributor guide.
 
 **Step 3:** Make the changes on this new branch.
 
