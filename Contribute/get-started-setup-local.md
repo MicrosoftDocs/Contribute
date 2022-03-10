@@ -21,7 +21,7 @@ You run these one-time setup activities to start contributing:
 > * Configure the upstream remote value
 
 > [!IMPORTANT]
-> If you're making only minor changes to an article, you *do not* need to complete the steps in this article. You can continue directly to the [quick changes workflow](index.md#quick-edits-to-existing-documents).
+> If you're making only minor changes to an article, you *do not* need to complete the steps in this article. You can continue directly to the [quick changes workflow](index.md#quick-edits-to-documentation).
 >
 
 ## Overview
