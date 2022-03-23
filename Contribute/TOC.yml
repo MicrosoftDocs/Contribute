@@ -72,6 +72,9 @@
           href: dotnet/dotnet-pr-review.md
         - name: .NET naming in docs
           href: dotnet/net-core-5-naming.md
+    - name: Azure Architecture Center
+        - name: Example workload template
+          href: architecture-center/example-workload-templates.md 
     - name: PowerShell-Docs
       href: powershell-overview.md
 - name: Additional resources
