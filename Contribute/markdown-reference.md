@@ -27,7 +27,7 @@ If you need to use alerts, limit them to one or two per article. Multiple notes 
 
 The following alert types are supported:
 
-```markdown
+```md
 > [!NOTE]
 > Information the user should notice even if skimming.
 
@@ -99,19 +99,19 @@ The preceding example renders as follows:
 
 To format text as **bold**, enclose it in two asterisks:
 
-```markdown
+```md
 This text is **bold**.
 ```
 
 To format text as *italic*, enclose it in a single asterisk:
 
-```markdown
+```md
 This text is *italic*.
 ```
 
 To format text as both ***bold and italic***, enclose it in three asterisks:
 
-```markdown
+```md
 This text is both ***bold and italic***.
 ```
 
@@ -129,7 +129,7 @@ While the **columns** extension still works, we no longer recommend it for creat
 
 The syntax for columns is as follows:
 
-```markdown
+```md
 :::row:::
    :::column span="":::
       Content...
@@ -144,7 +144,7 @@ Columns should only contain basic Markdown, including images. Headings, tables, 
 
 For example, the following Markdown creates one column that spans two column widths, and one standard (no `span`) column:
 
-```markdown
+```md
 :::row:::
    :::column span="2":::
       **This is a 2-span column with lots of text.**
@@ -193,7 +193,7 @@ Docs supports HTML comments if you must comment out sections of your article:
 
 Docs supports six levels of Markdown headings:
 
-```markdown
+```md
 # This is a first level heading (H1)
 
 ## This is a second level heading (H2)
@@ -248,13 +248,13 @@ Where `<alt text>` is a brief description of the image and `<folder path>` is a 
 
 Underscores in alt text aren't rendered properly unless you escape them by prefixing them with a backslash (`\_`). However, don't copy file names for use as alt text. For example, instead of this:
 
-```markdown
+```md
 ![ADextension_2FA_Configure_Step4](./media/bogusfilename/ADextension_2FA_Configure_Step4.PNG)
 ```
 
 Write this:
 
-```markdown
+```md
 ![Active Directory extension for two-factor authentication, step 4: Configure](./media/bogusfilename/ADextension_2FA_Configure_Step4.PNG)
 ```
 
@@ -264,7 +264,7 @@ The Docs custom `:::image:::` extension supports standard images, complex images
 
 For standard images, the older Markdown syntax will still work, but the new extension is recommended because it supports more powerful functionality, such as specifying a localization scope that's different from the parent topic. Other advanced functionality, such as selecting from the shared image gallery instead of specifying a local image, will be available in the future. The new syntax is as follows:
 
-```Markdown
+```md
 :::image type="content" source="<folderPath>" alt-text="<alt text>":::
 ```
 
@@ -274,7 +274,7 @@ If `type="content"` (the default), both `source` and `alt-text` are required.
 
 You can also use this extension to add an image with a long description that is read by screen readers but not rendered visually on the published page. Long descriptions are an accessibility requirement for complex images, such as graphs. The syntax is the following:
 
-```Markdown
+```md
 :::image type="complex" source="<folderPath>" alt-text="<alt text>":::
    <long description here>
 :::image-end:::
@@ -308,7 +308,7 @@ Sometimes the localization scope for an image is different from that of the arti
 
 The image extension supports icons, which are decorative images and should not have alt text. The syntax for icons is:
 
-```Markdown
+```md
 :::image type="icon" source="<folderPath>":::
 ```
 
@@ -335,13 +335,13 @@ An inline or block include file is a Markdown (.md) file. It can contain any val
 
 Block include is on its own line:
 
-```markdown
+```md
 [!INCLUDE [<title>](<filepath>)]
 ```
 
 Inline include is within a line:
 
-```markdown
+```md
 Text before [!INCLUDE [<title>](<filepath>)] and after.
 ```
 
@@ -413,7 +413,7 @@ To create a numbered list, you can use all 1s. The numbers are rendered in ascen
 
 Don't use letters in lists, including nested lists. They don't render correctly when published to Docs. Nested lists using numbers will render as lowercase letters when published. For example:
 
-```markdown
+```md
 1. This is
 1. a parent numbered list
    1. and this is
@@ -433,7 +433,7 @@ This renders as follows:
 
 To create a bulleted list, use `-` or `*` followed by a space at the beginning of each line:
 
-```markdown
+```md
 - This is
 - a parent bulleted list
   - and this is
@@ -455,7 +455,7 @@ Whichever syntax you use, `-` or `*`, use it consistently within an article.
 
 Checklists are available for use on Docs via a custom Markdown extension:
 
-```markdown
+```md
 > [!div class="checklist"]
 > * List item 1
 > * List item 2
@@ -484,7 +484,7 @@ The syntax is as follows:
 
 For example:
 
-```markdown
+```md
 > [!div class="nextstepaction"]
 > [Learn about adding code to articles](code-in-docs.md)
 ```
@@ -510,7 +510,7 @@ To mark an individual string as non-localizable, use this syntax:
 
 For example, in the following, only the single instance of `Document` will be ignored during the localization process:
 
-```markdown
+```md
 # Heading 1 of the Document
 
 Markdown content within the :::no-loc text="Document":::.  The are multiple instances of Document, document, and documents.
@@ -536,7 +536,7 @@ In the following example, both in the metadata `title` and the Markdown header t
 
 In the metadata `description` and the Markdown main content the word `document` is localized, because it does not start with a capital `D`.
 
-```markdown
+```md
 ---
 title: Title of the Document
 author: author-name
@@ -584,7 +584,7 @@ There are two types of selectors: a single selector and a multi-selector.
 
 ### Single selector
 
-```markdown
+```md
 > [!div class="op_single_selector"]
 > - [Universal Windows](../articles/notification-hubs-windows-store-dotnet-get-started/)
 > - [Windows Phone](../articles/notification-hubs-windows-phone-get-started/)
@@ -610,7 +610,7 @@ There are two types of selectors: a single selector and a multi-selector.
 
 ### Multi-selector
 
-```markdown
+```md
 > [!div class="op_multi_selector" title1="Platform" title2="Backend"]
 > - [(iOS | .NET)](./mobile-services-dotnet-backend-ios-get-started-push.md)
 > - [(iOS | JavaScript)](./mobile-services-javascript-backend-ios-get-started-push.md)
@@ -664,7 +664,7 @@ Goodbye <sup>This is superscript!</sup>
 
 The simplest way to create a table in Markdown is to use pipes and lines. To create a standard table with a header, follow the first line with dashed line:
 
-```markdown
+```md
 |This is   |a simple   |table header|
 |----------|-----------|------------|
 |table     |data       |here        |
@@ -680,7 +680,7 @@ This renders as follows:
 
 You can align the columns by using colons:
 
-```markdown
+```md
 | Fun                  | With                 | Tables          |
 | :------------------- | -------------------: |:---------------:|
 | left-aligned column  | right-aligned column | centered column |
@@ -709,7 +709,7 @@ Long words in a Markdown table might make the table expand to the right navigati
 
 Here is a Markdown sample of a table with three rows that will be wrapped by a `div` with the class name `mx-tdBreakAll`.
 
-```markdown
+```md
 > [!div class="mx-tdBreakAll"]
 > |Name|Syntax|Mandatory for silent installation?|Description|
 > |-------------|----------|---------|---------|
