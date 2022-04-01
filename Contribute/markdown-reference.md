@@ -13,13 +13,19 @@ ms.custom: external-contributor-guide
 
 This article provides an alphabetical reference for writing Markdown for docs.microsoft.com (Docs).
 
+| header 1 | header 2 |
+| -------- | -------- |
+|Hello EOQ DAY!||
+| cell 1   | cell 2   |
+| cell 3   | cell 4   |
+
 [Markdown](https://daringfireball.net/projects/markdown/) is a lightweight markup language with plain text formatting syntax. Docs supports [CommonMark](https://commonmark.org/) compliant Markdown parsed through the [Markdig](https://github.com/lunet-io/markdig) parsing engine. Docs also supports custom Markdown extensions that provide richer content on the Docs site.
 
 You can use any text editor to write Markdown, but we recommend [Visual Studio Code](https://code.visualstudio.com/) with the [Docs Authoring Pack](https://aka.ms/DocsAuthoringPack). The Docs Authoring Pack provides editing tools and preview functionality that lets you see what your articles will look like when rendered on Docs.
 
 ## Alerts (Note, Tip, Important, Caution, Warning)
 
-Alerts are a Markdown extension to create block quotes that render on Docs with colors and icons that indicate the significance of the content. 
+Alerts are a Markdown extension to create block quotes that render on Docs with colors and icons that indicate the significance of the content.
 
 Avoid notes, tips, and important boxes. Readers tend to skip over them. It's better to put that info directly into the article text.
 
@@ -46,8 +52,8 @@ The following alert types are supported:
 
 These alerts look like this on Docs:
 
-> [!NOTE]
-> Information the user should notice even if skimming.
+> [!IMPORTANT]
+> Information the user should notice even if skimming. Hello EOQ Day
 
 > [!TIP]
 > Optional information to help a user be more successful.
@@ -60,7 +66,6 @@ These alerts look like this on Docs:
 
 > [!WARNING]
 > Dangerous certain consequences of an action.
-
 ## Angle brackets
 
 If you use angle brackets in text in your file (for example, to denote a placeholder), you need to manually encode the angle brackets. Otherwise, Markdown thinks that they're intended to be an HTML tag.
@@ -82,7 +87,6 @@ Here are the encodings for the "smart" versions of these punctuation marks:
 
 > [!TIP]
 > To avoid "smart" characters in your Markdown files, rely on the Docs Authoring Pack's smart quote replacement feature. For more information, see [smart quote replacement](docs-authoring/smart-quote-replacement.md).
-
 ## Blockquotes
 
 Blockquotes are created using the `>` character:
@@ -164,18 +168,24 @@ For example, the following Markdown creates one column that spans two column wid
 This renders as follows:
 
 :::row:::
-   :::column span="2":::
-      **This is a 2-span column with lots of text.**
+:::column span="2":::
+**This is a 2-span column with lots of text.**
 
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vestibulum mollis nunc
-      ornare commodo. Nullam ac metus imperdiet, rutrum justo vel, vulputate leo. Donec
-      rutrum non eros eget consectetur.
-   :::column-end:::
-   :::column span="":::
-      **This is a single-span column with an image in it.**
+```
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vestibulum mollis nunc
+  ornare commodo. Nullam ac metus imperdiet, rutrum justo vel, vulputate leo. Donec
+  rutrum non eros eget consectetur.
+```
 
-      ![Doc.U.Ment](media/markdown-reference/document.png)
-   :::column-end:::
+:::column-end:::
+:::column span="":::
+**This is a single-span column with an image in it.**
+
+```
+  ![Doc.U.Ment](media/markdown-reference/document.png)
+```
+
+:::column-end:::
 :::row-end:::
 
 ## Comments
@@ -188,7 +198,6 @@ Docs supports HTML comments if you must comment out sections of your article:
 
 > [!WARNING]
 > Do not put private or sensitive information in HTML comments. Docs carries HTML comments through to the published HTML that goes public. While HTML comments are invisible to the reader's eye, they are exposed in the HTML underneath.
-
 ## Headings
 
 Docs supports six levels of Markdown headings:
@@ -463,12 +472,10 @@ Checklists are available for use on Docs via a custom Markdown extension:
 ```
 
 This example renders on Docs like this:
-
 > [!div class="checklist"]
 > * List item 1
 > * List item 2
 > * List item 3
-
 Use checklists at the beginning or end of an article to summarize "What will you learn" or "What have you learned" content. Do not add random checklists throughout your articles.
 
 ## Next step action
@@ -490,10 +497,8 @@ For example:
 ```
 
 This renders as follows:
-
 > [!div class="nextstepaction"]
 > [Learn about adding code to articles](code-in-docs.md)
-
 You can use any supported link in a next step action, including a Markdown link to another web page. In most cases, the next action link will be a relative link to another file in the same docset.
 
 ## Non-localized strings
@@ -521,7 +526,6 @@ Markdown content within the :::no-loc text="Document":::.  The are multiple inst
 > ```markdown
 > Lorem :::no-loc text="Find a \"Quotation\""::: Ipsum.
 > ```
-
 You can also use metadata in the YAML header to mark all instances of a string within the current Markdown file as non-localizable:
 
 ```yml
@@ -531,7 +535,6 @@ no-loc: [Global, Strings, to be, Ignored]
 
 > [!NOTE]
 > The no-loc metadata is not supported as global metadata in *docfx.json* file. The localization pipeline doesn't read the *docfx.json* file, so the no-loc metadata must be added into each individual source file.
-
 In the following example, both in the metadata `title` and the Markdown header the word `Document` will be ignored during the localization process.
 
 In the metadata `description` and the Markdown main content the word `document` is localized, because it does not start with a capital `D`.
@@ -597,7 +600,6 @@ There are two types of selectors: a single selector and a multi-selector.
 ```
 
 ... will be rendered like this:
-
 > [!div class="op_single_selector"]
 > - [Universal Windows](how-to-write-links.md)
 > - [Windows Phone](how-to-write-links.md)
@@ -607,7 +609,6 @@ There are two types of selectors: a single selector and a multi-selector.
 > - [Baidu](how-to-write-links.md)
 > - [Xamarin.iOS](how-to-write-links.md)
 > - [Xamarin.Android](how-to-write-links.md)
-
 ### Multi-selector
 
 ```md
@@ -625,7 +626,6 @@ There are two types of selectors: a single selector and a multi-selector.
 ```
 
 ... will be rendered like this:
-
 > [!div class="op_multi_selector" title1="Platform" title2="Backend"]
 > - [(iOS | .NET)](how-to-write-links.md)
 > - [(iOS | JavaScript)](how-to-write-links.md)
@@ -637,7 +637,6 @@ There are two types of selectors: a single selector and a multi-selector.
 > - [(Android | Javascript)](how-to-write-links.md)
 > - [(Xamarin iOS | Javascript)](how-to-write-links.md)
 > - [(Xamarin Android | Javascript)](how-to-write-links.md)
-
 ## Subscript and superscript
 
 You should only use subscript or superscript when necessary for technical accuracy, such as when writing about mathematical formulas. Don't use them for non-standard styles, such as footnotes.
@@ -698,11 +697,11 @@ Renders as follows:
 | $10                  | $10                  | $10             |
 | $1                   | $1                   | $1              |
 
+
 > [!TIP]
 > The Docs Authoring Extension for VS Code makes it easy to add basic Markdown tables!
->
+> >
 > You can also use an [online table generator](http://www.tablesgenerator.com/markdown_tables).
-
 ### Line breaks within words in any table cell
 
 Long words in a Markdown table might make the table expand to the right navigation and become unreadable. You can solve that by allowing Docs rendering to automatically insert line breaks within words when needed. Just wrap up the table with the custom class `[!div class="mx-tdBreakAll"]`.
@@ -719,14 +718,12 @@ Here is a Markdown sample of a table with three rows that will be wrapped by a `
 ```
 
 It will be rendered like this:
-
 > [!div class="mx-tdBreakAll"]
 > |Name|Syntax|Mandatory for silent installation?|Description|
 > |-------------|----------|---------|---------|
 > |Quiet|/quiet|Yes|Runs the installer, displaying no UI and no prompts.|
 > |NoRestart|/norestart|No|Suppresses any attempts to restart. By default, the UI will prompt before restart.|
 > |Help|/help|No|Provides help and quick reference. Displays the correct use of the setup command, including a list of all options and behaviors.|
-
 ### Line breaks within words in second column table cells
 
 You might want line breaks to be automatically inserted within words only in the second column of a table. To limit the breaks to the second column, apply the class `mx-tdCol2BreakAll` by using the `div` wrapper syntax as shown earlier.
@@ -760,7 +757,6 @@ Every entry in the first column must be styled as bold (`**bold**`); otherwise t
 
 > [!TIP]
 > The Docs Authoring Pack for VS Code includes a function to convert a regular Markdown table into a data matrix table. Just select the table, right-click, and select **Convert to data matrix table**.
-
 ### HTML Tables
 
 HTML tables aren't recommended for Docs. They aren't human readable in the source - which is a key principle of Markdown.
