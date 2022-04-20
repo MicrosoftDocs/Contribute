@@ -27,6 +27,8 @@ Issues for all these repositories are tracked in the [dotnet/docs](https://githu
 We appreciate community contributions to docs. The following list shows some guiding rules to keep in mind when you're contributing to the .NET documentation:
 
 - **DON'T** surprise us with large pull requests. Instead, file an issue and start a discussion so we can agree on a direction before you invest a large amount of time.
+- **DON'T** include sample code inline in an article.
+- **DO** use a snippet project with code to be embedded in the article.
 - **DO** follow these instructions and [voice and tone](dotnet-voice-tone.md) guidelines.
 - **DO** use the [template](dotnet-style-guide.md) file as the starting point of your work.
 - **DO** create a separate branch on your fork before working on the articles.
@@ -62,6 +64,8 @@ If it's a new topic, you can use this [template file](dotnet-style-guide.md) as 
 Navigate to the folder that corresponds to the TOC location determined for your article in step 1. That folder contains the Markdown files for all articles in that section. If necessary, create a new folder to place the files for your content. The main article for that section is called *index.md*.
 
 For images and other static resources, create a subfolder called **media** inside the folder that contains your article, if it doesn't already exist. Inside the **media** folder, create a subfolder with the article name (except for the index file). For more information about where to place your files, see the [Example folder structure](#example-folder-structure) section.
+
+Don't include code inline in the article, unless you're demonstrating a construct that doesn't compile. Instead, use a **code snippets** project and include the code using the code extension. That ensures that your sample code is validated by our CI system.
 
 For **code snippets**, create a subfolder called **snippets** inside the folder that contains your article, if it doesn't already exist. Inside the **snippets** folder, create a subfolder with the article name. In most cases, you'll have code snippets for all three of the main .NET languages, C#, F#, and Visual Basic. In that case, create subfolders named **csharp**, **fsharp**, and **vb** for each of the three projects. If you're creating a snippet for an article under the [docs/csharp](https://github.com/dotnet/docs/tree/main/docs/csharp), [docs/fsharp](https://github.com/dotnet/docs/tree/main/docs/fsharp), or [docs/visual-basic](https://github.com/dotnet/docs/tree/main/docs/visual-basic) folders, the snippet will only be in one language so you can omit the language subfolder. For more information about where to place your files, see the [Example folder structure](#example-folder-structure) section.
 
