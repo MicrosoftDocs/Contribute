@@ -19,7 +19,7 @@ You can use any text editor to write Markdown, but we recommend [Visual Studio C
 
 ## Alerts (Note, Tip, Important, Caution, Warning)
 
-Alerts are a Markdown extension to create block quotes that render on Docs with colors and icons that indicate the significance of the content. 
+Alerts are a Markdown extension to create block quotes that render on Docs with colors and icons that indicate the significance of the content.
 
 Avoid notes, tips, and important boxes. Readers tend to skip over them. It's better to put that info directly into the article text.
 
@@ -46,8 +46,8 @@ The following alert types are supported:
 
 These alerts look like this on Docs:
 
-> [!NOTE]
-> Information the user should notice even if skimming.
+> [!IMPORTANT]
+> Hello World. Information the user should notice even if skimming.
 
 > [!TIP]
 > Optional information to help a user be more successful.
@@ -68,6 +68,11 @@ If you use angle brackets in text in your file (for example, to denote a placeho
 For example, encode `<script name>` as `&lt;script name&gt;` or `\<script name>`.
 
 Angle brackets don't have to be escaped in text formatted as inline code or in code blocks.
+
+|Hello| Header 1 | Header 2 |
+| -------- | -------- | -------- |
+|          World| Cell 1   | Cell 2   |
+|          Here| Cell 3   | Cell 4   |
 
 ## Apostrophes and quotation marks
 
@@ -164,18 +169,24 @@ For example, the following Markdown creates one column that spans two column wid
 This renders as follows:
 
 :::row:::
-   :::column span="2":::
-      **This is a 2-span column with lots of text.**
+:::column span="2":::
+**This is a 2-span column with lots of text.**
 
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vestibulum mollis nunc
-      ornare commodo. Nullam ac metus imperdiet, rutrum justo vel, vulputate leo. Donec
-      rutrum non eros eget consectetur.
-   :::column-end:::
-   :::column span="":::
-      **This is a single-span column with an image in it.**
+```
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vestibulum mollis nunc
+  ornare commodo. Nullam ac metus imperdiet, rutrum justo vel, vulputate leo. Donec
+  rutrum non eros eget consectetur.
+```
 
-      ![Doc.U.Ment](media/markdown-reference/document.png)
-   :::column-end:::
+:::column-end:::
+:::column span="":::
+**This is a single-span column with an image in it.**
+
+```
+  ![Doc.U.Ment](media/markdown-reference/document.png)
+```
+
+:::column-end:::
 :::row-end:::
 
 ## Comments
@@ -395,6 +406,7 @@ The example above renders as:
 
   > [!TIP]
   > This tip is indented two spaces.
+
   - This is a second-level bullet (indented two spaces, with one space after the bullet before the letter T).
 
     This sentence is indented four spaces.
@@ -463,7 +475,6 @@ Checklists are available for use on Docs via a custom Markdown extension:
 ```
 
 This example renders on Docs like this:
-
 > [!div class="checklist"]
 > * List item 1
 > * List item 2
@@ -490,7 +501,6 @@ For example:
 ```
 
 This renders as follows:
-
 > [!div class="nextstepaction"]
 > [Learn about adding code to articles](code-in-docs.md)
 
@@ -597,7 +607,6 @@ There are two types of selectors: a single selector and a multi-selector.
 ```
 
 ... will be rendered like this:
-
 > [!div class="op_single_selector"]
 > - [Universal Windows](how-to-write-links.md)
 > - [Windows Phone](how-to-write-links.md)
@@ -625,7 +634,6 @@ There are two types of selectors: a single selector and a multi-selector.
 ```
 
 ... will be rendered like this:
-
 > [!div class="op_multi_selector" title1="Platform" title2="Backend"]
 > - [(iOS | .NET)](how-to-write-links.md)
 > - [(iOS | JavaScript)](how-to-write-links.md)
@@ -698,9 +706,10 @@ Renders as follows:
 | $10                  | $10                  | $10             |
 | $1                   | $1                   | $1              |
 
+
 > [!TIP]
 > The Docs Authoring Extension for VS Code makes it easy to add basic Markdown tables!
->
+> 
 > You can also use an [online table generator](http://www.tablesgenerator.com/markdown_tables).
 
 ### Line breaks within words in any table cell
@@ -719,7 +728,6 @@ Here is a Markdown sample of a table with three rows that will be wrapped by a `
 ```
 
 It will be rendered like this:
-
 > [!div class="mx-tdBreakAll"]
 > |Name|Syntax|Mandatory for silent installation?|Description|
 > |-------------|----------|---------|---------|
