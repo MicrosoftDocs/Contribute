@@ -13,7 +13,7 @@ ms.custom: external-contributor-guide
 
 Welcome to the [docs.microsoft.com](https://docs.microsoft.com) (Microsoft Docs) contributor guide!
 
-Several of the Microsoft documentation sets are open source and hosted on GitHub. Not all document sets are completely open source, but many have public-facing repos where you can suggest changes via pull requests (PR). This open-source approach streamlines and improves communication between product engineers, content teams, customers, and has other advantages:
+Several of the Microsoft documentation sets are open source and hosted on GitHub. Not all document sets are completely open source, but many have public-facing repos where you can suggest changes via pull requests (PR). This open-source approach streamlines and improves communication between product engineers, content teams, and customers, and it has other advantages:
 
 - Open-source repos _plan in the open_ to get feedback on what docs are most needed.
 - Open-source repos _review in the open_ to publish the most helpful content on our first release.
