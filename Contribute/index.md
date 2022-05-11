@@ -40,21 +40,21 @@ Quick edits streamline the process to report and fix small errors and omissions 
 
    :::image type="content" source="media/index/edit-icon.png" alt-text="Location of the fork and edit pencil icon.":::
 
-3. Edit the file in the web editor. Choose the **Preview changes** tab to check the formatting of your changes.
+3. Edit the file in the web editor. Choose the **Preview** tab to check the formatting of your changes.
 
-4. When you're finished editing, scroll to the bottom of the page. In the **Propose changes** area, enter a title and description for your changes and select **Propose changes**:
+4. When you're finished editing, scroll to the bottom of the page. In the **Propose changes** area, enter a title and optionally a description for your changes. The title will be the first line of the commit message. Select **Propose changes** to commit your changes:
 
    :::image type="content" source="media/index/commit-changes.png" alt-text="Propose and commit file changes.":::
 
-5. Now that you've proposed your changes, you need to ask the owners of the repository to "pull" your changes into their repository. This is done using something called a "pull request" (PR). When you select **Propose changes**, a new page similar to the following is displayed:
+5. Now that you've proposed and committed your changes, you need to ask the owners of the repository to "pull" your changes into their repository. This is done using something called a "pull request" (PR). When you select **Propose changes**, a new page similar to the following is displayed:
 
-   :::image type="content" source="media/index/create-pull-request.png" alt-text="Create pull request.":::
+   :::image type="content" source="media/index/create-pull-request.png" alt-text="Compare changes and create pull request.":::
 
-   Select **Create pull request**. Next, enter a title and, optionally, a description for the PR, and then select **Create pull request**. If you're new to GitHub, see [About pull requests](https://help.github.com/en/articles/about-pull-requests) for more information.
+   Select **Create pull request**. Next, enter a title and a description for the PR, and then select **Create pull request**. If you're new to GitHub, see [About pull requests](https://help.github.com/en/articles/about-pull-requests) for more information.
 
 6. That's it! Content team members will review your PR and merge it when it's approved. You may get feedback requesting changes.
 
-The GitHub editing UI responds to your permissions on the repository. The preceding images are for contributors who don't have write permissions to the target repository. GitHub automatically creates a fork of the target repository in your account. If you have write access to the target repository, GitHub creates a new branch in the target repo. The branch name has the form **\<GitHubId\>-patch-n**, using your GitHub ID and a numeric identifier for the patch branch.
+The GitHub editing UI responds to your permissions on the repository. The preceding images are for contributors who don't have write permissions to the target repository. GitHub automatically creates a fork of the target repository in your account. The newly created fork name has the form **`GitHubUsername`/`RepositoryName`** by default. If you have write access to the target repository, such as your fork, GitHub creates a new branch in the target repository. The branch name has the default form **patch-`n`**, using a numeric identifier for the patch branch.
 
 We use PRs for all changes, even for contributors who have write access. Most repositories protect the default branch so that updates must be submitted as PRs.
 
