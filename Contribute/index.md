@@ -3,7 +3,7 @@ title: Microsoft Docs contributor guide overview
 description: The guide describes how you can contribute to the Microsoft documentation site docs.microsoft.com.
 author: carlyrevier
 ms.author: cahublou
-ms.date: 03/09/2022
+ms.date: 05/11/2022
 ms.topic: contributor-guide
 ms.prod: non-product-specific
 ms.custom: external-contributor-guide
@@ -13,7 +13,7 @@ ms.custom: external-contributor-guide
 
 Welcome to the [docs.microsoft.com](https://docs.microsoft.com) (Microsoft Docs) contributor guide!
 
-Several of the Microsoft documentation sets are open source and hosted on GitHub. Not all document sets are completely open source, but many have public-facing repos where you can suggest changes via pull requests (PR). This open-source approach streamlines and improves communication between product engineers, content teams, and customers, and has other advantages:
+Several of the Microsoft documentation sets are open source and hosted on GitHub. Not all document sets are completely open source, but many have public-facing repos where you can suggest changes via pull requests (PR). This open-source approach streamlines and improves communication between product engineers, content teams, and customers, and it has other advantages:
 
 - Open-source repos _plan in the open_ to get feedback on what docs are most needed.
 - Open-source repos _review in the open_ to publish the most helpful content on our first release.
@@ -32,29 +32,29 @@ Quick edits streamline the process to report and fix small errors and omissions 
 
 1. _Some_ docs pages allow you to edit content directly in the browser. If so, you'll see an **Edit** button like the one shown below. Choosing the **Edit** (or equivalently localized) button takes you to the source file on GitHub.
 
-   ![Location of the Edit link](./media/index/edit-article.png)
+   :::image type="content" source="media/index/edit-article.png" alt-text="Location of the edit article link.":::
 
    If the **Edit** button isn't present, it means the content isn't open to public contributions.  Some pages are generated (for example, from inline documentation in code) and must be edited in the project they belong to.
 
 2. Select the pencil icon to edit the article. If the pencil icon is grayed out, you need to either log in to your GitHub account or create a new account.
 
-   ![Location of the pencil icon](./media/index/edit-icon.png)
+   :::image type="content" source="media/index/edit-icon.png" alt-text="Location of the fork and edit pencil icon.":::
 
-3. Edit the file in the web editor. Choose the **Preview changes** tab to check the formatting of your changes.
+3. Edit the file in the web editor. Choose the **Preview** tab to check the formatting of your changes.
 
-4. When you're finished editing, scroll to the bottom of the page. In the **Propose changes** area, enter a title and description for your changes and select **Propose changes**:
+4. When you're finished editing, scroll to the bottom of the page. In the **Propose changes** area, enter a title and optionally a description for your changes. The title will be the first line of the commit message. Select **Propose changes** to commit your changes:
 
-   ![Propose file changes](./media/index/submit-pull-request.png)
+   :::image type="content" source="media/index/commit-changes.png" alt-text="Propose and commit file changes.":::
 
-5. Now that you've proposed your changes, you need to ask the owners of the repository to "pull" your changes into their repository. This is done using something called a "pull request" (PR). When you select **Propose changes**, a new page similar to the following is displayed:
+5. Now that you've proposed and committed your changes, you need to ask the owners of the repository to "pull" your changes into their repository. This is done using something called a "pull request" (PR). When you select **Propose changes**, a new page similar to the following is displayed:
 
-   ![Create pull request](media/index/create-pull-request.png)
+   :::image type="content" source="media/index/create-pull-request.png" alt-text="Compare changes and create pull request.":::
 
-   Select **Create pull request**. Next, enter a title and, optionally, a description for the PR, and then select **Create pull request**. If you're new to GitHub, see [About pull requests](https://help.github.com/en/articles/about-pull-requests) for more information.
+   Select **Create pull request**. Next, enter a title and a description for the PR, and then select **Create pull request**. If you're new to GitHub, see [About pull requests](https://docs.github.com/articles/using-pull-requests) for more information.
 
 6. That's it! Content team members will review your PR and merge it when it's approved. You may get feedback requesting changes.
 
-The GitHub editing UI responds to your permissions on the repository. The preceding images are accurate for contributors who don't have write permissions to the target repository. GitHub automatically creates a fork of the target repository in your account. If you have write access to the target repository, GitHub creates a new branch in the target repo. The branch name has the form **\<GitHubId\>-patch-n**, using your GitHub ID and a numeric identifier for the patch branch.
+The GitHub editing UI responds to your permissions on the repository. The preceding images are for contributors who don't have write permissions to the target repository. GitHub automatically creates a fork of the target repository in your account. The newly created fork name has the form **`GitHubUsername`/`RepositoryName`** by default. If you have write access to the target repository, such as your fork, GitHub creates a new branch in the target repository. The branch name has the default form **patch-`n`**, using a numeric identifier for the patch branch.
 
 We use PRs for all changes, even for contributors who have write access. Most repositories protect the default branch so that updates must be submitted as PRs.
 
