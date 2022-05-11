@@ -32,23 +32,23 @@ Quick edits streamline the process to report and fix small errors and omissions 
 
 1. _Some_ docs pages allow you to edit content directly in the browser. If so, you'll see an **Edit** button like the one shown below. Choosing the **Edit** (or equivalently localized) button takes you to the source file on GitHub.
 
-   ![Location of the Edit link](./media/index/edit-article.png)
+   :::image type="content" source="media/index/edit-article.png" alt-text="Location of the edit article link.":::
 
    If the **Edit** button isn't present, it means the content isn't open to public contributions.  Some pages are generated (for example, from inline documentation in code) and must be edited in the project they belong to.
 
 2. Select the pencil icon to edit the article. If the pencil icon is grayed out, you need to either log in to your GitHub account or create a new account.
 
-   ![Location of the pencil icon](./media/index/edit-icon.png)
+   :::image type="content" source="media/index/edit-icon.png" alt-text="Location of the fork and edit pencil icon.":::
 
 3. Edit the file in the web editor. Choose the **Preview changes** tab to check the formatting of your changes.
 
 4. When you're finished editing, scroll to the bottom of the page. In the **Propose changes** area, enter a title and description for your changes and select **Propose changes**:
 
-   ![Propose file changes](./media/index/submit-pull-request.png)
+   :::image type="content" source="media/index/commit-changes.png" alt-text="Propose and commit file changes.":::
 
 5. Now that you've proposed your changes, you need to ask the owners of the repository to "pull" your changes into their repository. This is done using something called a "pull request" (PR). When you select **Propose changes**, a new page similar to the following is displayed:
 
-   ![Create pull request](media/index/create-pull-request.png)
+   :::image type="content" source="media/index/create-pull-request.png" alt-text="Create pull request.":::
 
    Select **Create pull request**. Next, enter a title and, optionally, a description for the PR, and then select **Create pull request**. If you're new to GitHub, see [About pull requests](https://help.github.com/en/articles/about-pull-requests) for more information.
 
