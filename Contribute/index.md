@@ -3,7 +3,7 @@ title: Microsoft Docs contributor guide overview
 description: The guide describes how you can contribute to the Microsoft documentation site docs.microsoft.com.
 author: carlyrevier
 ms.author: cahublou
-ms.date: 03/09/2022
+ms.date: 05/11/2022
 ms.topic: contributor-guide
 ms.prod: non-product-specific
 ms.custom: external-contributor-guide
@@ -50,7 +50,7 @@ Quick edits streamline the process to report and fix small errors and omissions 
 
    :::image type="content" source="media/index/create-pull-request.png" alt-text="Compare changes and create pull request.":::
 
-   Select **Create pull request**. Next, enter a title and a description for the PR, and then select **Create pull request**. If you're new to GitHub, see [About pull requests](https://help.github.com/en/articles/about-pull-requests) for more information.
+   Select **Create pull request**. Next, enter a title and a description for the PR, and then select **Create pull request**. If you're new to GitHub, see [About pull requests](https://docs.github.com/articles/using-pull-requests) for more information.
 
 6. That's it! Content team members will review your PR and merge it when it's approved. You may get feedback requesting changes.
 
