@@ -1,10 +1,10 @@
 - name: Contributor Guide overview and browser-based tasks
   href: index.md
-- name: Set up and work locally
+- name: Set up local environment
   items:
-    - name: 1. Sign up for GitHub
+    - name: 1. GitHub account setup
       href: get-started-setup-github.md
-    - name: 2. Install Git and Markdown tools
+    - name: 2. Install content authoring tools
       href: get-started-setup-tools.md
     - name: 3. Set up a local Git repository
       href: get-started-setup-local.md
