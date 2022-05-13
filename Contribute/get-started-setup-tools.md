@@ -27,18 +27,33 @@ This article describes the steps to interactively install content authoring tool
 
 This install includes the Git version control system and Git Bash, the command-line app that you can use to interact with your local Git repository.
 
+> [!TIP]
+> If you already have Visual Studio Code installed you can set it as Git's default editor during setup.
+
 ### Install Git for Windows
 
 [!INCLUDE[Install Git client tools for Windows](~/guide/help-content/includes/proc-contribute-install-git-client-tools.md)]
 
 ### Install Git for macOS and Linux
 
-* Git for macOS is provided as part of the Xcode Command Line Tools. Simply run `git` from the command line. You will be prompted to install the command line tools if needed. You can learn more about installing [Git for macOS](https://git-scm.com/download/mac) from the Software Freedom Conservancy.
+* Git for macOS is provided as part of the Command Line Tools for Xcode. Simply run `git` from Terminal, and you will be prompted to install the command line tools if needed. You can learn more about installing [Git for macOS](https://git-scm.com/download/mac) from the Software Freedom Conservancy.
 * [Git for Linux and Unix](https://git-scm.com/download/linux)
 
-Follow the instructions for your chosen client for installation and configuration.
+### Configure Git
 
-Additional Git resources are available here: [Git terminology](https://help.github.com/articles/github-glossary) | [Git basics](https://git-scm.com/book/en/v2/) | [Learning Git and GitHub](https://help.github.com/articles/good-resources-for-learning-git-and-github/)
+After installation, Git comes ready-to-go, with the exception of two important configurations. For your changes to be properly tracked and attributed, you must set a local username and email. **Do not skip this step.**
+
+The following commands set the default username and email for every repository on your device, not just Microsoft repositories. For a more detailed guide on configuring Git, see GitHub's [Setting up Git](https://docs.github.com/articles/set-up-git#setting-up-git) documentation.
+
+```bash
+git config --global user.name "First Last"
+```
+
+```bash
+git config --global user.email "email@example.com"
+```
+
+Additional Git resources are available here: [GitHub Quickstart](https://docs.github.com/get-started/quickstart) | [Git basics](https://git-scm.com/book/en/v2/) | [Learning Git and GitHub](https://help.github.com/articles/good-resources-for-learning-git-and-github/)
 
 ## Install Visual Studio Code
 
