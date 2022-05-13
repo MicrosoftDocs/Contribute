@@ -161,4 +161,7 @@ After cloning the repository, set up a read-only remote connection to the main r
 
 ## Next steps
 
-- To learn more about adding and updating content, continue to the [GitHub contribution workflow](how-to-write-workflows-major.md).
+In this step you set up your local Git repository and learned how to contribute to documentation. In the next step you will learn more about adding and updating content.
+
+> [!div class="nextstepaction"]
+> [GitHub contribution workflow](how-to-write-workflows-major.md)
