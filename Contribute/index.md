@@ -3,7 +3,7 @@ title: Microsoft Docs Contributor Guide overview
 description: The guide describes how you can contribute to the Microsoft documentation site docs.microsoft.com.
 author: carlyrevier
 ms.author: cahublou
-ms.date: 05/21/2022
+ms.date: 05/22/2022
 ms.topic: contributor-guide
 ms.prod: non-product-specific
 ms.custom: external-contributor-guide
@@ -58,7 +58,7 @@ The GitHub editing UI responds to your permissions on the repository. The preced
 
 We use PRs for all changes, even for contributors who have write access. Most repositories protect the default branch so that updates must be submitted as PRs.
 
-The in-browser editing experience is best for minor or infrequent changes. If you make large contributions or use advanced Git features (such as branch management or advanced merge conflict resolution), you need to [fork the repo and work locally](how-to-write-workflows-major.md).
+The in-browser editing experience is best for minor or infrequent changes. If you make large contributions or use advanced Git features (such as branch management or advanced merge conflict resolution), you need to [fork the repository and work locally](how-to-write-workflows-major.md).
 
 [!INCLUDE[note-docsitelocfeedback](includes/note-docsitelocfeedback.md)]
 

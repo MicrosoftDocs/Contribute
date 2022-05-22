@@ -6,7 +6,7 @@ ms.prod: non-product-specific
 ms.custom: external-contributor-guide
 author: jasonwhowell
 ms.author: jasonh
-ms.date: 05/13/2022
+ms.date: 05/22/2022
 ---
 
 # Install content authoring tools
@@ -14,6 +14,7 @@ ms.date: 05/13/2022
 This article describes the steps to interactively install content authoring tools like Git and Visual Studio Code.
 
 > [!div class="checklist"]
+>
 > * Install [Git](https://git-scm.com/)
 > * Install [Visual Studio Code](https://code.visualstudio.com/)
 > * Install [Docs Authoring Pack](https://marketplace.visualstudio.com/items?itemName=docsmsft.docs-authoring-pack)
@@ -21,23 +22,23 @@ This article describes the steps to interactively install content authoring tool
 >[!IMPORTANT]
 > If you're making only minor changes to an article, you *do not* need to complete the steps in this article and can continue directly to the [quick changes workflow](index.md#quick-edits-to-documentation).
 >
-> Contributors who will be making major changes are encouraged to complete these steps, which enable you to use the [major/long-running changes workflow](how-to-write-workflows-major.md). Even if you have write permissions in the main repository, *we highly recommend (and this guide assumes) that you fork and clone the repository*, so that you have read/write permissions to store your proposed changes in your fork.
+> Contributors who will be making major changes are encouraged to complete these steps, which enable you to use the [major/long-running changes workflow](how-to-write-workflows-major.md). Even if you have write permissions in the main repository, *we highly recommend (and this guide assumes) that you fork and clone the repository* so that you have read/write permissions to store your proposed changes in your fork.
 
 ## Install Git
 
-This install includes the Git version control system and Git Bash, the command-line app that you can use to interact with your local Git repository.
+When installing Git, a version control system, on Windows, it includes Git Bash, a command-line application that you can use to run commands and interact with your local Git repository.
 
 > [!TIP]
 > If you already have Visual Studio Code installed you can set it as Git's default editor during setup.
 
-### Install Git for Windows
+### Install Git on Windows
 
 [!INCLUDE[Install Git client tools for Windows](~/guide/help-content/includes/proc-contribute-install-git-client-tools.md)]
 
-### Install Git for macOS and Linux
+### Install Git on Linux and macOS
 
-* Git for macOS is provided as part of the Command Line Tools for Xcode. Simply run `git` from Terminal, and you will be prompted to install the command line tools if needed. You can learn more about installing [Git for macOS](https://git-scm.com/download/mac) from the Software Freedom Conservancy.
-* [Git for Linux and Unix](https://git-scm.com/download/linux)
+* Git on macOS is provided as part of the Command Line Tools for Xcode. Simply run `git` from Terminal, and you will be prompted to install the command line tools if needed. You can learn more about installing [Git on macOS](https://git-scm.com/download/mac) from the Software Freedom Conservancy.
+* [Git on Linux and Unix](https://git-scm.com/download/linux)
 
 ### Configure Git
 
@@ -60,9 +61,9 @@ Additional Git resources are available here: [GitHub Quickstart](https://docs.gi
 [Visual Studio Code](https://code.visualstudio.com/), also known as VS Code, is a lightweight editor that works on Windows, Linux, and macOS. It includes Git integration, and support for extensions.
 
 > [!TIP]
-> To launch VS Code and open the current folder, run the command `code .` in the command line or bash shell. If the current folder is part of a local git repo, the GitHub integration appears in Visual Studio Code automatically.
+> To launch VS Code and open the current folder, run the command `code .` in the command line or bash shell. If the current folder is part of a local Git repository, the GitHub integration appears in Visual Studio Code automatically.
 
-### Install Visual Studio Code for Windows, macOS, and Linux
+### Install Visual Studio Code on Windows, Linux, and macOS
 
 The [VS Code home page](https://code.visualstudio.com/) should detect your operating system automatically. However, for OS specific instructions here are direct links:
 
@@ -81,9 +82,7 @@ The [VS Code home page](https://code.visualstudio.com/) should detect your opera
 
 To install the Docs Authoring Pack, select **Install** from the [Docs Authoring Pack page](https://marketplace.visualstudio.com/items?itemName=docsmsft.docs-authoring-pack) in the Visual Studio Marketplace.
 
-To use the Docs Authoring Pack functionality, press <kbd>Alt</kbd> + <kbd>M</kbd> in Visual Studio Code. To configure a toolbar to show the functions available, edit the Visual Studio Code settings <kbd>CTRL</kbd> + <kbd>,</kbd>, and add user setting `"markdown.showToolbar": true`.
-
-For more information, see [Docs Authoring Pack for Visual Studio Code](how-to-write-docs-auth-pack.md).
+To use the Docs Authoring Pack functionality, press <kbd>Alt</kbd> + <kbd>M</kbd> in Visual Studio Code. For more information, see [Docs Authoring Pack for Visual Studio Code](how-to-write-docs-auth-pack.md).
 
 ## Understand Markdown editors
 
