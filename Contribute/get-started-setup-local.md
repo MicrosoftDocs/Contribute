@@ -45,7 +45,7 @@ Before you start, here are a few important terms and Git actions that will be us
 | Push | Uploads all changes from the cloned repository into the forked repository. |
 | Pull | Downloads all changes from the forked repository into the cloned repository. |
 
-Along with the terminology outlined above, it might be helpful to reference the [Git and GitHub fundamentals](./git-github-fundamentals.md) along with the terminology section of the [GitHub contribution workflow](./how-to-write-workflows-major#terminology). Don't stress over knowing all of the terminologies right away; instead, use the above table as a reference, as needed, when going through this guide.
+Along with the terminology outlined above, it might be helpful to reference the [Git and GitHub fundamentals](./git-github-fundamentals.md) along with the terminology section of the [GitHub contribution workflow](./how-to-write-workflows-major.md#terminology). Don't stress over knowing all of the terminologies right away; instead, use the above table as a reference, as needed, when going through this guide.
 
 ## Determine the Microsoft repository
 
