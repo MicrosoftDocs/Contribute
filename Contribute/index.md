@@ -21,10 +21,7 @@ Several of the Microsoft documentation sets are open source and hosted on GitHub
 
 The Microsoft Docs contributor experience integrates [GitHub](https://github.com) workflows directly to make it even easier. Start by [editing the document you're viewing](#quick-edits-to-documentation) or help by [reviewing new topics](#review-open-prs) or [creating quality issues](#create-quality-issues).
 
-> [!IMPORTANT]
-> All repositories that publish to docs.microsoft.com have adopted the [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/) or the [.NET Foundation Code of Conduct](https://dotnetfoundation.org/about/code-of-conduct). For more information, see the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/). Contact [opencode@microsoft.com](mailto:opencode@microsoft.com) or [conduct@dotnetfoundation.org](mailto:conduct@dotnetfoundation.org) with any questions or comments.
->
-> Minor corrections or clarifications to documentation and code examples in public repositories are covered by the [docs.microsoft.com Terms of Use](/legal/termsofuse). New or significant changes generate a comment in the PR, asking you to submit an online Contribution License Agreement (CLA) if you're not a Microsoft employee. We need you to complete the online form before we can review or accept your PR.
+[!INCLUDE [alert-important-code-of-conduct](includes/alert-important-code-of-conduct.md)]
 
 ## Quick edits to documentation
 
