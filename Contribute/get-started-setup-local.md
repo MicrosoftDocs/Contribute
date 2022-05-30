@@ -35,15 +35,15 @@ To contribute to Microsoft's documentation you must fork the appropriate reposit
 
 Before you start, here are a few important terms and Git actions that will be used in this guide. In addition, the diagram above might help provide further understanding of how these terms relate.
 
-| Name | Description |
-|--|--|
-| Microsoft/Source Repository | This is the source repository that Microsoft maintains publicly on GitHub. You do not have write permissions to this repository. |
-| Fork | This is a copy of a main repository that provides an isolated space for you to make changes. In our case, "your fork" refers to your copy of the Microsoft repository. You have full control over this repository. |
-| Clone | This is a local copy of a repository. In our case this is a local copy of your fork stored on Github. |
-| Fetch Upstream | This keeps your fork up-to-date with the source or upstream repository. This is a one way action that pulls all changes from the upstream repository, in our case the Microsoft repository, into your forked or cloned repository. |
-| Pull Request | A request to merge changes from your fork into the upstream repository, in our case the Microsoft repository. |
-| Push | Uploads all changes from the cloned repository into the forked repository. |
-| Pull | Downloads all changes from the forked repository into the cloned repository. |
+| Name | Type | Description |
+|--|--|--|
+| Microsoft | Repo | This is the source repository that Microsoft maintains publicly on GitHub. You do not have write permissions to this repository. |
+| Fork | Repo/Action | The action of forking is simply the process of creating a copy of a repository on GitHub. A fork is the resulting repository from that action. In our case, your fork is a copy of the Microsoft repository. You have full control over your fork. |
+| Clone | Action | The action of cloning is the process of duplicating a repository through Git commands. A repository that has resulted from this action might be referred to as a cloned repository. In our case, the cloned repository is a download of your fork. Your fork, stored on GitHub, and the cloned repository, stored on your local device, are linked. You can push and pull changes between them. |
+| Fetch Upstream | Action | This is a one-way action that pulls all changes from the upstream repository into the cloned repository. In our case, the Microsoft repository is the upstream repository. This action keeps your fork and cloned repository up to date with changes made in the Microsoft repository. |
+| Pull Request | Action | The action of requesting to merge changes. In our case, you are requesting to merge changes you have made in your fork into the Microsoft repository. |
+| Push | Action | Uploads all changes from a local repository into a remote repository. In our case, upload changes from the cloned repository into your fork. |
+| Pull | Action | Downloads all changes from a remote repository into a local repository. In our case, download changes from your fork into the cloned repository. |
 
 Along with the terminology outlined above, it might be helpful to reference the [Git and GitHub fundamentals](./git-github-fundamentals.md) along with the terminology section of the [GitHub contribution workflow](./how-to-write-workflows-major.md#terminology). Don't stress over knowing all of the terminologies right away; instead, use the above table as a reference, as needed, when going through this guide.
 
