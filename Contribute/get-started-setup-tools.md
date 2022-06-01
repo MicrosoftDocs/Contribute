@@ -1,12 +1,12 @@
 ---
 title: Install content authoring tools
-description: This article helps you download and install the content authoring tools you will need, such as Git and Visual Studio Code.
+description: This article helps you install the content authoring tools, such as Git and Visual Studio Code, you will need for contributing to Microsoft Docs.
 ms.topic: contributor-guide
 ms.prod: non-product-specific
 ms.custom: external-contributor-guide
 author: jasonwhowell
 ms.author: jasonh
-ms.date: 05/22/2022
+ms.date: 06/01/2022
 ---
 
 # Install content authoring tools
@@ -14,7 +14,6 @@ ms.date: 05/22/2022
 This article describes the steps to interactively install content authoring tools like Git and Visual Studio Code.
 
 > [!div class="checklist"]
->
 > * Install [Git](https://git-scm.com/)
 > * Install [Visual Studio Code](https://code.visualstudio.com/)
 > * Install [Docs Authoring Pack](https://marketplace.visualstudio.com/items?itemName=docsmsft.docs-authoring-pack)

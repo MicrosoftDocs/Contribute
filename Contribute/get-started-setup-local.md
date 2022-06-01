@@ -1,12 +1,12 @@
 ---
 title: Set up a local Git repository
-description: This article provides guidance to create your local Git repository and contribute to documentation, including the forking and cloning process.
+description: This article helps you set up a local Git repository, including the forking and cloning process, for contributing to Microsoft Docs.
 ms.topic: contributor-guide
 ms.prod: non-product-specific
 ms.custom: external-contributor-guide
 author: jasonwhowell
 ms.author: jasonh
-ms.date: 05/28/2022
+ms.date: 06/01/2022
 ---
 
 # Set up a local Git repository
@@ -54,7 +54,7 @@ To start you need to determine what Microsoft repository you want to edit. Docum
 1. To determine which Microsoft repository contains the article you want to edit, visit the article on [docs.microsoft.com](https://docs.microsoft.com).
 
     > [!NOTE]
-    > If you're a Microsoft employee or vendor, before you edit the article, append `review.` to the beginning of the URL. This action lets you use the private repository, **windows-docs-pr**. For more information, see the [internal contributor guide](https://review.docs.microsoft.com/help/get-started/edit-article-in-github?branch=main).
+    > If you're a Microsoft employee or vendor, before you edit the article, append `review.` to the beginning of the URL. This action lets you use the private repository. For more information, see the [internal contributor guide](https://review.docs.microsoft.com/help/get-started/edit-article-in-github?branch=main).
 
 2. Then select the **Pencil** icon at the upper right of the article.
 
@@ -97,7 +97,7 @@ A fork is required since all documentation repositories provide read-only access
 
 Now that you have created a fork of the Microsoft repository, you must clone your fork locally. Some of the documentation repositories can be large; for example, `azure-docs` is up to 25 GB. Make sure to choose a location with available disk space for cloning the forked repository.
 
-When cloning a repository, Git will automatically create a new directory, with the forked repository's name,  within your current directory. If you are working on multiple documentation repositories it may be helpful to store them together. For example, you may want to clone the `azure-docs`, `sql-docs`, and `visualstudio-docs` using a directory path such as `C:/Users/<Username>/Documents/Docs/<Repo-Name>`. Each repository is stored separately in its own directory (`<Repo-Name>`), but together under the same parent directory (`Docs`).
+When cloning a repository, Git will automatically create a new directory, with the forked repository's name,  within your current directory. If you are working on multiple documentation repositories it might be helpful to store them together. For example, you might want to clone the `azure-docs`, `sql-docs`, and `visualstudio-docs` using a directory path such as `C:/Users/<Username>/Documents/Docs/<Repo-Name>`. With each repository being stored separately in its own directory (`<Repo-Name>`), but together under the same parent directory (`Docs`).
 
 > [!TIP]
 > [Windows Terminal](/windows/terminal/) with [PowerShell](/powershell/) supports a nearly identical command experience to that of Git Bash. You can even run Git Bash inside Windows Terminal.
@@ -186,7 +186,7 @@ If you are working on more substantial changes that span a larger period of time
    git remote -v
    ```
 
-   The **origin** URL entires should be your fork URL, while the **upstream** URL entires should be the source Microsoft repository URL.
+   The **origin** URL entires should be your fork URL, while the **upstream** URL entires should be the Microsoft repository URL.
 
    ```output
    origin  https://github.com/<Username>/<Repo-Name>.git (fetch)
