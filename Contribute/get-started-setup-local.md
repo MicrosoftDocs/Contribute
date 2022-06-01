@@ -29,7 +29,7 @@ Follow these one-time setup activities to start contributing:
 
 To contribute to Microsoft's documentation you must fork the appropriate repository into your own GitHub account. A fork provides an isolated space allowing you to have read and write permissions for your proposed changes. You can make and edit files locally by cloning your fork. After you save your changes locally you then push them to your fork. Once your changes are complete, you use pull requests to merge changes into the Microsoft documentation repository.
 
-:::image type="content" source="media/contribute-get-started-setup-local/repository-initial-setup.svg" alt-text="The Microsoft contributing workflow setup as outlined in this guide." lightbox="media/contribute-get-started-setup-local/repository-initial-setup.svg" border="false":::
+:::image type="content" source="media/contribute-get-started-setup-local/contribution-workflow-repository-setup.svg" alt-text="A diagram of the Microsoft Docs contribution workflow as outlined in this guide." lightbox="media/contribute-get-started-setup-local/contribution-workflow-repository-setup.svg" border="false":::
 
 ### Terminology
 
@@ -148,7 +148,7 @@ To clone your fork, run the **clone** command which downloads a copy of your for
    > [!Tip]
    > You can get your fork's GitHub URL for the clone command from the **Code** button in the GitHub UI:
    >
-   > :::image type="content" source="media/contribute-get-started-setup-local/github-code-button.svg" alt-text="GitHub Code button." border="false":::
+   > :::image type="content" source="media/contribute-get-started-setup-local/github-code-button.svg" alt-text="The GitHub Code button that provides a URL for cloning." border="false":::
 
    Be sure to specify the URL to your fork during the cloning process, not the Microsoft repository from which you created the fork. Otherwise, you cannot contribute changes.
 
