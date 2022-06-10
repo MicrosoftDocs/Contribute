@@ -11,7 +11,7 @@ ms.custom: external-contributor-guide
 
 # How to include code in docs
 
-There are several ways to include code in an article published on docs.microsoft.com:
+There are several ways other than [screenshots](#screenshots) to include code in an article published on docs.microsoft.com:
 
 * Individual elements (words) within a line.
 
