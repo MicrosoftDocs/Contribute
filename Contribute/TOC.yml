@@ -2,7 +2,7 @@
   href: index.md
 - name: Set up local environment
   items:
-    - name: 1. GitHub account setup
+    - name: 1. Set up a GitHub account
       href: get-started-setup-github.md
     - name: 2. Install content authoring tools
       href: get-started-setup-tools.md

@@ -64,11 +64,7 @@ Additional Git resources are available here: [GitHub Quickstart](https://docs.gi
 
 ### Install Visual Studio Code on Windows, Linux, and macOS
 
-The [VS Code home page](https://code.visualstudio.com/) should detect your operating system automatically. However, for OS specific instructions here are direct links:
-
-* [Windows](https://code.visualstudio.com/docs/setup/windows)
-* [macOS](https://code.visualstudio.com/docs/setup/mac)
-* [Linux](https://code.visualstudio.com/docs/setup/linux)
+The [Visual Studio Code home page](https://code.visualstudio.com/) should detect your operating system automatically.
 
 ## Install Visual Studio Code extensions
 
