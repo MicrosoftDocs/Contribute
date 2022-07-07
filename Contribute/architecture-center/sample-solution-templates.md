@@ -69,7 +69,7 @@ Name this file *\<sample-solution>-content.md* (do not use acronyms or capitals 
 
 > Under the architecture diagram, include this sentence and a link to the Visio file or the PowerPoint file: 
 
-*Download a [Visio file](https://arch-center.azureedge.net/[filename].vsdx) of this architecture.*
+*Download a [Visio file](https://arch-center.azureedge.net/[file-name].vsdx) of this architecture.*
 
 > Note that you must send the Visio or PowerPoint file to the AAC contact.
 
