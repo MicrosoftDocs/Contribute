@@ -6,7 +6,7 @@ ms.prod: non-product-specific
 ms.custom: internal-contributor-guide
 author: EdPrice-MSFT
 ms.author: edprice
-ms.date: 05/11/2022
+ms.date: 07/08/2022
 ---
 
 # Azure Architecture Center contributions
@@ -81,14 +81,28 @@ All edits *must not have* the following:
 
 ### Process
 
-Steps to follow to set up your GitHub account and browser for editing:
+**Setup**. Steps to follow to set up your GitHub account and browser for editing:
 
-1. Set up your GitHub account.
+1. Set up your GitHub account. See [GitHub account setup](/contribute/get-started-setup-github).
 
-1. Spine Edit instructions.
+1. To improve your edit experience, install SpineEdit from the [Chrome web store](https://chrome.google.com/webstore/detail/spineedit/llhlgkbkfdfcbjbfnnakfpgmemopbbnf). The extension works in all Chromium-based browsers, including Microsoft Edge.
 
-Steps to follow to edit a Microsoft Docs article:
+Learn more about the benefits of [SpineEdit](https://github.com/craigshoemaker/spineedit#introduction). 
 
-1. Click the Edit This Document button (the pencil icon in the top right of the article, above the title).
+**Edit**. Steps to follow to edit a Microsoft Docs article:
 
-1. 
+1. Click the **Edit This Document** button (the pencil icon in the top right of the article, above the title).
+1. After you make your edits, click the **Propose changes** button at the bottom of the page. Then click **Create pull request** on the next page.
+
+A Microsoft employee will review your changes, and our pull request review team will merge and publish your changes.
+
+See [Quick edits to documentation](/contribute/?msclkid=4121f48ad0b311eca160953a4cf93670#quick-edits-to-documentation) for detailed instructions.
+
+
+## Content templates
+
+* **Architecture Guide templates**. Architecture Guides are AAC articles that do not have a standard structure in the article, except for three sections at the bottom: Contributors (credits), Next steps (links to other articles and sources), and Related resources (links to other AAC guides and architectures). The content can be high-level conceptual, middle-level process-oriented, or low-level implementation instructions. They follow the requirements of all AAC content, including that they are architectural (connecting multiple technologies and services into one story).
+
+* **Solution Idea templates**. Solution Ideas are our "small" AAC architectures. They provide brief overviews of solutions that customers can implement using Azure services. Each Solution Idea has an architecture diagram, dataflow, components (a list of the services used), contributor credits, next step links, and related resources (links to related AAC guides and architectures).
+
+* **Example Workload templates**. Example Workloads are our "medium" AAC architectures. They Example workloads guide customers through the design process of solving specific problems in Azure. They provide actionable architecture guidance based on real customer examples. Their goal is to shorten a customer's learning curve by telling them the story of another customer who has been there before. In addition to the Solution Idea sections, they also include Alternatives (other services that you can plug into the architecture instead), Considerations (which map to our Well Architected principals), and they can optionally include a deployment.
