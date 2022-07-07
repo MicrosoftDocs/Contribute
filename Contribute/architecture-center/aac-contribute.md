@@ -3,7 +3,7 @@ title: Contribute to the Azure Architecture Center
 description: This article describes how to contribute to the Azure Architecture Center.
 ms.topic: contributor-guide
 ms.prod: non-product-specific
-ms.custom: internal-contributor-guide
+ms.custom: external-contributor-guide
 author: EdPrice-MSFT
 ms.author: edprice
 ms.date: 07/08/2022
