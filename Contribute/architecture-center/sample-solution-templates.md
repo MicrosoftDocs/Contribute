@@ -19,7 +19,7 @@ Each article must have two files: YML and MD.
 
 ## YML file
 
-Name this file *\<sample-solution>.yml*:
+Name this file *\<example-workload>.yml*:
 
 ```yml
 ### YamlMime:Architecture
