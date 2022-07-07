@@ -33,7 +33,7 @@ metadata:
   ms.service: architecture-center
   ms.subservice: example-scenario
 azureCategories:
-  - <Include at least one category, such as ai-machine-learning, analytics, compute, containers, databases, devops, hybrid, identity, integration, iot, networking, security, storage, and web >
+  - <Include at least one category, such as ai-machine-learning, analytics, compute, containers, databases, devops, hybrid, identity, integration, iot, networking, security, storage, and web>
   - <There can be more than one category>
 products:
   - <Choose 1-5 products, such as azure-active-directory, azure-app-service, azure-arc, azure-cosmos-db, azure-data-factory, azure-data-lake, azure-devops, azure-event-hubs, azure-firewall, azure-functions, azure-hdinsight, azure-iot, azure-sql-database, azure-storage, and azure-virtual-machines. If your product is not included here, inquire with our AAC team.>
