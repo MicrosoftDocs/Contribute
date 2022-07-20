@@ -11,7 +11,7 @@ ms.custom: external-contributor-guide
 
 # Docs Markdown reference
 
-This article provides an alphabetical reference for writing Markdown for docs.microsoft.com (Docs).
+This article provides an alphabetical reference for writing Markdown for docs.microsoft.com (Docs). Change here
 
 [Markdown](https://daringfireball.net/projects/markdown/) is a lightweight markup language with plain text formatting syntax. Docs supports [CommonMark](https://commonmark.org/) compliant Markdown parsed through the [Markdig](https://github.com/lunet-io/markdig) parsing engine. Docs also supports custom Markdown extensions that provide richer content on the Docs site.
 
@@ -164,17 +164,23 @@ For example, the following Markdown creates one column that spans two column wid
 This renders as follows:
 
 :::row:::
-   :::column span="2":::
-      **This is a 2-span column with lots of text.**
+:::column span="2":::
+**This is a 2-span column with lots of text.**
 
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vestibulum mollis nunc
-      ornare commodo. Nullam ac metus imperdiet, rutrum justo vel, vulputate leo. Donec
-      rutrum non eros eget consectetur.
+```
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vestibulum mollis nunc
+  ornare commodo. Nullam ac metus imperdiet, rutrum justo vel, vulputate leo. Donec
+  rutrum non eros eget consectetur.
+```
+
    :::column-end:::
-   :::column span="":::
-      **This is a single-span column with an image in it.**
+:::column span="":::
+**This is a single-span column with an image in it.**
 
-      ![Doc.U.Ment](media/markdown-reference/document.png)
+```
+  ![Doc.U.Ment](media/markdown-reference/document.png)
+```
+
    :::column-end:::
 :::row-end:::
 
@@ -391,15 +397,16 @@ The example above renders as:
 
 - This is a bulleted list example (one space after the bullet before the letter T).
 
-  This sentence is indented two spaces.
+   This sentence is indented two spaces.
 
-  > [!TIP]
-  > This tip is indented two spaces.
-  - This is a second-level bullet (indented two spaces, with one space after the bullet before the letter T).
+   > [!TIP]
+   > This tip is indented two spaces.
 
-    This sentence is indented four spaces.
+   - This is a second-level bullet (indented two spaces, with one space after the bullet before the letter T).
 
-    > This quote block is indented four spaces.
+      This sentence is indented four spaces.
+
+      > This quote block is indented four spaces.
 
 ## Links
 
@@ -425,8 +432,11 @@ This renders as follows:
 
 1. This is
 1. a parent numbered list
+
    1. and this is
    1. a nested numbered list
+
+
 1. (fin)
 
 ### Bulleted list
@@ -445,8 +455,11 @@ This renders as follows:
 
 - This is
 - a parent bulleted list
-  - and this is
-  - a nested bulleted list
+
+   - and this is
+   - a nested bulleted list
+
+
 - All done!
 
 Whichever syntax you use, `-` or `*`, use it consistently within an article.
@@ -465,8 +478,13 @@ Checklists are available for use on Docs via a custom Markdown extension:
 This example renders on Docs like this:
 
 > [!div class="checklist"]
+>
 > * List item 1
+>
+>
 > * List item 2
+>
+>
 > * List item 3
 
 Use checklists at the beginning or end of an article to summarize "What will you learn" or "What have you learned" content. Do not add random checklists throughout your articles.
@@ -599,13 +617,28 @@ There are two types of selectors: a single selector and a multi-selector.
 ... will be rendered like this:
 
 > [!div class="op_single_selector"]
+>
 > - [Universal Windows](how-to-write-links.md)
+>
+>
 > - [Windows Phone](how-to-write-links.md)
+>
+>
 > - [iOS](how-to-write-links.md)
+>
+>
 > - [Android](how-to-write-links.md)
+>
+>
 > - [Kindle](how-to-write-links.md)
+>
+>
 > - [Baidu](how-to-write-links.md)
+>
+>
 > - [Xamarin.iOS](how-to-write-links.md)
+>
+>
 > - [Xamarin.Android](how-to-write-links.md)
 
 ### Multi-selector
@@ -627,15 +660,34 @@ There are two types of selectors: a single selector and a multi-selector.
 ... will be rendered like this:
 
 > [!div class="op_multi_selector" title1="Platform" title2="Backend"]
+>
 > - [(iOS | .NET)](how-to-write-links.md)
+>
+>
 > - [(iOS | JavaScript)](how-to-write-links.md)
+>
+>
 > - [(Windows universal C# | .NET)](how-to-write-links.md)
+>
+>
 > - [(Windows universal C# | Javascript)](how-to-write-links.md)
+>
+>
 > - [(Windows Phone | .NET)](how-to-write-links.md)
+>
+>
 > - [(Windows Phone | Javascript)](how-to-write-links.md)
+>
+>
 > - [(Android | .NET)](how-to-write-links.md)
+>
+>
 > - [(Android | Javascript)](how-to-write-links.md)
+>
+>
 > - [(Xamarin iOS | Javascript)](how-to-write-links.md)
+>
+>
 > - [(Xamarin Android | Javascript)](how-to-write-links.md)
 
 ## Subscript and superscript
@@ -700,7 +752,7 @@ Renders as follows:
 
 > [!TIP]
 > The Docs Authoring Extension for VS Code makes it easy to add basic Markdown tables!
->
+> 
 > You can also use an [online table generator](http://www.tablesgenerator.com/markdown_tables).
 
 ### Line breaks within words in any table cell
