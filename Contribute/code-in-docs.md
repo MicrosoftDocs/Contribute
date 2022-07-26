@@ -87,7 +87,17 @@ might look too busy with code styling everywhere. If you choose to use bold styl
 
 A link to reference documentation may be more helpful than code format in some contexts. If you use a link, don't apply code format to the link text. Styling a link as code can obscure the fact that the text is a link.
 
-If you use a link and refer to the same element later in the same context, make the subsequent instances code format rather than links.
+If you use a link and refer to the same element later in the same context, make the subsequent instances code format rather than links. For example:
+
+```markdown
+The first reference to <xref:System.CommandLine> in this text is a link.
+Subsequent references to `System.CommandLine` can be in code style.
+```
+
+Rendered:
+
+The first reference to <xref:System.CommandLine> in this text is a link.
+Subsequent references to `System.CommandLine` can be in code style.
 
 ## Placeholders
 
