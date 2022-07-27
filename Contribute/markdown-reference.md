@@ -399,14 +399,14 @@ The example above renders as:
 
 - This is a bulleted list example (one space after the bullet before the letter T).
 
-   This sentence is indented two spaces.
+    This sentence is indented two spaces.
 
    > [!TIP]
    > This tip is indented two spaces.
 
    - This is a second-level bullet (indented two spaces, with one space after the bullet before the letter T).
 
-      This sentence is indented four spaces.
+       This sentence is indented four spaces.
 
       > This quote block is indented four spaces.
 
