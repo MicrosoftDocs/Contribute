@@ -175,7 +175,7 @@ When referring to keys or key combinations, follow these conventions:
 
 ### Examples of keys and keyboard shortcuts
 
-* **This**: Select \<kbd>Alt\</kbd>+\<kbd>Ctrl\</kbd>+\<kbd>S\</kbd>, rendered as <kbd>Alt</kbd>+<kbd>Ctrl</kbd>+<kbd>S</kbd>.
+* **This**: Select <kbd>Alt</kbd>+<kbd>Ctrl</kbd>+<kbd>S</kbd>.
 * **Not this**: Press **ALT+CTRL+S**.
 * **Not this**: Hit `ALT+CTRL+S`.
 
