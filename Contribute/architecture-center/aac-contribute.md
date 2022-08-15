@@ -88,7 +88,7 @@ All edits *must not have* the following:
 
 1. To improve your edit experience, install SpineEdit from the [Chrome web store](https://chrome.google.com/webstore/detail/spineedit/llhlgkbkfdfcbjbfnnakfpgmemopbbnf). The extension works in all Chromium-based browsers, including Microsoft Edge.
 
-Learn more about the benefits of [SpineEdit](https://github.com/craigshoemaker/spineedit#introduction). 
+To learn more about the benefits of SpineEdit, see [SpineEdit introduction](https://github.com/craigshoemaker/spineedit#introduction). 
 
 **Edit**. Steps to follow to edit a Microsoft Docs article:
 
