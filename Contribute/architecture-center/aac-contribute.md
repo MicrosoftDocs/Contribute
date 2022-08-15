@@ -67,7 +67,7 @@ If your solution includes code and/or a deployment, then there are a number of a
 
 ## Edit an existing article
 
-You can edit an existing article on Azure Architecture Center, if you see a typo, want to add a link, or want to add more details.
+You can edit an existing article on Azure Architecture Center if you see a typo, want to add a link, or want to add more details.
 
 ### Base requirements
 
