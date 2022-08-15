@@ -6,14 +6,14 @@ ms.prod: non-product-specific
 ms.custom: external-contributor-guide
 author: EdPrice-MSFT
 ms.author: edprice
-ms.date: 07/08/2022
+ms.date: 08/16/2022
 ---
 
 # Azure Architecture Center contributions
 
 You can edit articles or create new articles for the Azure Architecture Center. The Azure Architecture Center (AAC) encourages contributions from the public, through GitHub issues and pull requests (PR). This page covers the general guidelines for contributing content to the Azure Architecture Center.
 
-## What is the Azure Architecture Center
+## Overview
 
 The Azure Architecture Center (AAC) helps customers design, build, and operate solutions on Azure. AAC consists of three main sections of content: [Architecture fundamentals](/azure/architecture/guide), Industry solutions, and Azure categories. 
 
@@ -50,16 +50,15 @@ If your solution includes code and/or a deployment, then there are a number of a
     1. The name of your proposed article.
     1. What type of content this should be. Options include an Architecture Guide, a Solution Idea, an Example Workload, or a Reference Architecture.
     1. A brief description of your article.
-    1. The category (such as AI/ML, Databases, or Security) and/or the industry (such as Retail, Healthcare, and so on) that this article would fit in.
+    1. The category (such as AI/ML, Databases, or Security) and/or the industry (such as Retail, Healthcare, and so on) that this article would fit in (
     1. A draft of your article (and/or your code) if you have it. The most efficient way to do this is to send us a Word doc. This could include a link to an accessible location (like a OneDrive), a blog post or GitHub MD file that the article is based on, and so on.
     1. List the names of all the team members involved in creating this content. Include them in CC on your email.
     
-1. We will follow up with you and ask any questions to make sure this isn't repeated content and to sync on the next steps.
+1. We will follow up with you and ask any questions, to make sure this isn't repeated content, and to sync on the next steps.
 
 1. You (the contributor) submit the draft article. Because we don't have resources to create the draft, you must write the initial draft of the article.
 
-> [!NOTE]
-> If this article is an architecture, you must provide a Visio or PowerPoint diagram of the architecture.
+    - If this article is an architecture, you must provide a Visio or PowerPoint diagram of the architecture.
 
 1. We will review the draft with you, to ensure technical accuracy and technical completeness (it tells the full story).
 
