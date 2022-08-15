@@ -58,7 +58,8 @@ If your solution includes code and/or a deployment, then there are a number of a
 
 1. You (the contributor) submit the draft article. Because we don't have resources to create the draft, you must write the initial draft of the article.
 
-    - If this article is an architecture, you must provide a Visio or PowerPoint diagram of the architecture.
+> [!NOTE]
+> If this article is an architecture, you must provide a Visio or PowerPoint diagram of the architecture.
 
 1. We will review the draft with you, to ensure technical accuracy and technical completeness (it tells the full story).
 
