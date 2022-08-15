@@ -50,7 +50,7 @@ If your solution includes code and/or a deployment, then there are a number of a
     1. The name of your proposed article.
     1. What type of content this should be. Options include an Architecture Guide, a Solution Idea, an Example Workload, or a Reference Architecture.
     1. A brief description of your article.
-    1. The category (such as AI/ML, Databases, or Security) and/or the industry (such as Retail, Healthcare, and so on) that this article would fit in (
+    1. The category (such as AI/ML, Databases, or Security) and/or the industry (such as Retail, Healthcare, and so on) that this article would fit in.
     1. A draft of your article (and/or your code) if you have it. The most efficient way to do this is to send us a Word doc. This could include a link to an accessible location (like a OneDrive), a blog post or GitHub MD file that the article is based on, and so on.
     1. List the names of all the team members involved in creating this content. Include them in CC on your email.
     
