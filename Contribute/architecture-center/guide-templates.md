@@ -82,7 +82,7 @@ Other contributors: > Include contributing (but not primary) authors, major edit
 Browse format articles must have at least four files:
 
 - A YML file that has the metadata and article H1 title.
-- The *-content.md* file that has the article content
+- The *-content.md* file that has the article content.
 - One or more architectural diagrams, in PNG or SVG format, in the article
 - A browse thumbnail graphic uploaded to the */docs/browser/thumbs/* directory of the AAC repository
 
