@@ -82,7 +82,7 @@ All edits *must not have* the following:
 
 ### Process
 
-**Setup**. Steps to follow to set up your GitHub account and browser for editing:
+**Setup**. Steps you must follow to set up your GitHub account and browser for editing:
 
 1. Set up your GitHub account. See [GitHub account setup](/contribute/get-started-setup-github).
 
