@@ -54,7 +54,7 @@ If your solution includes code and/or a deployment, then there are a number of a
     1. A draft of your article (and/or your code) if you have it. The most efficient way to do this is to send us a Word doc. This could include a link to an accessible location (like a OneDrive), a blog post or GitHub MD file that the article is based on, and so on.
     1. List the names of all the team members involved in creating this content. Include them in CC on your email.
     
-1. We will follow up with you and ask any questions, to make sure this isn't repeated content, and to sync on the next steps.
+1. We will follow up with you and ask any questions to make sure this isn't repeated content and to sync on the next steps.
 
 1. You (the contributor) submit the draft article. Because we don't have resources to create the draft, you must write the initial draft of the article.
 
