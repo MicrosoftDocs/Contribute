@@ -116,7 +116,7 @@ Example:
 ## Contributors
 
 
-> Start with the explanation text (same for every section), in italics. Then include the "Pricipal authors" list and the "Other contributors" list, if there are additional contributors (all in plain text, not italics or bold). Link each contributor's name to the person's LinkedIn profile. After the name, place a pipe symbol ("|") with spaces, and then enter the person's title. We don't include the person's company, MVP status, or links to additional profiles. Implement this format:
+> Start with the explanation text (same for every section), in italics. Then include the "Principal authors" list and the "Other contributors" list, if there are additional contributors (all in plain text, not italics or bold). Link each contributor's name to the person's LinkedIn profile. After the name, place a pipe symbol ("|") with spaces, and then enter the person's title. We don't include the person's company, MVP status, or links to additional profiles. Implement this format:
 
 *This article is maintained by Microsoft. It was originally written by the following contributors.*
 
