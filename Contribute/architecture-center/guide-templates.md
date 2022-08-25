@@ -48,7 +48,7 @@ The Architecture Guide template requires the following sections at the end of th
 
 > (Expected, but this section is optional if all the contributors would prefer to not include it)
 
-> Start with the explanation text (same for every article), in italics. Then include the "Pricipal authors" list and the "Additional contributors" list (if there are additional contributors) (all in plain text, not italics or bold). Link each contributor's name to the person's LinkedIn profile. After the name, place a pipe symbol ("|") with spaces, and then enter the person's title. We don't include the person's company, MVP status, or links to additional profiles. Implement this format:
+> Start with the explanation text (same for every article), in italics. Then include the "Principal authors" list and the "Additional contributors" list (if there are additional contributors) (all in plain text, not italics or bold). Link each contributor's name to the person's LinkedIn profile. After the name, place a pipe symbol ("|") with spaces, and then enter the person's title. We don't include the person's company, MVP status, or links to additional profiles. Implement this format:
 
 *This article is maintained by Microsoft. It was originally written by the following contributors.*
 
