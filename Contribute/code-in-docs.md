@@ -1,6 +1,6 @@
 ---
 title: How to include code in docs
-description: Learn how to include code elements and snippets in articles to be published on docs.microsoft.com.
+description: Learn how to include code elements and snippets in articles to be published on Microsoft Docs.
 author: tdykstra
 ms.author: tdykstra
 ms.date: 11/09/2021
@@ -11,7 +11,7 @@ ms.custom: external-contributor-guide
 
 # How to include code in docs
 
-There are several ways other than [screenshots](#screenshots) to include code in an article published on docs.microsoft.com:
+There are several ways other than [screenshots](#screenshots) to include code in an article published on Microsoft Docs:
 
 * Individual elements (words) within a line.
 
@@ -247,7 +247,7 @@ environment indicator in your inline code blocks.
 
 ## In-repo snippet references
 
-The preferred way to include code snippets for programming languages in docs is by reference to a code file. This method gives you the ability to highlight lines of code and makes the wider context of the snippet available on GitHub for developers to use. You can include code by using the triple colon format (:\:\:) either manually or in Visual Studio Code with the help of the [docs.microsoft.com Authoring Pack](https://marketplace.visualstudio.com/items?itemName=docsmsft.docs-authoring-pack).
+The preferred way to include code snippets for programming languages in docs is by reference to a code file. This method gives you the ability to highlight lines of code and makes the wider context of the snippet available on GitHub for developers to use. You can include code by using the triple colon format (:\:\:) either manually or in Visual Studio Code with the help of the [Docs Authoring Pack](https://marketplace.visualstudio.com/items?itemName=docsmsft.docs-authoring-pack).
 
 1. In Visual Studio Code, click <kbd>Alt + M</kbd> or <kbd>Option + M</kbd> and select Snippet.
 2. Once Snippet is selected, you will be prompted for Full Search, Scoped Search or Cross-Repository Reference. To search locally, select Full Search.
@@ -385,7 +385,7 @@ In the root folder of *azure-docs*, add the following section in
 Now when you refer to *samples-durable-functions* as if it were a folder in *azure-docs*, you're
 actually referring to the root folder in the *azure-functions-durable-extension* repository.
 
-You can include code by using the triple colon format (:\:\:) either manually or in Visual Studio Code with the help of the [docs.microsoft.com Authoring Pack](https://marketplace.visualstudio.com/items?itemName=docsmsft.docs-authoring-pack).
+You can include code by using the triple colon format (:\:\:) either manually or in Visual Studio Code with the help of the [Docs Authoring Pack](https://marketplace.visualstudio.com/items?itemName=docsmsft.docs-authoring-pack).
 
 1. In Visual Studio Code, click <kbd>Alt + M</kbd> or <kbd>Option + M</kbd> and select Snippet.
 2. Once Snippet is selected, you will be prompted for Full Search, Scoped Search or Cross-Repository Reference. To search across repositories, select Cross-Repository Reference.
