@@ -14,7 +14,7 @@ As a contributor to Docs content, you will interact with multiple tools and proc
 
 Git is an open-source version control system. It facilitates this type of project collaboration through *distributed version control* of files that live in *repositories*. In essence, Git makes it possible to integrate streams of work done by multiple contributors over time, for a given repository.
 
-GitHub is a web-based hosting service for Git repositories, such as those used to [store]() content. For any project, GitHub hosts the main repository, from which contributors can make copies for their own work.
+GitHub is a web-based hosting service for Git repositories, such as those used to store [Microsoft Docs](/) content. For any project, GitHub hosts the main repository, from which contributors can make copies for their own work.
 
 ## Git
 
