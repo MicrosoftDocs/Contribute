@@ -76,8 +76,10 @@ Content published on Microsoft Docs has the following URL structure:
 
 Examples:
 
-`https://docs.microsoft.com/en-us/azure/load-balancer/load-balancer-overview
-https://docs.microsoft.com/en-us/powershell/azure/overview?view=azurermps-5.1.1`
+```
+https://docs.microsoft.com/en-us/azure/load-balancer/load-balancer-overview
+https://docs.microsoft.com/en-us/powershell/azure/overview?view=azurermps-5.1.1
+```
 
 - `<locale>` - identifies the language of the article (example: en-us or de-de)
 - `<product-service>` - the name of the product or service (example: powershell, dotnet, or azure)
