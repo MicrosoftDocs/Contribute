@@ -1,5 +1,5 @@
 ---
-title: Markdown reference for docs.microsoft.com
+title: Markdown reference for Microsoft Docs
 description: Learn the Markdown features and syntax used in the Microsoft Docs platform.
 author: meganbradley
 ms.author: mbradley
@@ -11,7 +11,7 @@ ms.custom: external-contributor-guide
 
 # Docs Markdown reference
 
-This article provides an alphabetical reference for writing Markdown for docs.microsoft.com (Docs).
+This article provides an alphabetical reference for writing Markdown for [Microsoft Docs](/).
 
 [Markdown](https://daringfireball.net/projects/markdown/) is a lightweight markup language with plain text formatting syntax. Docs supports [CommonMark](https://commonmark.org/) compliant Markdown parsed through the [Markdig](https://github.com/lunet-io/markdig) parsing engine. Docs also supports custom Markdown extensions that provide richer content on the Docs site.
 
@@ -19,7 +19,7 @@ You can use any text editor to write Markdown, but we recommend [Visual Studio C
 
 ## Alerts (Note, Tip, Important, Caution, Warning)
 
-Alerts are a Markdown extension to create block quotes that render on Docs with colors and icons that indicate the significance of the content. 
+Alerts are a Markdown extension to create block quotes that render on Docs with colors and icons that indicate the significance of the content.
 
 Avoid notes, tips, and important boxes. Readers tend to skip over them. It's better to put that info directly into the article text.
 
