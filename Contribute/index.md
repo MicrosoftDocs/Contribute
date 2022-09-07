@@ -1,5 +1,5 @@
 ---
-title: Contributor guide overview
+title: Microsoft Docs contributor guide overview
 description: The guide describes how you can contribute to technical content on Microsoft Docs.
 author: carlyrevier
 ms.author: cahublou
@@ -9,7 +9,7 @@ ms.prod: non-product-specific
 ms.custom: external-contributor-guide
 ---
 
-# Contributor guide overview
+# Microsoft Docs contributor guide overview
 
 Welcome to the [Microsoft Docs](https://docs.microsoft.com) contributor guide!
 
