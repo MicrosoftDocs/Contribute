@@ -59,7 +59,7 @@ For small changes, see the instructions on editing in GitHub on the [home page](
 
 **Step 3:** Make the changes on this new branch.
 
-If it's a new topic, you can use this [template file](dotnet-style-guide.md) as your starting point. It contains the writing guidelines and also explains the metadata required for each article, such as author information. For more information on the Markdown syntax used in the docs.microsoft.com site, see [Markdown reference](../markdown-reference.md).
+If it's a new topic, you can use this [template file](dotnet-style-guide.md) as your starting point. It contains the writing guidelines and also explains the metadata required for each article, such as author information. For more information on the Markdown syntax used in Microsoft Docs, see [Markdown reference](../markdown-reference.md).
 
 Navigate to the folder that corresponds to the TOC location determined for your article in step 1. That folder contains the Markdown files for all articles in that section. If necessary, create a new folder to place the files for your content. The main article for that section is called *index.md*.
 
@@ -86,7 +86,7 @@ The .NET team will review your PR and let you know if there are any other update
 
 The maintainers will merge your PR into the default branch once feedback has been applied and your change is approved.
 
-We regularly push all commits from default branch into the live branch and then you'll be able to see your contribution live at [https://docs.microsoft.com/dotnet/](/dotnet/). We typically publish daily during the work week.
+We regularly push all commits from default branch into the live branch and then you'll be able to see your contribution live in the [.NET documentation](/dotnet/). We typically publish daily during the work week.
 
 ## Example folder structure
 
@@ -123,9 +123,9 @@ docs
 > [!NOTE]
 > The language folders under snippets are not needed in the language guide area, where only one language is assumed. For example, in the C# guide, it's assumed that all snippets are C#.
 
-The structure shown above includes one image, *portability_report.png*, and three code projects that include **code snippets** that are included in the *porting-overview.md* article. 
+The structure shown above includes one image, *portability_report.png*, and three code projects that include **code snippets** that are included in the *porting-overview.md* article.
 
-The *snippets/shared* folder is used for snippets that may span multiple articles within the same parent folder, such as the *porting* folder in the previous example. Only use the *shared* folder when you have a specific reason to do so, such as XAML code that's referenced by multiple articeles, yet can't compile in the *article-specific* folder.
+The *snippets/shared* folder is used for snippets that may span multiple articles within the same parent folder, such as the *porting* folder in the previous example. Only use the *shared* folder when you have a specific reason to do so, such as XAML code that's referenced by multiple articles, yet can't compile in the *article-specific* folder.
 
 Media can also be shared across articles when those articles are in the same parent folder, such as the *porting* folder in the previous example. This *shared* folder should be avoided if possible, and only used when it makes sense. For example, it may make sense to share a common loading screen for the app being demonstrated, or share Visual Studio dialogs that are reused across multiple articles.
 
