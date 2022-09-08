@@ -1,6 +1,6 @@
 ---
 title: Microsoft Docs contributor guide overview
-description: The guide describes how you can contribute to the Microsoft documentation site docs.microsoft.com.
+description: The guide describes how you can contribute to technical content on Microsoft Docs.
 author: carlyrevier
 ms.author: cahublou
 ms.date: 05/11/2022
@@ -11,7 +11,7 @@ ms.custom: external-contributor-guide
 
 # Microsoft Docs contributor guide overview
 
-Welcome to the [docs.microsoft.com](https://docs.microsoft.com) (Microsoft Docs) contributor guide!
+Welcome to the [Microsoft Docs](https://docs.microsoft.com) contributor guide!
 
 Several of the Microsoft documentation sets are open source and hosted on GitHub. Not all document sets are completely open source, but many have public-facing repos where you can suggest changes via pull requests (PR). This open-source approach streamlines and improves communication between product engineers, content teams, and customers, and it has other advantages:
 
@@ -22,7 +22,7 @@ Several of the Microsoft documentation sets are open source and hosted on GitHub
 The user experience on Microsoft Docs integrates [GitHub](https://github.com) workflows directly to make it even easier. Start by [editing the document you're viewing](#quick-edits-to-documentation). Or help by [reviewing new topics](#review-open-prs) or [creating quality issues](#create-quality-issues).
 
 > [!IMPORTANT]
-> All repositories that publish to docs.microsoft.com have adopted the [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/) or the [.NET Foundation Code of Conduct](https://dotnetfoundation.org/code-of-conduct). For more information, see the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/). Contact [opencode@microsoft.com](mailto:opencode@microsoft.com) or [conduct@dotnetfoundation.org](mailto:conduct@dotnetfoundation.org) with any questions or comments.<br>
+> All repositories that publish to Microsoft Docs have adopted the [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/) or the [.NET Foundation Code of Conduct](https://dotnetfoundation.org/code-of-conduct). For more information, see the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/). Contact [opencode@microsoft.com](mailto:opencode@microsoft.com) or [conduct@dotnetfoundation.org](mailto:conduct@dotnetfoundation.org) with any questions or comments.<br>
 >
 > Minor corrections or clarifications to documentation and code examples in public repositories are covered by the [docs.microsoft.com Terms of Use](/legal/termsofuse). New or significant changes generate a comment in the PR, asking you to submit an online Contribution License Agreement (CLA) if you're not a Microsoft employee. We need you to complete the online form before we can review or accept your PR.
 

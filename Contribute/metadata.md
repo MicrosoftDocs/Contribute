@@ -1,5 +1,5 @@
 ---
-title: Metadata for docs.microsoft.com
+title: Metadata for Microsoft Docs content
 description: Learn about the required and optional metadata for Microsoft documentation.
 author: sarah-barrett
 ms.author: sabarret
@@ -10,7 +10,7 @@ ms.prod: non-product-specific
 ms.custom: external-contributor-guide
 ---
 
-# Metadata for docs
+# Metadata for Microsoft Docs content
 
 At Microsoft, we use metadata on Docs for reporting, discoverability of the content via search, and to drive aspects of the site experience. Metadata can be applied in the article (in the YAML front matter) or globally in the *docfx.json* file for the repo.
 

@@ -12,7 +12,7 @@ ms.custom: external-contributor-guide
 
 # Hacktoberfest and Microsoft Docs
 
-Hacktoberfest is an annual worldwide event held during the month of October. The event encourages open source developers to contribute to repositories through pull requests (PR). GitHub hosts many Microsoft Docs open source repositories, all of which contribute to the [docs.microsoft.com](https://docs.microsoft.com) content. Some of the repositories actively participate in the Hacktoberfest event. In this article, you'll learn how to discover which repos are accepting PRs, and what you can expect as a contributor.
+Hacktoberfest is an annual worldwide event held during the month of October. The event encourages open source developers to contribute to repositories through pull requests (PR). GitHub hosts many Microsoft Docs open source repositories, all of which contribute to the [Microsoft Docs](https://docs.microsoft.com) content. Some of the repositories actively participate in the Hacktoberfest event. In this article, you'll learn how to discover which repos are accepting PRs, and what you can expect as a contributor.
 
 ## Find a repo
 
@@ -31,12 +31,12 @@ To contribute to an open source Docs repo, you must first configure your account
 Once your account is configured, start by reading through and adhering to the _CONTRIBUTING.md_ file at the root of the repository you want to contribute to. These files serve as a guide when contributing. Here are a few example contributor guides from some popular Docs repos:
 
 - [Contribute to the .NET docs repositories](dotnet/dotnet-contribute.md)
-- [Contribute to Microsoft Azure documentation](https://github.com/MicrosoftDocs/azure-docs/blob/master/CONTRIBUTING.md)
+- [Contribute to Microsoft Azure documentation](https://github.com/MicrosoftDocs/azure-docs/blob/main/CONTRIBUTING.md)
 
 In addition to the contributing Markdown file, if a repository has a *CODE_OF_CONDUCT.md* file, it's a requirement to adhere to the expected behavior in the community. Again, here are a few common examples:
 
 - [.NET Docs: Code of Conduct](https://github.com/dotnet/docs/blob/main/CODE_OF_CONDUCT.md)
-- [Azure Docs: Code of Conduct](https://github.com/MicrosoftDocs/azure-docs/blob/master/CODE_OF_CONDUCT.md)
+- [Azure Docs: Code of Conduct](https://github.com/MicrosoftDocs/azure-docs/blob/main/CODE_OF_CONDUCT.md)
 
 ### Choose an issue
 

@@ -1,6 +1,6 @@
 ---
 title: Text formatting guidelines
-description: Learn when to use bold, italics, code, and other text styles in articles published on the docs.microsoft.com site.
+description: Learn when to use bold, italics, code, and other text styles in articles published on Microsoft Docs.
 author: tdykstra
 ms.author: tdykstra
 ms.date: 11/09/2021

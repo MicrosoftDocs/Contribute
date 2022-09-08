@@ -1,6 +1,6 @@
 ---
 title: Git and GitHub essentials for Documentation
-description: This article explains an overview of Git,  GitHub repository, and how content is organized, and naming conventions used for docs.microsoft.com.
+description: This article explains an overview of Git,  GitHub repository, and how content is organized, and naming conventions used for Microsoft technical documentation.
 ms.topic: contributor-guide
 ms.prod: non-product-specific
 ms.custom: external-contributor-guide
@@ -14,7 +14,7 @@ As a contributor to Docs content, you will interact with multiple tools and proc
 
 Git is an open-source version control system. It facilitates this type of project collaboration through *distributed version control* of files that live in *repositories*. In essence, Git makes it possible to integrate streams of work done by multiple contributors over time, for a given repository.
 
-GitHub is a web-based hosting service for Git repositories, such as those used to store [docs.microsoft.com](https://docs.microsoft.com) content. For any project, GitHub hosts the main repository, from which contributors can make copies for their own work.
+GitHub is a web-based hosting service for Git repositories, such as those used to store [Microsoft Docs](/) content. For any project, GitHub hosts the main repository, from which contributors can make copies for their own work.
 
 ## Git
 
@@ -72,7 +72,7 @@ For convenience, the root directory of each repository typically contains a Mark
 - Various **examples of using Markdown** to format the elements of an article.
 - General **instructions on the use of Markdown extensions**, which you can use for various types of alerts.
 - Examples of **embedding video** by using an iframe.
-- General **instructions on the use of docs.microsoft.com extensions**, which you can use for special controls such as buttons and selectors.
+- General **instructions on the use of Microsoft technical documentation extensions**, which you can use for special controls such as buttons and selectors.
 
 ## Pull requests
 
