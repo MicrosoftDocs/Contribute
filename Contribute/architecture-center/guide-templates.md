@@ -170,7 +170,7 @@ The Architecture Guide template requires the following sections at the end of th
 
 - Bulleted list of third-party and other Docs and Microsoft links.
 - Links shouldn't include "en-us" locale unless they don't work without it.
-- Docs links should be relative, such as (/azure/feature/article-name).
+- Documentation links should be relative, such as (/azure/feature/article-name).
 - Don't include a trailing slash in any links.
 
 Examples:

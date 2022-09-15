@@ -136,7 +136,7 @@ Other contributors: > (If applicable.) Include contributing (but not primary) au
 
 ## Next steps
 
-> Links to articles on Microsoft Docs and Learn. Could also be to appropriate sources outside of Docs, such as third-party documentation, GitHub repos, or an official technical blog post.
+> Links to articles on the Microsoft Learn platform. The links could also be to appropriate sources outside of the Learn platform, such as third-party documentation, GitHub repos, or an official technical blog post.
 
 Examples:
 * [Azure Kubernetes Service (AKS) documentation](/azure/aks)

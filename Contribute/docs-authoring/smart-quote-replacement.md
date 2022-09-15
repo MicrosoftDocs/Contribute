@@ -1,6 +1,6 @@
 ---
-title: Automatic Smart Quote Replacements - Docs Authoring Pack
-description: Learn how to automatically replace smart quote with the Docs Authoring Pack, Visual Studio Code extension.
+title: Automatic Smart Quote Replacements - Learn Authoring Pack
+description: Learn how to automatically replace smart quote with the Learn Authoring Pack, Visual Studio Code extension.
 author: IEvangelist
 ms.prod: non-product-specific
 ms.topic: contributor-guide
@@ -34,7 +34,7 @@ In a Markdown (*\*.md*) file, when you paste in text or as you update content - 
 
 This feature is optional, but defaults to `true`. To toggle this feature on or off:
 
-1. Select **File** > **Preferences** > **Settings** and filter by *Docs Markdown Extension*.
+1. Select **File** > **Preferences** > **Settings** and filter by *Learn Markdown Extension*.
 1. Toggle the setting in the **Markdown: Replace Smart Quotes** section.
 
 ## In action

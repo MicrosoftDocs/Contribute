@@ -9,7 +9,7 @@ ms.topic: contributor-guide
 ms.custom: external-contributor-guide
 ---
 
-# How to include code in docs
+# How to include code in documentation
 
 There are several ways other than [screenshots](#screenshots) to include code in an article published on Microsoft Docs:
 
@@ -243,11 +243,11 @@ that word appears in the code section title bar on the rendered page. Whenever p
 environment indicator in your inline code blocks.
 
 > [!NOTE]
-> If you copy and paste code from a Word document, make sure it has no "curly quotes," which aren't valid in code. If it does, change them back to normal quotes (`'` and `"`). Alternatively, rely on the Docs Authoring Pack, [smart quotes replacement feature](docs-authoring/smart-quote-replacement.md).
+> If you copy and paste code from a Word document, make sure it has no "curly quotes," which aren't valid in code. If it does, change them back to normal quotes (`'` and `"`). Alternatively, rely on the Learn Authoring Pack, [smart quotes replacement feature](docs-authoring/smart-quote-replacement.md).
 
 ## In-repo snippet references
 
-The preferred way to include code snippets for programming languages in docs is by reference to a code file. This method gives you the ability to highlight lines of code and makes the wider context of the snippet available on GitHub for developers to use. You can include code by using the triple colon format (:\:\:) either manually or in Visual Studio Code with the help of the [Docs Authoring Pack](https://marketplace.visualstudio.com/items?itemName=docsmsft.docs-authoring-pack).
+The preferred way to include code snippets for programming languages in docs is by reference to a code file. This method gives you the ability to highlight lines of code and makes the wider context of the snippet available on GitHub for developers to use. You can include code by using the triple colon format (:\:\:) either manually or in Visual Studio Code with the help of the [Learn Authoring Pack](https://marketplace.visualstudio.com/items?itemName=docsmsft.docs-authoring-pack).
 
 1. In Visual Studio Code, click <kbd>Alt + M</kbd> or <kbd>Option + M</kbd> and select Snippet.
 2. Once Snippet is selected, you will be prompted for Full Search, Scoped Search or Cross-Repository Reference. To search locally, select Full Search.
@@ -385,7 +385,7 @@ In the root folder of *azure-docs*, add the following section in
 Now when you refer to *samples-durable-functions* as if it were a folder in *azure-docs*, you're
 actually referring to the root folder in the *azure-functions-durable-extension* repository.
 
-You can include code by using the triple colon format (:\:\:) either manually or in Visual Studio Code with the help of the [Docs Authoring Pack](https://marketplace.visualstudio.com/items?itemName=docsmsft.docs-authoring-pack).
+You can include code by using the triple colon format (:\:\:) either manually or in Visual Studio Code with the help of the [Learn Authoring Pack](https://marketplace.visualstudio.com/items?itemName=docsmsft.docs-authoring-pack).
 
 1. In Visual Studio Code, click <kbd>Alt + M</kbd> or <kbd>Option + M</kbd> and select Snippet.
 2. Once Snippet is selected, you will be prompted for Full Search, Scoped Search or Cross-Repository Reference. To search across repositories, select Cross-Repository Reference.
@@ -579,7 +579,7 @@ Syntax:
 
 ## Supported languages
 
-The [Docs Authoring Pack](how-to-write-docs-auth-pack.md) includes a feature to provide statement completion and validation of the available language identifiers for code fence blocks.
+The [Learn Authoring Pack](how-to-write-docs-auth-pack.md) includes a feature to provide statement completion and validation of the available language identifiers for code fence blocks.
 
 ### Fenced code blocks
 
@@ -789,7 +789,7 @@ The [Docs Authoring Pack](how-to-write-docs-auth-pack.md) includes a feature to 
 | Zephir                         | `zephir`, `zep`                                                                |
 
 > [!TIP]
-> The Docs Authoring Pack, [Dev Lang Completion feature](docs-authoring/dev-lang-completion.md) uses the first valid alias when multiple aliases are available.
+> The Learn Authoring Pack, [Dev Lang Completion feature](docs-authoring/dev-lang-completion.md) uses the first valid alias when multiple aliases are available.
 
 ## Next steps
 

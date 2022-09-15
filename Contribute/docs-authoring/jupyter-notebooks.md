@@ -1,6 +1,6 @@
 ---
-title: Get content from Jupyter notebooks - Docs Authoring Pack
-description: Learn how to insert and update content from a Jupyter notebook into your document with the Docs Authoring Pack, Visual Studio Code extension.
+title: Get content from Jupyter notebooks - Learn Authoring Pack
+description: Learn how to insert and update content from a Jupyter notebook into your document with the Learn Authoring Pack, Visual Studio Code extension.
 author: sdgilley
 ms.prod: non-product-specific
 ms.topic: contributor-guide
@@ -20,11 +20,11 @@ ms.author: sgilley
 Jupyter Notebooks are a standard interactive way of creating and sharing code in the Python world.  The notebook contains a combination of Python code, markdown, and optionally output from the code.
 
 
-The Docs Authoring Pack extension includes functionality to put a static markdown version of a Jupyter notebook into your document:
+The Learn Authoring Pack extension includes functionality to put a static markdown version of a Jupyter notebook into your document:
 
-**Docs: Insert Jupyter notebook**: Enter the URL of the notebook. A markdown version of the notebook is added to the document at the position of your cursor. Do not modify the start or end tags; it's what the next function uses to update the notebook.
+**Learn: Insert Jupyter notebook**: Enter the URL of the notebook. A markdown version of the notebook is added to the document at the position of your cursor. Do not modify the start or end tags; it's what the next function uses to update the notebook.
 
-**Docs: Update Jupyter notebook**: This function will replace the previously inserted notebook content between start and end with the latest version. No need to enter the URL, it's recorded in the start tag.  Update functionality assumes there is a single notebook in the document.  Don't add multiple notebooks to a single document.
+**Learn: Update Jupyter notebook**: This function will replace the previously inserted notebook content between start and end with the latest version. No need to enter the URL, it's recorded in the start tag.  Update functionality assumes there is a single notebook in the document.  Don't add multiple notebooks to a single document.
 
 ## In action
 

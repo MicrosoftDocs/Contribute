@@ -1,6 +1,6 @@
 ---
-title: Markdown reference for Microsoft Docs
-description: Learn the Markdown features and syntax used in the Microsoft Docs platform.
+title: Markdown reference for Microsoft Learn
+description: Learn the Markdown features and syntax used in the Microsoft Learn platform.
 author: meganbradley
 ms.author: mbradley
 ms.date: 11/09/2021
@@ -9,13 +9,13 @@ ms.prod: non-product-specific
 ms.custom: external-contributor-guide
 ---
 
-# Docs Markdown reference
+# Learn Markdown reference
 
 This article provides an alphabetical reference for writing Markdown for [Microsoft Docs](/).
 
-[Markdown](https://daringfireball.net/projects/markdown/) is a lightweight markup language with plain text formatting syntax. Docs supports [CommonMark](https://commonmark.org/) compliant Markdown parsed through the [Markdig](https://github.com/lunet-io/markdig) parsing engine. Docs also supports custom Markdown extensions that provide richer content on the Docs site.
+[Markdown](https://daringfireball.net/projects/markdown/) is a lightweight markup language with plain text formatting syntax. The Learn platform supports [CommonMark](https://commonmark.org/) compliant Markdown parsed through the [Markdig](https://github.com/lunet-io/markdig) parsing engine. Learn also supports custom Markdown extensions that provide richer content on the Docs site.
 
-You can use any text editor to write Markdown, but we recommend [Visual Studio Code](https://code.visualstudio.com/) with the [Docs Authoring Pack](https://aka.ms/DocsAuthoringPack). The Docs Authoring Pack provides editing tools and preview functionality that lets you see what your articles will look like when rendered on Docs.
+You can use any text editor to write Markdown, but we recommend [Visual Studio Code](https://code.visualstudio.com/) with the [Learn Authoring Pack](https://aka.ms/DocsAuthoringPack). The Learn Authoring Pack provides editing tools and preview functionality that lets you see what your articles will look like when rendered on Docs.
 
 ## Alerts (Note, Tip, Important, Caution, Warning)
 
@@ -81,7 +81,7 @@ Here are the encodings for the "smart" versions of these punctuation marks:
 - Left (opening) single quotation mark (rarely used): `&#8216;`
 
 > [!TIP]
-> To avoid "smart" characters in your Markdown files, rely on the Docs Authoring Pack's smart quote replacement feature. For more information, see [smart quote replacement](docs-authoring/smart-quote-replacement.md).
+> To avoid "smart" characters in your Markdown files, rely on the Learn Authoring Pack's smart quote replacement feature. For more information, see [smart quote replacement](docs-authoring/smart-quote-replacement.md).
 
 ## Blockquotes
 
@@ -119,7 +119,7 @@ For guidance on when to use bold and italic text, see [text formatting guideline
 
 ## Code snippets
 
-Docs Markdown supports the placement of code snippets both inline in a sentence and as a separate "fenced" block between sentences. For more information, see [How to add code to docs](code-in-docs.md).
+Learn Markdown supports the placement of code snippets both inline in a sentence and as a separate "fenced" block between sentences. For more information, see [How to add code to docs](code-in-docs.md).
 
 ## Columns
 
@@ -258,9 +258,9 @@ Write this:
 ![Active Directory extension for two-factor authentication, step 4: Configure](./media/bogusfilename/ADextension_2FA_Configure_Step4.PNG)
 ```
 
-### Standard conceptual images (Docs Markdown)
+### Standard conceptual images (Learn Markdown)
 
-The Docs custom `:::image:::` extension supports standard images, complex images, and icons.
+The Learn custom `:::image:::` extension supports standard images, complex images, and icons.
 
 For standard images, the older Markdown syntax will still work, but the new extension is recommended because it supports more powerful functionality, such as specifying a localization scope that's different from the parent topic. Other advanced functionality, such as selecting from the shared image gallery instead of specifying a local image, will be available in the future. The new syntax is as follows:
 
@@ -350,7 +350,7 @@ Where `<title>` is the name of the file and `<filepath>` is the relative path to
 Here are requirements and considerations for include files:
 
 - Use block includes for significant amounts of content--a paragraph or two, a shared procedure, or a shared section. Don't use them for anything smaller than a sentence.
-- Includes won't be rendered in the GitHub-rendered view of your article because they rely on Docs extensions. They'll be rendered only after publication.
+- Includes won't be rendered in the GitHub-rendered view of your article because they rely on Learn extensions. They'll be rendered only after publication.
 - Write all the text in an include file in complete sentences or phrases that don't depend on preceding or following text in the article that references the include. Ignoring this guidance creates an untranslatable string in the article.
 - Don't embed include files within other include files.
 - `/Includes` folders are excluded from build. Therefore, images stored in `/includes` folders and referenced in included files won't be displayed in published content. Store images in a `/media` folder outside the `/includes` folder.
@@ -699,7 +699,7 @@ Renders as follows:
 | $1                   | $1                   | $1              |
 
 > [!TIP]
-> The Docs Authoring Extension for VS Code makes it easy to add basic Markdown tables!
+> The Learn Authoring Extension for VS Code makes it easy to add basic Markdown tables!
 >
 > You can also use an [online table generator](http://www.tablesgenerator.com/markdown_tables).
 
@@ -759,7 +759,7 @@ The example renders as:
 Every entry in the first column must be styled as bold (`**bold**`); otherwise the tables won't be accessible for screen readers or valid for Docs.
 
 > [!TIP]
-> The Docs Authoring Pack for VS Code includes a function to convert a regular Markdown table into a data matrix table. Just select the table, right-click, and select **Convert to data matrix table**.
+> The Learn Authoring Pack for VS Code includes a function to convert a regular Markdown table into a data matrix table. Just select the table, right-click, and select **Convert to data matrix table**.
 
 ### HTML Tables
 

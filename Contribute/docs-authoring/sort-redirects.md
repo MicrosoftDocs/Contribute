@@ -1,6 +1,6 @@
 ---
-title: Sort Redirects - Docs Authoring Pack
-description: Learn how to Sort Redirects with the Docs Authoring Pack, Visual Studio Code extension.
+title: Sort Redirects - Learn Authoring Pack
+description: Learn how to Sort Redirects with the Learn Authoring Pack, Visual Studio Code extension.
 author: IEvangelist
 ms.prod: non-product-specific
 ms.topic: contributor-guide
@@ -14,10 +14,10 @@ ms.author: dapine
 
 ## Summary
 
-With the evolution of a Microsoft Docs docset, some Markdown files eventually will be deleted. When a Markdown file is deleted, we're required to provide a redirect so that any reference to the deleted article is properly resolved via the redirect. Redirections are specified in the *.openpublishing.redirection.json* file.
+With the evolution of a Microsoft Learn docset, some Markdown files eventually will be deleted. When a Markdown file is deleted, we're required to provide a redirect so that any reference to the deleted article is properly resolved via the redirect. Redirections are specified in the *.openpublishing.redirection.json* file.
 
 1. Open the Command Palette, press <kbd>F1</kbd> (or <kbd>⇧⌘P</kbd> on macOS)
-1. Type: **Docs: Sort main redirection file**
+1. Type: **Learn: Sort main redirection file**
 1. Select the command to execute it
 1. Observe changes to *.openpublishing.redirection.json* file
 

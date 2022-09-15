@@ -17,7 +17,7 @@ You can edit articles or create new articles for the Azure Architecture Center. 
 
 The Azure Architecture Center (AAC) helps customers design, build, and operate solutions on Azure. AAC consists of three main sections of content: [Architecture fundamentals](/azure/architecture/guide), Industry solutions, and Azure categories. 
 
-Some Azure architecture fundamental topics include Architecture styles, Design principles, Technology choices, Best practices, Antipatterns, Responsible engineering, Mission critical applications, Multitenant applications,  Solutions across Microsoft platforms, Third-party scenarios, Azure for AWS professionals, and Azure for Google Cloud professionals, and Cloud Desig Patterns. Some industry solution examples are Retail,  
+Some Azure architecture fundamental topics include Architecture styles, Design principles, Technology choices, Best practices, Antipatterns, Responsible engineering, Mission critical applications, Multitenant applications,  Solutions across Microsoft platforms, Third-party scenarios, Azure for AWS professionals, and Azure for Google Cloud professionals, and Cloud Design Patterns. Some industry solution examples are Retail,  
 
 Some featured industries include Retail, Finance, Healthcare, Government, Manufacturing, Energy, Telecommunications, Automotive, Education, and Nonprofit.
 
