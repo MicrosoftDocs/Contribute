@@ -32,9 +32,9 @@ To contribute to Microsoft's documentation site, you can make and edit Markdown 
 
 ## Determine the repository
 
-Documentation hosted at [Microsoft Docs](https://docs.microsoft.com) resides in several different repositories at [github.com](https://www.github.com).
+Documentation hosted at [Microsoft Docs](https://learn.microsoft.com) resides in several different repositories at [github.com](https://www.github.com).
 
-1. If you are unsure of which repository to use, then visit the article on [Microsoft Docs](https://docs.microsoft.com) using your web browser. Select the **Edit** link (pencil icon) on the upper right of the article.
+1. If you are unsure of which repository to use, then visit the article on [Microsoft Docs](https://learn.microsoft.com) using your web browser. Select the **Edit** link (pencil icon) on the upper right of the article.
 
    ![Click Edit to determine the repo and file location.](media/index/edit-article.png)
 

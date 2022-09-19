@@ -1,6 +1,6 @@
 ---
-title: Image Compression - Docs Authoring Pack
-description: Learn how to compress images within the Docs Authoring Pack, Visual Studio Code extension.
+title: Image Compression - Learn Authoring Pack
+description: Learn how to compress images within the Learn Authoring Pack, Visual Studio Code extension.
 author: IEvangelist
 ms.prod: non-product-specific
 ms.topic: contributor-guide
@@ -16,7 +16,7 @@ ms.author: dapine
 
 All documentation is provided via the web, with the exception of PDF versions of docs. When serving static content, it is best to minimize the number of bytes sent over the wire. One way to do that is to compress images at rest.
 
-The Docs Authoring Pack extension includes image compression context menu items. The following image types / extensions are supported:
+The Learn Authoring Pack extension includes image compression context menu items. The following image types / extensions are supported:
 
 * *\*.png*
 * *\*.jpg*

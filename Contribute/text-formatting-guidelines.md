@@ -122,7 +122,7 @@ Rendered as:
 > In the following example, replace the placeholder text *`<ResourceGroupName>`* with your own resource group name.
 
 > [!CAUTION]
->  The Docs site does not render \<placeholder\> text that uses angle brackets in cases where the brackets are not escaped properly or the text is not code-formatted. The Docs build process interprets the \<placeholder\> phrase as an HTML tag that could be dangerous to the reader's browser, and flags it as a *disallowed-html-tag*. You'll see a suggestion in the build report, and the placeholder word isn't rendered in the Docs page output when that happens.
+>  The Docs site does not render \<placeholder\> text that uses angle brackets in cases where the brackets are not escaped properly or the text is not code-formatted. The Learn build process interprets the \<placeholder\> phrase as an HTML tag that could be dangerous to the reader's browser, and flags it as a *disallowed-html-tag*. You'll see a suggestion in the build report, and the placeholder word isn't rendered in the Docs page output when that happens.
 >  
 > To avoid content loss on placeholders, use `code` formatting or  escape characters (`\<` `\>`)  as described previously.
 

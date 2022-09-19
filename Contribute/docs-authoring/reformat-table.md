@@ -1,6 +1,6 @@
 ---
-title: Reformat Markdown Tables - Docs Authoring Pack
-description: Learn how to use the various Markdown table formatting features from the Docs Authoring Pack, Visual Studio Code extension.
+title: Reformat Markdown Tables - Learn Authoring Pack
+description: Learn how to use the various Markdown table formatting features from the Learn Authoring Pack, Visual Studio Code extension.
 author: IEvangelist
 ms.prod: non-product-specific
 ms.topic: contributor-guide

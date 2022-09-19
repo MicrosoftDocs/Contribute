@@ -32,4 +32,4 @@ After your contributions are approved and merged, the publishing process picks t
 - [.NET documentation](/dotnet/)
 - [Enterprise Mobility + Security documentation](/enterprise-mobility-security)
 
-It can take up to 45 minutes for articles to appear online after publishing. After your article is published, you can verify your changes at the appropriate URL: `https://docs.microsoft.com/<path-to-your-article-without-the-md-extension>`.
+It can take up to 45 minutes for articles to appear online after publishing. After your article is published, you can verify your changes at the appropriate URL: `https://learn.microsoft.com/<path-to-your-article-without-the-md-extension>`.
