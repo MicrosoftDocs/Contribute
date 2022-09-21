@@ -1,6 +1,6 @@
 ---
 title: Markdown reference for Microsoft Learn
-description: Learn the Markdown features and syntax used in the Microsoft Learn platform.
+description: Learn the Markdown features and syntax used in Microsoft Learn content.
 author: meganbradley
 ms.author: mbradley
 ms.date: 11/09/2021

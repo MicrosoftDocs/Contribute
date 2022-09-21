@@ -59,7 +59,7 @@ For small changes, see the instructions on editing in GitHub on the [home page](
 
 **Step 3:** Make the changes on this new branch.
 
-If it's a new topic, you can use this [template file](dotnet-style-guide.md) as your starting point. It contains the writing guidelines and also explains the metadata required for each article, such as author information. For more information on the Markdown syntax used in the Microsoft Learn platform, see [Markdown reference](../markdown-reference.md).
+If it's a new topic, you can use this [template file](dotnet-style-guide.md) as your starting point. It contains the writing guidelines and also explains the metadata required for each article, such as author information. For more information on the Markdown syntax used in Microsoft Learn content, see [Markdown reference](../markdown-reference.md).
 
 Navigate to the folder that corresponds to the TOC location determined for your article in step 1. That folder contains the Markdown files for all articles in that section. If necessary, create a new folder to place the files for your content. The main article for that section is called *index.md*.
 

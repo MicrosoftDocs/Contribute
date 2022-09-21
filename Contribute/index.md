@@ -1,6 +1,6 @@
 ---
-title: Microsoft Documentation contributor guide overview
-description: The guide describes how you can contribute to technical content on Microsoft Docs.
+title: Microsoft Docs contributor guide overview
+description: The guide describes how you can contribute to technical documentation on Microsoft Learn.
 author: carlyrevier
 ms.author: cahublou
 ms.date: 05/11/2022
@@ -9,11 +9,11 @@ ms.prod: non-product-specific
 ms.custom: external-contributor-guide
 ---
 
-# Microsoft Documentation contributor guide overview
+# Microsoft Docs contributor guide overview
 
-Welcome to the [Microsoft Documentation](https://learn.microsoft.com) contributor guide!
+Welcome to the [Microsoft Docs](https://learn.microsoft.com) contributor guide!
 
-Sharing your expertise with others on Learn helps everyone achieve more. Use the information in this guide to publish a new article to learn.microsoft.com or make updates to an article that is published already.
+Sharing your expertise with others on Microsoft Learn helps everyone achieve more. Use the information in this guide to publish a new article to Microsoft Learn or make updates to an existing published article.
 
 Sharing your expertise with others on Learn helps everyone achieve more. Use the information in this guide to publish a new article to learn.microsoft.com or make updates to an article that is published already.
 
@@ -80,4 +80,4 @@ Issues start the conversation about what's needed. The content team will respond
 
 ## Get more involved
 
-Other topics in this guide help you get started productively contributing to Microsoft Docs. They explain working with GitHub repositories, Markdown tools, and extensions used in the Microsoft Learn platform.
+Other topics in this guide help you get started productively contributing to Microsoft Learn. They explain working with GitHub repositories, Markdown tools, and extensions used in the Microsoft Learn content.
