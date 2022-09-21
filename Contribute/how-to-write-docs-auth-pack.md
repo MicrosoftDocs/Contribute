@@ -11,7 +11,7 @@ ms.date: 03/05/2020
 
 # Learn Authoring Pack for VS Code
 
-The Learn Authoring Pack is a collection of VS Code extensions to aid with Markdown authoring for the Microsoft Learn platform. The pack is [available in the VS Code Marketplace](https://marketplace.visualstudio.com/items?itemName=docsmsft.docs-authoring-pack) and contains the following extensions:
+The Learn Authoring Pack is a collection of VS Code extensions to aid with Markdown authoring for Microsoft Learn content. The pack is [available in the VS Code Marketplace](https://marketplace.visualstudio.com/items?itemName=docsmsft.docs-authoring-pack) and contains the following extensions:
 
 > [!div class="checklist"]
 >

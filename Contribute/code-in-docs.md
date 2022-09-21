@@ -1,6 +1,6 @@
 ---
 title: How to include code in docs
-description: Learn how to include code elements and snippets in articles to be published on Microsoft Docs.
+description: Learn how to include code elements and snippets in articles to be published on Microsoft Learn.
 author: tdykstra
 ms.author: tdykstra
 ms.date: 11/09/2021
@@ -11,7 +11,7 @@ ms.custom: external-contributor-guide
 
 # How to include code in documentation
 
-There are several ways other than [screenshots](#screenshots) to include code in an article published on Microsoft Docs:
+There are several ways other than [screenshots](#screenshots) to include code in an article published on Microsoft Learn:
 
 * Individual elements (words) within a line.
 

@@ -1,6 +1,6 @@
 ---
 title: Additional Git and GitHub resources
-description: This article lists suggested resources for Git and GitHub learning for contributing to Microsoft Docs.
+description: This article lists suggested resources for Git and GitHub learning for contributing to Microsoft Learn documentation.
 ms.topic: contributor-guide
 ms.prod: non-product-specific
 ms.custom: external-contributor-guide

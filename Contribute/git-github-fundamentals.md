@@ -1,16 +1,16 @@
 ---
-title: Git and GitHub essentials for documentation
+title: Git and GitHub essentials for Microsoft Learn documentation
 description: This article explains an overview of Git,  GitHub repository, and how content is organized, and naming conventions used for Microsoft technical documentation.
 ms.topic: contributor-guide
 ms.prod: non-product-specific
 ms.custom: external-contributor-guide
 ms.date: 06/30/2017
 ---
-# Git and GitHub essentials for documentation
+# Git and GitHub essentials for Microsoft Learn documentation
 
 ## Overview
 
-As a contributor to Docs content, you will interact with multiple tools and processes. You'll work in parallel with other contributors on the same project, potentially the exact same content, even at the same time. This is all enabled through Git and GitHub software.
+As a contributor to Microsoft Learn documentation, you will interact with multiple tools and processes. You'll work in parallel with other contributors on the same project, potentially the exact same content, even at the same time. This is all enabled through Git and GitHub software.
 
 Git is an open-source version control system. It facilitates this type of project collaboration through *distributed version control* of files that live in *repositories*. In essence, Git makes it possible to integrate streams of work done by multiple contributors over time, for a given repository.
 
@@ -46,8 +46,7 @@ As mentioned earlier, a project's default branch serves as the current version o
 You can typically find a main `articles` directory off the root of the repository. The articles
 directory contains a set of subdirectories. Articles in the subdirectories are formatted as
 Markdown files that use an *.md* extension. Some repositories that support multiple services use a
-generic `/articles` subdirectory, such as the 
-[Azure-Docs](https://github.com/MicrosoftDocs/Azure-Docs) repository. Others might use a
+generic `/articles` subdirectory, such as the [Azure-Docs](https://github.com/MicrosoftDocs/Azure-Docs) repository. Others might use a
 service-specific name, such as the [IntuneDocs](https://github.com/MicrosoftDocs/IntuneDocs)
 repository, which uses `/IntuneDocs`.
 
@@ -80,17 +79,17 @@ A *pull request* provides a convenient way for a contributor to propose a set of
 
 There are two ways to contribute by pull request, depending on the size of changes that you want to propose. We will cover this in detail later, in the [GitHub workflow](how-to-write-workflows-major.md) section of this guide.
 
-<!---- Reference links for Docs landing pages, associated GitHub repositories, and related Forums matrix. ------------------>
+<!---- Reference links for landing pages, associated GitHub repositories, and related Forums matrix. ------------------>
 <!---- PLEASE INSERT URLS IN ASCENDING SORT ORDER, AND REMOVE LOCALE SEGMENT FROM URLS (that is, en-us) FOR LOCALIZED FORUMS! -->
 <!---- NOTE: these links are saved for future use in another/new article; no longer used above in this article --->
-[Visual-Studio-Page]:(https://learn.microsoft.com/en-us/visualstudio/index)
+[Visual-Studio-Page]:(https://learn.microsoft.com/visualstudio/index)
 [Visual-Studio-Repo-Internal]:(https://github.com/Microsoft/vsdocs)
 [Visual-Studio-Repo-External]:(https://github.com/Microsoft/visualstudio-docs)
 [Visual-Studio-SO]: (https://stackoverflow.com/search?q=Visual+Studio+2017)
 [Dotnet-Page]: https://learn.microsoft.com/dotnet
 [Dotnet-Core-Page]: https://learn.microsoft.com/dotnet/articles/welcome
 [Dotnet-Core-Repo]: https://github.com/dotnet/learn
-[EM-ATA-Land]: https://docs.microsoft.com/advanced-threat-analytics/
+[EM-ATA-Land]: https://learn.microsoft.com/advanced-threat-analytics/
 [EM-ATA-Repo]: https://github.com/Microsoft/ATADocs
 [EM-AzureAD-Land]: https://learn.microsoft.com/active-directory/
 [EM-AzureAD-Repo]: https://github.com/Azure/azure-content/tree/master/articles/active-directory/
@@ -104,7 +103,7 @@ There are two ways to contribute by pull request, depending on the size of chang
 [EM-MFA-Repo]: https://github.com/Azure/azure-content/tree/master/articles/multi-factor-authentication
 [EM-MIM-Land]: https://learn.microsoft.com/microsoft-identity-manager/
 [EM-MIM-Repo]: https://github.com/Microsoft/MIMDocs
-[EM-RemoteApp-Land]: https://learn.microsoft.com/en-us/remoteapp/
+[EM-RemoteApp-Land]: https://learn.microsoft.com/remoteapp/
 [EM-RemoteApp-Repo]: https://github.com/Azure/azure-content/tree/master/articles/remoteapp
 [Forum-MSDN-ATA]: https://social.technet.microsoft.com/Forums/en-US/home?forum=mata
 [Forum-MSDN-AzureAD]: https://social.msdn.microsoft.com/Forums/en-US/home?forum=WindowsAzureAD
