@@ -40,7 +40,7 @@ In addition to the contributing Markdown file, if a repository has a *CODE_OF_CO
 
 ### Choose an issue
 
-To find an issue to work on in a participating repository, filter the issues for either the `up-for-grabs` or `help-wanted` GitHub labels. While you can address other issues, it's easier to focus on issues that have a well-defined scope and are self-contained. In addition to the Docs repos, you can use the following sites for beginners:
+To find an issue to work on in a participating repository, filter the issues for either the `up-for-grabs` or `help-wanted` GitHub labels. While you can address other issues, it's easier to focus on issues that have a well-defined scope and are self-contained. In addition to the Microsoft Learn repos, you can use the following sites for beginners:
 
 - [Awesome for beginners](https://github.com/mungell/awesome-for-beginners)
 - [Up for grabs](https://up-for-grabs.net)
@@ -50,7 +50,7 @@ For more information, see [Hacktoberfest: Beginners](https://hacktoberfest.digit
 
 ### Quality expectations
 
-To have a successful contribution to an open source Docs repository, [create a meaningful and impactful PR](#open-a-pr). The following examples from the official Hacktoberfest site are considered ***low-quality contributions***:
+To have a successful contribution to an open source Microsoft Learn repository, [create a meaningful and impactful PR](#open-a-pr). The following examples from the official Hacktoberfest site are considered ***low-quality contributions***:
 
 - PRs that are automated (for example, scripted opening PRs to remove whitespace, fix typos, or optimize images).
 - PRs that are disruptive (for example, taking someone else's branch or commits and making a PR).

@@ -1,6 +1,6 @@
 ---
 title: How to use links in documentation
-description: This article provides guidance on creating links to other content in Microsoft Docs.
+description: This article provides guidance on creating links to other content on Microsoft Learn.
 ms.topic: contributor-guide
 ms.prod: non-product-specific
 ms.custom: external-contributor-guide
@@ -10,9 +10,9 @@ ms.date: 03/31/2020
 ---
 # Use links in documentation
 
-This article describes how to use hyperlinks from pages hosted at Microsoft Docs. Links are easy to add into markdown with a few varying conventions. Links point users to content in the same page, in other neighboring pages, or on external sites and URLs.
+This article describes how to use hyperlinks from pages hosted at Microsoft Learn. Links are easy to add into markdown with a few varying conventions. Links point users to content in the same page, in other neighboring pages, or on external sites and URLs.
 
-The Microsoft Docs backend uses Open Publishing Services (OPS), which supports [CommonMark][]-compliant markdown parsed through the [Markdig][] parsing engine. This markdown flavor is mostly compatible with [GitHub Flavored Markdown (GFM)][GFM], as most docs are stored in GitHub and can be edited there. Additional functionality is added through Markdown extensions.
+The Microsoft Learn backend uses Open Publishing Services (OPS), which supports [CommonMark][]-compliant markdown parsed through the [Markdig][] parsing engine. This markdown flavor is mostly compatible with [GitHub Flavored Markdown (GFM)][GFM], as most docs are stored in GitHub and can be edited there. Additional functionality is added through Markdown extensions.
 
 > [!IMPORTANT]
 > All links must be secure (`https` vs `http`) whenever the target supports it (which the vast majority should).
@@ -68,9 +68,9 @@ A file link is used to link from one article to another within the docset.
 > [!NOTE]
 > None of the previous examples use the `~/` as part of the link. To link to an absolute path that begins at the root of the repository, start the link with `/`. Including the `~/` produces invalid links when navigating the source repositories on GitHub. Starting the path with `/` resolves correctly.
 
-### Structure of links on Microsoft Docs
+### Structure of links on Microsoft Learn
 
-Content published on Microsoft Docs has the following URL structure:
+Content published on Microsoft Learn has the following URL structure:
 
 `https://learn.microsoft.com/<locale>/<product-service>/[<feature-service>]/[<subfolder>]/<topic>[?view=<view-name>]`
 
@@ -112,7 +112,7 @@ To link to a bookmark heading in another article, use the file-relative or site-
 [Managed Disks](../../linux/overview.md#managed-disks)
 ```
 
-You can also copy the bookmark link from the URL. To find the URL, hover your mouse over the heading line on Microsoft Docs. You should see a link icon appear:
+You can also copy the bookmark link from the URL. To find the URL, hover your mouse over the heading line on Microsoft Learn. You should see a link icon appear:
 
 ![Link icon in article heading](media/how-to-write-links/bookmark-link.png)
 
@@ -155,7 +155,7 @@ XRef links are the recommended way to link to APIs, because they're validated at
 > [!TIP]
 > You can use the [Learn Markdown extension for VS Code][docsextension] (part of the Learn Authoring Pack) to insert .NET XRref links that are surfaced in the [.NET API Browser][].
 
-Check if the API you want to link to is published on [Microsoft Docs](/) by typing all or some of its full name in the [.NET API browser][] or [Windows UWP][] search box. If you don't see any results displayed, the type isn't yet on Microsoft Docs.
+Check if the API you want to link to is published on [Microsoft Learn](/) by typing all or some of its full name in the [.NET API browser][] or [Windows UWP][] search box. If you don't see any results displayed, the type isn't yet on Microsoft Learn.
 
 You can use one of the following syntaxes:
 
@@ -198,7 +198,7 @@ An incremental build only builds files that have changed or been affected by a c
 
 The UID is usually the fully qualified class or member name. There are at least two ways to determine the UID:
 
-- Right-click on the [Docs][docs] page for a type or member, select **View source**, and then copy the **content** value for **ms.assetid**:
+- Right-click on the [Microsoft Learn](/) page for a type or member, select **View source**, and then copy the **content** value for **ms.assetid**:
 
   ![ms.assetid in source for web page](media/how-to-write-links/ms-assetid.png)
 
@@ -333,7 +333,6 @@ The best user experience minimizes sending users to another site. So base any li
 [CommonMark]: https://commonmark.org/
 [Markdig]: https://github.com/lunet-io/markdig
 [GFM]: https://help.github.com/categories/writing-on-github/
-[docs]: https://learn.microsoft.com
 [.NET API browser]: /dotnet/api/
 [Windows UWP]: /uwp/api
 [docsextension]: https://marketplace.visualstudio.com/items?itemName=docsmsft.docs-markdown

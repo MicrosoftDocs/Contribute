@@ -216,7 +216,7 @@ Other contributors: > Include contributing (but not primary) authors, major edit
 
 ## Next steps
 
-> Link to Docs and Training articles, along with any third-party documentation.
+> Link to Microsoft Learn documentation and training content, along with any third-party documentation.
 > Where should I go next if I want to start building this?
 > Are there any relevant case studies or customers doing something similar?
 > Is there any other documentation that might be useful? Are there product documents that go into more detail on specific technologies that are not already linked?

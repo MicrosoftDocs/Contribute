@@ -1,6 +1,6 @@
 ---
 title: Learn Authoring Pack for Visual Studio Code
-description: This article describes the Visual Studio Code extension pack to facilitate Markdown authoring for Microsoft Docs.
+description: This article describes the Visual Studio Code extension pack to facilitate Markdown authoring for Microsoft Learn.
 ms.topic: contributor-guide
 ms.prod: non-product-specific
 ms.custom: external-contributor-guide
@@ -15,13 +15,13 @@ The Learn Authoring Pack is a collection of VS Code extensions to aid with Markd
 
 > [!div class="checklist"]
 >
-> * [Learn Markdown](https://marketplace.visualstudio.com/items?itemName=docsmsft.docs-markdown): Provides Markdown authoring assistance for content on Microsoft Docs, including support for basic Markdown syntax as well as custom Markdown syntax like alerts, code snippets, and non-localizable text. Now also includes some basic YAML authoring assistance, such as inserting TOC entries.
+> * [Learn Markdown](https://marketplace.visualstudio.com/items?itemName=docsmsft.docs-markdown): Provides Markdown authoring assistance for content on Microsoft Learn, including support for basic Markdown syntax as well as custom Markdown syntax like alerts, code snippets, and non-localizable text. Now also includes some basic YAML authoring assistance, such as inserting TOC entries.
 > * [markdownlint](https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint): A popular Markdown linter by David Anson to help make sure your Markdown is valid.
 > * [Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker): A fully offline spell checker by Street Side Software.
-> * [Learn Preview](https://marketplace.visualstudio.com/items?itemName=docsmsft.docs-preview): Uses the Microsoft Docs CSS for more accurate Markdown preview, including custom Markdown.
+> * [Learn Preview](https://marketplace.visualstudio.com/items?itemName=docsmsft.docs-preview): Uses the Microsoft Learn CSS for more accurate Markdown preview, including custom Markdown.
 > * [Learn Article Templates](https://marketplace.visualstudio.com/items?itemName=docsmsft.docs-article-templates): Allows users to scaffold Learn modules and apply Markdown skeleton content to new files.
-> * [Learn YAML](https://marketplace.visualstudio.com/items?itemName=docsmsft.docs-yaml): Provides Docs YAML schema validation and auto-complete.
-> * [Learn Images](https://marketplace.visualstudio.com/items?itemName=docsmsft.docs-images): Provides image compression and resizing for folders and individual files to help authors of Microsoft Docs content.
+> * [Learn YAML](https://marketplace.visualstudio.com/items?itemName=docsmsft.docs-yaml): Provides YAML schema validation and auto-complete.
+> * [Learn Images](https://marketplace.visualstudio.com/items?itemName=docsmsft.docs-images): Provides image compression and resizing for folders and individual files to help authors of Microsoft Learn content.
 
 ## Prerequisites and assumptions
 
@@ -106,7 +106,7 @@ The Templates extension supports three dynamic metadata fields: author, ms.autho
 |--|--|
 | `author` | Your GitHub alias, if specified in your VS Code settings file. |
 | `ms.author` | Your Microsoft alias, if specified in your VS Code settings file. If you are not a Microsoft employee, leave unspecified. |
-| `ms.date` | The current date in the Docs-supported format, `MM/DD/YYYY`. The date is not automatically updated if you subsequently update the file - you must update it manually. This field is used to indicate the "article freshness". |
+| `ms.date` | The current date in the supported format, `MM/DD/YYYY`. The date is not automatically updated if you subsequently update the file - you must update it manually. This field is used to indicate the "article freshness". |
 
 ### To set author and/or ms.author
 
@@ -123,7 +123,7 @@ The Templates extension supports three dynamic metadata fields: author, ms.autho
 1. Draft your template as a Markdown file.
 1. Submit a pull request to the templates folder of the [MicrosoftDocs/content-templates](https://github.com/MicrosoftDocs/content-templates) repo.
 
-The Microsoft Docs team will review your template and merge the PR if it meets Microsoft Docs style guidelines. Once merged, the template will be available to all users of the Learn Article Templates extension.
+The content team will review your template and merge the PR if it meets the style guidelines. Once merged, the template will be available to all users of the Learn Article Templates extension.
 
 ## Demo several features
 

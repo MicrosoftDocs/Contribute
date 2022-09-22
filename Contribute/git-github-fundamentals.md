@@ -14,7 +14,7 @@ As a contributor to Microsoft Learn documentation, you will interact with multip
 
 Git is an open-source version control system. It facilitates this type of project collaboration through *distributed version control* of files that live in *repositories*. In essence, Git makes it possible to integrate streams of work done by multiple contributors over time, for a given repository.
 
-GitHub is a web-based hosting service for Git repositories, such as those used to store [Microsoft Docs](/) content. For any project, GitHub hosts the main repository, from which contributors can make copies for their own work.
+GitHub is a web-based hosting service for Git repositories, such as those used to store [Microsoft Learn](/) content. For any project, GitHub hosts the main repository, from which contributors can make copies for their own work.
 
 ## Git
 
@@ -35,13 +35,13 @@ Contributors interact with Git to update and manipulate repositories at both the
 > [!NOTE]
 > Although the documentation guidance is based on using GitHub, some teams use Visual Studio Team Services to host Git repositories. The Visual Studio Team Explorer client provides a GUI for interacting with Team Services repositories, as an alternative to using Git commands through a command line.
 > </br>
-> Also, many of the following guidelines were developed as best practices from years of experience in hosting Azure service content in GitHub. They might be required in some Docs repositories.
+> Also, many of the following guidelines were developed as best practices from years of experience in hosting Azure service content in GitHub. They might be required in some Microsoft Learn repositories.
 
 All workflows begin and end at the GitHub level, where the main repository for any documentation project is stored. The copies that contributors create for their own use are distributed across multiple computers. These copies are eventually reconciled back into the project's main GitHub repository.
 
 ### Directory organization
 
-As mentioned earlier, a project's default branch serves as the current version of content for the project. The content in the default branch--and branches created from it--is loosely aligned with the organization of the articles on the corresponding Docs pages. Subdirectories are used for separation of like content (such as services), media content (such as image files), and "include" files (which enable reuse of content).
+As mentioned earlier, a project's default branch serves as the current version of content for the project. The content in the default branch--and branches created from it--is loosely aligned with the organization of the articles on the corresponding Microsoft Learn pages. Subdirectories are used for separation of like content (such as services), media content (such as image files), and "include" files (which enable reuse of content).
 
 You can typically find a main `articles` directory off the root of the repository. The articles
 directory contains a set of subdirectories. Articles in the subdirectories are formatted as
