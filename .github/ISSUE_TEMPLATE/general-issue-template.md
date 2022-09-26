@@ -12,7 +12,7 @@ assignees: carlyrevier, jehchow
 
 Welcome to the Microsoft Docs contributor guide feedback form!
 
-Issues submitted here are reviewed by the repo managers of the Docs contributor guide, **not product teams.** Your issue should pertain to the documentation in this [contributor guide](https://review.learn.microsoft.com/contribute/?branch=main) only. Requests for updates to products or product documentation will be closed.
+Issues submitted here are reviewed by the repo managers of the Docs contributor guide, **not product teams.** Your issue should pertain to the documentation in this [contributor guide](https://learn.microsoft.com/contribute) only. Requests for updates to products or product documentation will be closed.
 
 If you have feedback about a product or product documentation, use one of these outlets instead:
 
