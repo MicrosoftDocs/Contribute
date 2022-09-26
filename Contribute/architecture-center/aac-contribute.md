@@ -90,7 +90,7 @@ All edits *must not have* the following:
 
 To learn more about the benefits of SpineEdit, see [SpineEdit introduction](https://github.com/craigshoemaker/spineedit#introduction). 
 
-**Edit**. Steps to follow to edit a Microsoft Docs article:
+**Edit**. Steps to follow to edit a Microsoft Learn article:
 
 1. Click the **Edit This Document** button (the pencil icon in the top right of the article, above the title).
 1. After you make your edits, click the **Propose changes** button at the bottom of the page. Then click **Create pull request** on the next page.
