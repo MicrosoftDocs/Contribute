@@ -17,7 +17,7 @@ You can edit articles or create new articles for the Azure Architecture Center. 
 
 The Azure Architecture Center (AAC) helps customers design, build, and operate solutions on Azure. AAC consists of three main sections of content: [Architecture fundamentals](/azure/architecture/guide), Industry solutions, and Azure categories. 
 
-Some Azure architecture fundamental topics include Architecture styles, Design principles, Technology choices, Best practices, Antipatterns, Responsible engineering, Mission critical applications, Multitenant applications,  Solutions across Microsoft platforms, Third-party scenarios, Azure for AWS professionals, and Azure for Google Cloud professionals, and Cloud Desig Patterns. Some industry solution examples are Retail,  
+Some Azure architecture fundamental topics include Architecture styles, Design principles, Technology choices, Best practices, Antipatterns, Responsible engineering, Mission critical applications, Multitenant applications,  Solutions across Microsoft platforms, Third-party scenarios, Azure for AWS professionals, and Azure for Google Cloud professionals, and Cloud Design Patterns. Some industry solution examples are Retail,  
 
 Some featured industries include Retail, Finance, Healthcare, Government, Manufacturing, Energy, Telecommunications, Automotive, Education, and Nonprofit.
 
@@ -90,7 +90,7 @@ All edits *must not have* the following:
 
 To learn more about the benefits of SpineEdit, see [SpineEdit introduction](https://github.com/craigshoemaker/spineedit#introduction). 
 
-**Edit**. Steps to follow to edit a Microsoft Docs article:
+**Edit**. Steps to follow to edit a Microsoft Learn article:
 
 1. Click the **Edit This Document** button (the pencil icon in the top right of the article, above the title).
 1. After you make your edits, click the **Propose changes** button at the bottom of the page. Then click **Create pull request** on the next page.

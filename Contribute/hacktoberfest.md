@@ -1,6 +1,6 @@
 ---
-title: Hacktoberfest and Microsoft Docs
-description: Learn how to discover which Docs repositories participate in Hacktoberfest, how to contribute, and what you can expect as a contributor.
+title: Hacktoberfest and Microsoft Learn
+description: Learn how to discover which Microsoft Learn repositories participate in Hacktoberfest, how to contribute, and what you can expect as a contributor.
 
 author: IEvangelist
 ms.author: dapine
@@ -10,27 +10,27 @@ ms.prod: non-product-specific
 ms.custom: external-contributor-guide
 ---
 
-# Hacktoberfest and Microsoft Docs
+# Hacktoberfest and Microsoft Learn
 
-Hacktoberfest is an annual worldwide event held during the month of October. The event encourages open source developers to contribute to repositories through pull requests (PR). GitHub hosts many Microsoft Docs open source repositories, all of which contribute to the [Microsoft Docs](https://docs.microsoft.com) content. Some of the repositories actively participate in the Hacktoberfest event. In this article, you'll learn how to discover which repos are accepting PRs, and what you can expect as a contributor.
+Hacktoberfest is an annual worldwide event held during the month of October. The event encourages open source developers to contribute to repositories through pull requests (PR). GitHub hosts many open source repositories that contribute to [Microsoft Learn](/) content. Some of the repositories actively participate in the Hacktoberfest event. In this article, you'll learn how to discover which repos are accepting PRs, and what you can expect as a contributor.
 
 ## Find a repo
 
-To discover if a Docs repo is participating in Hacktoberfest, you'll see the **hacktoberfest** topic on the project.
+To discover if a Microsoft Learn repo is participating in Hacktoberfest, you'll see the **hacktoberfest** topic on the project.
 
 :::image type="content" source="media/hacktoberfest/github-topic.png" lightbox="media/hacktoberfest/github-topic.png" alt-text="GitHub .NET docs repository with hacktoberfest topic.":::
 
-To filter all Microsoft Docs and .NET repos that have the **hacktoberfest** topic, see [GitHub Topics: Hacktoberfest](https://github.com/topics/hacktoberfest?q=org%3AMicrosoftDocs+org%3Adotnet).
+To filter all Microsoft Learn and .NET repos that have the **hacktoberfest** topic, see [GitHub Topics: Hacktoberfest](https://github.com/topics/hacktoberfest?q=org%3AMicrosoftDocs+org%3Adotnet).
 
 Alternatively, a repository may choose to use the `Hacktoberfest` label instead. This label is convenient for filtering issues. For more information, see [Filtering issues and pull requests by labels](https://docs.github.com/github/administering-a-repository/finding-information-in-a-repository/filtering-issues-and-pull-requests-by-labels).
 
 ## Contribute
 
-To contribute to an open source Docs repo, you must first configure your account to contribute to Microsoft Docs. If you have never completed this process, start by [signing up for a GitHub account](./get-started-setup-github.md).
+To contribute to an open source repo, you must first configure your account to contribute to Microsoft Learn. If you have never completed this process, start by [signing up for a GitHub account](./get-started-setup-github.md).
 
-Once your account is configured, start by reading through and adhering to the _CONTRIBUTING.md_ file at the root of the repository you want to contribute to. These files serve as a guide when contributing. Here are a few example contributor guides from some popular Docs repos:
+Once your account is configured, start by reading through and adhering to the _CONTRIBUTING.md_ file at the root of the repository you want to contribute to. These files serve as a guide when contributing. Here are a few example contributor guides from some popular Microsoft Learn repos:
 
-- [Contribute to the .NET docs repositories](dotnet/dotnet-contribute.md)
+- [Contribute to the .NET documentation](./dotnet/dotnet-contribute.md)
 - [Contribute to Microsoft Azure documentation](https://github.com/MicrosoftDocs/azure-docs/blob/main/CONTRIBUTING.md)
 
 In addition to the contributing Markdown file, if a repository has a *CODE_OF_CONDUCT.md* file, it's a requirement to adhere to the expected behavior in the community. Again, here are a few common examples:
@@ -40,7 +40,7 @@ In addition to the contributing Markdown file, if a repository has a *CODE_OF_CO
 
 ### Choose an issue
 
-To find an issue to work on in a participating repository, filter the issues for either the `up-for-grabs` or `help-wanted` GitHub labels. While you can address other issues, it's easier to focus on issues that have a well-defined scope and are self-contained. In addition to the Docs repos, you can use the following sites for beginners:
+To find an issue to work on in a participating repository, filter the issues for either the `up-for-grabs` or `help-wanted` GitHub labels. While you can address other issues, it's easier to focus on issues that have a well-defined scope and are self-contained. In addition to the Microsoft Learn repos, you can use the following sites for beginners:
 
 - [Awesome for beginners](https://github.com/mungell/awesome-for-beginners)
 - [Up for grabs](https://up-for-grabs.net)
@@ -50,7 +50,7 @@ For more information, see [Hacktoberfest: Beginners](https://hacktoberfest.digit
 
 ### Quality expectations
 
-To have a successful contribution to an open source Docs repository, [create a meaningful and impactful PR](#open-a-pr). The following examples from the official Hacktoberfest site are considered ***low-quality contributions***:
+To have a successful contribution to an open source Microsoft Learn repository, [create a meaningful and impactful PR](#open-a-pr). The following examples from the official Hacktoberfest site are considered ***low-quality contributions***:
 
 - PRs that are automated (for example, scripted opening PRs to remove whitespace, fix typos, or optimize images).
 - PRs that are disruptive (for example, taking someone else's branch or commits and making a PR).
@@ -75,5 +75,5 @@ If you're proposing a PR without a corresponding issue, create an issue first. F
 ## See also
 
 - [GitHub account setup](get-started-setup-github.md)
-- [Git and GitHub essentials for Docs](git-github-fundamentals.md)
+- [Git and GitHub essentials for Microsoft Learn documentation](git-github-fundamentals.md)
 - [Official Hacktoberfest site](https://hacktoberfest.digitalocean.com)

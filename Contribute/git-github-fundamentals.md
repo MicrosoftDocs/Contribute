@@ -1,20 +1,20 @@
 ---
-title: Git and GitHub essentials for Documentation
+title: Git and GitHub essentials for Microsoft Learn documentation
 description: This article explains an overview of Git,  GitHub repository, and how content is organized, and naming conventions used for Microsoft technical documentation.
 ms.topic: contributor-guide
 ms.prod: non-product-specific
 ms.custom: external-contributor-guide
 ms.date: 06/30/2017
 ---
-# Git and GitHub essentials for Docs
+# Git and GitHub essentials for Microsoft Learn documentation
 
 ## Overview
 
-As a contributor to Docs content, you will interact with multiple tools and processes. You'll work in parallel with other contributors on the same project, potentially the exact same content, even at the same time. This is all enabled through Git and GitHub software.
+As a contributor to Microsoft Learn documentation, you will interact with multiple tools and processes. You'll work in parallel with other contributors on the same project, potentially the exact same content, even at the same time. This is all enabled through Git and GitHub software.
 
 Git is an open-source version control system. It facilitates this type of project collaboration through *distributed version control* of files that live in *repositories*. In essence, Git makes it possible to integrate streams of work done by multiple contributors over time, for a given repository.
 
-GitHub is a web-based hosting service for Git repositories, such as those used to store [Microsoft Docs](/) content. For any project, GitHub hosts the main repository, from which contributors can make copies for their own work.
+GitHub is a web-based hosting service for Git repositories, such as those used to store [Microsoft Learn](/) content. For any project, GitHub hosts the main repository, from which contributors can make copies for their own work.
 
 ## Git
 
@@ -33,21 +33,20 @@ Contributors interact with Git to update and manipulate repositories at both the
 ## GitHub
 
 > [!NOTE]
-> Although Docs guidance is based on using GitHub, some teams use Visual Studio Team Services to host Git repositories. The Visual Studio Team Explorer client provides a GUI for interacting with Team Services repositories, as an alternative to using Git commands through a command line.
+> Although the documentation guidance is based on using GitHub, some teams use Visual Studio Team Services to host Git repositories. The Visual Studio Team Explorer client provides a GUI for interacting with Team Services repositories, as an alternative to using Git commands through a command line.
 > </br>
-> Also, many of the following guidelines were developed as best practices from years of experience in hosting Azure service content in GitHub. They might be required in some Docs repositories.
+> Also, many of the following guidelines were developed as best practices from years of experience in hosting Azure service content in GitHub. They might be required in some Microsoft Learn repositories.
 
-All workflows begin and end at the GitHub level, where the main repository for any Docs project is stored. The copies that contributors create for their own use are distributed across multiple computers. These copies are eventually reconciled back into the project's main GitHub repository.
+All workflows begin and end at the GitHub level, where the main repository for any documentation project is stored. The copies that contributors create for their own use are distributed across multiple computers. These copies are eventually reconciled back into the project's main GitHub repository.
 
 ### Directory organization
 
-As mentioned earlier, a project's default branch serves as the current version of content for the project. The content in the default branch--and branches created from it--is loosely aligned with the organization of the articles on the corresponding Docs pages. Subdirectories are used for separation of like content (such as services), media content (such as image files), and "include" files (which enable reuse of content).
+As mentioned earlier, a project's default branch serves as the current version of content for the project. The content in the default branch--and branches created from it--is loosely aligned with the organization of the articles on the corresponding Microsoft Learn pages. Subdirectories are used for separation of like content (such as services), media content (such as image files), and "include" files (which enable reuse of content).
 
 You can typically find a main `articles` directory off the root of the repository. The articles
 directory contains a set of subdirectories. Articles in the subdirectories are formatted as
 Markdown files that use an *.md* extension. Some repositories that support multiple services use a
-generic `/articles` subdirectory, such as the 
-[Azure-Docs](https://github.com/MicrosoftDocs/Azure-Docs) repository. Others might use a
+generic `/articles` subdirectory, such as the [Azure-Docs](https://github.com/MicrosoftDocs/Azure-Docs) repository. Others might use a
 service-specific name, such as the [IntuneDocs](https://github.com/MicrosoftDocs/IntuneDocs)
 repository, which uses `/IntuneDocs`.
 
@@ -80,31 +79,31 @@ A *pull request* provides a convenient way for a contributor to propose a set of
 
 There are two ways to contribute by pull request, depending on the size of changes that you want to propose. We will cover this in detail later, in the [GitHub workflow](how-to-write-workflows-major.md) section of this guide.
 
-<!---- Reference links for Docs landing pages, associated GitHub repositories, and related Forums matrix. ------------------>
+<!---- Reference links for landing pages, associated GitHub repositories, and related Forums matrix. ------------------>
 <!---- PLEASE INSERT URLS IN ASCENDING SORT ORDER, AND REMOVE LOCALE SEGMENT FROM URLS (that is, en-us) FOR LOCALIZED FORUMS! -->
 <!---- NOTE: these links are saved for future use in another/new article; no longer used above in this article --->
-[Visual-Studio-Page]:(https://docs.microsoft.com/en-us/visualstudio/index)
+[Visual-Studio-Page]:(https://learn.microsoft.com/visualstudio/index)
 [Visual-Studio-Repo-Internal]:(https://github.com/Microsoft/vsdocs)
 [Visual-Studio-Repo-External]:(https://github.com/Microsoft/visualstudio-docs)
 [Visual-Studio-SO]: (https://stackoverflow.com/search?q=Visual+Studio+2017)
-[Dotnet-Page]: https://docs.microsoft.com/dotnet
-[Dotnet-Core-Page]: https://docs.microsoft.com/dotnet/articles/welcome
-[Dotnet-Core-Repo]: https://github.com/dotnet/docs
-[EM-ATA-Land]: https://docs.microsoft.com/advanced-threat-analytics/
+[Dotnet-Page]: https://learn.microsoft.com/dotnet
+[Dotnet-Core-Page]: https://learn.microsoft.com/dotnet/articles/welcome
+[Dotnet-Core-Repo]: https://github.com/dotnet/learn
+[EM-ATA-Land]: https://learn.microsoft.com/advanced-threat-analytics/
 [EM-ATA-Repo]: https://github.com/Microsoft/ATADocs
-[EM-AzureAD-Land]: https://docs.microsoft.com/active-directory/
+[EM-AzureAD-Land]: https://learn.microsoft.com/active-directory/
 [EM-AzureAD-Repo]: https://github.com/Azure/azure-content/tree/master/articles/active-directory/
-[EM-AzureRMS-Land]: https://docs.microsoft.com/rights-management/
+[EM-AzureRMS-Land]: https://learn.microsoft.com/rights-management/
 [EM-AzureRMS-Repo]: https://github.com/Microsoft/Azure-RMSDocs
-[EM-Intune-Land]: https://docs.microsoft.com/intune/
+[EM-Intune-Land]: https://learn.microsoft.com/intune/
 [EM-Intune-Repo]: https://github.com/microsoft/intuneDocs
-[EM-Land-Page]: https://docs.microsoft.com/enterprise-mobility/
+[EM-Land-Page]: https://learn.microsoft.com/enterprise-mobility/
 [EM-Land-Repo]: https://github.com/Microsoft/EMDocs/
-[EM-MFA-Land]: https://docs.microsoft.com/multi-factor-authentication/
+[EM-MFA-Land]: https://learn.microsoft.com/multi-factor-authentication/
 [EM-MFA-Repo]: https://github.com/Azure/azure-content/tree/master/articles/multi-factor-authentication
-[EM-MIM-Land]: https://docs.microsoft.com/microsoft-identity-manager/
+[EM-MIM-Land]: https://learn.microsoft.com/microsoft-identity-manager/
 [EM-MIM-Repo]: https://github.com/Microsoft/MIMDocs
-[EM-RemoteApp-Land]: https://docs.microsoft.com/en-us/remoteapp/
+[EM-RemoteApp-Land]: https://learn.microsoft.com/remoteapp/
 [EM-RemoteApp-Repo]: https://github.com/Azure/azure-content/tree/master/articles/remoteapp
 [Forum-MSDN-ATA]: https://social.technet.microsoft.com/Forums/en-US/home?forum=mata
 [Forum-MSDN-AzureAD]: https://social.msdn.microsoft.com/Forums/en-US/home?forum=WindowsAzureAD

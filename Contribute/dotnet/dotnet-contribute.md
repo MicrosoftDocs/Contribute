@@ -59,7 +59,7 @@ For small changes, see the instructions on editing in GitHub on the [home page](
 
 **Step 3:** Make the changes on this new branch.
 
-If it's a new topic, you can use this [template file](dotnet-style-guide.md) as your starting point. It contains the writing guidelines and also explains the metadata required for each article, such as author information. For more information on the Markdown syntax used in Microsoft Docs, see [Markdown reference](../markdown-reference.md).
+If it's a new topic, you can use this [template file](dotnet-style-guide.md) as your starting point. It contains the writing guidelines and also explains the metadata required for each article, such as author information. For more information on the Markdown syntax used in Microsoft Learn content, see [Markdown reference](../markdown-reference.md).
 
 Navigate to the folder that corresponds to the TOC location determined for your article in step 1. That folder contains the Markdown files for all articles in that section. If necessary, create a new folder to place the files for your content. The main article for that section is called *index.md*.
 
@@ -149,7 +149,7 @@ Sample projects should build and run on the widest set of platforms possible for
 
 We are working toward having a CI system in place for all code. When you make any updates to samples, make sure each update is part of a buildable project. Ideally, add tests for correctness on samples as well.
 
-Each complete sample that you create should contain a *readme.md* file. This file should contain a short description of the sample (one or two paragraphs). Your *readme.md* should tell readers what they will learn by exploring this sample. The *readme.md* file should also contain a link to the live document on the [.NET documentation site](/dotnet/welcome). To determine where a given file in the repository maps to that site, replace `/docs` in the repository path with `https://docs.microsoft.com/dotnet`.
+Each complete sample that you create should contain a *readme.md* file. This file should contain a short description of the sample (one or two paragraphs). Your *readme.md* should tell readers what they will learn by exploring this sample. The *readme.md* file should also contain a link to the live document on the [.NET documentation site](/dotnet/welcome). To determine where a given file in the repository maps to that site, replace `/docs` in the repository path with `https://learn.microsoft.com/dotnet`.
 
 Your topic will also contain links to the sample. Link directly to the sample's folder on GitHub.
 

@@ -1,6 +1,6 @@
 ---
-title: Markdown reference for Microsoft Docs
-description: Learn the Markdown features and syntax used in the Microsoft Docs platform.
+title: Markdown reference for Microsoft Learn
+description: Learn the Markdown features and syntax used in Microsoft Learn content.
 author: meganbradley
 ms.author: mbradley
 ms.date: 11/09/2021
@@ -9,17 +9,17 @@ ms.prod: non-product-specific
 ms.custom: external-contributor-guide
 ---
 
-# Docs Markdown reference
+# Learn Markdown reference
 
-This article provides an alphabetical reference for writing Markdown for [Microsoft Docs](/).
+This article provides an alphabetical reference for writing Markdown for [Microsoft Learn](/).
 
-[Markdown](https://daringfireball.net/projects/markdown/) is a lightweight markup language with plain text formatting syntax. Docs supports [CommonMark](https://commonmark.org/) compliant Markdown parsed through the [Markdig](https://github.com/lunet-io/markdig) parsing engine. Docs also supports custom Markdown extensions that provide richer content on the Docs site.
+[Markdown](https://daringfireball.net/projects/markdown/) is a lightweight markup language with plain text formatting syntax. The Learn platform supports [CommonMark](https://commonmark.org/) compliant Markdown parsed through the [Markdig](https://github.com/lunet-io/markdig) parsing engine. Learn also supports custom Markdown extensions that provide richer content on the Microsoft Learn site.
 
-You can use any text editor to write Markdown, but we recommend [Visual Studio Code](https://code.visualstudio.com/) with the [Docs Authoring Pack](https://aka.ms/DocsAuthoringPack). The Docs Authoring Pack provides editing tools and preview functionality that lets you see what your articles will look like when rendered on Docs.
+You can use any text editor to write Markdown, but we recommend [Visual Studio Code](https://code.visualstudio.com/) with the [Learn Authoring Pack](https://aka.ms/DocsAuthoringPack). The Learn Authoring Pack provides editing tools and preview functionality that lets you see what your articles will look like when rendered on Microsoft Learn.
 
 ## Alerts (Note, Tip, Important, Caution, Warning)
 
-Alerts are a Markdown extension to create block quotes that render on Docs with colors and icons that indicate the significance of the content.
+Alerts are a Markdown extension to create block quotes that render on Microsoft Learn with colors and icons that indicate the significance of the content.
 
 Avoid notes, tips, and important boxes. Readers tend to skip over them. It's better to put that info directly into the article text.
 
@@ -44,7 +44,7 @@ The following alert types are supported:
 > Dangerous certain consequences of an action.
 ```
 
-These alerts look like this on Docs:
+These alerts look like this on Microsoft Learn:
 
 > [!NOTE]
 > Information the user should notice even if skimming.
@@ -81,7 +81,7 @@ Here are the encodings for the "smart" versions of these punctuation marks:
 - Left (opening) single quotation mark (rarely used): `&#8216;`
 
 > [!TIP]
-> To avoid "smart" characters in your Markdown files, rely on the Docs Authoring Pack's smart quote replacement feature. For more information, see [smart quote replacement](docs-authoring/smart-quote-replacement.md).
+> To avoid "smart" characters in your Markdown files, rely on the Learn Authoring Pack's smart quote replacement feature. For more information, see [smart quote replacement](docs-authoring/smart-quote-replacement.md).
 
 ## Blockquotes
 
@@ -119,13 +119,13 @@ For guidance on when to use bold and italic text, see [text formatting guideline
 
 ## Code snippets
 
-Docs Markdown supports the placement of code snippets both inline in a sentence and as a separate "fenced" block between sentences. For more information, see [How to add code to docs](code-in-docs.md).
+Learn Markdown supports the placement of code snippets both inline in a sentence and as a separate "fenced" block between sentences. For more information, see [How to add code to docs](code-in-docs.md).
 
 ## Columns
 
-The **columns** Markdown extension gives Docs authors the ability to add column-based content layouts that are more flexible and powerful than basic Markdown tables, which are only suited for true tabular data. You can add up to four columns, and use the optional `span` attribute to merge two or more columns.
+The **columns** Markdown extension gives authors the ability to add column-based content layouts that are more flexible and powerful than basic Markdown tables, which are only suited for true tabular data. You can add up to four columns, and use the optional `span` attribute to merge two or more columns.
 
-While the **columns** extension still works, we no longer recommend it for creating custom layouts. We've found that many custom column layouts have accessibility issues or otherwise violate Docs style guidelines. Don't create custom layouts. Use standard Docs features.
+While the **columns** extension still works, we no longer recommend it for creating custom layouts. We've found that many custom column layouts have accessibility issues or otherwise violate the style guidelines. Don't create custom layouts. Use standard Microsoft Learn features.
 
 The syntax for columns is as follows:
 
@@ -180,18 +180,18 @@ This renders as follows:
 
 ## Comments
 
-Docs supports HTML comments if you must comment out sections of your article:
+Microsoft Learn supports HTML comments if you must comment out sections of your article:
 
-```
+```html
 <!--- Here's my comment --->
 ```
 
 > [!WARNING]
-> Do not put private or sensitive information in HTML comments. Docs carries HTML comments through to the published HTML that goes public. While HTML comments are invisible to the reader's eye, they are exposed in the HTML underneath.
+> Do not put private or sensitive information in HTML comments. Microsoft Learn carries HTML comments through to the published HTML that goes public. While HTML comments are invisible to the reader's eye, they are exposed in the HTML underneath.
 
 ## Headings
 
-Docs supports six levels of Markdown headings:
+Microsoft Learn supports six levels of Markdown headings:
 
 ```md
 # This is a first level heading (H1)
@@ -212,7 +212,7 @@ Docs supports six levels of Markdown headings:
 
 ## HTML
 
-Although Markdown supports inline HTML, HTML isn't recommended for publishing to Docs, and except for a limited list of values will cause build errors or warnings.
+Although Markdown supports inline HTML, HTML isn't recommended for publishing to Microsoft Learn, and except for a limited list of values will cause build errors or warnings.
 
 ## Images
 
@@ -258,9 +258,9 @@ Write this:
 ![Active Directory extension for two-factor authentication, step 4: Configure](./media/bogusfilename/ADextension_2FA_Configure_Step4.PNG)
 ```
 
-### Standard conceptual images (Docs Markdown)
+### Standard conceptual images (Learn Markdown)
 
-The Docs custom `:::image:::` extension supports standard images, complex images, and icons.
+The Learn custom `:::image:::` extension supports standard images, complex images, and icons.
 
 For standard images, the older Markdown syntax will still work, but the new extension is recommended because it supports more powerful functionality, such as specifying a localization scope that's different from the parent topic. Other advanced functionality, such as selecting from the shared image gallery instead of specifying a local image, will be available in the future. The new syntax is as follows:
 
@@ -324,7 +324,7 @@ The `lightbox` property works the same for `icon` images as for standard `conten
 
 ## Included Markdown files
 
-Where markdown files need to be repeated in multiple articles, you can use an include file. The includes feature instructs Docs to replace the reference with the contents of the include file at build time. You can use includes in the following ways:
+Where markdown files need to be repeated in multiple articles, you can use an include file. The includes feature instructs Microsoft Learn to replace the reference with the contents of the include file at build time. You can use includes in the following ways:
 
 - Inline: Reuse a common text snippet inline with within a sentence.
 - Block: Reuse an entire Markdown file as a block, nested within a section of an article.
@@ -350,7 +350,7 @@ Where `<title>` is the name of the file and `<filepath>` is the relative path to
 Here are requirements and considerations for include files:
 
 - Use block includes for significant amounts of content--a paragraph or two, a shared procedure, or a shared section. Don't use them for anything smaller than a sentence.
-- Includes won't be rendered in the GitHub-rendered view of your article because they rely on Docs extensions. They'll be rendered only after publication.
+- Includes won't be rendered in the GitHub-rendered view of your article because they rely on Learn extensions. They'll be rendered only after publication.
 - Write all the text in an include file in complete sentences or phrases that don't depend on preceding or following text in the article that references the include. Ignoring this guidance creates an untranslatable string in the article.
 - Don't embed include files within other include files.
 - `/Includes` folders are excluded from build. Therefore, images stored in `/includes` folders and referenced in included files won't be displayed in published content. Store images in a `/media` folder outside the `/includes` folder.
@@ -411,7 +411,7 @@ For information on syntax for links, see [Use links in documentation](how-to-wri
 
 To create a numbered list, you can use all 1s. The numbers are rendered in ascending order as a sequential list when published. For increased source readability, you can increment your lists manually.
 
-Don't use letters in lists, including nested lists. They don't render correctly when published to Docs. Nested lists using numbers will render as lowercase letters when published. For example:
+Don't use letters in lists, including nested lists. They don't render correctly when published to Microsoft Learn. Nested lists using numbers will render as lowercase letters when published. For example:
 
 ```md
 1. This is
@@ -453,7 +453,7 @@ Whichever syntax you use, `-` or `*`, use it consistently within an article.
 
 ### Checklist
 
-Checklists are available for use on Docs via a custom Markdown extension:
+Checklists are available for use on Microsoft Learn via a custom Markdown extension:
 
 ```md
 > [!div class="checklist"]
@@ -462,7 +462,7 @@ Checklists are available for use on Docs via a custom Markdown extension:
 > * List item 3
 ```
 
-This example renders on Docs like this:
+This example renders on Microsoft Learn like this:
 
 > [!div class="checklist"]
 > * List item 1
@@ -473,7 +473,7 @@ Use checklists at the beginning or end of an article to summarize "What will you
 
 ## Next step action
 
-You can use a custom extension to add a next step action button to Docs pages.
+You can use a custom extension to add a next step action button to Microsoft Learn pages.
 
 The syntax is as follows:
 
@@ -699,13 +699,13 @@ Renders as follows:
 | $1                   | $1                   | $1              |
 
 > [!TIP]
-> The Docs Authoring Extension for VS Code makes it easy to add basic Markdown tables!
+> The Learn Authoring Extension for VS Code makes it easy to add basic Markdown tables!
 >
 > You can also use an [online table generator](http://www.tablesgenerator.com/markdown_tables).
 
 ### Line breaks within words in any table cell
 
-Long words in a Markdown table might make the table expand to the right navigation and become unreadable. You can solve that by allowing Docs rendering to automatically insert line breaks within words when needed. Just wrap up the table with the custom class `[!div class="mx-tdBreakAll"]`.
+Long words in a Markdown table might make the table expand to the right navigation and become unreadable. You can solve that by allowing rendering to automatically insert line breaks within words when needed. Just wrap up the table with the custom class `[!div class="mx-tdBreakAll"]`.
 
 Here is a Markdown sample of a table with three rows that will be wrapped by a `div` with the class name `mx-tdBreakAll`.
 
@@ -740,7 +740,7 @@ You may notice that the column widths of the tables in your articles look odd or
 
 ### Data matrix tables
 
-A data matrix table has both a header and a weighted first column, creating a matrix with an empty cell in the top left. Docs has custom Markdown for data matrix tables:
+A data matrix table has both a header and a weighted first column, creating a matrix with an empty cell in the top left. Microsoft Learn has custom Markdown for data matrix tables:
 
 ```md
 |                  |Header 1 |Header 2|
@@ -756,11 +756,11 @@ The example renders as:
 |**First column A**|Cell 1A  |Cell 2A |
 |**First column B**|Cell 1B  |Cell 2B |
 
-Every entry in the first column must be styled as bold (`**bold**`); otherwise the tables won't be accessible for screen readers or valid for Docs.
+Every entry in the first column must be styled as bold (`**bold**`); otherwise the tables won't be accessible for screen readers or valid for Microsoft Learn.
 
 > [!TIP]
-> The Docs Authoring Pack for VS Code includes a function to convert a regular Markdown table into a data matrix table. Just select the table, right-click, and select **Convert to data matrix table**.
+> The Learn Authoring Pack for VS Code includes a function to convert a regular Markdown table into a data matrix table. Just select the table, right-click, and select **Convert to data matrix table**.
 
 ### HTML Tables
 
-HTML tables aren't recommended for Docs. They aren't human readable in the source - which is a key principle of Markdown.
+HTML tables aren't recommended for Microsoft Learn. They aren't human readable in the source - which is a key principle of Markdown.
