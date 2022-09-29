@@ -30,3 +30,4 @@ If you are unfamiliar with Git or GitHub, these resources can help you learn, be
 - [GitHub training services](https://services.github.com/training/): A listing of tutorials and training offerings from GitHub.
 - [Glossary](https://help.github.com/articles/github-glossary): A handy glossary of git and GitHub terms.
 - [GitHub Student developer pack](https://education.github.com/pack) : Give students free access to the best developer tools.
+- [Learn Git as part of Amazon Career Choice learning course] (https://www.itonlinelearning.com/amazon-career-choice/): This course provided as part of the Amazon Career Choice programme includes modules which cover learning Git and GitHub.
