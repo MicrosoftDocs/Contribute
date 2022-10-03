@@ -4,7 +4,7 @@ description: Learn how to discover which Microsoft Learn repositories participat
 
 author: IEvangelist
 ms.author: dapine
-ms.date: 09/10/2021
+ms.date: 10/03/2022
 ms.topic: contributor-guide
 ms.prod: non-product-specific
 ms.custom: external-contributor-guide
@@ -46,7 +46,8 @@ To find an issue to work on in a participating repository, filter the issues for
 - [Up for grabs](https://up-for-grabs.net)
 - [First timers only](https://www.firsttimersonly.com)
 
-For more information, see [Hacktoberfest: Beginners](https://hacktoberfest.digitalocean.com/resources/beginners).
+For more information, see [Hacktoberfest: Beginners](https://hacktoberfest.com/participation/#beginner-resources).
+
 
 ### Quality expectations
 
@@ -59,7 +60,7 @@ To have a successful contribution to an open source Microsoft Learn repository, 
 
 Finally, one PR to fix a typo is fine, but five PRs to remove a stray whitespace are not.
 
-For more information, see [Hacktoberfest: Quality standards](https://hacktoberfest.digitalocean.com/resources/qualitystandards).
+For more information, see [Hacktoberfest: Values](https://hacktoberfest.com/participation/#values).
 
 ### Open a PR
 
@@ -76,4 +77,4 @@ If you're proposing a PR without a corresponding issue, create an issue first. F
 
 - [GitHub account setup](get-started-setup-github.md)
 - [Git and GitHub essentials for Microsoft Learn documentation](git-github-fundamentals.md)
-- [Official Hacktoberfest site](https://hacktoberfest.digitalocean.com)
+- [Official Hacktoberfest site](https://hacktoberfest.com/)
