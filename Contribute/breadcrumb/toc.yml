@@ -1,7 +1,7 @@
-- name: Docs
+- name: Learn
   tocHref: /
   topicHref: /
   items:
-  - name: Contributor Guide
+  - name: Documentation contributor guide
     tocHref: /contribute/
     topicHref: /contribute/

@@ -13,7 +13,7 @@ ms.custom: external-contributor-guide
 
 This article provides an alphabetical reference for writing Markdown for [Microsoft Learn](/).
 
-[Markdown](https://daringfireball.net/projects/markdown/) is a lightweight markup language with plain text formatting syntax. The Learn platform supports [CommonMark](https://commonmark.org/) compliant Markdown parsed through the [Markdig](https://github.com/lunet-io/markdig) parsing engine. Learn also supports custom Markdown extensions that provide richer content on the Microsoft Learn site.
+[Markdown](https://daringfireball.net/projects/markdown/) is a lightweight markup language with plain text formatting syntax. The Microsoft Learn platform supports [CommonMark](https://commonmark.org/) compliant Markdown parsed through the [Markdig](https://github.com/lunet-io/markdig) parsing engine. Microsoft Learn also supports custom Markdown extensions that provide richer content on the Microsoft Learn site.
 
 You can use any text editor to write Markdown, but we recommend [Visual Studio Code](https://code.visualstudio.com/) with the [Learn Authoring Pack](https://aka.ms/DocsAuthoringPack). The Learn Authoring Pack provides editing tools and preview functionality that lets you see what your articles will look like when rendered on Microsoft Learn.
 
@@ -260,7 +260,7 @@ Write this:
 
 ### Standard conceptual images (Learn Markdown)
 
-The Learn custom `:::image:::` extension supports standard images, complex images, and icons.
+The custom `:::image:::` extension on Microsoft Learn supports standard images, complex images, and icons.
 
 For standard images, the older Markdown syntax will still work, but the new extension is recommended because it supports more powerful functionality, such as specifying a localization scope that's different from the parent topic. Other advanced functionality, such as selecting from the shared image gallery instead of specifying a local image, will be available in the future. The new syntax is as follows:
 
@@ -350,7 +350,7 @@ Where `<title>` is the name of the file and `<filepath>` is the relative path to
 Here are requirements and considerations for include files:
 
 - Use block includes for significant amounts of content--a paragraph or two, a shared procedure, or a shared section. Don't use them for anything smaller than a sentence.
-- Includes won't be rendered in the GitHub-rendered view of your article because they rely on Learn extensions. They'll be rendered only after publication.
+- Includes won't be rendered in the GitHub-rendered view of your article because they rely on Microsoft Learn extensions. They'll be rendered only after publication.
 - Write all the text in an include file in complete sentences or phrases that don't depend on preceding or following text in the article that references the include. Ignoring this guidance creates an untranslatable string in the article.
 - Don't embed include files within other include files.
 - `/Includes` folders are excluded from build. Therefore, images stored in `/includes` folders and referenced in included files won't be displayed in published content. Store images in a `/media` folder outside the `/includes` folder.
@@ -576,7 +576,7 @@ The preceding blockquote Markdown text will be rendered as:
 
 ## Selectors
 
-Selectors are UI elements that let the user switch between multiple flavors of the same article. They are used in some doc sets to address differences in implementation across technologies or platforms. Selectors are typically most applicable to our mobile platform content for developers.
+Selectors are UI elements that let the user switch between multiple flavors of the same article. They are used in some docsets to address differences in implementation across technologies or platforms. Selectors are typically most applicable to our mobile platform content for developers.
 
 Because the same selector Markdown goes in each article file that uses the selector, we recommend placing the selector for your article in an include file. Then you can reference that include file in all your article files that use the same selector.
 
