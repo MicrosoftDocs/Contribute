@@ -83,7 +83,8 @@ There are two ways to contribute by pull request, depending on the size of chang
 <!---- PLEASE INSERT URLS IN ASCENDING SORT ORDER, AND REMOVE LOCALE SEGMENT FROM URLS (that is, en-us) FOR LOCALIZED FORUMS! -->
 <!---- NOTE: these links are saved for future use in another/new article; no longer used above in this article --->
 
-<!-- [Visual-Studio-Page]:(/visualstudio/index)
+<!--
+[Visual-Studio-Page]:(/visualstudio/index)
 [Visual-Studio-Repo-Internal]:(https://github.com/Microsoft/vsdocs)
 [Visual-Studio-Repo-External]:(https://github.com/Microsoft/visualstudio-docs)
 [Visual-Studio-SO]: (https://stackoverflow.com/search?q=Visual+Studio+2017)
@@ -126,4 +127,5 @@ There are two ways to contribute by pull request, depending on the size of chang
 [Forum-SO-RemoteApp]: https://stackoverflow.com/questions/tagged/remoteapp
 [Forum-TechNet-Main]: https://social.technet.microsoft.com/Forums/home
 [Forum-Yammer-AzureRMS]: https://www.yammer.com/AskIPTeam
-[Forum-Yammer-Main]: https://www.yammer.com/ -->
+[Forum-Yammer-Main]: https://www.yammer.com/
+-->
