@@ -65,6 +65,10 @@ A file link is used to link from one article to another within the docset.
 
   `[link text](../directory/article-name.md)`
 
+- Some articles consist of both a `.yml` and `.md` file, where the `.yml` file contains metadata and the `.md` contains the content. In that case, link to the `.yml` file:
+
+  `[link text](../directory/article-name.yml)` (_not_ `[link text](../directory/article-name-content.md)`)
+
 > [!NOTE]
 > None of the previous examples use the `~/` as part of the link. To link to an absolute path that begins at the root of the repository, start the link with `/`. Including the `~/` produces invalid links when navigating the source repositories on GitHub. Starting the path with `/` resolves correctly.
 
