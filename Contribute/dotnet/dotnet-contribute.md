@@ -1,12 +1,12 @@
 ---
-title: Contribute to the .NET docs repositories
+title: Contribute to the .NET documentation repositories
 description: This article describes the process for contributing to the articles and code samples in the repositories that make up the .NET documentation.
 ms.topic: contributor-guide
 ms.prod: non-product-specific
 ms.custom: external-contributor-guide
 ms.date: 04/08/2021
 ---
-# Learn how to contribute to the .NET docs repositories
+# Learn how to contribute to the .NET documentation repositories
 
 Thank you for your interest in contributing to the .NET documentation!
 
@@ -20,7 +20,7 @@ The .NET documentation site is built from multiple repositories:
 - [.NET Compiler Platform SDK reference](https://github.com/dotnet/roslyn-api-docs)
 - [ML.NET API reference](https://github.com/dotnet/ml-api-docs)
 
-Issues for all these repositories are tracked in the [dotnet/docs](https://github.com/dotnet/docs/issues) repository.
+Issues for all these repositories are tracked in the [`dotnet/docs`](https://github.com/dotnet/docs/issues) repository.
 
 ## Guidelines for contributions
 
@@ -55,7 +55,7 @@ Once you've picked a task to work on, follow the [get started](../get-started-se
 
 **Step 2:** Fork the `/dotnet/docs`, `dotnet/samples`, `dotnet/dotnet-api-docs`, `dotnet/roslyn-api-docs`, or `dotnet/ml-api-docs` repos as needed and create a branch for your changes.
 
-For small changes, see the instructions on editing in GitHub on the [home page](../index.md#quick-edits-to-documentation) of the contributor guide.
+For small changes, see [Quick edits to documentation](../index.md#quick-edits-to-documentation).
 
 **Step 3:** Make the changes on this new branch.
 
