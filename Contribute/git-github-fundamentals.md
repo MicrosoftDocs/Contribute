@@ -82,28 +82,30 @@ There are two ways to contribute by pull request, depending on the size of chang
 <!---- Reference links for landing pages, associated GitHub repositories, and related Forums matrix. ------------------>
 <!---- PLEASE INSERT URLS IN ASCENDING SORT ORDER, AND REMOVE LOCALE SEGMENT FROM URLS (that is, en-us) FOR LOCALIZED FORUMS! -->
 <!---- NOTE: these links are saved for future use in another/new article; no longer used above in this article --->
-[Visual-Studio-Page]:(https://learn.microsoft.com/visualstudio/index)
+
+<!--
+[Visual-Studio-Page]:(/visualstudio/index)
 [Visual-Studio-Repo-Internal]:(https://github.com/Microsoft/vsdocs)
 [Visual-Studio-Repo-External]:(https://github.com/Microsoft/visualstudio-docs)
 [Visual-Studio-SO]: (https://stackoverflow.com/search?q=Visual+Studio+2017)
-[Dotnet-Page]: https://learn.microsoft.com/dotnet
-[Dotnet-Core-Page]: https://learn.microsoft.com/dotnet/articles/welcome
+[Dotnet-Page]: /dotnet
+[Dotnet-Core-Page]: /dotnet/articles/welcome
 [Dotnet-Core-Repo]: https://github.com/dotnet/learn
-[EM-ATA-Land]: https://learn.microsoft.com/advanced-threat-analytics/
+[EM-ATA-Land]: /advanced-threat-analytics/
 [EM-ATA-Repo]: https://github.com/Microsoft/ATADocs
-[EM-AzureAD-Land]: https://learn.microsoft.com/active-directory/
+[EM-AzureAD-Land]: /active-directory/
 [EM-AzureAD-Repo]: https://github.com/Azure/azure-content/tree/master/articles/active-directory/
-[EM-AzureRMS-Land]: https://learn.microsoft.com/rights-management/
+[EM-AzureRMS-Land]: /rights-management/
 [EM-AzureRMS-Repo]: https://github.com/Microsoft/Azure-RMSDocs
-[EM-Intune-Land]: https://learn.microsoft.com/intune/
+[EM-Intune-Land]: /intune/
 [EM-Intune-Repo]: https://github.com/microsoft/intuneDocs
-[EM-Land-Page]: https://learn.microsoft.com/enterprise-mobility/
+[EM-Land-Page]: /enterprise-mobility/
 [EM-Land-Repo]: https://github.com/Microsoft/EMDocs/
-[EM-MFA-Land]: https://learn.microsoft.com/multi-factor-authentication/
+[EM-MFA-Land]: /multi-factor-authentication/
 [EM-MFA-Repo]: https://github.com/Azure/azure-content/tree/master/articles/multi-factor-authentication
-[EM-MIM-Land]: https://learn.microsoft.com/microsoft-identity-manager/
+[EM-MIM-Land]: /microsoft-identity-manager/
 [EM-MIM-Repo]: https://github.com/Microsoft/MIMDocs
-[EM-RemoteApp-Land]: https://learn.microsoft.com/remoteapp/
+[EM-RemoteApp-Land]: /remoteapp/
 [EM-RemoteApp-Repo]: https://github.com/Azure/azure-content/tree/master/articles/remoteapp
 [Forum-MSDN-ATA]: https://social.technet.microsoft.com/Forums/en-US/home?forum=mata
 [Forum-MSDN-AzureAD]: https://social.msdn.microsoft.com/Forums/en-US/home?forum=WindowsAzureAD
@@ -126,3 +128,4 @@ There are two ways to contribute by pull request, depending on the size of chang
 [Forum-TechNet-Main]: https://social.technet.microsoft.com/Forums/home
 [Forum-Yammer-AzureRMS]: https://www.yammer.com/AskIPTeam
 [Forum-Yammer-Main]: https://www.yammer.com/
+-->

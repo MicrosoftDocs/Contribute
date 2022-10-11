@@ -44,10 +44,12 @@ thumbnailUrl: /azure/architecture/browse/thumbs/<browse-png-filename>.png
 content: |
   [!include[](<solution-idea>-content.md)]
 ```
+
 Notes:
-* Make sure you copy the main diagram image into the "/azure/architecture/browse/thumbs" folder.
-* Update the YML file with the new thumbnail path for the thumbnailUrl field.
-* In the TOC file (https://github.com/MicrosoftDocs/architecture-centerr/blob/main/docs/toc.yml), add a link to this new YML file. Place the link in one of the Azure categories (such as "AI + Machine Learning"), under its "Solution ideas" section. We list the Solution ideas alphabetically.
+
+* Make sure you copy the main diagram image into the `/azure/architecture/browse/thumbs` folder.
+* Update the YML file with the new thumbnail path for the `thumbnailUrl` field.
+* In the [TOC file](https://github.com/MicrosoftDocs/architecture-center/blob/main/docs/toc.yml), add a link to this new YML file. Place the link in one of the Azure categories (such as "AI + Machine Learning"), under its "Solution ideas" section. We list the Solution ideas alphabetically.
 
 ## MD file
 
@@ -136,9 +138,10 @@ Other contributors: > (If applicable.) Include contributing (but not primary) au
 
 ## Next steps
 
-> Links to articles on the Microsoft Learn platform. The links could also be to appropriate sources outside of the Learn platform, such as third-party documentation, GitHub repos, or an official technical blog post.
+> Links to articles on Microsoft Learn. The links could also be to appropriate sources outside of Microsoft Learn, such as third-party documentation, GitHub repos, or an official technical blog post.
 
 Examples:
+
 * [Azure Kubernetes Service (AKS) documentation](/azure/aks)
 * [Azure Machine Learning documentation](/azure/machine-learning)
 * [What are Azure Cognitive Services?](/azure/cognitive-services/what-are-cognitive-services)

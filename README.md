@@ -1,6 +1,6 @@
-# Microsoft Docs contributor guide
+# Microsoft Learn documentation contributor guide
 
-This GitHub repository is the source for the pages in the [Microsoft Docs contributor guide overview](https://learn.microsoft.com/contribute).
+This GitHub repository is the source for the pages in the [Microsoft Learn documentation contributor guide](/contribute).
 
 ## Microsoft Open Source Code of Conduct
 

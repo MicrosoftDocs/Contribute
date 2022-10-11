@@ -404,7 +404,7 @@ In the *azure-functions-durable-extension* repository, that code file is in the 
 folder. As noted [earlier](#highlighting-selected-lines), line numbers for highlighting are relative to the start of the snippet rather than the start of the file.
 
 > [!NOTE]
-> The name you assign to the dependent repository is relative to the root of the main repository, but the tilde (~) refers to the root of the doc set. The doc set root is determined by `build_source_folder` in *.openpublishing.publish.config.json*. The path to the snippet in the preceding example works in the azure-docs repo because `build_source_folder` refers to the repo root (`.`). If `build_source_folder` were `articles`, the path would start with `~/../samples-durable-functions` instead of `~/samples-durable-functions`.
+> The name you assign to the dependent repository is relative to the root of the main repository, but the tilde (`~`) refers to the root of the docset. The docset root is determined by `build_source_folder` in `.openpublishing.publish.config.json`. The path to the snippet in the preceding example works in the azure-docs repo because `build_source_folder` refers to the repo root (`.`). If `build_source_folder` were `articles`, the path would start with `~/../samples-durable-functions` instead of `~/samples-durable-functions`.
 
 ## Snippets in a Jupyter notebook
 
@@ -422,8 +422,8 @@ You can reference a cell in a Jupyter notebook as a code snippet. In order to re
     * Once the cell toolbar is enabled, select **Edit Metadata** on the cell you wish to name.
     * Or you can edit metadata directly in the notebook's JSON structure.
 
-1.  In the cell metadata, add a "name" attribute:
- 
+1. In the cell metadata, add a "name" attribute:
+
     ```json
     "metadata": {"name": "<name>"},
     ```
