@@ -12,8 +12,7 @@ ms.custom: external-contributor-guide
 
 # Hacktoberfest and Microsoft Learn
 
-Hacktoberfest is an annual worldwide event held during the month of October. The event encourages open source developers to contribute to repositories through pull requests (PR). GitHub hosts many open source repositories that contribute to [Microsoft Learn](/) content. Some of the repositories actively participate in the Hacktoberfest event. In this article, you'll learn how to discover which repos are accepting PRs, and what you can expect as a contributor.
-
+Hacktoberfest is an annual worldwide event held during the month of October. The event encourages open source developers to contribute to repositories through pull requests (PR). GitHub hosts many open source repositories that contribute to [Microsoft Learn](/) content. Some of the repositories actively participate in the Hacktoberfest event. In this article, you'll learn how to discover which repos are accepting PRs, and what you can expect as a contributor. Test
 ## Find a repo
 
 To discover if a Microsoft Learn repo is participating in Hacktoberfest, you'll see the **hacktoberfest** topic on the project.
@@ -78,3 +77,4 @@ If you're proposing a PR without a corresponding issue, create an issue first. F
 - [GitHub account setup](get-started-setup-github.md)
 - [Git and GitHub essentials for Microsoft Learn documentation](git-github-fundamentals.md)
 - [Official Hacktoberfest site](https://hacktoberfest.com/)
+
