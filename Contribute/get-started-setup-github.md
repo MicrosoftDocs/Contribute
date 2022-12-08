@@ -6,6 +6,7 @@ ms.prod: non-product-specific
 ms.custom: external-contributor-guide
 ms.date: 02/27/2018
 ---
+
 # GitHub account setup
 
 ## Set up your GitHub account
@@ -22,3 +23,4 @@ If you don't already have a GitHub account, [create one](https://github.com/join
 ## Next step
 
 * Continue to the [Tool installations](get-started-setup-tools.md) article to install Git Bash, a Markdown editor, and more.
+
