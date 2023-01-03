@@ -7,7 +7,7 @@ Comment automation enables read-level users (users who don't have write permissi
 | `#please-close` | Closes the PR if you decide not to have the changes merged. | Public and private |
 | `#please-open` | Reopens a closed PR or issue. | Public and private |
 | `#label:"custom label text"` | Adds a custom label up to 200 characters (shorter recommended). | Public and private |
-| `#assign:<GitHub account`>  | Adds a GitHub account to **Assignees** in the PR or issue. The account must be a valid contributor in the repo. | Public and private |
+| `#assign:<GitHub account>` | Adds a GitHub account to **Assignees** in the PR or issue. The account must be a valid contributor in the repo. | Public and private |
 | `#reassign:<Github account>` | Removes all current assignees and adds a GitHub account to **Assignees** in the PR or issue. The account must be a valid contributor in the repo. | Public and private |
 | `#assign-reviewer:<GitHub account>` | Adds a GitHub account to **Reviewers** in the PR. The account must be a valid contributor in the repo. | Public and private |
-| `#unassign-reviewer:GitHub account>` | Removes a GitHub account from **Reviewers** in the PR. | Public and private |
+| `#unassign-reviewer:<GitHub account>` | Removes a GitHub account from **Reviewers** in the PR. | Public and private |
