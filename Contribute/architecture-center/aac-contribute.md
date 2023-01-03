@@ -4,8 +4,8 @@ description: This article describes how to contribute to the Azure Architecture 
 ms.topic: contributor-guide
 ms.prod: non-product-specific
 ms.custom: external-contributor-guide
-author: EdPrice-MSFT
-ms.author: edprice
+author: martinekuan
+ms.author: martinek
 ms.date: 08/16/2022
 ---
 
