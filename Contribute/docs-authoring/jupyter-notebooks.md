@@ -4,7 +4,7 @@ description: Learn how to insert and update content from a Jupyter notebook into
 author: sdgilley
 ms.prod: non-product-specific
 ms.topic: contributor-guide
-ms.date: 01/19/2021
+ms.date: 01/03/2023
 ms.author: sgilley
 ---
 
@@ -25,6 +25,11 @@ The Learn Authoring Pack extension includes functionality to put a static markdo
 **Learn: Insert Jupyter notebook**: Enter the URL of the notebook. A markdown version of the notebook is added to the document at the position of your cursor. Do not modify the start or end tags; it's what the next function uses to update the notebook.
 
 **Learn: Update Jupyter notebook**: This function will replace the previously inserted notebook content between start and end with the latest version. No need to enter the URL, it's recorded in the start tag.  Update functionality assumes there is a single notebook in the document.  Don't add multiple notebooks to a single document.
+
+## Access the functions
+
+* Type **Ctrl + Shift + P** to open the Command Palette, then start to type the name of the function until you see it.  Select the function.
+* You can also access **Insert Jupyter notebook** from the the Learn Markdown Authoring menu by typing **Alt + M**.  Scroll down to find **Jupyter Notebook**. 
 
 ## In action
 
