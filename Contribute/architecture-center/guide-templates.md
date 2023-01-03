@@ -4,8 +4,8 @@ description: Get Markdown and YML templates for Architecture Guides, which are a
 ms.topic: contributor-guide
 ms.prod: non-product-specific
 ms.custom: internal-contributor-guide
-author: EdPrice-MSFT
-ms.author: edprice
+author: martinekuan
+ms.author: martinek
 ms.date: 07/08/2022
 ---
 
