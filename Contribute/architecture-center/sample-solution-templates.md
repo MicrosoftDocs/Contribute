@@ -4,8 +4,8 @@ description: These are the markdown and YML templates for an example workload ar
 ms.topic: contributor-guide
 ms.prod: non-product-specific
 ms.custom: external-contributor-guide
-author: EdPrice-MSFT
-ms.author: edprice
+author: martinekuan
+ms.author: martinek
 ms.date: 07/08/2022
 ---
 
