@@ -138,7 +138,7 @@ Here's a short video that demonstrates the following features of the Learn Autho
   - Sort selection ascending (A to Z)
   - Sort selection descending (Z to A)
 
-> [!VIDEO <https://www.youtube.com/embed/6zfbBRdjlw8>]
+> [!VIDEO https://www.youtube.com/embed/6zfbBRdjlw8]
 
 ## Next steps
 
