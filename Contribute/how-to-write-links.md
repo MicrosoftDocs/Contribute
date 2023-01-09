@@ -207,13 +207,13 @@ The UID is usually the fully qualified class or member name. There are at least 
 
   ![ms.assetid in source for web page](media/how-to-write-links/ms-assetid.png)
 
-- Use the [autocomplete site][] by appending some or all of the name of the type to the URL. For example, entering `https://xref.learn.microsoft.com/autocomplete?text=Writeline` in the address bar of your browser displays all the types and methods that contain **Writeline** in their name, along with their UID.
+- Use the [autocomplete site][] by appending some or all of the name of the type to the URL. For example, entering `https://xref.docs.microsoft.com/autocomplete?text=Writeline` in the address bar of your browser displays all the types and methods that contain **Writeline** in their name, along with their UID.
 
 #### Verify the UID
 
 To test if you have the correct UID, replace **System.String** in the following URL with your UID, and then paste it into the address bar of a browser:
 
-`https://xref.learn.microsoft.com/query?uid=System.String`
+`https://xref.docs.microsoft.com/query?uid=System.String`
 
 > [!TIP]
 > The UID in the URL is case-sensitive, and if you're checking a method overload UID, don't include spaces between the parameter types.
@@ -341,4 +341,4 @@ The best user experience minimizes sending users to another site. So base any li
 [.NET API browser]: /dotnet/api/
 [Windows UWP]: /uwp/api
 [docsextension]: https://marketplace.visualstudio.com/items?itemName=docsmsft.docs-markdown
-[autocomplete site]: https://xref.learn.microsoft.com/autocomplete?text=
+[autocomplete site]: https://xref.docs.microsoft.com/autocomplete?text=
