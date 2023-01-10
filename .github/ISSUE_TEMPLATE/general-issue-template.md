@@ -16,8 +16,8 @@ Issues submitted here are reviewed by the repo managers of the contributor guide
 
 If you have feedback about a product or product documentation, use one of these outlets instead:
 
-- For Microsoft Learn documentation: The feedback area at the bottom of an article. If there is none, post to our [feedback portal](https://feedbackportal.microsoft.com/feedback/).
+- For Microsoft Learn documentation: Either the feedback link at the top of the article, or the feedback area at the bottom of an article. If there is none, post to our [feedback portal](https://feedbackportal.microsoft.com/feedback/).
 
-- For Microsoft Learn training content: The feedback link at the bottom of each unit. If there is none, use the **Report feedback** tool at the very bottom of [this article](https://learn.microsoft.com/learn/support/troubleshooting?branch=main#report-feedback).
+- For Microsoft Learn training content: The **reporting an issue** feedback link at the bottom of each unit. If there is none, use the **Report feedback** tool at the very bottom of [this article](https://learn.microsoft.com/learn/support/troubleshooting?branch=main#report-feedback).
 
 Thank you!
