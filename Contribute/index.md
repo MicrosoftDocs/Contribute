@@ -47,6 +47,8 @@ Quick edits streamline the process to report and fix small errors and omissions 
 4. When you're finished editing, scroll to the bottom of the page. In the **Propose changes** area, enter a title and optionally a description for your changes. The title will be the first line of the commit message. Select **Propose changes** to commit your changes:
 
    :::image type="content" source="media/index/commit-changes.png" alt-text="Propose and commit file changes.":::
+   
+   Note: In other Microsoft documentation, GitHub may require a branch to be created in order to **Propose changes**.
 
 5. Now that you've proposed and committed your changes, you need to ask the owners of the repository to "pull" your changes into their repository. This is done using something called a "pull request" (PR). When you select **Propose changes**, a new page similar to the following is displayed:
 
