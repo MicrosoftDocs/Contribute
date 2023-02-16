@@ -44,10 +44,10 @@ Quick edits streamline the process to report and fix small errors and omissions 
 
 3. Edit the file in the web editor. Choose the **Preview** tab to check the formatting of your changes.
 
-4. When you're finished editing, scroll to the bottom of the page. In the **Propose changes** area, enter a title and optionally a description for your changes. The title will be the first line of the commit message. Select **Propose changes** to commit your changes:
+4. When you're finished editing, scroll to the bottom of the page. In the **Propose changes** area, enter a title and optionally a description for your changes. The title will be the first line of the commit message. Select **Propose changes** to create a new branch in your fork and commit your changes:
 
    :::image type="content" source="media/index/commit-changes.png" alt-text="Propose and commit file changes.":::
-
+   
 5. Now that you've proposed and committed your changes, you need to ask the owners of the repository to "pull" your changes into their repository. This is done using something called a "pull request" (PR). When you select **Propose changes**, a new page similar to the following is displayed:
 
    :::image type="content" source="media/index/create-pull-request.png" alt-text="Compare changes and create pull request.":::
