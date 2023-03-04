@@ -71,7 +71,7 @@ For more information, see [Learn Authoring Pack for Visual Studio Code](how-to-w
 
 ## Understand Markdown editors
 
-Markdown is a lightweight markup language used to author the content. [Visual Studio Code](https://code.visualstudio.com/) is the preferred tool for editing Markdown at Microsoft. [Atom](https://atom.io) is another popular tool for editing Markdown. Markdown basics and the features supported by Open Publishing Services (OPS) custom Markdown extensions, are covered in the [Markdown Reference](markdown-reference.md) article.
+Markdown is a lightweight markup language used to author the content. [Visual Studio Code](https://code.visualstudio.com/) is the preferred tool for editing Markdown at Microsoft. Other markdown editing tools are available. Markdown basics and the features supported by Open Publishing Services (OPS) custom Markdown extensions, are covered in the [Markdown Reference](markdown-reference.md) article.
 
 ## Next steps
 
