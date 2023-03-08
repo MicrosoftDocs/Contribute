@@ -85,7 +85,7 @@ git push --set-upstream origin <branchname>
 You've done it!  Your code is now up in your GitHub repository and ready for you to create a pull request.  
 
 >[!TIP]
-> Even though your changes become visible in your personal GitHub account when you push them, there is no rule that you need to submit a pull request immediately.  If you want to come stop and return at a later time to make additional tweaks, that's OK!
+> Even though your changes become visible in your personal GitHub account when you push them, there is no rule that you need to submit a pull request immediately.  If you want to stop and return at a later time to make additional tweaks, that's OK!
 
 Need to fix something you submitted?  No problem!  Just make your changes in the same branch and then commit and push again (no need to set the upstream server on subsequent pushes of the same branch).
 
