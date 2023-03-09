@@ -11,7 +11,7 @@ ms.custom: external-contributor-guide
 
 # How to include code in documentation
 
-There are several ways other than [screenshots](#screenshots) to include code in an article published on Microsoft Learn:
+There are several ways other than [screenshots](#screenshots) to include code in an article published on Microsoft Learn: 
 
 * Individual elements (words) within a line.
 
