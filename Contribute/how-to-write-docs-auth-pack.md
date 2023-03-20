@@ -53,7 +53,9 @@ The Learn Markdown extension includes a script to generate or update a main redi
 1. After a new input box is visible, type the keyboard shortcut you want to bind to that particular command. For example, to use the common shortcut for bold, type <kbd>Ctrl</kbd>+<kbd>B</kbd>.
 1. It's a good idea to insert a `when` clause into your key binding, so it won't be available in files other than Markdown. To do this, open _keybindings.json_ and insert the following line below the command name (be sure to add a comma between lines):
 
-    `"when": "editorTextFocus && editorLangId == 'markdown'"`
+    ```json
+    "when": "editorTextFocus && editorLangId == 'markdown'"
+    ```
 
     Your completed custom key binding should look like this in _keybindings.json_:
 
