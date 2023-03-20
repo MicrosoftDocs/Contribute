@@ -78,4 +78,4 @@ Issues start the conversation about what's needed. The content team will respond
 
 ## Get more involved
 
-Other topics in this guide help you get started productively contributing to Microsoft Learn. They explain working with GitHub repositories, Markdown tools, and extensions used in the Microsoft Learn content.
+Other topics in this guide help you get started productively contributing to Microsoft Learn. They explain working with GitHub repositories, Markdown tools, and extensions used in Microsoft Learn content.
