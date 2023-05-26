@@ -34,6 +34,186 @@
             "source_path": "Contribute/dotnet-voice-tone.md",
             "redirect_url": "/contribute/content/dotnet/dotnet-voice-tone",
             "redirect_document_id": true
+        },
+        {
+            "source_path": "Contribute/additional-resources.md",
+            "redirect_url": "/contribute/content/additional-resources",
+            "redirect_document_id": true
+        },
+        {
+            "source_path": "Contribute/architecture-center/aac-contribute.md",
+            "redirect_url": "/contribute/content/architecture-center/aac-contribute",
+            "redirect_document_id": true
+        },
+        {
+            "source_path": "Contribute/architecture-center/guide-templates.md",
+            "redirect_url": "/contribute/content/architecture-center/guide-templates",
+            "redirect_document_id": true
+        },
+        {
+            "source_path": "Contribute/architecture-center/sample-solution-templates.md",
+            "redirect_url": "/contribute/content/architecture-center/sample-solution-templates",
+            "redirect_document_id": true
+        },
+        {
+            "source_path": "Contribute/architecture-center/solution-idea-templates.md",
+            "redirect_url": "/contribute/content/architecture-center/solution-idea-templates",
+            "redirect_document_id": true
+        },
+        {
+            "source_path": "Contribute/code-in-docs.md",
+            "redirect_url": "/contribute/content/code-in-docs",
+            "redirect_document_id": true
+        },
+        {
+            "source_path": "Contribute/docs-authoring/dev-lang-completion.md",
+            "redirect_url": "/contribute/content/docs-authoring/dev-lang-completion",
+            "redirect_document_id": true
+        },
+        {
+            "source_path": "Contribute/docs-authoring/image-compression.md",
+            "redirect_url": "/contribute/content/docs-authoring/image-compression",
+            "redirect_document_id": true
+        },
+        {
+            "source_path": "Contribute/docs-authoring/jupyter-notebooks.md",
+            "redirect_url": "/contribute/content/docs-authoring/jupyter-notebooks",
+            "redirect_document_id": true
+        },
+        {
+            "source_path": "Contribute/docs-authoring/metadata-explorer.md",
+            "redirect_url": "/contribute/content/docs-authoring/metadata-explorer",
+            "redirect_document_id": true
+        },
+        {
+            "source_path": "Contribute/docs-authoring/metadata-updates.md",
+            "redirect_url": "/contribute/content/docs-authoring/metadata-updates",
+            "redirect_document_id": true
+        },
+        {
+            "source_path": "Contribute/docs-authoring/reformat-table.md",
+            "redirect_url": "/contribute/content/docs-authoring/reformat-table",
+            "redirect_document_id": true
+        },
+        {
+            "source_path": "Contribute/docs-authoring/smart-quote-replacement.md",
+            "redirect_url": "/contribute/content/docs-authoring/smart-quote-replacement",
+            "redirect_document_id": true
+        },
+        {
+            "source_path": "Contribute/docs-authoring/sort-redirects.md",
+            "redirect_url": "/contribute/content/docs-authoring/sort-redirects",
+            "redirect_document_id": true
+        },
+        {
+            "source_path": "Contribute/docs-authoring/sort-selection.md",
+            "redirect_url": "/contribute/content/docs-authoring/sort-selection",
+            "redirect_document_id": true
+        },
+        {
+            "source_path": "Contribute/dotnet/dotnet-contribute-code-analysis.md",
+            "redirect_url": "/contribute/content/dotnet/dotnet-contribute-code-analysis",
+            "redirect_document_id": true
+        },
+        {
+            "source_path": "Contribute/dotnet/dotnet-contribute.md",
+            "redirect_url": "/contribute/content/dotnet/dotnet-contribute",
+            "redirect_document_id": true
+        },
+        {
+            "source_path": "Contribute/dotnet/dotnet-pr-review.md",
+            "redirect_url": "/contribute/content/dotnet/dotnet-pr-review",
+            "redirect_document_id": true
+        },
+        {
+            "source_path": "Contribute/dotnet/dotnet-style-guide.md",
+            "redirect_url": "/contribute/content/dotnet/dotnet-style-guide",
+            "redirect_document_id": true
+        },
+        {
+            "source_path": "Contribute/dotnet/dotnet-voice-tone.md",
+            "redirect_url": "/contribute/content/dotnet/dotnet-voice-tone",
+            "redirect_document_id": true
+        },
+        {
+            "source_path": "Contribute/dotnet/labels-project.md",
+            "redirect_url": "/contribute/content/dotnet/labels-project",
+            "redirect_document_id": true
+        },
+        {
+            "source_path": "Contribute/dotnet/net-core-5-naming.md",
+            "redirect_url": "/contribute/content/dotnet/net-core-5-naming",
+            "redirect_document_id": true
+        },
+        {
+            "source_path": "Contribute/get-started-setup-github.md",
+            "redirect_url": "/contribute/content/get-started-setup-github",
+            "redirect_document_id": true
+        },
+        {
+            "source_path": "Contribute/get-started-setup-local.md",
+            "redirect_url": "/contribute/content/get-started-setup-local",
+            "redirect_document_id": true
+        },
+        {
+            "source_path": "Contribute/get-started-setup-tools.md",
+            "redirect_url": "/contribute/content/get-started-setup-tools",
+            "redirect_document_id": true
+        },
+        {
+            "source_path": "Contribute/git-github-fundamentals.md",
+            "redirect_url": "/contribute/content/git-github-fundamentals",
+            "redirect_document_id": true
+        },
+        {
+            "source_path": "Contribute/hacktoberfest.md",
+            "redirect_url": "/contribute/content/hacktoberfest",
+            "redirect_document_id": true
+        },
+        {
+            "source_path": "Contribute/how-to-write-docs-auth-pack.md",
+            "redirect_url": "/contribute/content/how-to-write-docs-auth-pack",
+            "redirect_document_id": true
+        },
+        {
+            "source_path": "Contribute/how-to-write-links.md",
+            "redirect_url": "/contribute/content/how-to-write-links",
+            "redirect_document_id": true
+        },
+        {
+            "source_path": "Contribute/how-to-write-workflows-major.md",
+            "redirect_url": "/contribute/content/how-to-write-workflows-major",
+            "redirect_document_id": true
+        },
+        {
+            "source_path": "Contribute/index.md",
+            "redirect_url": "/contribute/content/index",
+            "redirect_document_id": true
+        },
+        {
+            "source_path": "Contribute/markdown-reference.md",
+            "redirect_url": "/contribute/content/markdown-reference",
+            "redirect_document_id": true
+        },
+        {
+            "source_path": "Contribute/metadata.md",
+            "redirect_url": "/contribute/content/metadata",
+            "redirect_document_id": true
+        },
+        {
+            "source_path": "Contribute/powershell-overview.md",
+            "redirect_url": "/contribute/content/powershell-overview",
+            "redirect_document_id": true
+        },
+        {
+            "source_path": "Contribute/style-quick-start.md",
+            "redirect_url": "/contribute/content/style-quick-start",
+            "redirect_document_id": true
+        },
+        {
+            "source_path": "Contribute/text-formatting-guidelines.md",
+            "redirect_url": "/contribute/content/text-formatting-guidelines",
+            "redirect_document_id": true
         }
     ]
 }
