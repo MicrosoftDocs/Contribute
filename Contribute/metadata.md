@@ -1,6 +1,6 @@
 ---
 title: Metadata for Microsoft Learn documentation
-description: Learn about the required and optional metadata for Microsoft Learn documentation.
+description: Learn about the required and optional metadata for Microsoft Learn.
 author: sarah-barrett
 ms.author: sabarret
 ms.reviewer: jasonh
