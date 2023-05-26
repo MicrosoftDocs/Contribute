@@ -34,28 +34,28 @@ sections:
         url: https://aka.ms/communityintro
         icon:
           componentType: image
-          src: images/choose-your-community-experience.png
+          src: media/document.png
       - componentType: icon-card
         title: Tech Community
         summary: Be a part of the conversation at the Microsoft Learn hub.
         url: https://techcommunity.microsoft.com/t5/microsoft-learn/ct-p/MicrosoftLearn
         icon:
           componentType: image
-          src: images/tech-community-icon.png
+          src: media/document.png
       - componentType: icon-card
         title: Microsoft Q&A 
         summary: Get answers to questions about Microsoft technologies. 
         url: https://learn.microsoft.com/answers
         icon:
           componentType: image
-          src: images/microsoft-qa-icon.png
+          src: media/document.png
       - componentType: icon-card
         title: Learning rooms
         summary: Get guidance about your skilling journey from experts and peers.
         url: https://aka.ms/learningrooms
         icon:
           componentType: image
-          src: images/learning-rooms-icon.png 
+          src: media/document.png
 
  # bifold with image and text blocks
   - componentType: bifold
@@ -69,7 +69,7 @@ sections:
           - componentType: link
             url: https://techcommunity.microsoft.com/t5/microsoft-learn/ct-p/MicrosoftLearn
             text: Join the Microsoft Learn hub on Tech Community
-      - src: images/tech-community.png
+      - src: media/document.png
         alt: Image of certification renewal process
         componentType: image
 
@@ -79,7 +79,7 @@ sections:
     alignment: center
     backgroundColor: alternating-grey
     blocks:
-      - src: images/ms-qna.png
+      - src: media/document.png
         alt: Image of Boost your skills and increase your confidence
         componentType: image
       - title: Microsoft Q&A
@@ -103,7 +103,7 @@ sections:
           - componentType: link
             url: https://aka.ms/learningrooms
             text: Find learning rooms
-      - src: images/learning-rooms.png
+      - src: media/document.png
         alt: Image of certification renewal process
         componentType: image
         
@@ -114,7 +114,7 @@ sections:
     size: small
     image:
       componentType: image
-      src: images/ms-learn-experts.png    
+      src: media/document.png  
     summary: The Microsoft Learn Community experiences are supported by technical subject matter experts, which are present throughout our community resources based on their area of expertise. Connect with this worldwide network of experts who have technical and training experience, are passionate about the community, and can offer unique knowledge to help you achieve your skilling goals.
     links:
       - componentType: link
@@ -133,28 +133,28 @@ sections:
         url: https://aka.ms/communityperspective
         icon:
           componentType: image
-          src: images/community-voice-blog-icon.png
+          src: media/document.png
       - componentType: icon-card
         title: Digital swag
         summary: Celebrate your sense of community with exclusive Microsoft Learn digital assets.  
         url: https://aka.ms/learncommunityswag
         icon:
           componentType: image
-          src: images/digital-swag-icon.png
+          src: media/document.png
       - componentType: icon-card
         title: Microsoft Virtual Training Days
         summary: Increase your expertise and upskill with free training events.
         url: https://mvtd.events.microsoft.com/
         icon:
           componentType: image
-          src: images/virtual-training-days-icon.png
+          src: media/document.png
       - componentType: icon-card
         title: Shows
         summary: Discover hours of insightful and informative original programming.
         url: https://learn.microsoft.com/shows/
         icon:
           componentType: image
-          src: images/shows-icon.png
+          src: media/document.png
 
 
 # FAQ section
