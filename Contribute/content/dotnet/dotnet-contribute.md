@@ -74,7 +74,7 @@ Code snippets are small, focused examples of code that demonstrate the concepts 
 **Step 4:** Submit a Pull Request (PR) from your branch to the default branch.
 
 > [!IMPORTANT]
-> The [comment automation](../../includes/contribute-how-to-write-workflows-pull-request-processing.md#review-and-sign-off) functionality is not available on any of the .NET docs repositories at this time. Members of the .NET docs team will review and merge your PR.
+> The comment automation functionality is not available on any of the .NET docs repositories at this time. Members of the .NET docs team will review and merge your PR.
 
 Each PR should usually address one issue at a time, unless multiple issues are related to the same PR fix. The PR can modify one or multiple files. If you're addressing multiple fixes on different files, separate PRs are preferred.
 
