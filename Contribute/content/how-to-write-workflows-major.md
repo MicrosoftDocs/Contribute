@@ -19,7 +19,7 @@ This workflow is suitable for a contributor who needs to make a major change or 
 
 Examples of these types of contributions include:
 
-[!INCLUDE[contribute-major-changes-change-definition](includes/contribute-how-to-write-workflows-major-change-definition.md)]
+[!INCLUDE [contribute-how-to-write-workflows-major-change-definition](../includes/contribute-how-to-write-workflows-major-change-definition.md)]
 
 ### Terminology
 
@@ -104,7 +104,7 @@ git checkout -b "branchname"
 
 You're now back in a new branch and you're well on your way to being an expert contributer.
 
-[!INCLUDE[contribute-how-to-write-workflows-pull-request-processing](includes/contribute-how-to-write-workflows-pull-request-processing.md)]
+[!INCLUDE [contribute-how-to-write-workflows-pull-request-processing](../includes/contribute-how-to-write-workflows-pull-request-processing.md)]
 
 ## Next steps
 
