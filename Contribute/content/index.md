@@ -62,7 +62,7 @@ We use PRs for all changes, even for contributors who have write access. Most re
 
 The in-browser editing experience is best for minor or infrequent changes. If you make large contributions or use advanced Git features (such as branch management or advanced merge conflict resolution), you need to [fork the repo and work locally](how-to-write-workflows-major.md).
 
-[!INCLUDE[note-docsitelocfeedback](includes/note-docsitelocfeedback.md)]
+[!INCLUDE [note-docsitelocfeedback](../includes/note-docsitelocfeedback.md)]
 
 ## Review open PRs
 

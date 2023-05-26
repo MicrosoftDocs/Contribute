@@ -24,7 +24,6 @@ If you are unfamiliar with Git or GitHub, these resources can help you learn, be
 ## GitHub resources
 
 - [15-minute interactive primer](https://try.github.io/): This is an online git tutorial. It exposes you to the basics of git.
-- [Cheat sheets](https://go.microsoft.com/fwlink/?linkid=853941): A quick reference to common GitHub commands and workflows.
 - [GitHub Guides](https://guides.github.com/): The home of GitHub documentation.
 - [GitHub learning resources](https://help.github.com/articles/git-and-github-learning-resources/): Other useful GitHub resources.
 - [GitHub training services](https://services.github.com/training/): A listing of tutorials and training offerings from GitHub.

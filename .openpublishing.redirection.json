@@ -17,22 +17,22 @@
         },
         {
             "source_path": "Contribute/dotnet-contribute.md",
-            "redirect_url": "/contribute/dotnet/dotnet-contribute",
+            "redirect_url": "/contribute/content/dotnet/dotnet-contribute",
             "redirect_document_id": true
         },
         {
             "source_path": "Contribute/dotnet-pr-review.md",
-            "redirect_url": "/contribute/dotnet/dotnet-pr-review",
+            "redirect_url": "/contribute/content/dotnet/dotnet-pr-review",
             "redirect_document_id": true
         },
         {
             "source_path": "Contribute/dotnet-style-guide.md",
-            "redirect_url": "/contribute/dotnet/dotnet-style-guide",
+            "redirect_url": "/contribute/content/dotnet/dotnet-style-guide",
             "redirect_document_id": true
         },
         {
             "source_path": "Contribute/dotnet-voice-tone.md",
-            "redirect_url": "/contribute/dotnet/dotnet-voice-tone",
+            "redirect_url": "/contribute/content/dotnet/dotnet-voice-tone",
             "redirect_document_id": true
         }
     ]
