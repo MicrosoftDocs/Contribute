@@ -1,0 +1,115 @@
+### YamlMime:Hub
+
+title: Contribute to Microsoft Learn # < 60 chars
+summary: Find resources and support for contributing your expertise to Microsoft Learn. # < 160 chars
+
+metadata:
+  title: Create, contribute, and share # Required; page title displayed in search results. Include the brand. < 60 chars.
+  description: Become a Microsoft Learn Contributor! Create expert content that inspires and empowers others to build brilliant solutions with Microsoft tools. # Required; article description that is displayed in search results. < 160 chars.
+  ms.service: non-product-specific #Required; use either service or product per approved list. 
+  ms.topic: contributor-guide # Required
+  author: carlyrevier #Required; your GitHub user alias, with correct capitalization.
+  ms.author: cahublou #Required; microsoft alias of author; optional team alias.
+  ms.date: 05/31/2023 #Required; mm/dd/yyyy format.
+
+# highlightedContent section (Optional; Remove if not applicable.)
+# Maximum of 8 items
+highlightedContent:
+# itemType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | sample | tutorial | video | whats-new
+  items:
+    # Card
+    - title: Join experts and contribute
+      itemType: video
+      url: https://learn.microsoft.com/contribute
+    # Card
+    - title: Edit documentation
+      itemType: quickstart
+      url: https://learn.microsoft.com/contribute/content/#quick-edits-to-documentation
+    # Card
+    - title: Respond to Q&A
+      itemType: overview
+      url: https://learn.microsoft.com/answers/support/answer-question
+    # Card
+    - title: Give feedback
+      itemType: video
+      url: https://learn.microsoft.com/contribute
+
+
+# productDirectory section (Optional; Remove if not applicable.)
+productDirectory:
+  title: Contributor showcase # < 60 chars (Optional; Remove if not applicable.)
+  summary: Join your peers and be recognized for your contribution! # < 160 chars (Optional; Remove if not applicable.)
+  items:
+    # Card
+    - title: Callum Coffin
+      # imageSrc should be square in ratio with no white space
+      imageSrc: /media/document.png
+      links:
+        - url: https://techcommunity.microsoft.com/t5/azure-developer-community-blog/contributor-stories-callum-coffin/ba-p/3748149?%3Fwt.mc_id=contributorstories_techcommunity_blog_cxa
+          text: Read about Callum's work as a leader in Microsoft's Innovation Acceleration Team.
+    # Card
+    - title: Mike Martin
+      imageSrc: /media/document.png
+      links:
+        - url: https://techcommunity.microsoft.com/t5/azure-developer-community-blog/contributor-stories-mike-martin/ba-p/3760508?wt.mc_id=contributorstories_techcommunity_blog_cxa
+          text: Meet Mike - a Senior Cloud Solution Architect at Microsoft.
+    # Card
+    - title: Another person
+      imageSrc: /media/document.png
+      links:
+        - url: https://learn.microsoft.com/contribute
+          text: Read about them!
+    # Card
+    - title: Another person
+      imageSrc: /media/document.png
+      links:
+        - url: https://learn.microsoft.com/contribute
+          text: Read about them!
+
+# conceptualContent section (Optional; Remove if not applicable.)
+conceptualContent:
+# itemType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | sample | tutorial | video | whats-new
+  # Supports up to 3 subsections
+  sections:
+    - title: Frequently asked questions # < 60 chars (Optional; Remove if not applicable.)
+      summary: Find answers and support to succeed as a contributor on Microsoft Learn. # < 160 chars (Optional; Remove if not applicable.)
+      items:
+        # Card
+        - title: What's in it for me?
+          links:
+            - url: https://learn.microsoft.com/contribute
+              itemType: learn
+              text: Learn why it's great to be a Microsoft Learn contributor!
+            - url: https://learn.microsoft.com/contribute
+              itemType: learn
+              text: More links
+        # Card
+        - title: Contribute content
+          links:
+            - url: https://learn.microsoft.com/contribute
+              itemType: learn
+              text: Get started
+            - url: https://learn.microsoft.com/contribute
+              itemType: learn
+              text: More links
+        - title: Showcase your content
+          links:
+            - url: https://learn.microsoft.com/contribute
+              itemType: learn
+              text: Get started
+            - url: https://learn.microsoft.com/contribute
+              itemType: learn
+              text: More links
+  
+# additionalContent section (Optional; Remove if not applicable.)
+# Card with summary style
+additionalContent:
+  # Supports up to 4 subsections
+  sections:
+    - title: Connect with us # < 60 chars (Optional; Remove if not applicable.)
+      summary: Find peers, colleagues, and subject-matter experts. Connect with contributors and content stewards across Microsoft Learn. # < 160 chars (Optional; Remove if not applicable.)
+      items:
+        # Card
+        - title: Example
+          summary: Example
+          url: https://learn.microsoft.com/contribute
