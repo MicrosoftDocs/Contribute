@@ -15,8 +15,8 @@ sections:
     summary: Become a Microsoft Learn Contributor and share your expertise.
     heroImage:
       componentType: hero-image
-      lightImageSrc: https://learn.microsoft.com/training/images/community-banner.png
-      darkImageSrc: https://learn.microsoft.com/training/images/community-banner.png
+      lightImageSrc: https://learn.microsoft.com/training/media/student-hub/student-hub-hero_light.png
+      darkImageSrc: https://learn.microsoft.com/training/media/student-hub/student-hub-hero_dark.png
       
         
    # Markdown section
