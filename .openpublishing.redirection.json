@@ -186,11 +186,6 @@
             "redirect_document_id": true
         },
         {
-            "source_path": "Contribute/index.md",
-            "redirect_url": "/contribute/content/index",
-            "redirect_document_id": true
-        },
-        {
             "source_path": "Contribute/markdown-reference.md",
             "redirect_url": "/contribute/content/markdown-reference",
             "redirect_document_id": true
