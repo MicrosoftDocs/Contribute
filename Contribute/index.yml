@@ -10,9 +10,9 @@ sections:
 #hero        
   - componentType: hero-learn
     supertitle: MICROSOFT LEARN
-    title: Community
+    title: Create, contribute, share
     size: large
-    summary: Welcome to the Microsoft Learn Community, a collection of experiences offering you a variety of ways to connect and engage with each other and technical experts.
+    summary: Become a Microsoft Learn Contributor and share your expertise.
     heroImage:
       componentType: hero-image
       lightImageSrc: https://learn.microsoft.com/training/images/community-banner.png
@@ -22,36 +22,36 @@ sections:
    # Markdown section
   - componentType: markdown
     content: |
-      ## Empowering learning through connection
-      We are all here to support each other in our learning journey, and these community engagements offer more ways for you to increase expertise on the topics that matter most to you and achieve career goals. You’re at the heart of our community, and we welcome everyone to join, learn, and grow.
+      ## Empowering experts to create world-class content
+      Create content together with the community. Inspire and empower each other to develop brilliant solutions with Microsoft developer tools and technologies. Everyone is welcome to share their expertise.
 
  #Small Cards with Image
   - componentType: grid
     blocks:
       - componentType: icon-card
-        title: Choose your community experience
-        summary: Try one or all, find the resource that fits!
+        title: Join experts and contribute
+        summary: Learn how to get started.
         url: https://aka.ms/communityintro
         icon:
           componentType: image
           src: media/document.png
       - componentType: icon-card
-        title: Tech Community
-        summary: Be a part of the conversation at the Microsoft Learn hub.
+        title: Edit documentation
+        summary: Contribute to Microsoft's world-class documentation.
         url: https://techcommunity.microsoft.com/t5/microsoft-learn/ct-p/MicrosoftLearn
         icon:
           componentType: image
           src: media/document.png
       - componentType: icon-card
-        title: Microsoft Q&A 
-        summary: Get answers to questions about Microsoft technologies. 
+        title: Respond to Q&A
+        summary: Answer questions to help others learn about Microsoft technologies. 
         url: https://learn.microsoft.com/answers
         icon:
           componentType: image
           src: media/document.png
       - componentType: icon-card
-        title: Learning rooms
-        summary: Get guidance about your skilling journey from experts and peers.
+        title: Give feedback
+        summary: Share your thoughts with product teams.
         url: https://aka.ms/learningrooms
         icon:
           componentType: image
