@@ -12,50 +12,64 @@ sections:
     supertitle: MICROSOFT LEARN
     title: Create, contribute, share
     size: large
-    summary: Become a Microsoft Learn Contributor and share your expertise.
+    summary: Become a Microsoft Learn contributor! Create content to inspire and empower others to build brilliant solutions with the Microsoft platform. Everyone is welcome to share their expertise!
     heroImage:
       componentType: hero-image
-      lightImageSrc: https://learn.microsoft.com/training/media/student-hub/student-hub-hero_light.png
-      darkImageSrc: https://learn.microsoft.com/training/media/student-hub/student-hub-hero_dark.png
-      
-        
-   # Markdown section
-  - componentType: markdown
-    content: |
-      ## Empowering experts to create world-class content
-      Create content together with the community. Inspire and empower each other to develop brilliant solutions with Microsoft developer tools and technologies. Everyone is welcome to share their expertise.
+      lightImageSrc: /media/community-banner.png
+      darkImageSrc: /media/community-banner.png
+    links:
+      - componentType: link
+        url: https://aka.ms/communityintro
+        text: Join experts and contribute
 
  #Small Cards with Image
   - componentType: grid
     blocks:
       - componentType: icon-card
-        title: Join experts and contribute
-        summary: Learn how to get started.
-        url: https://aka.ms/communityintro
-        icon:
-          componentType: image
-          src: media/document.png
-      - componentType: icon-card
         title: Edit documentation
         summary: Contribute to Microsoft's world-class documentation.
+        url: /content/index.md
+        icon:
+          componentType: image
+          src: media/get-started.png
+      - componentType: icon-card
+        title: Respond to Q&A
+        summary: Answer questions to help others learn about Microsoft technologies.
+        url: https://learn.microsoft.com/en-us/answers/questions/
+        icon:
+          componentType: image
+          src: media/microsoft-qa-icon.png
+      - componentType: icon-card
+        title: Create a collection
+        summary: Share curated experiences with your followers.
+        url: https://techcommunity.microsoft.com/t5/microsoft-learn-blog/microsoft-learn-collections-now-support-docs-and-q-amp-a-content/ba-p/2549380
+        icon:
+          componentType: image
+          src: media/community-perspectives-icon.png
+      - componentType: icon-card
+        title: Join the conversation
+        summary: Connect with other experts in our Tech Community.
         url: https://techcommunity.microsoft.com/t5/microsoft-learn/ct-p/MicrosoftLearn
         icon:
           componentType: image
-          src: media/document.png
-      - componentType: icon-card
-        title: Respond to Q&A
-        summary: Answer questions to help others learn about Microsoft technologies. 
-        url: https://learn.microsoft.com/answers
-        icon:
-          componentType: image
-          src: media/document.png
-      - componentType: icon-card
-        title: Give feedback
-        summary: Share your thoughts with product teams.
-        url: https://aka.ms/learningrooms
-        icon:
-          componentType: image
-          src: media/document.png
+          src: media/tech-community-icon.png
+
+ # Testimonials section
+  - componentType: testimonials-section
+    title: Meet <span class="text-gradient-purple-blue">inspirational experts</span> from the community
+    cards:
+      - avatarUrl: /media/callum-coffin.jpg
+        componentType: testimonial-card
+        name: Callum Coffin
+        role: Technical leader for Microsoft's Innovation Acceleration Team
+        feedback: I contribute to solve the challenges customers are facing while trying to design, build, and operate highly reliable applications on Azure.
+        link:
+          componentType: link
+          url: https://techcommunity.microsoft.com/t5/azure-developer-community-blog/contributor-stories-callum-coffin/ba-p/3748149?%3Fwt.mc_id=contributorstories_techcommunity_blog_cxa
+          text: Read Callum's story
+    #backgroundImage:
+        #lightImageSrc: /media/home-and-directory/section-testimonials_light.jpg?branch=main
+        #darkImageSrc: /media/home-and-directory/section-testimonials_dark.jpg?branch=main
 
  # bifold with image and text blocks
   - componentType: bifold
