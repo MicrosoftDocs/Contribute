@@ -66,7 +66,7 @@ sections:
           componentType: link
           url: https://techcommunity.microsoft.com/t5/azure-developer-community-blog/contributor-stories-callum-coffin/ba-p/3748149?%3Fwt.mc_id=contributorstories_techcommunity_blog_cxa
           text: Read Callum's story
-      - avatarUrl: /media/ed-burns.png
+      - avatarUrl: /media/ed-burns-round.png
         componentType: testimonial-card
         name: Ed Burns
         role: Principal Architect on Microsoft's Java Tooling and Experiences team
