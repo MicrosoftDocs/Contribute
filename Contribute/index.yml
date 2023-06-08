@@ -90,6 +90,7 @@ sections:
 
 # FAQ section
   - componentType: frequently-asked-questions
+    layout: horizontal
     title: Frequently asked questions
     questions:
       - question: What type of account do I need to become a contributor?
