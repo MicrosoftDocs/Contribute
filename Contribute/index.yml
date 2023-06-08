@@ -6,7 +6,6 @@ metadata:
 sections:
     # Top Banner
 
-
 #hero        
   - componentType: hero-learn
     supertitle: MICROSOFT LEARN
@@ -19,7 +18,7 @@ sections:
       darkImageSrc: /media/community-banner.png
     links:
       - componentType: link
-        url: https://aka.ms/communityintro
+        url: https://aka.ms/communityintro #where do we want this link to go?
         text: Join experts and contribute
 
  #Small Cards with Image
@@ -58,7 +57,7 @@ sections:
   - componentType: testimonials-section
     title: Meet <span class="text-gradient-purple-blue">inspirational experts</span> from the community
     cards:
-      - avatarUrl: /media/callum-coffin.jpg
+      - avatarUrl: /media/callum-coffin.png
         componentType: testimonial-card
         name: Callum Coffin
         role: Technical leader for Microsoft's Innovation Acceleration Team
@@ -67,126 +66,42 @@ sections:
           componentType: link
           url: https://techcommunity.microsoft.com/t5/azure-developer-community-blog/contributor-stories-callum-coffin/ba-p/3748149?%3Fwt.mc_id=contributorstories_techcommunity_blog_cxa
           text: Read Callum's story
+      - avatarUrl: /media/ed-burns.png
+        componentType: testimonial-card
+        name: Ed Burns
+        role: Principal Architect on Microsoft's Java Tooling and Experiences team
+        feedback: Microsoft Docs has invested heavily in making it easy for everyone to contribute, and I'm proud to be part of that community.
+        link:
+          componentType: link
+          url: https://techcommunity.microsoft.com/t5/azure-developer-community-blog/contributor-stories-ed-burns/ba-p/3797314?wt.mc_id=contributorstories_techcommunity_blog_cxa
+          text: Read Ed's story
+      - avatarUrl: /media/brandon-cowen.png
+        componentType: testimonial-card
+        name: Brandon Cowen
+        role: Senior Cloud Solution Architect at Microsoft
+        feedback: I have authored and contributed several articles and architectures, which has allowed me to showcase my skills and expertise, while also broadening my network.
+        link:
+          componentType: link
+          url: https://techcommunity.microsoft.com/t5/azure-developer-community-blog/contributor-stories-brandon-cowen/ba-p/3809405?wt.mc_id=contributorstories_techcommunity_blog_cxa
+          text: Read Brandon's story
     #backgroundImage:
         #lightImageSrc: /media/home-and-directory/section-testimonials_light.jpg?branch=main
         #darkImageSrc: /media/home-and-directory/section-testimonials_dark.jpg?branch=main
-
- # bifold with image and text blocks
-  - componentType: bifold
-    alignment: center
-    backgroundColor: alternating-grey
-    blocks:
-      - title: Tech Community
-        summary: Get the latest updates on Microsoft Learn news, connect with experts, and be a part of the conversation at the Microsoft Learn hub on Tech Community. If you want to ask a question, start a conversation about Microsoft Learn, get clarity on which path to take, or what certification to explore next, you're in the right place!
-        componentType: text
-        links:
-          - componentType: link
-            url: https://techcommunity.microsoft.com/t5/microsoft-learn/ct-p/MicrosoftLearn
-            text: Join the Microsoft Learn hub on Tech Community
-      - src: media/document.png
-        alt: Image of certification renewal process
-        componentType: image
-
-     
-  # bifold with image and text blocks
-  - componentType: bifold
-    alignment: center
-    backgroundColor: alternating-grey
-    blocks:
-      - src: media/document.png
-        alt: Image of Boost your skills and increase your confidence
-        componentType: image
-      - title: Microsoft Q&A
-        summary: Seeking a technical answer? You can find it on Microsoft Q&A, home for technical questions and answers at Microsoft. Providing a rich online experience, Microsoft Q&A helps you easily find learning resources, submit questions, and connect with Microsoft engineering and community experts.
-        componentType: text
-        links:
-          - componentType: link
-            url: https://learn.microsoft.com/answers
-            text: Visit Microsoft Q&A
-
-
- # bifold with image and text blocks
-  - componentType: bifold
-    alignment: center
-    backgroundColor: alternating-grey
-    blocks:
-      - title: Learning rooms
-        summary: Join our learning rooms, a space to find connections with experts and peers. Facilitated by Microsoft Learn experts, learning rooms are designed to offer you a dedicated and safe environment where you can directly engage with an expert and dive deep into topic-specific questions via asynchronous discussions and virtual sessions.
-        componentType: text
-        links:
-          - componentType: link
-            url: https://aka.ms/learningrooms
-            text: Find learning rooms
-      - src: media/document.png
-        alt: Image of certification renewal process
-        componentType: image
-        
- 
-  # Standard hero
-  - componentType: hero
-    title: Microsoft Learn experts
-    size: small
-    image:
-      componentType: image
-      src: media/document.png  
-    summary: The Microsoft Learn Community experiences are supported by technical subject matter experts, which are present throughout our community resources based on their area of expertise. Connect with this worldwide network of experts who have technical and training experience, are passionate about the community, and can offer unique knowledge to help you achieve your skilling goals.
-    links:
-      - componentType: link
-        url: https://aka.ms/learnexperts
-        text: Meet the experts
-
-        
-
- #Small Cards with Image
-  - componentType: grid
-    title: Community resources
-    blocks:
-      - componentType: icon-card
-        title: Community Perspectives
-        summary: New blog series offering community leader perspectives, training tips, and more. 
-        url: https://aka.ms/communityperspective
-        icon:
-          componentType: image
-          src: media/document.png
-      - componentType: icon-card
-        title: Digital swag
-        summary: Celebrate your sense of community with exclusive Microsoft Learn digital assets.  
-        url: https://aka.ms/learncommunityswag
-        icon:
-          componentType: image
-          src: media/document.png
-      - componentType: icon-card
-        title: Microsoft Virtual Training Days
-        summary: Increase your expertise and upskill with free training events.
-        url: https://mvtd.events.microsoft.com/
-        icon:
-          componentType: image
-          src: media/document.png
-      - componentType: icon-card
-        title: Shows
-        summary: Discover hours of insightful and informative original programming.
-        url: https://learn.microsoft.com/shows/
-        icon:
-          componentType: image
-          src: media/document.png
-
 
 # FAQ section
   - componentType: frequently-asked-questions
     title: Frequently asked questions
     questions:
-      - question: Do I need a Microsoft Learn profile to join the community?
-        answer: |
-          No. However, while a profile is not required, we do encourage you to create one as this will provide you with added benefits such as viewing personalized recommendations, tracking progress on learning activities and achievements, joining challenges, and registering for certification exams. [Learn more](https://learn.microsoft.com/training/support/faq?pivots=profile).
-      - question: Who can join a Microsoft Learn Community learning room?
-        answer: |
-          Learning rooms are free and open to anyone seeking a connected, supportive, and engaging community experience in which to learn. The learning rooms are facilitated by Microsoft Learn experts, who are verified technical subject matter experts with experience in technical skilling and community support.  You can join as many learning rooms as you want, if they cover a topic that you are interested in skilling up on. We’re just getting started, so stay tuned for more details about learning rooms and experts as we develop and grow this community experience. [Find learning rooms](https://aka.ms/learningrooms).
-      - question: What languages are supported in the learning rooms?
-        answer: |
-          Learning rooms will initially be available in English only.  As we grow and add more global learning experts, we will expand to include more languages for learners around the world. 
-      - question: How do I become a Learn expert?
-        answer: |
-          Microsoft Learn experts are invited to support the Microsoft Learn Community based on their technical subject matter expertise, strong community sense and affiliation, and passion to provide guidance, peer-to-peer engagement, and support to learners, on their own community platforms or on Tech Community. We are currently not accepting applications to become a learning expert, but if you are a technologist with training experience and have a strong passion for community, we invite you to participate and engage on [Microsoft Q&A](https://learn.microsoft.com/answers) and on the [Microsoft Learn hub on Tech Community](https://techcommunity.microsoft.com/t5/microsoft-learn/ct-p/MicrosoftLearn). 
+      - question: What type of account do I need to become a contributor?
+        answer: You must have a GitHub account to contribute to Microsoft Learn. 
+      - question: What's in it for me?
+        answer: Contributing to Microsoft Learn benefits not only our learners but also YOU! When you edit an article, your name appears in the list of contributors at the top of the article. Your commits to our repos will show up in your Git commit history, which is a great way to demonstrate your passion for a particular technology while also building your portfolio. For some products, you can earn digital swag too, like badges.
+      - question: How do I get started?
+        answer: Check out our documentation, which provides all the configuration steps necessary to get started. Once you've set up your account, head over to your favorite documentation set and start contributing!
+      - question: How do I become a Microsoft Learn contributor?
+        answer: There's more than one way to become a contributor! While editing documentation is the most popular method, you can also answer questions in Microsoft Q&A, create a collection of content for others to consume, or file a GitHub issue if you spot problems in our content but don't have the tools to fix them yourself.
+      - question: How do I showcase my content?
+        answer: To be answered
  
    # social section
   - componentType: social
@@ -201,6 +116,3 @@ sections:
       - componentType: social-link
         url: https://aka.ms/MicrosoftLearnNewsletter 
         destination: website
-      
-     
-     
