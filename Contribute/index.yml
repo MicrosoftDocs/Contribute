@@ -57,7 +57,7 @@ sections:
   - componentType: testimonials-section
     title: Meet <span class="text-gradient-purple-blue">inspirational experts</span> from the community
     cards:
-      - avatarUrl: /media/callum-coffin.png
+      - avatarUrl: media/callum-coffin.png
         componentType: testimonial-card
         name: Callum Coffin
         role: Technical leader for Microsoft's Innovation Acceleration Team
@@ -66,7 +66,7 @@ sections:
           componentType: link
           url: https://techcommunity.microsoft.com/t5/azure-developer-community-blog/contributor-stories-callum-coffin/ba-p/3748149?%3Fwt.mc_id=contributorstories_techcommunity_blog_cxa
           text: Read Callum's story
-      - avatarUrl: /media/ed-burns-round.png
+      - avatarUrl: media/ed-burns.png
         componentType: testimonial-card
         name: Ed Burns
         role: Principal Architect on Microsoft's Java Tooling and Experiences team
@@ -75,7 +75,7 @@ sections:
           componentType: link
           url: https://techcommunity.microsoft.com/t5/azure-developer-community-blog/contributor-stories-ed-burns/ba-p/3797314?wt.mc_id=contributorstories_techcommunity_blog_cxa
           text: Read Ed's story
-      - avatarUrl: /media/brandon-cowen.png
+      - avatarUrl: media/brandon-cowen.png
         componentType: testimonial-card
         name: Brandon Cowen
         role: Senior Cloud Solution Architect at Microsoft
