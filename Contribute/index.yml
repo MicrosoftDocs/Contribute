@@ -4,7 +4,6 @@ metadata:
   title: 'Contribute to Microsoft Learn'
   description: 'Contribute to Microsoft Learn to share your knowledge with the world!'
 sections:
-    # Top Banner
 
 #hero        
   - componentType: hero-learn
@@ -14,12 +13,16 @@ sections:
     summary: Become a Microsoft Learn contributor! Create content to inspire and empower others to build brilliant solutions with the Microsoft platform. Everyone is welcome to share their expertise!
     heroImage:
       componentType: hero-image
-      lightImageSrc: /media/community-banner.png
-      darkImageSrc: /media/community-banner.png
+      lightImageSrc: media/community-banner.png
+      darkImageSrc: media/community-banner.png
     links:
       - componentType: link
         url: https://aka.ms/communityintro #where do we want this link to go?
         text: Join experts and contribute
+
+#Text section
+  - componentType: text
+    title: Choose your contribution journey
 
  #Small Cards with Image
   - componentType: grid
@@ -27,7 +30,7 @@ sections:
       - componentType: icon-card
         title: Edit documentation
         summary: Contribute to Microsoft's world-class documentation.
-        url: /content/index.md
+        url: content/index.md
         icon:
           componentType: image
           src: media/get-started.png
@@ -90,11 +93,11 @@ sections:
 
 # FAQ section
   - componentType: frequently-asked-questions
-    layout: horizontal
+    #layout: horizontal
     title: Frequently asked questions
     questions:
-      - question: What type of account do I need to become a contributor?
-        answer: You must have a GitHub account to contribute to Microsoft Learn. 
+      - question: What type of accounts do I need to become a contributor?
+        answer: We recommend having a Microsoft Learn account and a GitHub account. A Microsoft Learn account allows you to contribute to Q&A and collections, while a GitHub account allows you to edit our open-source documentation or file an issue about documentation.
       - question: What's in it for me?
         answer: Contributing to Microsoft Learn benefits not only our learners but also YOU! When you edit an article, your name appears in the list of contributors at the top of the article. Your commits to our repos will show up in your Git commit history, which is a great way to demonstrate your passion for a particular technology while also building your portfolio. For some products, you can earn digital swag too, like badges.
       - question: How do I get started?
