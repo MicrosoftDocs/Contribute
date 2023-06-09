@@ -87,9 +87,9 @@ sections:
           componentType: link
           url: https://techcommunity.microsoft.com/t5/azure-developer-community-blog/contributor-stories-brandon-cowen/ba-p/3809405?wt.mc_id=contributorstories_techcommunity_blog_cxa
           text: Read Brandon's story
-    #backgroundImage:
-        #lightImageSrc: /media/home-and-directory/section-testimonials_light.jpg?branch=main
-        #darkImageSrc: /media/home-and-directory/section-testimonials_dark.jpg?branch=main
+    backgroundImage:
+        lightImageSrc: /media/home-and-directory/section-testimonials_light.jpg?branch=main
+        darkImageSrc: /media/home-and-directory/section-testimonials_dark.jpg?branch=main
 
 # FAQ section
   - componentType: frequently-asked-questions
