@@ -30,12 +30,14 @@
       items:
         - name: How to contribute to .NET docs
           href: dotnet-contribute.md
-        - name: Contribute to .NET docs
+        - name: The process
           href: dotnet-contribute-process.md
-        - name: .NET docs style conventions
+        - name: Style conventions
           href: dotnet-style-guide.md
         - name: Voice and tone guide
           href: dotnet-voice-tone.md
+        - name: API reference guidelines
+          href: dotnet-api-documentation.md
         - name: Pull request review process
           href: dotnet-pr-review.md
     - name: PowerShell docs

@@ -4,20 +4,18 @@ description: This article describes the process for contributing to the articles
 ms.topic: contributor-guide
 ms.prod: non-product-specific
 ms.custom: external-contributor-guide
-ms.date: 11/07/2018
+ms.date: 06/29/2023
 ---
 # Learn how to contribute to the .NET docs repositories
 
 Thank you for your interest in contributing to the .NET documentation!
 
-This document covers the process for contributing to the articles and code samples that are hosted on the [.NET documentation site](https://docs.microsoft.com/dotnet). Contributions may be as simple as typo corrections or as complex as new articles.
+This document covers the process for contributing to the articles and code samples that are hosted on the [.NET documentation site](https://learn.microsoft.com/dotnet). Contributions may be as simple as typo corrections or as complex as new articles.
 
-The .NET documentation site is built from multiple repositories:
+The .NET documentation site is built from multiple repositories; these are just some of them:
 
 - [.NET conceptual articles](https://github.com/dotnet/docs)
 - [Code samples and snippets](https://github.com/dotnet/samples)
-- [.NET Standard, .NET Core, .NET Framework API reference](https://github.com/dotnet/dotnet-api-docs)
+- [.NET API reference](https://github.com/dotnet/dotnet-api-docs)
 - [.NET Compiler Platform SDK reference](https://github.com/dotnet/roslyn-api-docs)
 - [ML.NET API reference](https://github.com/dotnet/ml-api-docs)
-
-Issues for all these repositories are tracked at the [dotnet/docs](https://github.com/dotnet/docs/issues) repository.

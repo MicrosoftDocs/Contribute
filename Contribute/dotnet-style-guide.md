@@ -1,5 +1,5 @@
 ---
-title: Template and cheatsheet for .NET articles 
+title: Template and cheatsheet for .NET articles
 description: This article contains a handy template you can use to create new articles for the .NET docs repositories
 ms.topic: contributor-guide
 ms.prod: non-product-specific
@@ -48,12 +48,12 @@ Markdown uses special characters such as \*, \`, and \# for formatting. If you w
 
 File names use the following rules:
 
-* Contain only lowercase letters, numbers, and hyphens.
-* No spaces or punctuation characters. Use the hyphens to separate words and numbers in the file name.
-* Use action verbs that are specific, such as develop, buy, build, troubleshoot. No -ing words.
-* No small words - don't include a, and, the, in, or, etc.
-* Must be in Markdown and use the .md file extension.
-* Keep file names reasonably short. They are part of the URL for your articles.
+- Contain only lowercase letters, numbers, and hyphens.
+- No spaces or punctuation characters. Use the hyphens to separate words and numbers in the file name.
+- Use action verbs that are specific, such as develop, buy, build, troubleshoot. No -ing words.
+- No small words - don't include a, and, the, in, or, etc.
+- Must be in Markdown and use the .md file extension.
+- Keep file names reasonably short. They are part of the URL for your articles.
 
 ## Headings
 
@@ -99,9 +99,9 @@ The build system has some extensions that allow us to link to .NET APIs without 
 
 Examples:
 
-- `<xref:System.String>` renders as [String](https://docs.microsoft.com/dotnet/api/system.string)
-- `<xref:System.String?displayProperty=nameWithType>` renders as [System.String](https://docs.microsoft.com/dotnet/api/system.string)
-- `[String class](xref:System.String)` renders as [String class](https://docs.microsoft.com/dotnet/api/system.string)
+- `<xref:System.String>` renders as [String](https://learn.microsoft.com/dotnet/api/system.string)
+- `<xref:System.String?displayProperty=nameWithType>` renders as [System.String](https://learn.microsoft.com/dotnet/api/system.string)
+- `[String class](xref:System.String)` renders as [String class](https://learn.microsoft.com/dotnet/api/system.string)
 
 For more information about using this notation, see [Using cross reference](https://dotnet.github.io/docfx/tutorial/links_and_cross_references.html#using-cross-reference).
 
@@ -113,13 +113,13 @@ Examples:
 - System.Exception.\#ctor becomes `System.Exception.%23ctor`
 - System.Lazy\`1.\#ctor(System.Threading.LazyThreadSafetyMode) becomes  `System.Lazy%601.%23ctor%28System.Threading.LazyThreadSafetyMode%29`
 
-You can find the UIDs of types, a member overload list, or a particular overloaded member from `https://xref.docs.microsoft.com/autocomplete`. The query string `?text=*\<type-member-name>*` identifies the type or member whose UIDs you'd like to see. For example, `https://xref.docs.microsoft.com/autocomplete?text=string.format` retrieves the [String.Format](https://docs.microsoft.com/dotnet/api/system.string.format) overloads. The tool searches for the provided `text` query parameter in any part of the UID. For example, you can search for member name (ToString), partial member name (ToStri), type and member name (Double.ToString), etc.
+You can find the UIDs of types, a member overload list, or a particular overloaded member from `https://xref.learn.microsoft.com/autocomplete`. The query string `?text=*\<type-member-name>*` identifies the type or member whose UIDs you'd like to see. For example, `https://xref.learn.microsoft.com/autocomplete?text=string.format` retrieves the [String.Format](https://learn.microsoft.com/dotnet/api/system.string.format) overloads. The tool searches for the provided `text` query parameter in any part of the UID. For example, you can search for member name (ToString), partial member name (ToStri), type and member name (Double.ToString), etc.
 
-If you add a \* (or `%2A`) after the UID, the link then represents the overload page and not a specific API. For example, you can use that when you want to link to the [List\<T>.BinarySearch Method](https://docs.microsoft.com/dotnet/api/system.collections.generic.list-1.binarysearch) page in a generic way instead of a specific overload such as [List\<T>.BinarySearch(T, IComparer\<T>)](https://docs.microsoft.com/dotnet/api/system.collections.generic.list-1.binarysearch#System_Collections_Generic_List_1_BinarySearch__0_). You can also use \* to link to a member page when the member is not overloaded; this saves you from having to include the parameter list in the UID.
+If you add a \* (or `%2A`) after the UID, the link then represents the overload page and not a specific API. For example, you can use that when you want to link to the [List\<T>.BinarySearch Method](https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1.binarysearch) page in a generic way instead of a specific overload such as [List\<T>.BinarySearch(T, IComparer\<T>)](https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1.binarysearch#System_Collections_Generic_List_1_BinarySearch__0_). You can also use \* to link to a member page when the member is not overloaded; this saves you from having to include the parameter list in the UID.
 
-To link to a specific method overload, you must include the fully qualified type name of each of the method's parameters. For example, \<xref:System.DateTime.ToString> links to the parameterless [DateTime.ToString](https://docs.microsoft.com/dotnet/api/system.datetime.tostring#System_DateTime_ToString) method, while \<xref:System.DateTime.ToString(System.String,System.IFormatProvider)> links to the  [DateTime.ToString(String,IFormatProvider)](https://docs.microsoft.com/dotnet/api/system.datetime.tostring#System_DateTime_ToString_System_String_System_IFormatProvider_) method.
+To link to a specific method overload, you must include the fully qualified type name of each of the method's parameters. For example, \<xref:System.DateTime.ToString> links to the parameterless [DateTime.ToString](https://learn.microsoft.com/dotnet/api/system.datetime.tostring#System_DateTime_ToString) method, while \<xref:System.DateTime.ToString(System.String,System.IFormatProvider)> links to the  [DateTime.ToString(String,IFormatProvider)](https://learn.microsoft.com/dotnet/api/system.datetime.tostring#System_DateTime_ToString_System_String_System_IFormatProvider_) method.
 
-To link to a generic type, such as [System.Collections.Generic.List\<T>](https://docs.microsoft.com/dotnet/api/system.collections.generic.list-1), you use the \` (`%60`) character followed by the number of generic type parameters. For example, `<xref:System.Nullable%601>` links to the [System.Nullable\<T>](https://docs.microsoft.com/dotnet/api/system.nullable-1) type, while `<xref:System.Func%602>` links to the [System.Func\<T,TResult>](https://docs.microsoft.com/dotnet/api/system.func-2) delegate.
+To link to a generic type, such as [System.Collections.Generic.List\<T>](https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1), you use the \` (`%60`) character followed by the number of generic type parameters. For example, `<xref:System.Nullable%601>` links to the [System.Nullable\<T>](https://learn.microsoft.com/dotnet/api/system.nullable-1) type, while `<xref:System.Func%602>` links to the [System.Func\<T,TResult>](https://learn.microsoft.com/dotnet/api/system.func-2) delegate.
 
 ## Code
 
@@ -131,42 +131,41 @@ You can include the code using the following syntax:
 [!code-<language>[<name>](<pathToFile><queryoption><queryoptionvalue>)]
 ```
 
-* `-<language>` (*optional* but *recommended*)
-  * Language of the code snippet being referenced.
+- `-<language>` (*optional* but *recommended*)
+  - Language of the code snippet being referenced.
 
-* `<name>` (*optional*)
-  * Name for the code snippet. It doesn’t have any impact on the output HTML, but you can use it to improve the readability of your Markdown source.
+- `<name>` (*optional*)
+  - Name for the code snippet. It doesn’t have any impact on the output HTML, but you can use it to improve the readability of your Markdown source.
 
-* `<pathToFile>` (*mandatory*)
-  * Relative path in the file system that indicates the code snippet file to reference. This can be complicated by the different repos that make up the .NET doc set. The .NET samples are in the dotnet/samples repo. All snippet paths would start with `~/samples`, the rest of the path being the path to the source from the root of that repo.
+- `<pathToFile>` (*mandatory*)
+  - Relative path in the file system that indicates the code snippet file to reference. This can be complicated by the different repos that make up the .NET doc set. The .NET samples are in the dotnet/samples repo. All snippet paths would start with `~/samples`, the rest of the path being the path to the source from the root of that repo.
 
-* `<queryoption>` (*optional*)
-  * Used to specify how the code should be retrieved from the file:
-    * `#`:  `#{tagname}` (tag name) *or* `#L{startlinenumber}-L{endlinenumber}` (line range).
-    We discourage the use of line numbers because they are very brittle. Tag name is the preferred way of referencing code snippets. Use meaningful tag names. (Many snippets were migrated from a previous platform and the tags have names such as `Snippet1`, `Snippet2` etc. That practice is much harder to maintain.)
-    * `range`: `?range=1,3-5` A range of lines. This example includes lines 1, 3, 4, and 5.
+- `<queryoption>` (*optional*)
+  - Used to specify how the code should be retrieved from the file:
+    - `#`:  `#{tagname}` (tag name) *or* `#L{startlinenumber}-L{endlinenumber}` (line range).
+    We discourage the use of line numbers because they are very brittle. Tag name is the preferred way of referencing code snippets.
+    - `range`: `?range=1,3-5` A range of lines. This example includes lines 1, 3, 4, and 5.
 
-We recommend using the tag name option whenever possible. The tag name is the name of a region or of a code comment in the format of `Snippettagname` present in the source code. The following example shows how to refer to the tag name `BasicThrow`:
+We recommend using the tag name option whenever possible. The tag name is the name of a region or of a code comment in the format of `Snippettagname` present in the source code. The following example shows how to refer to the tag name `SnippetConditional`:
 
 ```markdown
-[!code-csharp[csrefKeyword#1](~/samples/snippets/snippets/csharp/language-reference/operators/ConditionalExamples.csConditionalRef)]
+[!code-csharp[csrefKeyword#1](snippets/ConditionalExamples.cs#SnippetConditional)]
 ```
 
 The relative path to the source in the **dotnet/samples** repo follows the `~/samples` path.
 
-And you can see how the snippet tags are structured in [this source file](https://github.com/dotnet/samples/blob/master/snippets/csharp/language-reference/operators/ConditionalExamples.cs). For details about tag name representation in code snippet source files by language, see the [DocFX guidelines](https://dotnet.github.io/docfx/spec/docfx_flavored_markdown.html#tag-name-representation-in-code-snippet-source-file).
+And you can see how the snippet tags are structured in [this source file](https://github.com/dotnet/docs/blob/main/docs/csharp/language-reference/attributes/snippets/ConditionalExamples.cs). For details about tag name representation in code snippet source files by language, see the [DocFX guidelines](https://dotnet.github.io/docfx/spec/docfx_flavored_markdown.html#tag-name-representation-in-code-snippet-source-file).
 
 The following example shows code included in all three .NET languages:
 
 ```markdown
 [!code-fsharp[ToPigLatin](../../../samples/snippets/fsharp/getting-started/pig-latin.fs#L1-L14)]
- [!code-csharp[ADCreateDomain#2](../../../samples/snippets/csharp/VS_Snippets_CLR/ADCreateDomain/CS/source2.cs#2)]
- [!code-vb[ADCreateDomain#2](../../../samples/snippets/visualbasic/VS_Snippets_CLR/ADCreateDomain/VB/source2.vb#2)]  
+[!code-csharp[ADCreateDomain#2](../../../samples/snippets/csharp/VS_Snippets_CLR/ADCreateDomain/CS/source2.cs#2)]
+[!code-vb[ADCreateDomain#2](../../../samples/snippets/visualbasic/VS_Snippets_CLR/ADCreateDomain/VB/source2.vb#2)]
 ```
 
-Including snippets from full programs ensures that all code runs through our Continuous Integration (CI)
-system. However, if you need to show something that causes compile time or
-runtime errors, you can use inline code blocks.
+Including snippets from full programs ensures that all code is compiled through our continuous integration (CI) system. However, if you need to show something that causes compile-time or
+run-time errors, you can use inline code blocks.
 
 ## Images
 
@@ -184,23 +183,7 @@ runtime errors, you can use inline code blocks.
 
 ## Videos
 
-Currently, you can embed both Channel 9 and YouTube videos with the following syntax:
-
-### Channel 9
-
-```markdown
-> [!VIDEO <channel9_video_link>]
-```
-
-To get the video's correct URL, select the **Embed** tab below the video frame, and copy the URL from the `<iframe>` element. For example:
-
-```markdown
-> [!VIDEO https://channel9.msdn.com/Blogs/dotnet/NET-Core-20-Released/player]
-```
-
-### YouTube
-
-To get the video's correct URL, right-click on the video, select **Copy Embed Code**, and copy the URL from the `<iframe>` element.
+You can embed YouTube videos in the Markdown file. To get the video's correct URL, right-click on the video, select **Copy Embed Code**, and copy the URL from the `<iframe>` element.
 
 ```markdown
 > [!VIDEO <youtube_video_link>]
@@ -212,9 +195,9 @@ For example:
 > [!VIDEO https://www.youtube.com/embed/Q2mMbjw6cLA]
 ```
 
-## docs.microsoft extensions
+## learn.microsoft extensions
 
-docs.microsoft provides a few additional extensions to GitHub Flavored Markdown.
+learn.microsoft provides a few additional extensions to GitHub Flavored Markdown.
 
 ### Checked lists
 
@@ -232,13 +215,14 @@ A custom style is available for lists. You can render lists with green check mar
 This renders as:
 
 > [!div class="checklist"]
-> * How to create a .NET Core app
-> * How to add a reference to the Microsoft.XmlSerializer.Generator package
-> * How to edit your MyApp.csproj to add dependencies
-> * How to add a class and an XmlSerializer
-> * How to build and run the application
+>
+> - How to create a .NET Core app
+> - How to add a reference to the Microsoft.XmlSerializer.Generator package
+> - How to edit your MyApp.csproj to add dependencies
+> - How to add a class and an XmlSerializer
+> - How to build and run the application
 
-You can see an example of checked lists in action in the [.NET Core docs](https://docs.microsoft.com/dotnet/core/additional-tools/xml-serializer-generator).
+You can see an example of checked lists in action in the [.NET docs](https://learn.microsoft.com/dotnet/core/additional-tools/xml-serializer-generator).
 
 ### Buttons
 
@@ -254,7 +238,7 @@ This renders as:
 > [!div class="button"]
 > [button links](dotnet-contribute.md)
 
-You can see an example of buttons in action in the [Visual Studio docs](https://docs.microsoft.com/visualstudio/install/install-visual-studio#step-2---download-visual-studio).
+You can see an example of buttons in action in the [Visual Studio docs](https://learn.microsoft.com/visualstudio/install/install-visual-studio#step-2---download-visual-studio).
 
 ### Step-by-steps
 
@@ -264,4 +248,4 @@ You can see an example of buttons in action in the [Visual Studio docs](https://
 > [Next](../docs/csharp/expression-trees-translating.md)
 ```
 
-You can see an example of step-by-steps in action at the [C# Guide](https://docs.microsoft.com/dotnet/csharp/tour-of-csharp/program-structure).
+You can see an example of step-by-steps in action at the [C# Guide](https://learn.microsoft.com/dotnet/csharp/tour-of-csharp/program-structure).

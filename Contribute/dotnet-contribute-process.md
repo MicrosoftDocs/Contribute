@@ -39,7 +39,7 @@ You can also look at our [open issues](https://github.com/dotnet/docs/issues) li
 
 Once you've picked a task to work on, follow the [get started](get-started-setup-github.md) guide to create a GitHub account and setup your environment.
 
-**Step 2:** Fork the `/dotnet/docs`, `dotnet/samples`, `dotnet/dotnet-api-docs`, `dotnet/roslyn-api-docs`, or `dotnet/ml-api-docs` repos as needed and create a branch for your changes.
+**Step 2:** Fork the `/dotnet/docs`, `dotnet/samples`, `dotnet/dotnet-api-docs`, `dotnet/roslyn-api-docs`, `dotnet/ml-api-docs`, or other `dotnet` docs repos as needed and create a branch for your changes.
 
 For small changes, see the instructions on editing in GitHub on the [home page](index.md#quick-edits-to-existing-documents) of the contributor guide.
 
@@ -62,7 +62,7 @@ Be sure to follow the proper Markdown syntax. For examples of common , see the [
             /porting-overview
                 portability_report.png
 
-**Step 4:** Submit a Pull Request (PR) from your branch to the master branch.
+**Step 4:** Submit a pull request (PR) from your branch to the `main` branch.
 
 > [!IMPORTANT]
 > The [comment automation](how-to-write-workflows-major.md#review-and-sign-off) functionality is not available on any of the .NET docs repositories at this time. Members of the .NET docs team will review and merge your PR.
@@ -75,9 +75,9 @@ The .NET team will review your PR and let you know if there are any other update
 
 **Step 5:** Make any necessary updates to your branch as discussed with the team.
 
-The maintainers will merge your PR into the master branch once feedback has been applied and your change is approved.
+The maintainers will merge your PR into the main branch once feedback has been applied and your change is approved.
 
-We regularly push all commits from master branch into the live branch and then you'll be able to see your contribution live at https://docs.microsoft.com/dotnet/. We typically publish daily during the work week. Maintenance activities may delay publishing for a few days.
+We regularly push all commits from `main` branch into `live` branch and then you'll be able to see your contribution live at <https://learn.microsoft.com/dotnet/>. We typically publish daily during the work week. Maintenance activities may delay publishing for a few days.
 
 ## Contributing to samples
 
@@ -100,7 +100,7 @@ Sample projects should build and run on the widest set of platforms possible for
 
 We are working toward having a CI system in place for all code. When you make any updates to samples, make sure each update is part of a buildable project. Ideally, add tests for correctness on samples as well.
 
-Each complete sample that you create should contain a *readme.md* file. This file should contain a short description of the sample (one or two paragraphs). Your *readme.md* should tell readers what they will learn by exploring this sample. The *readme.md* file should also contain a link to the live document on the [.NET documentation site](https://docs.microsoft.com/dotnet/welcome). To determine where a given file in the repository maps to that site, replace `/docs` in the repository path with `https://docs.microsoft.com/dotnet`.
+Each complete sample that you create should contain a *readme.md* file. This file should contain a short description of the sample (one or two paragraphs). Your *readme.md* should tell readers what they will learn by exploring this sample. The *readme.md* file should also contain a link to the live document on the [.NET documentation site](https://learn.microsoft.com/dotnet/welcome). To determine where a given file in the repository maps to that site, replace `/docs` in the repository path with `https://learn.microsoft.com/dotnet`.
 
 Your topic will also contain links to the sample. Link directly to the sample's folder on GitHub.
 
@@ -112,7 +112,7 @@ Your topic will also contain links to the sample. Link directly to the sample's 
 
     - Additionally, we prefer the use of `static` methods rather than instance methods when demonstrating something that doesn't require instantiating a new object.
 
-3. Your sample should include **appropriate exception handling**. It should handle all exceptions that are likely to be thrown in the context of the sample. For example, a sample that calls the [Console.ReadLine](https://docs.microsoft.com/dotnet/api/system.console.readline) method to retrieve user input should use appropriate exception handling when the input string is passed as an argument to a method. Similarly, if your sample expects a method call to fail, the resulting exception must be handled. Always handle the specific exceptions thrown by the method, rather than base class exceptions such as [Exception](https://docs.microsoft.com/dotnet/api/system.exception) or [SystemException](https://docs.microsoft.com/dotnet/api/system.systemexception).
+3. Your sample should include **appropriate exception handling**. It should handle all exceptions that are likely to be thrown in the context of the sample. For example, a sample that calls the [Console.ReadLine](https://learn.microsoft.com/dotnet/api/system.console.readline) method to retrieve user input should use appropriate exception handling when the input string is passed as an argument to a method. Similarly, if your sample expects a method call to fail, the resulting exception must be handled. Always handle the specific exceptions thrown by the method, rather than base class exceptions such as [Exception](https://learn.microsoft.com/dotnet/api/system.exception) or [SystemException](https://learn.microsoft.com/dotnet/api/system.systemexception).
 
 4. If your sample builds a standalone package, you must include the runtimes used by our CI build system, in addition to any runtimes used by your sample:
     - `win7-x64`
@@ -149,6 +149,7 @@ You build any .NET Core snippet or sample using the .NET Core CLI, which can be 
     ```console
     dotnet build
     ```
+
 2. Run your sample:
 
     ```console
