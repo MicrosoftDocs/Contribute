@@ -55,13 +55,13 @@ This article provides tips about writing good doc comments *within the source co
 | `<seealso>` | Adds a "See also" link to the specified API. | `<seealso cref="T:System.Single" />` |
 | `<typeparamref>` | Refers to a type parameter. | `The <typeparamref name="THandler" /> is resolved from a scoped service provider.` |
 
-For more information, see [Recommended XML tags for C#](https://learn.microsoft.com/dotnet/csharp/language-reference/xmldoc/recommended-tags). The [ECMAXML spec](http://docs.go-mono.com/index.aspx?link=man%3amdoc(5)) also has some helpful guidance.
+For more information, see [Recommended XML tags for C#](/dotnet/csharp/language-reference/xmldoc/recommended-tags). The [ECMAXML spec](http://docs.go-mono.com/index.aspx?link=man%3amdoc(5)) also has some helpful guidance.
 
 ## Cross references
 
-When you use a `<see cref>` tag to link to another API, there's no need to add a prefix to the type name, such as `T:` for type or `M:` for method. In fact, code analysis [rule CA1200](https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1200) flags code comments that add a prefix to the type name in a `cref` tag.
+When you use a `<see cref>` tag to link to another API, there's no need to add a prefix to the type name, such as `T:` for type or `M:` for method. In fact, code analysis [rule CA1200](/dotnet/fundamentals/code-analysis/quality-rules/ca1200) flags code comments that add a prefix to the type name in a `cref` tag.
 
-However, when you want link to the general form of a method that has more than one overload, the C# compiler [doesn't currently support that](https://github.com/dotnet/csharplang/issues/320). The workaround for docs is to prefix the method name with `O:` in source code (or `Overload:` in ECMAXML) and suppress [rule CA1200](https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1200). For example: `<altmember cref="O:System.Diagnostics.Process.Kill" />`.
+However, when you want link to the general form of a method that has more than one overload, the C# compiler [doesn't currently support that](https://github.com/dotnet/csharplang/issues/320). The workaround for docs is to prefix the method name with `O:` in source code (or `Overload:` in ECMAXML) and suppress [rule CA1200](/dotnet/fundamentals/code-analysis/quality-rules/ca1200). For example: `<altmember cref="O:System.Diagnostics.Process.Kill" />`.
 
 When the `<see cref>` tag is converted to [ECMAXML](http://docs.go-mono.com/index.aspx?link=man%3amdoc(5)), mdoc replaces the type name with the full DocId of the API, which includes a prefix.
 
@@ -115,14 +115,6 @@ Language attributes on `<code>` tags are optional, but they cause the code to be
 When documenting an API that's not intended to be used by consumers, use wording similar to the following:
 
 `<summary>This type supports the .NET infrastructure and is not intended to be used directly from your code.</summary>`
-
-## Onboarding and workflow
-
-For a detailed explanation of how .NET reference is produced, see [.NET reference requirements](../onboard/dotnet-requirements.md).
-
-## Filter APIs
-
-If there are certain APIs in your assemblies that you don't want to be published on Microsoft Learn, you can [filter them](../onboard/admin/reference/dotnet/filtering-apis.md).
 
 ## See also
 
