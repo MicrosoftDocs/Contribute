@@ -145,23 +145,7 @@ For information about the Markdown syntax for showing code in docs, see [How to 
 
 ## Videos
 
-Currently, you can embed both Channel 9 and YouTube videos with the following syntax:
-
-### Channel 9
-
-```markdown
-> [!VIDEO <channel9_video_link>]
-```
-
-To get the video's correct URL, select the **Embed** tab below the video frame, and copy the URL from the `<iframe>` element. For example:
-
-```markdown
-> [!VIDEO https://channel9.msdn.com/Blogs/dotnet/NET-Core-20-Released/player]
-```
-
-### YouTube
-
-To get the video's correct URL, right-click on the video, select **Copy Embed Code**, and copy the URL from the `<iframe>` element.
+You can embed YouTube videos in a Markdown file. To get the video's correct URL, right-click on the video, select **Copy Embed Code**, and copy the URL from the `<iframe>` element.
 
 ```markdown
 > [!VIDEO <youtube_video_link>]
@@ -173,9 +157,9 @@ For example:
 > [!VIDEO https://www.youtube.com/embed/Q2mMbjw6cLA]
 ```
 
-## docs.microsoft extensions
+## learn.microsoft extensions
 
-docs.microsoft provides a few additional extensions to GitHub Flavored Markdown.
+learn.microsoft provides a few additional extensions to GitHub Flavored Markdown.
 
 ### Checked lists
 

@@ -35,9 +35,9 @@ The processing used by the Contributor License Agreement (CLA) bot is a good gui
 
 ### Small PRs
 
-The changes in small PRs are reviewed for accuracy and checked using the build on the review site. Because they are small, these PRs do not trigger a review of the entire article. 
+The changes in small PRs are reviewed for accuracy and checked using the build on the review site. Because they are small, these PRs do not trigger a review of the entire article.
 
-Reviewers may notice other small changes that would improve an article. If those changes are also small, suggest them as review comments. If the suggested changes would trigger a larger review, open an issue and address those later. 
+Reviewers may notice other small changes that would improve an article. If those changes are also small, suggest them as review comments. If the suggested changes would trigger a larger review, open an issue and address those later.
 
 ### Larger changes
 
@@ -63,12 +63,12 @@ GitHub lets you enter comments in triple-back-tick blocks of type `suggestion` t
 
 ## Respond to reviews
 
-The author updates the PR to respond to comments and marks each addressed comment with the "+1" reaction to indicate it was addressed. If the author disagrees with the comment, or addresses the comment in a different PR, the author adds a comment explaining their change.
+The author updates the PR to respond to comments. If the author disagrees with the comment, or addresses the comment in a different PR, the author adds a comment explaining their change.
 
-The author @-mentions the original reviewer in a comment to request a new review. 
+The author @-mentions the original reviewer in a comment to request a new review.
 
 ## Response time expectations
 
-Content team members will typically review new PRs in under two business days. If it takes longer to review, one of the team members will add a comment to acknowledge the PR and set expectations.
+Content team members will typically review new PRs in under two business days.
 
 Once a review has been submitted, authors should try to respond to comments in a week or less. Volunteers may not be able to meet these expectations because of other commitments. In those cases, team members ask if the community author will update the PR. If not, the team member updates and merges the PR for them.
