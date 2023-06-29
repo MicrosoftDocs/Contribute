@@ -1,6 +1,6 @@
 ---
 title: GitHub contribution workflow for major or long-running changes
-description: This article shows you how to use the "major" contributor workflow to make contributions to docs.microsoft.com articles.
+description: This article shows you how to use the "major" contributor workflow to make contributions to learn.microsoft.com articles.
 ms.topic: contributor-guide
 ms.prod: non-product-specific
 ms.custom: external-contributor-guide
@@ -9,9 +9,9 @@ ms.date: 08/30/2017
 # GitHub contribution workflow for major or long-running changes
 
 > [!IMPORTANT]
-> All repositories that publish to docs.microsoft.com have adopted either the [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/) or the [.NET Foundation Code of Conduct](https://dotnetfoundation.org/code-of-conduct). For more information, see the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/). Or contact [opencode@microsoft.com](mailto:opencode@microsoft.com), or [conduct@dotnetfoundation.org](mailto:conduct@dotnetfoundation.org) with any questions or comments.<br>
+> All repositories that publish to learn.microsoft.com have adopted either the [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/) or the [.NET Foundation Code of Conduct](https://dotnetfoundation.org/code-of-conduct). For more information, see the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/). Or contact [opencode@microsoft.com](mailto:opencode@microsoft.com), or [conduct@dotnetfoundation.org](mailto:conduct@dotnetfoundation.org) with any questions or comments.<br>
 >
-> Minor corrections or clarifications to documentation and code examples in public repositories are covered by the [docs.microsoft.com Terms of Use](/legal/termsofuse). New or significant changes will generate a comment in the pull request, asking you to submit an online Contribution License Agreement (CLA) if you are not an employee of Microsoft. You will need to complete the online form before your pull request can be merged.
+> Minor corrections or clarifications to documentation and code examples in public repositories are covered by the [learn.microsoft.com Terms of Use](/legal/termsofuse). New or significant changes will generate a comment in the pull request, asking you to submit an online Contribution License Agreement (CLA) if you are not an employee of Microsoft. You will need to complete the online form before your pull request can be merged.
 
 ## Overview
 
@@ -64,7 +64,7 @@ Now that you have a copy ("clone") of the Microsoft repository and you've create
 
 Before sending your changes to the author, you must first save them to your Github repository.  Again, while all tools are different, if you're using the Git Bash command line, this can be done in just a few easy steps.
 
-First, from within the repository, you need to _stage_ all of your changes in preparation for the next commit.  This can be done by executing:
+First, from within the repository, you need to *stage* all of your changes in preparation for the next commit.  This can be done by executing:
 
 ````
 git add --all
@@ -82,7 +82,7 @@ Finally, since you created this branch on your local computer, you need to let t
 git push --set-upstream origin <branchname>
 ````
 
-You've done it!  Your code is now up in your GitHub repository and ready for you to create a pull request.  
+You've done it!  Your code is now up in your GitHub repository and ready for you to create a pull request.
 
 >[!TIP]
 > Even though your changes become visible in your personal GitHub account when you push them, there is no rule that you need to submit a pull request immediately.  If you want to come stop and return at a later time to make additional tweaks, that's OK!
@@ -108,6 +108,6 @@ You're now back in a new branch and you're well on your way to being an expert c
 
 ## Next steps
 
-That's it! You've made a contribution to docs.microsoft.com content!
+That's it! You've made a contribution to learn.microsoft.com content!
 
 - To learn more about topics such as Markdown and Markdown extensions syntax, continue to the [Markdown reference](markdown-reference.md) article.

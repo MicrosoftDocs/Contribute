@@ -53,7 +53,7 @@ Only a subset of the valid dev langs will be used in a single docset. To enhance
     ```json
     {
         "markdown.docsetLanguages": [
-            ".NET Core CLI",
+            ".NET CLI",
             "C#",
             "Markdown",
             "YAML"

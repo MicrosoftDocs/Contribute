@@ -1,6 +1,6 @@
 ---
 title: How to include code in docs
-description: Learn how to include code elements and snippets in articles to be published on docs.microsoft.com.
+description: Learn how to include code elements and snippets in articles to be published on learn.microsoft.com.
 author: tdykstra
 ms.author: tdykstra
 ms.date: 11/09/2021
@@ -11,7 +11,7 @@ ms.custom: external-contributor-guide
 
 # How to include code in docs
 
-There are several ways to include code in an article published on docs.microsoft.com:
+There are several ways to include code in an article published on learn.microsoft.com:
 
 * Individual elements (words) within a line.
 
@@ -45,9 +45,9 @@ There are several ways to include code in an article published on docs.microsoft
   ```markdown
   :::code language="csharp" source="~/samples-durable-functions/samples/csx/shared/Location.csx" highlight="2,5":::
   ```
-  
+
   For more information, see [Out-of-repo snippet references](#out-of-repo-snippet-references) later in this article.
-  
+
 * Code blocks that let the user execute code in the browser.
 
    ```markdown
@@ -94,7 +94,7 @@ If you use a link and refer to the same element later in the same context, make 
 If you want the user to replace a section of displayed code with their own values, use placeholder
 text marked off by angle brackets. For example:
 
-> `az group delete -n <ResourceGroupName>`  
+> `az group delete -n <ResourceGroupName>`
 
 You may note that the brackets must be removed when substituting real values. The Microsoft Writing Style Guide calls for italics, which you may format within angle bracketed inline code:
 
@@ -188,7 +188,7 @@ For an example of how to present code that isn't recommended, see [Rune usage ex
 ## Inline code blocks
 
 Use inline code blocks only when it's impractical to display code by reference to a code file. Inline code is generally more difficult to test and keep up to date compared to a code file that is part of a complete project.  And inline code may omit context that could help the developer to understand and use the code. These considerations apply mainly to programming languages. Inline code blocks can also be used for outputs and inputs (such as JSON), query languages (such as SQL), and scripting languages (such as PowerShell).
-  
+
 There are two ways to indicate a section of text in an article file is a code block: by *fencing* it
 in triple-backticks (\`\`\`) or by indenting it. Fencing is preferred because it lets you specify
 the language. Avoid using indentation because it's too easy to get wrong and it may be hard for
@@ -237,7 +237,7 @@ environment indicator in your inline code blocks.
 
 ## In-repo snippet references
 
-The preferred way to include code snippets for programming languages in docs is by reference to a code file. This method gives you the ability to highlight lines of code and makes the wider context of the snippet available on GitHub for developers to use. You can include code by using the triple colon format (:\:\:) either manually or in Visual Studio Code with the help of the [docs.microsoft.com Authoring Pack](https://marketplace.visualstudio.com/items?itemName=docsmsft.docs-authoring-pack).
+The preferred way to include code snippets for programming languages in docs is by reference to a code file. This method gives you the ability to highlight lines of code and makes the wider context of the snippet available on GitHub for developers to use. You can include code by using the triple colon format (:\:\:) either manually or in Visual Studio Code with the help of the [learn.microsoft.com Authoring Pack](https://marketplace.visualstudio.com/items?itemName=docsmsft.docs-authoring-pack).
 
 1. In Visual Studio Code, click <kbd>Alt + M</kbd> or <kbd>Option + M</kbd> and select Snippet.
 2. Once Snippet is selected, you will be prompted for Full Search, Scoped Search or Cross-Repository Reference. To search locally, select Full Search.
@@ -375,7 +375,7 @@ In the root folder of *azure-docs*, add the following section in
 Now when you refer to *samples-durable-functions* as if it were a folder in *azure-docs*, you're
 actually referring to the root folder in the *azure-functions-durable-extension* repository.
 
-You can include code by using the triple colon format (:\:\:) either manually or in Visual Studio Code with the help of the [docs.microsoft.com Authoring Pack](https://marketplace.visualstudio.com/items?itemName=docsmsft.docs-authoring-pack).
+You can include code by using the triple colon format (:\:\:) either manually or in Visual Studio Code with the help of the [learn.microsoft.com Authoring Pack](https://marketplace.visualstudio.com/items?itemName=docsmsft.docs-authoring-pack).
 
 1. In Visual Studio Code, click <kbd>Alt + M</kbd> or <kbd>Option + M</kbd> and select Snippet.
 2. Once Snippet is selected, you will be prompted for Full Search, Scoped Search or Cross-Repository Reference. To search across repositories, select Cross-Repository Reference.
@@ -406,18 +406,18 @@ You can reference a cell in a Jupyter notebook as a code snippet. In order to re
 
 ### Add metadata to notebook
 
-1. Name the cell by adding cell metadata in the Jupyter notebook.  
+1. Name the cell by adding cell metadata in the Jupyter notebook.
 
     * In Jupyter, you can [edit cell metadata](https://jupyterbook.org/content/metadata.html#adding-tags-using-notebook-interfaces) by first enabling the the cell toolbar:  **View > Cell Toolbar > Edit Metadata**.
     * Once the cell toolbar is enabled, select **Edit Metadata** on the cell you wish to name.
     * Or you can edit metadata directly in the notebook's JSON structure.
 
-1.  In the cell metadata, add a "name" attribute:
- 
+1. In the cell metadata, add a "name" attribute:
+
     ```json
     "metadata": {"name": "<name>"},
     ```
-  
+
     For example:
 
     ```json
@@ -511,7 +511,7 @@ Azure account.
 
 ### Code snippets included by reference
 
-You can enable interactive mode for code snippets included by reference. 
+You can enable interactive mode for code snippets included by reference.
 To turn on this feature for a particular code block, use the `interactive` attribute. The
 available attribute values are:
 
@@ -575,7 +575,7 @@ The [Docs Authoring Pack](how-to-write-docs-auth-pack.md) includes a feature to 
 
 | Name                           | Valid aliases                                                                  |
 |--------------------------------|--------------------------------------------------------------------------------|
-| .NET Core CLI                  | `dotnetcli`                                                                    |
+| .NET CLI                       | `dotnetcli`                                                                    |
 | 1C                             | `1c`                                                                           |
 | ABNF                           | `abnf`                                                                         |
 | Access logs                    | `accesslog`                                                                    |

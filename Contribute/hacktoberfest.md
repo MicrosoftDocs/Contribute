@@ -12,7 +12,7 @@ ms.custom: external-contributor-guide
 
 # Hacktoberfest and Microsoft Docs
 
-Hacktoberfest is an annual worldwide event held during the month of October. The event encourages open source developers to contribute to repositories through pull requests (PR). GitHub hosts many Microsoft Docs open source repositories, all of which contribute to the [docs.microsoft.com](https://docs.microsoft.com) content. Some of the repositories actively participate in the Hacktoberfest event. In this article, you'll learn how to discover which repos are accepting PRs, and what you can expect as a contributor.
+Hacktoberfest is an annual worldwide event held during the month of October. The event encourages open source developers to contribute to repositories through pull requests (PR). GitHub hosts many Microsoft Docs open source repositories, all of which contribute to the [learn.microsoft.com](https://learn.microsoft.com) content. Some of the repositories actively participate in the Hacktoberfest event. In this article, you'll learn how to discover which repos are accepting PRs, and what you can expect as a contributor.
 
 ## Find a repo
 
@@ -33,7 +33,7 @@ Once your account is configured, start by reading through and adhering to the _C
 - [Contribute to the .NET docs repositories](dotnet/dotnet-contribute.md)
 - [Contribute to Microsoft Azure documentation](https://github.com/MicrosoftDocs/azure-docs/blob/master/CONTRIBUTING.md)
 
-In addition to the contributing Markdown file, if a repository has a *CODE_OF_CONDUCT.md* file, it's a requirement to adhere to the expected behavior in the community. Again, here are a few common examples:
+In addition to the contributing Markdown file, if a repository has a _CODE_OF_CONDUCT.md_ file, it's a requirement to adhere to the expected behavior in the community. Again, here are a few common examples:
 
 - [.NET Docs: Code of Conduct](https://github.com/dotnet/docs/blob/main/CODE_OF_CONDUCT.md)
 - [Azure Docs: Code of Conduct](https://github.com/MicrosoftDocs/azure-docs/blob/master/CODE_OF_CONDUCT.md)
@@ -50,7 +50,7 @@ For more information, see [Hacktoberfest: Beginners](https://hacktoberfest.digit
 
 ### Quality expectations
 
-To have a successful contribution to an open source Docs repository, [create a meaningful and impactful PR](#open-a-pr). The following examples from the official Hacktoberfest site are considered ***low-quality contributions***:
+To have a successful contribution to an open source Docs repository, [create a meaningful and impactful PR](#open-a-pr). The following examples from the official Hacktoberfest site are considered _**low-quality contributions**_:
 
 - PRs that are automated (for example, scripted opening PRs to remove whitespace, fix typos, or optimize images).
 - PRs that are disruptive (for example, taking someone else's branch or commits and making a PR).
@@ -63,7 +63,7 @@ For more information, see [Hacktoberfest: Quality standards](https://hacktoberfe
 
 ### Open a PR
 
-A *PR* provides a convenient way for a contributor to propose a set of changes. When opening a PR, specify in the original comment that it's intended to contribute to *hacktoberfest*. Successful PRs have these common characteristics:
+A _PR_ provides a convenient way for a contributor to propose a set of changes. When opening a PR, specify in the original comment that it's intended to contribute to _hacktoberfest_. Successful PRs have these common characteristics:
 
 - The PR adds value.
 - The contributor is receptive to feedback.

@@ -1,6 +1,6 @@
 ---
 title: Text formatting guidelines
-description: Learn when to use bold, italics, code, and other text styles in articles published on the docs.microsoft.com site.
+description: Learn when to use bold, italics, code, and other text styles in articles published on the learn.microsoft.com site.
 author: tdykstra
 ms.author: tdykstra
 ms.date: 11/09/2021
@@ -94,7 +94,7 @@ span multiple lines. Put longer code snippets and paths in fenced code blocks.
 
 ## Placeholders
 
-If you want the user to replace part of an input string with their own values, use placeholder text marked off by angle brackets (less than  `<` and greater than `>` characters). 
+If you want the user to replace part of an input string with their own values, use placeholder text marked off by angle brackets (less than  `<` and greater than `>` characters).
 
 **Option 1:** Use code-styling to surround the placeholder word or the encompassing phrase. For example, you can use single backticks \` for inline-code formatting for a single phrase, or triple-ticks \`\`\` for code-fenced formatting.
 
@@ -114,16 +114,15 @@ az group delete -n \<ResourceGroupName\>
 ```
 
 Rendered as:
->  az group delete -n \<ResourceGroupName\>
-
+> az group delete -n \<ResourceGroupName\>
 
 **Inform the reader about the placeholder**: In the text preceding such placeholder examples, explain to the reader that the text in brackets must be removed and substituted with real values. We recommend the use of italics for user input. You can format italics within angle bracketed inline code:
 
 > In the following example, replace the placeholder text *`<ResourceGroupName>`* with your own resource group name.
 
 > [!CAUTION]
->  The Docs site does not render \<placeholder\> text that uses angle brackets in cases where the brackets are not escaped properly or the text is not code-formatted. The Docs build process interprets the \<placeholder\> phrase as an HTML tag that could be dangerous to the reader's browser, and flags it as a *disallowed-html-tag*. You'll see a suggestion in the build report, and the placeholder word isn't rendered in the Docs page output when that happens.
->  
+> The Docs site does not render \<placeholder\> text that uses angle brackets in cases where the brackets are not escaped properly or the text is not code-formatted. The Docs build process interprets the \<placeholder\> phrase as an HTML tag that could be dangerous to the reader's browser, and flags it as a *disallowed-html-tag*. You'll see a suggestion in the build report, and the placeholder word isn't rendered in the Docs page output when that happens.
+>
 > To avoid content loss on placeholders, use `code` formatting or  escape characters (`\<` `\>`)  as described previously.
 
 We discourage using curly braces { } as syntactical placeholders. Readers can confuse curly brace placeholders with the same notation used in:

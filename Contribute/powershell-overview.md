@@ -12,7 +12,7 @@ ms.author: sewhee
 
 The Contributor's Guide is a collection of articles that explain the tools and processes we use to
 create documentation at Microsoft. Some of these guides cover information that is common to any
-documentation set published to docs.microsoft.com. Some of the guides are specific to how we write
+documentation set published to learn.microsoft.com. Some of the guides are specific to how we write
 documentation for PowerShell.
 
 The common articles are available in this centralized Contributor's Guide. The

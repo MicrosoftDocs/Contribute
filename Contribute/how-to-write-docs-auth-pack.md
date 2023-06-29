@@ -1,6 +1,6 @@
 ---
 title: Docs Authoring Pack for Visual Studio Code
-description: This article describes the Visual Studio Code extension pack to facilitate Markdown authoring for docs.microsoft.com.
+description: This article describes the Visual Studio Code extension pack to facilitate Markdown authoring for learn.microsoft.com.
 ms.topic: contributor-guide
 ms.prod: non-product-specific
 ms.custom: external-contributor-guide
@@ -11,16 +11,17 @@ ms.date: 03/05/2020
 
 # Docs Authoring Pack for VS Code
 
-The Docs Authoring Pack is a collection of VS Code extensions to aid with Markdown authoring for docs.microsoft.com. The pack is [available in the VS Code Marketplace](https://marketplace.visualstudio.com/items?itemName=docsmsft.docs-authoring-pack) and contains the following extensions:
+The Docs Authoring Pack is a collection of VS Code extensions to aid with Markdown authoring for learn.microsoft.com. The pack is [available in the VS Code Marketplace](https://marketplace.visualstudio.com/items?itemName=docsmsft.docs-authoring-pack) and contains the following extensions:
 
 > [!div class="checklist"]
-> * [Docs Markdown](https://marketplace.visualstudio.com/items?itemName=docsmsft.docs-markdown): Provides Markdown authoring assistance for docs.microsoft.com (Docs) content, including basic Markdown support and support for custom Markdown syntax in Docs, such as alerts, code snippets, and non-localizable text. Now also includes some basic YAML authoring assistance, such as inserting TOC entries.
+>
+> * [Docs Markdown](https://marketplace.visualstudio.com/items?itemName=docsmsft.docs-markdown): Provides Markdown authoring assistance for learn.microsoft.com (Docs) content, including basic Markdown support and support for custom Markdown syntax in Docs, such as alerts, code snippets, and non-localizable text. Now also includes some basic YAML authoring assistance, such as inserting TOC entries.
 > * [markdownlint](https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint): A popular Markdown linter by David Anson to help make sure your Markdown is valid.
 > * [Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker): A fully offline spell checker by Street Side Software.
-> * [Docs Preview](https://marketplace.visualstudio.com/items?itemName=docsmsft.docs-preview): Uses the docs.microsoft.com CSS for more accurate Markdown preview, including custom Markdown.
+> * [Docs Preview](https://marketplace.visualstudio.com/items?itemName=docsmsft.docs-preview): Uses the learn.microsoft.com CSS for more accurate Markdown preview, including custom Markdown.
 > * [Docs Article Templates](https://marketplace.visualstudio.com/items?itemName=docsmsft.docs-article-templates): Allows users to scaffold Learn modules and apply Markdown skeleton content to new files.
 > * [Docs YAML](https://marketplace.visualstudio.com/items?itemName=docsmsft.docs-yaml): Provides Docs YAML schema validation and auto-complete.
-> * [Docs Images](https://marketplace.visualstudio.com/items?itemName=docsmsft.docs-images): Provides image compression and resizing for folders and individual files to help authors of docs.microsoft.com.
+> * [Docs Images](https://marketplace.visualstudio.com/items?itemName=docsmsft.docs-images): Provides image compression and resizing for folders and individual files to help authors of learn.microsoft.com.
 
 ## Prerequisites and assumptions
 
@@ -122,7 +123,7 @@ The Templates extension supports three dynamic metadata fields: author, ms.autho
 1. Draft your template as a Markdown file.
 1. Submit a pull request to the templates folder of the [MicrosoftDocs/content-templates](https://github.com/MicrosoftDocs/content-templates) repo.
 
-The docs.microsoft.com team will review your template and merge the PR if it meets docs.microsoft.com style guidelines. Once merged, the template will be available to all users of the Docs Article Templates extension.
+The learn.microsoft.com team will review your template and merge the PR if it meets learn.microsoft.com style guidelines. Once merged, the template will be available to all users of the Docs Article Templates extension.
 
 ## Demo several features
 

@@ -59,7 +59,7 @@ For small changes, see the instructions on editing in GitHub on the [home page](
 
 **Step 3:** Make the changes on this new branch.
 
-If it's a new topic, you can use this [template file](dotnet-style-guide.md) as your starting point. It contains the writing guidelines and also explains the metadata required for each article, such as author information. For more information on the Markdown syntax used in the docs.microsoft.com site, see [Markdown reference](../markdown-reference.md).
+If it's a new topic, you can use this [template file](dotnet-style-guide.md) as your starting point. It contains the writing guidelines and also explains the metadata required for each article, such as author information. For more information on the Markdown syntax used in the learn.microsoft.com site, see [Markdown reference](../markdown-reference.md).
 
 Navigate to the folder that corresponds to the TOC location determined for your article in step 1. That folder contains the Markdown files for all articles in that section. If necessary, create a new folder to place the files for your content. The main article for that section is called *index.md*.
 
@@ -86,7 +86,7 @@ The .NET team will review your PR and let you know if there are any other update
 
 The maintainers will merge your PR into the default branch once feedback has been applied and your change is approved.
 
-We regularly push all commits from default branch into the live branch and then you'll be able to see your contribution live at [https://docs.microsoft.com/dotnet/](/dotnet/). We typically publish daily during the work week.
+We regularly push all commits from default branch into the live branch and then you'll be able to see your contribution live at [https://learn.microsoft.com/dotnet/](/dotnet/). We typically publish daily during the work week.
 
 ## Example folder structure
 
@@ -123,7 +123,7 @@ docs
 > [!NOTE]
 > The language folders under snippets are not needed in the language guide area, where only one language is assumed. For example, in the C# guide, it's assumed that all snippets are C#.
 
-The structure shown above includes one image, *portability_report.png*, and three code projects that include **code snippets** that are included in the *porting-overview.md* article. 
+The structure shown above includes one image, *portability_report.png*, and three code projects that include **code snippets** that are included in the *porting-overview.md* article.
 
 The *snippets/shared* folder is used for snippets that may span multiple articles within the same parent folder, such as the *porting* folder in the previous example. Only use the *shared* folder when you have a specific reason to do so, such as XAML code that's referenced by multiple articeles, yet can't compile in the *article-specific* folder.
 
@@ -149,7 +149,7 @@ Sample projects should build and run on the widest set of platforms possible for
 
 We are working toward having a CI system in place for all code. When you make any updates to samples, make sure each update is part of a buildable project. Ideally, add tests for correctness on samples as well.
 
-Each complete sample that you create should contain a *readme.md* file. This file should contain a short description of the sample (one or two paragraphs). Your *readme.md* should tell readers what they will learn by exploring this sample. The *readme.md* file should also contain a link to the live document on the [.NET documentation site](/dotnet/welcome). To determine where a given file in the repository maps to that site, replace `/docs` in the repository path with `https://docs.microsoft.com/dotnet`.
+Each complete sample that you create should contain a *readme.md* file. This file should contain a short description of the sample (one or two paragraphs). Your *readme.md* should tell readers what they will learn by exploring this sample. The *readme.md* file should also contain a link to the live document on the [.NET documentation site](/dotnet/welcome). To determine where a given file in the repository maps to that site, replace `/docs` in the repository path with `https://learn.microsoft.com/dotnet`.
 
 Your topic will also contain links to the sample. Link directly to the sample's folder on GitHub.
 

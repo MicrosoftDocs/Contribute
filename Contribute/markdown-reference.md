@@ -1,5 +1,5 @@
 ---
-title: Markdown reference for docs.microsoft.com
+title: Markdown reference for learn.microsoft.com
 description: Learn the Markdown features and syntax used in the Microsoft Docs platform.
 author: meganbradley
 ms.author: mbradley
@@ -11,7 +11,7 @@ ms.custom: external-contributor-guide
 
 # Docs Markdown reference
 
-This article provides an alphabetical reference for writing Markdown for docs.microsoft.com (Docs).
+This article provides an alphabetical reference for writing Markdown for learn.microsoft.com (Docs).
 
 [Markdown](https://daringfireball.net/projects/markdown/) is a lightweight markup language with plain text formatting syntax. Docs supports [CommonMark](https://commonmark.org/) compliant Markdown parsed through the [Markdig](https://github.com/lunet-io/markdig) parsing engine. Docs also supports custom Markdown extensions that provide richer content on the Docs site.
 
@@ -19,7 +19,7 @@ You can use any text editor to write Markdown, but we recommend [Visual Studio C
 
 ## Alerts (Note, Tip, Important, Caution, Warning)
 
-Alerts are a Markdown extension to create block quotes that render on Docs with colors and icons that indicate the significance of the content. 
+Alerts are a Markdown extension to create block quotes that render on Docs with colors and icons that indicate the significance of the content.
 
 Avoid notes, tips, and important boxes. Readers tend to skip over them. It's better to put that info directly into the article text.
 
@@ -296,7 +296,7 @@ The `border` property is the recommended way to add a border. Don't create your 
 
 ### Creating an expandable image
 
-The optional `lightbox` property allows you to create an expanded image, as described in [Create an expandable screenshot (lightbox)](contribute-how-to-use-lightboxes.md). The value of `lightbox` is the path to the expanded image. 
+The optional `lightbox` property allows you to create an expanded image, as described in [Create an expandable screenshot (lightbox)](contribute-how-to-use-lightboxes.md). The value of `lightbox` is the path to the expanded image.
 
 -->
 
@@ -316,9 +316,9 @@ If `type="icon"`, `source` should be specified but `alt-text` shouldn't be.
 
 The `border` property  is `false` by default for icons. If your decorative image requires the standard image border, explicitly add `border="true"` to the `:::image:::` tag.
 
-<!-- No lightbox article in external guide, so commenting this out for now. 
+<!-- No lightbox article in external guide, so commenting this out for now.
 
-The `lightbox` property works the same for `icon` images as for standard `content` images. 
+The `lightbox` property works the same for `icon` images as for standard `content` images.
 
 -->
 
@@ -369,7 +369,7 @@ The following two examples show how indented paragraphs render based on their re
 1. This is a numbered list example (one space after the period before the letter T).
    This sentence is indented three spaces.
    This code block is indented three spaces.
-   
+
 - This is a bulleted list example (one space after the bullet before the letter T).
   This sentence is indented two spaces.
   > [!TIP]
@@ -465,9 +465,10 @@ Checklists are available for use on Docs via a custom Markdown extension:
 This example renders on Docs like this:
 
 > [!div class="checklist"]
-> * List item 1
-> * List item 2
-> * List item 3
+>
+> - List item 1
+> - List item 2
+> - List item 3
 
 Use checklists at the beginning or end of an article to summarize "What will you learn" or "What have you learned" content. Do not add random checklists throughout your articles.
 
@@ -518,6 +519,7 @@ Markdown content within the :::no-loc text="Document":::.  The are multiple inst
 
 > [!NOTE]
 > Use `\` to escape special characters:
+>
 > ```markdown
 > Lorem :::no-loc text="Find a \"Quotation\""::: Ipsum.
 > ```
@@ -599,6 +601,7 @@ There are two types of selectors: a single selector and a multi-selector.
 ... will be rendered like this:
 
 > [!div class="op_single_selector"]
+>
 > - [Universal Windows](how-to-write-links.md)
 > - [Windows Phone](how-to-write-links.md)
 > - [iOS](how-to-write-links.md)
@@ -627,6 +630,7 @@ There are two types of selectors: a single selector and a multi-selector.
 ... will be rendered like this:
 
 > [!div class="op_multi_selector" title1="Platform" title2="Backend"]
+>
 > - [(iOS | .NET)](how-to-write-links.md)
 > - [(iOS | JavaScript)](how-to-write-links.md)
 > - [(Windows universal C# | .NET)](how-to-write-links.md)

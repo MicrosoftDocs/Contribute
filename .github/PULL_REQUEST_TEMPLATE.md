@@ -1,6 +1,6 @@
 # Contributor guide pull request
 
-Thanks for contributing to the [docs.microsoft.com contributor guide](https://docs.microsoft.com/contribute/?branch=main). Please read these instructions for processing your pull request (PR). Once you've read this text, delete it and write a brief description of the changes you're proposing.
+Thanks for contributing to the [learn.microsoft.com contributor guide](https://learn.microsoft.com/contribute/?branch=main). Please read these instructions for processing your pull request (PR). Once you've read this text, delete it and write a brief description of the changes you're proposing.
 
 ## Quality control
 

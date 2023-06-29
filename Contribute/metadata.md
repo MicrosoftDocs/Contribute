@@ -1,5 +1,5 @@
 ---
-title: Metadata for docs.microsoft.com
+title: Metadata for learn.microsoft.com
 description: Learn about the required and optional metadata for Microsoft documentation.
 author: sarah-barrett
 ms.author: sabarret

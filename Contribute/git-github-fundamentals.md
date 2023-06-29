@@ -1,6 +1,6 @@
 ---
 title: Git and GitHub essentials for Documentation
-description: This article explains an overview of Git,  GitHub repository, and how content is organized, and naming conventions used for docs.microsoft.com.
+description: This article explains an overview of Git,  GitHub repository, and how content is organized, and naming conventions used for learn.microsoft.com.
 ms.topic: contributor-guide
 ms.prod: non-product-specific
 ms.custom: external-contributor-guide
@@ -14,7 +14,7 @@ As a contributor to Docs content, you will interact with multiple tools and proc
 
 Git is an open-source version control system. It facilitates this type of project collaboration through *distributed version control* of files that live in *repositories*. In essence, Git makes it possible to integrate streams of work done by multiple contributors over time, for a given repository.
 
-GitHub is a web-based hosting service for Git repositories, such as those used to store [docs.microsoft.com](https://docs.microsoft.com) content. For any project, GitHub hosts the main repository, from which contributors can make copies for their own work.
+GitHub is a web-based hosting service for Git repositories, such as those used to store [learn.microsoft.com](https://learn.microsoft.com) content. For any project, GitHub hosts the main repository, from which contributors can make copies for their own work.
 
 ## Git
 
@@ -46,7 +46,7 @@ As mentioned earlier, a project's default branch serves as the current version o
 You can typically find a main `articles` directory off the root of the repository. The articles
 directory contains a set of subdirectories. Articles in the subdirectories are formatted as
 Markdown files that use an *.md* extension. Some repositories that support multiple services use a
-generic `/articles` subdirectory, such as the 
+generic `/articles` subdirectory, such as the
 [Azure-Docs](https://github.com/MicrosoftDocs/Azure-Docs) repository. Others might use a
 service-specific name, such as the [IntuneDocs](https://github.com/MicrosoftDocs/IntuneDocs)
 repository, which uses `/IntuneDocs`.
@@ -72,7 +72,7 @@ For convenience, the root directory of each repository typically contains a Mark
 - Various **examples of using Markdown** to format the elements of an article.
 - General **instructions on the use of Markdown extensions**, which you can use for various types of alerts.
 - Examples of **embedding video** by using an iframe.
-- General **instructions on the use of docs.microsoft.com extensions**, which you can use for special controls such as buttons and selectors.
+- General **instructions on the use of learn.microsoft.com extensions**, which you can use for special controls such as buttons and selectors.
 
 ## Pull requests
 
@@ -83,28 +83,28 @@ There are two ways to contribute by pull request, depending on the size of chang
 <!---- Reference links for Docs landing pages, associated GitHub repositories, and related Forums matrix. ------------------>
 <!---- PLEASE INSERT URLS IN ASCENDING SORT ORDER, AND REMOVE LOCALE SEGMENT FROM URLS (that is, en-us) FOR LOCALIZED FORUMS! -->
 <!---- NOTE: these links are saved for future use in another/new article; no longer used above in this article --->
-[Visual-Studio-Page]:(https://docs.microsoft.com/en-us/visualstudio/index)
+[Visual-Studio-Page]:(https://learn.microsoft.com/en-us/visualstudio/index)
 [Visual-Studio-Repo-Internal]:(https://github.com/Microsoft/vsdocs)
 [Visual-Studio-Repo-External]:(https://github.com/Microsoft/visualstudio-docs)
 [Visual-Studio-SO]: (https://stackoverflow.com/search?q=Visual+Studio+2017)
-[Dotnet-Page]: https://docs.microsoft.com/dotnet
-[Dotnet-Core-Page]: https://docs.microsoft.com/dotnet/articles/welcome
+[Dotnet-Page]: https://learn.microsoft.com/dotnet
+[Dotnet-Core-Page]: https://learn.microsoft.com/dotnet/articles/welcome
 [Dotnet-Core-Repo]: https://github.com/dotnet/docs
-[EM-ATA-Land]: https://docs.microsoft.com/advanced-threat-analytics/
+[EM-ATA-Land]: https://learn.microsoft.com/advanced-threat-analytics/
 [EM-ATA-Repo]: https://github.com/Microsoft/ATADocs
-[EM-AzureAD-Land]: https://docs.microsoft.com/active-directory/
+[EM-AzureAD-Land]: https://learn.microsoft.com/active-directory/
 [EM-AzureAD-Repo]: https://github.com/Azure/azure-content/tree/master/articles/active-directory/
-[EM-AzureRMS-Land]: https://docs.microsoft.com/rights-management/
+[EM-AzureRMS-Land]: https://learn.microsoft.com/rights-management/
 [EM-AzureRMS-Repo]: https://github.com/Microsoft/Azure-RMSDocs
-[EM-Intune-Land]: https://docs.microsoft.com/intune/
+[EM-Intune-Land]: https://learn.microsoft.com/intune/
 [EM-Intune-Repo]: https://github.com/microsoft/intuneDocs
-[EM-Land-Page]: https://docs.microsoft.com/enterprise-mobility/
+[EM-Land-Page]: https://learn.microsoft.com/enterprise-mobility/
 [EM-Land-Repo]: https://github.com/Microsoft/EMDocs/
-[EM-MFA-Land]: https://docs.microsoft.com/multi-factor-authentication/
+[EM-MFA-Land]: https://learn.microsoft.com/multi-factor-authentication/
 [EM-MFA-Repo]: https://github.com/Azure/azure-content/tree/master/articles/multi-factor-authentication
-[EM-MIM-Land]: https://docs.microsoft.com/microsoft-identity-manager/
+[EM-MIM-Land]: https://learn.microsoft.com/microsoft-identity-manager/
 [EM-MIM-Repo]: https://github.com/Microsoft/MIMDocs
-[EM-RemoteApp-Land]: https://docs.microsoft.com/en-us/remoteapp/
+[EM-RemoteApp-Land]: https://learn.microsoft.com/en-us/remoteapp/
 [EM-RemoteApp-Repo]: https://github.com/Azure/azure-content/tree/master/articles/remoteapp
 [Forum-MSDN-ATA]: https://social.technet.microsoft.com/Forums/en-US/home?forum=mata
 [Forum-MSDN-AzureAD]: https://social.msdn.microsoft.com/Forums/en-US/home?forum=WindowsAzureAD
