@@ -1,6 +1,6 @@
 ---
-title: Sort Selection - Docs Authoring Pack
-description: Learn how to use the Sort Selection feature from the Docs Authoring Pack, Visual Studio Code extension.
+title: Sort Selection - Learn Authoring Pack
+description: Learn how to use the Sort Selection feature from the Learn Authoring Pack, Visual Studio Code extension.
 author: IEvangelist
 ms.prod: non-product-specific
 ms.topic: contributor-guide

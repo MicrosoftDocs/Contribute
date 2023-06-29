@@ -1,12 +1,14 @@
 ---
 title: "How to refer to .NET in docs"
-description: "Learn how to refer to .NET Core, .NET 5, and later versions in docs."
+description: "Learn how to refer to .NET Framework, .NET Core, .NET 5, and later versions in docs."
 ms.topic: contributor-guide
 ms.prod: non-product-specific
 ms.custom: external-contributor-guide
 ms.date: 01/28/2021
 ---
 # How to refer to .NET in docs
+
+This article is mostly concerned with naming for .NET Core and .NET 5 and later versions. For .NET Framework, it should be referred to as ".NET Framework" and not "the .NET Framework".
 
 ## Recommended terminology
 

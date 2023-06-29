@@ -14,7 +14,7 @@ This article describes the steps to interactively install Git client tools and V
 > [!div class="checklist"]
 > * Install [Git](https://git-scm.com/)
 > * Install [Visual Studio Code](https://code.visualstudio.com/)
-> * Install [Docs Authoring Pack](https://marketplace.visualstudio.com/items?itemName=docsmsft.docs-authoring-pack)
+> * Install [Learn Authoring Pack](https://marketplace.visualstudio.com/items?itemName=docsmsft.docs-authoring-pack)
 
 >[!IMPORTANT]
 > If you're making only minor changes to an article, you *do not* need to complete the steps in this article and can continue directly to the [quick changes workflow](index.md#quick-edits-to-documentation).
@@ -58,20 +58,20 @@ In the next article, you will [Set up a local Git repository](get-started-setup-
 
 [!INCLUDE[Install Visual Studio Code extension](~/guide/help-content/includes/proc-contribute-install-vscode-extensions.md)]
 
-### Install Docs Authoring Pack
+### Install Learn Authoring Pack
 
 > [!IMPORTANT]
-> The Docs Authoring Pack for Visual Studio Code includes basic Markdown authoring assistance, page previews, support for Markdown templates, markdownlint, and Code Spell Checker. These features ease and streamline the contributions process. As such, we consider the Docs Authoring Pack a **required** extension for contributors.
+> The Learn Authoring Pack for Visual Studio Code includes basic Markdown authoring assistance, page previews, support for Markdown templates, markdownlint, and Code Spell Checker. These features ease and streamline the contributions process. As such, we consider the Learn Authoring Pack a **required** extension for contributors.
 
-To install the Docs Authoring Pack, choose **Install** from the [Docs Authoring Pack page](https://marketplace.visualstudio.com/items?itemName=docsmsft.docs-authoring-pack) in the VS Code Marketplace.
+To install the Learn Authoring Pack, choose **Install** from the [Learn Authoring Pack page](https://marketplace.visualstudio.com/items?itemName=docsmsft.docs-authoring-pack) in the VS Code Marketplace.
 
-To use the Docs Authoring Pack functionality, press Alt+M in Visual Studio Code. To configure a toolbar to show the functions available, edit the Visual Studio Code settings (Control+comma), and add user setting `"markdown.showToolbar": true`.
+To use the Learn Authoring Pack functionality, press Alt+M in Visual Studio Code. To configure a toolbar to show the functions available, edit the Visual Studio Code settings (Control+comma), and add user setting `"markdown.showToolbar": true`.
 
-For more information, see [Docs Authoring Pack for Visual Studio Code](how-to-write-docs-auth-pack.md).
+For more information, see [Learn Authoring Pack for Visual Studio Code](how-to-write-docs-auth-pack.md).
 
 ## Understand Markdown editors
 
-Markdown is a lightweight markup language used to author the content. [Visual Studio Code](https://code.visualstudio.com/) is the preferred tool for editing Markdown at Microsoft. [Atom](https://atom.io) is another popular tool for editing Markdown. Markdown basics and the features supported by Open Publishing Services (OPS) custom Markdown extensions, are covered in the [Markdown Reference](markdown-reference.md) article.
+Markdown is a lightweight markup language used to author the content. [Visual Studio Code](https://code.visualstudio.com/) is the preferred tool for editing Markdown at Microsoft. Other Markdown editing tools are available. The [Markdown Reference](markdown-reference.md) article covers Markdown basics and the features supported by Open Publishing Services (OPS) custom Markdown extensions. 
 
 ## Next steps
 

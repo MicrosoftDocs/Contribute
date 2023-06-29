@@ -1,6 +1,6 @@
 ---
-title: Dev lang completion - Docs Authoring Pack
-description: Learn how dev lang completion assists contributors in the Docs Authoring Pack, Visual Studio Code extension.
+title: Dev lang completion - Learn Authoring Pack
+description: Learn how dev lang completion assists contributors in the Learn Authoring Pack, Visual Studio Code extension.
 author: scottaddie
 ms.prod: non-product-specific
 ms.topic: contributor-guide
@@ -35,7 +35,7 @@ It's not possible to disable this feature. The following settings are available:
 Only a subset of the valid dev langs will be used in a single docset. To enhance the user experience:
 
 1. In Visual Studio Code, open the docset to the root directory.
-1. Select **File** > **Preferences** > **Settings** and filter by *Docs Markdown Extension*.
+1. Select **File** > **Preferences** > **Settings** and filter by *Learn Markdown Extension*.
 1. Click the **Edit in settings.json** link in the **Markdown: Docset Languages** section.
 1. Add the following `markdown.docsetLanguages` property to the *settings.json* file:
 
@@ -72,7 +72,7 @@ By default, all known dev lang names are displayed in IntelliSense. This setting
 
 To change this setting:
 
-1. Select **File** > **Preferences** > **Settings** and filter by *Docs Markdown Extension*.
+1. Select **File** > **Preferences** > **Settings** and filter by *Learn Markdown Extension*.
 1. Toggle the setting in the **Markdown: All Available Languages** section.
 
 ## In action

@@ -1,4 +1,4 @@
-- name: Contributor Guide overview and browser-based tasks
+- name: Contributor guide overview and browser-based tasks
   href: index.md
 - name: Set up and work locally
   items:
@@ -30,7 +30,7 @@
       href: how-to-write-links.md
     - name: Metadata
       href: metadata.md
-    - name: Docs Authoring pack
+    - name: Learn Authoring pack
       items:
       - name: Overview
         href: how-to-write-docs-auth-pack.md
@@ -74,7 +74,19 @@
           href: dotnet/dotnet-contribute-code-analysis.md
         - name: .NET naming in docs
           href: dotnet/net-core-5-naming.md
+    - name: Azure Architecture Center
+      items:
+        - name: Contributions
+          href: architecture-center/aac-contribute.md
+        - name: Architecture Guide templates
+          href: architecture-center/guide-templates.md
+        - name: Solution Idea templates
+          href: architecture-center/solution-idea-templates.md
+        - name: Example Workload templates
+          href: architecture-center/sample-solution-templates.md
     - name: PowerShell-Docs
       href: powershell-overview.md
+- name: Hacktoberfest
+  href: hacktoberfest.md
 - name: Additional resources
   href: additional-resources.md

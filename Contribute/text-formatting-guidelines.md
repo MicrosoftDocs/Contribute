@@ -1,6 +1,6 @@
 ---
 title: Text formatting guidelines
-description: Learn when to use bold, italics, code, and other text styles in articles published on the docs.microsoft.com site.
+description: Learn when to use bold, italics, code, and other text styles in articles published on Microsoft Learn.
 author: tdykstra
 ms.author: tdykstra
 ms.date: 11/09/2021
@@ -122,7 +122,7 @@ Rendered as:
 > In the following example, replace the placeholder text *`<ResourceGroupName>`* with your own resource group name.
 
 > [!CAUTION]
->  The Docs site does not render \<placeholder\> text that uses angle brackets in cases where the brackets are not escaped properly or the text is not code-formatted. The Docs build process interprets the \<placeholder\> phrase as an HTML tag that could be dangerous to the reader's browser, and flags it as a *disallowed-html-tag*. You'll see a suggestion in the build report, and the placeholder word isn't rendered in the Docs page output when that happens.
+> The Microsoft Learn site does not render \<placeholder\> text that uses angle brackets in cases where the brackets are not escaped properly or the text is not code-formatted. The Microsoft Learn build process interprets the \<placeholder\> phrase as an HTML tag that could be dangerous to the reader's browser, and flags it as a *disallowed-html-tag*. You'll see a suggestion in the build report, and the placeholder word isn't rendered in the Microsoft Learn page output when that happens.
 >  
 > To avoid content loss on placeholders, use `code` formatting or  escape characters (`\<` `\>`)  as described previously.
 
@@ -170,12 +170,12 @@ and mixing other styles in them looks bad.
 When referring to keys or key combinations, follow these conventions:
 
 * Capitalize the first letter of key names.
-* Don't apply an inline style such as italics, bold, or code.
-* Use "+" to join keys that are pressed at the same time.
+* Surround the key names with `<kbd>` and `</kbd>` HTML tags.
+* Use "+" to join keys that the user selects at the same time.
 
-### Examples
+### Examples of keys and keyboard shortcuts
 
-* **This**: Select Alt+Ctrl+S.
+* **This**: Select <kbd>Alt</kbd>+<kbd>Ctrl</kbd>+<kbd>S</kbd>.
 * **Not this**: Press **ALT+CTRL+S**.
 * **Not this**: Hit `ALT+CTRL+S`.
 

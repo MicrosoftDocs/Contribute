@@ -1,6 +1,6 @@
 ---
-title: Metadata Updates - Docs Authoring Pack
-description: Learn how to update metadata from the Docs Authoring Pack, Visual Studio Code extension.
+title: Metadata Updates - Learn Authoring Pack
+description: Learn how to update metadata from the Learn Authoring Pack, Visual Studio Code extension.
 author: IEvangelist
 ms.prod: non-product-specific
 ms.topic: contributor-guide

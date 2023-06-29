@@ -1,6 +1,6 @@
 ---
 title: GitHub contribution workflow for major or long-running changes
-description: This article shows you how to use the "major" contributor workflow to make contributions to docs.microsoft.com articles.
+description: This article shows you how to use the "major" contributor workflow to make contributions to Microsoft Learn documentation.
 ms.topic: contributor-guide
 ms.prod: non-product-specific
 ms.custom: external-contributor-guide
@@ -9,9 +9,9 @@ ms.date: 08/30/2017
 # GitHub contribution workflow for major or long-running changes
 
 > [!IMPORTANT]
-> All repositories that publish to docs.microsoft.com have adopted either the [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/) or the [.NET Foundation Code of Conduct](https://dotnetfoundation.org/code-of-conduct). For more information, see the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/). Or contact [opencode@microsoft.com](mailto:opencode@microsoft.com), or [conduct@dotnetfoundation.org](mailto:conduct@dotnetfoundation.org) with any questions or comments.<br>
+> All repositories that publish to Microsoft Learn have adopted either the [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/) or the [.NET Foundation Code of Conduct](https://dotnetfoundation.org/code-of-conduct). For more information, see the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/). Or contact [opencode@microsoft.com](mailto:opencode@microsoft.com), or [conduct@dotnetfoundation.org](mailto:conduct@dotnetfoundation.org) with any questions or comments.<br>
 >
-> Minor corrections or clarifications to documentation and code examples in public repositories are covered by the [docs.microsoft.com Terms of Use](/legal/termsofuse). New or significant changes will generate a comment in the pull request, asking you to submit an online Contribution License Agreement (CLA) if you are not an employee of Microsoft. You will need to complete the online form before your pull request can be merged.
+> Minor corrections or clarifications to documentation and code examples in public repositories are covered by the [learn.microsoft.com Terms of Use](/legal/termsofuse). New or significant changes will generate a comment in the pull request, asking you to submit an online Contribution License Agreement (CLA) if you are not an employee of Microsoft. You will need to complete the online form before your pull request can be merged.
 
 ## Overview
 
@@ -85,7 +85,7 @@ git push --set-upstream origin <branchname>
 You've done it!  Your code is now up in your GitHub repository and ready for you to create a pull request.  
 
 >[!TIP]
-> Even though your changes become visible in your personal GitHub account when you push them, there is no rule that you need to submit a pull request immediately.  If you want to come stop and return at a later time to make additional tweaks, that's OK!
+> Even though your changes become visible in your personal GitHub account when you push them, there is no rule that you need to submit a pull request immediately.  If you want to stop and return at a later time to make additional tweaks, that's OK!
 
 Need to fix something you submitted?  No problem!  Just make your changes in the same branch and then commit and push again (no need to set the upstream server on subsequent pushes of the same branch).
 
@@ -108,6 +108,6 @@ You're now back in a new branch and you're well on your way to being an expert c
 
 ## Next steps
 
-That's it! You've made a contribution to docs.microsoft.com content!
+That's it! You've made a contribution to Microsoft Learn content!
 
 - To learn more about topics such as Markdown and Markdown extensions syntax, continue to the [Markdown reference](markdown-reference.md) article.

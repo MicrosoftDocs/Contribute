@@ -1,6 +1,6 @@
 ---
 title: How to include code in docs
-description: Learn how to include code elements and snippets in articles to be published on docs.microsoft.com.
+description: Learn how to include code elements and snippets in articles to be published on Microsoft Learn.
 author: tdykstra
 ms.author: tdykstra
 ms.date: 11/09/2021
@@ -9,9 +9,9 @@ ms.topic: contributor-guide
 ms.custom: external-contributor-guide
 ---
 
-# How to include code in docs
+# How to include code in documentation
 
-There are several ways to include code in an article published on docs.microsoft.com:
+There are several ways other than [screenshots](#screenshots) to include code in an article published on Microsoft Learn:
 
 * Individual elements (words) within a line.
 
@@ -87,7 +87,17 @@ might look too busy with code styling everywhere. If you choose to use bold styl
 
 A link to reference documentation may be more helpful than code format in some contexts. If you use a link, don't apply code format to the link text. Styling a link as code can obscure the fact that the text is a link.
 
-If you use a link and refer to the same element later in the same context, make the subsequent instances code format rather than links.
+If you use a link and refer to the same element later in the same context, make the subsequent instances code format rather than links. For example:
+
+```markdown
+The first reference to <xref:System.CommandLine> in this text is a link.
+Subsequent references to `System.CommandLine` can be in code style.
+```
+
+Rendered:
+
+The first reference to <xref:System.CommandLine> in this text is a link.
+Subsequent references to `System.CommandLine` can be in code style.
 
 ## Placeholders
 
@@ -233,11 +243,11 @@ that word appears in the code section title bar on the rendered page. Whenever p
 environment indicator in your inline code blocks.
 
 > [!NOTE]
-> If you copy and paste code from a Word document, make sure it has no "curly quotes," which aren't valid in code. If it does, change them back to normal quotes (`'` and `"`). Alternatively, rely on the Docs Authoring Pack, [smart quotes replacement feature](docs-authoring/smart-quote-replacement.md).
+> If you copy and paste code from a Word document, make sure it has no "curly quotes," which aren't valid in code. If it does, change them back to normal quotes (`'` and `"`). Alternatively, rely on the Learn Authoring Pack, [smart quotes replacement feature](docs-authoring/smart-quote-replacement.md).
 
 ## In-repo snippet references
 
-The preferred way to include code snippets for programming languages in docs is by reference to a code file. This method gives you the ability to highlight lines of code and makes the wider context of the snippet available on GitHub for developers to use. You can include code by using the triple colon format (:\:\:) either manually or in Visual Studio Code with the help of the [docs.microsoft.com Authoring Pack](https://marketplace.visualstudio.com/items?itemName=docsmsft.docs-authoring-pack).
+The preferred way to include code snippets for programming languages in docs is by reference to a code file. This method gives you the ability to highlight lines of code and makes the wider context of the snippet available on GitHub for developers to use. You can include code by using the triple colon format (:\:\:) either manually or in Visual Studio Code with the help of the [Learn Authoring Pack](https://marketplace.visualstudio.com/items?itemName=docsmsft.docs-authoring-pack).
 
 1. In Visual Studio Code, click <kbd>Alt + M</kbd> or <kbd>Option + M</kbd> and select Snippet.
 2. Once Snippet is selected, you will be prompted for Full Search, Scoped Search or Cross-Repository Reference. To search locally, select Full Search.
@@ -375,7 +385,7 @@ In the root folder of *azure-docs*, add the following section in
 Now when you refer to *samples-durable-functions* as if it were a folder in *azure-docs*, you're
 actually referring to the root folder in the *azure-functions-durable-extension* repository.
 
-You can include code by using the triple colon format (:\:\:) either manually or in Visual Studio Code with the help of the [docs.microsoft.com Authoring Pack](https://marketplace.visualstudio.com/items?itemName=docsmsft.docs-authoring-pack).
+You can include code by using the triple colon format (:\:\:) either manually or in Visual Studio Code with the help of the [Learn Authoring Pack](https://marketplace.visualstudio.com/items?itemName=docsmsft.docs-authoring-pack).
 
 1. In Visual Studio Code, click <kbd>Alt + M</kbd> or <kbd>Option + M</kbd> and select Snippet.
 2. Once Snippet is selected, you will be prompted for Full Search, Scoped Search or Cross-Repository Reference. To search across repositories, select Cross-Repository Reference.
@@ -394,7 +404,7 @@ In the *azure-functions-durable-extension* repository, that code file is in the 
 folder. As noted [earlier](#highlighting-selected-lines), line numbers for highlighting are relative to the start of the snippet rather than the start of the file.
 
 > [!NOTE]
-> The name you assign to the dependent repository is relative to the root of the main repository, but the tilde (~) refers to the root of the doc set. The doc set root is determined by `build_source_folder` in *.openpublishing.publish.config.json*. The path to the snippet in the preceding example works in the azure-docs repo because `build_source_folder` refers to the repo root (`.`). If `build_source_folder` were `articles`, the path would start with `~/../samples-durable-functions` instead of `~/samples-durable-functions`.
+> The name you assign to the dependent repository is relative to the root of the main repository, but the tilde (`~`) refers to the root of the docset. The docset root is determined by `build_source_folder` in `.openpublishing.publish.config.json`. The path to the snippet in the preceding example works in the azure-docs repo because `build_source_folder` refers to the repo root (`.`). If `build_source_folder` were `articles`, the path would start with `~/../samples-durable-functions` instead of `~/samples-durable-functions`.
 
 ## Snippets in a Jupyter notebook
 
@@ -412,8 +422,8 @@ You can reference a cell in a Jupyter notebook as a code snippet. In order to re
     * Once the cell toolbar is enabled, select **Edit Metadata** on the cell you wish to name.
     * Or you can edit metadata directly in the notebook's JSON structure.
 
-1.  In the cell metadata, add a "name" attribute:
- 
+1. In the cell metadata, add a "name" attribute:
+
     ```json
     "metadata": {"name": "<name>"},
     ```
@@ -569,7 +579,7 @@ Syntax:
 
 ## Supported languages
 
-The [Docs Authoring Pack](how-to-write-docs-auth-pack.md) includes a feature to provide statement completion and validation of the available language identifiers for code fence blocks.
+The [Learn Authoring Pack](how-to-write-docs-auth-pack.md) includes a feature to provide statement completion and validation of the available language identifiers for code fence blocks.
 
 ### Fenced code blocks
 
@@ -779,7 +789,7 @@ The [Docs Authoring Pack](how-to-write-docs-auth-pack.md) includes a feature to 
 | Zephir                         | `zephir`, `zep`                                                                |
 
 > [!TIP]
-> The Docs Authoring Pack, [Dev Lang Completion feature](docs-authoring/dev-lang-completion.md) uses the first valid alias when multiple aliases are available.
+> The Learn Authoring Pack, [Dev Lang Completion feature](docs-authoring/dev-lang-completion.md) uses the first valid alias when multiple aliases are available.
 
 ## Next steps
 

@@ -1,22 +1,22 @@
 ---
-title: Image Compression - Docs Authoring Pack
-description: Learn how to compress images within the Docs Authoring Pack, Visual Studio Code extension.
+title: Image Compression - Learn Authoring Pack
+description: Learn how to compress images within the Learn Authoring Pack, Learn Images extension.
 author: IEvangelist
 ms.prod: non-product-specific
 ms.topic: contributor-guide
-ms.date: 03/03/2020
+ms.date: 03/31/2023
 ms.author: dapine
 ---
 
 # Image compression
 
-[!INCLUDE [markdown-extension](includes/image-extension.md)]
+[!INCLUDE [image-extension](includes/image-extension.md)]
 
 ## Summary
 
-All documentation is provided via the web, with the exception of PDF versions of docs. When serving static content, it is best to minimize the number of bytes sent over the wire. One way to do that is to compress images at rest.
+All documentation is provided via the web, with the exception of PDF versions of documentation articles. When serving static content, it's best to minimize the number of bytes sent over the wire. One way to do that is to compress images at rest.
 
-The Docs Authoring Pack extension includes image compression context menu items. The following image types / extensions are supported:
+The Learn Images extension within the Learn Authoring Pack includes image compression context menu items. The following image types / extensions are supported:
 
 * *\*.png*
 * *\*.jpg*
@@ -37,11 +37,11 @@ From the **Explorer** navigation pane, right-click on a folder containing images
 
 ## Considerations
 
-Large resolution images are implicitly resized. The maximum dimensions are based on the platform suggested max width of `1,200px`. The max is only used when images are larger than they are recommended to be, and they will maintain the aspect ratio when automatically resized.
+Large resolution images are implicitly resized. The maximum dimensions are based on the platform suggested max width of `1,200px`. The max is only used when images are larger than they're recommended to be. They maintain the aspect ratio when automatically resized.
 
 ## Preferences
 
-The maximum dimensions are configurable, but a default max width of `1200` pixels exists. To configure the max dimensions, select **File -> Preferences -> Settings** and filter by `"Docs Image Extension"`.
+The maximum dimensions are configurable, but a default max width of `1200` pixels exists. To configure the max dimensions, select **File -> Preferences -> Settings** and filter by `"Learn Images Extension"`.
 
 :::image type="content" source="media/configure-image-compression.png" alt-text="Configure image compression":::
 
