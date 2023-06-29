@@ -21,7 +21,7 @@ Locale codes, such as `en-us`, should not be included in links to certain Micros
 The following sites are in scope for this validation:
 
 - azure.microsoft.com
-- docs.microsoft.com
+- learn.microsoft.com
 - msdn.microsoft.com (excluding social.msdn.com, which needs locale to ensure the correct forum is linked to)
 - technet.microsoft.com
 
@@ -31,11 +31,11 @@ Remove locale codes from links to Microsoft sites. The following is an example.
 
 Before:
 
-`https://docs.microsoft.com/en-us/vsts/load-test/app-service-web-app-performance-test`
+`https://learn.microsoft.com/en-us/vsts/load-test/app-service-web-app-performance-test`
 
 After:
 
-`https://docs.microsoft.com/vsts/load-test/app-service-web-app-performance-test`
+`https://learn.microsoft.com/vsts/load-test/app-service-web-app-performance-test`
 
 > [!TIP]
 > The Docs Markdown extension for VS Code includes a cleanup script for Microsoft links. The script checks all links to Microsoft sites in a repo to ensure that they begin with `https` instead of `http` and don't contain locale codes, such as `en-us`. To run the script:

@@ -1,5 +1,5 @@
 ---
-title: Markdown reference for docs.microsoft.com
+title: Markdown reference for learn.microsoft.com
 description: Learn the Markdown features and syntax used in the Microsoft Docs platform.
 author: meganbradley
 ms.author: mbradley
@@ -11,7 +11,7 @@ ms.custom: external-contributor-guide
 
 # Markdown Reference
 
-Markdown is a lightweight markup language with plain text formatting syntax. The Docs platform supports the CommonMark standard for Markdown, plus some custom Markdown extensions designed to provide richer content on docs.microsoft.com. This article provides an alphabetical reference for using Markdown for docs.microsoft.com.
+Markdown is a lightweight markup language with plain text formatting syntax. The Docs platform supports the CommonMark standard for Markdown, plus some custom Markdown extensions designed to provide richer content on learn.microsoft.com. This article provides an alphabetical reference for using Markdown for learn.microsoft.com.
 
 You can use any text editor to author Markdown. For an editor that facilitates inserting both standard Markdown syntax and custom Docs extensions, we recommend [VS Code](https://code.visualstudio.com/) with the [Docs Authoring Pack](https://aka.ms/DocsAuthoringPack) installed.
 
@@ -19,7 +19,7 @@ Docs uses the Markdig Markdown engine. You can test the rendering of Markdown in
 
 ## Alerts (Note, Tip, Important, Caution, Warning)
 
-Alerts are a Docs Markdown extension to create block quotes that render on docs.microsoft.com with colors and icons that indicate the significance of the content. The following alert types are supported:
+Alerts are a Docs Markdown extension to create block quotes that render on learn.microsoft.com with colors and icons that indicate the significance of the content. The following alert types are supported:
 
 ```markdown
 > [!NOTE]
@@ -38,7 +38,7 @@ Alerts are a Docs Markdown extension to create block quotes that render on docs.
 > Dangerous certain consequences of an action.
 ```
 
-These alerts look like this on docs.microsoft.com:
+These alerts look like this on learn.microsoft.com:
 
 > [!NOTE]
 > Information the user should notice even if skimming.
@@ -178,6 +178,7 @@ Bookmark link to a heading in the current file:
 ```
 
 Use a hash mark `#` followed by the words of the heading. To change the heading text into link text:
+
 - Use all lowercase characters
 - Remove punctuation
 - Replace spaces with dashes
@@ -206,10 +207,11 @@ To link to auto-generated API references pages in the current doc set or other d
 
 > [!NOTE]
 > To reference API reference pages in other doc sets, you need to add `xrefService` configuration in `docfx.json` file.
+>
 > ```
 > "build": {
 >   ...
->   "xrefService": [ "https://xref.docs.microsoft.com/query?uid={uid}" ]
+>   "xrefService": [ "https://xref.learn.microsoft.com/query?uid={uid}" ]
 > }
 > ```
 
@@ -222,7 +224,7 @@ You can use one of the following syntaxes:
   The optional `displayProperty` query parameter produces a fully qualified link text. By default, link text shows only the member or type name.
 
 - Markdown link: `[link text](xref:UID)`
-  
+
   Use when you want to customize the link text displayed.
 
 Examples:
@@ -291,7 +293,7 @@ This renders as follows:
 
 ### Checklist
 
-Checklists are available for use on docs.microsoft.com (only) via a custom Markdown extension:
+Checklists are available for use on learn.microsoft.com (only) via a custom Markdown extension:
 
 ```markdown
 > [!div class="checklist"]
@@ -300,19 +302,20 @@ Checklists are available for use on docs.microsoft.com (only) via a custom Markd
 > * List item 3
 ```
 
-This example renders on docs.microsoft.com like this:
+This example renders on learn.microsoft.com like this:
 
 > [!div class="checklist"]
-> * List item 1
-> * List item 2
-> * List item 3
+>
+> - List item 1
+> - List item 2
+> - List item 3
 
 Use checklists at the beginning or end of an article to summarize "What will you learn" or "What have you learned" content. Do not add random checklists throughout your articles.
 <!-- is this guidance still accurate? -->
 
 ## Next step action
 
-You can use a custom extension to add a next step action button to pages on docs.microsoft.com (only).
+You can use a custom extension to add a next step action button to pages on learn.microsoft.com (only).
 
 The syntax is as follows:
 
@@ -353,9 +356,11 @@ See the following example:
 
 The preceding blockquote Markdown text will be rendered as:
 > [!div class="tabbedCodeSnippets" data-resources="OutlookServices.Calendar"]
+>
 > ```cs
 > <cs code text>
 > ```
+>
 > ```javascript
 > <js code text>
 > ```
@@ -366,7 +371,7 @@ The preceding blockquote Markdown text will be rendered as:
 You can use a selector when you want to connect different pages for the same article. Readers can then switch between those pages.
 
 > [!NOTE]
-> This extension works differently between docs.microsoft.com and MSDN. <!-- should we keep info about MSDN? If so say how they differ?-->
+> This extension works differently between learn.microsoft.com and MSDN. <!-- should we keep info about MSDN? If so say how they differ?-->
 
 ### Single selector
 
@@ -385,6 +390,7 @@ You can use a selector when you want to connect different pages for the same art
 ... will be rendered like this:
 
 > [!div class="op_single_selector"]
+>
 > - [Universal Windows](how-to-write-use-markdown.md)
 > - [Windows Phone](how-to-write-use-markdown.md)
 > - [iOS](how-to-write-use-markdown.md)
@@ -413,6 +419,7 @@ You can use a selector when you want to connect different pages for the same art
 ... will be rendered like this:
 
 > [!div class="op_multi_selector" title1="Platform" title2="Backend"]
+>
 > - [(iOS | .NET)](how-to-write-workflows-major.md)
 > - [(iOS | JavaScript)](how-to-write-workflows-major.md)
 > - [(Windows universal C# | .NET)](how-to-write-workflows-major.md)
@@ -484,7 +491,7 @@ Renders as follows:
 ### mx-tdBreakAll
 
 > [!IMPORTANT]
-> This only works on the docs.microsoft.com site.
+> This only works on the learn.microsoft.com site.
 
 If you create a table in Markdown, the table might expand to the right navigation and become unreadable. You can solve that by allowing Docs rendering to break the table when needed. Just wrap up the table with the custom class `[!div class="mx-tdBreakAll"]`.
 
@@ -511,13 +518,13 @@ It will be rendered like this:
 ### mx-tdCol2BreakAll
 
 > [!IMPORTANT]
-> This only works on the docs.microsoft.com site.
+> This only works on the learn.microsoft.com site.
 
 From time to time, you might have very long words in the second column of a table. To ensure they are broken apart nicely, you can apply the class `mx-tdCol2BreakAll` by using the `div` wrapper syntax as shown earlier.
 
 ### HTML Tables
 
-HTML tables are not recommended for docs.microsoft.com. They are not human readable in the source - which is a key principle of Markdown.
+HTML tables are not recommended for learn.microsoft.com. They are not human readable in the source - which is a key principle of Markdown.
 
 <!--If you use HTML tables and your Markdown is not being rendered between the two tables, you need to add a closing `br` tag after the closing `table` tag.
 
@@ -575,7 +582,7 @@ And it will be displayed like this on published pages:
 Any new videos should be uploaded using the following process:
 
 1. Join the **docs_video_users** group on IDWEB.
-1. Go to https://aka.ms/VideoUploadRequest and fill in the details for your video. You will need (note that none of these items will be visible to the public):
+1. Go to <https://aka.ms/VideoUploadRequest> and fill in the details for your video. You will need (note that none of these items will be visible to the public):
     1. A title for your video.
     1. A list of products/services that your video is related to.
     1. The target page or (if you don’t have the page yet) doc set that your video will be hosted on.

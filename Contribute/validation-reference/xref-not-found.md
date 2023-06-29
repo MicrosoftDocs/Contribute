@@ -19,7 +19,7 @@ The UID you linked to doesn't exist, or isn't available to your repo.
 
 ## Resolution
 
-Confirm that the UID is correct and that the Xref Service is properly configured on your repo, as described in the Microsoft-internal [Xref Service](https://review.docs.microsoft.com/en-us/help/onboard/admin/xref-service?branch=master) documentation.
+Confirm that the UID is correct and that the Xref Service is properly configured on your repo, as described in the Microsoft-internal [Xref Service](https://review.learn.microsoft.com/en-us/help/onboard/admin/xref-service?branch=main) documentation.
 
 <!--make sure to add this file to your includes folder and verify the path-->
 [!INCLUDE [validation-reference-help](includes/validation-reference-help.md)]

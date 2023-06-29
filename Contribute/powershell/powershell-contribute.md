@@ -40,7 +40,7 @@ The PowerShell-Docs repository consists of three docsets that are published to
 - [/developer/][SDK] - contains the PowerShell SDK conceptual documentation.
 
 <!--link refs-->
-[psdocs]: https://docs.microsoft.com/powershell
+[psdocs]: https://learn.microsoft.com/powershell
 [docsrepo]: https://github.com/MicrosoftDocs/PowerShell-Docs
 [ref]: https://github.com/MicrosoftDocs/PowerShell-Docs/tree/staging/reference
 [conceptual]: https://github.com/MicrosoftDocs/PowerShell-Docs/tree/staging/reference/docs-conceptual

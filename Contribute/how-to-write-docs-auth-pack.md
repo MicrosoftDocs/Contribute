@@ -1,6 +1,6 @@
 ---
 title: Docs Authoring Pack for Visual Studio Code
-description: This article describes the Visual Studio Code extension pack to facilitate Markdown authoring for docs.microsoft.com.
+description: This article describes the Visual Studio Code extension pack to facilitate Markdown authoring for learn.microsoft.com.
 ms.topic: contributor-guide
 ms.prod: non-product-specific
 ms.custom: external-contributor-guide
@@ -10,12 +10,12 @@ ms.date: 10/22/2018
 ---
 # Docs Authoring Pack for VS Code
 
-The Docs Authoring Pack is a collection of Visual Studio Code extensions to aid with Markdown authoring for docs.microsoft.com. The pack is [available in the VS Code Marketplace](https://marketplace.visualstudio.com/items?itemName=docsmsft.docs-authoring-pack) and contains the following extensions:
+The Docs Authoring Pack is a collection of Visual Studio Code extensions to aid with Markdown authoring for learn.microsoft.com. The pack is [available in the VS Code Marketplace](https://marketplace.visualstudio.com/items?itemName=docsmsft.docs-authoring-pack) and contains the following extensions:
 
 - [markdownlint](https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint): A popular Markdown linter by David Anson to help ensure your Markdown follows best practices.
 - [Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker): A fully offline spell checker by Street Side Software.
-- [Docs Preview](https://marketplace.visualstudio.com/items?itemName=docsmsft.docs-preview): Uses the docs.microsoft.com CSS for more accurate Markdown preview, including custom Markdown.
-- [Docs Markdown](https://marketplace.visualstudio.com/items?itemName=docsmsft.docs-markdown): Provides Markdown authoring assistance for docs.microsoft.com content in the Open Publishing System (OPS), including basic Markdown support and support for custom Markdown syntax in OPS. The rest of this topic describes the Docs Markdown extension.
+- [Docs Preview](https://marketplace.visualstudio.com/items?itemName=docsmsft.docs-preview): Uses the learn.microsoft.com CSS for more accurate Markdown preview, including custom Markdown.
+- [Docs Markdown](https://marketplace.visualstudio.com/items?itemName=docsmsft.docs-markdown): Provides Markdown authoring assistance for learn.microsoft.com content in the Open Publishing System (OPS), including basic Markdown support and support for custom Markdown syntax in OPS. The rest of this topic describes the Docs Markdown extension.
 - [Docs Article Templates](https://marketplace.visualstudio.com/items?itemName=docsmsft.docs-article-templates): Allows users to apply Markdown skeleton content to new files.
 
 ## Prerequisites and assumptions
@@ -35,7 +35,7 @@ To access the Docs Markdown menu, type `ALT+M`. You can click or use up/down arr
 |Italic       |Formats text *italic*.|
 |Code         |If one line or less is selected, formats text as `inline code`.<br><br>If multiple lines are selected, formats them as a fenced code block, and allows you to optionally select a programming language supported by OPS.|
 |Alert        |Inserts a Note, Important, Warning, or Tip.<br><br>Select Alert from the menu, then select the alert type. If you have previously selected text, it will be surrounded with the selected alert syntax. If no text is selected, a new alert will be added with placeholder text.|
-|Numbered list|Inserts a new numbered list.<br><br> If multiple lines are selected, each will be a list item. Note that numbered lists show in the Markdown as all 1s, but will render on docs.microsoft.com as sequential numbers or, for nested lists, letters. To create a nested numbered list, tab from within the parent list.|
+|Numbered list|Inserts a new numbered list.<br><br> If multiple lines are selected, each will be a list item. Note that numbered lists show in the Markdown as all 1s, but will render on learn.microsoft.com as sequential numbers or, for nested lists, letters. To create a nested numbered list, tab from within the parent list.|
 |Bulleted list|Inserts a new bulleted list.|
 |Table        |Inserts a Markdown table structure.<br><br>After you select the table command, specify the number of columns and rows in the format columns:rows, such as 3:4. Note that the maximum number of columns you can specify via this extension is 5, which is the recommended maximum for readability.|
 |Link to file in repo|Inserts a relative link to another file in the current repo. After selecting this option, type in the command window to filter files by name, then select the file you want. If you have previously selected text, it will become the link text. Otherwise, the H1 of the target file will be used as link text.|
@@ -54,7 +54,7 @@ To access the Docs Markdown menu, type `ALT+M`. You can click or use up/down arr
 1. Click the plus that appears near the command name when you mouse over the line.
 1. After a new input box is visible, type the keyboard shortcut you want to bind to that particular command. For example, to use the common shortcut for bold, type `ctrl+b`.
 1. It's a good idea to insert a `when` clause into your keybinding, so it won't be available in files other than Markdown. To do this, open *keybindings.json* and insert the following line below the command name (be sure to add a comma between lines):
-   
+
     `"when": "editorTextFocus && editorLangId == 'markdown'"`
 
     Your completed custom keybinding should look like this in keybindings.json:
@@ -99,7 +99,7 @@ The Templates extension supports three dynamic metadata fields: author, ms.autho
 |----------|---------------|
 |author    |Your GitHub ID, if specified in your VS Code settings file.|
 |ms.author |Your Microsoft alias, if specified in your VS Code settings file. If you are not a Microsoft employee, leave this unspecified.|
-|ms.date   |The current date in the Docs-supported format, MM/DD/YYYY. Note that the date is not automatically updated if you subsequently update the file. You must manually update the ms.date value to indicate the most recent date of publication on the docs.microsoft.com site.|
+|ms.date   |The current date in the Docs-supported format, MM/DD/YYYY. Note that the date is not automatically updated if you subsequently update the file. You must manually update the ms.date value to indicate the most recent date of publication on the learn.microsoft.com site.|
 
 ### To set author (GitHub ID) and/or ms.author (Microsoft alias)
 

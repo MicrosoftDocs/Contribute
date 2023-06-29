@@ -12,15 +12,15 @@ Remove locale codes from links to Microsoft sites. The following is an example.
 
 Before:
 
-`https://docs.microsoft.com/en-us/vsts/load-test/app-service-web-app-performance-test`
+`https://learn.microsoft.com/en-us/vsts/load-test/app-service-web-app-performance-test`
 
 After:
 
-`https://docs.microsoft.com/vsts/load-test/app-service-web-app-performance-test`
+`https://learn.microsoft.com/vsts/load-test/app-service-web-app-performance-test`
 
 The following sites are in scope for this validation:
 
 - azure.microsoft.com
-- docs.microsoft.com
+- learn.microsoft.com
 - msdn.microsoft.com
 - technet.microsoft.com

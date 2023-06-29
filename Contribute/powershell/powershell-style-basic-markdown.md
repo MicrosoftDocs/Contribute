@@ -12,7 +12,7 @@ ms.date: 10/09/2019
 
 This article provides some style guidance specific to the PowerShell-Docs content.
 
-For other writing style guidance, see the [Microsoft Style Guide](https://docs.microsoft.com/style-guide/welcome/).
+For other writing style guidance, see the [Microsoft Style Guide](https://learn.microsoft.com/style-guide/welcome/).
 
 ## Metadata
 
@@ -85,7 +85,7 @@ of these characters in your content, you must do one of two things:
 - Avoid using bare URLs. Links should use Markdown syntax `[friendlyname](url-or-path)`
 - Links must have a friendly name, usually the title of the linked topic
 - All items in the "related links" section at the bottom should be hyperlinked.
-- Use relative links when linking to other content that is hosted on **docs.microsoft.com**.
+- Use relative links when linking to other content that is hosted on **learn.microsoft.com**.
 - Do not use backticks, bold, or other markup inside the brackets of a hyperlink.
 
 For more detailed information about linking, see [Using links in documentation](../how-to-write-links.md).
@@ -305,12 +305,10 @@ practice prevents a change to an image in one article affecting another article.
 In some cases, you want to share images, like logos and icons, across multiple articles. These
 images are stored in the `/media/shared` folder at the root of the repository.
 
-The following image file types are supported: *.png", *.gif", *.jpeg", *.jpg", *.svg
+The following image file types are supported: *.png",*.gif", *.jpeg",*.jpg", *.svg
 
 <!-- External URLs -->
 [platyPS]: https://github.com/PowerShell/platyPS
-[markdig]: https://github.com/lunet-io/markdig
-[CommonMark]: https://spec.commonmark.org/
 [atx]: https://github.github.com/gfm/#atx-headings
 [pascal-case]: https://en.wikipedia.org/wiki/PascalCase
 [reflow]: https://marketplace.visualstudio.com/items?itemName=marvhen.reflow-markdown

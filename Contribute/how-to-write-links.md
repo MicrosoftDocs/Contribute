@@ -1,6 +1,6 @@
 ---
 title: How to use links in documentation
-description: This article provides guidance on creating links to content within docs.microsoft.com.
+description: This article provides guidance on creating links to content within learn.microsoft.com.
 ms.topic: contributor-guide
 ms.prod: non-product-specific
 ms.custom: external-contributor-guide
@@ -9,9 +9,10 @@ ms.author: gewarren
 ms.date: 10/31/2018
 ---
 # Using links in documentation
-This article describes how to use hyperlinks from pages hosted at docs.microsoft.com. Links are easy to add into markdown with a few varying conventions. Links point users to content in the same page, point off into other neighboring pages, or point to external sites and URLs.
 
-The docs.microsoft.com site backend uses Open Publishing Services (OPS) which supports [CommonMark](https://commonmark.org/) compliant markdown parsed through the [Markdig](https://github.com/lunet-io/markdig) parsing engine. This markdown flavor is mostly compatible with [GitHub Flavored Markdown (GFM)](https://help.github.com/categories/writing-on-github/), as most docs are stored in GitHub and can be edited there. Additional functionality is added through Markdown extensions.
+This article describes how to use hyperlinks from pages hosted at learn.microsoft.com. Links are easy to add into markdown with a few varying conventions. Links point users to content in the same page, point off into other neighboring pages, or point to external sites and URLs.
+
+The learn.microsoft.com site backend uses Open Publishing Services (OPS) which supports [CommonMark](https://commonmark.org/) compliant markdown parsed through the [Markdig](https://github.com/lunet-io/markdig) parsing engine. This markdown flavor is mostly compatible with [GitHub Flavored Markdown (GFM)](https://help.github.com/categories/writing-on-github/), as most docs are stored in GitHub and can be edited there. Additional functionality is added through Markdown extensions.
 
 > [!IMPORTANT]
 > All links must be secure (`https` vs `http`) whenever the target supports it (which the vast majority should).
@@ -25,7 +26,7 @@ The words that you include in link text should be friendly. In other words, they
 
 **Correct:**
 
-- `For more information, see the [contributor guide index](https://github.com/Azure/azure-content/blob/master/contributor-guide/contributor-guide-index.md).`
+- `For more information, see the [contributor guide index](https://github.com/Azure/azure-content/blob/main/contributor-guide/contributor-guide-index.md).`
 
 - `For more details, see the [SET TRANSACTION ISOLATION LEVEL](https://msdn.microsoft.com/library/ms173763.aspx) reference.`
 
@@ -33,7 +34,7 @@ The words that you include in link text should be friendly. In other words, they
 
 - `For more details, see [https://msdn.microsoft.com/library/ms173763.aspx](https://msdn.microsoft.com/library/ms173763.aspx).`
 
-- `For more information, click [here](https://github.com/Azure/azure-content/blob/master/contributor-guide/contributor-guide-index.md).`
+- `For more information, click [here](https://github.com/Azure/azure-content/blob/main/contributor-guide/contributor-guide-index.md).`
 
 ## Links from one article to another
 
@@ -90,7 +91,7 @@ Because include files are located in another directory, you must use longer rela
 
 ## Links in selectors
 
-A selector is a navigation component that appears in a docs article as a drop-down list. When a reader selects a value in the drop-down, the browser opens the selected article. Typically the selector list contains links to closely related articles, for example the same subject matter in multiple programming languages or a closely related series of articles. 
+A selector is a navigation component that appears in a docs article as a drop-down list. When a reader selects a value in the drop-down, the browser opens the selected article. Typically the selector list contains links to closely related articles, for example the same subject matter in multiple programming languages or a closely related series of articles.
 
 If you have selectors that are embedded in an include, use the following link structure:
 
@@ -120,7 +121,7 @@ Link references at the end of the article:
    [2]: http://search.yahoo.com/
    [3]: http://search.msn.com/
    ```
-   
+
 Make sure that you include the space after the colon, before the link. When you link to other technical articles, if you forget to include the space, the link will be broken in the published article.
 
 ## Links to pages that are not part of the technical documentation set
@@ -130,7 +131,7 @@ To link to a page on another Microsoft property (such as a pricing page, SLA pag
    ```markdown
    [link text](https://azure.microsoft.com/pricing/details/virtual-machines/)
    ```
-   
+
 ## Links to third-party sites
 
 The best user experience minimizes sending users to another site. So base any links to third-party sites, which we do sometimes need, on this info:
@@ -149,31 +150,31 @@ When you need to link to MSDN or TechNet, use the full link to the topic, and re
 ## Links to Azure PowerShell reference content
 
 The Azure PowerShell reference content has been through several changes since November 2016. Use
-the following guidelines for linking to this content from other articles on docs.microsoft.com.
+the following guidelines for linking to this content from other articles on learn.microsoft.com.
 
 Structure of the URL:
 
-* For cmdlets:
+- For cmdlets:
   - `/powershell/module/<module-name>/<cmdlet-name>[?view=<moniker-name>]`
-* For conceptual topics:
+- For conceptual topics:
   - `/powershell/azure/<topic-file-name>[?view=<moniker-name>]`
   - `/powershell/azure/<service-name>/<topic-file-name>[?view=<moniker-name>]`
 
 The `<moniker-name>` portion is optional. If it's omitted, you will be directed to the latest version of the content. The `<service-name>` portion is one of the examples shown in the following base URLs:
 
-- Azure PowerShell (AzureRM) content: [https://docs.microsoft.com/powershell/azure/](https://docs.microsoft.com/powershell/azure/)
-- Azure PowerShell (ASM) content: [https://docs.microsoft.com/powershell/azure/_servicemanagement_](https://docs.microsoft.com/powershell/azure/servicemanagement)
-- Azure Active Directory (AzureAD) PowerShell content: [https://docs.microsoft.com/powershell/azure/_active-directory_](https://docs.microsoft.com/powershell/azure/active-directory)
-- Azure Service Fabric PowerShell: [https://docs.microsoft.com/powershell/azure/_service-fabric_](https://docs.microsoft.com/powershell/azure/service-fabric)
-- Azure Information Protection PowerShell: [https://docs.microsoft.com/powershell/azure/_aip_](https://docs.microsoft.com/powershell/azure/aip)
-- Azure Elastic DB Jobs PowerShell: [https://docs.microsoft.com/powershell/azure/_elasticdbjobs_](https://docs.microsoft.com/powershell/azure/elasticdbjobs)
+- Azure PowerShell (AzureRM) content: [https://learn.microsoft.com/powershell/azure/](https://learn.microsoft.com/powershell/azure/)
+- Azure PowerShell (ASM) content: [https://learn.microsoft.com/powershell/azure/*servicemanagement*](https://learn.microsoft.com/powershell/azure/servicemanagement)
+- Azure Active Directory (AzureAD) PowerShell content: [https://learn.microsoft.com/powershell/azure/*active-directory*](https://learn.microsoft.com/powershell/azure/active-directory)
+- Azure Service Fabric PowerShell: [https://learn.microsoft.com/powershell/azure/*service-fabric*](https://learn.microsoft.com/powershell/azure/service-fabric)
+- Azure Information Protection PowerShell: [https://learn.microsoft.com/powershell/azure/*aip*](https://learn.microsoft.com/powershell/azure/aip)
+- Azure Elastic DB Jobs PowerShell: [https://learn.microsoft.com/powershell/azure/*elasticdbjobs*](https://learn.microsoft.com/powershell/azure/elasticdbjobs)
 
 When you use these URLs, you will be redirected to the latest version of the content. This way, you
 don't have to specify a version moniker. And you won't have links to conceptual
 content that must be updated when the version changes.
 
 To create the correct link, find the page that you want to link to in your browser, and copy the URL.
-Then, remove  `https://docs.microsoft.com` and the locale info.
+Then, remove  `https://learn.microsoft.com` and the locale info.
 
 When you're linking from a TOC, you must use the full URL without the locale information.
 

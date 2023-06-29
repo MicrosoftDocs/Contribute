@@ -1,6 +1,6 @@
 ---
 title: How to use Markdown for writing Docs
-description: This article provides the basics and reference information for the Markdown language used for writing docs.microsoft.com articles.
+description: This article provides the basics and reference information for the Markdown language used for writing learn.microsoft.com articles.
 ms.topic: contributor-guide
 ms.prod: non-product-specific
 ms.custom: external-contributor-guide
@@ -8,8 +8,7 @@ ms.date: 03/26/2019
 ---
 # How to use Markdown for writing Docs
 
-[Docs.microsoft.com](https://docs.microsoft.com) articles are written in a lightweight markup language called [Markdown](https://daringfireball.net/projects/markdown/), which is both easy to read and easy to learn. Because of this, it has quickly become an industry standard. The docs site uses the [Markdig flavor](#markdown-flavor) of Markdown.
-
+[learn.microsoft.com](https://learn.microsoft.com) articles are written in a lightweight markup language called [Markdown](https://daringfireball.net/projects/markdown/), which is both easy to read and easy to learn. Because of this, it has quickly become an industry standard. The docs site uses the [Markdig flavor](#markdown-flavor) of Markdown.
 
 ## Markdown basics
 
@@ -242,7 +241,7 @@ The `csharp-interactive` name specifies the C# language, and the ability to run 
 
 #### Example: C\#
 
-__Markdown__
+**Markdown**
 
     ```csharp
     // Hello1.cs
@@ -255,7 +254,7 @@ __Markdown__
     }
     ```
 
-__Render__
+**Render**
 
 ```csharp
 // Hello1.cs
@@ -270,7 +269,7 @@ public class Hello1
 
 #### Example: SQL
 
-__Markdown__
+**Markdown**
 
     ```sql
     CREATE TABLE T1 (
@@ -279,7 +278,7 @@ __Markdown__
     );
     ```
 
-__Render__
+**Render**
 
 ```sql
 CREATE TABLE T1 (
@@ -291,7 +290,7 @@ CREATE TABLE T1 (
 ## Docs custom Markdown extensions
 
 > [!NOTE]
-> Docs.Microsoft.com (Docs) implements a Markdig Parser for Markdown, which is highly compatible with GitHub Flavored Markdown (GFM). Markdig adds some functionality through Markdown extensions. As such, selected articles from the full OPS Authoring Guide are included in this guide for reference. (For example, see "Markdig and Markdown extensions" and "Code snippets" in the table of contents.)
+> learn.microsoft.com (Docs) implements a Markdig Parser for Markdown, which is highly compatible with GitHub Flavored Markdown (GFM). Markdig adds some functionality through Markdown extensions. As such, selected articles from the full OPS Authoring Guide are included in this guide for reference. (For example, see "Markdig and Markdown extensions" and "Code snippets" in the table of contents.)
 
 Docs articles use GFM for most article formatting, such as paragraphs, links, lists, and headings. For richer formatting, articles can use Markdig features such as:
 
@@ -385,7 +384,7 @@ The following shows an example selector:
 - [Windows](../docs/core/tutorials/with-visual-studio.md)
 ```
 
-You can see an example of selectors in action at the [Azure docs](https://docs.microsoft.com/azure/expressroute/expressroute-howto-circuit-classic).
+You can see an example of selectors in action at the [Azure docs](https://learn.microsoft.com/azure/expressroute/expressroute-howto-circuit-classic).
 
 ### Code include references
 
@@ -429,9 +428,9 @@ For example, encode `<script name>` as `&lt;script name&gt;`
 
 ## Markdown flavor
 
-The docs.microsoft.com site backend supports [CommonMark](https://commonmark.org/) compliant markdown parsed through the [Markdig](https://github.com/lunet-io/markdig) parsing engine. This markdown flavor is mostly compatible with [GitHub Flavored Markdown (GFM)](https://help.github.com/categories/writing-on-github/), as most docs are stored in GitHub and can be edited there. Additional functionality is added through Markdown extensions.
+The learn.microsoft.com site backend supports [CommonMark](https://commonmark.org/) compliant markdown parsed through the [Markdig](https://github.com/lunet-io/markdig) parsing engine. This markdown flavor is mostly compatible with [GitHub Flavored Markdown (GFM)](https://help.github.com/categories/writing-on-github/), as most docs are stored in GitHub and can be edited there. Additional functionality is added through Markdown extensions.
 
-## See also:
+## See also
 
 ### Markdown resources
 

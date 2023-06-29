@@ -111,7 +111,7 @@ order to approve it.
 
 Once the PR is approved, the maintainers merge your PR into the *staging* branch. We periodically
 push all commits from *staging* branch into the *live* branch. Once your contribution is live, you
-can see it in the [PowerShell docs site](https://docs.microsoft.com/PowerShell/). Typically, we
+can see it in the [PowerShell docs site](https://learn.microsoft.com/PowerShell/). Typically, we
 publish a two to three times during the work week.
 
 ## Contributor license agreement

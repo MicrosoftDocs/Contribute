@@ -19,6 +19,6 @@ Add a title string to show in search results. In general, titles should be betwe
 
 You can preview how your title will look in Google on [https://moz.com/learn/seo/title-tag](https://moz.com/learn/seo/title-tag).
 
-If you're a Microsoft employee, see [SEO Basics](https://review.docs.microsoft.com/en-us/help/contribute/contribute-how-to-write-seo-basics?branch=master) in the internal Contributor Guide for more information about good titles and search engine optimization (SEO).
+If you're a Microsoft employee, see [SEO Basics](https://review.learn.microsoft.com/en-us/help/contribute/contribute-how-to-write-seo-basics?branch=main) in the internal Contributor Guide for more information about good titles and search engine optimization (SEO).
 
 [!INCLUDE [validation-reference-help](includes/validation-reference-help.md)]

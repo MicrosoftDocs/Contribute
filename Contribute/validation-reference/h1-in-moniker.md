@@ -15,7 +15,7 @@ ms.prod: non-product-specific
 
 `H1s are not allowed in moniker sections. Each article should have one and only one H1.`
 
-H1 refers to the first heading in a Markdown file. When published to docs.microsoft.com, the H1 shows at the top of the page in a large font. An H1 is created by beginning a line with a single hash (#) followed by a space, then the heading text. You can only have one H1 in each file. H1s aren't allowed in moniker sections, because H1s in monikers can easily cause duplicate or missing H1s depending on how versioning is configured.
+H1 refers to the first heading in a Markdown file. When published to learn.microsoft.com, the H1 shows at the top of the page in a large font. An H1 is created by beginning a line with a single hash (#) followed by a space, then the heading text. You can only have one H1 in each file. H1s aren't allowed in moniker sections, because H1s in monikers can easily cause duplicate or missing H1s depending on how versioning is configured.
 
 You might also get this message if a moniker section contains a line of equals signs making a double underline, like this: `=======`. This is an alternative Markdown syntax for an H1. It's also commonly seen in merge conflicts:
 

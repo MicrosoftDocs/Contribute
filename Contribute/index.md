@@ -1,6 +1,6 @@
 ---
 title: Microsoft Docs contributor guide overview
-description: The guide describes how you can contribute to the Microsoft documentation site docs.microsoft.com.
+description: The guide describes how you can contribute to the Microsoft documentation site learn.microsoft.com.
 author: billwagner
 ms.author: wiwagn
 ms.date: 02/19/2019
@@ -11,7 +11,7 @@ ms.custom: external-contributor-guide
 
 # Microsoft Docs contributor guide overview
 
-Welcome to the [docs.microsoft.com](https://docs.microsoft.com) (Docs) Contributor Guide!
+Welcome to the [learn.microsoft.com](https://learn.microsoft.com) (Docs) Contributor Guide!
 
 Several of the Microsoft documentation sets are open source and hosted on GitHub. Not all document sets are completely open source but many have public-facing repos where you can make suggested changes via pull requests. This open source approach streamlines and improves communication between product engineers, content teams, and customers, and has other advantages:
 
@@ -19,12 +19,12 @@ Several of the Microsoft documentation sets are open source and hosted on GitHub
 - Open source repos _review in the open_ to publish the most helpful content on our first release.
 - Open source repos _update in the open_ to make it easier to continuously improve the content.
 
-The user experience on [docs.microsoft.com](https://docs.microsoft.com) integrates [GitHub](https://github.com) workflows directly to make it even easier. Start by [editing the document you are viewing](#quick-edits-to-existing-documents). Or, help by [reviewing new topics](#review-open-prs), or [create quality issues](#create-quality-issues).
+The user experience on [learn.microsoft.com](https://learn.microsoft.com) integrates [GitHub](https://github.com) workflows directly to make it even easier. Start by [editing the document you are viewing](#quick-edits-to-existing-documents). Or, help by [reviewing new topics](#review-open-prs), or [create quality issues](#create-quality-issues).
 
 > [!IMPORTANT]
-> All repositories that publish to docs.microsoft.com have adopted the [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/) or the [.NET Foundation Code of Conduct](https://dotnetfoundation.org/code-of-conduct). For more information, see the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/). Or contact [opencode@microsoft.com](mailto:opencode@microsoft.com), or [conduct@dotnetfoundation.org](mailto:conduct@dotnetfoundation.org) with any questions or comments.<br>
+> All repositories that publish to learn.microsoft.com have adopted the [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/) or the [.NET Foundation Code of Conduct](https://dotnetfoundation.org/code-of-conduct). For more information, see the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/). Or contact [opencode@microsoft.com](mailto:opencode@microsoft.com), or [conduct@dotnetfoundation.org](mailto:conduct@dotnetfoundation.org) with any questions or comments.<br>
 >
-> Minor corrections or clarifications to documentation and code examples in public repositories are covered by the [docs.microsoft.com Terms of Use](https://docs.microsoft.com/legal/termsofuse). New or significant changes generate a comment in the pull request, asking you to submit an online Contribution License Agreement (CLA) if you are not an employee of Microsoft. We need you to complete the online form before we can review or accept your pull request.
+> Minor corrections or clarifications to documentation and code examples in public repositories are covered by the [learn.microsoft.com Terms of Use](https://learn.microsoft.com/legal/termsofuse). New or significant changes generate a comment in the pull request, asking you to submit an online Contribution License Agreement (CLA) if you are not an employee of Microsoft. We need you to complete the online form before we can review or accept your pull request.
 
 ## Quick edits to existing documents
 
@@ -34,10 +34,9 @@ Quick edits streamline the process to report and fix small errors and omissions 
 
    ![Location of the Edit link](./media/index/edit-article.png)
 
-2. Next, click the pencil icon, to edit the article as shown. If the pencil icon is grayed out, you need to either login to your GitHub account or create a new account. 
+2. Next, click the pencil icon, to edit the article as shown. If the pencil icon is grayed out, you need to either login to your GitHub account or create a new account.
 
    ![Location of the pencil icon](./media/index/edit-icon.png)
-
 
 3. Make your changes in the web editor. Click the **Preview changes** tab to check the formatting of your change.
 
@@ -55,12 +54,13 @@ Quick edits streamline the process to report and fix small errors and omissions 
 
 The GitHub editing UI responds to your permissions on the repository. The preceding images are accurate for contributors that do not have write permissions to the target repository. GitHub automatically creates a fork of the target repository in your account. If you have write-access to the target repository, GitHub creates a new branch in the target repo. The branch name has the form **\<GitHubId\>-patch-n** using your GitHub ID, and a numeric identifier for the patch branch.
 
-We use pull requests for all changes, even for contributors that have write-access. Most repositories have the `master` branch protected so that updates must be submitted as pull requests.
+We use pull requests for all changes, even for contributors that have write-access. Most repositories have the `main` branch protected so that updates must be submitted as pull requests.
 
 The in-browser editing experience is best for minor or infrequent changes. If you make large contributions or use advanced Git features (such as branch management or advanced merge conflict resolution), you need to [fork the repo and work locally](how-to-write-workflows-major.md).
 
 > [!NOTE]
 > If enabled, you can edit an article in **any language** and, based on the type of edit, the following will happen:
+>
 > 1. any linguistic change that is approved, will also help improve our Machine Translation engine
 > 2. any edit that significantly modifies the content of the article will be handled internally to submit a change to the same article in English so that it will get localized in all languages if approved.
 > So your suggested improvements will not only positively affect articles in your own language, but in all available languages.

@@ -1,6 +1,6 @@
 # Microsoft Docs contributor guide
 
-This GitHub repository is the source for the pages at [https://docs.microsoft.com/contribute](https://docs.microsoft.com/contribute). 
+This GitHub repository is the source for the pages at [https://learn.microsoft.com/contribute](https://learn.microsoft.com/contribute).
 
 ## Microsoft Open Source Code of Conduct
 

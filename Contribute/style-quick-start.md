@@ -1,6 +1,6 @@
 ---
 title: Docs Style guide - Quick start
-description: This article is a concise guide for style considerations, containing just the essential topics for getting started with docs.microsoft.com.
+description: This article is a concise guide for style considerations, containing just the essential topics for getting started with learn.microsoft.com.
 ms.topic: contributor-guide
 ms.prod: non-product-specific
 ms.custom: external-contributor-guide
@@ -8,7 +8,7 @@ ms.date: 07/25/2017
 ---
 # Docs style and voice quick start
 
-This quick start is a brief guide to writing technical content for publication on docs.microsoft.com. These guidelines apply whether you are creating new documentation or updating existing documentation.
+This quick start is a brief guide to writing technical content for publication on learn.microsoft.com. These guidelines apply whether you are creating new documentation or updating existing documentation.
 
 Best practices:
 
@@ -18,7 +18,7 @@ Best practices:
 
 ## Use the Microsoft voice principles
 
-We aspire to follow these principles when we write technical content for [docs.microsoft.com](https://docs.microsoft.com). We might not always get there, but we need to keep trying!
+We aspire to follow these principles when we write technical content for [learn.microsoft.com](https://learn.microsoft.com). We might not always get there, but we need to keep trying!
 
 - **Focus on the intent**: Customers have a specific purpose in mind when they consult our documentation. Before you begin writing, clearly determine who the customer is and what task he or she is trying to do. Then, write your article to help that specific customer do that specific task.
 - **Use everyday words**: Try to use natural language, the words your customers use. Be less formal but not less technical. Provide examples that explain new concepts.
@@ -42,11 +42,11 @@ Our technical articles are translated into several languages, and some are modif
 - For steps that include code snippets, put additional information about the step into the code as comments. This reduces the amount of text that people have to read through. The key information gets copied into the code project to remind people of what the code is doing when they refer to it later.
 - Use sentence case for all titles and headings.
 - Use "sign in" and not "log in."
-- For more guidelines, see the [Microsoft Writing Style Guide](https://docs.microsoft.com/style-guide/welcome).
+- For more guidelines, see the [Microsoft Writing Style Guide](https://learn.microsoft.com/style-guide/welcome).
 
 ## Localized documentation
 
 - If you are contributing to localized documentation, refer to the [Microsoft Language Portal](https://www.microsoft.com/Language/Default.aspx).
 - For localization guidelines, information on language style and usage in technical publications, and information on market-specific data formats, download the [style guide](https://www.microsoft.com/Language/StyleGuides) in your language.
 - For Microsoft localized terminology, search for [product-specific approved terminology](https://www.microsoft.com/Language/Default.aspx) or download the [Microsoft Terminology Collection](https://www.microsoft.com/language/Terminology) in your language.
-- To learn more about localization, see "Global communications" in the [Microsoft Writing Style Guide](https://docs.microsoft.com/style-guide/global-communications).
+- To learn more about localization, see "Global communications" in the [Microsoft Writing Style Guide](https://learn.microsoft.com/style-guide/global-communications).

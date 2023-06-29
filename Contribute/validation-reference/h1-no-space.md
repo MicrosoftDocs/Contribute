@@ -15,7 +15,7 @@ ms.prod: non-product-specific
 
 `A space is required after the hash (#) in H1.`
 
-H1 refers to the first heading in a Markdown file. When published to docs.microsoft.com, the H1 shows at the top of the page in a large font. An H1 is created by beginning a line with a single hash (#) followed by a space, then the heading text. Without the space after the hash, Docs will not recognize an H1.
+H1 refers to the first heading in a Markdown file. When published to learn.microsoft.com, the H1 shows at the top of the page in a large font. An H1 is created by beginning a line with a single hash (#) followed by a space, then the heading text. Without the space after the hash, Docs will not recognize an H1.
 
 ## Resolution
 

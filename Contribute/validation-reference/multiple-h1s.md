@@ -15,7 +15,7 @@ ms.prod: non-product-specific
 
 `Multiple H1s are not allowed. You can only have one top-level heading.`
 
-H1 refers to the first heading in a Markdown file. When published to docs.microsoft.com, the H1 shows at the top of the page in a large font. An H1 is created by beginning a line with a single hash (#) followed by a space, then the heading text. You can only have one H1 in each file.
+H1 refers to the first heading in a Markdown file. When published to learn.microsoft.com, the H1 shows at the top of the page in a large font. An H1 is created by beginning a line with a single hash (#) followed by a space, then the heading text. You can only have one H1 in each file.
 
 You might also get this message if your article contains a line of equals signs making a double underline, like this: `=======`. This is an alternative Markdown syntax for an H1. It's also commonly seen in merge conflicts:
 

@@ -6,7 +6,7 @@ title: Index page for validation reference
 ---
 # Docs validation reference
 
-The articles in this section provide information about Errors, Warnings, and Suggestions you might see when submitting a PR to a docs.microsoft.com repo, or when building a repo to publish to docs.microsoft.com.
+The articles in this section provide information about Errors, Warnings, and Suggestions you might see when submitting a PR to a learn.microsoft.com repo, or when building a repo to publish to learn.microsoft.com.
 
 Note that not all issues will be enabled on all repos; some are specific to certain content sets. Fix the issues listed in your build report, not every issue described in this reference.
 

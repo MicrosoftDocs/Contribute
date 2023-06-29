@@ -46,7 +46,7 @@ Handle these changes in a separate PR that gets merged after the PR for related 
 example, update the redirects file and verify the redirect is working before deleting an article.
 
 You must update all files that link to the renamed file. This includes any TOC files. You must also
-add redirection entries in the master redirection file (`.openpublishing.redirection.json`) in the
+add redirection entries in the main redirection file (`.openpublishing.redirection.json`) in the
 root of the repository.
 
 ## Docs PR validation service

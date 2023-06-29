@@ -1,6 +1,6 @@
 ## Pull request processing
 
-The previous section walked you through the process of submitting proposed changes, by bundling them in a new pull request (PR) that is added to the destination repository's PR queue. A pull request enables GitHub's collaboration model, by asking for the changes from your working branch to be pulled and merged into another branch. In most cases, that other branch is the default/master branch in the main repository.
+The previous section walked you through the process of submitting proposed changes, by bundling them in a new pull request (PR) that is added to the destination repository's PR queue. A pull request enables GitHub's collaboration model, by asking for the changes from your working branch to be pulled and merged into another branch. In most cases, that other branch is the default/main branch in the main repository.
 
 ### Validation
 
@@ -25,11 +25,11 @@ When the pull request is issue-free and signed off, your changes are merged back
 
 Remember, your pull request has to be merged by a PR reviewer before the changes can be included in the next scheduled publishing run. Pull requests are normally reviewed/merged in the order of submission. If your pull request requires merging for a specific publishing run, you will need to work with your PR reviewer ahead of time to ensure that merging happens prior to publishing.
 
-After your contributions are approved and merged, the docs.microsoft.com publishing process picks them up. Depending on the team that manages the repository you are contributing to, publishing times can vary. Articles published under the following paths are normally deployed at approximately 10:30 AM and 3:30 PM Pacific Time, Monday-Friday:
+After your contributions are approved and merged, the learn.microsoft.com publishing process picks them up. Depending on the team that manages the repository you are contributing to, publishing times can vary. Articles published under the following paths are normally deployed at approximately 10:30 AM and 3:30 PM Pacific Time, Monday-Friday:
 
-- https://docs.microsoft.com/azure/
-- https://docs.microsoft.com/aspnet/
-- https://docs.microsoft.com/dotnet/
-- https://docs.microsoft.com/enterprise-mobility-security
+- <https://learn.microsoft.com/azure/>
+- <https://learn.microsoft.com/aspnet/>
+- <https://learn.microsoft.com/dotnet/>
+- <https://learn.microsoft.com/enterprise-mobility-security>
 
-It can take up to 45 minutes for articles to appear online after publishing. After your article is published, you can verify your changes at the appropriate URL: `https://docs.microsoft.com/<path-to-your-article-without-the-md-extension>`.
+It can take up to 45 minutes for articles to appear online after publishing. After your article is published, you can verify your changes at the appropriate URL: `https://learn.microsoft.com/<path-to-your-article-without-the-md-extension>`.
