@@ -60,16 +60,18 @@
       items:
         - name: How to contribute
           href: dotnet/dotnet-contribute.md
-        - name: Code analysis docs
-          href: dotnet/dotnet-contribute-code-analysis.md
         - name: Labels, projects, and milestones roadmap
           href: dotnet/labels-projects.md
         - name: Style conventions
           href: dotnet/dotnet-style-guide.md
         - name: Voice and tone guide
           href: dotnet/dotnet-voice-tone.md
+        - name: API reference guidelines
+          href: dotnet/api-documentation.md
         - name: Pull request review process
           href: dotnet/dotnet-pr-review.md
+        - name: Code analysis docs
+          href: dotnet/dotnet-contribute-code-analysis.md
         - name: .NET naming in docs
           href: dotnet/net-core-5-naming.md
     - name: Azure Architecture Center
