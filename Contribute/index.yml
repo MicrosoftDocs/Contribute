@@ -1,7 +1,7 @@
 ### YamlMime:Hub
 
 title: Contribute to Microsoft Learn # < 60 chars
-summary: Find resources and support for contributing your expertise to Microsoft Learn. # < 160 chars
+summary: Become a Microsoft Learn contributor! Create content to inspire and empower others to build with the Microsoft platform. Everyone is welcome to share their expertise! # < 160 chars
 
 metadata:
   title: Create, contribute, and share # Required; page title displayed in search results. Include the brand. < 60 chars.
@@ -30,41 +30,41 @@ highlightedContent:
       itemType: overview
       url: https://learn.microsoft.com/answers/support/answer-question
     # Card
-    - title: Give feedback
-      itemType: video
-      url: https://learn.microsoft.com/contribute
+    - title: Create a collection
+      itemType: how-to-guide
+      url: https://techcommunity.microsoft.com/t5/microsoft-learn-blog/microsoft-learn-collections-now-support-docs-and-q-amp-a-content/ba-p/2549380
 
 
 # productDirectory section (Optional; Remove if not applicable.)
 productDirectory:
   title: Contributor showcase # < 60 chars (Optional; Remove if not applicable.)
-  summary: Join your peers and be recognized for your contribution! # < 160 chars (Optional; Remove if not applicable.)
+  summary: Meet inspirational experts from the community. # < 160 chars (Optional; Remove if not applicable.)
   items:
     # Card
     - title: Callum Coffin
       # imageSrc should be square in ratio with no white space
-      imageSrc: /media/document.png
+      imageSrc: media/callum-coffin.png
       links:
         - url: https://techcommunity.microsoft.com/t5/azure-developer-community-blog/contributor-stories-callum-coffin/ba-p/3748149?%3Fwt.mc_id=contributorstories_techcommunity_blog_cxa
-          text: Read about Callum's work as a leader in Microsoft's Innovation Acceleration Team.
+          text: Read about Callum's work as a leader in Microsoft's Innovation Acceleration team
     # Card
-    - title: Mike Martin
-      imageSrc: /media/document.png
+    - title: Ed Burns
+      imageSrc: media/ed-burns.png
       links:
-        - url: https://techcommunity.microsoft.com/t5/azure-developer-community-blog/contributor-stories-mike-martin/ba-p/3760508?wt.mc_id=contributorstories_techcommunity_blog_cxa
-          text: Meet Mike - a Senior Cloud Solution Architect at Microsoft.
+        - url: https://techcommunity.microsoft.com/t5/azure-developer-community-blog/contributor-stories-ed-burns/ba-p/3797314?wt.mc_id=contributorstories_techcommunity_blog_cxa
+          text: Meet Ed, a Principal Architect on Microsoft's Java Tooling and Experiences team
     # Card
-    - title: Another person
-      imageSrc: /media/document.png
+    - title: Brandon Cowen
+      imageSrc: media/brandon-cowen.png
       links:
-        - url: https://learn.microsoft.com/contribute
-          text: Read about them!
+        - url: https://techcommunity.microsoft.com/t5/azure-developer-community-blog/contributor-stories-brandon-cowen/ba-p/3809405?wt.mc_id=contributorstories_techcommunity_blog_cxa
+          text: Learn about Brandon, Senior Cloud Solution Architect at Microsoft
     # Card
-    - title: Another person
-      imageSrc: /media/document.png
+    - title: Hisham Bin Ateya
+      imageSrc: media/hisham-bin-ateya.png
       links:
-        - url: https://learn.microsoft.com/contribute
-          text: Read about them!
+        - url: https://techcommunity.microsoft.com/t5/azure-developer-community-blog/contributor-stories-hisham-bin-ateya/ba-p/3855669?wt.mc_id=contributorstories_techcommunity_blog_cxa
+          text: Meet Hisham, a top contributor for localized ASP.NET Core content
 
 # conceptualContent section (Optional; Remove if not applicable.)
 conceptualContent:
@@ -84,14 +84,23 @@ conceptualContent:
               itemType: learn
               text: More links
         # Card
-        - title: Contribute content
+        - title: Contribute & review content
           links:
-            - url: https://learn.microsoft.com/contribute
+            - url: https://learn.microsoft.com/contribute/content
               itemType: learn
               text: Get started
-            - url: https://learn.microsoft.com/contribute
+            - url: https://learn.microsoft.com/contribute/content/#quick-edits-to-documentation
               itemType: learn
-              text: More links
+              text: Edit documentation in your browser
+            - url: https://learn.microsoft.com/contribute/content/get-started-setup-tools
+              itemType: learn
+              text: Set up and work locally     
+            - url: https://learn.microsoft.com/contribute/content/#review-open-prs
+              itemType: learn
+              text: Review open pull requests
+            - url: https://learn.microsoft.com/contribute/content/#create-quality issues
+              itemType: learn
+              text: Create quality issues
         - title: Showcase your content
           links:
             - url: https://learn.microsoft.com/contribute
@@ -110,6 +119,12 @@ additionalContent:
       summary: Find peers, colleagues, and subject-matter experts. Connect with contributors and content stewards across Microsoft Learn. # < 160 chars (Optional; Remove if not applicable.)
       items:
         # Card
-        - title: Example
-          summary: Example
-          url: https://learn.microsoft.com/contribute
+        - title: Join the conversation
+          summary: Connect with other experts in our Tech Community.
+          url: https://techcommunity.microsoft.com/t5/microsoft-learn/ct-p/MicrosoftLearn
+        - title: Find us on Twitter
+          summary: Keep up with Microsoft Learn.
+          url: https://twitter.com/MicrosoftLearn
+        - title: Read more
+          summary: Sign up for our monthly newsletter.
+          url: https://www.linkedin.com/newsletters/the-spark-7072675133219373056/
