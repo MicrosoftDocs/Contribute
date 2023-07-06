@@ -96,16 +96,20 @@ sections:
     #layout: horizontal
     title: Frequently asked questions
     questions:
-      - question: What type of accounts do I need to become a contributor?
-        answer: We recommend having a Microsoft Learn account and a GitHub account. A Microsoft Learn account allows you to contribute to Q&A and collections, while a GitHub account allows you to edit our open-source documentation or file an issue about documentation.
-      - question: What's in it for me?
-        answer: Contributing to Microsoft Learn benefits not only our learners but also YOU! When you edit documentation, your name appears in the list of contributors at the top of the article. Your commits to our GitHub repos will show up in your GitHub commit history, which is a great way to demonstrate your passion for a particular technology while also building your portfolio. For some products, you can earn digital swag too, like badges.
-      - question: How do I get started?
-        answer: Check out [our documentation](https://learn.microsoft.com/contribute), which provides all the configuration steps necessary to get started. Once you've set up your account, head over to your favorite documentation set and start contributing!
       - question: How do I become a Microsoft Learn contributor?
         answer: There's more than one way to become a contributor! While editing documentation is the most popular method, you can also answer questions in Microsoft Q&A, create a collection of content for others to consume, or file a GitHub issue if you spot problems in our content but don't have the tools to fix them yourself.
+      - question: What accounts do contributors need?
+        answer: We recommend having a Microsoft Learn account and a GitHub account. A Microsoft Learn account allows you to contribute to Q&A and collections, while a GitHub account allows you to edit our open-source documentation or file an issue about documentation.
+      - question: How do I start contributing to Microsoft Learn documentation?
+        answer: First, create a free GitHub account. Then, check out [our documentation](https://learn.microsoft.com/contribute), which provides all the configuration steps necessary to get started. Once you've set up your account, head over to your favorite documentation set and start contributing!
+      - question: Who contributes to Microsoft Learn?
+        answer: Anyone can contribute to Microsoft Learn. From first-time contributors to Microsoft MVPs, we see a range of experience and skill levels among folks contributing to the platform.
+      - question: Do I need to be a Microsoft MVP to contribute to Microsoft Learn?
+        answer: No! You don't need any special credentials or experience to contribute.
+      - question: What's in it for me?
+        answer: Contributing to Microsoft Learn benefits not only our learners but also YOU! When you edit documentation, your name appears in the list of contributors at the top of the article. Your commits to our GitHub repos will show up in your GitHub commit history, which is a great way to demonstrate your passion for a particular technology while also building your portfolio. For some products, you can earn digital swag too, like badges.
       - question: How do I showcase my content?
-        answer: To be answered
+        answer: Our Contributor Showcase program interviews contributors to learn about why they contribute and share their experiences with others. Learn how you can be spotlighted in our program! (link)
  
    # social section
   - componentType: social
