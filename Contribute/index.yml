@@ -13,7 +13,7 @@ sections:
     summary: Become a Microsoft Learn contributor! Create content to inspire and empower others to build brilliant solutions with the Microsoft platform. Everyone is welcome to share their expertise!
     heroImage:
       componentType: hero-image
-      lightImageSrc: /Contribute/media/contributor-home-hero.png
+      lightImageSrc: /Contribute/media/contributor-home-hero.png?branch=pr-en-us-775
       darkImageSrc: /Contribute/media/contributor-home-hero.png
     links:
       - componentType: link
