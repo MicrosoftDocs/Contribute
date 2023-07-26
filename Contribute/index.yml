@@ -13,8 +13,8 @@ sections:
     summary: Become a Microsoft Learn contributor! Create content to inspire and empower others to build brilliant solutions with the Microsoft platform. Everyone is welcome to share their expertise!
     heroImage:
       componentType: hero-image
-      lightImageSrc: /Contribute/media/contributor-home-hero-3.png
-      darkImageSrc: /Contribute/media/contributor-home-hero-2.png
+      lightImageSrc: /Contribute/media/contributor-home-hero-light.png
+      darkImageSrc: /Contribute/media/contributor-home-hero-dark.png
     links:
       - componentType: link
         url: https://learn.microsoft.com/contribute #where do we want this link to go?
@@ -60,33 +60,33 @@ sections:
   - componentType: testimonials-section
     title: Meet <span class="text-gradient-purple-blue">inspirational experts</span> from the community
     cards:
-      - avatarUrl: media/callum-coffin.png
+      - avatarUrl: media/samson-amaugo.png
         componentType: testimonial-card
-        name: Callum Coffin
-        role: Technical leader for Microsoft's Innovation Acceleration Team
-        feedback: I contribute to solve the challenges customers are facing while trying to design, build, and operate highly reliable applications on Azure.
+        name: Samson Amaugo
+        role: Full-stack web developer and Microsoft MVP
+        feedback: Contributing has been immensely rewarding, as it has allowed me to deepen my understanding of C# and ASP.NET while actively contributing to their ongoing development.  
         link:
           componentType: link
-          url: https://techcommunity.microsoft.com/t5/azure-developer-community-blog/contributor-stories-callum-coffin/ba-p/3748149?%3Fwt.mc_id=contributorstories_techcommunity_blog_cxa
-          text: Read Callum's story
-      - avatarUrl: media/ed-burns.png
+          url: https://techcommunity.microsoft.com/t5/azure-developer-community-blog/contributor-stories-samson-amaugo/ba-p/3881104?wt.mc_id=contributorstories_techcommunity_blog_cxa
+          text: Read Samson's story
+      - avatarUrl: media/hisham-bin-ateya.png
         componentType: testimonial-card
-        name: Ed Burns
-        role: Principal Architect on Microsoft's Java Tooling and Experiences team
-        feedback: Microsoft Docs has invested heavily in making it easy for everyone to contribute, and I'm proud to be part of that community.
+        name: Hisham Bin Ateya
+        role: Software developer and core member of Orchard team
+        feedback: Open-source contributions aren't limited to code. Documentation plays a crucial role as well, allowing us to share our knowledge and help others learn the technology. 
         link:
           componentType: link
-          url: https://techcommunity.microsoft.com/t5/azure-developer-community-blog/contributor-stories-ed-burns/ba-p/3797314?wt.mc_id=contributorstories_techcommunity_blog_cxa
-          text: Read Ed's story
-      - avatarUrl: media/brandon-cowen.png
+          url: https://techcommunity.microsoft.com/t5/azure-developer-community-blog/contributor-stories-hisham-bin-ateya/ba-p/3855669?wt.mc_id=contributorstories_techcommunity_blog_cxa
+          text: Read Hisham's story
+      - avatarUrl: media/ben-gribaudo.png
         componentType: testimonial-card
-        name: Brandon Cowen
-        role: Senior Cloud Solution Architect at Microsoft
-        feedback: I have authored and contributed several articles and architectures, which has allowed me to showcase my skills and expertise, while also broadening my network.
+        name: Ben Gribaudo
+        role: Independent consultant and trainer
+        feedback: I find it valuable to propose edits to pages related to functions or language features that I believe I understand but want to have confirmed by the appropriate Microsoft resource.
         link:
           componentType: link
-          url: https://techcommunity.microsoft.com/t5/azure-developer-community-blog/contributor-stories-brandon-cowen/ba-p/3809405?wt.mc_id=contributorstories_techcommunity_blog_cxa
-          text: Read Brandon's story
+          url: https://techcommunity.microsoft.com/t5/azure-developer-community-blog/contributor-stories-ben-gribaudo/ba-p/3825549?wt.mc_id=contributorstories_techcommunity_blog_cxa
+          text: Read Ben's story
     backgroundImage:
         lightImageSrc: /media/home-and-directory/section-testimonials_light.jpg?branch=main
         darkImageSrc: /media/home-and-directory/section-testimonials_dark.jpg?branch=main
