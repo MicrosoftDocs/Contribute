@@ -38,21 +38,21 @@ Quick edits streamline the process to report and fix small errors and omissions 
 
    If the **Edit** button isn't present, it means the content isn't open to public contributions.  Some pages are generated (for example, from inline documentation in code) and must be edited in the project they belong to.
 
-2. Select the pencil icon to edit the article. If the pencil icon is grayed out, you need to either log in to your GitHub account or create a new account.
+2. In the preview of the source file on GitHub select the pencil icon to edit the article. If the pencil icon is grayed out, you need to either log in to your GitHub account or create a new account.  
 
    :::image type="content" source="media/index/edit-icon.png" alt-text="Location of the fork and edit pencil icon.":::
 
-3. Edit the file in the web editor. Choose the **Preview** tab to check the formatting of your changes.
+3. GitHub creates a fork if necessary and opens the source page in a branch for your changes.  Edit the file in the web editor. Choose the **Preview** tab to check the formatting of your changes.
 
-4. When you're finished editing, scroll to the bottom of the page. In the **Propose changes** area, enter a title and optionally a description for your changes. The title will be the first line of the commit message. Select **Propose changes** to create a new branch in your fork and commit your changes:
+4. When you're finished editing, click the **Commit changes...** button above the Edit/Preview frame. In the **Propose changes** dialog, enter a brief **Commit message**  and optional extended description for your changes. Select **Propose changes** to create a new branch in your fork and commit your changes:
 
    :::image type="content" source="media/index/commit-changes.png" alt-text="Propose and commit file changes.":::
    
-5. Now that you've proposed and committed your changes, you need to ask the owners of the repository to "pull" your changes into their repository. This is done using something called a "pull request" (PR). When you select **Propose changes**, a new page similar to the following is displayed:
+5. The changes are committed to your fork of the repository.  When you selected **Propose changes**, an **Open a pull request** page similar to the following is displayed:
 
    :::image type="content" source="media/index/create-pull-request.png" alt-text="Compare changes and create pull request.":::
 
-   Select **Create pull request**. Next, enter a title and a description for the PR, and then select **Create pull request**. If you're new to GitHub, see [About pull requests](https://docs.github.com/articles/using-pull-requests) for more information.
+Provide an explanatory comment and select **Create pull request**. If you're new to GitHub, see [About pull requests](https://docs.github.com/articles/using-pull-requests) for more information.
 
 6. That's it! Content team members will review your PR and merge it when it's approved. You may get feedback requesting changes.
 
