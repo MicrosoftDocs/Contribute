@@ -11,7 +11,7 @@ ms.custom: external-contributor-guide
 
 # Microsoft Learn documentation contributor guide overview
 
-Welcome to the Microsoft Learn documentation contributor guide!
+Make your changes to the article. Welcome to the Microsoft Learn documentation contributor guide! 
 
 Sharing your expertise with others on Microsoft Learn helps everyone achieve more. Use the information in this guide to publish a new article to Microsoft Learn or make updates to an existing published article.
 
