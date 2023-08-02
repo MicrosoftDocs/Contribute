@@ -1,4 +1,4 @@
----
+```
 title: Microsoft Learn documentation contributor guide overview
 description: The guide describes how you can contribute to technical documentation on Microsoft Learn.
 author: carlyrevier
@@ -7,31 +7,77 @@ ms.date: 05/11/2022
 ms.topic: contributor-guide
 ms.prod: non-product-specific
 ms.custom: external-contributor-guide
----
-
-# Microsoft Learn documentation contributor guide overview
-
+```
+```
+Microsoft Learn documentation contributor guide overview
 Welcome to the Microsoft Learn documentation contributor guide!
-
-Sharing your expertise with others on Microsoft Learn helps everyone achieve more. Use the information in this guide to publish a new article to Microsoft Learn or make updates to an existing published article.
-
+Sharing your expertise with others on Microsoft Learn helps everyone achieve more. Use the information in this guide to publish a new article to Microsoft Learn or make updates to an existing published article
 Several of the Microsoft documentation sets are open source and hosted on GitHub. Not all document sets are completely open source, but many have public-facing repos where you can suggest changes via pull requests (PR). This open-source approach streamlines and improves communication between product engineers, content teams, and customers, and it has other advantages:
-
 - Open-source repos _plan in the open_ to get feedback on what docs are most needed.
 - Open-source repos _review in the open_ to publish the most helpful content on our first release.
 - Open-source repos _update in the open_ to make it easier to continuously improve the content.
+```
 
-The user experience on Microsoft Learn integrates [GitHub](https://github.com) workflows directly to make it even easier. Start by [editing the document you're viewing](#quick-edits-to-documentation). Or help by [reviewing new topics](#review-open-prs) or [creating quality issues](#create-quality-issues).
+The user experience 
+on Microsoft Learn
+integrates
+[GitHub]
+(https://github.com) 
+workflows directly to
+make it even easier
+Start by 
+[editing the document you're viewing]
+(#quick-edits-to-documentation). Or help by [reviewing new topics
+(#review-open-prs) 
+or 
+[creating quality issues]
+(#create-quality-issues).
+[!IMPORTANT]
+All repositories that
+publish to Microsoft 
+Learn have adopted
+the [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/) 
+or the 
+[.NET Foundation Code of Conduct](https://dotnetfoundation.org/code-of-conduct)
+For more information
+see the
+[Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/)
+Contact
+[opencode@microsoft.com](mailto:opencode@microsoft.com) or 
+[conduct@dotnetfoundation.org](mailto:conduct@dotnetfoundation.org)
+with any questions or 
+comments<br>
+<p> Minor corrections or clarifications to
+documentation and code 
+   examples in public repositories are
+   covered by the [learn.microsoft.com Terms of Use](/legal/termsofuse)
+   New or significant changes generate a comment 
+   in the PR
+   asking you to submit 
+   an online Contribution
+   License Agreement 
+   (CLA) if you're 
+   not a Microsoft employee
+   We need you to complete
+   the online form before we
+   can review or accept your PR
+Quick edits to 
+documentation
+Quick edits streamline 
+the process to report and 
+fix small errors and omissions 
+   in documentation 
+   Despite all efforts
+   small grammar and spelling errors 
+   do make their way 
+   into our published documents
+   While you can create issues to report mistakes
+   it is faster and 
+   easier to create a PR
+   to fix the issue
+   when the option is available
 
-> [!IMPORTANT]
-> All repositories that publish to Microsoft Learn have adopted the [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/) or the [.NET Foundation Code of Conduct](https://dotnetfoundation.org/code-of-conduct). For more information, see the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/). Contact [opencode@microsoft.com](mailto:opencode@microsoft.com) or [conduct@dotnetfoundation.org](mailto:conduct@dotnetfoundation.org) with any questions or comments.<br>
->
-> Minor corrections or clarifications to documentation and code examples in public repositories are covered by the [learn.microsoft.com Terms of Use](/legal/termsofuse). New or significant changes generate a comment in the PR, asking you to submit an online Contribution License Agreement (CLA) if you're not a Microsoft employee. We need you to complete the online form before we can review or accept your PR.
-
-## Quick edits to documentation
-
-Quick edits streamline the process to report and fix small errors and omissions in documentation. Despite all efforts, small grammar and spelling errors _do_ make their way into our published documents. While you can create issues to report mistakes, it's faster and easier to create a PR to fix the issue, when the option is available.
-
+   ```
 1. _Some_ docs pages allow you to edit content directly in the browser. If so, you'll see an **Edit** button like the one shown below. Choosing the **Edit** (or equivalently localized) button takes you to the source file on GitHub.
 
    :::image type="content" source="media/index/edit-article.png" alt-text="Location of the edit article link.":::
@@ -79,3 +125,4 @@ Issues start the conversation about what's needed. The content team will respond
 ## Get more involved
 
 Other topics in this guide help you get started productively contributing to Microsoft Learn. They explain working with GitHub repositories, Markdown tools, and extensions used in the Microsoft Learn content.
+```
