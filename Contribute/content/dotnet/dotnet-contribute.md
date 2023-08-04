@@ -12,15 +12,13 @@ Thank you for your interest in contributing to the .NET documentation!
 
 This document covers the process for contributing to the articles and code samples that are hosted on the [.NET documentation site](/dotnet). Contributions may be as simple as typo corrections or as complex as new articles.
 
-The .NET documentation site is built from multiple repositories:
+The .NET documentation site is built from multiple repositories. These are just some of them:
 
 - [.NET conceptual articles and code snippets](https://github.com/dotnet/docs)
 - [Code samples and snippets](https://github.com/dotnet/samples)
-- [.NET Standard, .NET Core, .NET Framework API reference](https://github.com/dotnet/dotnet-api-docs)
+- [.NET API reference](https://github.com/dotnet/dotnet-api-docs)
 - [.NET Compiler Platform SDK reference](https://github.com/dotnet/roslyn-api-docs)
 - [ML.NET API reference](https://github.com/dotnet/ml-api-docs)
-
-Issues for all these repositories are tracked in the [`dotnet/docs`](https://github.com/dotnet/docs/issues) repository.
 
 ## Guidelines for contributions
 
@@ -53,7 +51,7 @@ When you find an issue to work on, add a comment to ask if it's open.
 
 Once you've picked a task to work on, follow the [get started](../get-started-setup-github.md) guide to create a GitHub account and set up your environment.
 
-**Step 2:** Fork the `/dotnet/docs`, `dotnet/samples`, `dotnet/dotnet-api-docs`, `dotnet/roslyn-api-docs`, or `dotnet/ml-api-docs` repos as needed and create a branch for your changes.
+**Step 2:** Fork the `/dotnet/docs` repo (or whichever repo you're contributing to) as needed and create a branch for your changes.
 
 For small changes, see [Quick edits to documentation](../index.md#quick-edits-to-documentation).
 
@@ -71,7 +69,7 @@ For **code snippets**, create a subfolder called **snippets** inside the folder 
 
 Code snippets are small, focused examples of code that demonstrate the concepts covered in an article. Larger programs intended for download and exploration should be located in the [dotnet/samples](https://github.com/dotnet/samples) repository. Full samples are covered in the section on [Contributing to samples](#contribute-to-samples).
 
-**Step 4:** Submit a Pull Request (PR) from your branch to the default branch.
+**Step 4:** Submit a pull request (PR) from your branch to the default branch.
 
 > [!IMPORTANT]
 > The comment automation functionality is not available on any of the .NET docs repositories at this time. Members of the .NET docs team will review and merge your PR.
@@ -185,7 +183,7 @@ To create a sample:
     }
     ```
 
-You build any .NET Core snippet or sample using the .NET Core CLI, which can be installed with [the .NET Core SDK](https://www.microsoft.com/net/download). To build and run your sample:
+You build any .NET snippet or sample using the .NET CLI, which can be installed with [the .NET SDK](https://www.microsoft.com/net/download). To build and run your sample:
 
 1. Go to the sample folder and build to check for errors:
 
@@ -225,7 +223,7 @@ You build any .NET Core snippet or sample using the .NET Core CLI, which can be 
    - The `languages` collection should include only those languages available for your sample.
    - The `products` collection should include only those products relevant to your sample.
 
-Except where noted, all samples build from the command line on any platform supported by .NET Core. There are a few samples that are specific to Visual Studio and require Visual Studio 2017 or later. In addition, some samples show platform specific features and will require a specific platform. Other samples and snippets require the .NET Framework and will run on Windows platforms, and will need the Developer Pack for the target Framework version.
+Except where noted, all samples build from the command line on any platform supported by .NET. There are a few samples that are specific to Visual Studio and require Visual Studio 2017 or later. In addition, some samples show platform specific features and will require a specific platform. Other samples and snippets require the .NET Framework and will run on Windows platforms, and will need the Developer Pack for the target Framework version.
 
 ## The C# interactive experience
 
@@ -248,7 +246,7 @@ The C# interactive experience changes how we work with snippets. Visitors can ru
 > [!NOTE]
 > You might notice that some of the topics are not currently following all the guidelines specified here. We're working towards achieving consistency throughout the site. Check the list of [open issues](https://github.com/dotnet/docs/issues?q=is%3Aopen+is%3Aissue+label%3A%22%3Abookmark_tabs%3A+Information+Architecture%22) we're currently tracking for that specific goal.
 
-### Contributing to International content
+### Contributing to non-English content
 
 Contributions for Machine Translated (MT) content are currently not accepted. In an effort to improve the quality of MT content, we've transitioned to a Neural MT engine. We accept and encourage contributions for Human Translated (HT) content, which is used to train the Neural MT engine. So over time, contributions to HT content will improve the quality of both HT and MT. MT topics will have a disclaimer stating that part of the topic may be MT, and the **Edit** button won't be displayed, as editing is disabled.
 
