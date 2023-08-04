@@ -665,6 +665,7 @@ The [Learn Authoring Pack](how-to-write-docs-auth-pack.md) includes a feature to
 | Go                             | `go`, `golang`                                                                 |
 | Golo                           | `golo`, `gololang`                                                             |
 | Gradle                         | `gradle`                                                                       |
+| GraphQL                        | `graphql`                                                                       |
 | Groovy                         | `groovy`                                                                       |
 | HTML                           | `html`, `xhtml`                                                                |
 | HTTP                           | `http`, `https`                                                                |
