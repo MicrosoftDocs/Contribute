@@ -37,7 +37,6 @@
     "globalMetadata": {
       "breadcrumb_path": "~/breadcrumb/toc.yml",
       "contributors_to_exclude": ["Jim-Parker"],
-      "extendBreadcrumb": true,
       "titleSuffix": "Contributor guide",
       "searchScope": ["Contribute"],
       "hideScope": false,

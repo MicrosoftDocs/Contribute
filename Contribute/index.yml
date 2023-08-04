@@ -1,0 +1,126 @@
+### YamlMime:Marketing
+title: 'Contribute to Microsoft Learn'
+metadata:
+  title: 'Contribute to Microsoft Learn'
+  description: 'Contribute to Microsoft Learn to share your knowledge with the world!'
+sections:
+
+#hero        
+  - componentType: hero-learn
+    supertitle: MICROSOFT LEARN
+    title: Create, contribute, share
+    size: large
+    summary: Become a Microsoft Learn contributor! Create content to inspire and empower others to build brilliant solutions with the Microsoft platform. Everyone is welcome to share their expertise!
+    heroImage:
+      componentType: hero-image
+      lightImageSrc: /Contribute/media/contributor-home-hero-light.png
+      darkImageSrc: /Contribute/media/contributor-home-hero-dark.png
+    links:
+      - componentType: link
+        url: https://learn.microsoft.com/training/contributor/contribute-docs-browser/?branch=main
+        text: Join experts and contribute
+
+#Text section
+  - componentType: text
+    title: Choose your contribution journey
+
+ #Small Cards with Image
+  - componentType: grid
+    blocks:
+      - componentType: icon-card
+        title: Edit documentation
+        summary: Contribute to Microsoft's world-class documentation.
+        url: content/index.md
+        icon:
+          componentType: image
+          src: media/get-started.png
+      - componentType: icon-card
+        title: Respond to Q&A
+        summary: Answer questions to help others learn about Microsoft technologies.
+        url: https://learn.microsoft.com/en-us/answers/questions/
+        icon:
+          componentType: image
+          src: media/microsoft-qa-icon.png
+      - componentType: icon-card
+        title: Create a collection
+        summary: Share curated experiences with your followers.
+        url: https://techcommunity.microsoft.com/t5/microsoft-learn-blog/microsoft-learn-collections-now-support-docs-and-q-amp-a-content/ba-p/2549380
+        icon:
+          componentType: image
+          src: media/community-perspectives-icon.png
+      - componentType: icon-card
+        title: Join the conversation
+        summary: Connect with other experts in our Tech Community.
+        url: https://techcommunity.microsoft.com/t5/microsoft-learn/ct-p/MicrosoftLearn
+        icon:
+          componentType: image
+          src: media/tech-community-icon.png
+
+ # Testimonials section
+  - componentType: testimonials-section
+    title: Meet <span class="text-gradient-purple-blue">inspirational experts</span> from the community
+    cards:
+      - avatarUrl: media/samson-amaugo.png
+        componentType: testimonial-card
+        name: Samson Amaugo
+        role: Full-stack web developer and Microsoft MVP
+        feedback: Contributing has been immensely rewarding, as it has allowed me to deepen my understanding of C# and ASP.NET while actively contributing to their ongoing development.  
+        link:
+          componentType: link
+          url: https://techcommunity.microsoft.com/t5/azure-developer-community-blog/contributor-stories-samson-amaugo/ba-p/3881104?wt.mc_id=contributorstories_techcommunity_blog_cxa
+          text: Read Samson's story
+      - avatarUrl: media/hisham-bin-ateya.png
+        componentType: testimonial-card
+        name: Hisham Bin Ateya
+        role: Software developer and core member of Orchard team
+        feedback: Open-source contributions aren't limited to code. Documentation plays a crucial role as well, allowing us to share our knowledge and help others learn the technology. 
+        link:
+          componentType: link
+          url: https://techcommunity.microsoft.com/t5/azure-developer-community-blog/contributor-stories-hisham-bin-ateya/ba-p/3855669?wt.mc_id=contributorstories_techcommunity_blog_cxa
+          text: Read Hisham's story
+      - avatarUrl: media/ben-gribaudo.png
+        componentType: testimonial-card
+        name: Ben Gribaudo
+        role: Independent consultant and trainer
+        feedback: I find it valuable to propose edits to pages related to functions or language features that I believe I understand but want to have confirmed by the appropriate Microsoft resource.
+        link:
+          componentType: link
+          url: https://techcommunity.microsoft.com/t5/azure-developer-community-blog/contributor-stories-ben-gribaudo/ba-p/3825549?wt.mc_id=contributorstories_techcommunity_blog_cxa
+          text: Read Ben's story
+    backgroundImage:
+        lightImageSrc: /media/home-and-directory/section-testimonials_light.jpg?branch=main
+        darkImageSrc: /media/home-and-directory/section-testimonials_dark.jpg?branch=main
+
+# FAQ section
+  - componentType: frequently-asked-questions
+    #layout: horizontal
+    title: Frequently asked questions
+    questions:
+      - question: How do I become a Microsoft Learn contributor?
+        answer: There's more than one way to become a contributor! While editing documentation is the most popular method, you can also answer questions in Microsoft Q&A, create a collection of content for others to consume, or file a GitHub issue if you spot problems in our content but don't have the tools to fix them yourself.
+      - question: What accounts do contributors need?
+        answer: We recommend having a Microsoft Learn account and a GitHub account. A Microsoft Learn account allows you to contribute to Q&A and collections, while a GitHub account allows you to edit our open-source documentation or file an issue about documentation.
+      - question: How do I start contributing to Microsoft Learn documentation?
+        answer: First, create a free GitHub account. Then, check out [our documentation](https://learn.microsoft.com/contribute), which provides all the configuration steps necessary to get started. Once you've set up your account, head over to your favorite documentation set and start contributing!
+      - question: Who contributes to Microsoft Learn?
+        answer: Anyone can contribute to Microsoft Learn. From first-time contributors to Microsoft MVPs, we see a range of experience and skill levels among folks contributing to the platform.
+      - question: Do I need to be a Microsoft MVP to contribute to Microsoft Learn?
+        answer: No! You don't need any special credentials or experience to contribute.
+      - question: What's in it for me?
+        answer: Contributing to Microsoft Learn benefits not only our learners but also YOU! When you edit documentation, your name appears in the list of contributors at the top of the article. Your commits to our GitHub repos will show up in your GitHub commit history, which is a great way to demonstrate your passion for a particular technology while also building your portfolio. For some products, you can earn digital swag too, like badges.
+      - question: How do I showcase my content?
+        answer: Our Contributor Showcase program interviews contributors to learn about why they contribute and share their experiences with others. More information about this program is coming soon. 
+ 
+   # social section
+  - componentType: social
+    title: Connect with us
+    links:
+      - componentType: social-link
+        url: https://twitter.com/MicrosoftLearn 
+        destination: twitter
+      - componentType: social-link
+        url: https://www.linkedin.com/showcase/microsoftlearn/
+        destination: linkedin
+      - componentType: social-link
+        url: https://aka.ms/MicrosoftLearnNewsletter 
+        destination: website
