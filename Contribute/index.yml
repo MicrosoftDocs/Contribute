@@ -17,7 +17,7 @@ sections:
       darkImageSrc: /Contribute/media/contributor-home-hero-dark.png
     links:
       - componentType: link
-        url: https://learn.microsoft.com/contribute #where do we want this link to go?
+        url: https://learn.microsoft.com/training/contributor/contribute-docs-browser/?branch=main
         text: Join experts and contribute
 
 #Text section
