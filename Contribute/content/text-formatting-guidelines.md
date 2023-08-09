@@ -179,8 +179,6 @@ When referring to keys or key combinations, follow these conventions:
 * **Not this**: Press **ALT+CTRL+S**.
 * **Not this**: Hit `ALT+CTRL+S`.
 
-For more information, see [Describing interactions with UI](https://styleguides.azurewebsites.net/StyleGuide/Read?id=2700&topicid=26472).
-
 ## Exceptions
 
 Style guidelines aren't rigid rules. In contexts where they harm readability, do something
