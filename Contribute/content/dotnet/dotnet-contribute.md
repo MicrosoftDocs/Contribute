@@ -72,7 +72,7 @@ Code snippets are small, focused examples of code that demonstrate the concepts 
 **Step 4:** Submit a pull request (PR) from your branch to the default branch.
 
 > [!IMPORTANT]
-> The [comment automation](../how-to-write-workflows-major.md#review-and-sign-off) functionality is not available on any of the .NET docs repositories at this time. Members of the .NET docs team will review and merge your PR.
+> The comment automation functionality is not available on any of the .NET docs repositories at this time. Members of the .NET docs team will review and merge your PR.
 
 Each PR should usually address one issue at a time, unless multiple issues are related to the same PR fix. The PR can modify one or multiple files. If you're addressing multiple fixes on different files, separate PRs are preferred.
 
@@ -250,7 +250,7 @@ The C# interactive experience changes how we work with snippets. Visitors can ru
 
 Contributions for Machine Translated (MT) content are currently not accepted. In an effort to improve the quality of MT content, we've transitioned to a Neural MT engine. We accept and encourage contributions for Human Translated (HT) content, which is used to train the Neural MT engine. So over time, contributions to HT content will improve the quality of both HT and MT. MT topics will have a disclaimer stating that part of the topic may be MT, and the **Edit** button won't be displayed, as editing is disabled.
 
-[!INCLUDE[note-docsitelocfeedback](../includes/note-docsitelocfeedback.md)]
+[!INCLUDE [note-docsitelocfeedback](../../includes/note-docsitelocfeedback.md)]
 
 ## Contributor license agreement
 

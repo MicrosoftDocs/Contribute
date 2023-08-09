@@ -1,7 +1,12 @@
+items:
 - name: Learn
   tocHref: /
   topicHref: /
   items:
-  - name: Documentation contributor guide
-    tocHref: /contribute/
-    topicHref: /contribute/
+  - name: Contribute
+    tocHref: /Contribute/
+    topicHref: /Contribute/index
+    items:
+    - name: Contributor guide
+      tocHref: /Contribute/content
+      topicHref: /Contribute/content

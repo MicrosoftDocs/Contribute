@@ -27,8 +27,15 @@ This install includes the Git version control system and Git Bash, the command-l
 
 ### Install Git client tools for Windows
 
-[!INCLUDE[Install Git client tools for Windows](~/guide/help-content/includes/proc-contribute-install-git-client-tools.md)]
+1. Download [Git for Windows](https://git-scm.com/download/win).
 
+1. Run the downloaded executable (.EXE) file and follow the prompts to install. Select **Next** at each prompt to accept all default settings.
+
+1. Select a code editor, when prompted. The default code editor is Vim.
+
+1. Select **Finish** to complete the installation.
+
+After installing Git for Windows, configure your Git name and your email address, and then install Visual Studio Code, as described below.
 
 ### Install Git client tools for Mac and Linux
 
