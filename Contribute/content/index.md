@@ -1,5 +1,5 @@
 ---
-title: Microsoft Learn documentation contributor guide overview
+title: Microsoft Learn contributor guide overview
 description: The contributor guide describes how you can contribute to technical documentation and other content experiences on Microsoft Learn.
 author: carlyrevier
 ms.author: cahublou
@@ -9,9 +9,9 @@ ms.prod: non-product-specific
 ms.custom: external-contributor-guide
 ---
 
-# Microsoft Learn documentation contributor guide overview
+# Microsoft Learn contributor guide overview
 
-Welcome to the Microsoft Learn documentation contributor guide!
+Welcome to the Microsoft Learn contributor guide!
 
 Sharing your expertise with others on Microsoft Learn helps everyone achieve more. Use the information in this guide to publish a new article to Microsoft Learn or make updates to an existing published article.
 
@@ -32,9 +32,9 @@ The user experience on Microsoft Learn integrates [GitHub](https://github.com) w
 
 Quick edits streamline the process to report and fix small errors and omissions in documentation. Despite all efforts, small grammar and spelling errors _do_ make their way into our published documents. While you can create issues to report mistakes, it's faster and easier to create a PR to fix the issue, when the option is available.
 
-1. You need a GitHub account to contribute. If you already have an account, make sure you're signed in. If you don't have a GitHub account yet, navigate to [https://github.com/join](https://github.com/join) for a fast and free sign-up process.
+1. You need a GitHub account to contribute. If you already have an account, make sure you're signed in. If you don't have a GitHub account, navigate to [https://github.com/join](https://github.com/join) for a fast and free sign-up process.
 
-1. Navigate to the documentation you wihs to edit. _Some_ docs pages allow you to edit content directly in the browser. If so, you'll see an **Edit** pencil icon like the one shown below. Choosing the **Edit** pencil icon takes you to the source file on GitHub.
+1. Navigate to the documentation you wish to edit. _Some_ docs pages allow you to edit content directly in the browser. If so, you'll see an **Edit** pencil icon like the one shown below. Choosing the **Edit** pencil icon takes you to the source file on GitHub.
 
    :::image type="content" source="media/index/edit-article.png" alt-text="Screenshot of an Azure documentation article showing the edit pencil icon.":::
 
@@ -80,18 +80,18 @@ The in-browser editing experience is best for minor or infrequent changes. If yo
 
 [!INCLUDE [note-docsitelocfeedback](../includes/note-docsitelocfeedback.md)]
 
-## Review open PRs
+## Review open PRs in GitHub
 
-You can read new topics before they're published by checking the open PR queue. Reviews follow the [GitHub flow](https://guides.github.com/introduction/flow/) process. You can see proposed updates or new articles in public repositories. Review them and add your comments. Look at any of our Microsoft Learn repositories, and check the open PRs for areas that interest you. Community feedback on proposed updates helps the entire community.
+You can read new topics before they're published by checking the open PR queue in GitHub. Reviews follow the [GitHub flow](https://guides.github.com/introduction/flow/) process. You can see proposed updates or new articles in public repositories. Review them and add your comments. Look at any of our [Microsoft Learn repositories](https://github.com/orgs/MicrosoftDocs/repositories), and check the open PRs for areas that interest you. Community feedback on proposed updates helps the entire community.
 
-## Create quality issues
+## Create GitHub issues
 
-Our docs are a continuous work in progress. Good issues help us focus our efforts on the highest priorities for the community. The more detail you can provide, the more helpful the issue. Tell us what information you sought. Tell us the search terms you used. If you can't get started, tell us how you want to start exploring unfamiliar technology.
+Our docs are a continuous work in progress. Good GitHub issues help us focus our efforts on the highest priorities for the community. The more detail you can provide, the more helpful the issue. Tell us what information you sought. Tell us the search terms you used. If you can't get started, tell us how you want to start exploring unfamiliar technology.
 
-Many of Microsoft's documentation pages have a **Feedback** section at the bottom of the page where you can choose to leave **Product feedback** or **Content feedback** to track issues that are specific to that article.
+Many of Microsoft's documentation pages have a **Feedback** section at the bottom of the page where you can choose to leave product feedback (**This product** link) or content feedback (**This page** link) to track issues that are specific to that article. Both of these options require you to log in to GitHub or some other system. To leave anonymous feedback, use the **Feedback** thumbs-up icon that appears in the top-right corner of each article, beneath the title.
 
-Issues start the conversation about what's needed. The content team will respond to these issues with ideas for what we can add, and ask for your opinions. When we create a draft, we'll ask you to [review the PR](#review-open-prs).
+Issues start the conversation about what's needed. The content team will respond to these issues with ideas for what we can add and ask for your opinions. When we create a draft, we'll ask you to [review the PR](#review-open-prs).
 
 ## Get more involved
 
-Other topics in this guide help you get started productively contributing to Microsoft Learn. They explain working with GitHub repositories, Markdown tools, and extensions used in the Microsoft Learn content.
+Other topics in this guide help you get started productively contributing to Microsoft Learn. They explain working with GitHub repositories, Markdown tools, and extensions used in Microsoft Learn content.
