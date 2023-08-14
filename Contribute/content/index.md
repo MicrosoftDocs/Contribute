@@ -36,13 +36,13 @@ Quick edits streamline the process to report and fix small errors and omissions 
 
 1. Navigate to the documentation you wihs to edit. _Some_ docs pages allow you to edit content directly in the browser. If so, you'll see an **Edit** pencil icon like the one shown below. Choosing the **Edit** pencil icon takes you to the source file on GitHub.
 
-   :::image type="content" source="media/index/edit-article.png" alt-text="Screenshot of the edit article link.":::
+   :::image type="content" source="media/index/edit-article.png" alt-text="Screenshot of an Azure documentation article showing the edit pencil icon.":::
 
    If the **Edit** button isn't present, it means the content isn't open to public contributions. Some pages are generated (for example, from inline documentation in code) and must be edited in the project they belong to.
 
 1. Select the pencil icon at the top of the GitHub file page. If the pencil icon is grayed out or doesn't display, you need to log in to your GitHub account.
 
-   :::image type="content" source="media/index/edit-icon.png" alt-text="Location of the fork and edit pencil icon.":::
+   :::image type="content" source="media/index/edit-icon.png" alt-text="Screenshot of the Azure article within GitHub,showing the edit pencil icon.":::
 
     At the top of the article is the article's metadata. Metadata is applied to articles for reporting, discoverability via search, and driving aspects of the site experience. If you're making minor updates to a published article, you probably won't need to change the metadata.
 
@@ -54,13 +54,13 @@ Quick edits streamline the process to report and fix small errors and omissions 
 
 1. Enter a commit message. The commit message becomes the title of your PR and should be a brief summary of your changes (for example, "Fix spelling and grammar errors"). Optionally, add an **Extended description** to give more details about your changes. Select **Propose changes**:
 
-   :::image type="content" source="media/index/commit-changes.png" alt-text="Propose and commit file changes.":::
+   :::image type="content" source="media/index/commit-changes.png" alt-text="Screenshot of the propose changes pop-up.":::
 
 1. Now that you've proposed and committed your changes, you need to ask the owners of the repository to "pull" your changes into their repository. This is done using a [pull request](https://docs.github.com/articles/using-pull-requests)(PR). When you select **Propose changes**, you'll see a page like this:
 
-   :::image type="content" source="media/index/create-pull-request.png" alt-text="Screenshot of the Comparing changes screen.":::
+   :::image type="content" source="media/index/create-pull-request.png" alt-text="Screenshot of the comparing changes screen.":::
 
-   Select **compare across forks** and make sure your branch configuration looks like that shown above. Your PR should propose changes from your fork and branch (represented by the two items on the right side of the arrow) into the Microsoft repo's fork and `main` branch (represented by the two items on the left side of the arrow).
+   Select **compare across forks** and make sure your branch configuration looks like that shown above. Your PR should propose changes from your fork and branch (represented by the two items on the right side of the arrow) into the MicrosoftDocs repo's fork and `main` branch (represented by the two items on the left side of the arrow). You may have to select the dropdown boxes to adjust the repo and branch names.
 
    Review your changes, and then select **Create pull request**.
 
