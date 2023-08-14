@@ -1,9 +1,9 @@
 ---
 title: Microsoft Learn documentation contributor guide overview
-description: The guide describes how you can contribute to technical documentation on Microsoft Learn.
+description: The contributor guide describes how you can contribute to technical documentation and other content experiences on Microsoft Learn.
 author: carlyrevier
 ms.author: cahublou
-ms.date: 05/11/2022
+ms.date: 08/14/2023
 ms.topic: contributor-guide
 ms.prod: non-product-specific
 ms.custom: external-contributor-guide
@@ -32,29 +32,43 @@ The user experience on Microsoft Learn integrates [GitHub](https://github.com) w
 
 Quick edits streamline the process to report and fix small errors and omissions in documentation. Despite all efforts, small grammar and spelling errors _do_ make their way into our published documents. While you can create issues to report mistakes, it's faster and easier to create a PR to fix the issue, when the option is available.
 
-1. _Some_ docs pages allow you to edit content directly in the browser. If so, you'll see an **Edit** button like the one shown below. Choosing the **Edit** (or equivalently localized) button takes you to the source file on GitHub.
+1. You need a GitHub account to contribute. If you already have an account, make sure you're signed in. If you don't have a GitHub account yet, navigate to [https://github.com/join](https://github.com/join) for a fast and free sign-up process.
 
-   :::image type="content" source="media/index/edit-article.png" alt-text="Location of the edit article link.":::
+1. Navigate to the documentation you wihs to edit. _Some_ docs pages allow you to edit content directly in the browser. If so, you'll see an **Edit** pencil icon like the one shown below. Choosing the **Edit** pencil icon takes you to the source file on GitHub.
 
-   If the **Edit** button isn't present, it means the content isn't open to public contributions.  Some pages are generated (for example, from inline documentation in code) and must be edited in the project they belong to.
+   :::image type="content" source="media/index/edit-article.png" alt-text="Screenshot of the edit article link.":::
 
-2. Select the pencil icon to edit the article. If the pencil icon is grayed out, you need to either log in to your GitHub account or create a new account.
+   If the **Edit** button isn't present, it means the content isn't open to public contributions. Some pages are generated (for example, from inline documentation in code) and must be edited in the project they belong to.
+
+1. Select the pencil icon at the top of the GitHub file page. If the pencil icon is grayed out or doesn't display, you need to log in to your GitHub account.
 
    :::image type="content" source="media/index/edit-icon.png" alt-text="Location of the fork and edit pencil icon.":::
 
-3. Edit the file in the web editor. Choose the **Preview** tab to check the formatting of your changes.
+    At the top of the article is the article's metadata. Metadata is applied to articles for reporting, discoverability via search, and driving aspects of the site experience. If you're making minor updates to a published article, you probably won't need to change the metadata.
 
-4. When you're finished editing, scroll to the bottom of the page. In the **Propose changes** area, enter a title and optionally a description for your changes. The title will be the first line of the commit message. Select **Propose changes** to create a new branch in your fork and commit your changes:
+1. If it's your first time working in this repository, you'll be prompted to fork the repo before you propose changes. Select **Fork this repository** to continue.
+
+1. Edit the file in the web editor. Choose the **Preview** tab in the toolbar to check the formatting of your changes.
+
+1. When you're finished editing, select the **Commit changes** or **Propose changes** button, usually at the top-right of the screen. 
+
+1. Enter a commit message. The commit message becomes the title of your PR and should be a brief summary of your changes (for example, "Fix spelling and grammar errors"). Optionally, add an **Extended description** to give more details about your changes. Select **Propose changes**:
 
    :::image type="content" source="media/index/commit-changes.png" alt-text="Propose and commit file changes.":::
-   
-5. Now that you've proposed and committed your changes, you need to ask the owners of the repository to "pull" your changes into their repository. This is done using something called a "pull request" (PR). When you select **Propose changes**, a new page similar to the following is displayed:
 
-   :::image type="content" source="media/index/create-pull-request.png" alt-text="Compare changes and create pull request.":::
+1. Now that you've proposed and committed your changes, you need to ask the owners of the repository to "pull" your changes into their repository. This is done using something called a [pull requests](https://docs.github.com/articles/using-pull-requests)(PR). When you select **Propose changes**, you'll see a page like this:
 
-   Select **Create pull request**. Next, enter a title and a description for the PR, and then select **Create pull request**. If you're new to GitHub, see [About pull requests](https://docs.github.com/articles/using-pull-requests) for more information.
+   :::image type="content" source="media/index/create-pull-request.png" alt-text="Screenshot of the compare changes and create pull request screen.":::
 
-6. That's it! Content team members will review your PR and merge it when it's approved. You may get feedback requesting changes.
+   Confirm that the **base** branch is `main`. Review your changes, and then select **Create pull request**. 
+
+1. On the **Open a pull request** page, preview your PR. You can change the title or description fields if needed. When you're ready, select **Create pull request**. This action opens your PR.
+
+1. If everything looks good and you're done editing, add a comment that reads `#sign-off`. This alerts the PR review team that your PR is ready to be reviewed.
+
+    :::image type="content" source="media/index/sign-off.png" alt-text="Screenshot of the GitHub comment box within a PR with a comment reading #sign-off.":::
+
+1. That's it! Content team members will review your PR and merge it when it's approved. You may get feedback requesting changes.
 
 The GitHub editing UI responds to your permissions on the repository. The preceding images are for contributors who don't have write permissions to the target repository. GitHub automatically creates a fork of the target repository in your account. The newly created fork name has the form **`GitHubUsername`/`RepositoryName`** by default. If you have write access to the target repository, such as your fork, GitHub creates a new branch in the target repository. The branch name has the default form **patch-`n`**, using a numeric identifier for the patch branch.
 
