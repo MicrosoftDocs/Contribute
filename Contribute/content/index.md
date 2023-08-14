@@ -56,11 +56,13 @@ Quick edits streamline the process to report and fix small errors and omissions 
 
    :::image type="content" source="media/index/commit-changes.png" alt-text="Propose and commit file changes.":::
 
-1. Now that you've proposed and committed your changes, you need to ask the owners of the repository to "pull" your changes into their repository. This is done using something called a [pull requests](https://docs.github.com/articles/using-pull-requests)(PR). When you select **Propose changes**, you'll see a page like this:
+1. Now that you've proposed and committed your changes, you need to ask the owners of the repository to "pull" your changes into their repository. This is done using a [pull request](https://docs.github.com/articles/using-pull-requests)(PR). When you select **Propose changes**, you'll see a page like this:
 
-   :::image type="content" source="media/index/create-pull-request.png" alt-text="Screenshot of the compare changes and create pull request screen.":::
+   :::image type="content" source="media/index/create-pull-request.png" alt-text="Screenshot of the Comparing changes screen.":::
 
-   Confirm that the **base** branch is `main`. Review your changes, and then select **Create pull request**. 
+   Select **compare across forks** and make sure your branch configuration looks like that shown above. Your PR should propose changes from your fork and branch (represented by the two items on the right side of the arrow) into the Microsoft repo's fork and `main` branch (represented by the two items on the left side of the arrow).
+
+   Review your changes, and then select **Create pull request**.
 
 1. On the **Open a pull request** page, preview your PR. You can change the title or description fields if needed. When you're ready, select **Create pull request**. This action opens your PR.
 
