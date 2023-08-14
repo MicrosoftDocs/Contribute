@@ -15,5 +15,5 @@ Thanks for contributing to the [Microsoft Learn contributor guide](https://learn
 
 ## Need help?
 
-- See our guidance on [Contributing to the contributor guide](/contribute/?branch=main) for help with adding or updating content in this contributor guide.
-- Write to the PR reviewer in the PR comments: `@carlyrevier, @jehchow`
+- If you have an open PR, tag the PR reviewers in comment with your question: `@carlyrevier, @jehchow`
+- Open an issue in this repo and tag the PR reviewers.
