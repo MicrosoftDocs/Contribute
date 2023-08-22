@@ -86,6 +86,8 @@
           href: architecture-center/sample-solution-templates.md
     - name: PowerShell-Docs
       href: powershell-overview.md
+- name: Create and manage Collections
+  href: collections.md
 - name: Hacktoberfest
   href: hacktoberfest.md
 - name: Additional resources
