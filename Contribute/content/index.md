@@ -17,9 +17,9 @@ Sharing your expertise with others on Microsoft Learn helps everyone achieve mor
 
 Several of the Microsoft documentation sets are open source and hosted on GitHub. Not all document sets are completely open source, but many have public-facing repos where you can suggest changes via pull requests (PR). This open-source approach streamlines and improves communication between product engineers, content teams, and customers, and it has other advantages:
 
-- Open-source repos _plan in the open_ to get feedback on what docs are most needed.
-- Open-source repos _review in the open_ to publish the most helpful content on our first release.
-- Open-source repos _update in the open_ to make it easier to continuously improve the content.
+- _planning in the open_ to get feedback on what docs are most needed.
+- _reviewing in the open_ to publish the most helpful content on our first release.
+- _updating in the open_ to make it easier to continuously improve the content.
 
 The user experience on Microsoft Learn integrates [GitHub](https://github.com) workflows directly to make it even easier. Start by [editing the document you're viewing](#quick-edits-to-documentation). Or help by [reviewing new topics](#review-open-prs) or [creating quality issues](#create-quality-issues).
 
@@ -50,7 +50,7 @@ Quick edits streamline the process to report and fix small errors and omissions 
 
 1. Edit the file in the web editor. Choose the **Preview** tab in the toolbar to check the formatting of your changes.
 
-1. When you're finished editing, select the **Commit changes** or **Propose changes** button, usually at the top-right of the screen. 
+1. When you're finished editing, select the **Commit changes** or **Propose changes** button, usually at the top-right of the screen.
 
 1. Enter a commit message. The commit message becomes the title of your PR and should be a brief summary of your changes (for example, "Fix spelling and grammar errors"). Optionally, add an **Extended description** to give more details about your changes. Select **Propose changes**:
 
