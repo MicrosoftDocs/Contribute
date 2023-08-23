@@ -15,13 +15,13 @@ Welcome to the Microsoft Learn contributor guide!
 
 Sharing your expertise with others on Microsoft Learn helps everyone achieve more. Use the information in this guide to publish a new article to Microsoft Learn or make updates to an existing published article.
 
-Several of the Microsoft documentation sets are open source and hosted on GitHub. Not all document sets are completely open source, but many have public-facing repos where you can suggest changes via pull requests (PR). This open-source approach streamlines and improves communication between product engineers, content teams, and customers, and it has other advantages:
+Several of the Microsoft documentation sets are open source and hosted on GitHub. Not all document sets are completely open source, but many have public-facing repos where you can suggest changes via pull requests (PRs). This open-source approach streamlines and improves communication between product engineers, content teams, and customers, and it has other advantages:
 
-- _planning in the open_ to get feedback on what docs are most needed.
-- _reviewing in the open_ to publish the most helpful content on our first release.
-- _updating in the open_ to make it easier to continuously improve the content.
+- _planning in the open_ to get feedback on what docs and improvements are most needed
+- _reviewing in the open_ to achieve helpful community appraisal of materials
+- _updating in the open_ to make it easier to continuously improve the content
 
-The user experience on Microsoft Learn integrates [GitHub](https://github.com) workflows directly to make it even easier. Start by [editing the document you're viewing](#quick-edits-to-documentation). Or help by [reviewing new topics](#review-open-prs) or [creating quality issues](#create-quality-issues).
+Start contributing by [editing a document you're viewing](#quick-edits-to-documentation). Or help by [reviewing new topics](#review-open-prs) or [creating quality issues](#create-quality-issues).
 
 > [!IMPORTANT]
 > All repositories that publish to Microsoft Learn have adopted the [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/) or the [.NET Foundation Code of Conduct](https://dotnetfoundation.org/code-of-conduct). For more information, see the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/). Contact [opencode@microsoft.com](mailto:opencode@microsoft.com) or [conduct@dotnetfoundation.org](mailto:conduct@dotnetfoundation.org) with any questions or comments.<br>
