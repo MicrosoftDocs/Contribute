@@ -89,7 +89,7 @@ Other considerations for adding content to a collection include:
 
 ### Rearrange content
 
-When you add content to a collection, it's added to the bottom of the list. You can reorder content by using the **up/down** arrows on the content item, moving it one space at a time. Wait until each individual move interaction completes before selecting the **up/down** arrows again. We're working to improve this experience.
+When you add content to a collection, it's added to the bottom of the list. You can reorder content by using the **up/down** arrows on the content item, moving it one space at a time. Wait until each individual move interaction completes before selecting the **up/down** arrows again.
 
 ### Delete content
 
@@ -97,7 +97,7 @@ To delete content within a collection, select the **trash can** icon on the cont
 
 ## Add and manage sections
 
-Once you've saved content to your collection, you can add sections to the collection to make it easier to navigate. You can add as many sections as you need. You can also move content items between sections, and you can [rearrange sections](#rearrange-sections) within the collection. And if your organizational needs change, you can [delete sections](#delete-sections) from the collection.
+Once you've saved content to your collection, you can add sections to the collection to make it easier to navigate. You can add as many sections as you need. You can also move content items between sections, and you can [rearrange sections](#rearrange-sections) within the collection. And if you need to reorganize, you can [delete sections](#delete-sections) from the collection.
 
 ### Add sections to a collection
 
@@ -127,7 +127,7 @@ To rearrange a section, select the **up/down** arrows on the section header.
 
 To rearrange content within the sections, select the **up/down** arrows on the content items. You can move content into and within your various sections. 
 
-You can move items one space at a time. Wait until each individual move interaction completes before selecting the **up/down** arrows again. We're working to improve this experience.
+You can move items one space at a time. Wait until each individual move interaction completes before selecting the **up/down** arrows again. 
 
 ### Delete sections
 
