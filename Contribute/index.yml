@@ -37,14 +37,14 @@ sections:
       - componentType: icon-card
         title: Respond to Q&A
         summary: Answer questions to help others learn about Microsoft technologies.
-        url: https://learn.microsoft.com/en-us/answers/questions/
+        url: https://learn.microsoft.com/answers/questions/
         icon:
           componentType: image
           src: media/microsoft-qa-icon.png
       - componentType: icon-card
         title: Create a collection
         summary: Share curated experiences with your followers.
-        url: https://techcommunity.microsoft.com/t5/microsoft-learn-blog/microsoft-learn-collections-now-support-docs-and-q-amp-a-content/ba-p/2549380
+        url: /contribute/content/collections?branch=main
         icon:
           componentType: image
           src: media/community-perspectives-icon.png
