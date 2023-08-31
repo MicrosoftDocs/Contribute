@@ -1,9 +1,9 @@
-- name: Contributor guide overview and browser-based tasks
+- name: Contributor guide overview
   href: index.md
-- name: Sign up for GitHub
-  href: get-started-setup-github.md
 - name: Edit documentation
   items:
+    - name: Overview
+      href: how-to-write-overview.md
     - name: Edit in the browser
       href: how-to-write-quick-edits.md
     - name: Work locally
@@ -12,10 +12,12 @@
           href: get-started-setup-tools.md
         - name: 2. Set up a local Git repository
           href: get-started-setup-local.md
+        - name: 3. Make major changes
+          href: how-to-write-major-edits.md
+    - name: Process a pull request
+      href: process-pull-request.md
     - name: Git and GitHub fundamentals
       href: git-github-fundamentals.md
-    - name: Full workflow
-      href: how-to-write-workflows-major.md
     - name: Write for Hacktoberfest
       href: hacktoberfest.md
     - name: Documentation set-specific guidance
@@ -58,8 +60,9 @@
   href: collections.md
 - name: Respond to Q&A
 - name: Connect with other experts
-- name: Contributor resources
+- name: Contributor program
   items:
+    - name: Overview
     - name: Contributor stories program
 - name: Writing resources
   items:
@@ -103,5 +106,5 @@
           href: docs-authoring/sort-selection.md
         - name: Jupyter notebooks
           href: docs-authoring/jupyter-notebooks.md
-- name: Additional resources
+- name: Git and GitHub resources
   href: additional-resources.md

@@ -6,6 +6,7 @@ ms.prod: non-product-specific
 ms.custom: external-contributor-guide
 ms.date: 06/30/2017
 ---
+
 # Git and GitHub essentials for Microsoft Learn documentation
 
 ## Overview

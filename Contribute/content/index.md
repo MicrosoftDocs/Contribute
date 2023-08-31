@@ -1,39 +1,50 @@
 ---
-title: Microsoft Learn contributor guide
+title: Contribute to the Microsoft Learn platform
 description: Learn how you can contribute to technical documentation and other content experiences on Microsoft Learn.
 author: carlyrevier
 ms.author: cahublou
-ms.date: 08/28/2023
+ms.date: 08/30/2023
 ms.topic: contributor-guide
 ms.prod: non-product-specific
 ms.custom: external-contributor-guide
 ---
 
-# Microsoft Learn contributor guide
+# Contribute to the Microsoft Learn platform
 
-Welcome to the Microsoft Learn contributor guide! This guide is intended for any non-Microsoft employee who wants to contribute their knowledge to the content and experiences on Microsoft Learn.
+Welcome to the Microsoft Learn contributor guide! This guide is intended for any non-Microsoft employee who wants to contribute their knowledge to the content and experiences on Microsoft Learn. This documentation introduces you the ways you can contribute and teaches you how to get started.
 
 Sharing your expertise with others on Microsoft Learn helps everyone achieve more. Use the information in this guide to publish a new article to Microsoft Learn, update a published article, answer questions on Microsoft Q&A, and more.
 
-## How you can contribute
+## How do I start?
 
-- Edit documentation
-- Review open pull requests
-- Create GitHub issues
-- Answer questions on Microsoft Q&A
-- Create a Collection
-- Participate in the Microsoft Learn Tech Community
+First, set up a few accounts. You'll need a [GitHub account](#set-up-a-github-account) or a [Microsoft account](#set-up-a-microsoft-account), depending on how you want to participate. The following table shows your contribution options and the type of account you'll need to participate.
 
-## Prerequisites
+Once you've set up your accounts, select a contribution option from the table to learn more about how to get started.
 
-1. Create GitHub account
-1. Create a Microsoft Learn account
-1. Accept the Microsoft Open Source Code of Conduct and the learn.microsoft.com Terms of Use.
+|Contribution option  |Account required  |
+|---------|---------|
+|[Edit documentation](how-to-write-overview.md)     | GitHub         |
+|[Review open pull requests](how-to-review-pull-request.md)     | GitHub         |
+|[Create GitHub issues](how-to-create-github-issues.md)     | GitHub         |
+|[Answer questions on Microsoft Q&A]()     | Microsoft        |
+|[Create a Collection](collections.md)     | Microsoft        |
+|[Participate in the Microsoft Learn Tech Community]()     | Microsoft         |
 
+### Set up a GitHub account
 
-> [!IMPORTANT]
-> All repositories that publish to Microsoft Learn have adopted the [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/) or the [.NET Foundation Code of Conduct](https://dotnetfoundation.org/code-of-conduct). For more information, see the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/). Contact [opencode@microsoft.com](mailto:opencode@microsoft.com) or [conduct@dotnetfoundation.org](mailto:conduct@dotnetfoundation.org) with any questions or comments.<br>
->
-> Minor corrections or clarifications to documentation and code examples in public repositories are covered by the [learn.microsoft.com Terms of Use](/legal/termsofuse). New or significant changes generate a comment in the PR, asking you to submit an online Contribution License Agreement (CLA) if you're not a Microsoft employee. We need you to complete the online form before we can review or accept your PR.
+1. Navigate to [https://github.com/join](https://github.com/join) for a fast and free sign-up process.
+1. Identify any affiliations in your GitHub profile. Contributions to Microsoft Learn count toward [MVP award](https://mvp.microsoft.com/) consideration. Identification helps us build a complete profile of all your activities.
 
-1. You need a GitHub account to contribute. If you already have an account, make sure you're signed in. If you don't have a GitHub account, navigate to [https://github.com/join](https://github.com/join) for a fast and free sign-up process.
+>[!NOTE]
+> Microsoft employees participating in Open Source projects always identify themselves as such in their GitHub profiles. Community contributors should ensure that their profile does not incorrectly imply an employment relationship.
+
+### Set up a Microsoft account
+
+1. Navigate to [learn.microsoft.com](https://learn.microsoft.com/).
+1. Select **Sign in** in the upper-right corner.
+1. Follow the prompts to create a Microsoft account and profile.
+1. Once created, visit [Managing your Microsoft Learn profile settings](/training/support/learn-profile-manage) to learn how to update your Microsoft Learn profile.
+
+## What's in it for me?
+
+Contributing to Microsoft Learn benefits not only our learners but also YOU! When you edit documentation, your name appears in the list of contributors at the top of the article. Your commits to our GitHub repositories will show up in your GitHub commit history, which is a great way to demonstrate your passion for a particular technology while also building your portfolio. For some products, you can earn digital swag too, like badges.

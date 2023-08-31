@@ -209,6 +209,16 @@
             "source_path": "Contribute/text-formatting-guidelines.md",
             "redirect_url": "/contribute/content/text-formatting-guidelines",
             "redirect_document_id": true
+        },
+        {
+            "source_path": "Contribute/content/get-started-setup-github.md",
+            "redirect_url": "/contribute/content/index",
+            "redirect_document_id": true
+        },
+        {
+            "source_path": "Contribute/content/how-to-write-workflows-major.md",
+            "redirect_url": "/contribute/content/how-to-write-major-edits",
+            "redirect_document_id": true
         }
     ]
 }

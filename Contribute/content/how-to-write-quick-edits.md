@@ -1,5 +1,5 @@
 ---
-title: Edit documentation in the browser
+title: Edit Microsoft Learn documentation in the browser
 description: Learn how to edit a Microsoft Learn documentation article in the browser using GitHub.
 author: carlyrevier
 ms.author: cahublou
@@ -9,7 +9,7 @@ ms.prod: non-product-specific
 ms.custom: external-contributor-guide
 ---
 
-# Edit documentation in the browser
+# Edit Microsoft Learn documentation in the browser
 
 Several of Microsoft's documentation sets are open source and hosted on GitHub. Not all documentation is completely open source, but many have public-facing repositories where you can suggest changes via pull requests (PRs). This open-source approach streamlines and improves communication between product engineers, content teams, and customers.
 
