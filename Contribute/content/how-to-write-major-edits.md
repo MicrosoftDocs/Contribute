@@ -1,5 +1,5 @@
 ---
-title: Make major or long-running changes to Microsoft Learn documentation
+title: Make major changes to Microsoft Learn documentation
 description: Learn how to use the "major" contributor workflow to make major or long-running contributions to Microsoft Learn documentation.
 author: carlyrevier
 ms.author: cahublou
@@ -9,14 +9,14 @@ ms.custom: external-contributor-guide
 ms.date: 08/31/2023
 ---
 
-# Make major or long-running changes to Microsoft Learn documentation
+# Make major changes to Microsoft Learn documentation
 
 > [!IMPORTANT]
 > All repositories that publish to Microsoft Learn have adopted either the [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/) or the [.NET Foundation Code of Conduct](https://dotnetfoundation.org/code-of-conduct). For more information, see the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/). Or contact [opencode@microsoft.com](mailto:opencode@microsoft.com), or [conduct@dotnetfoundation.org](mailto:conduct@dotnetfoundation.org) with any questions or comments.<br>
 >
 > Minor corrections or clarifications to documentation and code examples in public repositories are covered by the [learn.microsoft.com Terms of Use](/legal/termsofuse). New or significant changes will generate a comment in the pull request, asking you to submit an online Contribution License Agreement (CLA) if you are not an employee of Microsoft. You will need to complete the online form before your pull request can be merged.
 
-This workflow is suitable for a contributor who needs to make a major change or will be a frequent contributor to a repository. Frequent contributors typically have ongoing (long-running) changes, which go through multiple build/validation/staging cycles or span multiple days before pull request sign-off and merge.
+This article shows you how to change a Microsoft Learn article using local tools and is suitable for a contributor who needs to make a major change or will be a frequent contributor to a repository. Frequent contributors typically have ongoing or long-running change that go through multiple build/validation/staging cycles or span multiple days before they sign off on their pull request (PR).
 
 Examples of these types of contributions include:
 
@@ -28,94 +28,166 @@ Examples of these types of contributions include:
 
 ## Prerequisites
 
-- Set up your GitHub account.
-- Install Git and Markdown tools.
-- Set up a local Git repository.
-- Review Git and GitHub fundamentals (optional).
+- Identify the GitHub repo that stores the documentation you want to edit.
+- [Create a GitHub account](index.md#create-a-github-account), if you don't have one.
+- [Install Git and Markdown tools](get-started-setup-tools.md).
+- [Set up a local Git repository](get-started-setup-local.md).
+- [Review Git and GitHub fundamentals](git-github-fundamentals.md) (optional).
 
 ## Terminology
 
-Before you start, let's review some of the Git/GitHub terms and monikers used in this workflow. Don't worry about understanding them now. Just know that you will be learning about them, and you can refer back to this section when you need to verify a definition.
+Before you start, let's review some Git/GitHub terms used in this workflow. Don't worry about understanding them now. Just know that you'll be learning about them, and you can refer back to this section when you need to verify a definition.
 
 | Name | Description |
 |-----------|-------------|
-|fork|Normally used as a noun, when referring to a copy of a main GitHub repository. In practice, a fork is just another repository. But it's special in the sense that GitHub maintains a connection back to the main/parent repository. It's sometimes used as a verb, as in "You must fork the repository first."|
-|remote|A named connection to a remote repository, such as the "origin" or "upstream" remote. Git refers to this as remote because it is used to reference a repository that's hosted on another computer. In this workflow, a remote is always a GitHub repository.|
+|fork|Normally used as a noun when referring to a copy of a main GitHub repository. In practice, a fork is just another repository. But it's special in the sense that GitHub maintains a connection back to the main/parent repository. It's sometimes used as a verb, as in "You must fork the repository first."|
+|remote|A named connection to a remote repository, such as the "origin" or "upstream" remote. Git refers to this as remote because it's used to reference a repository that's hosted on another computer. In this workflow, a remote is always a GitHub repository.|
 |origin|The name assigned to the connection between your local repository and the repository from which it was cloned. In this workflow, origin represents the connection to your fork. It's sometimes used as a moniker for the origin repository itself, as in "Remember to push your changes to origin."|
 |upstream|Like the origin remote, upstream is a named connection to another repository. In this workflow, upstream represents the connection between your local repository and the main repository, from which your fork was created. It's sometimes used as a moniker for the upstream repository itself, as in "Remember to pull the changes from upstream."|
 
-## Workflow
+## Create and check out your working branch
 
-In this workflow, changes flow in a repetitive cycle. Starting from your device's local repository, they flow back up to your GitHub fork, into the main GitHub repository, and back down locally again as you incorporate changes from other contributors.
+Recall from [Git and GitHub fundamentals](git-github-fundamentals.md#git) that a Git repository contains a default branch, plus any additional work-in-progress branches (which we call *working branches*) that have not been integrated into the default branch. Every time you introduce a new set of logically related changes, it’s a best practice to create a *working branch* to manage your changes. We don't recommend making changes to the default branch (typically titled *main*) directly.
 
-### Create a working branch
+Isolating related changes to a specific branch allows you to control and introduce those changes independently. In reality, depending on the type of work you do, you can easily end up with several working branches in your repository. It's not uncommon to be working on multiple branches at the same time, each representing a different project.
 
-Recall from [Git and GitHub fundamentals](git-github-fundamentals.md#git) that a Git repository contains a default branch, plus any additional work-in-progress branches that have not been integrated into the default branch. Whenever you introduce a set of logically related changes, it’s a best practice to create a *working branch* to manage your changes through the workflow. We refer to it here as a working branch because it's a workspace to iterate/refine changes until they can be integrated back into the default branch.
+Now let's create a new working branch in your local repository to capture your proposed changes. This tutorial uses Git Bash and Visual Studio Code, but you can use any Git client and editor you prefer.
 
-Isolating related changes to a specific branch allows you to control and introduce those changes independently, targeting them to a specific release time in the publishing cycle. In reality, depending on the type of work you do, you can easily end up with several working branches in your repository. It's not uncommon to be working on multiple branches at the same time, each representing a different project.
+1. In VS Code, open the repository folder of your local clone. From the **File** menu, select **Open folder** and navigate to the folder on your machine.
+1. Select **View** from the top menu, and then select **Terminal** to open the integrated terminal.
+1. In the integrated terminal, make sure you're in the repository folder.
+1. Before you create a working branch, make sure your local main branch is current with everything in the production repo's main branch. This task ensures your working branch captures any changes that have happened in the production repo since the last time you synced with it.
 
->[!TIP]
->Making your changes in the default branch is *not* a good practice. Imagine that you use the default branch to introduce a set of changes for a timed feature release. You finish the changes and are waiting to release them. Then in the interim, you have an urgent request to fix something, so you make the change to a file in the default branch and then publish the change. In this example, you inadvertently publish both the fix *and* the changes that you were holding for release on a specific date.
+    1. Switch to the main branch in your local repository:
 
-Now let's create a new working branch in your local repository, to capture your proposed changes. If you've set up Git Bash (see [Install content authoring tools](get-started-setup-tools.md)), you can create a new branch and "check out" that branch with one command from within your cloned repository:
+       ```Console
+       git checkout main 
+       ```
 
-````
-git checkout -b "branchname"
-````
+    1. Ensure your local main branch is current:
 
-Each git client is different, so consult the help for your preferred client. You can see an overview of the process in the GitHub Guide on [GitHub flow](https://guides.github.com/introduction/flow/).
+       ```Console
+       git pull upstream main 
+       ```
 
-## Make your changes
+1. Create a local working branch based on main:
 
-Now that you have a copy ("clone") of the Microsoft repository and you've created a branch, you're now free to make whatever changes you think would benefit the community using any text or Markdown editor, as outlined on the [Install content authoring tools](get-started-setup-tools.md) page.  You can save your changes locally without needing to submit them to Microsoft until you're ready.
+   ```Console
+   git checkout -b <branch-name>
+   ```
 
-## Save changes to your repository
+    *`<branch-name>` is a placeholder. When you run the command, replace it with a unique and meaningful name for your branch and remove the angle brackets.*
 
-Before sending your changes to the author, you must first save them to your Github repository.  Again, while all tools are different, if you're using the Git Bash command line, this can be done in just a few easy steps.
+1. Push the local working branch to the remote branch in your GitHub fork:
 
-First, from within the repository, you need to _stage_ all of your changes in preparation for the next commit.  This can be done by executing:
+   ```Console
+   git push origin <branch-name> -u
+   ```
 
-````
-git add --all
-````
+    The *-u* option links the local and remote branches. This option allows you to push commits to your fork by entering just `git push` instead of `git push origin <branch-name>`.
 
-Next, you need to commit your saved changes to your local repository.  This can be done in Git Bash by running:
+## Find the source Markdown file
 
-````
-git commit -m "Short Description of Changes Made"
-````
+To edit an article, find the source file for the article in your local repository clone. Within VS Code, access the repo's content (.md/Markdown) files via the file explorer (a document icon in the top-left sidebar). The file explorer shows the folder structure of the repo, and you can navigate to the file you want to edit. 
 
-Finally, since you created this branch on your local computer, you need to let the fork in your GitHub.com account know about it.  If you're using Git Bash, this can be done by running:
+If you can't find the file, visit the article on Microsoft Learn and select the **Edit** pencil icon. The relative folder location in the GitHub repo shows in the URL. Here's an example **Edit** link URL:
 
-````
-git push --set-upstream origin <branchname>
-````
+```Console
+   https://github.com/Microsoft/azure-docs/blob/main/articles/azure-functions/functions-overview.md
+```
 
-You've done it!  Your code is now up in your GitHub repository and ready for you to create a pull request.  
+Here's an example file location for this URL.
 
->[!TIP]
-> Even though your changes become visible in your personal GitHub account when you push them, there is no rule that you need to submit a pull request immediately.  If you want to stop and return at a later time to make additional tweaks, that's OK!
+```Console
+   C:\GitHub\*\azure-docs\articles\azure-functions\functions-overview.md
+```
 
-Need to fix something you submitted?  No problem!  Just make your changes in the same branch and then commit and push again (no need to set the upstream server on subsequent pushes of the same branch).
+## Edit the file
+
+1. Open the file in VS Code by selecting it.
+1. Make your changes.
+1. Save your changes by selecting **File** > **Save**. Use **Save All** to save multiple files at once.
+
+## Commit and push your changes
+
+If you made substantial edits or reviewed an article for freshness, update `ms.date` in the metadata block at the top of the file. Format the date as mm/dd/yyyy.
+
+You can use the VS Code terminal or the VS Code UI to commit and push your changes.
+
+# [VS Code Terminal](#tab/terminal)
+
+1. Run the `git status` command to verify that only the files you edited appear in the list of changed files.
+
+    ```Console
+    git status
+    ```
+
+1. Run the `git add` command followed by the *file path* and *file name* to stage the file you changed.
+
+    ```Console
+    git add folder-name/file-name.md
+    ```
+
+   If you changed multiple files, enter a `git add` command for each file.
+
+   Alternatively, you can run `git add .` (note the period after `add`) to automatically stage all the changes you made. This method is faster but can cause problems by including changes you made by accident.
+
+1. Run `git status` again to confirm what changes will be staged.
+
+1. Run the `git commit` command followed by a commit message to save the changes on your local cloned repository.
+
+    ```Console
+    git commit -m "your commit message"
+    ```
+
+5. Run `git push` to push your changes.
+
+   ```Console
+   git push
+   ```
+
+# [VS Code UI](#tab/ui)
+
+You can create and push a commit by using Git integration features of VS Code. Remember to continue your work on the same machine. If you switch machines, you won't have the latest version of the working branch to continue with.
+
+1. Make sure your local repo still has the same working branch checked out. In the VS Code UI, the branch is shown in the lower left-hand corner. The branch name also functions as a button for switching branches.
+
+   :::image type="content" source="media/how-to-write-major-edits/vscode-branch.png" alt-text="Screenshot of the branch display in the VS Code UI.":::
+
+1. In the VS Code left sidebar, select the fork tool to see the **Source Control: Git** pane.
+
+   :::image type="content" source="media/how-to-write-major-edits/select-source-control.png" alt-text="Screenshot of the source-control pane in the left sidebar of the VS Code UI.":::
+
+   The file you edited appears under **Changes** with an **M** on the right to indicate it has been modified. New files appear with a **U** (untracked), and deleted files appear with a **D**.
+1. Stage the changes. Hover over the **Changes** line until a **+** icon appears. Select that icon. This action is equivalent to the `git add` command. The file now appears in the **Staged Changes** section.
+1. Enter a commit message such as "update metadata date" in the **Message** textbox, and select the checkmark.
+
+   :::image type="content" source="media/how-to-write-major-edits/commit-changes.png" alt-text="Screenshot of the source-control pane showing the changes as staged with a commit message. The commit checkmark is also highlighted.":::
+
+1. Push the commit. Select the **Sync changes** button that appears below the commit-message block.
+
+   :::image type="content" source="media/how-to-write-major-edits/sync-changes.png" alt-text="Screenshot of the sync changes button in VS Code.":::
+
+---
+
+You've done it! Your code is now up in your GitHub repository and ready for you to [open a PR](process-pull-request.md).
+
+Need to fix something you submitted? It's easy! Just repeat the steps above, starting with **Edit the file**, to make changes in the same branch and then commit and push again (no need to set the upstream server on subsequent pushes of the same branch). Generally, branches are used to separate streams of work, so you don't need to create a new branch unless you're ready to work on something else.
 
 ## Make your next change
 
-Got more changes you need to make unrelated to this one? Switch back to the default branch, pull from the upstream repository to make sure that your fork is up to date, and check out a new branch.  Run the following commands in Git Bash:
+Ready to make another change, unrelated to this one? Switch back to the default branch, pull from the upstream repository to update your fork, and check out a new branch.  Run the following commands in Git Bash:
 
 ````
 git checkout main
 git pull upstream main
 git checkout -b "branchname"
+git push origin <branch-name> -u
 ````
 
-> [!NOTE]
-> The preceding commands assume the repo you're working with has `main` as its default branch. If the first command fails, it's likely that the default branch hasn't been renamed. Replace `main` in the first two commands with `master` to verify this.
-
-You're now back in a new branch, and you're well on your way to being an expert contributor.
-
-## Push changes??
+You're now in a new branch that's linked to your remote branch, and you're ready to make more changes. You're well on your way to becoming an expert contributor!
 
 ## Next steps
 
-- Learn about [pull request processing](process-pull-request.md), the next step in the contribtuion workflow.
+- If you've completed the steps above, now it's time to [open a PR](process-pull-request.md) to get your changes merged into the main branch.
 - To learn more about topics such as Markdown and Markdown extensions syntax, review the [Markdown reference](markdown-reference.md).
