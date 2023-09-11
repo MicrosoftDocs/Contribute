@@ -19,8 +19,7 @@ We use PRs for all changes, even for contributors who have write access. Most re
 
 ## Prerequisites
 
-- A GitHub account
-- Acceptance of the Microsoft Learn CLA and TOU
+- [Create a GitHub account](index.md#create-a-github-account), if you don't have one.
 
 ## Edit a document in the browser
 

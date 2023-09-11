@@ -11,7 +11,7 @@ ms.custom: external-contributor-guide
 
 # Overview of editing documentation on Microsoft Learn
 
-Thank you for your interest in wanting to edit documentation on Microsoft Learn! Your contributions help us ensure our documentation is well written, up to date, and accurate. The information on this page will help you decide which method of contribution is best for you.
+Thank you for your interest in editing documentation on Microsoft Learn! Your contributions help us ensure our documentation is well written, up to date, and accurate. The information on this page will help you decide which method of contribution is best for you.
 
 Before you get started, make sure you're signed in to your GitHub account. If you don't have one, navigate to [https://github.com/join](https://github.com/join) for a fast and free sign-up process.
 
@@ -27,4 +27,4 @@ The process flow below shows the basic steps involved in getting started. Notice
 
 If you're making minor changes to an article, follow the steps in [Edit documentation in the browser](how-to-write-quick-edits.md). All you need is a GitHub account; you don't need to download and install any tools. Examples of minor changes are fixing typos, basic revisions to one or more articles, adding a section to an article, updating links, or contributing infrequently.
 
-If you're making more substantial or frequent changes, we recommend [installing Git and Markdown tools](get-started-setup-tools.md) and [forking and cloning the repo](get-started-setup-local.md). Frequent contributors typically have ongoing (long-running) changes that go through multiple build-validation-staging cycles or span multiple days before they sign off on their pull request (PR).
+If you're making more substantial or frequent changes, we recommend [installing Git and Markdown tools](get-started-setup-tools.md) and [forking and cloning the repo](get-started-setup-local.md). Frequent contributors typically have ongoing (long-running) changes that go through multiple build-validation-staging cycles or span multiple days before they sign off on their pull request.

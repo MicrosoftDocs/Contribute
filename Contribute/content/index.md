@@ -1,5 +1,5 @@
 ---
-title: Contribute to the Microsoft Learn platform
+title: Contribute to Microsoft Learn
 description: Learn how you can contribute to technical documentation and other content experiences on Microsoft Learn.
 author: carlyrevier
 ms.author: cahublou
@@ -11,13 +11,19 @@ ms.custom: external-contributor-guide
 
 # Contribute to the Microsoft Learn platform
 
-Welcome to the Microsoft Learn contributor guide! This guide is intended for any non-Microsoft employee who wants to contribute their knowledge to the content and experiences on Microsoft Learn. This documentation introduces you the ways you can contribute and teaches you how to get started.
+Welcome to the Microsoft Learn contributor guide! This documentation introduces you the ways you can contribute to the Microsoft Learn platform and teaches you how to get started.
 
 Sharing your expertise with others on Microsoft Learn helps everyone achieve more. Use the information in this guide to publish a new article to Microsoft Learn, update a published article, answer questions on Microsoft Q&A, and more.
 
+## Who can contribute?
+
+You, your parent, your sibling, your best friend -- anyone can contribute to Microsoft Learn! If you have expertise to share, you're in the right place.
+
+This guide is intended for any non-Microsoft employee who wants to contribute their knowledge to the content and experiences on Microsoft Learn. (If you're a Microsoft employee, use our internal [content contributor guides](https://review.learn.microsoft.com/help) instead.)
+
 ## How do I start?
 
-First, set up a few accounts. You'll need a [GitHub account](#set-up-a-github-account) or a [Microsoft account](#set-up-a-microsoft-account), depending on how you want to participate. The following table shows your contribution options and the type of account you'll need to participate.
+First, set up a few accounts. You'll need a [GitHub account](#set-up-a-github-account) or a [Microsoft account](#set-up-a-microsoft-account), depending on how you want to participate. The following table shows your contribution options and the type of account you'll need.
 
 Once you've set up your accounts, select a contribution option from the table to learn more about how to get started.
 
@@ -28,7 +34,7 @@ Once you've set up your accounts, select a contribution option from the table to
 |[Create GitHub issues](how-to-create-github-issues.md)     | GitHub         |
 |[Answer questions on Microsoft Q&A]()     | Microsoft        |
 |[Create a Collection](collections.md)     | Microsoft        |
-|[Participate in the Microsoft Learn Tech Community]()     | Microsoft         |
+|[Participate in the Microsoft Learn Tech Community](https://techcommunity.microsoft.com/t5/microsoft-learn/ct-p/MicrosoftLearn)     | Microsoft         |
 
 ### Create a GitHub account
 

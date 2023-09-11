@@ -59,11 +59,12 @@
 - name: Create and manage Collections
   href: collections.md
 - name: Respond to Q&A
-- name: Connect with other experts
-- name: Contributor program
-  items:
-    - name: Overview
-    - name: Contributor stories program
+- name: Connect with other experts in Tech Community
+  href: https://techcommunity.microsoft.com/t5/microsoft-learn/ct-p/MicrosoftLearn
+#- name: Contributor program (future topic)
+#  items:
+#    - name: Overview
+#    - name: Contributor stories program
 - name: Writing resources
   items:
     - name: Markdown reference
