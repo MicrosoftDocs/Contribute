@@ -122,71 +122,53 @@ To *fork* a repository means to create a copy of it in your GitHub account. A pe
 
 1. When prompted to authenticate via the browser, choose the "Sign in with your browser" button and complete the process. Be sure to download the [latest version of Git](https://git-scm.com/download/win), which supports authentication via browser functionality. If you choose to use a GitHub personal access token, you can generate one following these instructions: [Create a personal access token](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token).
 
-   The clone command downloads the repository files from your fork into a new folder in the location you chose in Step 3.
-
-Using Git Bash, prepare to run the **clone** command to pull a copy of a repository (your fork) down to your device on the current directory. 
-
-### Authenticate by using Git Credential Manager
-If you installed the latest version of Git for Windows and accepted the default installation, Git Credential Manager is enabled by default. Git Credential Manager makes authentication much easier because you don't need to recall your personal access token when re-establishing authenticated connections and remotes with GitHub.
-
-1. Run the **clone** command, by providing the repository name. Cloning downloads (clone) the forked repository on your local computer. 
-
-    > [!Tip]
-    > You can get your fork's GitHub URL for the clone command from the **Clone or download** button in the GitHub UI:
-    >
-    > ![Clone or download](./media/contribute-get-started-setup-local/clone-or-download.png)
-
-    Be sure to specify the path to *your fork* during the cloning process, not the main repository from which you created the fork. Otherwise, you cannot contribute changes. Your fork is referenced through your personal GitHub user account, such as `github.com/<github-username>/<repo>`.
-
-    ```bash
-    git clone https://github.com/<github-username>/<repo>.git
-    ```
-
-    Your clone command should look similar to this example:
-
-    ```bash
-    git clone https://github.com/smithj/azure-docs.git
-    ```
-
-2. When you're prompted, enter your GitHub credentials.
-
-    ![GitHub Login](./media/contribute-get-started-setup-local/github-login.png)
-
-3. When you're prompted, enter your two-factor authentication code.
-
-    ![GitHub two-factor authentication](./media/contribute-get-started-setup-local/github-2fa.png)
-
-    > [!Note]
-    > Your credentials will be saved and used to authenticate future GitHub requests. You only need to do this authentication once per computer. 
-
-4. The clone command runs and downloads a copy of the repository files from your fork into a new folder on the local disk. A new folder is made within the current folder. It may take a few minutes, depending on the repository size. You can explore the folder to see the structure once it is finished.
+   The clone command downloads the repository files from your fork into a new folder in the location you chose in Step 3. A new folder is made within the current folder. It may take a few minutes, depending on the repository size. You can explore the folder to see the structure once it's finished.
 
 ## Set up remotes
 
-After cloning the repository, set up a read-only remote connection to the main repository named **upstream**. You use the upstream URL to keep your local repository in sync with the latest changes made by others. The **git remote** command is used to set the configuration value. You use the **fetch** command to refresh the branch info from the upstream repository.
+After cloning the repository, set up a read-only remote connection to the main repository named **upstream**. *Remotes* are aliases that refer to remote repositories. *Origin* refers to your fork, and *upstream* refers to the production repository. Git automatically created the `origin` remote when you ran the `clone` command. You use the upstream URL to keep your local repository in sync with the latest changes made by others. 
 
-1. If you're using **Git Credential Manager**, use the following commands. Replace the \<repo\> and \<organization\> placeholders.
-   ```bash
-   cd <repo>
-   git remote add upstream https://github.com/<organization>/<repo>.git
-   git fetch upstream
+Run the following commands in either **Git Bash** or **VS Code Terminal**.
+
+1. Change directory (`cd`) into the repository folder that the `clone` command created.  For example:
+
+    ```Console
+    cd repo-name-pr
+    ```
+
+1. Run the following command to add a remote named `upstream` that points to the production repository. For example, the `upstream` repository URL is `https://github.com/MicrosoftDocs/azure-docs.git` rather than `https://github.com/nancydavolio/azure-docs.git`.
+
+   ```Console
+   git remote add upstream <the clone URL of the main repo>
    ```
 
-2. View the configured values and confirm the URLs are correct. Ensure the **origin** URLs point to your personal fork. Ensure the **upstream** URLs point to the main repository, such as MicrosoftDocs or Azure. 
-   ```bash
-   git remote -v 
+   For example:
+
+   ```Console
+   git remote add upstream https://github.com/MicrosoftDocs/azure-docs.git
    ```
 
-   Example remote output is shown. A fictitious git account named MyGitAccount is configured with a personal access token to access the repo azure-docs:
-   ```output
-   origin  https://github.com/MyGitAccount/azure-docs.git (fetch)
-   origin  https://github.com/MyGitAccount/azure-docs.git(push)
+1. Run the following command to make sure your remotes are correct:
+
+   ```Console
+   git remote -v
+   ```
+
+   Example of output:
+
+   ```Console
+   origin  https://github.com/nancydavolio/azure-docs.git (fetch)
+   origin  https://github.com/nancydavolio/azure-docs.git (push)
    upstream        https://github.com/MicrosoftDocs/azure-docs.git (fetch)
    upstream        https://github.com/MicrosoftDocs/azure-docs.git (push)
    ```
 
-3. If you made a mistake, you can remove the remote value. To remove the upstream value, run the command `git remote remove upstream`.
+1. If you made a mistake, remove the remote and repeat the step to add it. To remove `upstream`, run the command:
+
+    ```Console
+    git remote remove upstream
+    ```
 
 ## Next steps
 
-- To learn more about adding and updating content, continue to the [Make major changes](how-to-write-major-edits.md).
+* To learn more about adding and updating content, continue to [Make major changes](how-to-write-major-edits.md).
