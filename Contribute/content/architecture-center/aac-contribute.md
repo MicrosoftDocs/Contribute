@@ -21,7 +21,7 @@ The Azure Architecture Center helps customers design, build, and operate solutio
 |-----------|---------|------------|
 | Azure Well-Architected Framework | A set of guiding tenets to improve the quality of a workload. The framework consists of five pillars of architectural excellence, to help produce a high quality, stable, and efficient cloud architecture: reliability, security, cost optimization, operational excellence, and performance efficiency. | https://github.com/microsoftdocs/well-architected |
 | Cloud Adoption Framework for Azure | A full lifecycle framework that enables cloud architects, IT professionals, and business decision makers to achieve their cloud adoption goals. Best practices, documentation, and tools help you create and implement business and technology strategies for the cloud. | https://github.com/microsoftdocs/cloud-adoption-framework |
-| Patterns and Practices | Guidance for architecting solutions on Azure using established patterns and practices, incorporating the 5 pillars of architectural excellence. Use the technology choices and guides to determine the services that are right for your solution or industry. | https://github.com/microsoftdocs/architecture-center | 
+| Patterns and Practices | Guidance for architecting solutions on Azure using established patterns and practices, incorporating the five pillars of architectural excellence. Use the technology choices and guides to determine the services that are right for your solution or industry. | https://github.com/microsoftdocs/architecture-center | 
 
 ## Edit an existing article
 
@@ -31,8 +31,8 @@ To get started, make note of the repository where you want to contribute as ment
 
 ## Submit a new article
 
-If you are a customer or partner, please work with your Microsoft representative or contact to submit new content, including article content and related code. Your Microsoft representative will marshal your contribution through the correct internal process.
+If you're a customer or partner, please work with your Microsoft representative or contact to submit new content, including article content and related code. Your Microsoft representative will marshal your contribution through the correct internal process.
 
-If you are a Microsoft employee, please use the appropriate private repository for your contribution.
+If you're a Microsoft employee, use the appropriate private repository for your contribution.
 
-If you have any questions, please contact [TBD](mailto:tbd@microsoft.com?subject=Azure%20Architecture%20Center%20contribution)
+If you have any questions, contact [TBD](mailto:tbd@microsoft.com?subject=Azure%20Architecture%20Center%20contribution)
