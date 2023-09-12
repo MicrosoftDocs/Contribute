@@ -35,4 +35,4 @@ If you are a customer or partner, please work with your Microsoft representative
 
 If you are a Microsoft employee, please use the appropriate private repository for your contribution.
 
-If you have any questions, please contact [TBD](mailto:tbd@microsoft.com)
+If you have any questions, please contact [TBD](mailto:tbd@microsoft.com?subject=Azure%20Architecture%20Center%20contribution)
