@@ -75,15 +75,7 @@
         - name: .NET naming in docs
           href: dotnet/net-core-5-naming.md
     - name: Azure Architecture Center
-      items:
-        - name: Contributions
-          href: architecture-center/aac-contribute.md
-        - name: Architecture Guide templates
-          href: architecture-center/guide-templates.md
-        - name: Solution Idea templates
-          href: architecture-center/solution-idea-templates.md
-        - name: Example Workload templates
-          href: architecture-center/sample-solution-templates.md
+      href: architecture-center/aac-contribute.md
     - name: PowerShell-Docs
       href: powershell-overview.md
 - name: Create and manage Collections
