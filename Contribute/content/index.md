@@ -21,7 +21,7 @@ Several of the Microsoft documentation sets are open source and hosted on GitHub
 - _reviewing in the open_ to achieve helpful community appraisal of materials
 - _updating in the open_ to make it easier to continuously improve the content
 
-Start contributing by [editing a document you're viewing](#quick-edits-to-documentation). Or help by [reviewing new topics](#review-open-prs) or [creating quality issues](#create-quality-issues).
+Start contributing by [editing a document you're viewing](#quick-edits-to-documentation). Or help by [reviewing new topics](#review-open-prs) or [creating quality issues](#create-github-issues).
 
 > [!IMPORTANT]
 > All repositories that publish to Microsoft Learn have adopted the [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/) or the [.NET Foundation Code of Conduct](https://dotnetfoundation.org/code-of-conduct). For more information, see the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/). Contact [opencode@microsoft.com](mailto:opencode@microsoft.com) or [conduct@dotnetfoundation.org](mailto:conduct@dotnetfoundation.org) with any questions or comments.<br>
