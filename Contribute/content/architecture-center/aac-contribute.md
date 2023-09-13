@@ -21,7 +21,7 @@ The [Azure Architecture Center](/azure/architecture) helps customers design, bui
 
 ## Propose changes to an existing article
 
-You can propose small changes to an existing article on Azure Architecture Center if you see a typo or want to make a correction, add a link, or add more details. Please ensure that your contribution is technically accurate, and provides helpful or valuable information in the context of the article. To get started, click the "Edit this document" pencil icon in the upper right corner of the page you'd like to contribute to. See [the contributor guide overview](../index.md) for complete details.
+You can propose small changes to an existing article on Azure Architecture Center if you see a typo or want to make a correction, add a link, or add more details. Please ensure that your contribution is technically accurate, and provides helpful or valuable information in the context of the article. To get started, click the "Edit this document" pencil icon in the upper right corner of the page you'd like to contribute to. See [the contributor guide overview](../index.md#quick-edits-to-documentation) for complete details and more.
 
 ## Submit a content suggestion
 
