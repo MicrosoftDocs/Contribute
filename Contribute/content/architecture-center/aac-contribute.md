@@ -29,6 +29,6 @@ If you would like to propose new content or substantial changes to existing cont
 
 [Azure Well-Architected Framework proposal](https://github.com/MicrosoftDocs/well-architected/issues/new?title=Content%20suggestion&body=Provide%20a%20detailed%20description%20of%20your%20proposal,%20including%20links%20to%20related%20or%20impacted%20articles,%20and%20any%20relevant%20attachments:)
 
-[Cloud Adoption Framework for Azure](https://github.com/MicrosoftDocs/cloud-adoption-framework/issues/new?title=Content%20suggestion&body=Provide%20a%20detailed%20description%20of%20your%20proposal,%20including%20links%20to%20related%20or%20impacted%20articles,%20and%20any%20relevant%20attachments:)
+[Cloud Adoption Framework for Azure proposal](https://github.com/MicrosoftDocs/cloud-adoption-framework/issues/new?title=Content%20suggestion&body=Provide%20a%20detailed%20description%20of%20your%20proposal,%20including%20links%20to%20related%20or%20impacted%20articles,%20and%20any%20relevant%20attachments:)
 
-[Patterns and Practices](https://github.com/MicrosoftDocs/architecture-center-pr/issues/new?title=Content%20suggestion&body=Provide%20a%20detailed%20description%20of%20your%20proposal,%20including%20links%20to%20related%20or%20impacted%20articles,%20and%20any%20relevant%20attachments:)
+[Patterns and Practices proposal](https://github.com/MicrosoftDocs/architecture-center-pr/issues/new?title=Content%20suggestion&body=Provide%20a%20detailed%20description%20of%20your%20proposal,%20including%20links%20to%20related%20or%20impacted%20articles,%20and%20any%20relevant%20attachments:)
