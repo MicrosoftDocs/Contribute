@@ -209,6 +209,21 @@
             "source_path": "Contribute/text-formatting-guidelines.md",
             "redirect_url": "/contribute/content/text-formatting-guidelines",
             "redirect_document_id": true
+        },
+        {
+            "source_path": "Contribute/content/architecture-center/guide-templates.md",
+            "redirect_url": "/contribute/content/architecture-center/aac-contribute",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "Contribute/content/architecture-center/sample-solution-templates.md",
+            "redirect_url": "/contribute/content/architecture-center/aac-contribute",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "Contribute/content/architecture-center/solution-idea-templates.md",
+            "redirect_url": "/contribute/content/architecture-center/aac-contribute",
+            "redirect_document_id": false
         }
     ]
 }
