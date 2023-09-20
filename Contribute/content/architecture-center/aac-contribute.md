@@ -27,7 +27,7 @@ You can propose small changes to an existing content if you see a typo or want t
 
 If you would like to propose new content or substantial changes to existing content, use the links below to file a GitHub issue in the appropriate repository:
 
-[Azure Architecture Center proposal](https://github.com/MicrosoftDocs/architecture-center-pr/issues/new?title=Content%20suggestion&body=Provide%20a%20detailed%20description%20of%20your%20proposal,%20including%20links%20to%20related%20or%20impacted%20articles,%20and%20any%20relevant%20attachments:)
+[Azure Architecture Center proposal](https://github.com/MicrosoftDocs/architecture-center/issues/new?title=Content%20suggestion&body=Provide%20a%20detailed%20description%20of%20your%20proposal,%20including%20links%20to%20related%20or%20impacted%20articles,%20and%20any%20relevant%20attachments:)
 
 [Azure Well-Architected Framework proposal](https://github.com/MicrosoftDocs/well-architected/issues/new?title=Content%20suggestion&body=Provide%20a%20detailed%20description%20of%20your%20proposal,%20including%20links%20to%20related%20or%20impacted%20articles,%20and%20any%20relevant%20attachments:)
 
