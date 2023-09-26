@@ -4,7 +4,7 @@ description: Learn how to discover which Microsoft Learn repositories participat
 
 author: IEvangelist
 ms.author: dapine
-ms.date: 10/03/2022
+ms.date: 09/26/2023
 ms.topic: contributor-guide
 ms.prod: non-product-specific
 ms.custom: external-contributor-guide
@@ -24,9 +24,12 @@ To filter all Microsoft Learn and .NET repos that have the **hacktoberfest** top
 
 Alternatively, a repository may choose to use the `Hacktoberfest` label instead. This label is convenient for filtering issues. For more information, see [Filtering issues and pull requests by labels](https://docs.github.com/github/administering-a-repository/finding-information-in-a-repository/filtering-issues-and-pull-requests-by-labels).
 
+> [!TIP]
+> If your a repo Admin and you want to allow your repo to participate in Hacktoberfest, add the `hacktoberfest` topic to the repo. For more information, see [Classifying your repository with topics](https://docs.github.com/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/classifying-your-repository-with-topics).
+
 ## Contribute
 
-To contribute to an open source repo, you must first configure your account to contribute to Microsoft Learn. If you have never completed this process, start by [signing up for a GitHub account](./get-started-setup-github.md).
+To contribute to an open source repo, you must first configure your account to contribute to Microsoft Learn. If you have never completed this process, start by [signing up for a GitHub account](./get-started-setup-github.md). You must also register a profile to track your efforts, see [Hacktoberfest](https://hacktoberfest.com/).
 
 Once your account is configured, start by reading through and adhering to the _CONTRIBUTING.md_ file at the root of the repository you want to contribute to. These files serve as a guide when contributing. Here are a few example contributor guides from some popular Microsoft Learn repos:
 
@@ -38,6 +41,8 @@ In addition to the contributing Markdown file, if a repository has a *CODE_OF_CO
 - [.NET Docs: Code of Conduct](https://github.com/dotnet/docs/blob/main/CODE_OF_CONDUCT.md)
 - [Azure Docs: Code of Conduct](https://github.com/MicrosoftDocs/azure-docs/blob/main/CODE_OF_CONDUCT.md)
 
+For more information, see [Hacktoberfest: Participation].
+
 ### Choose an issue
 
 To find an issue to work on in a participating repository, filter the issues for either the `up-for-grabs` or `help-wanted` GitHub labels. While you can address other issues, it's easier to focus on issues that have a well-defined scope and are self-contained. In addition to the Microsoft Learn repos, you can use the following sites for beginners:
@@ -47,7 +52,6 @@ To find an issue to work on in a participating repository, filter the issues for
 - [First timers only](https://www.firsttimersonly.com)
 
 For more information, see [Hacktoberfest: Beginners](https://hacktoberfest.com/participation/#beginner-resources).
-
 
 ### Quality expectations
 
@@ -77,4 +81,4 @@ If you're proposing a PR without a corresponding issue, create an issue first. F
 
 - [GitHub account setup](get-started-setup-github.md)
 - [Git and GitHub essentials for Microsoft Learn documentation](git-github-fundamentals.md)
-- [Official Hacktoberfest site](https://hacktoberfest.com/)
+- [Official Hacktoberfest site](https://hacktoberfest.com)
