@@ -25,7 +25,7 @@ To filter all Microsoft Learn and .NET repos that have the **hacktoberfest** top
 Alternatively, a repository may choose to use the `Hacktoberfest` label instead. This label is convenient for filtering issues. For more information, see [Filtering issues and pull requests by labels](https://docs.github.com/github/administering-a-repository/finding-information-in-a-repository/filtering-issues-and-pull-requests-by-labels).
 
 > [!TIP]
-> If your a repo Admin and you want to allow your repo to participate in Hacktoberfest, add the `hacktoberfest` topic to the repo. For more information, see [Classifying your repository with topics](https://docs.github.com/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/classifying-your-repository-with-topics).
+> If you're a repo admin and you want to allow your repo to participate in Hacktoberfest, add the `hacktoberfest` topic to the repo. For more information, see [Classifying your repository with topics](https://docs.github.com/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/classifying-your-repository-with-topics).
 
 ## Contribute
 
