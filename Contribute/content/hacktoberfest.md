@@ -29,7 +29,7 @@ Alternatively, a repository may choose to use the `Hacktoberfest` label instead.
 
 ## Contribute
 
-To contribute to an open source repo, you must first configure your account to contribute to Microsoft Learn. If you have never completed this process, start by [signing up for a GitHub account](./get-started-setup-github.md). You must also register a profile to track your efforts, see [Hacktoberfest](https://hacktoberfest.com/).
+To contribute to an open source repo, you must first configure your account to contribute to Microsoft Learn. If you have never completed this process, start by [signing up for a GitHub account](./get-started-setup-github.md). You must also register a profile to track your efforts. See [Hacktoberfest](https://hacktoberfest.com/).
 
 Once your account is configured, start by reading through and adhering to the _CONTRIBUTING.md_ file at the root of the repository you want to contribute to. These files serve as a guide when contributing. Here are a few example contributor guides from some popular Microsoft Learn repos:
 
@@ -41,7 +41,7 @@ In addition to the contributing Markdown file, if a repository has a *CODE_OF_CO
 - [.NET Docs: Code of Conduct](https://github.com/dotnet/docs/blob/main/CODE_OF_CONDUCT.md)
 - [Azure Docs: Code of Conduct](https://github.com/MicrosoftDocs/azure-docs/blob/main/CODE_OF_CONDUCT.md)
 
-For more information, see [Hacktoberfest: Participation].
+For more information, see [Hacktoberfest: Participation](https://hacktoberfest.com/participation).
 
 ### Choose an issue
 
