@@ -12,9 +12,9 @@ ms.custom: external-contributor-guide
 
 # Metadata for Microsoft Learn documentation
 
-We use metadata on Microsoft Learn for reporting, discoverability of the content via search, and driving aspects of the site experience. Metadata can be applied in the article (in the YAML front matter) or globally in the *docfx.json* file for the repo.
+We use metadata on Microsoft Learn for content analytics reporting, discoverability of content via search, and driving aspects of the site experience. Metadata can be applied in the article (in the YAML front matter) or globally in the *docfx.json* file for the repo.
 
-If you're making an edit to an existing article, you probably won't have to change any metadata. However, if you're adding a new article, there are certain required metadata values that you'll need to include in the YAML front matter of the file.
+If you're making an edit to an existing article, you probably won't have to change any metadata. However, if you're adding a new article, there are certain required metadata attributes that you'll need to include in the YAML front matter of the file.
 
 Here's an example of metadata applied in the YAML front matter of a Markdown article:
 
@@ -32,17 +32,17 @@ ms.topic: getting-started  # the type of article
 
 ## Required metadata
 
-The following table shows the required metadata keys. If you omit any of these, you'll likely get a validation error during build.
+The following table shows the required metadata attributes. If you omit any of these, you'll likely get a validation error during build.
 
 | Field | Value | Why? |
 | ----- | ----- | ---- |
-| `author` | The author's GitHub account ID. | Identifies the author by GitHub ID in case there are questions about or problems with the content. In some cases, GitHub automation might notify the author of activity involving the file. |
-| `description` |  A summary of the content. 75-300 characters. | Used in site search. Sometimes used on a search engine results page for improved SEO. |
-| `ms.author` | The author's Microsoft alias, *without* "@microsoft.com". If you aren't a Microsoft employee, find a suitable Microsoft employee to use in this field. | Identifies the article's owner. The owner is responsible for decisions about the content of the article, and for the article's reporting and BI. |
-| `ms.date` | A date in the format MM/DD/YYYY. | Displayed on the published page to indicate the last time the article was substantially edited or guaranteed fresh. The date is entered without time and is interpreted as 0:00 and in the UTC time zone. The date displayed to users is converted to their time zone. |
-| `ms.service` *or* <br/>`ms.prod` | The service or product identifier. Use one or the other, never both. This value is often set globally in the *docfx.json* file. | Used for issue triage and reporting. <br/><br/>Generally, use `ms.service` for cloud applications, and use `ms.prod` for on-premises servers and applications.|
-| `ms.topic`  | Usually one of the following values:<br/><br/>`article`, `conceptual`, `contributor-guide`, `interactive-tutorial`, `overview`, `quickstart`, `reference`, `sample`, `tutorial`. | Identifies the type of content for reporting purposes. |
-| `title` | The page title. | This is the page title that's displayed on the browser tab. It's the most important metadata for SEO. |
+| <code>author</code> | The author's GitHub account ID. | Identifies the author by GitHub ID in case there are questions about or problems with the content. In some cases, GitHub automation might notify the author of activity involving the file. |
+| <code>description</code> |  A summary of the content. 75-300 characters. | Used in site search. Sometimes used on a search engine results page for improved SEO. |
+| <code>ms.author</code> | The author's Microsoft alias, *without* "@microsoft.com". If you aren't a Microsoft employee, find a suitable Microsoft employee to use in this field. | Identifies the article's owner. The owner is responsible for decisions about the content of the article, and for the article's reporting and BI. |
+| <code>ms.date</code> | A date in the format MM/DD/YYYY. | Displayed on the published page to indicate the last time the article was substantially edited or guaranteed fresh. The date is entered without time and is interpreted as 0:00 and in the UTC time zone. The date displayed to users is converted to their time zone. |
+| <code>ms.service</code> *or* <br/><code>ms.prod</code> | The service or product identifier. Use one or the other, never both. This value is often set globally in the *docfx.json* file. | Used for issue triage and reporting. <br/><br/>The service or product a piece of content is most closely associated with. Use one or the other, but never both. ms.prod and ms.service are distinctions made that predate the Microsoft Learn platform, meant to distinguish between specific products run on a machine (on-prem) and the (early) cloud services.|
+| <code>ms.topic</code>  | Usually one of the following values:<br/><br/><code>article</code>, <code>conceptual</code>, <code>contributor-guide</code>, <code>overview</code>, <code>quickstart</code>, <code>reference</code>, <code>sample</code>, <code>tutorial</code>. | Identifies the type of content for reporting purposes. |
+| <code>title</code> | The page title. | This is the page title that's displayed on the browser tab. It's the most important metadata for SEO. |
 
 Attributes are case-sensitive. Enter them exactly as listed, and use a colon and a space between the attributes and the value. If an attribute value includes a colon (:), a hash (#), or any other special character, you must enclose it either single (') or double (") quotes. For example:
 
@@ -69,3 +69,5 @@ In addition to the required metadata, there are many optional metadata keys you 
 ## See also
 
 - [Metadata explorer](docs-authoring/metadata-explorer.md)
+
+
