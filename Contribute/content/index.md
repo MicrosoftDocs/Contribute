@@ -53,6 +53,8 @@ Quick edits streamline the process to report and fix small errors and omissions 
 1. When you're finished editing, select the **Commit changes** or **Propose changes** button, usually at the top-right of the screen.
 
 1. Enter a commit message. The commit message becomes the title of your PR and should be a brief summary of your changes (for example, "Fix spelling and grammar errors"). Optionally, add an **Extended description** to give more details about your changes. Select **Propose changes**:
+2. 
+Here's ,y change
 
    :::image type="content" source="media/index/commit-changes.png" alt-text="Screenshot of the propose changes pop-up.":::
 
