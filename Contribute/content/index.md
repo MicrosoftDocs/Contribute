@@ -30,16 +30,16 @@ Once you've set up your accounts, select a contribution option from the table to
 |Contribution option  |Account required  |
 |---------|---------|
 |[Edit documentation](how-to-write-overview.md)     | GitHub         |
-|[Review open pull requests](how-to-review-pull-request.md)     | GitHub         |
+|[Review pull requests](how-to-review-pull-request.md)     | GitHub         |
 |[Create GitHub issues](how-to-create-github-issues.md)     | GitHub         |
-|[Answer questions on Microsoft Q&A]()     | Microsoft        |
+|[Answer questions on Microsoft Q&A](qna-overview.md)     | Microsoft        |
 |[Create a Collection](collections.md)     | Microsoft        |
 |[Participate in the Microsoft Learn Tech Community](https://techcommunity.microsoft.com/t5/microsoft-learn/ct-p/MicrosoftLearn)     | Microsoft         |
 
 ### Create a GitHub account
 
 1. Navigate to [https://github.com/join](https://github.com/join) for a fast and free sign-up process.
-1. Identify any affiliations in your GitHub profile. Contributions to Microsoft Learn count toward [MVP award](https://mvp.microsoft.com/) consideration. Identification helps us build a complete profile of all your activities.
+1. In your GitHub profile, identify your affiliations, like professional organizations you belong to or credentials/certifications you've earned. Contributions to Microsoft Learn count toward [MVP award](https://mvp.microsoft.com/) consideration. Identification helps us build a complete profile of all your activities.
 
 >[!NOTE]
 > Microsoft employees participating in Open Source projects always identify themselves as such in their GitHub profiles. Community contributors should ensure that their profile does not incorrectly imply an employment relationship.

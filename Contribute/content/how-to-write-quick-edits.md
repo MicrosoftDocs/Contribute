@@ -49,7 +49,7 @@ We use PRs for all changes, even for contributors who have write access. Most re
 
    :::image type="content" source="media/how-to-write-quick-edits/create-pull-request.png" alt-text="Screenshot of the comparing changes screen.":::
 
-   Select **compare across forks** and make sure your branch configuration looks like that shown above. Your PR should propose changes from your fork and branch (represented by the two items on the right side of the arrow) into the MicrosoftDocs repo's fork and `main` branch (represented by the two items on the left side of the arrow). You may have to select the dropdown boxes to adjust the repo and branch names.
+   Your PR proposes changes from your fork and branch (represented by the two items on the right side of the arrow) into the documentation repo's main fork and `main` branch (represented by the two items on the left side of the arrow).
 
    Review your changes, and then select **Create pull request**.
 
@@ -63,5 +63,5 @@ We use PRs for all changes, even for contributors who have write access. Most re
 
 ## Limitations
 
-- Most localized documentation doesn't offer the ability to edit or provide feedback through GitHub. To provide feedback on localized content, use the [Provide Feedback](https://aka.ms/provide-feedback) form.
-- The in-browser editing experience works best for minor or infrequent changes. If you make large contributions or use advanced Git features (such as branch management or advanced merge conflict resolution), we recommend that you [fork the repo and work locally](how-to-write-workflows-major.md).
+- Most localized (i.e., translated) documentation doesn't offer the ability to edit or provide feedback through GitHub. To provide feedback on localized content, use the [Provide Feedback](https://aka.ms/provide-feedback) form.
+- The in-browser editing experience works best for minor and infrequent changes. If you make large contributions or use advanced Git features (such as branch management or advanced merge conflict resolution), we recommend that you [fork the repo and work locally](how-to-write-workflows-major.md).

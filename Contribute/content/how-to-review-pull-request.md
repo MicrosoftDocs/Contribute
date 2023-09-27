@@ -15,8 +15,7 @@ This article explains how to contribute to Microsoft Learn by reviewing pull req
 
 With PR comments and reviews, you can:
 
-- Add and reply to [comments on the PR](#how-to-review-a-github-pull-request).
-- Add and reply to comments added by your reviewers in [PR review](#respond-to-a-peer-review-on-your-pr).
+- Add and reply to comments on the PR.
 - React to comments with emojis like 👍, ❤️, and 🎉.
 
 ## Prerequisites

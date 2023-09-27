@@ -25,6 +25,6 @@ The process flow below shows the basic steps involved in getting started. Notice
 
 ## How large is your change?
 
-If you're making minor changes to an article, follow the steps in [Edit documentation in the browser](how-to-write-quick-edits.md). All you need is a GitHub account; you don't need to download and install any tools. Examples of minor changes are fixing typos, basic revisions to one or more articles, adding a section to an article, updating links, or contributing infrequently.
+If you're making minor changes to an article, follow the steps in [Edit documentation in the browser](how-to-write-quick-edits.md). All you need is a GitHub account; you don't need to download and install any tools. Examples of minor changes are fixing typos, basic revisions to one or more articles, adding a section to an article, or updating links.
 
 If you're making more substantial or frequent changes, we recommend [installing Git and Markdown tools](get-started-setup-tools.md) and [forking and cloning the repo](get-started-setup-local.md). Frequent contributors typically have ongoing (long-running) changes that go through multiple build-validation-staging cycles or span multiple days before they sign off on their pull request.

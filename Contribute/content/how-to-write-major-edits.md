@@ -14,9 +14,9 @@ ms.date: 08/31/2023
 > [!IMPORTANT]
 > All repositories that publish to Microsoft Learn have adopted either the [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/) or the [.NET Foundation Code of Conduct](https://dotnetfoundation.org/code-of-conduct). For more information, see the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/). Or contact [opencode@microsoft.com](mailto:opencode@microsoft.com), or [conduct@dotnetfoundation.org](mailto:conduct@dotnetfoundation.org) with any questions or comments.<br>
 >
-> Minor corrections or clarifications to documentation and code examples in public repositories are covered by the [learn.microsoft.com Terms of Use](/legal/termsofuse). New or significant changes will generate a comment in the pull request, asking you to submit an online Contribution License Agreement (CLA) if you are not an employee of Microsoft. You will need to complete the online form before your pull request can be merged.
+> Minor corrections or clarifications to documentation and code examples in public repositories are covered by the [learn.microsoft.com Terms of Use](/legal/termsofuse). Any changes will generate a comment in the pull request, asking you to submit an online Contribution License Agreement (CLA) if you are not an employee of Microsoft. You will need to complete the online form before your pull request can be merged.
 
-This article shows you how to change a Microsoft Learn article using local tools and is suitable for a contributor who needs to make a major change or will be a frequent contributor to a repository. Frequent contributors typically have ongoing or long-running change that go through multiple build/validation/staging cycles or span multiple days before they sign off on their pull request (PR).
+This article shows you how to change a Microsoft Learn article using local tools and is suitable for a contributor who needs to make a major change or will be a frequent contributor to a repository. Frequent contributors typically have ongoing or long-running changes that go through multiple build/validation/staging cycles or span multiple days before they sign off on their pull request (PR).
 
 Examples of these types of contributions include:
 
@@ -41,7 +41,7 @@ Before you start, let's review some Git/GitHub terms used in this workflow. Don'
 | Name | Description |
 |-----------|-------------|
 |fork|Normally used as a noun when referring to a copy of a main GitHub repository. In practice, a fork is just another repository. But it's special in the sense that GitHub maintains a connection back to the main/parent repository. It's sometimes used as a verb, as in "You must fork the repository first."|
-|remote|A named connection to a remote repository, such as the "origin" or "upstream" remote. Git refers to this as remote because it's used to reference a repository that's hosted on another computer. In this workflow, a remote is always a GitHub repository.|
+|remote|A named connection to a remote repository, such as the "origin" or "upstream" remote. Git refers to this as a remote because it's used to reference a repository that's hosted on another computer. In this workflow, a remote is always a GitHub repository.|
 |origin|The name assigned to the connection between your local repository and the repository from which it was cloned. In this workflow, origin represents the connection to your fork. It's sometimes used as a moniker for the origin repository itself, as in "Remember to push your changes to origin."|
 |upstream|Like the origin remote, upstream is a named connection to another repository. In this workflow, upstream represents the connection between your local repository and the main repository, from which your fork was created. It's sometimes used as a moniker for the upstream repository itself, as in "Remember to pull the changes from upstream."|
 
@@ -132,9 +132,9 @@ You can use the VS Code terminal or the VS Code UI to commit and push your chang
 
    Alternatively, you can run `git add .` (note the period after `add`) to automatically stage all the changes you made. This method is faster but can cause problems by including changes you made by accident.
 
-1. Run `git status` again to confirm what changes will be staged.
+1. Run `git status` again to confirm what changes were staged.
 
-1. Run the `git commit` command followed by a commit message to save the changes on your local cloned repository.
+1. Run the `git commit` command followed by a commit message to save the changes in your local cloned repository.
 
     ```Console
     git commit -m "your commit message"

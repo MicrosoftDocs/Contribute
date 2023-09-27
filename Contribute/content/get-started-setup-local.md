@@ -49,7 +49,7 @@ Documentation hosted at [Microsoft Learn](/) resides in several repositories on 
    * SQL Server documentation [https://github.com/MicrosoftDocs/sql-docs](https://github.com/MicrosoftDocs/sql-docs)
    * Visual Studio documentation [https://github.com/MicrosoftDocs/visualstudio-docs](https://github.com/MicrosoftDocs/visualstudio-docs)
    * .NET Documentation [https://github.com/dotnet/docs](https://github.com/dotnet/docs)
-   * Azure .Net SDK documentation [https://github.com/azure/azure-docs-sdk-dotnet](https://github.com/azure/azure-docs-sdk-dotnet)
+   * Azure .NET SDK documentation [https://github.com/azure/azure-docs-sdk-dotnet](https://github.com/azure/azure-docs-sdk-dotnet)
    * ConfigMgr documentation [https://github.com/MicrosoftDocs/SCCMdocs](https://github.com/MicrosoftDocs/SCCMdocs/)
 
 ## Fork the repository
@@ -89,7 +89,7 @@ To *fork* a repository means to create a copy of it in your GitHub account. A pe
 1. Select the **\<> Code** tab at the top left of the page.
 1. On the right-side, from the **Code** drop-down, copy the URL under the **HTTPS** option.
 
-   :::image type="content" source="/media/get-started-setup-local/code-drop-down.png" alt-text="Screenshot showing how to copy the clone HTTPS URL in GitHub.":::
+   :::image type="content" source="media/get-started-setup-local/code-drop-down.png" alt-text="Screenshot showing how to copy the clone HTTPS URL in GitHub.":::
 
 >[!IMPORTANT]
 >You copied the clone URL via the GitHub UI. The rest of the steps should be performed in **VS Code Terminal**.
@@ -133,7 +133,7 @@ Run the following commands in either **Git Bash** or **VS Code Terminal**.
 1. Change directory (`cd`) into the repository folder that the `clone` command created.  For example:
 
     ```Console
-    cd repo-name-pr
+    cd repo-name
     ```
 
 1. Run the following command to add a remote named `upstream` that points to the production repository. For example, the `upstream` repository URL is `https://github.com/MicrosoftDocs/azure-docs.git` rather than `https://github.com/nancydavolio/azure-docs.git`.

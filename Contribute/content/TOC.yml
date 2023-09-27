@@ -20,38 +20,6 @@
       href: git-github-fundamentals.md
     - name: Write for Hacktoberfest
       href: hacktoberfest.md
-    - name: Documentation set-specific guidance
-      items:
-        - name: .NET docs
-          items:
-            - name: How to contribute
-              href: dotnet/dotnet-contribute.md
-            - name: Labels, projects, and milestones roadmap
-              href: dotnet/labels-projects.md
-            - name: Style conventions
-              href: dotnet/dotnet-style-guide.md
-            - name: Voice and tone guide
-              href: dotnet/dotnet-voice-tone.md
-            - name: API reference guidelines
-              href: dotnet/api-documentation.md
-            - name: Pull request review process
-              href: dotnet/dotnet-pr-review.md
-            - name: Code analysis docs
-              href: dotnet/dotnet-contribute-code-analysis.md
-            - name: .NET naming in docs
-              href: dotnet/net-core-5-naming.md
-        - name: Azure Architecture Center
-          items:
-            - name: Contributions
-              href: architecture-center/aac-contribute.md
-            - name: Architecture Guide templates
-              href: architecture-center/guide-templates.md
-            - name: Solution Idea templates
-              href: architecture-center/solution-idea-templates.md
-            - name: Example Workload templates
-              href: architecture-center/sample-solution-templates.md
-        - name: PowerShell-Docs
-          href: powershell-overview.md
 - name: Review pull requests
   href: how-to-review-pull-request.md
 - name: Create GitHub issues
@@ -59,6 +27,7 @@
 - name: Create and manage Collections
   href: collections.md
 - name: Respond to Q&A
+  href: qna-overview.md
 - name: Connect with other experts in Tech Community
   href: https://techcommunity.microsoft.com/t5/microsoft-learn/ct-p/MicrosoftLearn
 #- name: Contributor program (future topic)
@@ -107,5 +76,27 @@
           href: docs-authoring/sort-selection.md
         - name: Jupyter notebooks
           href: docs-authoring/jupyter-notebooks.md
-- name: Git and GitHub resources
-  href: additional-resources.md
+- name: Documentation set-specific guidance
+  items:
+      - name: .NET docs
+        items:
+          - name: How to contribute
+            href: dotnet/dotnet-contribute.md
+          - name: Labels, projects, and milestones roadmap
+            href: dotnet/labels-projects.md
+          - name: Style conventions
+            href: dotnet/dotnet-style-guide.md
+          - name: Voice and tone guide
+            href: dotnet/dotnet-voice-tone.md
+          - name: API reference guidelines
+            href: dotnet/api-documentation.md
+          - name: Pull request review process
+            href: dotnet/dotnet-pr-review.md
+          - name: Code analysis docs
+            href: dotnet/dotnet-contribute-code-analysis.md
+          - name: .NET naming in docs
+            href: dotnet/net-core-5-naming.md
+      - name: Patterns and Practices (AAC, WAF, CAF)
+        href: architecture-center/aac-contribute.md
+      - name: PowerShell-Docs
+        href: powershell-overview.md
