@@ -1,23 +1,45 @@
-- name: Contributor guide overview and browser-based tasks
+- name: Contributor guide overview
   href: index.md
-- name: Set up and work locally
+- name: Edit documentation
   items:
-    - name: 1. Sign up for GitHub
-      href: get-started-setup-github.md
-    - name: 2. Install Git and Markdown tools
-      href: get-started-setup-tools.md
-    - name: 3. Set up a local Git repository
-      href: get-started-setup-local.md
+    - name: Overview
+      href: how-to-write-overview.md
+    - name: Edit in the browser
+      href: how-to-write-quick-edits.md
+    - name: Work locally
+      items:
+        - name: 1. Install Git and Markdown tools
+          href: get-started-setup-tools.md
+        - name: 2. Set up a local Git repository
+          href: get-started-setup-local.md
+        - name: 3. Make major changes
+          href: how-to-write-major-edits.md
+    - name: Process a pull request
+      href: process-pull-request.md
     - name: Git and GitHub fundamentals
       href: git-github-fundamentals.md
-    - name: Full workflow
-      href: how-to-write-workflows-major.md
-- name: Writing essentials
+    - name: Write for Hacktoberfest
+      href: hacktoberfest.md
+- name: Review pull requests
+  href: how-to-review-pull-request.md
+- name: Create GitHub issues
+  href: how-to-create-github-issues.md
+- name: Create and manage Collections
+  href: collections.md
+- name: Respond to Q&A
+  href: qna-overview.md
+- name: Connect with other experts in Tech Community
+  href: https://techcommunity.microsoft.com/t5/microsoft-learn/ct-p/MicrosoftLearn
+#- name: Contributor program (future topic)
+#  items:
+#    - name: Overview
+#    - name: Contributor stories program
+- name: Writing resources
   items:
     - name: Markdown reference
       href: markdown-reference.md
       displayName: alerts notes tips important caution warnings apostrophes quotation marks quotes blockquotes bold italic code snippets columns headings html images includes links lists bullets bulleted checklist numbered next steps button localize non-localized section selector superscript subscript table tables tabs tabbed videos icons
-    - name: Style and voice quick start
+    - name: Style and voice quickstart
       href: style-quick-start.md
     - name: Microsoft Writing Style Guide
       href: /style-guide/
@@ -56,31 +78,25 @@
           href: docs-authoring/jupyter-notebooks.md
 - name: Documentation set-specific guidance
   items:
-    - name: .NET docs
-      items:
-        - name: How to contribute
-          href: dotnet/dotnet-contribute.md
-        - name: Labels, projects, and milestones roadmap
-          href: dotnet/labels-projects.md
-        - name: Style conventions
-          href: dotnet/dotnet-style-guide.md
-        - name: Voice and tone guide
-          href: dotnet/dotnet-voice-tone.md
-        - name: API reference guidelines
-          href: dotnet/api-documentation.md
-        - name: Pull request review process
-          href: dotnet/dotnet-pr-review.md
-        - name: Code analysis docs
-          href: dotnet/dotnet-contribute-code-analysis.md
-        - name: .NET naming in docs
-          href: dotnet/net-core-5-naming.md
-    - name: Patterns and Practices (AAC, WAF, CAF)
-      href: architecture-center/aac-contribute.md
-    - name: PowerShell-Docs
-      href: powershell-overview.md
-- name: Create and manage Collections
-  href: collections.md
-- name: Hacktoberfest
-  href: hacktoberfest.md
-- name: Additional resources
-  href: additional-resources.md
+      - name: .NET docs
+        items:
+          - name: How to contribute
+            href: dotnet/dotnet-contribute.md
+          - name: Labels, projects, and milestones roadmap
+            href: dotnet/labels-projects.md
+          - name: Style conventions
+            href: dotnet/dotnet-style-guide.md
+          - name: Voice and tone guide
+            href: dotnet/dotnet-voice-tone.md
+          - name: API reference guidelines
+            href: dotnet/api-documentation.md
+          - name: Pull request review process
+            href: dotnet/dotnet-pr-review.md
+          - name: Code analysis docs
+            href: dotnet/dotnet-contribute-code-analysis.md
+          - name: .NET naming in docs
+            href: dotnet/net-core-5-naming.md
+      - name: Patterns and Practices (AAC, WAF, CAF)
+        href: architecture-center/aac-contribute.md
+      - name: PowerShell-Docs
+        href: powershell-overview.md
