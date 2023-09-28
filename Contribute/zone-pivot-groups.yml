@@ -16,3 +16,11 @@ groups:
     title: Node.js
   - id: dotnet
     title: ASP.NET
+- id: contribute-tools-zone-pivots-os
+  title: os-zone-pivots
+  prompt: Choose the OS you'll work in
+  pivots:
+  - id: windows-os-pivot-selection
+    title: Windows
+  - id: mac-os-pivot-selection
+    title: macOS & Linux

@@ -6,6 +6,7 @@ ms.prod: non-product-specific
 ms.custom: external-contributor-guide
 ms.date: 06/30/2017
 ---
+
 # Git and GitHub essentials for Microsoft Learn documentation
 
 ## Overview
@@ -79,53 +80,22 @@ A *pull request* provides a convenient way for a contributor to propose a set of
 
 There are two ways to contribute by pull request, depending on the size of changes that you want to propose. We will cover this in detail later, in the [GitHub workflow](how-to-write-workflows-major.md) section of this guide.
 
-<!---- Reference links for landing pages, associated GitHub repositories, and related Forums matrix. ------------------>
-<!---- PLEASE INSERT URLS IN ASCENDING SORT ORDER, AND REMOVE LOCALE SEGMENT FROM URLS (that is, en-us) FOR LOCALIZED FORUMS! -->
-<!---- NOTE: these links are saved for future use in another/new article; no longer used above in this article --->
+## Learn more
 
-<!--
-[Visual-Studio-Page]:(/visualstudio/index)
-[Visual-Studio-Repo-Internal]:(https://github.com/Microsoft/vsdocs)
-[Visual-Studio-Repo-External]:(https://github.com/Microsoft/visualstudio-docs)
-[Visual-Studio-SO]: (https://stackoverflow.com/search?q=Visual+Studio+2017)
-[Dotnet-Page]: /dotnet
-[Dotnet-Core-Page]: /dotnet/articles/welcome
-[Dotnet-Core-Repo]: https://github.com/dotnet/learn
-[EM-ATA-Land]: /advanced-threat-analytics/
-[EM-ATA-Repo]: https://github.com/Microsoft/ATADocs
-[EM-AzureAD-Land]: /active-directory/
-[EM-AzureAD-Repo]: https://github.com/Azure/azure-content/tree/master/articles/active-directory/
-[EM-AzureRMS-Land]: /rights-management/
-[EM-AzureRMS-Repo]: https://github.com/Microsoft/Azure-RMSDocs
-[EM-Intune-Land]: /intune/
-[EM-Intune-Repo]: https://github.com/microsoft/intuneDocs
-[EM-Land-Page]: /enterprise-mobility/
-[EM-Land-Repo]: https://github.com/Microsoft/EMDocs/
-[EM-MFA-Land]: /multi-factor-authentication/
-[EM-MFA-Repo]: https://github.com/Azure/azure-content/tree/master/articles/multi-factor-authentication
-[EM-MIM-Land]: /microsoft-identity-manager/
-[EM-MIM-Repo]: https://github.com/Microsoft/MIMDocs
-[EM-RemoteApp-Land]: /remoteapp/
-[EM-RemoteApp-Repo]: https://github.com/Azure/azure-content/tree/master/articles/remoteapp
-[Forum-MSDN-ATA]: https://social.technet.microsoft.com/Forums/en-US/home?forum=mata
-[Forum-MSDN-AzureAD]: https://social.msdn.microsoft.com/Forums/en-US/home?forum=WindowsAzureAD
-[Forum-MSDN-AzureRMS]: https://social.technet.microsoft.com/Forums/en-US/home?forum=rmsapps%2Crmscloud&filter=alltypes&sort=lastpostdesc
-[Forum-MSDN-EM]: https://social.technet.microsoft.com/Forums/en-US/home?sort=relevancedesc&brandIgnore=True&searchTerm=Enterprise+Mobility
-[Forum-MSDN-Intune]: https://social.technet.microsoft.com/Forums/en-us/home?category=microsoftintune
-[Forum-MSDN-Main]: https://social.msdn.microsoft.com/Forums/home
-[Forum-MSDN-MFA]: https://social.msdn.microsoft.com/Forums/en-US/home?forum=windowsazureactiveauthentication
-[Forum-MSDN-MIM]: https://social.technet.microsoft.com/Forums/en-US/home?category=identitymanagement
-[Forum-MSDN-RemoteApp]: https://social.technet.microsoft.com/Forums/en-US/home?filter=alltypes&brandIgnore=True&sort=relevancedesc&searchTerm=Azure+Remote+or+RemoteApp
-[Forum-SO-AzureAD]: https://stackoverflow.com/questions/tagged/azure-active-directory
-[Forum-SO-AzureRMS]: https://stackoverflow.com/questions/tagged/rights-management
-[Forum-SO-Dotnet]: https://stackoverflow.com/questions/tagged/.net
-[Forum-SO-Dotnet-Core]: https://stackoverflow.com/questions/tagged/.net-core
-[Forum-SO-Main]: https://stackoverflow.com/tags
-[Forum-SO-Intune]: https://stackoverflow.com/questions/tagged/intune
-[Forum-SO-MFA]: https://stackoverflow.com/search?q=%5Bazure%5D+multi-factor
-[Forum-SO-MIM]: https://stackoverflow.com/search?q=Microsoft+Identity+Manager
-[Forum-SO-RemoteApp]: https://stackoverflow.com/questions/tagged/remoteapp
-[Forum-TechNet-Main]: https://social.technet.microsoft.com/Forums/home
-[Forum-Yammer-AzureRMS]: https://www.yammer.com/AskIPTeam
-[Forum-Yammer-Main]: https://www.yammer.com/
--->
+If you're unfamiliar with Git or GitHub, these resources can help you learn, be productive, or answer questions.
+
+### Git source-control resources
+
+- [Pro Git e-book (web)](https://go.microsoft.com/fwlink/?linkid=853940): A thorough Git reference, in HTML format.
+- [Pro Git e-book (PDF)](https://progit2.s3.amazonaws.com/en/2016-03-22-f3531/progit-en.1084.pdf): Same as the preceding link, in PDF form.
+- [Learn Git course from Codecademy](https://www.codecademy.com/learn/learn-git)
+- [Try Git course from Code School on Pluralsight](https://www.pluralsight.com/courses/code-school-git-real)
+- [Git and Github course from Udacity](https://www.udacity.com/course/how-to-use-git-and-github--ud775)
+
+### GitHub resources
+
+- [GitHub Hello World quickstart exercise](https://docs.github.com/get-started/quickstart/hello-world): Online tutorial that exposes you to the basics of Git using GitHub.
+- [GitHub Guides](https://guides.github.com/): The home of GitHub documentation.
+- [GitHub learning resources](https://help.github.com/articles/git-and-github-learning-resources/): Other useful GitHub resources.
+- [Glossary](https://help.github.com/articles/github-glossary): A handy glossary of Git and GitHub terms.
+- [GitHub student developer pack](https://education.github.com/pack): Free access to the best developer tools for students.
