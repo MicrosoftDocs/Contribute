@@ -4,6 +4,8 @@
   items:
     - name: Overview
       href: how-to-write-overview.md
+    - name: Testing for bugs
+      href: testing-for-bugs.md
     - name: Edit in the browser
       href: how-to-write-quick-edits.md
     - name: Work locally
