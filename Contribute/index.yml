@@ -35,7 +35,7 @@ sections:
           componentType: image
           src: media/get-started.png
       - componentType: icon-card
-        title: Respond to Q&A
+        title: Respond in Q&A
         summary: Answer questions to help others learn about Microsoft technologies.
         url: https://learn.microsoft.com/answers/questions/
         icon:
