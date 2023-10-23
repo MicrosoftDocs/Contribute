@@ -16,7 +16,7 @@ Welcome to the Microsoft Learn contributor guide! This documentation introduces 
 Sharing your expertise with others on Microsoft Learn helps everyone achieve more. Use the information in this guide to publish a new article to Microsoft Learn, update a published article, answer questions on Microsoft Q&A, and more.
 
 ## Who can contribute?
-
+Microsoft Learn hosts all documentation for Microsoft products and technologies.”
 You, your parent, your sibling, your best friend -- anyone can contribute to Microsoft Learn! If you have expertise to share, you're in the right place.
 
 This guide is intended for any non-Microsoft employee who wants to contribute their knowledge to the content and experiences on Microsoft Learn. (If you're a Microsoft employee, use our internal [content contributor guides](https://review.learn.microsoft.com/help) instead.)
