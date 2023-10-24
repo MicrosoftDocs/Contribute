@@ -60,6 +60,15 @@ sections:
   - componentType: testimonials-section
     title: Meet <span class="text-gradient-purple-blue">inspirational experts</span> from the community
     cards:
+      - avatarUrl: media/emad-al-mousa.png
+        componentType: testimonial-card
+        name: Emad Al-Mousa
+        role: IT consultant
+        feedback: I'm inspired to contribute whenever I see a section that I can enhance. It's exciting to pinpoint the problem and then provide suggested enhancements.
+        link:
+          componentType: link
+          url: https://techcommunity.microsoft.com/t5/azure-developer-community-blog/contributor-stories-emad-al-mousa/ba-p/3918951?wt.mc_id=contributorstories_techcommunity_blog_cxa
+          text: Read Emad's story
       - avatarUrl: media/samson-amaugo.png
         componentType: testimonial-card
         name: Samson Amaugo
@@ -78,18 +87,13 @@ sections:
           componentType: link
           url: https://techcommunity.microsoft.com/t5/azure-developer-community-blog/contributor-stories-hisham-bin-ateya/ba-p/3855669?wt.mc_id=contributorstories_techcommunity_blog_cxa
           text: Read Hisham's story
-      - avatarUrl: media/ben-gribaudo.png
-        componentType: testimonial-card
-        name: Ben Gribaudo
-        role: Independent consultant and trainer
-        feedback: I find it valuable to propose edits to pages related to functions or language features that I believe I understand but want to have confirmed by the appropriate Microsoft resource.
-        link:
-          componentType: link
-          url: https://techcommunity.microsoft.com/t5/azure-developer-community-blog/contributor-stories-ben-gribaudo/ba-p/3825549?wt.mc_id=contributorstories_techcommunity_blog_cxa
-          text: Read Ben's story
     backgroundImage:
         lightImageSrc: /media/home-and-directory/section-testimonials_light.jpg?branch=main
         darkImageSrc: /media/home-and-directory/section-testimonials_dark.jpg?branch=main
+
+  - componentType: markdown
+    content: |
+      [See all contributor stories](https://techcommunity.microsoft.com/t5/azure-developer-community-blog/bg-p/AzureDevCommunityBlog/label-name/ContributorStories)
 
 # FAQ section
   - componentType: frequently-asked-questions
