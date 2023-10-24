@@ -91,10 +91,6 @@ sections:
         lightImageSrc: /media/home-and-directory/section-testimonials_light.jpg?branch=main
         darkImageSrc: /media/home-and-directory/section-testimonials_dark.jpg?branch=main
 
-  - componentType: markdown
-    content: |
-      [See all contributor stories](https://techcommunity.microsoft.com/t5/azure-developer-community-blog/bg-p/AzureDevCommunityBlog/label-name/ContributorStories)
-
 # FAQ section
   - componentType: frequently-asked-questions
     #layout: horizontal
