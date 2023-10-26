@@ -28,6 +28,13 @@ sections:
   - componentType: grid
     blocks:
       - componentType: icon-card
+        title: Write community content
+        summary: Author your own article within our community content repo
+        url: https://forms.microsoft.com/pages/responsepage.aspx?id=v4j5cvGGr0GRqy180BHbRz5MQi2hFVtMmgHADCvp0yZUQ0FRMThZU05HUUVUSEJISzY1NFcxNTZFUy4u
+        icon:
+          componentType: image
+          src: media/get-started.png
+      - componentType: icon-card
         title: Edit documentation
         summary: Contribute to Microsoft's world-class documentation.
         url: content/index.md
@@ -90,6 +97,57 @@ sections:
     backgroundImage:
         lightImageSrc: /media/home-and-directory/section-testimonials_light.jpg?branch=main
         darkImageSrc: /media/home-and-directory/section-testimonials_dark.jpg?branch=main
+
+#MVP spotlight cards
+  - componentType: cards
+    title: MVP spotlight
+    blocks:
+      - componentType: card
+        title: Noelle Russell
+        summary: Microsoft MVP and leader in generative AI
+        imageUrl: media/noelle-russell.jpg
+        links:
+          - componentType: link
+            url: https://review.learn.microsoft.com/en-us/community/content/profile-noelle-russell?branch=pr-en-us-42
+            text: Noelle's contributor profile
+          - componentType: link
+            url: https://review.learn.microsoft.com/en-us/community/content/generative-ai-upskilling-guide?branch=pr-en-us-42
+            text: Generative AI upskilling guide
+          - componentType: link
+            url: https://learn.microsoft.com/en-us/collections/8qwyb04m3xmp15
+            text: Generative AI collection
+      - componentType: card
+        title: Noelle Russell
+        summary: Microsoft MVP and leader in generative AI
+        imageUrl: media/noelle-russell.jpg
+        links:
+          - componentType: link
+            url: https://review.learn.microsoft.com/en-us/community/content/profile-noelle-russell?branch=pr-en-us-42
+            text: Noelle's contributor profile
+          - componentType: link
+            url: https://review.learn.microsoft.com/en-us/community/content/generative-ai-upskilling-guide?branch=pr-en-us-42
+            text: Generative AI upskilling guide
+          - componentType: link
+            url: https://learn.microsoft.com/en-us/collections/8qwyb04m3xmp15
+            text: Generative AI collection
+
+# Video cards
+
+  - componentType: cards
+    isShadowless: true
+    title: Microsoft Learn Contributor Community video series
+    summary: Cards section summary text
+    blocks:
+      - componentType: card
+        title: Meta Skills`:` Contributing to Communities and Careers
+        summary: with Mikey Lombardi and Sean Wheeler
+        imageUrl: media/mlcc-video-1.jpg
+        url: https://bing.com
+      - componentType: card
+        title: Technical Writing as a Career
+        summary: with Randolph West and William Assaf
+        imageUrl: media/mlcc-video-1.jpg
+        url: https://bing.com
 
 # FAQ section
   - componentType: frequently-asked-questions
