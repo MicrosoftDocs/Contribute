@@ -1,6 +1,6 @@
 ---
 title: Hacktoberfest and Microsoft Learn
-description: Learn how to discover which Microsoft Learn repositories participate in Hacktoberfest, how to contribute, and what you can expect as a contributor.
+description: Learn how to discover which Microsoft Learn repositories participate in Hacktoberfest, how to contribute, and what to expect as a contributor.
 
 author: IEvangelist
 ms.author: dapine
