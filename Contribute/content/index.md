@@ -55,6 +55,6 @@ Once you've set up your accounts, select a contribution option from the table to
 
 Explore Microsoft Learn and discover how it’s a win-win for everyone, especially you! Every time you edit our documentation, we celebrate your contribution by featuring your name at the top of the article. 
 
-Each commit you make to our GitHub repositories is a testament to your dedication, prominently displayed in your GitHub commit history. This not only fuels your passion for specific technologies but also fortifies your portfolio. 
+Each commit you make to our GitHub repositories is a testament to your dedication, prominently displayed in your GitHub commit history. This not only demonstrates your passion for specific technologies but also fortifies your portfolio. 
 
 And the cherry on top? Some products even reward you with digital treats like badges. So, don’t hold back! Dive in, contribute, and enjoy the perks!
