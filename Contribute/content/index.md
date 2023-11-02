@@ -57,4 +57,6 @@ Explore Microsoft Learn and discover how it’s a win-win for everyone, especial
 
 Each commit you make to our GitHub repositories is a testament to your dedication, prominently displayed in your GitHub commit history. This not only demonstrates your passion for specific technologies but also fortifies your portfolio. 
 
-And the cherry on top? Some products even reward you with digital treats like badges. So, don’t hold back! Dive in, contribute, and enjoy the perks!
+And the cherry on top? Some products even reward you with digital treats like badges. 
+
+So don’t hold back! Dive in, contribute, and enjoy the perks!
