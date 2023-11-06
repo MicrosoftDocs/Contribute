@@ -168,12 +168,12 @@ sections:
       - componentType: card
         title: Meta Skills - Contributing to Communities and Careers
         summary: with Mikey Lombardi and Sean Wheeler
-        imageUrl: media/mlcc-video-1.jpg
+        imageUrl: media/mlcc-video-1.png
         url: https://bing.com
       - componentType: card
         title: Technical Writing as a Career
         summary: with Randolph West and William Assaf
-        imageUrl: media/mlcc-video-2.jpg
+        imageUrl: media/mlcc-video-2.png
         url: https://bing.com
 
 # FAQ section
