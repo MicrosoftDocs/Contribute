@@ -95,6 +95,7 @@ sections:
   - componentType: cards
     isShadowless: false
     title: Microsoft Learn Contributor Community learning series
+    summary: Videos and supporting resources to help you along your contribution journey, taught by Microsoft employees with community experience.
     blocks:
       - componentType: card
         title: Meta Skills - Contributing to Communities and Careers
@@ -103,23 +104,16 @@ sections:
         url: https://learn-video.azurefd.net/vod/player?id=afb384b7-fd83-474d-a3f2-23dfacc127cf
         links:
           - componentType: link
-            url: https://bing.com
-            text: First link
+            url: https://www.youtube.com/watch?v=ZQODV8krq1Q
+            text: "Watch: Contribute to documentation like a Microsoft Learn Insider"
           - componentType: link
-            url: https://bing.com
-            text: Second link
+            url: https://sdwheeler.github.io/Presentations/contributedocs/slide03/index.html
+            text: "Read: Contribute to documentation like a Microsoft Learn Insider"
       - componentType: card
         title: Technical Writing as a Career
         summary: Learn how to turn your penchant for technical writing into a full-time career.
         imageUrl: media/video-technical-writing.png
         url: https://learn-video.azurefd.net/vod/player?id=5c71cd84-b698-41e0-bbf7-d92ca46a60dd
-        links:
-          - componentType: link
-            url: https://bing.com
-            text: First link
-          - componentType: link
-            url: https://bing.com
-            text: Second link
       - componentType: card
         title: Making Your Content More Discoverable
         summary: Learn about search-engine optimization in the context of Microsoft Learn content.
