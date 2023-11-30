@@ -30,7 +30,7 @@ sections:
       - componentType: icon-card
         title: Edit documentation
         summary: Contribute to Microsoft's world-class documentation.
-        url: content/index.md
+        url: content/how-to-write-overview.md
         icon:
           componentType: image
           src: media/get-started.png
@@ -55,6 +55,35 @@ sections:
         icon:
           componentType: image
           src: media/tech-community-icon.png
+
+# Video cards
+  - componentType: cards
+    isShadowless: false
+    title: Microsoft Learn Contributor Community learning series
+    summary: Check out these resources to get started as a contributor to Microsoft Learn.
+    blocks:
+      - componentType: card
+        title: Meta Skills - Contributing to Communities and Careers
+        summary: "Power up your career by contributing to open-source community projects. Additional resources:"
+        imageUrl: media/video-meta-skills.png
+        url: https://learn-video.azurefd.net/vod/player?id=afb384b7-fd83-474d-a3f2-23dfacc127cf
+        links:
+          - componentType: link
+            url: https://www.youtube.com/watch?v=ZQODV8krq1Q
+            text: "Watch: Contribute to documentation like a Microsoft Learn Insider"
+          - componentType: link
+            url: https://sdwheeler.github.io/Presentations/contributedocs/slide03/index.html
+            text: "Read: Contribute to documentation like a Microsoft Learn Insider"
+      - componentType: card
+        title: Technical Writing as a Career
+        summary: Learn how to turn your penchant for technical writing into a full-time career.
+        imageUrl: media/video-technical-writing.png
+        url: https://learn-video.azurefd.net/vod/player?id=5c71cd84-b698-41e0-bbf7-d92ca46a60dd
+      - componentType: card
+        title: Making Your Content More Discoverable
+        summary: Apply these practical tips to help learners find your content.
+        imageUrl: media/video-discoverability.png
+        url: https://learn-video.azurefd.net/vod/player?id=543d7453-8b31-4b53-b2c7-3d0b501693be
 
  # Testimonials section
   - componentType: testimonials-section
@@ -91,35 +120,6 @@ sections:
         lightImageSrc: /media/home-and-directory/section-testimonials_light.jpg?branch=main
         darkImageSrc: /media/home-and-directory/section-testimonials_dark.jpg?branch=main
 
-# Video cards
-  - componentType: cards
-    isShadowless: false
-    title: Microsoft Learn Contributor Community learning series
-    summary: Videos and supporting resources to help you along your contribution journey, taught by Microsoft employees with community experience.
-    blocks:
-      - componentType: card
-        title: Meta Skills - Contributing to Communities and Careers
-        summary: Learn how contributing to communities can help you build meta skills and bolster your career.
-        imageUrl: media/video-meta-skills.png
-        url: https://learn-video.azurefd.net/vod/player?id=afb384b7-fd83-474d-a3f2-23dfacc127cf
-        links:
-          - componentType: link
-            url: https://www.youtube.com/watch?v=ZQODV8krq1Q
-            text: "Watch: Contribute to documentation like a Microsoft Learn Insider"
-          - componentType: link
-            url: https://sdwheeler.github.io/Presentations/contributedocs/slide03/index.html
-            text: "Read: Contribute to documentation like a Microsoft Learn Insider"
-      - componentType: card
-        title: Technical Writing as a Career
-        summary: Learn how to turn your penchant for technical writing into a full-time career.
-        imageUrl: media/video-technical-writing.png
-        url: https://learn-video.azurefd.net/vod/player?id=5c71cd84-b698-41e0-bbf7-d92ca46a60dd
-      - componentType: card
-        title: Making Your Content More Discoverable
-        summary: Learn about search-engine optimization in the context of Microsoft Learn content.
-        imageUrl: media/video-discoverability.png
-        url: https://learn-video.azurefd.net/vod/player?id=543d7453-8b31-4b53-b2c7-3d0b501693be
-
 # FAQ section
   - componentType: frequently-asked-questions
     #layout: horizontal
@@ -128,13 +128,13 @@ sections:
       - question: How do I become a Microsoft Learn contributor?
         answer: There's more than one way to become a contributor! While editing documentation is the most popular method, you can also answer questions in Microsoft Q&A, create a collection of content for others to consume, or file a GitHub issue if you spot problems in our content but don't have the tools to fix them yourself.
       - question: What accounts do contributors need?
-        answer: We recommend having a Microsoft Learn account and a GitHub account. A Microsoft Learn account allows you to contribute to Q&A and collections, while a GitHub account allows you to edit our open-source documentation or file an issue about documentation.
+        answer: We recommend having a Microsoft Learn account and a GitHub account. A Microsoft Learn account allows you to contribute to Q&A and create collections, while a GitHub account allows you to edit our open-source documentation or file an issue about documentation.
       - question: How do I start contributing to Microsoft Learn documentation?
-        answer: First, create a free GitHub account. Then, check out [our documentation](https://learn.microsoft.com/Contribute/content/), which provides all the configuration steps necessary to get started. Once you've set up your account, head over to your favorite documentation set and start contributing!
+        answer: Check out our contributor guide! Start with the article on [how to get started](https://learn.microsoft.com/contribute/content/?branch=main#how-do-i-start). You'll find a table that guides you to documentation for each contribution type and lists the account you'll need for each option. The contributor guide is your home base for learning how to get up and running as a Microsoft Learn contributor!
       - question: Who contributes to Microsoft Learn?
         answer: Anyone can contribute to Microsoft Learn. From first-time contributors to Microsoft MVPs, we see a range of experience and skill levels among folks contributing to the platform.
       - question: Do I need to be a Microsoft MVP to contribute to Microsoft Learn?
-        answer: No! You don't need any special credentials or experience to contribute.
+        answer: No! You don't need any special credentials or experience to contribute, just a desire to participate in the community.
       - question: What's in it for me?
         answer: Contributing to Microsoft Learn benefits not only our learners but also YOU! When you edit documentation, your name appears in the list of contributors at the top of the article. Your commits to our GitHub repos will show up in your GitHub commit history, which is a great way to demonstrate your passion for a particular technology while also building your portfolio. For some products, you can earn digital swag too, like badges.
       - question: How do I showcase my content?
