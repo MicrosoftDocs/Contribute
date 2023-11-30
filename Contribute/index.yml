@@ -59,7 +59,7 @@ sections:
 # Video cards
   - componentType: cards
     isShadowless: false
-    title: Microsoft Learn Contributor Community learning series
+    title: Learn skills to help you create content and build community
     summary: Check out these resources to get started as a contributor to Microsoft Learn.
     blocks:
       - componentType: card
