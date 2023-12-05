@@ -91,7 +91,7 @@ sections:
 
  # Testimonials section
   - componentType: testimonials-section
-    title: Meet <span class="text-gradient-purple-blue">inspirational experts</span> from the community
+    title: Meet <span class="text-gradient-purple-blue">inspirational contributors</span> from the community
     cards:
       - avatarUrl: media/emad-al-mousa.png
         componentType: testimonial-card
