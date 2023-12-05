@@ -39,6 +39,9 @@
     - name: Markdown reference
       href: markdown-reference.md
       displayName: alerts notes tips important caution warnings apostrophes quotation marks quotes blockquotes bold italic code snippets columns headings html images includes links lists bullets bulleted checklist numbered next steps button localize non-localized section selector superscript subscript table tables tabs tabbed videos icons
+    - name: SEO reference
+      href: seo-reference.md
+      displayName: search engine optimization, SEO, discoverability
     - name: Style and voice quickstart
       href: style-quick-start.md
     - name: Microsoft Writing Style Guide
@@ -48,8 +51,10 @@
       displayName: backtick, code blocks, inline code blocks, repo snippet reference, !code-, interactive code snippets, programming languages, languages, code extensions, extensions
     - name: Format text
       href: text-formatting-guidelines.md
+      displayName: text formatting, bold, italics, code style, code blocks, inline code, placeholders, headings, link text, keys, keyboard shortcuts, shortcuts
     - name: Links
       href: how-to-write-links.md
+      displayName: link text, links from one article to another, link to another article, bookmarks, xref, cross reference, includes, links from includes, links in selectors, selectors, reference links, links to other pages, links to third party
     - name: Metadata
       href: metadata.md
     - name: Learn Authoring pack

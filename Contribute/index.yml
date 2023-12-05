@@ -81,13 +81,17 @@ sections:
         url: https://learn-video.azurefd.net/vod/player?id=5c71cd84-b698-41e0-bbf7-d92ca46a60dd
       - componentType: card
         title: Making Your Content More Discoverable
-        summary: Apply these practical tips to help learners find your content.
+        summary: "Apply these practical tips to help learners find your content. Additional resources:"
         imageUrl: media/video-discoverability.png
         url: https://learn-video.azurefd.net/vod/player?id=543d7453-8b31-4b53-b2c7-3d0b501693be
+        links:
+          - componentType: link
+            url: /contribute/content/seo-reference
+            text: "Read: SEO reference guide"
 
  # Testimonials section
   - componentType: testimonials-section
-    title: Meet <span class="text-gradient-purple-blue">inspirational experts</span> from the community
+    title: Meet <span class="text-gradient-purple-blue">inspirational contributors</span> from the community
     cards:
       - avatarUrl: media/emad-al-mousa.png
         componentType: testimonial-card
