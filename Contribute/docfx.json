@@ -47,10 +47,11 @@
       "ms.topic": "contributor-guide",
       "ms.custom": "external-contributor-guide"
           },
-    "fileMetadata": {},
-    "titleSuffix":{
-      "content/**.md": "Contributor guide",
-      "index.yml": "Contributor Home"
+    "fileMetadata": {
+      "titleSuffix":{
+        "content/**.md": "Contributor guide",
+        "index.yml": "Contributor Home"
+      }
     },
     "template": [],
     "dest": "ContributionGuide"
