@@ -37,7 +37,7 @@
     "globalMetadata": {
       "breadcrumb_path": "~/breadcrumb/toc.yml",
       "contributors_to_exclude": ["Jim-Parker"],
-      "titleSuffix": "Contributor guide",
+      "titleSuffix": "Contributor Home",
       "searchScope": ["Contribute"],
       "hideScope": false,
       "feedback_system": "GitHub",
@@ -49,6 +49,9 @@
       "ms.custom": "external-contributor-guide"
           },
     "fileMetadata": {},
+    "titleSuffix":{
+      "content/**.md": "Contributor guide"
+    },
     "template": [],
     "dest": "ContributionGuide"
   }
