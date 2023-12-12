@@ -17,15 +17,17 @@ sections:
       darkImageSrc: /Contribute/media/contributor-home-hero-dark.png
     links:
       - componentType: link
-        url: https://learn.microsoft.com/training/contributor/contribute-docs-browser/?branch=main
-        text: Join experts and contribute
+        url: https://learn.microsoft.com/en-us/answers/questions/?filterby=unanswered
+        text: Explore unanswered questions
 
 #Text section
-  - componentType: text
-    title: Choose your contribution journey
+#  - componentType: text
+ #   title: Choose your contribution journey
 
  #Small Cards with Image
   - componentType: grid
+    title: Choose your contribution journey
+    #summary: Follow these training paths to learn about contributing and to build critical contributor skills.
     blocks:
       - componentType: icon-card
         title: Edit documentation
@@ -55,6 +57,40 @@ sections:
         icon:
           componentType: image
           src: media/tech-community-icon.png
+
+ #Small Cards with Image
+  - componentType: grid
+    title: Learn how to contribute
+    summary: Follow these training paths to learn about contributing and to build critical contributor skills.
+    blocks:
+      - componentType: icon-card
+        title: Become a Microsoft Learn contributor
+        summary: Discover how to contribute to Microsoft Learn! 
+        url: https://learn.microsoft.com/en-us/training/modules/become-learn-contributor/?branch=main
+        icon:
+          componentType: image
+          src: media/become-contributor.png
+      - componentType: icon-card
+        title: Contribute to Microsoft Learn documentation in your browser
+        summary: Become a contributor to Microsoft Learn documentation by making edits with a web editor in GitHub.
+        url: https://learn.microsoft.com/training/modules/contribute-to-docs-browser
+        icon:
+          componentType: image
+          src: media/contribute-learn.png
+      - componentType: icon-card
+        title: Review open pull requests in GitHub
+        summary: Review open PRs to see and leave feedback on proposed updates.
+        url: /contribute/content/how-to-review-pull-request
+        icon:
+          componentType: image
+          src: media/review-pr.png
+      - componentType: icon-card
+        title: Create GitHub issues
+        summary: Learn how to create and review issues, and how to open PRs to address open issues.
+        url: /contribute/content/how-to-create-github-issues
+        icon:
+          componentType: image
+          src: media/create-issue.png
 
 # Video cards
   - componentType: cards
