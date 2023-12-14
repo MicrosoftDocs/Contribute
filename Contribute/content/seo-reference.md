@@ -1,6 +1,6 @@
 ---
 title: SEO quick reference guide
-description: Explore this SEO quick reference with writing tips to improve on-page search-engine optimization. Make your online content more discoverable by search engines and LLMs
+description: Explore this SEO quick reference guide with writing tips to improve on-page search engine optimization. Make your online content more discoverable by search engines and LLMs.
 author: ps0394
 ms.author: paulsanders
 ms.date: 12/04/2023
@@ -11,30 +11,30 @@ ms.custom: external-contributor-guide
 
 # SEO quick reference guide
 
-Use these search-engine optimization (SEO) tips as a quick reference to the basics of on-page SEO for contributors to Microsoft Learn. This guide can be an effective tool in optimizing your content once you've done your keyword research and aligned your content with user intent. Adhering to these SEO best practices can improve your overall content quality and discoverability by users, search engines, and large language models.
+Use these search engine optimization (SEO) tips as a quick reference to the basics of on-page SEO for contributors to Microsoft Learn. This guide can be an effective tool in optimizing your content once you've done your keyword research and aligned your content with user intent. Adhering to these SEO best practices can improve your overall content quality and discoverability by users, search engines, and large language models (LLMs).
 
 ## Search results: main elements
 
-- [**Metadata title:**](#metadata-titles) It has the greatest impact on search rank and click-through rate (CTR). The meta title isn't the same as the main heading (H1) on the page.
-- [**URL:**](#optimized-url) Once chosen, it shouldn't be changed because it affects tracking. Changing the URL could send conflicting signals to search engines. The URL should be concise and specific to aid search engines and improve user experience.
-- [**Metadata description:**](#metadata-description) This short block of text gives users a preview of what your pages is about. It should be a summary that entices users to click.
+- [**Meta title:**](#meta-titles) The meta title is entered in the metadata YAML header in markdown (or between the head tags in HTML). It is displayed on the search engine results page (SERP) and browser tab. It is the title that describes the entire page. It has the greatest impact on search rank and click-through rate (CTR). The meta title isn't the same as the main heading (H1) on the page.
+- [**URL:**](#optimized-url) Once chosen, the URL shouldn't be changed because it affects tracking. Changing the URL could send conflicting signals to search engines. The URL should be concise and specific to aid search engines and improve user experience.
+- [**Meta description:**](#meta-description) The meta description is also entered in the metadata YAML header in markdown (or between the head tags in HTML). It is displayed in the SERPs below the URL and meta title. This short block of text gives users a preview of what your pages is about. It has a positive impact on CTR and should be a summary that entices users to click.
 
-## View metadata title and description in Visual Studio Code
+## View meta title and description in Visual Studio Code
 
 The [Learn Authoring Pack](/contribute/content/get-started-setup-tools?pivots=windows-os-pivot-selection#install-learn-authoring-pack) for Visual Studio Code includes a Search Results Preview to help verify that your title and description are helpful to users when returned in search results. Access the Command Palette with **ALT + M** and select **Search Results Preview**.
 
 ## SEO best practices
 
-- **Keyword placement**: Use the primary keyword near the beginning of the metadata title, metadata description, H1, introduction, H2s, and image text whenever possible.
+- **Keyword placement**: Use the primary keyword near the beginning of the meta title, meta description, H1, introduction, H2s, and image text whenever possible.
 - **Use terms that address intent.**
 - **Be specific.** Use exact terms for products, features, errors, etc., that are likely to match queries put into search engines. Don't use acronyms, unless widely known, such as DNS.
 
-## Metadata titles
+## Meta titles
 
-The metadata title is displayed on the search engine results page (SERP) and browser tab. It should be clear and concise, and it should include the primary keyword. The page title should also:
+The meta title should be clear and concise, and it should include the primary keyword. It should also:
 
-- **Be the right length.** For optimal SEO, write the title so that the entire title is 30-65 characters long. The entire title is: Metadata title + metadata titleSuffix + suffix "| Microsoft Learn." (Some teams use titleSuffix to add the product name. If your team doesn't use titleSuffix then add the product brand name into the metadata title.)
-- **Be written in title case.** This means to capitalize each word except for small words such as "a, an, the, of," etc.
+- **Be the right length.** For optimal SEO, write the title so that the entire title is 30-65 characters long. The entire title is: Meta title + meta titleSuffix + suffix "| Microsoft Learn." (Some teams use titleSuffix metadata to add the product name. If your team doesn't use titleSuffix then add the product brand name into the meta title.)
+- **Be written in title case.** This means to capitalize every word except for small words such as "a, an, the, of," etc.
 - **Show enough information** for users to determine relevance.
 - **Describe a specific scenario or benefit.**
 
@@ -44,11 +44,11 @@ The page URL displays in the search result and contributes to rank and relevance
 
 - Follow the URL convention for your site.
 - Should be 75 characters max using lowercase letters, numbers, and hyphens.
-- Use key terms from the page title and H1.
+- Use key terms from the meta title and H1.
 
-## Metadata description
+## Meta description
 
-The metadata description allows search engines and users to understand the page content.
+The meta description allows search engines and users to understand the page content.
 
 - Should be between 120 and 165 characters, including spaces.
 - Describes the specific scenario and/or benefit of the article.
@@ -56,9 +56,9 @@ The metadata description allows search engines and users to understand the page 
 
 ## Main heading (H1)
 
-The H1 heading is the main heading at the top of an article. H1 is the second-most important text string for search rank and relevance. There's only one H1 per article. H1 isn't the same as the [metadata title](#metadata-titles).
+The H1 heading is the main heading at the top of an article. The H1 is the second-most important text string for search rank and relevance. There's only one H1 per article. H1 isn't the same as the [meta title](#meta-titles).
 
-It’s ok to copy the metadata title, but, when possible, make it more unique and specific. At a minimum, repeat key terms.
+It’s ok to copy the meta title, but, when possible, make it more unique and specific. At a minimum, repeat key terms.
 
 ## Sub-headings (H2-H3)
 
