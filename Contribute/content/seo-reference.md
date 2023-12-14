@@ -15,9 +15,9 @@ Use these search engine optimization (SEO) tips as a quick reference to the basi
 
 ## Search results: main elements
 
-- [**Meta title:**](#meta-titles) The meta title is entered in the metadata YAML header in markdown (or between the head tags in HTML). It is displayed on the search engine results page (SERP) and browser tab. It is the title that describes the entire page. It has the greatest impact on search rank and click-through rate (CTR). The meta title isn't the same as the main heading (H1) on the page.
+- [**Meta title:**](#meta-titles) The meta title is entered in the YAML header in a markdown document (or between the head tags in HTML). It is displayed on the search engine results page (SERP) and browser tab. It is the title that describes the entire page. It has the greatest impact on search rank and click-through rate (CTR). The meta title isn't the same as the main heading (H1) on the page.
 - [**URL:**](#optimized-url) Once chosen, the URL shouldn't be changed because it affects tracking. Changing the URL could send conflicting signals to search engines. The URL should be concise and specific to aid search engines and improve user experience.
-- [**Meta description:**](#meta-description) The meta description is also entered in the metadata YAML header in markdown (or between the head tags in HTML). It is displayed in the SERPs below the URL and meta title. This short block of text gives users a preview of what your pages is about. It has a positive impact on CTR and should be a summary that entices users to click.
+- [**Meta description:**](#meta-description) The meta description is also entered in the YAML header in a markdown document (or between the head tags in HTML). It is displayed in the SERPs below the URL and meta title. This short block of text gives users a preview of what your pages is about. It has a positive impact on CTR and should be a summary that entices users to click.
 
 ## View meta title and description in Visual Studio Code
 
