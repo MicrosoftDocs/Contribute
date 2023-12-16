@@ -9,59 +9,57 @@ ms.prod: non-product-specific
 ms.custom: external-contributor-guide
 ---
 
-# Edit Microsoft Learn documentation in the browser
+# Edit Microsoft Learn Documentation in the Browser
 
-Several of Microsoft's documentation sets are open source and hosted on GitHub. While not all documentation sets are completely open source, many have public-facing repositories where you can suggest changes via pull requests (PRs). This open-source approach streamlines and improves communication between product engineers, content teams, and customers.
+Microsoft's documentation sets are often open source and hosted on GitHub. While not all sets are entirely open source, many have public-facing repositories where contributions via pull requests (PRs) are welcome. This open-source approach greatly aids communication between product engineers, content teams, and customers.
 
-Quick edits facilitiate the process to report and fix small errors and omissions in documentation. Despite all efforts, small grammar and spelling errors _do_ make their way into our published documents. While you can create issues to report mistakes, it's faster and easier to create a PR to fix the issue when the option is available.
+Quick edits streamline reporting and fixing small errors or omissions in documentation. Despite our best efforts, minor grammar and spelling issues _can_ slip into published documents. While creating issues to report mistakes is an option, using a PR to rectify issues, when available, is faster and more efficient.
 
-We use PRs for all changes, even for contributors who have write access. Most repositories protect the default branch, so updates must be submitted as PRs.
+All changes, even from contributors with write access, are made through PRs. Most repositories protect the default branch, necessitating updates to be submitted as PRs.
 
 ## Prerequisites
 
-- [Create a GitHub account](index.md#create-a-github-account), if you don't have one.
+- [Create a GitHub account](index.md#create-a-github-account) if you haven't already.
 
-## Edit a document in the browser
+## Editing a Document in the Browser
 
-1. Navigate to the documentation you wish to edit. _Some_ docs pages allow you to edit content directly in the browser. If so, you'll see an **Edit** pencil icon like the one shown below. Choosing the **Edit** pencil icon takes you to the source file on GitHub.
+1. Navigate to the documentation you intend to edit. _Some_ docs pages allow direct content editing in the browser. Look for the **Edit** pencil icon, as shown below. Clicking this icon takes you to the source file on GitHub.
 
-   :::image type="content" source="media/how-to-write-quick-edits/edit-article.png" alt-text="Screenshot of an Azure documentation article showing the edit pencil icon.":::
+   ![Screenshot of an Azure documentation article showing the edit pencil icon](media/how-to-write-quick-edits/edit-article.png)
 
-   If the **Edit** button isn't present, it means the content isn't open to public contributions. Some pages are generated (for example, from inline documentation in code) and must be edited in the project they belong to.
+   If the **Edit** button isn't visible, it means the content isn't open to public contributions. Some pages, such as those generated from inline code documentation, require edits within their respective projects.
 
-1. Select the pencil icon at the top of the GitHub file page. If the pencil icon is grayed out or doesn't display, you need to log in to your GitHub account.
+1. Click the pencil icon at the top of the GitHub file page. If the icon appears grayed out or isn't displayed, log in to your GitHub account.
 
-   :::image type="content" source="media/how-to-write-quick-edits/edit-icon.png" alt-text="Screenshot of the Azure article within GitHub,showing the edit pencil icon.":::
+   ![Screenshot of the Azure article within GitHub, showing the edit pencil icon](media/how-to-write-quick-edits/edit-icon.png)
 
-    At the top of the article is the article's metadata. Metadata is applied to articles for reporting, discoverability via search, and driving aspects of the site experience. If you're making minor updates to a published article, you probably won't need to change the metadata.
+   At the top of the article is its metadata, applied for reporting, discoverability via search, and site experience. Minor updates to published articles often don't necessitate metadata changes.
 
-1. If it's your first time working in this repository, you'll be prompted to fork the repo before you propose changes. Select **Fork this repository** to continue.
+1. If it's your first time in this repository, you'll likely be prompted to fork the repo before proposing changes. Select **Fork this repository** to proceed.
 
-1. Edit the file in the web editor. Choose the **Preview** tab in the toolbar to check the formatting of your changes.
+1. Edit the file using the web editor. Use the **Preview** tab in the toolbar to check your changes' formatting.
 
-1. When you're finished editing, select the **Commit changes** or **Propose changes** button, usually at the top-right of the screen.
+1. After completing your edits, select the **Commit changes** or **Propose changes** button, typically located at the top-right of the screen.
 
-1. Enter a commit message. The commit message becomes the title of your PR and should be a brief summary of your changes (for example, "Fix spelling and grammar errors"). Optionally, add an **Extended description** to give more details about your changes. Select **Propose changes**:
+   ![Screenshot of the propose changes pop-up](media/how-to-write-quick-edits/commit-changes.png)
 
-   :::image type="content" source="media/how-to-write-quick-edits/commit-changes.png" alt-text="Screenshot of the propose changes pop-up.":::
+1. Enter a commit message, which becomes the PR title, summarizing your changes (e.g., "Fix spelling and grammar errors"). Optionally, provide an **Extended description** for more details. Then, select **Propose changes**.
 
-1. Now that you've proposed and committed your changes, you need to ask the owners of the repository to "pull" your changes into their repository. This is done using a [pull request](https://docs.github.com/articles/using-pull-requests)(PR). When you select **Propose changes**, you'll see a page like this:
+1. Having proposed and committed your changes, you'll need the repository owners to "pull" them into their repository using a [pull request](https://docs.github.com/articles/using-pull-requests)(PR). Upon selecting **Propose changes**, you'll encounter a page similar to this:
 
-   :::image type="content" source="media/how-to-write-quick-edits/create-pull-request.png" alt-text="Screenshot of the comparing changes screen.":::
+   ![Screenshot of the comparing changes screen](media/how-to-write-quick-edits/create-pull-request.png)
 
-   Your PR proposes changes from your fork and branch (represented by the two items on the right side of the arrow) into the documentation repo's main fork and `main` branch (represented by the two items on the left side of the arrow).
+   Your PR suggests changes from your fork and branch (on the right side) into the documentation repo's main fork and `main` branch (on the left side). Review your changes and then select **Create pull request**.
 
-   Review your changes, and then select **Create pull request**.
+1. On the **Open a pull request** page, preview your PR. Modify the title or description if necessary. When ready, select **Create pull request** to initiate your PR.
 
-1. On the **Open a pull request** page, preview your PR. You can change the title or description fields if needed. When you're ready, select **Create pull request**. This action opens your PR.
+1. If satisfied and finished with edits, add a comment reading `#sign-off`. This informs the PR review team that your PR is ready for review.
 
-1. If everything looks good and you're done editing, add a comment that reads `#sign-off`. This alerts the PR review team that your PR is ready to be reviewed.
+    ![Screenshot of the GitHub comment box within a PR with a comment reading #sign-off](media/how-to-write-quick-edits/sign-off.png)
 
-    :::image type="content" source="media/how-to-write-quick-edits/sign-off.png" alt-text="Screenshot of the GitHub comment box within a PR with a comment reading #sign-off.":::
-
-1. That's it! Content team members will review your PR and merge it when it's approved. You may get feedback requesting changes.
+1. That's it! The content team will review your PR and merge it upon approval. You might receive feedback requesting changes.
 
 ## Limitations
 
-- Most localized (i.e., translated) documentation doesn't offer the ability to edit or provide feedback through GitHub. To provide feedback on localized content, use the [Provide Feedback](https://aka.ms/provide-feedback) form.
-- The in-browser editing experience works best for minor and infrequent changes. If you make large contributions or use advanced Git features (such as branch management or advanced merge conflict resolution), we recommend that you [fork the repo and work locally](how-to-write-workflows-major.md).
+- Most localized (i.e., translated) documentation doesn't allow editing or feedback via GitHub. To provide feedback on localized content, use the [Provide Feedback](https://aka.ms/provide-feedback) form.
+- The in-browser editing suits minor, infrequent changes. For substantial contributions or advanced Git features (e.g., branch management, complex merge conflict resolution), consider [forking the repo and working locally](how-to-write-workflows-major.md).
