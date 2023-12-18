@@ -49,7 +49,7 @@
           },
     "fileMetadata": {
       "titleSuffix":{
-        "content/**/*.md": "Contributor guide",
+        "content/**/**.md": "Contributor guide",
         "index.yml": "Contributor Home"
       }
     },
