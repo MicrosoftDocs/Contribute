@@ -46,12 +46,12 @@
       "ms.prod": "non-product-specific",
       "ms.topic": "contributor-guide",
       "ms.custom": "external-contributor-guide"
-          },
+    },
     "fileMetadata": {
       "titleSuffix":{
-        "contribute/content/*.yml": "Contributor guide",
-        "contribute/content/**/*.md": "Contributor guide",
-        "index.yml": "Contributor Home"
+        "index.yml": "Contributor Home",
+        "content/*.yml": "Contributor guide",
+        "content/**/*.md": "Contributor guide"
       }
     },
     "template": [],
