@@ -17,7 +17,7 @@ Sharing your expertise with others on Microsoft Learn helps everyone achieve mor
 
 ## Who can contribute?
 
-Anyone! who desires to share their knowledge and make a difference can contribute to Microsoft Learn! If you have expertise to share, you're in the right place.
+Anyone who desires to share their knowledge and make a difference can contribute to Microsoft Learn! If you have expertise to share, you're in the right place.
 
 This guide is intended for any non-Microsoft employee who wants to contribute their knowledge to the content and experiences on Microsoft Learn. (If you're a Microsoft employee, use our internal [content contributor guides](https://review.learn.microsoft.com/help) instead.)
 
