@@ -36,7 +36,7 @@ Once you've set up your accounts, select a contribution option from the table to
 |[Create a Collection](collections.md)     | Microsoft        |
 |[Participate in the Microsoft Learn Tech Community](https://techcommunity.microsoft.com/t5/microsoft-learn/ct-p/MicrosoftLearn)     | Microsoft         |
 
-### Create a GitHub account
+### Create a GitHub account.
 
 1. Navigate to [https://github.com/join](https://github.com/join) for a fast and free sign-up process.
 1. In your GitHub profile, identify your affiliations, like professional organizations you belong to or credentials/certifications you've earned. Contributions to Microsoft Learn count toward [MVP award](https://mvp.microsoft.com/) consideration. Identification helps us build a complete profile of all your activities.
