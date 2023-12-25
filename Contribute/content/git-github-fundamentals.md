@@ -80,7 +80,12 @@ A *pull request* provides a convenient way for a contributor to propose a set of
 
 There are two ways to contribute by pull request, depending on the size of changes that you want to propose. We will cover this in detail later, in the [GitHub workflow](how-to-write-workflows-major.md) section of this guide.
 
-## Learn more
+## List
+List gives you the opportunity to organize your starred repositories.
+You cn=an name the list with the the name of your choice and also provides description to it, then you can now create it.
+Once it is created, you can add repositories to the list.
+
+## Learn more 
 
 If you're unfamiliar with Git or GitHub, these resources can help you learn, be productive, or answer questions.
 
