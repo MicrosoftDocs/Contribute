@@ -99,3 +99,34 @@ If you're unfamiliar with Git or GitHub, these resources can help you learn, be 
 - [GitHub learning resources](https://help.github.com/articles/git-and-github-learning-resources/): Other useful GitHub resources.
 - [Glossary](https://help.github.com/articles/github-glossary): A handy glossary of Git and GitHub terms.
 - [GitHub student developer pack](https://education.github.com/pack): Free access to the best developer tools for students.
+
+## FAQs
+### What's Git?
+Git helps keep track of changes when many people work on computer code together. It's like a time machine for code, so you can see what changed and go back if needed.
+
+### Why use Git?
+It's great for teamwork. Git makes it easy for lots of people to work on the same project without messing up each other's work. It also helps to fix mistakes easily.
+
+### How does Git work?
+Git stores all the versions of a project's code. When you make changes, Git takes a picture (like a snapshot) of what's different. You can make different versions at the same time without a problem.
+
+### What are branches in Git?
+Branches are like different paths in a project. They let people work on new things without changing the main project. Later, they can bring these changes back into the main project.
+
+### What is a commit in Git?
+A commit is like a save point. It's a way to record changes you made. Each commit has a unique ID and a note about what was changed.
+
+### What is GitHub?
+GitHub is a website where you can store your Git projects. It's like a big hub for sharing and working together on code with others. It also helps in keeping track of who changed what.
+
+### How is GitHub different from Git?
+Git is the tool for tracking changes, while GitHub is the place to store your projects and work together. GitHub uses Git to do its magic.
+
+### Is GitHub free?
+Yes, for projects everyone can see. But for private projects (only you and your team), you might need to pay. They offer different plans with extra features.
+
+### What are pull requests in GitHub?
+Pull requests are like asking to put your changes into the main project. People can review and discuss the changes before they're added.
+
+### How safe is GitHub?
+GitHub takes good care of security. They use special codes and rules to make sure only the right people can access and change your code. You can also add extra security layers like two-factor authentication for more safety.
