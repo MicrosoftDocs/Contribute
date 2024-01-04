@@ -31,7 +31,7 @@ ms.topic: getting-started  # the type of article
 ```
 
 > [!NOTE]
-> The *ms.prod* and *ms.technology* metadata attributes are being retired from the Learn platform. Starting in January 2024, values in these taxonomies will be consolidated into [ms.service](/help/platform/metadata-taxonomies?branch=main#msservice) and **ms.subservice** for reporting on content by product.
+> The *ms.prod* and *ms.technology* metadata attributes are being retired from the Learn platform. Starting in January 2024, values in these taxonomies will be consolidated into **ms.service** and **ms.subservice** for reporting on content by product.
 
 ## Required metadata
 
