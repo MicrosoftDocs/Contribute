@@ -30,6 +30,9 @@ ms.topic: getting-started  # the type of article
 # Heading 1 <!-- the article title to show on the web page -->
 ```
 
+> [!NOTE]
+> The *ms.prod* and *ms.technology* metadata attributes are being retired from the Learn platform. Starting in January 2024, values in these taxonomies will be consolidated into **ms.service** and **ms.subservice** for reporting on content by product.
+
 ## Required metadata
 
 The following table shows the required metadata attributes. If you omit any of these, you'll likely get a validation error during build.
