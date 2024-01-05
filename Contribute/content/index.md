@@ -25,7 +25,7 @@ This guide is intended for any non-Microsoft employee who wants to contribute th
 
 First, set up a few accounts. You'll need a [GitHub account](#set-up-a-github-account) or a [Microsoft account](#set-up-a-microsoft-account), depending on how you want to participate. The following table shows your contribution options and the type of account you'll need.
 
-Once you've set up your accounts, select a contribution option from the table to learn more about how to get started.
+Once you've set up your accounts, select a contribution option from the table to learn more about how to get started. afadfadf
 
 |Contribution option  |Account required  |
 |---------|---------|
