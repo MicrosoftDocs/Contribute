@@ -93,6 +93,15 @@ sections:
   - componentType: testimonials-section
     title: Meet <span class="text-gradient-purple-blue">inspirational contributors</span> from the community
     cards:
+      - avatarUrl: media/kristina-devochko.png
+        componentType: testimonial-card
+        name: Kristina Devochko
+        role: Principal Cloud Engineer
+        feedback: I gained so much value from this platform as a user, so I knew it would be a great opportunity to contribute back to Microsoft Learn and to the entire community that uses it.
+        link:
+          componentType: link
+          url: https://techcommunity.microsoft.com/t5/azure-developer-community-blog/contributor-stories-kristina-devochko/ba-p/4017860
+          text: Read Kristina's story
       - avatarUrl: media/emad-al-mousa.png
         componentType: testimonial-card
         name: Emad Al-Mousa
@@ -111,18 +120,14 @@ sections:
           componentType: link
           url: https://techcommunity.microsoft.com/t5/azure-developer-community-blog/contributor-stories-samson-amaugo/ba-p/3881104?wt.mc_id=contributorstories_techcommunity_blog_cxa
           text: Read Samson's story
-      - avatarUrl: media/hisham-bin-ateya.png
-        componentType: testimonial-card
-        name: Hisham Bin Ateya
-        role: Software developer and core member of Orchard team
-        feedback: Open-source contributions aren't limited to code. Documentation plays a crucial role as well, allowing us to share our knowledge and help others learn the technology. 
-        link:
-          componentType: link
-          url: https://techcommunity.microsoft.com/t5/azure-developer-community-blog/contributor-stories-hisham-bin-ateya/ba-p/3855669?wt.mc_id=contributorstories_techcommunity_blog_cxa
-          text: Read Hisham's story
     backgroundImage:
         lightImageSrc: /media/home-and-directory/section-testimonials_light.jpg?branch=main
         darkImageSrc: /media/home-and-directory/section-testimonials_dark.jpg?branch=main
+
+# Markdown
+  - componentType: markdown
+    content: |
+      [Read more contributor stories](https://techcommunity.microsoft.com/t5/azure-developer-community-blog/bg-p/AzureDevCommunityBlog/label-name/ContributorStories)
 
 # FAQ section
   - componentType: frequently-asked-questions
