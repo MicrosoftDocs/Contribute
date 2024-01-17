@@ -10,7 +10,7 @@ ms.prod: non-product-specific
 ms.custom: external-contributor-guide
 ---
 
-# Metadata for Microsoft Learn documentation
+# Metadata for Microsoft Learn documentation 
 
 We use metadata on Microsoft Learn for content analytics reporting, discoverability of content via search, and driving aspects of the site experience. Metadata can be applied in the article (in the YAML front matter) or globally in the *docfx.json* file for the repo.
 
@@ -72,5 +72,4 @@ In addition to the required metadata, there are many optional metadata attribute
 ## See also
 
 - [Metadata explorer](docs-authoring/metadata-explorer.md)
-
 
