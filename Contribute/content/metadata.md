@@ -2,8 +2,7 @@
 
 
 ---
----
-# Metadata for Microsoft Learn documentation13
+# Metadata for Microsoft Learn documentation133
 
 We use metadata on Microsoft Learn for content analytics reporting, discoverability of content via search, and driving aspects of the site experience. Metadata can be applied in the article (in the YAML front matter) or globally in the *docfx.json* file for the repo.
 
