@@ -1,16 +1,9 @@
 ---
-title: Metadata for Microsoft Learn documentation
-description: Learn about the required and optional metadata for Microsoft Learn documentation.
-author: sarah-barrett
-ms.author: sabarret
-ms.reviewer: jasonh
-ms.date: 10/13/2021
-ms.topic: contributor-guide
-ms.prod: non-product-specific
-ms.custom: external-contributor-guide
----
 
-# Metadata for Microsoft Learn documentation
+
+---
+---
+# Metadata for Microsoft Learn documentation1
 
 We use metadata on Microsoft Learn for content analytics reporting, discoverability of content via search, and driving aspects of the site experience. Metadata can be applied in the article (in the YAML front matter) or globally in the *docfx.json* file for the repo.
 
