@@ -1,30 +1,48 @@
 ---
 title: Git and GitHub essentials for Microsoft Learn documentation
-description: This article explains an overview of Git,  GitHub repository, and how content is organized, and naming conventions used for Microsoft technical documentation.
+description: This article defines key terms, provides an overview of Git and GitHub repositories, and explains how content is organized for Microsoft technical documentation.
+author: carlyrevier
+ms.author: cahublou
 ms.topic: contributor-guide
 ms.prod: non-product-specific
 ms.custom: external-contributor-guide
-ms.date: 06/30/2017
+ms.date: 01/25/2024
 ---
 
 # Git and GitHub essentials for Microsoft Learn documentation
 
 ## Overview
 
-As a contributor to Microsoft Learn documentation, you will interact with multiple tools and processes. You'll work in parallel with other contributors on the same project, potentially the exact same content, even at the same time. This is all enabled through Git and GitHub software.
+As a contributor to Microsoft Learn documentation, you'll interact with multiple tools and processes. You'll work in parallel with other contributors on the same project, potentially the exact same content, even at the same time. This is all enabled through Git and GitHub software.
 
 Git is an open-source version control system. It facilitates this type of project collaboration through *distributed version control* of files that live in *repositories*. In essence, Git makes it possible to integrate streams of work done by multiple contributors over time, for a given repository.
 
 GitHub is a web-based hosting service for Git repositories, such as those used to store [Microsoft Learn](/) content. For any project, GitHub hosts the main repository, from which contributors can make copies for their own work.
 
+This article defines key terms that are part of the Microsoft Learn workflow. It also provides an overview of Git and GitHub repositories, and explains how content is organized for Microsoft technical documentation.
+
+## Branch
+
+Branches separate streams of work (typically referred to as versions). Contributions are always made and scoped to a specific branch.
+
+Isolating related changes to a specific branch allows you to control and introduce those changes independently. In reality, depending on the type of work you do, you can easily end up with several working branches in your repository. It's not uncommon to be working on multiple branches at the same time, each representing a different project.
+
+All repositories contain a default branch (typically named "main") and one or more work-in-progress branches (which we call working branches) that have not yet been integrated into the default branch. The default branch serves as the current version and "single source of truth" for the project. It's the parent from which all other branches in the repository are created.
+
+Every time you introduce a new set of logically related changes, it’s a best practice to create a working branch to manage your changes. We don't recommend making changes to the default branch directly.
+
+## Fork
+
+This term is normally used as a noun when referring to a copy of a main GitHub repository. In practice, a fork is just another repository. But it's special in the sense that GitHub maintains a connection back to the main/parent repository. This term is sometimes used as a verb, as in "You must fork the repository first."
+
 ## Git
 
-If you're familiar with centralized version control systems (such as Team Foundation Server, SharePoint, or Visual SourceSafe), you will notice that Git has a unique contribution workflow and terminology to support its distributed model. For instance, there is no file locking that is normally associated with check-out/check-in operations. As a matter of fact, Git is concerned about changes at an even finer level, comparing files byte by byte.
+If you're familiar with centralized version control systems (such as Team Foundation Server, SharePoint, or Visual SourceSafe), you'll notice that Git has a unique contribution workflow and terminology to support its distributed model. For instance, there's no file locking that's normally associated with check-out/check-in operations. Instead, Git is concerned about changes at an even finer level, comparing files byte by byte.
 
 Git also uses a tiered structure to store and manage content for a project:
 
 - *Repository*: Also known as a *repo*, this is the highest unit of storage. A repository contains one or more branches.
-- *Branch*: A unit of storage that contains the files and  folders that make up a project's content set. Branches separate streams of work (typically referred to as versions). Contributions are always made and scoped to a specific branch. All repositories contain a default branch (typically named "main") and one or more branches that are destined to be merged back into the default branch. The default branch serves as the current version and "single source of truth" for the project. It's the parent from which all other branches in the repository are created.
+- *Branch*: A unit of storage that contains the files and folders that make up a project's content set. For more on branches, see the [Branch](#branch) section of this article.
 
 Contributors interact with Git to update and manipulate repositories at both the local and GitHub levels:
 
@@ -42,22 +60,21 @@ All workflows begin and end at the GitHub level, where the main repository for a
 
 ### Directory organization
 
-As mentioned earlier, a project's default branch serves as the current version of content for the project. The content in the default branch--and branches created from it--is loosely aligned with the organization of the articles on the corresponding Microsoft Learn pages. Subdirectories are used for separation of like content (such as services), media content (such as image files), and "include" files (which enable reuse of content).
+A project's default branch serves as the current version of content for the project. The content in the default branch--and branches created from it--is loosely aligned with the organization of the articles on the corresponding Microsoft Learn pages. Subdirectories are used to separate like articles (such as services), media content (such as image files), and "include" files (which enable reuse of content).
 
-You can typically find a main `articles` directory off the root of the repository. The articles
-directory contains a set of subdirectories. Articles in the subdirectories are formatted as
-Markdown files that use an *.md* extension. Some repositories that support multiple services use a
+#### Articles subdirectory
+
+You can typically find a main `articles` directory off the root of the repository. The `articles`` directory contains a set of subdirectories Articles in the subdirectories are formatted as Markdown files that use an *.md* extension. Some repositories that support multiple services use a
 generic `/articles` subdirectory, such as the [Azure-Docs](https://github.com/MicrosoftDocs/Azure-Docs) repository. Others might use a
-service-specific name, such as the [IntuneDocs](https://github.com/MicrosoftDocs/IntuneDocs)
-repository, which uses `/IntuneDocs`.
+service-specific name, such as the [IntuneDocs](https://github.com/MicrosoftDocs/IntuneDocs) repository, which uses `/IntuneDocs`.
 
 Within the root of this directory, you can find general articles that relate to the overall service or product. And typically, you can then find another series of subdirectories that match the features/services or common scenarios. For instance, Azure "virtual machine" articles are in the `/virtual-machines` subdirectory, and Intune "understand and explore" articles are in the `/understand-explore` subdirectory.
 
-### Media subdirectory
+#### Media subdirectory
 
 Each article directory contains a `/media` subdirectory for corresponding media files. Media files contain images used by articles that have image references.
 
-### Includes subdirectory
+#### Includes subdirectory
 
 Whenever we have reusable content that is shared across two or more articles, it is placed in an `/includes` subdirectory off the main `articles` directory. In a Markdown file that uses the include file, a corresponding "include" Markdown extension is placed in the location where the include file needs to be referenced.
 
@@ -74,11 +91,23 @@ For convenience, the root directory of each repository typically contains a Mark
 - Examples of **embedding video** by using an iframe.
 - General **instructions on the use of Microsoft technical documentation extensions**, which you can use for special controls such as buttons and selectors.
 
+## Origin
+
+This term is the name assigned to the connection between your local repository and the repository from which it was cloned. In the Microsoft Learn workflow, the origin represents the connection to your fork. This term is sometimes used as a moniker for the origin repository itself, as in "Remember to push your changes to the origin."
+
 ## Pull requests
 
-A *pull request* provides a convenient way for a contributor to propose a set of changes that will be applied to the default branch. The changes (also known as *commits*) are stored in a contributor's branch, so GitHub can first model the impact of *merging* them into the default branch. A pull request also serves as a mechanism to provide the contributor with feedback from a build/validation process, the pull request reviewer, to resolve potential issues or questions before the changes are merged into the default branch.
+A *pull request* (PR) is a request for a content owner to pull your changes into the official source. A PR enables GitHub's collaboration model by asking for the changes (also known as *commits*) from your working branch to be pulled and merged into another branch. In most cases, that other branch is the default branch in the main repository.
 
-There are two ways to contribute by pull request, depending on the size of changes that you want to propose. We will cover this in detail later, in the [GitHub workflow](how-to-write-workflows-major.md) section of this guide.
+A PR also serves as a mechanism to provide the contributor with feedback from Microsoft Learn's validation processes and the PR reviewer, to resolve potential issues or questions before the changes are merged into the default branch.
+
+## Remote
+
+A *remote* is a named connection to a remote repository, such as the "origin" or "upstream" remote. Git refers to this as a remote because it's used to reference a repository that's hosted on another computer. In the Microsoft Learn workflow, a remote is always a GitHub repository.
+
+## Upstream
+
+Like the origin remote, *upstream* is a named connection to another repository. In the Microsoft Learn workflow, the upstream represents the connection between your local repository and the main repository from which your fork was created. This term is sometimes used as a moniker for the upstream repository itself, as in "Remember to pull the latest changes from the upstream."
 
 ## Learn more
 
@@ -101,32 +130,43 @@ If you're unfamiliar with Git or GitHub, these resources can help you learn, be 
 - [GitHub student developer pack](https://education.github.com/pack): Free access to the best developer tools for students.
 
 ## FAQs
+
 ### What's Git?
+
 Git helps keep track of changes when many people work on computer code together. It's like a time machine for code, so you can see what changed and go back if needed.
 
 ### Why use Git?
+
 It's great for teamwork. Git makes it easy for lots of people to work on the same project without messing up each other's work. It also helps to fix mistakes easily.
 
 ### How does Git work?
+
 Git stores all the versions of a project's code. When you make changes, Git takes a picture (like a snapshot) of what's different. You can make different versions at the same time without a problem.
 
 ### What are branches in Git?
+
 Branches are like different paths in a project. They let people work on new things without changing the main project. Later, they can bring these changes back into the main project.
 
 ### What is a commit in Git?
+
 A commit is like a save point. It's a way to record changes you made. Each commit has a unique ID and a note about what was changed.
 
 ### What is GitHub?
+
 GitHub is a website where you can store your Git projects. It's like a big hub for sharing and working together on code with others. It also helps in keeping track of who changed what.
 
 ### How is GitHub different from Git?
+
 Git is the tool for tracking changes, while GitHub is the place to store your projects and work together. GitHub uses Git to do its magic.
 
 ### Is GitHub free?
+
 Yes, for projects everyone can see. But for private projects (only you and your team), you might need to pay. They offer different plans with extra features.
 
 ### What are pull requests in GitHub?
+
 Pull requests are like asking to put your changes into the main project. People can review and discuss the changes before they're added.
 
 ### How safe is GitHub?
+
 GitHub takes good care of security. They use special codes and rules to make sure only the right people can access and change your code. You can also add extra security layers like two-factor authentication for more safety.

@@ -14,6 +14,8 @@
           href: get-started-setup-local.md
         - name: 3. Make major changes
           href: how-to-write-major-edits.md
+        - name: 4. Create a pull request
+          href: create-pull-request.md
     - name: Process a pull request
       href: process-pull-request.md
     - name: Git and GitHub fundamentals

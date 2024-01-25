@@ -59,7 +59,7 @@ We use PRs for all changes, even for contributors who have write access. Most re
 
     :::image type="content" source="media/how-to-write-quick-edits/sign-off.png" alt-text="Screenshot of the GitHub comment box within a PR with a comment reading #sign-off.":::
 
-1. That's it! Content team members will review your PR and merge it when it's approved. You may get feedback requesting changes.
+1. That's it! Content team members will review your PR and merge it when it's approved. You may get feedback requesting changes. For more details on processing your PR, see [Process a pull request](process-pull-request.md).
 
 ## Limitations
 
