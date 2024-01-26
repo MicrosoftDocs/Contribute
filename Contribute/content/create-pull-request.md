@@ -50,7 +50,7 @@ After you've updated or added your content, it's time to create a pull request (
 
 :::image type="content" source="media/create-pull-request/comparing-changes.png" alt-text="Screenshot of the Comparing changes screen in GitHub.":::
 
-1. Your first commit message on your branch becomes the default PR title. If you want, edit the title to make it more appropriate for a PR (for example: Fix typo in <article name>).
+1. Your first commit message on your branch becomes the default PR title. If you want, edit the title to make it more appropriate for a PR (for example: Update prerequisites list).
 
 1. Add an optional description. A description helps reviewers understand the purpose of your PR. For example, you can describe the problem you're trying to solve or the reason you're making the change.
 
