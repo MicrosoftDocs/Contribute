@@ -119,7 +119,6 @@ If you're unfamiliar with Git or GitHub, these resources can help you learn, be 
 - [Pro Git e-book (PDF)](https://progit2.s3.amazonaws.com/en/2016-03-22-f3531/progit-en.1084.pdf): Same as the preceding link, in PDF form.
 - [Learn Git course from Codecademy](https://www.codecademy.com/learn/learn-git)
 - [Try Git course from Code School on Pluralsight](https://www.pluralsight.com/courses/code-school-git-real)
-- [Git and Github course from Udacity](https://www.udacity.com/course/how-to-use-git-and-github--ud775)
 
 ### GitHub resources
 
