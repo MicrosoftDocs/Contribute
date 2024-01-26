@@ -19,14 +19,14 @@ Sharing your expertise with others on Microsoft Learn helps everyone achieve mor
 
 Anyone who desires to share their knowledge and make a difference can contribute to Microsoft Learn! If you have expertise to share, you're in the right place.
 
-This guide is intended for any non-Microsoft employee who wants to contribute their knowledge to the content and experiences on Microsoft Learn. (If you're a Microsoft employee, use our internal [content contributor guides](https://review.learn.microsoft.com/help) instead.)
+This guide is intended for any non-Microsoft employee who wants to contribute their knowledge to the content and experiences on Microsoft Learn. (Are you a Microsoft employee? Use our internal [content contributor guides](https://review.learn.microsoft.com/help) instead.)
 
 ## How do I start?
 
 > [!TIP]
 > A self-paced, [step-by-step learning path](/training/modules/become-learn-contributor) is available for this topic.
 
-First, set up a few accounts. You'll need a [GitHub account](#set-up-a-github-account) or a [Microsoft account](#set-up-a-microsoft-account), depending on how you want to participate. The following table shows your contribution options and the type of account you'll need.
+First, set up a few accounts. You'll need a [GitHub account](#create-a-github-account) or a [Microsoft account](#create-a-microsoft-account), depending on how you want to participate. The following table shows your contribution options and the type of account you'll need.
 
 Once you've set up your accounts, select a contribution option from the table to learn more about how to get started.
 
@@ -49,7 +49,7 @@ Once you've set up your accounts, select a contribution option from the table to
 
 ### Create a Microsoft account
 
-1. Navigate to [learn.microsoft.com](https://learn.microsoft.com/).
+1. Navigate to [learn.microsoft.com](/).
 1. Select **Sign in** in the upper-right corner.
 1. Follow the prompts to create a Microsoft account and profile.
 1. Once created, visit [Managing your Microsoft Learn profile settings](/training/support/learn-profile-manage) to learn how to update your Microsoft Learn profile.
