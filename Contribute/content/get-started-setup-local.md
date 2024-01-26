@@ -5,7 +5,7 @@ ms.topic: contributor-guide
 ms.prod: non-product-specific
 ms.custom: external-contributor-guide
 author: jasonwhowell
-ms.author: jasonh
+ms.author: cahublou
 ms.date: 09/11/2023
 ---
 # Set up a local Git repository for documentation
@@ -45,6 +45,7 @@ Documentation hosted at [Microsoft Learn](/) resides in several repositories on 
     :::image type="content" source="media/get-started-setup-local/repo-name.png" alt-text="Screenshot of where the repo name is found in a GitHub repo.":::
 
    Here are some popular repositories that are available for public contributions:
+   * Microsoft Learn Community Content [https://github.com/MicrosoftDocs/community-content/](https://github.com/MicrosoftDocs/community-content/)
    * Azure documentation [https://github.com/MicrosoftDocs/azure-docs](https://github.com/MicrosoftDocs/azure-docs)
    * SQL Server documentation [https://github.com/MicrosoftDocs/sql-docs](https://github.com/MicrosoftDocs/sql-docs)
    * Visual Studio documentation [https://github.com/MicrosoftDocs/visualstudio-docs](https://github.com/MicrosoftDocs/visualstudio-docs)
@@ -171,4 +172,4 @@ Run the following commands in either **Git Bash** or **VS Code Terminal**.
 
 ## Next steps
 
-* To learn more about adding and updating content, continue to [Make major changes](how-to-write-major-edits.md).
+* Now that you've set up your local clone, it's time to [make major changes](how-to-write-major-edits.md).

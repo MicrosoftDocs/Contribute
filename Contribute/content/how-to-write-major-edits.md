@@ -1,12 +1,12 @@
 ---
 title: Make major changes to Microsoft Learn documentation
-description: Learn how to use the "major" contributor workflow to make major or long-running contributions to Microsoft Learn documentation.
+description: Learn how to make major or long-running contributions to Microsoft Learn documentation.
 author: carlyrevier
 ms.author: cahublou
 ms.topic: contributor-guide
 ms.prod: non-product-specific
 ms.custom: external-contributor-guide
-ms.date: 08/31/2023
+ms.date: 01/25/2024
 ---
 
 # Make major changes to Microsoft Learn documentation
@@ -34,24 +34,11 @@ Examples of these types of contributions include:
 - [Set up a local Git repository](get-started-setup-local.md).
 - [Review Git and GitHub fundamentals](git-github-fundamentals.md) (optional).
 
-## Terminology
-
-Before you start, let's review some Git/GitHub terms used in this workflow. Don't worry about understanding them now. Just know that you'll be learning about them, and you can refer back to this section when you need to verify a definition.
-
-| Name | Description |
-|-----------|-------------|
-|fork|Normally used as a noun when referring to a copy of a main GitHub repository. In practice, a fork is just another repository. But it's special in the sense that GitHub maintains a connection back to the main/parent repository. It's sometimes used as a verb, as in "You must fork the repository first."|
-|remote|A named connection to a remote repository, such as the "origin" or "upstream" remote. Git refers to this as a remote because it's used to reference a repository that's hosted on another computer. In this workflow, a remote is always a GitHub repository.|
-|origin|The name assigned to the connection between your local repository and the repository from which it was cloned. In this workflow, origin represents the connection to your fork. It's sometimes used as a moniker for the origin repository itself, as in "Remember to push your changes to origin."|
-|upstream|Like the origin remote, upstream is a named connection to another repository. In this workflow, upstream represents the connection between your local repository and the main repository, from which your fork was created. It's sometimes used as a moniker for the upstream repository itself, as in "Remember to pull the changes from upstream."|
-
 ## Create and check out your working branch
 
-Recall from [Git and GitHub fundamentals](git-github-fundamentals.md#git) that a Git repository contains a default branch, plus any additional work-in-progress branches (which we call *working branches*) that have not been integrated into the default branch. Every time you introduce a new set of logically related changes, it’s a best practice to create a *working branch* to manage your changes. We don't recommend making changes to the default branch (typically titled *main*) directly.
+To start, create a new working branch in your local repository to capture your proposed changes. For more background on branches, see [Git and GitHub fundamentals](git-github-fundamentals.md#branch).
 
-Isolating related changes to a specific branch allows you to control and introduce those changes independently. In reality, depending on the type of work you do, you can easily end up with several working branches in your repository. It's not uncommon to be working on multiple branches at the same time, each representing a different project.
-
-Now let's create a new working branch in your local repository to capture your proposed changes. This tutorial uses Git Bash and Visual Studio Code, but you can use any Git client and editor you prefer.
+This tutorial uses Git Bash and Visual Studio Code, but you can use any Git client and editor you prefer.
 
 1. In VS Code, open the repository folder of your local clone. From the **File** menu, select **Open folder** and navigate to the folder on your machine.
 1. Select **View** from the top menu, and then select **Terminal** to open the integrated terminal.
@@ -88,7 +75,7 @@ Now let's create a new working branch in your local repository to capture your p
 
 ## Find the source Markdown file
 
-To edit an article, find the source file for the article in your local repository clone. Within VS Code, access the repo's content (.md/Markdown) files via the file explorer (a document icon in the top-left sidebar). The file explorer shows the folder structure of the repo, and you can navigate to the file you want to edit. 
+To edit an article, find the source file for the article in your local repository clone. Within VS Code, access the repo's Markdown files via the file explorer (a document icon in the top-left sidebar). The file explorer shows the folder structure of the repo, and you can navigate to the file you want to edit.
 
 If you can't find the file, visit the article on Microsoft Learn and select the **Edit** pencil icon. The relative folder location in the GitHub repo shows in the URL. Here's an example **Edit** link URL:
 
@@ -170,7 +157,7 @@ You can create and push a commit by using Git integration features of VS Code. R
 
 ---
 
-You've done it! Your code is now up in your GitHub repository and ready for you to [open a PR](process-pull-request.md).
+You've done it! Your code is now up in your GitHub repository and ready for you to [open a PR](create-pull-request.md).
 
 Need to fix something you submitted? It's easy! Just repeat the steps above, starting with **Edit the file**, to make changes in the same branch and then commit and push again (no need to set the upstream server on subsequent pushes of the same branch). Generally, branches are used to separate streams of work, so you don't need to create a new branch unless you're ready to work on something else.
 
@@ -189,5 +176,5 @@ You're now in a new branch that's linked to your remote branch, and you're ready
 
 ## Next steps
 
-- If you've completed the steps above, now it's time to [open a PR](process-pull-request.md) to get your changes merged into the main branch.
+- If you've completed the steps above, now it's time to [open a PR](create-pull-request.md) to get your changes merged into the main branch.
 - To learn more about topics such as Markdown and Markdown extensions syntax, review the [Markdown reference](markdown-reference.md).

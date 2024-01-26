@@ -11,9 +11,12 @@ ms.custom: external-contributor-guide
 
 # Edit Microsoft Learn documentation in the browser
 
+> [!TIP]
+> A self-paced, [step-by-step learning path](/training/modules/contribute-to-docs-browser/?source=recommendations) is available for this topic.
+
 Several of Microsoft's documentation sets are open source and hosted on GitHub. While not all documentation sets are completely open source, many have public-facing repositories where you can suggest changes via pull requests (PRs). This open-source approach streamlines and improves communication between product engineers, content teams, and customers.
 
-Quick edits facilitiate the process to report and fix small errors and omissions in documentation. Despite all efforts, small grammar and spelling errors _do_ make their way into our published documents. While you can create issues to report mistakes, it's faster and easier to create a PR to fix the issue when the option is available.
+Quick edits facilitate the process to report and fix small errors and omissions in documentation. Despite all efforts, small grammar and spelling errors _do_ make their way into our published documents. While you can create issues to report mistakes, it's faster and easier to create a PR to fix the issue when the option is available.
 
 We use PRs for all changes, even for contributors who have write access. Most repositories protect the default branch, so updates must be submitted as PRs.
 
@@ -59,7 +62,7 @@ We use PRs for all changes, even for contributors who have write access. Most re
 
     :::image type="content" source="media/how-to-write-quick-edits/sign-off.png" alt-text="Screenshot of the GitHub comment box within a PR with a comment reading #sign-off.":::
 
-1. That's it! Content team members will review your PR and merge it when it's approved. You may get feedback requesting changes.
+1. That's it! Content team members will review your PR and merge it when it's approved. You may get feedback requesting changes. For more details on processing your PR, see [Process a pull request](process-pull-request.md).
 
 ## Limitations
 
