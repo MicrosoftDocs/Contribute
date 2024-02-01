@@ -53,7 +53,7 @@ Once you've picked a task to work on, [create a GitHub account](../index.md#crea
 
 **Step 2:** Fork the `/dotnet/docs` repo (or whichever repo you're contributing to) as needed and create a branch for your changes.
 
-For small changes, see [Edit in the browser](how-to-write-quick-edits.md).
+For small changes, see [Edit in the browser](../how-to-write-quick-edits.md).
 
 **Step 3:** Make the changes on this new branch.
 

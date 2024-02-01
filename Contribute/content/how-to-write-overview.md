@@ -19,19 +19,28 @@ Before you get started, make sure you're signed in to your GitHub account. If yo
 
 ## Minor changes to documentation
 
-If you're making minor changes to an article, all you need is a GitHub account! You don't need to download and install any tools.
+Minor changes are quick and easy. Examples of minor changes include:
 
-Examples of minor changes include fixing typos, basic revisions to one or more articles, adding a section to an article, or updating links.
+- Fixing typos
+- Revising a single article
+- Adding a section to an article
+- Correcting an error
+- Updating broken links
+
+If you're making minor changes, all you need is a GitHub account!
 
 To make a minor change, select the **Edit This Document** pencil icon at the top of the article. This action takes you to the source file on GitHub, where you can make your changes. When you're finished, you'll be prompted to create a pull request (PR) to propose your changes. For a full walkthrough of this process, see [Edit documentation in the browser](how-to-write-quick-edits.md).
 
-## More substantial or frequent changes to documentation
+## Major changes to documentation
 
-If you're making more substantial or frequent changes, we recommend following a process that allows you to work locally on your machine. This process involves downloading and installing tools, so the initial setup takes more time.
+Major changes involve more time and effort. Examples of major changes include:
 
-Examples of these types of changes include ongoing (long-running) changes, lengthy revisions to multiple articles, creating a new article, and contributing frequently.
+- Complex changes that will take you several days to complete
+- Revisions to multiple articles that you want to submit together
+- Creating a new article
+- Contributing often
 
-To make major changes, you'll follow these steps:
+If you're making major changes, you need to download and install a few tools to make your work easier. Follow these steps to get started:
 
 1. [Install Git and Markdown tools.](get-started-setup-tools.md)
 1. [Set up a local Git repository.](get-started-setup-local.md)
@@ -40,7 +49,7 @@ To make major changes, you'll follow these steps:
 
 ## Process overview
 
-The process flow below shows the basic steps involved in getting started for minor and major changes. Notice that some items are one-time steps, while others occur every time you start a new contribution.
+The process flow below shows the high-level steps involved in getting started for minor and major changes. Notice that some items are one-time steps, while others occur every time you start a new contribution.
 
 :::image type="complex" source="media/how-to-write-overview/process-diagram.png" alt-text="Process flow map showing the basic workflow for getting started with the contribution process.":::
     The image starts with a decision point of Is this your first time contributing? If yes, the next step is to set up your GitHub account. If no, the next step is another decision point of Is your change minor? If yes, the next step is to edit within the browser. If no, the next steps involve installing authoring tools, forking and cloning the repo, making changes, opening a pull request, and reviewing and signing off on your pull request.
@@ -48,4 +57,4 @@ The process flow below shows the basic steps involved in getting started for min
 
 ## Changes to training modules
 
-Contributors can't edit or propose changes to training modules. At this time, only Microsoft Learn documentation stored in public repositories is open for public contribtuions.
+Contributors can't edit or propose changes to training modules. At this time, only Microsoft Learn documentation stored in public repositories is open for public contributions.
