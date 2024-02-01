@@ -6,7 +6,7 @@ ms.prod: non-product-specific
 ms.custom: external-contributor-guide
 ms.date: 04/08/2021
 ---
-# Learn how to contribute to the .NET documentation repositories
+# Contribute to the .NET documentation repositories
 
 Thank you for your interest in contributing to the .NET documentation!
 
@@ -22,7 +22,7 @@ The .NET documentation site is built from multiple repositories. These are just 
 
 ## Guidelines for contributions
 
-We appreciate community contributions to docs. The following list shows some guiding rules to keep in mind when you're contributing to the .NET documentation:
+We appreciate community contributions to documentation. The following list shows some guiding rules to keep in mind when you're contributing to .NET documentation:
 
 - **DON'T** surprise us with large pull requests. Instead, file an issue and start a discussion so we can agree on a direction before you invest a large amount of time.
 - **DON'T** include sample code inline in an article.
@@ -35,9 +35,9 @@ We appreciate community contributions to docs. The following list shows some gui
 
 Following these guidelines will ensure a better experience for you and for us.
 
-## Make a contribution to .NET docs
+## Contribution process
 
-**Step 1:** If you're interested in writing new content or in thoroughly revising existing content, open an [issue](https://github.com/dotnet/docs/issues) describing what you want to do. The content inside the **docs** folder is organized into sections that are reflected in the Table of Contents (TOC). Define where the topic will be located in the TOC. Get feedback on your proposal.
+**Step 1:** If you're interested in writing new content or in thoroughly revising existing content, open an [issue](https://github.com/dotnet/docs/issues) describing what you want to do. The content inside the **docs** folder is organized into sections that are reflected in the table of contents (TOC). Define where the topic will be located in the TOC. Get feedback on your proposal.
 
 -or-
 
@@ -49,17 +49,17 @@ Choose an existing issue and address it. You can look at our [open issues](https
 
 When you find an issue to work on, add a comment to ask if it's open.
 
-Once you've picked a task to work on, follow the [get started](../get-started-setup-github.md) guide to create a GitHub account and set up your environment.
+Once you've picked a task to work on, [create a GitHub account](../index.md#create-a-github-account) and move on to Step 2.
 
 **Step 2:** Fork the `/dotnet/docs` repo (or whichever repo you're contributing to) as needed and create a branch for your changes.
 
-For small changes, see [Quick edits to documentation](../index.md#quick-edits-to-documentation).
+For small changes, see [Edit in the browser](how-to-write-quick-edits.md).
 
 **Step 3:** Make the changes on this new branch.
 
 If it's a new topic, you can use this [template file](dotnet-style-guide.md) as your starting point. It contains the writing guidelines and also explains the metadata required for each article, such as author information. For more information on the Markdown syntax used in Microsoft Learn content, see [Markdown reference](../markdown-reference.md).
 
-Navigate to the folder that corresponds to the TOC location determined for your article in step 1. That folder contains the Markdown files for all articles in that section. If necessary, create a new folder to place the files for your content. The main article for that section is called *index.md*.
+Navigate to the folder that corresponds to the TOC location determined for your article in Step 1. That folder contains the Markdown files for all articles in that section. If necessary, create a new folder to place the files for your content. The main article for that section is called *index.md*.
 
 For images and other static resources, create a subfolder called **media** inside the folder that contains your article, if it doesn't already exist. Inside the **media** folder, create a subfolder with the article name (except for the index file). For more information about where to place your files, see the [Example folder structure](#example-folder-structure) section.
 

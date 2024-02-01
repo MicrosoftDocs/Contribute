@@ -3,7 +3,7 @@ title: Edit Microsoft Learn documentation in the browser
 description: Learn how to edit a Microsoft Learn documentation article in the browser using GitHub.
 author: carlyrevier
 ms.author: cahublou
-ms.date: 08/28/2023
+ms.date: 02/01/2024
 ms.topic: contributor-guide
 ms.prod: non-product-specific
 ms.custom: external-contributor-guide
@@ -20,7 +20,7 @@ Quick edits facilitate the process to report and fix small errors and omissions 
 
 We use PRs for all changes, even for contributors who have write access. Most repositories protect the default branch, so updates must be submitted as PRs.
 
-## Prerequisites
+## Prerequisite
 
 - [Create a GitHub account](index.md#create-a-github-account), if you don't have one.
 
@@ -56,11 +56,7 @@ We use PRs for all changes, even for contributors who have write access. Most re
 
    Review your changes, and then select **Create pull request**.
 
-1. On the **Open a pull request** page, preview your PR. You can change the title or description fields if needed. When you're ready, select **Create pull request**. This action opens your PR.
-
-1. If everything looks good and you're done editing, add a comment that reads `#sign-off`. This alerts the PR review team that your PR is ready to be reviewed.
-
-    :::image type="content" source="media/how-to-write-quick-edits/sign-off.png" alt-text="Screenshot of the GitHub comment box within a PR with a comment reading #sign-off.":::
+1. On the **Open a pull request** page, preview your PR. You can change the title or description fields if needed. When you're ready, select **Create pull request**. This action opens your PR and alerts the article owner that you've proposed a change.
 
 1. That's it! Content team members will review your PR and merge it when it's approved. You may get feedback requesting changes. For more details on processing your PR, see [Process a pull request](process-pull-request.md).
 
