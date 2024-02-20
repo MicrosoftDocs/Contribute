@@ -31,7 +31,7 @@ The [Learn Authoring Pack](/contribute/content/get-started-setup-tools?pivots=wi
 
 ## Meta titles
 
-The meta title should be clear and concise, and it should include the primary keyword. It should also:
+The meta title should be clear and concise, and it should include the primary keyword. For example, for a tutorial on Python programming, a suitable meta title could be "Python Mastery: A Comprehensive Guide for Beginners." This title not only includes the primary keyword "Python" but also provides a glimpse into the content focus. It should also:
 
 - **Be the right length.** For optimal SEO, write the title so that the entire title is 30-65 characters long. The entire title is: Meta title + meta titleSuffix + suffix "| Microsoft Learn." (Some teams use titleSuffix metadata to add the product name. If your team doesn't use titleSuffix then add the product brand name into the meta title.)
 - **Be written in title case.** This means to capitalize every word except for small words such as "a, an, the, of," etc.
