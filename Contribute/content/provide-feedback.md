@@ -13,9 +13,7 @@ ms.date: 02/22/2024
 
 This article explains how to provide feedback for Microsoft Learn content using the new feedback experience. This unified feedback experience is now standard across all products that publish documentation or training content on Microsoft Learn. The improved system:
 
-- Simplifies our procedures to efficiently incorporate your feedback.
-- Allows for feedback in languages other than English.
-- Enhances the ability of content authors to respond to feedback.
+- Streamlines our procedures to efficiently incorporate your feedback.
 - Supports global accessibility for non-English customers.
 - Reduces the burden of providing feedback for the non-developer community.
 
@@ -51,9 +49,10 @@ To leave feedback with the standard experience:
 
     The feedback control allows you to provide feedback on Microsoft Learn content. Your feedback will be evaluated by Microsoft content writers, not product teams.
 
-    If you want to leave feedback for the product itself, select **Provide product feedback** at the bottom of the feedback box. This link will take you to a platform where you can provide feedback on the product, which is reviewed by the respective product teams.
+    Some content teams may also configure these additional links to appear at the bottom of the feedback control:
 
-    The feedback control also offers an optional link to either the product's community site or the Q&A platform. If you have specific questions and require community assistance, you can use these platforms to get help.
+    - **Provide product feedback**: This link allows you to provide feedback for the product itself rather than the content. Selecting this link will take you to a platform where you can provide feedback on the product, which is reviewed by the respective product teams.
+    - **Get help**: Depending on how this link is configured, it takes you to either the product's community site or the Q&A platform. If you have specific questions and require community assistance, you can use these platforms to get help.
 
 1. Select **Submit**.
 
