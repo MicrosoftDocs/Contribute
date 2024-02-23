@@ -23,8 +23,8 @@ Depending on the repository, you may see a standard feedback experience and/or a
 
 ## Prerequisites
 
-- None, if using the [standard experience](link).
-- A GitHub account, if using the [open-source experience](link).
+- None, if using the [standard experience](#use-the-standard-experience).
+- A GitHub account, if using the [open-source experience](#use-the-open-source-experience).
 
 ## Use the standard experience
 
