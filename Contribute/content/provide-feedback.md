@@ -13,9 +13,10 @@ ms.date: 02/22/2024
 
 This article explains how to provide feedback for Microsoft Learn content using the new feedback experience. This unified feedback experience is now standard across all products that publish documentation or training content on Microsoft Learn. The improved system:
 
-- Streamlines our procedures to efficiently incorporate your feedback.
-- Supports global accessibility for non-English customers.
-- Reduces the burden of providing feedback for the non-developer community.
+- Unifies our systems to efficiently incorporate your feedback, including better routing for customer feedback to our support, product, and content teams.
+- Supports global accessibility for non-English learners.
+- Allows for anonymous feedback to protect learner privacy.
+- Supports the variety of people who use Microsoft Learn, not all of whom use GitHub regularly.
 
 Depending on the repository, you may see a standard feedback experience and/or an open-source experience.
 
