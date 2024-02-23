@@ -11,13 +11,13 @@ ms.date: 02/22/2024
 
 # Provide feedback for Microsoft Learn content
 
-This article explains how to provide feedback for Microsoft Learn content using the new feedback experience. This unified feedback experience is now standard across all products that publish documentation or training content on Microsoft Learn. The improved system:
+This article explains how to provide feedback for Microsoft Learn content using the new feedback experience. This unified feedback experience is now standard across all documentation or training content on Microsoft Learn. The new system:
 
 - Streamlines our procedures to efficiently incorporate your feedback.
 - Supports global accessibility for non-English customers.
 - Reduces the burden of providing feedback for the non-developer community.
 
-Depending on the repository, you may see a standard feedback experience and/or an open-source experience.
+Depending on the repository, you may see an open-source experience in addition to the new standard feedback experience.
 
 ## Prerequisites
 
@@ -43,7 +43,7 @@ To leave feedback with the standard experience:
         ![Screenshot of the feedback link at the top of a training module.](media/provide-feedback/feedback-link-training.png)
 
 1. Choose the thumbs up option if you found the page helpful; choose the thumbs down option if it wasn’t.
-1. Choose a reason for your feedback. Optionally, use the comment box to provide specific feedback on the content.
+1. Choose a reason for your feedback. Optionally, we highly encourage you to use the comment box (which supports up to 999 characters of text) to provide specific feedback on the content.
 
     ![Screenshot of the feedback control.](media/provide-feedback/feedback-box.png)
 
