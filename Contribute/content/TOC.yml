@@ -24,6 +24,8 @@
       href: hacktoberfest.md
 - name: Review pull requests
   href: how-to-review-pull-request.md
+- name: Provide feedback on content
+  href: provide-feedback.md
 - name: Create GitHub issues
   href: how-to-create-github-issues.md
 - name: Create and manage Collections
