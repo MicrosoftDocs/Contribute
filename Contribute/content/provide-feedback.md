@@ -18,7 +18,11 @@ This article explains how to provide feedback for Microsoft Learn content using 
 - Allows for anonymous feedback to protect learner privacy.
 - Supports the variety of people who use Microsoft Learn, not all of whom use GitHub regularly.
 
-Depending on the repository, you may see an open-source experience in addition to the new standard feedback experience.
+All content on Microsoft Learn uses the new standard experience. Depending on the repository, you may see an open-source experience in addition to the standard feedback experience.
+
+While GitHub issues are no longer supported in repositories using only the standard experience, you can still contribute to Microsoft Learn documentation by [creating a pull request](how-to-write-quick-edits.md) if you spot an error or wish to add something. Also, you can still view an article's change history and contributors by selecting the **Edit** pencil at the top of the page and then selecting **History**:
+
+:::image type="content" source="media/provide-feedback/history.png" alt-text="Screenshot of the history button in GitHub for the web.":::
 
 ## Prerequisites
 
@@ -27,15 +31,13 @@ Depending on the repository, you may see an open-source experience in addition t
 
 ## Use the standard experience
 
-The majority of content sets use the standard experience, which allows you to provide feedback using a thumbs up/thumbs down control. You don’t need to log in or create an account to use this experience.
+The new standard experience allows you to provide feedback using a thumbs up/thumbs down control. You don’t need to log in or create an account to use this experience.
 
-While GitHub issues are no longer supported within repositories using the standard experience, you can still contribute to Microsoft Learn documentation by [creating a pull request](how-to-write-quick-edits.md) if you spot an error or wish to add something.
-
-To leave feedback with the standard experience:
+To leave feedback using the standard experience:
 
 1. Navigate to the article you’d like to give feedback on.
 1. Find the **Feedback** link and select it.
-    1. In documentation, the link is at the top of the page and in a larger box at the bottom of the page.
+    1. In documentation that has only the standard experience enabled, the link is at the top of the page and in a larger box at the bottom of the page.
 
         ![Screenshot of the feedback link at the top of a documentation page.](media/provide-feedback/feedback-link.png)
 
@@ -44,13 +46,15 @@ To leave feedback with the standard experience:
         ![Screenshot of the feedback link at the top of a training module.](media/provide-feedback/feedback-link-training.png)
 
 1. Choose the thumbs up option if you found the page helpful; choose the thumbs down option if it wasn’t.
-1. Choose a reason for your feedback. Optionally, we highly encourage you to use the comment box (which supports up to 999 characters of text) to provide specific feedback on the content.
+1. Choose one or multiple reasons for your feedback. Optionally, we highly encourage you to use the comment box (which supports up to 999 characters of text) to provide specific feedback on the content.
 
     ![Screenshot of the feedback control.](media/provide-feedback/feedback-box.png)
 
+    Readers of localized content will see an additional option to provide feedback on the translation quality.
+
     The feedback control allows you to provide feedback on Microsoft Learn content. Your feedback will be evaluated by Microsoft content writers, not product teams.
 
-    Some content teams may also configure these additional links to appear at the bottom of the feedback control:
+    Some content teams may also configure these other links to appear at the bottom of the feedback control:
 
     - **Provide product feedback**: This link allows you to provide feedback for the product itself rather than the content. Selecting this link will take you to a platform where you can provide feedback on the product, which is reviewed by the respective product teams.
     - **Get help**: Depending on how this link is configured, it takes you to either the product's community site or the Q&A platform. If you have specific questions and require community assistance, you can use these platforms to get help.
