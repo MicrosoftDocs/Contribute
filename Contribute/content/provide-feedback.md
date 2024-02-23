@@ -20,7 +20,7 @@ This article explains how to provide feedback for Microsoft Learn content using 
 
 All content on Microsoft Learn uses the new standard experience. Depending on the repository, you may see an open-source experience in addition to the standard feedback experience.
 
-While GitHub issues are no longer supported in repositories using only the standard experience, you can still contribute to Microsoft Learn documentation by [creating a pull request](how-to-write-quick-edits.md) if you spot an error or wish to add something. Also, you can still view an article's change history and contributors by selecting the **Edit** pencil at the top of the page and then selecting **History**:
+While GitHub issues are no longer supported in repositories using only the standard experience, you can still contribute to Microsoft Learn documentation by [creating a pull request](how-to-write-quick-edits.md) if you spot an error or wish to add something for any repository that already had this capability enabled. Also, you can still view an article's change history and contributors by selecting the **Edit** pencil at the top of the page and then selecting **History**:
 
 :::image type="content" source="media/provide-feedback/history.png" alt-text="Screenshot of the history button in GitHub for the web.":::
 
@@ -61,7 +61,8 @@ To leave feedback using the standard experience:
 
 1. Select **Submit**.
 
-The feedback you provide is anonymous, and Microsoft doesn’t collect personal data from your submission. In the new experience, feedback isn’t publicly visible to ensure customer privacy.  
+> [!NOTE]
+> The feedback you provide is anonymous, and Microsoft doesn’t collect personal data from your submission. In the new experience, feedback isn’t publicly visible to ensure customer privacy. You won't receive a response after you submit your feedback.
 
 ## Use the open-source experience
 
