@@ -17,7 +17,8 @@ Our open-source product documentation is a continuous work in progress. Receivin
 
 Of course, if you know how to fix an issue, we invite you to [make the changes yourself](how-to-write-quick-edits.md), instead of opening an issue.
 
-Only open-source products using the open-source feedback experience accept GitHub issues. For more information and a list of participating repositories, see [Use the open-source experience](provide-feedback.md#use-the-open-source-experience). To leave feedback on non-open-source product documentation, see [Provide feedback on Microsoft Learn](provide-feedback.md).
+> [!NOTE]
+> Only open-source products using the open-source feedback experience accept GitHub issues. For more information and a list of participating repositories, see [Use the open-source experience](provide-feedback.md#use-the-open-source-experience). To leave feedback on non-open-source product documentation, see [Provide feedback on Microsoft Learn](provide-feedback.md).
 
 ## Prerequisites
 
@@ -26,20 +27,19 @@ Only open-source products using the open-source feedback experience accept GitHu
 ## Create an issue
 
 1. Navigate to the article you want to comment on.
-1. Scroll to the bottom of the article, where you'll see options for submitting feedback.
+1. Scroll to the bottom of the article, where you'll see options for submitting feedback. Select **Open a documentation issue** to create a new issue. This feedback is specific to the content and is tracked as an issue in GitHub.
 
     ![Screenshot of the bottom of an article, showing the feedback options.](media/how-to-create-github-issues/feedback-links.png)
 
-    - Select **Open a documentation issue** to create a new issue in the GitHub repository that stores the content for the article you're viewing. This feedback is specific to the content and is tracked as an issue in GitHub.
-    - Select **Provide product feedback** to go to a destination (for example, UserVoice, GitHub, an email address) where you can provide feedback on the product itself. This feedback is independent of the content and has no relationship back to the original article.
+    Optionally, select **Provide product feedback** to go to a destination (for example, a feedback portal, GitHub, an email address) where you can provide feedback on the product itself. This feedback is independent of the content and has no relationship back to the original article.
 
 1. The system opens a new issue for you in the GitHub repository that stores the content for the article you're viewing. Add a title and a description; all other fields should populate for you automatically. When you're done, select **Submit new issue**.
 
     :::image type="content" source="media/how-to-create-github-issues/github-issue.png" alt-text="Screenshot of the new-issue form in GitHub.":::
 
-    The more detail you provide, the more helpful the issue. Tell us what information you sought. Tell us the search terms you used. If you can't get started, tell us how you want to start exploring unfamiliar technology. You can also add screenshots or files to help us understand your issue.
+    The more detail you provide, the more helpful the issue is. Tell us what information you sough or the search terms you used to get to this article. If you can't get started, tell us how you want to start exploring unfamiliar technology. You can also add screenshots or files to help us understand your issue.
 
-That's it! Your issue is now added to the Issues queue. Issues start the conversation about what's needed. The content team will respond to these issues with ideas for what we can add and ask for your opinions. When we create a draft, we'll ask you to [review the PR](#review-open-prs).
+That's it! Your issue is now added to the Issues queue. Issues start the conversation about what's needed. The content team will respond to these issues with ideas for what we can add and ask for your opinions. When we create a draft, we'll ask you to [review the PR](how-to-review-pull-request.md).
 
 ## Comment on an issue
 

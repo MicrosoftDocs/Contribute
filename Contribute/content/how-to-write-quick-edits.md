@@ -16,7 +16,7 @@ ms.custom: external-contributor-guide
 
 Several of Microsoft's documentation sets are open source and hosted on GitHub. While not all documentation sets are completely open source, many have public-facing repositories where you can suggest changes via pull requests (PRs). This open-source approach streamlines and improves communication between product engineers, content teams, and customers.
 
-Quick edits facilitate the process to report and fix small errors and omissions in documentation. Despite all efforts, small grammar and spelling errors _do_ make their way into our published documents. While you can create issues to report mistakes, it's faster and easier to create a PR to fix the issue when the option is available.
+Quick edits facilitate the process to report and fix small errors and omissions in documentation. Despite all efforts, small grammar and spelling errors _do_ make their way into our published documents. We appreciate your help in identifying and fixing these issues!
 
 We use PRs for all changes, even for contributors who have write access. Most repositories protect the default branch, so updates must be submitted as PRs.
 
