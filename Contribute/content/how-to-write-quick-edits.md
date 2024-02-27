@@ -1,6 +1,6 @@
 ---
 title: Edit Microsoft Learn documentation in the browser
-description: Learn how to edit a Microsoft Learn documentation article in the browser using GitHub.
+description: Learn how to edit a Microsoft Learn article in the browser using GitHub's user interface and without having to download or install tools.
 author: carlyrevier
 ms.author: cahublou
 ms.date: 02/01/2024
