@@ -64,7 +64,7 @@ A project's default branch serves as the current version of content for the proj
 
 #### Articles subdirectory
 
-You can typically find a main `articles` directory off the root of the repository. The `articles`` directory contains a set of subdirectories Articles in the subdirectories are formatted as Markdown files that use an *.md* extension. Some repositories that support multiple services use a
+You can typically find a main `articles` directory off the root of the repository. The `articles` directory contains a set of subdirectories Articles in the subdirectories are formatted as Markdown files that use an *.md* extension. Some repositories that support multiple services use a
 generic `/articles` subdirectory, such as the [Azure-Docs](https://github.com/MicrosoftDocs/Azure-Docs) repository. Others might use a
 service-specific name, such as the [IntuneDocs](https://github.com/MicrosoftDocs/IntuneDocs) repository, which uses `/IntuneDocs`.
 
