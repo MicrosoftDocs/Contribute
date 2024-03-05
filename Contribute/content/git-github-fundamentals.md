@@ -1,6 +1,6 @@
 ---
 title: Git and GitHub essentials for Microsoft Learn documentation
-description: This article defines key terms, provides an overview of Git and GitHub repositories, and explains how content is organized for Microsoft technical documentation.
+description: This article defines key terms, provides an overview of Git and GitHub repositories, and explains how content is organized for Microsoft Learn documentation.
 author: carlyrevier
 ms.author: cahublou
 ms.topic: contributor-guide
@@ -99,7 +99,7 @@ This term is the name assigned to the connection between your local repository a
 
 A *pull request* (PR) is a request for a content owner to pull your changes into the official source. A PR enables GitHub's collaboration model by asking for the changes (also known as *commits*) from your working branch to be pulled and merged into another branch. In most cases, that other branch is the default branch in the main repository.
 
-A PR also serves as a mechanism to provide the contributor with feedback from Microsoft Learn's validation processes and the PR reviewer, to resolve potential issues or questions before the changes are merged into the default branch.
+A PR also serves as a mechanism to provide the contributor with feedback from Microsoft Learn's validation processes and the PR reviewer to resolve issues or questions before the changes are merged into the default branch.
 
 ## Remote
 
