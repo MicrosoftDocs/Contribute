@@ -62,5 +62,5 @@ We use PRs for all changes, even for contributors who have write access. Most re
 
 ## Limitations
 
-- Most localized (i.e., translated) documentation doesn't offer the ability to edit or provide feedback through GitHub. To provide feedback on localized content, use the [Provide Feedback](https://aka.ms/provide-feedback) form.
+- Most localized (i.e., translated) content doesn't offer the ability to edit through GitHub. However, you can provide feedback on translation quality by selecting the Feedback (thumbs) button at the top of the page and then choosing the **Translation quality** reason. You can also leave more specific feedback on localized content by using the [Provide Feedback](https://aka.ms/provide-feedback) form.
 - The in-browser editing experience works best for minor and infrequent changes. If you make large contributions or use advanced Git features (such as branch management or advanced merge conflict resolution), we recommend that you [fork the repo and work locally](how-to-write-workflows-major.md).
