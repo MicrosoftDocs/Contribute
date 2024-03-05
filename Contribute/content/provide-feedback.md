@@ -87,6 +87,7 @@ Currently, the open-source experience is enabled for the following repositories:
 - MicrosoftDocs/azure-docs-powershell
 - MicrosoftDocs/azure-docs-sdk-node
 - MicrosoftDocs/azure-docs-sdk-python
+- MicrosoftDocs/community-content
 - MicrosoftDocs/microsoft-365-community
 - MicrosoftDocs/PowerShell-Docs
 - MicrosoftDocs/PowerShell-Docs-DSC
