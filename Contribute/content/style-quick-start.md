@@ -2,7 +2,7 @@
 title: Microsoft Learn style guide - Quick start
 description: This article is a concise guide for style considerations, containing just the essential topics for getting started with Microsoft Learn.
 ms.topic: contributor-guide
-ms.prod: non-product-specific
+ms.service: learn
 ms.custom: external-contributor-guide
 ms.date: 07/25/2017
 ---

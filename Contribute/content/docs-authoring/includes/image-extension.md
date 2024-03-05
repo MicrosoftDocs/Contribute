@@ -1,6 +1,6 @@
 ---
 author: IEvangelist
-ms.prod: non-product-specific
+ms.service: learn
 ms.topic: contributor-guide
 ms.date: 09/27/2022
 ms.author: dapine

@@ -5,7 +5,7 @@ author: carlyrevier
 ms.author: cahublou
 ms.date: 02/01/2024
 ms.topic: contributor-guide
-ms.prod: non-product-specific
+ms.service: learn
 ms.custom: external-contributor-guide
 ---
 

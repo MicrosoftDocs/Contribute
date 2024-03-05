@@ -3,7 +3,7 @@ title: Metadata explorer - Learn Authoring Pack
 description: Learn about the Metadata explorer, included with the Learn Authoring Pack Visual Studio Code extension.
 author: gewarren
 ms.author: gewarren
-ms.prod: non-product-specific
+ms.service: learn
 ms.topic: contributor-guide
 ms.date: 06/10/2021
 feedback_product_url: https://github.com/microsoft/vscode-docs-authoring/issues

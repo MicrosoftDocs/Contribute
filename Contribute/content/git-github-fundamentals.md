@@ -4,7 +4,7 @@ description: This article defines key terms, provides an overview of Git and Git
 author: carlyrevier
 ms.author: cahublou
 ms.topic: contributor-guide
-ms.prod: non-product-specific
+ms.service: learn
 ms.custom: external-contributor-guide
 ms.date: 01/25/2024
 ---

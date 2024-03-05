@@ -2,7 +2,7 @@
 title: Voice and tone guidelines for .NET docs contributions
 description: Learn our voice and tone guidelines through examples of our styles compared to examples that don't follow our guidelines.
 ms.topic: contributor-guide
-ms.prod: non-product-specific
+ms.service: learn
 ms.custom: external-contributor-guide
 ms.date: 11/07/2018
 ---

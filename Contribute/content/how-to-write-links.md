@@ -2,7 +2,7 @@
 title: How to use links in documentation
 description: This article provides guidance on creating links to other content on Microsoft Learn.
 ms.topic: contributor-guide
-ms.prod: non-product-specific
+ms.service: learn
 ms.custom: external-contributor-guide
 author: gewarren
 ms.author: gewarren

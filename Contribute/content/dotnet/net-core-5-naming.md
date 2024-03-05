@@ -2,7 +2,7 @@
 title: "How to refer to .NET in docs"
 description: "Learn how to refer to .NET Framework, .NET Core, .NET 5, and later versions in docs."
 ms.topic: contributor-guide
-ms.prod: non-product-specific
+ms.service: learn
 ms.custom: external-contributor-guide
 ms.date: 01/28/2021
 ---
