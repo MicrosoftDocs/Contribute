@@ -5,7 +5,7 @@ author: meganbradley
 ms.author: mbradley
 ms.date: 11/09/2021
 ms.topic: contributor-guide
-ms.prod: non-product-specific
+ms.service: learn
 ms.custom: external-contributor-guide
 ---
 

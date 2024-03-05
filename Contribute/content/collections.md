@@ -4,7 +4,7 @@ description: Learn about Microsoft Learn Collections and how to use them to cura
 author: carlyrevier
 ms.author: cahublou    
 ms.date: 08/22/2023
-ms.prod: non-product-specific
+ms.service: learn
 ms.topic: contributor-guide
 ms.custom: external-contributor-guide
 ---

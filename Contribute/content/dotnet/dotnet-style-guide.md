@@ -2,7 +2,7 @@
 title: Template and cheatsheet for .NET articles
 description: This article contains a handy template you can use to create new articles for the .NET docs repositories
 ms.topic: contributor-guide
-ms.prod: non-product-specific
+ms.service: learn
 ms.custom: external-contributor-guide
 ms.date: 11/07/2018
 ---

@@ -5,7 +5,7 @@ author: ps0394
 ms.author: paulsanders
 ms.date: 12/04/2023
 ms.topic: contributor-guide
-ms.prod: non-product-specific
+ms.service: learn
 ms.custom: external-contributor-guide
 ---
 

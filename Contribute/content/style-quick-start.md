@@ -2,7 +2,7 @@
 title: Microsoft Learn style guide - Quick start
 description: This article is a concise guide for style considerations, containing just the essential topics for getting started with Microsoft Learn.
 ms.topic: contributor-guide
-ms.prod: non-product-specific
+ms.service: learn
 ms.custom: external-contributor-guide
 ms.date: 07/25/2017
 ---
@@ -46,9 +46,9 @@ Our technical articles are translated into several languages, and some are modif
 
 ## Localized documentation
 
-- If you are contributing to localized documentation, refer to the [Microsoft Language Portal](https://www.microsoft.com/Language/Default.aspx).
-- For localization guidelines, information on language style and usage in technical publications, and information on market-specific data formats, download the [style guide](https://www.microsoft.com/Language/StyleGuides) in your language.
-- For Microsoft localized terminology, search for [product-specific approved terminology](https://www.microsoft.com/Language/Default.aspx) or download the [Microsoft Terminology Collection](https://www.microsoft.com/language/Terminology) in your language.
+- If you are contributing to localized documentation, refer to the [globalization references](https://learn.microsoft.com/globalization/reference/).
+- For localization guidelines, information on language style and usage in technical publications, and information on market-specific data formats, download the [style guide](https://learn.microsoft.com/globalization/reference/microsoft-style-guides) in your language.
+- Visit [Microsoft Terminology](https://learn.microsoft.com/globalization/reference/microsoft-terminology) to search for product-specific approved terminology or to download the Microsoft Terminology Collection in your language.
 - To learn more about localization, see "Global communications" in the [Microsoft Writing Style Guide](/style-guide/global-communications).
 
 [!INCLUDE [note-docsitelocfeedback](../includes/note-docsitelocfeedback.md)]

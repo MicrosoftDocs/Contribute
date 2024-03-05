@@ -4,7 +4,7 @@ description: Learn how to provide feedback to Microsoft Learn content teams usin
 author: carlyrevier
 ms.author: cahublou
 ms.topic: contributor-guide
-ms.prod: non-product-specific
+ms.service: learn
 ms.custom: external-contributor-guide
 ms.date: 02/22/2024
 ---

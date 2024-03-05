@@ -4,7 +4,7 @@ description: Learn how to create a pull request in GitHub so your updates to Mic
 author: carlyrevier
 ms.author: cahublou
 ms.topic: contributor-guide
-ms.prod: non-product-specific
+ms.service: learn
 ms.custom: external-contributor-guide
 ms.date: 01/25/2024
 ---

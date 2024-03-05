@@ -5,7 +5,7 @@ author: carlyrevier
 ms.author: cahublou
 ms.date: 02/23/2024
 ms.topic: contributor-guide
-ms.prod: non-product-specific
+ms.service: learn
 ms.custom: external-contributor-guide
 ---
 
@@ -39,7 +39,7 @@ Of course, if you know how to fix an issue, we invite you to [make the changes y
 
     The more detail you provide, the more helpful the issue is. Tell us what information you sought or the search terms you used to get to this article. If you can't get started, tell us how you want to start exploring unfamiliar technology. You can also add screenshots or files to help us understand your issue.
 
-That's it! Your issue is now added to the Issues queue. Issues start the conversation about what's needed. The content team will respond to these issues with ideas for what we can add and ask for your opinions. When we create a draft, we'll ask you to [review the PR](how-to-review-pull-request.md).
+That's it! Your issue is now added to the Issues queue. Issues start the conversation about what's needed. The content team will respond to these issues with ideas for what we can add and ask for your opinions.
 
 ## Comment on an issue
 

@@ -6,7 +6,7 @@ author: IEvangelist
 ms.author: dapine
 ms.date: 09/26/2023
 ms.topic: contributor-guide
-ms.prod: non-product-specific
+ms.service: learn
 ms.custom: external-contributor-guide
 ---
 

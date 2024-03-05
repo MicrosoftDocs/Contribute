@@ -3,7 +3,7 @@ title: Install content-authoring tools
 description: This article helps you download and install the client tools you'll need for using Git and editing Markdown files to edit documentation on Microsoft Learn.
 zone_pivot_groups: contribute-tools-zone-pivots-os
 ms.topic: contributor-guide
-ms.prod: non-product-specific
+ms.service: learn
 ms.custom: external-contributor-guide
 author: carlyrevier
 ms.author: cahublou

@@ -68,7 +68,7 @@ With PR comments and reviews, you can:
 
         To suggest changes to text that includes a triple-ticked code fence (```), replace the outer/enclosing `suggestion` backticks with tildes (`~~~`).
 
-    1. Edit the text. Use the buttons in the comment box for simple formatting like bold, italics, and bullets, or use the [Markdown syntax elements](/help/contribute/markdown-reference) directly. You can also add comments to this box below the code-block section.
+    1. Edit the text. Use the buttons in the comment box for simple formatting like bold, italics, and bullets, or use the [Markdown syntax elements](markdown-reference.md) directly. You can also add comments to this box below the code-block section.
 
 1. After you've made your comment, select **Start a review**. The PR author will be notified of your changes. If you used the **Insert a suggestion** button in the previous step, the author will be able to commit your suggestion directly to the document.
 
