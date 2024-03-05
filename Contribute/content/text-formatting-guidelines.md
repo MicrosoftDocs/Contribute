@@ -4,7 +4,7 @@ description: Learn when to use bold, italics, code, and other text styles in art
 author: tdykstra
 ms.author: tdykstra
 ms.date: 11/09/2021
-ms.prod: non-product-specific
+ms.service: learn
 ms.topic: contributor-guide
 ms.custom: external-contributor-guide
 ---

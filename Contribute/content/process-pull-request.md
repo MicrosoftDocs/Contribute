@@ -4,7 +4,7 @@ description: This article explains what happens after you open a pull request in
 author: carlyrevier
 ms.author: cahublou
 ms.topic: contributor-guide
-ms.prod: non-product-specific
+ms.service: learn
 ms.custom: external-contributor-guide
 ms.date: 01/25/2024
 ---

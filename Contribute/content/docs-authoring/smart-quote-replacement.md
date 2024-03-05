@@ -2,7 +2,7 @@
 title: Automatic Smart Quote Replacements - Learn Authoring Pack
 description: Learn how to automatically replace smart quote with the Learn Authoring Pack, Visual Studio Code extension.
 author: IEvangelist
-ms.prod: non-product-specific
+ms.service: learn
 ms.topic: contributor-guide
 ms.date: 03/03/2020
 ms.author: dapine

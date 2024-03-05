@@ -2,7 +2,7 @@
 title: Image Compression - Learn Authoring Pack
 description: Learn how to compress images within the Learn Authoring Pack, Learn Images extension.
 author: IEvangelist
-ms.prod: non-product-specific
+ms.service: learn
 ms.topic: contributor-guide
 ms.date: 03/31/2023
 ms.author: dapine

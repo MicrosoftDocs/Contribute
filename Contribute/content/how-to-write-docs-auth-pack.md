@@ -2,7 +2,7 @@
 title: Learn Authoring Pack for Visual Studio Code
 description: This article describes the Visual Studio Code extension pack to facilitate Markdown authoring for Microsoft Learn.
 ms.topic: contributor-guide
-ms.prod: non-product-specific
+ms.service: learn
 ms.custom: external-contributor-guide
 author: meganbradley
 ms.author: mbradley

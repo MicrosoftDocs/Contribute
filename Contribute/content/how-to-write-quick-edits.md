@@ -1,11 +1,11 @@
 ---
 title: Edit Microsoft Learn documentation in the browser
-description: Learn how to edit a Microsoft Learn documentation article in the browser using GitHub.
+description: Learn how to edit a Microsoft Learn article in the browser using GitHub's user interface and without having to download or install tools.
 author: carlyrevier
 ms.author: cahublou
 ms.date: 02/01/2024
 ms.topic: contributor-guide
-ms.prod: non-product-specific
+ms.service: learn
 ms.custom: external-contributor-guide
 ---
 
@@ -16,7 +16,7 @@ ms.custom: external-contributor-guide
 
 Several of Microsoft's documentation sets are open source and hosted on GitHub. While not all documentation sets are completely open source, many have public-facing repositories where you can suggest changes via pull requests (PRs). This open-source approach streamlines and improves communication between product engineers, content teams, and customers.
 
-Quick edits facilitate the process to report and fix small errors and omissions in documentation. Despite all efforts, small grammar and spelling errors _do_ make their way into our published documents. While you can create issues to report mistakes, it's faster and easier to create a PR to fix the issue when the option is available.
+Quick edits facilitate the process to report and fix small errors and omissions in documentation. Despite all efforts, small grammar and spelling errors _do_ make their way into our published documents. We appreciate your help in identifying and fixing these issues!
 
 We use PRs for all changes, even for contributors who have write access. Most repositories protect the default branch, so updates must be submitted as PRs.
 
@@ -62,5 +62,5 @@ We use PRs for all changes, even for contributors who have write access. Most re
 
 ## Limitations
 
-- Most localized (i.e., translated) documentation doesn't offer the ability to edit or provide feedback through GitHub. To provide feedback on localized content, use the [Provide Feedback](https://aka.ms/provide-feedback) form.
+- Most localized (i.e., translated) content doesn't offer the ability to edit through GitHub. However, you can provide feedback on translation quality by selecting the Feedback (thumbs) button at the top of the page and then choosing the **Translation quality** reason. You can also leave more specific feedback on localized content by using the [Provide Feedback](https://aka.ms/provide-feedback) form.
 - The in-browser editing experience works best for minor and infrequent changes. If you make large contributions or use advanced Git features (such as branch management or advanced merge conflict resolution), we recommend that you [fork the repo and work locally](how-to-write-workflows-major.md).

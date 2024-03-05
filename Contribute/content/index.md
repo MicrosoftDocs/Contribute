@@ -5,7 +5,7 @@ author: carlyrevier
 ms.author: cahublou
 ms.date: 08/30/2023
 ms.topic: contributor-guide
-ms.prod: non-product-specific
+ms.service: learn
 ms.custom: external-contributor-guide
 ---
 
@@ -35,7 +35,7 @@ Once you've set up your accounts, select a contribution option from the table to
 |[Edit documentation](how-to-write-overview.md)     | GitHub         |
 |[Review pull requests](how-to-review-pull-request.md)     | GitHub         |
 |[Provide feedback on content](provide-feedback.md)    | None for standard experience; GitHub for open-source experience |
-|[Create GitHub issues](how-to-create-github-issues.md)     | GitHub         |
+|[Create GitHub issues for open-source product documentation](how-to-create-github-issues.md)     | GitHub         |
 |[Answer questions on Microsoft Q&A](qna-overview.md)     | Microsoft        |
 |[Create a Collection](collections.md)     | Microsoft        |
 |[Participate in the Microsoft Learn Tech Community](https://techcommunity.microsoft.com/t5/microsoft-learn/ct-p/MicrosoftLearn)     | Microsoft         |

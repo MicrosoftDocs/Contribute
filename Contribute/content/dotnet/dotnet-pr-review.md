@@ -2,7 +2,7 @@
 title: .NET docs pull request review process
 description: The .NET docs do not have the PR merger webhooks enabled. This article describes the PR process for those repositories
 ms.topic: contributor-guide
-ms.prod: non-product-specific
+ms.service: learn
 ms.custom: external-contributor-guide
 ms.date: 06/24/2020
 ---

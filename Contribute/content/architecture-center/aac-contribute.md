@@ -2,7 +2,7 @@
 title: Contribute to Patterns and Practices content
 description: This article describes how to contribute to Patterns and Practices repositories.
 ms.topic: contributor-guide
-ms.prod: non-product-specific
+ms.service: learn
 ms.custom: external-contributor-guide
 author: martinekuan
 ms.author: martinek

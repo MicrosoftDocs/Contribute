@@ -3,7 +3,7 @@ title: How to write /// docs for .NET API ref
 ms.date: 06/29/2023
 author: gewarren
 ms.author: gewarren
-ms.prod: non-product-specific
+ms.service: learn
 ms.topic: contributor-guide
 description: Learn how to write good descriptions in source code for generating .NET API reference documentation.
 ---

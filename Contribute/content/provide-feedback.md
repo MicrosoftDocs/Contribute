@@ -4,7 +4,7 @@ description: Learn how to provide feedback to Microsoft Learn content teams usin
 author: carlyrevier
 ms.author: cahublou
 ms.topic: contributor-guide
-ms.prod: non-product-specific
+ms.service: learn
 ms.custom: external-contributor-guide
 ms.date: 02/22/2024
 ---
@@ -87,6 +87,7 @@ Currently, the open-source experience is enabled for the following repositories:
 - MicrosoftDocs/azure-docs-powershell
 - MicrosoftDocs/azure-docs-sdk-node
 - MicrosoftDocs/azure-docs-sdk-python
+- MicrosoftDocs/community-content
 - MicrosoftDocs/microsoft-365-community
 - MicrosoftDocs/PowerShell-Docs
 - MicrosoftDocs/PowerShell-Docs-DSC

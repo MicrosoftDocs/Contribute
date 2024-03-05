@@ -2,7 +2,7 @@
 title: Get content from Jupyter notebooks - Learn Authoring Pack
 description: Learn how to insert and update content from a Jupyter notebook into your document with the Learn Authoring Pack, Visual Studio Code extension.
 author: sdgilley
-ms.prod: non-product-specific
+ms.service: learn
 ms.topic: contributor-guide
 ms.date: 01/03/2023
 ms.author: sgilley

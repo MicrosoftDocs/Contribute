@@ -2,7 +2,7 @@
 title: Labels, projects, and milestones roadmap
 description: This article explains how labels, projects, and milestones are used in the dotnet/docs repository.
 ms.topic: contributor-guide
-ms.prod: non-product-specific
+ms.service: learn
 ms.custom: external-contributor-guide
 ms.date: 02/10/2021
 ---

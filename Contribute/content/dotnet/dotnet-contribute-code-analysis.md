@@ -4,7 +4,7 @@ description: This article describes the process for contributing to the articles
 author: mavasani
 ms.author: mavasani
 ms.topic: contributor-guide
-ms.prod: non-product-specific
+ms.service: learn
 ms.custom: external-contributor-guide
 ms.date: 10/09/2020
 ---

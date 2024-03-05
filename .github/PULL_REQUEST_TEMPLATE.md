@@ -4,7 +4,7 @@ Thanks for contributing to the [Microsoft Learn contributor guide](https://learn
 
 ## Quality control
 
-- [ ] 1. **Successful build with no warnings**: Review the build status to make sure **all checks are green** (Succeeded).
+- [ ] 1. **Successful build with no warnings or errors**: Review the build status to make sure **all checks are green** (Succeeded).
 
 - [ ] 2. **#Sign-off**: Once the PR is finalized and ready to be merged, indicate so by typing `#sign-off` in a new comment in the PR. Signing off means the document is ready for review and can be published at any time.
 
@@ -15,5 +15,4 @@ Thanks for contributing to the [Microsoft Learn contributor guide](https://learn
 
 ## Need help?
 
-- If you have an open PR, tag the PR reviewers in comment with your question: `@carlyrevier, @jehchow`
-- Open an issue in this repo and tag the PR reviewers.
+If you have an open PR, tag the PR reviewers in a comment with your question: `@carlyrevier, @jehchow`

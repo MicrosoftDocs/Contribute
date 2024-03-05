@@ -6,7 +6,7 @@ ms.author: sabarret
 ms.reviewer: jasonh
 ms.date: 10/13/2021
 ms.topic: contributor-guide
-ms.prod: non-product-specific
+ms.service: learn
 ms.custom: external-contributor-guide
 ---
 

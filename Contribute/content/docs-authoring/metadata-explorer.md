@@ -3,7 +3,7 @@ title: Metadata explorer - Learn Authoring Pack
 description: Learn about the Metadata explorer, included with the Learn Authoring Pack Visual Studio Code extension.
 author: gewarren
 ms.author: gewarren
-ms.prod: non-product-specific
+ms.service: learn
 ms.topic: contributor-guide
 ms.date: 06/10/2021
 feedback_product_url: https://github.com/microsoft/vscode-docs-authoring/issues
@@ -15,7 +15,7 @@ feedback_product_url: https://github.com/microsoft/vscode-docs-authoring/issues
 
 ## Summary
 
-The Metadata explorer appears automatically in the Explorer side bar of Visual Studio Code when you open a Learn Markdown file. It has two main sections: [required metadata](../metadata.md#required-metadata) and [optional metadata](../metadata.md#optional-metadata).
+The Metadata explorer appears automatically in the Explorer sidebar of Visual Studio Code when you open a Learn Markdown file. It has two main sections: [required metadata](../metadata.md#required-metadata) and [optional metadata](../metadata.md#optional-metadata).
 
 :::image type="content" source="media/metadata-explorer.PNG" alt-text="Metadata explorer in Visual Studio Code":::
 
