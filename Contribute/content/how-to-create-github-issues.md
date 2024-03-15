@@ -18,7 +18,7 @@ Our open-source product documentation is a continuous work in progress. Receivin
 Of course, if you know how to fix an issue, we invite you to [make the changes yourself](how-to-write-quick-edits.md), instead of opening an issue.
 
 > [!NOTE]
-> Only open-source products using the open-source feedback experience accept GitHub issues. For more information and a list of participating repositories, see [Use the open-source experience](provide-feedback.md#use-the-open-source-experience). To leave feedback on non-open-source product documentation, see [Provide feedback on Microsoft Learn](provide-feedback.md).
+> Only open-source products using the open-source feedback experience accept GitHub issues. For more information and a list of participating repositories, see [Use the open-source experience](provide-feedback.md#use-the-open-source-experience). To learn about how to provide non-GitHub feedback across the Microsoft Learn platform, see [Provide feedback on Microsoft Learn](provide-feedback.md).
 
 ## Prerequisites
 
