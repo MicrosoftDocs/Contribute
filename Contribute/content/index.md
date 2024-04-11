@@ -11,9 +11,13 @@ ms.custom: external-contributor-guide
 
 # Contribute to the Microsoft Learn platform
 
-Welcome to the Microsoft Learn contributor guide! This documentation introduces you to the ways you can contribute to the Microsoft Learn platform and teaches you how to get started.
+Welcome to the Microsoft Learn contributor guide! 
 
-Sharing your expertise with others on Microsoft Learn helps everyone achieve more. Use the information in this guide to publish a new article to Microsoft Learn, update a published article, answer questions on Microsoft Q&A, and more.
+Microsoft Learn hosts all documentation for Microsoft products and technologies. Sharing your expertise with others on Microsoft Learn helps everyone achieve more. 
+Use the information in this guide to publish a new article to Microsoft Learn, update a published article, answer questions on Microsoft Q&A, and more.
+
+This documentation introduces you to the ways you can contribute to the Microsoft Learn platform and teaches you how to get started.
+
 
 ## Who can contribute?
 
