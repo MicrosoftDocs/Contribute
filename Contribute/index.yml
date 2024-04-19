@@ -94,7 +94,7 @@ sections:
         componentType: testimonial-card
         name: John Aziz
         role: Software Engineer
-        feedback: Contributing helped me improve my writing skills, and it helped me believe in myself more and made me braver.
+        feedback: Contributing helped me improve my writing skills, and I've been able to meet and collaborate with lots of amazing individuals. Contributing also helped me believe in myself more and made me braver.
         link:
           componentType: link
           url: https://techcommunity.microsoft.com/t5/microsoft-developer-community/contributor-stories-john-aziz/ba-p/4098543
