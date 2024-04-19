@@ -71,9 +71,6 @@ sections:
           - componentType: link
             url: https://www.youtube.com/watch?v=ZQODV8krq1Q
             text: "Watch: Contribute to documentation like a Microsoft Learn Insider"
-          - componentType: link
-            url: https://sdwheeler.github.io/Presentations/contributedocs/slide03/index.html
-            text: "Read: Contribute to documentation like a Microsoft Learn Insider"
       - componentType: card
         title: Technical Writing as a Career
         summary: Learn how to turn your penchant for technical writing into a full-time career.
