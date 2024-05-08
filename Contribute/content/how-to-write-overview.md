@@ -15,7 +15,7 @@ Thank you for your interest in editing documentation on Microsoft Learn! Your co
 
 ## Prerequisite
 
-Before you get started, make sure you're signed in to your GitHub account. If you don't have a GitHub account, navigate to [https://github.com/join](https://github.com/join) for a fast and free sign-up process.
+Before you start, make sure you're signed in to your GitHub account. If you don't have a GitHub account, navigate to [https://github.com/join](https://github.com/join) for a fast and free sign-up process.
 
 ## Minor changes to documentation
 
