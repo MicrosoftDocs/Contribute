@@ -28,13 +28,13 @@ We use PRs for all changes, even for contributors who have write access. Most re
 
 1. Navigate to the documentation you want to edit. _Some_ docs pages allow you to edit content directly in the browser. If so, you'll see an **Edit** pencil icon like the one shown below. Choosing the **Edit** pencil icon takes you to the source file on GitHub.
 
-   :::image type="content" source="media/how-to-write-quick-edits/edit-article.png" alt-text="Screenshot of an Azure documentation article showing the edit pencil icon.":::
+   :::image type="content" source="media/how-to-write-quick-edits/edit-article.png" alt-text="Screenshot of an Azure documentation article showing the **Edit** pencil icon.":::
 
-   If the **Edit** button isn't present, it means the content isn't open to public contributions. Some pages are generated (for example, from inline documentation in code) and must be edited in the project they belong to.
+   If the **Edit** pencil icon isn't present, it means the content isn't open to public contributions. Some pages are generated (for example, from inline documentation in code) and must be edited in the project they belong to.
 
-1. Select the pencil icon at the top of the GitHub file page. If the pencil icon is unavailable (appears dimmed) or doesn't display, you need to log in to your GitHub account.
+1. Select the **Edit** pencil icon at the top of the GitHub file page. If the **Edit** pencil icon is unavailable (appears dimmed) or doesn't display, you need to log in to your GitHub account.
 
-   :::image type="content" source="media/how-to-write-quick-edits/edit-icon.png" alt-text="Screenshot of the Azure article within GitHub,showing the edit pencil icon.":::
+   :::image type="content" source="media/how-to-write-quick-edits/edit-icon.png" alt-text="Screenshot of the Azure article within GitHub,showing the **Edit** pencil icon.":::
 
     At the top of the article is the article's metadata. Metadata is applied to articles for reporting, discoverability via search, and driving aspects of the site experience. If you're making minor updates to a published article, you probably won't need to change the metadata.
 
