@@ -21,4 +21,6 @@ Azure Patterns and Practices content helps customers design, build, and operate 
 
 ## Propose changes to an article
 
-You can propose small changes to content if you want to correct a typo or error, add a link, or add more details. Ensure that your contribution is technically accurate and provides helpful or valuable information in the context of the article. To get started, select the "Edit this document" pencil icon in the upper-right corner of the page you'd like to contribute to. See [Edit Microsoft Learn documentation](../how-to-write-quick-edits.md) for more details. If you can't directly propose the change through GitHub, you can also use the [feedback experience](../provide-feedback.md) at the bottom of the page you'd like to see improved.
+You can propose small changes to content if you want to correct a typo or error, add a link, or add more details. Ensure that your contribution is technically accurate and provides helpful or valuable information in the context of the article. To get started, select the "Edit this document" pencil icon in the upper-right corner of the page you'd like to contribute to. See [Edit Microsoft Learn documentation](../how-to-write-quick-edits.md) for more details.
+
+If you can't directly propose the change through GitHub, you can also use the [feedback experience](../provide-feedback.md) at the bottom of the article you'd like to see improved. Please leave a detailed description of the change you'd like to see and why.
