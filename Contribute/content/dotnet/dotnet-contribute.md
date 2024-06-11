@@ -43,8 +43,8 @@ Following these guidelines will ensure a better experience for you and for us.
 
 Choose an existing issue and address it. You can look at our [open issues](https://github.com/dotnet/docs/issues) list and volunteer to work on the ones you're interested in:
 
-- Filter by the [good-first-issue](https://github.com/dotnet/docs/labels/good-first-issue) label for, well, good first issues.
-- Filter by the [up-for-grabs](https://github.com/dotnet/docs/labels/up-for-grabs) label for issues appropriate for community contribution. These issues usually require minimal context.
+- Filter by the [good first issue](https://github.com/dotnet/docs/labels/good%20first%20issue) label for, well, good first issues.
+- Filter by the [help wanted](https://github.com/dotnet/docs/labels/help%20wanted) label for issues appropriate for community contribution. These issues usually require minimal context.
 - Experienced contributors can tackle any issues of interest.
 
 When you find an issue to work on, add a comment to ask if it's open.
