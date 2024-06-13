@@ -15,4 +15,4 @@ Thanks for contributing to the [Microsoft Learn contributor guide](https://learn
 
 ## Need help?
 
-If you have an open PR, tag the PR reviewers in a comment with your question: `@carlyrevier, @jehchow`
+If you have an open PR, tag the PR reviewers in a comment with your question: `@mikekinsman, @jehchow`
