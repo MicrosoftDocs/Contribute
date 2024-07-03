@@ -26,7 +26,7 @@ One might see the contrast between a conversational style and the style one find
 
 The following paragraph uses second person. The one that follows it uses third person. Please write in second person.
 Second person: You should configure the connection string in the `appsettings.json` file to ensure your app connects to your database.
-Third person: The developer should configure the connection string in the `appsettings.json` file to ensure the app connects to the developers database.
+Third person: The developer should configure the connection string in the `appsettings.json` file to ensure the app connects to the developer's database.
 
 
 ### Appropriate style
