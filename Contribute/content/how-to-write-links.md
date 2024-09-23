@@ -158,7 +158,7 @@ To go to a section on another page.
 XRef links are the recommended way to link to APIs, because they make it easy to customize the link text. Additionally, they're validated at build time, and if the URL to the API reference were to change, the link would still work. To link to auto-generated API reference pages in the current docset or other docsets, use XRef links with the unique ID ([UID](#determine-the-uid)) of the type or member.
 
 > [!TIP]
-> The [API Reference Link Helper extension for VS Code](https://github.com/IEvangelist/xref-helper) makes it super easy to insert .NET API XRref links into Markdown and XML files.
+> The [API Reference Link Helper extension for VS Code](https://github.com/IEvangelist/xref-helper) makes it super easy to insert .NET API Xref links into Markdown and XML files.
 
 Check if the API you want to link to is published on [Microsoft Learn](/) by typing all or some of its full name in the [.NET API browser][] or [Windows UWP][] search box. If you don't see any results displayed, the type isn't yet on Microsoft Learn.
 
