@@ -6,16 +6,16 @@ ms.service: learn
 ms.custom: external-contributor-guide
 author: gewarren
 ms.author: gewarren
-ms.date: 03/31/2020
+ms.date: 09/23/2024
 ---
 # Use links in documentation
 
 This article describes how to use hyperlinks from pages hosted at Microsoft Learn. Links are easy to add into markdown with a few varying conventions. Links point users to content in the same page, in other neighboring pages, or on external sites and URLs.
 
-The Microsoft Learn backend uses Open Publishing Services (OPS), which supports [CommonMark][]-compliant markdown parsed through the [Markdig][] parsing engine. This markdown flavor is mostly compatible with [GitHub Flavored Markdown (GFM)][GFM], as most docs are stored in GitHub and can be edited there. Additional functionality is added through Markdown extensions.
+The Microsoft Learn backend uses Open Publishing Services (OPS), which supports [CommonMark][]-compliant Markdown parsed through the [Markdig][] parsing engine. This Markdown flavor is mostly compatible with [GitHub Flavored Markdown (GFM)][GFM], as most docs are stored in GitHub and can be edited there. Additional functionality is added through Markdown extensions.
 
 > [!IMPORTANT]
-> All links must be secure (`https` vs `http`) whenever the target supports it (which the vast majority should).
+> All links must be secure (`https` vs `http`) whenever the target supports it.
 
 ## Link text
 
@@ -155,10 +155,10 @@ To go to a section on another page.
 
 ## XRef (cross reference) links
 
-XRef links are the recommended way to link to APIs, because they're validated at build time. To link to auto-generated API reference pages in the current docset or other docsets, use XRef links with the unique ID ([UID](#determine-the-uid)) of the type or member.
+XRef links are the recommended way to link to APIs, because they make it easy to customize the link text. Additionally, they're validated at build time, and if the URL to the API reference were to change, the link would still work. To link to auto-generated API reference pages in the current docset or other docsets, use XRef links with the unique ID ([UID](#determine-the-uid)) of the type or member.
 
 > [!TIP]
-> You can use the [Learn Markdown extension for VS Code][docsextension] (part of the Learn Authoring Pack) to insert .NET XRref links that are surfaced in the [.NET API Browser][].
+> The [API Reference Link Helper extension for VS Code][https://github.com/IEvangelist/xref-helper] makes it super easy to insert .NET API XRref links into Markdown and XML files.
 
 Check if the API you want to link to is published on [Microsoft Learn](/) by typing all or some of its full name in the [.NET API browser][] or [Windows UWP][] search box. If you don't see any results displayed, the type isn't yet on Microsoft Learn.
 
@@ -190,61 +190,28 @@ Examples:
 
 - **\[String class](xref:System.String)** displays as [String class](xref:System.String).
 
-The `displayProperty=fullName` query parameter works the same way as `displayProperty=nameWithType` for classes. That is, the link text becomes **namespace.classname**. However, for members, the link text displays as **namespace.classname.membername**, which may be undesirable.
+The `displayProperty=fullName` query parameter works the same way as `displayProperty=nameWithType` for classes. That is, the link text becomes **namespace.classname**. However, for members, the link text displays as **namespace.classname.membername**, which might be undesirable.
 
 > [!NOTE]
-> UIDs are case sensitive. For example, `<xref:System.Object>` resolves correctly but `<xref:system.object>` does not.
-
-### XRef build warnings and incremental builds
-
-An incremental build only builds files that have changed or been affected by a change. If you see a build warning about an invalid XREF link, but the link is actually valid, this could be because the build was incremental. The file causing the warning didn't change, so it wasn't built and past warnings were replayed. The warning will disappear when the file changes or if you trigger a full build (you can start a full build on ops.microsoft.com). This is a drawback to incremental builds, because DocFX can't detect a data update inside the XREF service.
+> UIDs are case sensitive. For example, `<xref:System.Object>` resolves correctly, but `<xref:system.object>` does not.
 
 ### Determine the UID
 
-The UID is usually the fully qualified class or member name. There are at least two ways to determine the UID:
+The UID is usually the fully qualified class or member name. To determine the UID, right-click on the [Microsoft Learn](/) page for a type or member, select **View source**, and then copy the **content** value for **ms.assetid**.
 
-- Right-click on the [Microsoft Learn](/) page for a type or member, select **View source**, and then copy the **content** value for **ms.assetid**:
-
-  ![ms.assetid in source for web page](media/how-to-write-links/ms-assetid.png)
-
-- Use the [autocomplete site][] by appending some or all of the name of the type to the URL. For example, entering `https://xref.docs.microsoft.com/autocomplete?text=Writeline` in the address bar of your browser displays all the types and methods that contain **Writeline** in their name, along with their UID.
-
-#### Verify the UID
-
-To test if you have the correct UID, replace **System.String** in the following URL with your UID, and then paste it into the address bar of a browser:
-
-`https://xref.docs.microsoft.com/query?uid=System.String`
-
-> [!TIP]
-> The UID in the URL is case-sensitive, and if you're checking a method overload UID, don't include spaces between the parameter types.
-
-If you see something like the following, you have the correct UID:
-
-```text
-[{"uid":"System.String","name":"String","fullName":"System.String","href":"https://learn.microsoft.com/dotnet/api/system.string","tags":",/dotnet,netframework-4.5.1,netframework-4.5.2,netframework-4.5,...xamarinmac-3.0,public,","vendor":null,"hash":null,"commentId":"T:System.String","nameWithType":"System.String"},{"uid":"System.String","name":"String","fullName":"System.String","href":"https://learn.microsoft.com/dotnet/api/system.string","tags":",/dotnet,netframework-4.5.1,netframework-4.5.2,netframework-4.5,netframework-4.6,netframework-4.6.1,...,xamarinmac-3.0,public,","vendor":null,"hash":null,"commentId":"T:System.String","nameWithType":"System.String"}]
-```
-
-If you just see `[]` displayed on the page, you have the wrong UID.
+![ms.assetid in source for web page](media/how-to-write-links/ms-assetid.png)
 
 ### Percent-encoding of URLs
 
-Special characters in the UID need to be HTML encoded as follows:
+Special characters in the UID need to be [percent-encoded](https://en.wikipedia.org/wiki/Percent-encoding) as follows:
 
 | Character | HTML encoding |
 | --------- | ------------- |
-| `` ` ``   | %60           |
-| `#`       | %23           |
-| `*`       | %2A           |
+| `*`       | *           |
 
-See a full list of [percent-codes](https://en.wikipedia.org/wiki/Percent-encoding).
-
-Encoding examples:
-
-- ``System.Threading.Tasks.Task`1`` encodes as `System.Threading.Tasks.Task%601` (see the [section on generic types](#generic-types))
+Encoding example:
 
 - `System.Exception.#ctor` encodes as `System.Exception.%23ctor`
-
-- `System.Object.Equals*` encodes as `System.Object.Equals%2A`
 
 ### Generic types
 
@@ -252,18 +219,11 @@ Generic types are those types such as `System.Collections.Generic.List<T>`. If y
 
 `https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1`
 
-To link to a generic type such as **List\<T>**, encode the **\`** backtick character as **%60**, as
-shown in the following example:
-
-```markdown
-<xref:System.Collections.Generic.List%601>
-```
-
 ### Methods
 
-To link to a method, you can either link to the general method page by adding an asterisk (`*`) after the method name, or to a specific overload. For example, use the general page when you want to link to the `<xref:System.Object.Equals%2A?displayProperty=nameWithType>` method without specific parameter types. The asterisk character is encoded as `%2A`. For example:
+To link to a method, you can either link to the general method page by adding an asterisk (`*`) after the method name, or to a specific overload. For example, use the general page when you want to link to the `<xref:System.Object.Equals*?displayProperty=nameWithType>` method without specific parameter types. For example:
 
-`<xref:System.Object.Equals%2a?displayProperty=nameWithType>` links to <xref:System.Object.Equals%2A?displayProperty=nameWithType>
+`<xref:System.Object.Equals*?displayProperty=nameWithType>` links to <xref:System.Object.Equals*?displayProperty=nameWithType>
 
 To link to a specific overload, add parenthesis after the method name and include the full type name of each parameter. Do not put a space character between the type names or the link won't work. For example:
 
