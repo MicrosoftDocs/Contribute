@@ -72,37 +72,6 @@ The open-source feedback experience allows open-source communities to use GitHub
 
 To open a GitHub issue, you must have a GitHub account. For more information, see [Create GitHub issues](how-to-create-github-issues.md).
 
-Currently, the open-source experience is enabled for the following repositories:
-
-- Azure/azure-docs-sdk-dotnet
-- Azure/azure-docs-sdk-java
-- dotnet/AspNetCore.Docs
-- dotnet/docs
-- dotnet/docs-aspire
-- dotnet/docs-desktop
-- dotnet/docs-maui
-- dotnet/entityframework.apidocs
-- dotnet/entityframework.docs
-- dotnet/maui-api-docs
-- MicrosoftDocs/azure-docs-powershell
-- MicrosoftDocs/azure-docs-sdk-node
-- MicrosoftDocs/azure-docs-sdk-python
-- MicrosoftDocs/community-content
-- MicrosoftDocs/microsoft-365-community
-- MicrosoftDocs/PowerShell-Docs
-- MicrosoftDocs/PowerShell-Docs-DSC
-- MicrosoftDocs/PowerShell-Docs-Modules
-- MicrosoftDocs/PowerShell-Docs-PSGet
-- MicrosoftDocs/terminal
-- MicrosoftDocs/Windows-Dev-Docs
-- MicrosoftDocs/WSL
-- Mono/SkiaSharp-API-docs
-- OfficeDev/office-js-docs-pr
-- OfficeDev/office-js-docs-reference
-- OfficeDev/office-scripts-docs
-- OfficeDev/office-scripts-docs-reference
-- Xamarin/essentials
-
 ## Related content
 
 - [Edit documentation in the browser](how-to-write-quick-edits.md)
