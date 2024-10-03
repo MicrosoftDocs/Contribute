@@ -1,0 +1,57 @@
+{
+  "build": {
+    "content": [
+      {
+        "files": [
+          "**/*.md",
+          "**/*.yml"
+        ],
+        "exclude": [
+          "**/obj/**",
+          "**/includes/**",
+          "_themes/**",
+          "_themes.pdf/**",
+          "**/docfx.json",
+          "_repo.en-us/**",
+          "README.md",
+          "LICENSE",
+          "LICENSE-CODE",
+          "ThirdPartyNotices.md",
+          "SECURITY.md"
+        ]
+      }
+    ],
+    "resource": [
+      {
+        "files": [
+          "**/*.gif",
+          "**/*.ipynb",
+          "**/*.jpg",
+          "**/*.jpeg",
+          "**/*.mmd",
+          "**/*.png",
+          "**/*.svg"
+          ],
+        "exclude": [
+          "**/obj/**",
+          "**/includes/**",
+          "_themes/**",
+          "_themes.pdf/**",
+          "**/docfx.json",
+          "_repo.en-us/**"
+        ]
+      }
+    ],
+    "overwrite": [],
+    "externalReference": [],
+    "globalMetadata": {
+      "breadcrumb_path": "/ai/breadcrumb/toc.json",
+      "feedback_system": "Standard",
+      "permissioned-type": "public",
+      "uhfHeaderId": "ai"
+    },
+    "fileMetadata": {},
+    "template": [],
+    "dest": "ai-skills-navigator"
+  }
+}
