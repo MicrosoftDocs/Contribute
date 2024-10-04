@@ -239,6 +239,11 @@
             "source_path": "Contribute/content/architecture-center/solution-idea-templates.md",
             "redirect_url": "/contribute/content/architecture-center/aac-contribute",
             "redirect_document_id": false
+        },
+        {
+            "source_path": "Contribute/content/ai-navigator/index.yml",
+            "redirect_url": "/ai/skills-navigator",
+            "redirect_document_id": false
         }
     ]
 }
