@@ -10,6 +10,7 @@
           "**/obj/**",
           "**/includes/**",
           "_themes/**",
+          "_themes.pdf/**",
           "**/docfx.json",
           "_repo.en-us/**",
           "README.md",
@@ -30,6 +31,7 @@
           "**/obj/**",
           "**/includes/**",
           "_themes/**",
+          "_themes.pdf/**",
           "**/docfx.json",
           "_repo.en-us/**"
         ]
@@ -38,11 +40,13 @@
     "overwrite": [],
     "externalReference": [],
     "globalMetadata": {
-      "breadcrumb_path": "~/breadcrumb/ai-navigator/toc.yml",
+      "breadcrumb_path": "/ai/breadcrumb/toc.json",
       "feedback_system": "Standard",
-      "permissioned-type": "public"
+      "permissioned-type": "public",
+      "uhfHeaderId": "ai"
     },
     "fileMetadata": {},
-    "template": []
+    "template": [],
+    "dest": "ai-navigator"
   }
 }

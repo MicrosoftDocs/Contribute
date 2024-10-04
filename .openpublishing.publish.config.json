@@ -1,18 +1,6 @@
 {
   "docsets_to_publish": [
     {
-      "docset_name": "ai-navigator",
-      "build_source_folder": "ai-navigator",
-      "build_output_subfolder": "ai-navigator",
-      "locale": "en-us",
-      "monikers": [],
-      "open_to_public_contributors": true,
-      "type_mapping": {
-        "Conceptual": "Content"
-      },
-      "build_entry_point": "docs"
-    },
-    {
       "docset_name": "ContributionGuide",
       "build_source_folder": "Contribute",
       "build_output_subfolder": "ContributionGuide",
@@ -29,6 +17,20 @@
         "ManagedReference": "Content",
         "RestApi": "Content",
         "ZonePivotGroups": "Toc"
+      },
+      "build_entry_point": "docs",
+      "template_folder": "_themes"
+    },
+    {
+      "docset_name": "ai-navigator",
+      "build_source_folder": "ai-navigator",
+      "build_output_subfolder": "ai-navigator",
+      "locale": "en-us",
+      "monikers": [],
+      "moniker_ranges": [],
+      "open_to_public_contributors": false,
+      "type_mapping": {
+        "Conceptual": "Content"
       },
       "build_entry_point": "docs",
       "template_folder": "_themes"
