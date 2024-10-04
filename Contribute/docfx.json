@@ -47,7 +47,8 @@
       "ms.author": "cahublou",
       "ms.service": "learn",
       "ms.topic": "contributor-guide",
-      "ms.custom": "external-contributor-guide"
+      "ms.custom": "external-contributor-guide",
+      "uhfHeaderId": "MSDocsHeader-Learn"      
           },
     "fileMetadata": {},
     "template": [],
