@@ -39,4 +39,4 @@ sections:
 
       - question: What data is collected by the AI Skills Navigator?
         answer: |
-          The only data collected by the AI Skills Navigator is the information users enter into the chatbot. This data is used for training for the AI and will not be used for any other purpose.
+          The only data collected by the AI Skills Navigator is the information users enter into the chatbot. This data is used for training for the AI and will not be used for any other purpose. 
