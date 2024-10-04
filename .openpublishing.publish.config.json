@@ -36,7 +36,7 @@
     {
       "docset_name": "ai-navigator",
       "build_source_folder": "ai-navigator",
-      "build_output_subfolder": "ai/skills-navigator",
+      "build_output_subfolder": "ai-navigator",
       "locale": "en-us",
       "monikers": [],
       "moniker_ranges": [],
