@@ -1,6 +1,6 @@
 ---
 title: Edit Microsoft Learn documentation in the browser
-description: Learn how to edit a Microsoft Learn article in the browser using GitHub's user interface and without having to download or install tools.
+description: Learn how to edit a Microsoft Learn article in the browser using GitHub's user interface without having to download or install tools.
 author: carlyrevier
 ms.author: cahublou
 ms.date: 02/01/2024
@@ -16,9 +16,9 @@ ms.custom: external-contributor-guide
 
 Several of Microsoft's documentation sets are open source and hosted on GitHub. While not all documentation sets are completely open source, many have public-facing repositories where you can suggest changes via pull requests (PRs). This open-source approach streamlines and improves communication between product engineers, content teams, and customers.
 
-Quick edits facilitate the process to report and fix small errors and omissions in documentation. Despite all efforts, small grammar and spelling errors _do_ make their way into our published documents. We appreciate your help in identifying and fixing these issues!
+Quick edits facilitate the process to report and fix small errors and omissions in documentation. Despite all efforts, small grammar and spelling errors do make their way into our published documents. We appreciate your help in identifying and fixing these issues!
 
-We use PRs for all changes, even for contributors who have write access. Most repositories protect the default branch, so updates must be submitted as PRs.
+We use PRs for all changes, even for contributors who have write access. Most repositories have protected default branches, which means all updates must be submitted as pull requests (PRs).
 
 ## Prerequisite
 
@@ -34,9 +34,9 @@ We use PRs for all changes, even for contributors who have write access. Most re
 
 1. Select the **Edit** pencil icon at the top of the GitHub file page. If the **Edit** pencil icon is unavailable (appears dimmed) or doesn't display, you need to log in to your GitHub account.
 
-   :::image type="content" source="media/how-to-write-quick-edits/edit-icon.png" alt-text="Screenshot of the Azure article within GitHub,showing the **Edit** pencil icon.":::
+   :::image type="content" source="media/how-to-write-quick-edits/edit-icon.png" alt-text="Screenshot of the Azure article within GitHub, showing the **Edit** pencil icon.":::
 
-    At the top of the article is the article's metadata. Metadata is applied to articles for reporting, discoverability via search, and driving aspects of the site experience. If you're making minor updates to a published article, you probably won't need to change the metadata.
+    At the top of the article is the article's metadata. Metadata is applied to articles for reporting, discoverability via search and driving aspects of the site experience. If you're making minor updates to a published article, you probably won't need to change the metadata.
 
 1. If it's your first time working in this repository, you'll be prompted to fork the repo before you propose changes. Select **Fork this repository** to continue.
 
@@ -44,7 +44,7 @@ We use PRs for all changes, even for contributors who have write access. Most re
 
 1. When you're finished editing, select the **Commit changes** or **Propose changes** button, usually at the top-right of the screen.
 
-1. Enter a commit message. The commit message becomes the title of your PR and should be a brief summary of your changes (for example, "Fix spelling and grammar errors"). Optionally, add an **Extended description** to give more details about your changes. Select **Propose changes**:
+1. Enter a commit message. The commit message becomes the title of your PR and should be a summary of your changes (for example, "Fix spelling and grammar errors"). Optionally, add an **Extended description** to give more details about your changes. Select **Propose changes**:
 
    :::image type="content" source="media/how-to-write-quick-edits/commit-changes.png" alt-text="Screenshot of the propose changes pop-up.":::
 
