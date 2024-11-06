@@ -186,4 +186,4 @@ When referring to keys or key combinations, follow these conventions:
 
 Consistent style guidelines create a reliable customer experience and simplify the authoring process. Exceptions to these guidelines must be considered carefully. 
 
-If the exception involves using an alternate text style that normally calls for code, make sure it's OK to translate the text in localized versions of the article. For scenarios where you want to prevent localization without using code style, see [Non-localized strings](/help/contribute/markdown-reference).
+If the exception involves using an alternate text style that normally calls for code, make sure it's OK to translate the text in localized versions of the article. For scenarios where you want to prevent localization without using code style, see [Non-localized strings](/contribute/content/markdown-reference).
