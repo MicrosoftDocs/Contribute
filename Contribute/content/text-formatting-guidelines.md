@@ -11,35 +11,37 @@ ms.custom: external-contributor-guide
 
 # Text formatting guidelines
 
-Consistent and appropriate use of bold, italic, and code style for text elements improves
-readability and helps avoid misunderstandings.
+Consistent and appropriate use of bold, italic, and code style for text elements improves readability and helps avoid misunderstandings. If a text formatting element isn't covered by this guidance, refer to the [Microsoft Writing Style Guide](/style-guide/welcome/). The following articles provide detailed guidance on text formatting:
 
-## Bold
+- [Formatting common text elements](/style-guide/text-formatting/formatting-common-text-elements)
 
-Use bold for UI elements, such as menu selections, dialog box names, and input field names.
+- [Formatting text in instructions](/style-guide/procedures-instructions/formatting-text-in-instructions)
 
-### Examples
+- [Formatting common developer elements](/style-guide/developer-content/formatting-developer-text-elements)
 
-* **This**: In **Solution Explorer**, right-click the project node, and then select **Add > New Item**.
-* **Not this**: In Solution Explorer, right-click the project node, and then select Add > New Item.
-* **Not this**: In *Solution Explorer*, right-click the project node, and then select *Add > New Item*.
+## UI elements
 
-## Italics
+UI elements, like menu items, dialog names, and names of text boxes, should be in bold text.
 
-Use italics for:
+- **This**: In **Solution Explorer**, right-click the project node, and then select **Add** > **New Item**.
 
-* Introducing new terms along with a definition or explanation.
-* File names, folder names, paths.
-* User input.
+- **Not this**: In Solution Explorer, right-click the project node, and then select Add > New Item.
 
-### Examples
+## Git repo and branch names
 
-* **This**: In App Service, an app runs in an *App Service plan*. An App Service plan defines a set of compute resources for a web app to run on.
-* **Not this**: In App Service, an app runs in an "App Service plan." An App Service plan defines a set of compute resources for a web app to run on.
-* **This**: Replace the code in *HttpTriggerCSharp.cs* with the following code.
-* **Not this**: Replace the code in `HttpTriggerCSharp.cs` with the following code.
-* **This**: Enter *ContosoUniversity* for the **Name**, and then select **Add**.
-* **Not this**: Enter "ContosoUniversity" for the **Name**, and then select **Add**.
+Use bold text for Git repo or branch names when selected or entered in instructions.
+
+- **This**: From the branch menu, select **main**.
+
+- **Not this**: From the branch menu, select "main".
+
+## New term introductions
+
+Use italic text to introduce a new term along with a definition or explanation. Italicize the new term the first time you use it, and then use regular text for the definition or explanation.
+
+- **This**: In App Service, an app runs in an *App Service plan*. An App Service plan defines a set of compute resources for a web app to run on.
+
+- **Not this**: In App Service, an app runs in an "App Service plan." An App Service plan defines a set of compute resources for a web app to run on.
 
 ## Code style
 
@@ -53,11 +55,9 @@ Use code style for:
 * Resource names that should not be localized (such as virtual machine names)
 * URLs that you don't want to be clickable
 
-**Why?** Older style guides specify bold for many of these text elements. However, most articles are
-localized, and code style tells the translator to leave that part of the text untranslated.
+**Why?** Some style guides specify bold for many of these text elements. However, most articles are localized, and code style tells the translator to leave that part of the text untranslated.
 
-Code style can be *inline* (surrounded by \`) or *fenced* code blocks (surrounded by \`\`\`) that
-span multiple lines. Put longer code snippets and paths in fenced code blocks.
+Code style can be *inline* (surrounded by \`) or *fenced* code blocks (surrounded by \`\`\`) that span multiple lines. Put longer code snippets and paths in fenced code blocks.
 
 \* In command-line commands, use forward slashes in file paths if they're supported on all platforms. Use backslashes to illustrate commands that run on Windows, when only backslashes are supported. For example, forward slashes work on the .NET CLI on all platforms, so you would use `dotnet build foldername/filename.csproj` rather than `dotnet build foldername\filename.csproj`.
 
@@ -94,6 +94,16 @@ span multiple lines. Put longer code snippets and paths in fenced code blocks.
 
 ## Placeholders
 
+In paragraph text or procedural steps, use italic for placeholder text that users will substitute with their own information.
+
+- **This**: Enter *password*
+
+- **Not this**: Enter "password"
+
+- **This**: Enter **-p** *password*
+
+- **Not this**: Enter **-p** password
+
 If you want the user to replace part of an input string with their own values, use placeholder text marked off by angle brackets (less than  `<` and greater than `>` characters). 
 
 **Option 1:** Use code-styling to surround the placeholder word or the encompassing phrase. For example, you can use single backticks \` for inline-code formatting for a single phrase, or triple-ticks \`\`\` for code-fenced formatting.
@@ -117,7 +127,7 @@ Rendered as:
 >  az group delete -n \<ResourceGroupName\>
 
 
-**Inform the reader about the placeholder**: In the text preceding such placeholder examples, explain to the reader that the text in brackets must be removed and substituted with real values. We recommend the use of italics for user input. You can format italics within angle bracketed inline code:
+**Inform the reader about the placeholder**: In the text that precedes placeholder examples, explain to the reader that the text in brackets must be removed and substituted with real values. We recommend the use of italics for user input. You can format italics within angle bracketed inline code:
 
 > In the following example, replace the placeholder text *`<ResourceGroupName>`* with your own resource group name.
 
@@ -134,36 +144,29 @@ We discourage using curly braces { } as syntactical placeholders. Readers can co
 * Text templates
 * Similar programming constructs
 
-**Casing and spacing**: You can separate placeholder names with hyphens ("kebab case") or with underscores, or you can do it by using Pascal case. Kebab case might generate syntax errors, and underscores could conflict with underlining. All-caps can conflict with named constants in many languages, though it may also draw attention to the placeholder name.
+**Casing and spacing**: You can separate placeholder names with hyphens ("kebab case") or with underscores, or you can do it by using Pascal case. Kebab case might generate syntax errors, and underscores could conflict with underlining. Use of all caps can conflict with named constants in many languages, though it may also draw attention to the placeholder name.
 
 > *`<Resource-Group-Name>`* or *`<ResourceGroupName>`*
 
-## Headings and link text
+## Headings
 
-Don't apply an inline style such as italics or bold to headings or hyperlink text.
+Don't apply an inline style like italic, bold, or inline code style to headings.
 
-**Why?**
+**Why?** Headings have their own styles, and mixing other styles creates inconsistencies.
 
-People rely on standard hyperlink text to identify text elements as clickable links. Styling a link
-as italics, for example, can obscure the fact that the text is a link. Headings have their own styles
-and mixing other styles in them looks bad.
+- **This**: Import the Microsoft.NET.Sdk.Functions package
 
-### Examples of headings and link text
+- **Not this**: Import the *Microsoft.NET.Sdk.Functions* package
 
-* **This**: The *function.json* file is generated by the NuGet package [Microsoft.NET.Sdk.Functions](https://www.nuget.org/packages/Microsoft.NET.Sdk.Functions).
-* **Not this**: The *function.json* file is generated by the NuGet package [*Microsoft.NET.Sdk.Functions*](https://www.nuget.org/packages/Microsoft.NET.Sdk.Functions).
+## Link text
 
-* **This**:
+Don't apply inline style like italic or bold to link text. 
 
-  ```markdown
-  ### The Microsoft.NET.Sdk.Functions package
-  ```
+**Why?** People rely on standard hyperlink text to identify text elements as clickable links. Styling a link as italic, for example, can obscure the fact that the text is a link.
 
-* **Not this**:
+- **This**: The NuGet package [Microsoft.NET.Sdk.Functions](https://www.nuget.org/packages/Microsoft.NET.Sdk.Functions) generates the function.json file.
 
-  ```markdown
-  ### The *Microsoft.NET.Sdk.Functions* package
-  ```
+**Not this**: The NuGet package *[Microsoft.NET.Sdk.Functions](https://www.nuget.org/packages/Microsoft.NET.Sdk.Functions)* generates the function.json file.
 
 ## Keys and keyboard shortcuts
 
@@ -181,10 +184,6 @@ When referring to keys or key combinations, follow these conventions:
 
 ## Exceptions
 
-Style guidelines aren't rigid rules. In contexts where they harm readability, do something
-different. For example, an HTML table with mostly code elements might look too busy with code
-styling everywhere. You might choose bold styling in that context.
+Consistent style guidelines create a reliable customer experience and simplify the authoring process. Exceptions to these guidelines must be considered carefully. 
 
-If you choose an alternate text style where code is normally called for, make sure it's okay for the text
-to be translated in localized versions of the article. Code is the only style that automatically
-prevents translation. For scenarios where you want to prevent localization without using code style, see [Non-localized strings](markdown-reference.md#non-localized-strings).
+If the exception involves using an alternate text style that normally calls for code, make sure it's OK to translate the text in localized versions of the article. For scenarios where you want to prevent localization without using code style, see [Non-localized strings](/help/contribute/markdown-reference).
