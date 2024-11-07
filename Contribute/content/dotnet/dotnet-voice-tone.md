@@ -25,10 +25,13 @@ One might see the contrast between a conversational style and the style one find
 ## Write in second person
 
 The following paragraph uses second person. The one that follows it uses third person. Please write in second person.
+Second person: You should configure the connection string in the `appsettings.json` file to ensure your app connects to your database.
+Third person: The developer should configure the connection string in the `appsettings.json` file to ensure the app connects to the developer's database.
+
 
 ### Appropriate style
 
-Write your articles as though you are speaking directly to the reader. Use second person often (as in these two sentences). 2nd person doesn't always mean using the word 'you'. Write directly to the reader. Write imperative sentences. Tell your reader what you want them to learn.
+Write your articles as though you are speaking directly to the reader. Use second person often, as in these two sentences. 2nd person doesn't always mean using the word 'you'. Write directly to the reader. Write imperative sentences. Tell your reader what you want them to learn.
 
 ### Inappropriate style
 
