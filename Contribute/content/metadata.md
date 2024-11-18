@@ -12,7 +12,7 @@ ms.custom: external-contributor-guide
 
 # Metadata for Microsoft Learn documentation
 
-We use metadata on Microsoft Learn for content analytics reporting, discoverability of content via search, and driving aspects of the site experience. Metadata can be applied in the article (in the YAML front matter) or globally in the *docfx.json* file for the repo.
+We use metadata on Microsoft Learn for content analytics reporting, discoverability of content via search, and driving aspects of the site experience. Metadata can be applied in the article (in the YAML front matter) or globally in the *docfx.json* file for the repo.1
 
 If you're making an edit to an existing article, you probably won't have to change any metadata. However, if you're adding a new article, there are certain required metadata attributes that you'll need to include in the YAML front matter of the file.
 
