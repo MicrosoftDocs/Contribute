@@ -10,7 +10,7 @@ ms.custom: external-contributor-guide
 ---
 
 # Edit Microsoft Learn documentation in the browser
-
+Microsoft Learn hosts all documentation for Microsoft products and technologies.
 > [!TIP]
 > A self-paced, [step-by-step learning path](/training/modules/contribute-to-docs-browser/?source=recommendations) is available for this topic.
 
