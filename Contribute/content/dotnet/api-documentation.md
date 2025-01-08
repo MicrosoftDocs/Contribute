@@ -87,9 +87,11 @@ If your code example is lengthy, you can put it in a separate file in the docs r
 /// </example>
 ```
 
+For some more details about how to hook up separate code files, see [this discussion](https://github.com/dotnet/runtime/pull/111177#discussion_r1907549328).
+
 ## Language attributes
 
-Language attributes on `<code>` tags are optional, but they cause the code to be formatted correctly/prettily. For example:
+Language attributes on `<code>` tags are optional, but they cause the code to be formatted with color coding. For example:
 
 ```csharp
 /// <example>
@@ -121,4 +123,4 @@ When documenting an API that's not intended to be used by consumers, use wording
 
 - [ECMAXML format](http://docs.go-mono.com/index.aspx?link=man%3amdoc(5))
 - [Recommended XML tags for C#](/dotnet/csharp/language-reference/xmldoc/recommended-tags)
-- [Documentation comments (C# specification)](/dotnet/csharp/language-reference/language-specification/documentation-comments#d2-introduction).
+- [Documentation comments (C# specification)](/dotnet/csharp/language-reference/language-specification/documentation-comments#d2-introduction)
