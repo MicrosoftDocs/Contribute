@@ -228,7 +228,7 @@ To support other image types, such as .gif, you must add them as resources in *d
   {
     "files" : [
       "**/*.png",
-      "**/*.jpg,
+      "**/*.jpg",
       "**/*.gif"
     ],
 ```
