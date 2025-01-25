@@ -224,13 +224,21 @@ The following file types are supported by default for images:
 To support other image types, such as .gif, you must add them as resources in *docfx.json*:
 
 ```json
-"resource": [
-  {
-    "files" : [
-      "**/*.png",
-      "**/*.jpg",
-      "**/*.gif"
-    ],
+{
+  "...": "...",
+
+  "resource": [
+    {
+      "files" : [
+        "**/*.png",
+        "**/*.jpg",
+        "**/*.gif"
+      ],
+
+      "...": "..."
+    }
+  ]
+}
 ```
 
 ### Standard conceptual images (default Markdown)
