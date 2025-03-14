@@ -19,7 +19,7 @@ Sharing your expertise with others on Microsoft Learn helps everyone achieve mor
 
 Anyone who desires to share their knowledge and make a difference can contribute to Microsoft Learn! If you have expertise to share, you're in the right place.
 
-This guide is intended for any non-Microsoft employee who wants to contribute their knowledge to the content and experiences on Microsoft Learn. (Are you a Microsoft employee? Use our internal [content contributor guides](https://review.learn.microsoft.com/help) instead.)
+This guide is intended for any non-Microsoft employee who wants to contribute their knowledge to the content and experiences on Microsoft Learn. (Are you a Microsoft employee? Use our internal [content contributor guides](/help) instead.)
 
 ## How do I start?
 
@@ -30,15 +30,15 @@ First, set up a few accounts. You'll need a [GitHub account](#create-a-github-ac
 
 Once you've set up your accounts, select a contribution option from the table to learn more about how to get started.
 
-|Contribution option  |Account required  |
-|---------|---------|
-|[Edit documentation](how-to-write-overview.md)     | GitHub         |
-|[Review pull requests](how-to-review-pull-request.md)     | GitHub         |
-|[Provide feedback on content](provide-feedback.md)    | None for standard experience; GitHub for open-source experience |
-|[Create GitHub issues for open-source product documentation](how-to-create-github-issues.md)     | GitHub         |
-|[Answer questions on Microsoft Q&A](qna-overview.md)     | Microsoft        |
-|[Create a Collection](collections.md)     | Microsoft        |
-|[Participate in the Microsoft Learn Tech Community](https://techcommunity.microsoft.com/t5/microsoft-learn/ct-p/MicrosoftLearn)     | Microsoft         |
+| Contribution option                                                                          | Account required |
+|----------------------------------------------------------------------------------------------|------------------|
+| [Edit documentation](how-to-write-overview.md)                                               | GitHub           |
+| [Review pull requests](how-to-review-pull-request.md)                                        | GitHub           |
+| [Provide feedback on content](provide-feedback.md)                                           | None for standard experience; GitHub for open-source experience |
+| [Create GitHub issues for open-source product documentation](how-to-create-github-issues.md) | GitHub           |
+| [Answer questions on Microsoft Q&A](qna-overview.md)                                         | Microsoft        |
+| [Create a Collection](collections.md)                                                        | Microsoft        |
+| [Participate in the Microsoft Learn Tech Community](https://techcommunity.microsoft.com/t5/microsoft-learn/ct-p/MicrosoftLearn) | Microsoft |
 
 ### Create a GitHub account
 
@@ -57,10 +57,10 @@ Once you've set up your accounts, select a contribution option from the table to
 
 ## What's in it for me?
 
-Explore Microsoft Learn and discover how it’s a win-win for everyone, especially you! Every time you edit our documentation, we celebrate your contribution by featuring your name at the top of the article. 
+Explore Microsoft Learn and discover how it's a win-win for everyone, especially you! Every time you edit our documentation, we celebrate your contribution by featuring your name at the top of the article. 
 
 Each commit you make to our GitHub repositories is a testament to your dedication, prominently displayed in your GitHub commit history. This not only demonstrates your passion for specific technologies but also fortifies your portfolio. 
 
 And the cherry on top? Some products even reward you with digital treats like badges. 
 
-So don’t hold back! Dive in, contribute, and enjoy the perks!
+So don't hold back! Dive in, contribute, and enjoy the perks!
