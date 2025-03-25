@@ -21,6 +21,7 @@ With PR comments and reviews, you can:
 ## Prerequisites
 
 - [Create a GitHub account](index.md#create-a-github-account), if you don't have one.
+- Join the [MicrosoftDocs](https://repos.opensource.microsoft.com/orgs/MicrosoftDocs) GitHub organization.
 
 ## Find a PR
 
