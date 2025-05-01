@@ -50,5 +50,3 @@ title: 'Quickstart: How to use hashtags (#) to make a point on the internet'
 ---
 # Heading 1 <!-- the article title to show on the web page -->
 ```
-
-
