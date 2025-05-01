@@ -15,7 +15,7 @@ feedback_product_url: https://github.com/microsoft/vscode-docs-authoring/issues
 
 ## Summary
 
-The Metadata explorer appears automatically in the Explorer sidebar of Visual Studio Code when you open a Learn Markdown file. It has two main sections: [required metadata](../metadata.md#required-metadata) and [optional metadata](../metadata.md#optional-metadata).
+The Metadata explorer appears automatically in the Explorer sidebar of Visual Studio Code when you open a Learn Markdown file. 
 
 :::image type="content" source="media/metadata-explorer.PNG" alt-text="Metadata explorer in Visual Studio Code":::
 
