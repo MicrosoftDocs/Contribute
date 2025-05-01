@@ -3,8 +3,7 @@ title: Metadata for Microsoft Learn documentation
 description: Learn about the required and optional metadata for Microsoft Learn documentation.
 author: sarah-barrett
 ms.author: sabarret
-ms.reviewer: jasonh
-ms.date: 10/13/2021
+ms.date: 05/01/2025
 ms.topic: contributor-guide
 ms.service: learn
 ms.custom: external-contributor-guide
@@ -38,8 +37,6 @@ The following table shows the required metadata attributes. If you omit any of t
 | <code>description</code> |  A summary of the content. 75-300 characters. | Used in site search. Sometimes used on a search engine results page for improved SEO. |
 | <code>ms.author</code> |The author's Microsoft alias, *without* "@microsoft.com". If you aren't a Microsoft employee, find a suitable Microsoft employee to use in this field. | Identifies the article's owner. The owner is responsible for decisions about the content of the article, and for the article's reporting and BI. |
 | <code>ms.date</code> | A date in the format MM/DD/YYYY. | Displayed on the published page to indicate the last time the article was substantially edited or guaranteed fresh. The date is entered without time and is interpreted as 0:00 and in the UTC time zone. The date displayed to users is converted to their time zone. |
-| <code>ms.service</code>  |The primary Microsoft offering the content is about.| Identifies Microsoft offering.<br/><br/>|
-| <code>ms.topic</code>  | Usually one of the following values:<br/><br/><code>article</code>, <code>conceptual</code>, <code>contributor-guide</code>, <code>overview</code>, <code>quickstart</code>, <code>reference</code>, <code>sample</code>, <code>tutorial</code>. | Identifies the type of content for reporting purposes. |
 | <code>title</code> | The page title. | This is the page title that's displayed on the browser tab. It's the most important metadata for SEO. |
 
 Attributes are case-sensitive. Enter them exactly as listed, and use a colon and a space between the attributes and the value. If an attribute value includes a colon (:), a hash (#), or any other special character, you must enclose it either single (') or double (") quotes. For example:
