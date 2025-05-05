@@ -17,7 +17,7 @@ There are several ways other than [screenshots](#screenshots) to include code in
 
   Here's an example of `code` style.
 
-  Use code format when referring to named parameters and variables in a nearby code block in your text. Code format may also be used for properties, methods, classes, and language keywords. For more information, see [Code elements](#code-elements) later in this article..
+  Use code format when referring to named parameters and variables in a nearby code block in your text. Code format may also be used for properties, methods, classes, and language keywords. For more information, see [Code elements](#code-elements) later in this article.
 
 * Code blocks in the article Markdown file.
 
