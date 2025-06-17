@@ -37,7 +37,7 @@ The processing used by the Contributor License Agreement (CLA) bot is a good gui
 
 The changes in small PRs are reviewed for accuracy and checked using the build on the review site. Because they are small, these PRs do not trigger a review of the entire article.
 
-Reviewers may notice other small changes that would improve an article. If those changes are also small, reviewers may suggest them as review comments. If the suggested changes would trigger a larger review, reviewers will ask to open an issue and address those later.
+Reviewers might notice other small changes that would improve an article. If those changes are also small, reviewers might suggest them as review comments. If the suggested changes would trigger a larger review, reviewers will ask to open an issue and address those later.
 
 ### Larger changes
 
