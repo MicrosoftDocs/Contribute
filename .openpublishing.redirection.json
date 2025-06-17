@@ -150,10 +150,6 @@
             "redirect_url": "/contribute/content/dotnet/dotnet-contribute"
         },
         {
-            "source_path": "contribute/dotnet/net-core-5-naming.md",
-            "redirect_url": "/contribute/content/dotnet/dotnet-contribute"
-        },
-        {
             "source_path": "Contribute/get-started-setup-github.md",
             "redirect_url": "/contribute/content/get-started-setup-github",
             "redirect_document_id": true
