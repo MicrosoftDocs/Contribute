@@ -4,7 +4,7 @@ description: Learn our voice and tone guidelines through examples of our styles 
 ms.topic: contributor-guide
 ms.service: learn
 ms.custom: external-contributor-guide
-ms.date: 11/07/2018
+ms.date: 06/17/2025
 ---
 # Voice and tone guidelines
 

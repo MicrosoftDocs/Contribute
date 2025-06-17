@@ -1,6 +1,6 @@
 ---
 title: How to write /// docs for .NET API ref
-ms.date: 06/29/2023
+ms.date: 06/17/2025
 author: gewarren
 ms.author: gewarren
 ms.service: learn
@@ -9,7 +9,7 @@ description: Learn how to write good descriptions in source code for generating 
 ---
 # How to write good /// docs for .NET API reference
 
-The ultimate goal for .NET API docs is to have the /// XML comments in the .NET source code be the "source of truth". For MSBuild, ASP.NET Core, and EF Core, this goal has been met. However, currently the [dotnet-api-docs repo](https://github.com/dotnet/dotnet-api-docs) remains the source of truth for core .NET API reference. [This dotnet/runtime issue](https://github.com/dotnet/runtime/issues/44969) tracks the effort to backport .NET docs and make the [dotnet/runtime](https://github.com/dotnet/runtime) repo the source of truth.
+The ultimate goal for .NET API docs is to have the `///` XML comments in the .NET source code be the "source of truth". For MSBuild, ASP.NET Core, and EF Core, this goal has been met. However, currently the [dotnet-api-docs repo](https://github.com/dotnet/dotnet-api-docs) remains the source of truth for some namespaces in the .NET API reference. [This dotnet/runtime issue](https://github.com/dotnet/runtime/issues/44969) tracks the effort to backport .NET docs and make the [dotnet/runtime](https://github.com/dotnet/runtime) repo the source of truth. The presence or absence of the "edit" button on a page often indicates that the `dotnet-api-docs` repository is the source of truth. If it's missing, the source of truth is likely the `///` comments in the source repo.
 
 This article provides tips about writing good doc comments *within the source code itself*.
 
