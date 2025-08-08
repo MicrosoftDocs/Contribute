@@ -142,11 +142,10 @@
         },
         {
             "source_path": "Contribute/content/additional-resources.md",
-            "redirect_url": "/contribute/content/index",
-            "redirect_document_id": true
+            "redirect_url": "/contribute/content/index"
         },
         {
-            "source_path": "Contribute/dotnet/net-core-5-naming.md",
+            "source_path": "Contribute/content/dotnet/net-core-5-naming.md",
             "redirect_url": "/contribute/content/dotnet/dotnet-contribute"
         },
         {
