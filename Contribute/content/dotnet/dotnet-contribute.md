@@ -4,7 +4,7 @@ description: This article describes the process for contributing to the articles
 ms.topic: contributor-guide
 ms.service: learn
 ms.custom: external-contributor-guide
-ms.date: 04/08/2021
+ms.date: 06/17/2025
 ---
 # Contribute to the .NET documentation repositories
 
@@ -15,10 +15,12 @@ This document covers the process for contributing to the articles and code sampl
 The .NET documentation site is built from multiple repositories. These are just some of them:
 
 - [.NET conceptual articles and code snippets](https://github.com/dotnet/docs)
+- [ASP.NET Core conceptual documentation](https://github.com/dotnet/AspNetCore.Docs)
+- [.NET Aspire conceptual documentation](https://github.com/dotnet/docs-aspire)
+- [.NET Desktop conceptual documentation](https://github.com/dotnet/docs-desktop)
+- [.NET MAUI conceptual documentation](https://github.com/dotnet/docs-maui)
 - [Code samples and snippets](https://github.com/dotnet/samples)
 - [.NET API reference](https://github.com/dotnet/dotnet-api-docs)
-- [.NET Compiler Platform SDK reference](https://github.com/dotnet/roslyn-api-docs)
-- [ML.NET API reference](https://github.com/dotnet/ml-api-docs)
 
 ## Guidelines for contributions
 

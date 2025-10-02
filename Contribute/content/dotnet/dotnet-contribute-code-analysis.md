@@ -6,7 +6,7 @@ ms.author: mavasani
 ms.topic: contributor-guide
 ms.service: learn
 ms.custom: external-contributor-guide
-ms.date: 10/09/2020
+ms.date: 06/17/2025
 ---
 # Contribute docs for .NET code analysis rules to the .NET docs repository
 
