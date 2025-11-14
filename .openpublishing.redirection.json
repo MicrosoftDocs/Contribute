@@ -234,7 +234,7 @@
             "redirect_document_id": false
         },
         {
-            "source_path": "Contribute/ai-navigator/index.yml",
+            "source_path": "ai-navigator/index.yml",
             "redirect_url": "/contribute/",
             "redirect_document_id": false
         },        
