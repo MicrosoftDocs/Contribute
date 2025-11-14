@@ -4,7 +4,7 @@ description: The .NET docs do not have the PR merger webhooks enabled. This arti
 ms.topic: contributor-guide
 ms.service: learn
 ms.custom: external-contributor-guide
-ms.date: 06/24/2020
+ms.date: 06/17/2025
 ---
 # Pull request review process for the .NET docs repositories
 
@@ -31,20 +31,20 @@ Reviews follow one of the three paths based on the PR:
 - **Major contributions** - Major contributions are significant edits to an existing article, new articles, or edits to a number of articles.
 - **Work in progress** - Authors can can create a PR that is marked as not ready for review yet by opening a *draft* pull request.
 
-The processing used by the Contributor License Agreement (CLA) bot is a good guideline for the distinction between "small" and "large" contributions. PRs that do not require the CLA to be signed are likely "small." PRs that do require the CLA are likely "large."
+The processing used by the Contributor License Agreement (CLA) bot is a good guideline for the distinction between "small" and "large" contributions. PRs that do not require the CLA to be signed are likely "small." PRs that do require the CLA are likely "large." The CLA needs to be signed once by each contributor, so this is an imperfect guide.
 
 ### Small PRs
 
 The changes in small PRs are reviewed for accuracy and checked using the build on the review site. Because they are small, these PRs do not trigger a review of the entire article.
 
-Reviewers may notice other small changes that would improve an article. If those changes are also small, suggest them as review comments. If the suggested changes would trigger a larger review, open an issue and address those later.
+Reviewers might notice other small changes that would improve an article. If those changes are also small, reviewers might suggest them as review comments. If the suggested changes would trigger a larger review, reviewers will ask to open an issue and address those later.
 
 ### Larger changes
 
 Larger PRs undergo a more thorough review. The following are all checked:
 
-- Sample code must be included in the PR, in source and as a downloadable zip file.
-- Sample code compiles and runs correctly.
+- Sample code must be included in the PR in source.
+- Sample code compiles and runs correctly using a supported .NET version.
 - The article clearly describes the goals for the reader, and those goals are met.
 - The article meets [style and grammar guidelines](dotnet-style-guide.md) and follows our [voice and tone principles](dotnet-voice-tone.md).
 - All links should resolve correctly.
@@ -59,7 +59,7 @@ You may want feedback earlier in the process. Open a draft PR and add a comment 
 
 ## Explain suggestions
 
-GitHub lets you enter comments in triple-back-tick blocks of type `suggestion` that are displayed as a diff and can be merged by clicking a button. On short lines, GitHub does a good job of highlighting the changes. On longer lines, such as a long paragraph in one line of text, GitHub doesn't highlight the changes. When entering a suggestion for a long line, notice whether your changes are clearly highlighted. If the changes aren't highlighted, include comments outside the suggestion block explaining what you changed. Without an explanation it's often time-consuming for subsequent reviewers or the PR author to figure out what the changes are.
+GitHub lets you enter comments in triple-back-tick blocks of type `suggestion` that are displayed as a diff and can be merged by clicking a button. When entering a suggestion, include comments outside the suggestion block explaining what you changed. Without an explanation it's often time-consuming for subsequent reviewers or the PR author to figure out what the changes are.
 
 ## Respond to reviews
 

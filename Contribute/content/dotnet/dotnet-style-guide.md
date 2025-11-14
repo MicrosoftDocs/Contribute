@@ -4,7 +4,7 @@ description: This article contains a handy template you can use to create new ar
 ms.topic: contributor-guide
 ms.service: learn
 ms.custom: external-contributor-guide
-ms.date: 11/07/2018
+ms.date: 06/17/2025
 ---
 # Metadata and Markdown template for .NET docs
 
@@ -48,12 +48,12 @@ Markdown uses special characters such as \*, \`, and \# for formatting. If you w
 
 File names use the following rules:
 
-* Contain only lowercase letters, numbers, and hyphens.
-* No spaces or punctuation characters. Use the hyphens to separate words and numbers in the file name.
-* Use action verbs that are specific, such as develop, buy, build, troubleshoot. No -ing words.
-* No small words - don't include a, and, the, in, or, etc.
-* Must be in Markdown and use the .md file extension.
-* Keep file names reasonably short. They are part of the URL for your articles.
+- Contain only lowercase letters, numbers, and hyphens.
+- No spaces or punctuation characters. Use the hyphens to separate words and numbers in the file name.
+- Use action verbs that are specific, such as develop, buy, build, troubleshoot. No -ing words.
+- No small words - don't include a, and, the, in, or, etc.
+- Must be in Markdown and use the .md file extension.
+- Keep file names reasonably short. They are part of the URL for your articles.
 
 ## Headings
 
@@ -113,8 +113,6 @@ Examples:
 - System.Exception.\#ctor becomes `System.Exception.%23ctor`
 - System.Lazy\`1.\#ctor(System.Threading.LazyThreadSafetyMode) becomes  `System.Lazy%601.%23ctor%28System.Threading.LazyThreadSafetyMode%29`
 
-You can find the UIDs of types, a member overload list, or a particular overloaded member from `https://xref.learn.microsoft.com/autocomplete`. The query string `?text=*\<type-member-name>*` identifies the type or member whose UIDs you'd like to see. For example, `https://xref.learn.microsoft.com/autocomplete?text=string.format` retrieves the [String.Format](/dotnet/api/system.string.format) overloads. The tool searches for the provided `text` query parameter in any part of the UID. For example, you can search for member name (ToString), partial member name (ToStri), type and member name (Double.ToString), etc.
-
 If you add a \* (or `%2A`) after the UID, the link then represents the overload page and not a specific API. For example, you can use that when you want to link to the [List\<T>.BinarySearch Method](/dotnet/api/system.collections.generic.list-1.binarysearch) page in a generic way instead of a specific overload such as [List\<T>.BinarySearch(T, IComparer\<T>)](/dotnet/api/system.collections.generic.list-1.binarysearch#System_Collections_Generic_List_1_BinarySearch__0_). You can also use \* to link to a member page when the member is not overloaded; this saves you from having to include the parameter list in the UID.
 
 To link to a specific method overload, you must include the fully qualified type name of each of the method's parameters. For example, \<xref:System.DateTime.ToString> links to the parameterless [DateTime.ToString](/dotnet/api/system.datetime.tostring#System_DateTime_ToString) method, while \<xref:System.DateTime.ToString(System.String,System.IFormatProvider)> links to the  [DateTime.ToString(String,IFormatProvider)](/dotnet/api/system.datetime.tostring#System_DateTime_ToString_System_String_System_IFormatProvider_) method.
@@ -167,21 +165,23 @@ A custom style is available for lists. You can render lists with green check mar
 
 ```markdown
 > [!div class="checklist"]
-> * How to create a .NET Core app
-> * How to add a reference to the Microsoft.XmlSerializer.Generator package
-> * How to edit your MyApp.csproj to add dependencies
-> * How to add a class and an XmlSerializer
-> * How to build and run the application
+>
+> - How to create a .NET Core app
+> - How to add a reference to the Microsoft.XmlSerializer.Generator package
+> - How to edit your MyApp.csproj to add dependencies
+> - How to add a class and an XmlSerializer
+> - How to build and run the application
 ```
 
 This renders as:
 
 > [!div class="checklist"]
-> * How to create a .NET Core app
-> * How to add a reference to the Microsoft.XmlSerializer.Generator package
-> * How to edit your MyApp.csproj to add dependencies
-> * How to add a class and an XmlSerializer
-> * How to build and run the application
+>
+> - How to create a .NET Core app
+> - How to add a reference to the Microsoft.XmlSerializer.Generator package
+> - How to edit your MyApp.csproj to add dependencies
+> - How to add a class and an XmlSerializer
+> - How to build and run the application
 
 You can see an example of checked lists in action in the [.NET Core docs](/dotnet/core/additional-tools/xml-serializer-generator).
 
