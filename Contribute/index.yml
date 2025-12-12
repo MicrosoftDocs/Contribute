@@ -265,8 +265,10 @@ sections:
         answer: A public home on Microsoft Learn where technical experts can discover high‑value ways to share, contribute, access creator resources, get involved in opportunities across Microsoft, and have the opportunity to be recognized for their impact.
       - question: What's the difference between the Experts Hub and Learn Experts (Learning Rooms)?
         answer: Experts Hub is an open destination on Learn for all contributors; “Learn Experts” are invited community leaders who support learners by facilitating [Learning Rooms](https://techcommunity.microsoft.com/discussions/skills-hub-discussions/meet-the-microsoft-learn-experts/3782298). One is a place, the other is a role.
-      - question: Who can become an expert or contributor?
+      - question: Who can become an expert?
         answer: Anyone with a passion for sharing knowledge about Microsoft technologies! Whether you're a developer, IT pro, data scientist, or student, your expertise is valuable to the community.
+      - question: What accounts do experts need?
+        answer: We recommend having a Microsoft Learn account and a GitHub account. A Microsoft Learn account allows you to contribute to Q&A and create Collections, while a GitHub account allows you to edit documentation or file an issue about open-source product documentation.
       - question: Do I need to be a Microsoft MVP to be an expert?
         answer: You don't need any special credentials or experience to contribute, just a desire to share your expertise or participate in the community.
       - question: What's in it for me?
