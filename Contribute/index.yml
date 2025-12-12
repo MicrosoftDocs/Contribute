@@ -99,10 +99,10 @@ sections:
         componentType: text
         links:
           - componentType: link
-            url: download.microsoft.com/download/d8786704-3282-4930-a913-9172d554e80e/MSLearnMCP-explainerdeck-DC.pptx
+            url: https://aka.ms/LearnMCPServer-expert-explainerdeck
             text: Download the slide deck
           - componentType: link
-            url: download.microsoft.com/download/d8786704-3282-4930-a913-9172d554e80e/MSLearnMCP-graphics-usecases-DC.pptx
+            url: https://aka.ms/LearnMCPServer-expert-graphics
             text: Download the graphics set and example use cases
         list:
           componentType: list
