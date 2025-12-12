@@ -71,7 +71,9 @@ sections:
           - [Claude Opus 4.5 now in public preview](https://azure.microsoft.com/en-us/blog/introducing-claude-opus-4-5-in-microsoft-foundry/) in Microsoft Foundry.
       - question: Azure hot topics at Microsoft Ignite
         answer: |
-         Announcement: Azure's new AI and data capabilities raise opportunities and practical questions for developers on how to build, secure, and scale agents effectively. The announcements focus on how Azure unifies AI, data, and cloud to deliver enterprise-ready agents, AI-powered databases, and secure operations at scale. Explore a [consolidated list of Azure updates](https://azure.microsoft.com/en-us/blog/azure-at-microsoft-ignite-2025-all-the-intelligent-cloud-news-explained/) covered at Microsoft Ignite 2025
+         Recent Azure updates and announcements spark curiosity and opportunities for cloud and AI developers, data engineers, and solutions architects. 
+         
+         Azure's new AI and data capabilities raise opportunities and practical questions for developers on how to build, secure, and scale agents effectively. The announcements focus on how Azure unifies AI, data, and cloud to deliver enterprise-ready agents, AI-powered databases, and secure operations at scale. Explore a [consolidated list of Azure updates](https://azure.microsoft.com/en-us/blog/azure-at-microsoft-ignite-2025-all-the-intelligent-cloud-news-explained/) covered at Microsoft Ignite 2025
       - question: Model Context Protocol (MCP) for all skill levels
         answer: |
          Model Context Protocol (MCP) is becoming a key standard for orchestrating AI tools and services across languages. Developers and learners are looking for practical techniques from tutorials, demos, or best-practice guides for building modular, scalable, and secure AI workflows.
@@ -130,9 +132,6 @@ sections:
     #   backgroundColor: 'alternating-grey'
     #   alignment: center # 'top' is default
     blocks:
-      - componentType: image
-        src: media/learn-contributor-journey.jpg
-        alt: A woman holding a laptop.
       - componentType: text
         title: Level up your Learn contributor journey
         summary: 'Find tools and resources on Learn to bring your expertise to more learners. There are many ways to create, curate, and accelerate your impact with Learn:'
@@ -151,6 +150,9 @@ sections:
           - componentType: link
             url: https://learn.microsoft.com/training/support/plans
             text: Create AI-generated Plans
+      - componentType: image
+        src: media/learn-contributor-journey.jpg
+        alt: A woman holding a laptop.
 
 # markdown section
   - componentType: markdown
@@ -209,7 +211,7 @@ sections:
         summary: Instructions, prompts, and configurations to tailor AI responses from GitHub Copilot contributed from community experts like you.
         url: https://github.com/github/awesome-copilot
       - componentType: summary-card
-        title: Azure AI Foundry community
+        title: Join the Azure AI Foundry Discord community
         summary: Join the Azure AI Foundry community to share your knowledge and connect with other AI experts and learners.  
         url: https://discord.com/invite/microsoftfoundry
       - componentType: summary-card
@@ -260,10 +262,10 @@ sections:
     title: Frequently asked questions
     questions:
       - question: What is the Experts Hub?
-        answer: A public home on Microsoft Learn where technical experts discover high‑value ways to share, contribute, access creator resources, get involved in opportunities across Microsoft, and have the opportunity to be recognized for their impact.
+        answer: A public home on Microsoft Learn where technical experts can discover high‑value ways to share, contribute, access creator resources, get involved in opportunities across Microsoft, and have the opportunity to be recognized for their impact.
       - question: What's the difference between the Experts Hub and Learn Experts (Learning Rooms)?
         answer: Experts Hub is an open destination on Learn for all contributors; “Learn Experts” are invited community leaders who support learners by facilitating [Learning Rooms](https://techcommunity.microsoft.com/discussions/skills-hub-discussions/meet-the-microsoft-learn-experts/3782298). One is a place, the other is a role.
-      - question: Who can become an expert?
+      - question: Who can become an expert or contributor?
         answer: Anyone with a passion for sharing knowledge about Microsoft technologies! Whether you're a developer, IT pro, data scientist, or student, your expertise is valuable to the community.
       - question: Do I need to be a Microsoft MVP to be an expert?
         answer: You don't need any special credentials or experience to contribute, just a desire to share your expertise or participate in the community.
