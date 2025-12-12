@@ -39,16 +39,18 @@ sections:
     questions:
       - question: Overview of this section
         answer: |
-          This section surfaces priority topics that need coverage based on community and content signals. Browse through the curated topic list below and if you have expertise in an area, consider sharing your knowledge through actions like:
+          This section highlights high‑interest topics your audience is already searching for and talking about. Think of these as prime opportunities to create content that stands out and attracts learners who are actively looking for guidance.
 
-          - Creating a video or article
-          - Addressing a post on Q&A
-          - Leading a discussion on TechCommunity or the forum of your choice
-          - Developing a user group session or demo
-          
-          This helps learners get the information they need, improves discoverability of your content by aligning to learners needs, and builds your reputation as an impactful contributor. 
+          If a topic aligns with your expertise, jump in and turn it into content that showcases your voice and point of view. You might:
 
-          After you've published, [share a link](https://forms.office.com/r/0KsKuVnLWv) to your content for a chance to be featured in our expert spotlight. No matter how you contribute, your voice makes it easier for others to learn effectively and apply best practices in real-world scenarios. We can't wait to see what you create!
+          - Produce a video or write an article
+          - Share your perspective in a Q&A thread
+          - Spark a conversation on TechCommunity or your preferred forum
+          - Host a user group session or live demo
+
+          Creating around these topics helps people learn faster and makes your work more discoverable by meeting learners exactly where their curiosity is. It also reinforces your reputation as someone who leads the conversation and brings clarity to complex ideas.
+
+          After you've published, [share a link to your content](https://forms.office.com/r/0KsKuVnLWv) with us for a chance to be featured in our expert spotlight. Your insight shapes how others learn and build real‑world skills. We can't wait to see what you create!
       - question: Notable in Q&A
         answer: |
           Grow your reputation on Microsoft Q&A by providing expert insights, clarification, and solutions on these trending topics:
@@ -58,7 +60,12 @@ sections:
           - Users looking for support around [GPT‑o1 Prompt Flow API version error in Microsoft Foundry](https://learn.microsoft.com/en-us/answers/questions/2260123/error-400-bad-request-with-gpt-o1-on-azure-ai-foun)
       - question: New in Microsoft Foundry - Foundry Agent Service and new Claude models
         answer: |
-          Announcement: Microsoft Foundry now offers Anthropic’s Claude models—including Opus 4.5—for enterprise-grade AI workflows. These models deliver strong coding, reasoning, and multi-tool integration, making them ideal for building agentic systems at scale:
+          Many businesses are looking to shift from passive AI assistants to autonomous, outcome‑driven agents. Foundry Agent Service gives teams a unified platform for building, operating, and governing these systems at enterprise scale. Foundry Agent Service provides a managed runtime for building and operating AI agents that can run autonomously with tools, memory, and multi‑agent workflows. The following resources give more detail about Foundry Agent Service and can help guide your content creation:
+          
+          - [Foundry Agent Service documentation](https://learn.microsoft.com/en-us/azure/ai-foundry/agents/overview?view=foundry&preserve-view=true)
+          - [Recent Foundry Agent Service announcement](https://techcommunity.microsoft.com/blog/azure-ai-foundry-blog/foundry-agent-service-at-ignite-2025-simple-to-build-powerful-to-deploy-trusted-/4469788)
+          
+          Microsoft Foundry now offers Anthropic’s Claude models—including Opus 4.5—for enterprise-grade AI workflows. These models deliver strong coding, reasoning, and multi-tool integration, making them ideal for building agentic systems at scale:
 
           - Anthropic's Claude models now [available in Microsoft Foundry](https://azure.microsoft.com/en-us/blog/introducing-anthropics-claude-models-in-microsoft-foundry-bringing-frontier-intelligence-to-azure/)
           - [Claude Opus 4.5 now in public preview](https://azure.microsoft.com/en-us/blog/introducing-claude-opus-4-5-in-microsoft-foundry/) in Microsoft Foundry.
@@ -92,8 +99,11 @@ sections:
         componentType: text
         links:
           - componentType: link
-            url: https://github.com/microsoft/community-content/tree/main/Season-of-AI_MCP#additional-microsoft-learn-mcp-server-resources
+            url: download.microsoft.com/download/d8786704-3282-4930-a913-9172d554e80e/MSLearnMCP-explainerdeck-DC.pptx
             text: Download the slide deck
+          - componentType: link
+            url: download.microsoft.com/download/d8786704-3282-4930-a913-9172d554e80e/MSLearnMCP-graphics-usecases-DC.pptx
+            text: Download the graphics set and example use cases
         list:
           componentType: list
           style: unordered # ordered | checklist
@@ -107,7 +117,7 @@ sections:
     title: Further your impact with guidance from trusted community experts
     blocks:
     - componentType: card
-      title: Learn to start scaling your impact
+      title: Scale your impact
       summary: Advice for reaching more learners and sharing your expertise with a wider audience.
       url: https://learn.microsoft.com/en-us/collections/xkggupt7qm714q
     - componentType: card
