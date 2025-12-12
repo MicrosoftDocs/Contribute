@@ -50,7 +50,7 @@ sections:
 
           Creating around these topics helps people learn faster and makes your work more discoverable by meeting learners exactly where their curiosity is. It also reinforces your reputation as someone who leads the conversation and brings clarity to complex ideas.
 
-          After you've published, [share a link to your content](https://forms.office.com/r/0KsKuVnLWv) with us for a chance to be featured in our expert spotlight. Your insight shapes how others learn and build real‑world skills. We can't wait to see what you create!
+          If you choose to publish, consider [sharing a link to your content](https://forms.office.com/r/0KsKuVnLWv) with us for a chance to be featured in our expert spotlight. Your insight shapes how others learn and build real‑world skills. We can't wait to see what you create!
       - question: Notable in Q&A
         answer: |
           Grow your reputation on Microsoft Q&A by providing expert insights, clarification, and solutions on these trending topics:
@@ -102,7 +102,7 @@ sections:
         links:
           - componentType: link
             url: https://aka.ms/LearnMCPServer-expert-explainerdeck
-            text: Download the slide deck
+            text: Download the explainer deck
           - componentType: link
             url: https://aka.ms/LearnMCPServer-expert-graphics
             text: Download the graphics set and example use cases
