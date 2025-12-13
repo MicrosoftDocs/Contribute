@@ -1,151 +1,277 @@
 ### YamlMime:Marketing
-title: 'Contribute to Microsoft Learn'
+### YamlMime:Marketing
+title: 'Experts Hub'
 metadata:
-  title: 'Contribute to Microsoft Learn'
-  description: 'Contribute to Microsoft Learn to share your knowledge with the world!'
+  title: 'Experts Hub: Share what you know. Shape what’s next.'
+  description: 'Share your knowledge with the world as a Microsoft expert!'
 sections:
-
-#hero        
-  - componentType: hero-learn
-    supertitle: MICROSOFT LEARN
-    title: Create, contribute, share
-    size: large
-    summary: Become a Microsoft Learn contributor! Create content to inspire and empower others to build brilliant solutions with the Microsoft platform. Everyone is welcome to share their expertise!
-    heroImage:
-      componentType: hero-image
-      lightImageSrc: /Contribute/media/contributor-home-hero-light.png
-      darkImageSrc: /Contribute/media/contributor-home-hero-dark.png
-    links:
-      - componentType: link
-        url: https://learn.microsoft.com/training/contributor/contribute-docs-browser/?branch=main
-        text: Join experts and contribute
-
-#Text section
-  - componentType: text
-    title: Choose your contribution journey
-
- #Small Cards with Image
-  - componentType: grid
+# hero with background image
+  - componentType: hero
+    size: small
+    title: Experts Hub
+    supertitle: Microsoft Learn
+    summary: A space for leaders, creators, and problem solvers to get inspiring ideas and resources to share their expertise.
+    background:
+     componentType: image
+     src: media/experts-hub-long-format-400.png
+# top navigation links
+  - componentType: navigation
+    size: large 
+    alignment: center
     blocks:
-      - componentType: icon-card
-        title: Edit documentation
-        summary: Contribute to Microsoft's world-class documentation.
-        url: content/how-to-write-overview.md
-        icon:
-          componentType: image
-          src: media/get-started.png
-      - componentType: icon-card
-        title: Respond in Q&A
-        summary: Answer questions to help others learn about Microsoft technologies.
-        url: https://learn.microsoft.com/answers/questions/
-        icon:
-          componentType: image
-          src: media/microsoft-qa-icon.png
-      - componentType: icon-card
-        title: Create a collection
-        summary: Share curated experiences with your followers.
-        url: /contribute/content/collections?branch=main
-        icon:
-          componentType: image
-          src: media/community-perspectives-icon.png
-      - componentType: icon-card
-        title: Join the conversation
-        summary: Connect with other experts in our Tech Community.
-        url: https://techcommunity.microsoft.com/t5/microsoft-learn/ct-p/MicrosoftLearn
-        icon:
-          componentType: image
-          src: media/tech-community-icon.png
+      - componentType: icon-link
+        icon: topic-learn
+        url: "#high-demand-topics-that-need-expert-creators"
+        text: Creator inspiration
+      - componentType: icon-link
+        icon: book-open
+        url: "#further-your-impact-with-guidance-from-trusted-community-experts"
+        text: Resources for experts
+      - componentType: icon-link
+        icon: user
+        url: "#get-involved-in-technical-communities-at-microsoft"
+        text: Expert communities
 
-# Video cards
+# FAQ section
+  - componentType: frequently-asked-questions
+    # layout: horizontal
+    title: High-demand topics that need expert creators
+    questions:
+      - question: Overview of this section
+        answer: |
+          This section highlights high‑interest topics your audience is already searching for and talking about. Think of these as prime opportunities to create content that stands out and attracts learners who are actively looking for guidance.
+
+          If a topic aligns with your expertise, jump in and turn it into content that showcases your voice and point of view. You might:
+
+          - Produce a video or write an article
+          - Share your perspective in a Q&A thread
+          - Spark a conversation on TechCommunity or your preferred forum
+          - Host a user group session or live demo
+
+          Creating around these topics helps people learn faster and makes your work more discoverable by meeting learners exactly where their curiosity is. It also reinforces your reputation as someone who leads the conversation and brings clarity to complex ideas.
+      - question: Notable in Q&A
+        answer: |
+          Grow your reputation on Microsoft Q&A by providing expert insights, clarification, and solutions on these trending topics:
+
+          - Discussion of [alternative methods to process PDF in Azure OpenAI](https://learn.microsoft.com/answers/questions/2264533/does-azure-openai-support-pdf-upload-for-gpt-4o)
+          - Resolving [data sync delays in Microsoft Synapse](https://learn.microsoft.com/answers/questions/2247132/data-sync-delays-with-microsoft-synapse)
+          - Users looking for support around [GPT‑o1 Prompt Flow API version error in Microsoft Foundry](https://learn.microsoft.com/en-us/answers/questions/2260123/error-400-bad-request-with-gpt-o1-on-azure-ai-foun)
+      - question: New in Microsoft Foundry - Foundry Agent Service and new Claude models
+        answer: |
+          Many businesses are looking to shift from passive AI assistants to autonomous, outcome‑driven agents. Foundry Agent Service gives teams a unified platform for building, operating, and governing these systems at enterprise scale. Foundry Agent Service provides a managed runtime for building and operating AI agents that can run autonomously with tools, memory, and multi‑agent workflows. The following resources give more detail about Foundry Agent Service and can help guide your content creation:
+          
+          - [Foundry Agent Service documentation](https://learn.microsoft.com/en-us/azure/ai-foundry/agents/overview?view=foundry&preserve-view=true)
+          - [Recent Foundry Agent Service announcement](https://techcommunity.microsoft.com/blog/azure-ai-foundry-blog/foundry-agent-service-at-ignite-2025-simple-to-build-powerful-to-deploy-trusted-/4469788)
+          
+          Microsoft Foundry now offers Anthropic’s Claude models—including Opus 4.5—for enterprise-grade AI workflows. These models deliver strong coding, reasoning, and multi-tool integration, making them ideal for building agentic systems at scale:
+
+          - Anthropic's Claude models now [available in Microsoft Foundry](https://azure.microsoft.com/en-us/blog/introducing-anthropics-claude-models-in-microsoft-foundry-bringing-frontier-intelligence-to-azure/)
+          - [Claude Opus 4.5 now in public preview](https://azure.microsoft.com/en-us/blog/introducing-claude-opus-4-5-in-microsoft-foundry/) in Microsoft Foundry.
+      - question: Azure hot topics at Microsoft Ignite
+        answer: |
+         Recent Azure updates and announcements spark curiosity and opportunities for cloud and AI developers, data engineers, and solutions architects. 
+         
+         Azure's new AI and data capabilities raise opportunities and practical questions for developers on how to build, secure, and scale agents effectively. The announcements focus on how Azure unifies AI, data, and cloud to deliver enterprise-ready agents, AI-powered databases, and secure operations at scale. Explore a [consolidated list of Azure updates](https://azure.microsoft.com/en-us/blog/azure-at-microsoft-ignite-2025-all-the-intelligent-cloud-news-explained/) covered at Microsoft Ignite 2025
+      - question: Model Context Protocol (MCP) for all skill levels
+        answer: |
+         Model Context Protocol (MCP) is becoming a key standard for orchestrating AI tools and services across languages. Developers and learners are looking for practical techniques from tutorials, demos, or best-practice guides for building modular, scalable, and secure AI workflows.
+
+         - Explore an [open-source curriculum](https://github.com/microsoft/mcp-for-beginners) introducing the fundamentals of Model Context Protocol and the [accompanying videos](https://www.youtube.com/playlist?list=PLlrxD0HtieHjYfVUpGl_-ai7D6FRBjV-d)
+         - [.NET sample code](https://github.com/microsoft/mcp-dotnet-samples/tree/main/awesome-copilot) demonstrating how to build an MCP server that retrieves GitHub Copilot customization files from awesome-copilot
+         - [GitHub MCP Registry integrated in VS Code Insiders](https://www.youtube.com/watch?v=STigfiK_n1Q)
+      - question: GitHub Copilot for Java developers 
+        answer: |
+          Help Java developers find ways to modernize their applications, fix vulnerabilities, or migrate apps using AI-assisted coding tools like GitHub Copilot.
+
+          - [Modernize Java apps with GitHub Copilot](https://www.youtube.com/watch?v=r3iTEqujO1s)
+          - [Automated Java CVE fixes with GitHub Copilot in VS Code](https://youtu.be/5k-jVPAv6mk?si=z6Xw0-xprbQk8ekq)
+          - [GitHub Copilot App Modernization for Java: Sample app migration to Azure with Copilot](https://youtu.be/5abTrmldc0Q?si=rHW-NzR8vqugmIO3)
+
+# bifold with image and text blocks
+  - componentType: bifold
+    alignment: center
+    blocks:
+      - src: media/learn-server-app-lifecycle-dark.png
+        alt: A GitHub Copilot chat interaction with the Microsoft Learn MCP Server
+        componentType: image
+      - title: Content creation resources for the Microsoft Learn MCP Server
+        summary: A set of ready-to-use assets to help you accurately present, demo, and share the Microsoft Learn MCP Server with your audience. 
+        componentType: text
+        links:
+          - componentType: link
+            url: https://aka.ms/LearnMCPServer-expert-explainerdeck
+            text: Download the explainer deck
+          - componentType: link
+            url: https://aka.ms/LearnMCPServer-expert-graphics
+            text: Download the graphics set and example use cases
+        list:
+          componentType: list
+          style: unordered # ordered | checklist
+          children:
+            - Professional slide deck with speaker notes
+            - Graphics for socials, blogs, or other amplification
+            - Validated use cases for demos and hands-on learning ideas
+
+# Community resources cards
   - componentType: cards
-    isShadowless: false
-    title: Learn skills to help you create content and build community
-    summary: Check out these resources to get started as a contributor to Microsoft Learn.
+    title: Further your impact with guidance from trusted community experts
     blocks:
-      - componentType: card
-        title: Meta Skills - Contributing to Communities and Careers
-        summary: "Power up your career by contributing to open-source community projects. Additional resources:"
-        imageUrl: media/video-meta-skills.png
-        url: https://learn-video.azurefd.net/vod/player?id=afb384b7-fd83-474d-a3f2-23dfacc127cf
-        links:
-          - componentType: link
-            url: https://www.youtube.com/watch?v=ZQODV8krq1Q
-            text: "Watch: Contribute to documentation like a Microsoft Learn Insider"
-      - componentType: card
-        title: Technical Writing as a Career
-        summary: Learn how to turn your penchant for technical writing into a full-time career.
-        imageUrl: media/video-technical-writing.png
-        url: https://learn-video.azurefd.net/vod/player?id=5c71cd84-b698-41e0-bbf7-d92ca46a60dd
-      - componentType: card
-        title: Making Your Content More Discoverable
-        summary: "Apply these practical tips to help learners find your content. Additional resources:"
-        imageUrl: media/video-discoverability.png
-        url: https://learn-video.azurefd.net/vod/player?id=543d7453-8b31-4b53-b2c7-3d0b501693be
-        links:
-          - componentType: link
-            url: /contribute/content/seo-reference
-            text: "Read: SEO reference guide"
+    - componentType: card
+      title: Scale your impact
+      summary: Advice for reaching more learners and sharing your expertise with a wider audience.
+      url: https://learn.microsoft.com/en-us/collections/xkggupt7qm714q
+    - componentType: card
+      title: Help choose our next topic
+      summary: Provide your input on guidance you'd like to see from community experts.
+      url: https://forms.office.com/r/ZdCra8XWkr
 
- # Testimonials section
+# Contributor journey resources
+  - componentType: bifold
+    #   backgroundColor: 'alternating-grey'
+    #   alignment: center # 'top' is default
+    blocks:
+      - componentType: text
+        title: Level up your Learn contributor journey
+        summary: 'Find tools and resources on Learn to bring your expertise to more learners. There are many ways to create, curate, and accelerate your impact with Learn:'
+        list:
+          componentType: list
+          style: unordered
+          children:
+            - Edit documentation
+            - Create a Collection
+            - Create and share AI-generated Plans
+            - Respond in Q&A
+        links:
+          - componentType: link
+            url: https://learn.microsoft.com/contribute/content/how-to-write-overview
+            text: Edit documentation & manage Collections
+          - componentType: link
+            url: https://learn.microsoft.com/training/support/plans
+            text: Create AI-generated Plans
+      - componentType: image
+        src: media/learn-contributor-journey.jpg
+        alt: A woman holding a laptop.
+
+# markdown section
+  - componentType: markdown
+    content: |
+      ## <span class="text-gradient-purple-blue">Get involved in technical communities at Microsoft</span>
+
+ # Expert highlights section
   - componentType: testimonials-section
-    title: Meet <span class="text-gradient-purple-blue">inspirational contributors</span> from the community
+    title: Meet featured experts leading the way in their communities
     cards:
-      - avatarUrl: media/john-aziz.png
+      - avatarUrl: media/highlight-decorative-circle.png
         componentType: testimonial-card
-        name: John Aziz
-        role: Software Engineer
-        feedback: Contributing helped me improve my writing skills, and it helped me believe in myself more and made me braver. I've been able to meet and collaborate with lots of amazing individuals too.
+        name: Konstantinos Passadis
+        role: Microsoft Azure MVP
+        feedback: "From curiosity to community impact, my path has been shaped by learning, sharing, and building with others. Leadership is the privilege of enabling people to thrive."
         link:
           componentType: link
-          url: https://techcommunity.microsoft.com/t5/microsoft-developer-community/contributor-stories-john-aziz/ba-p/4098543
-          text: Read John's story
-      - avatarUrl: media/kristina-devochko.png
+          url: https://www.linkedin.com/in/kpassad/
+          text: View Konstantinos's profile
+      - avatarUrl: media/highlight-decorative-circle-1.png
         componentType: testimonial-card
-        name: Kristina Devochko
-        role: Principal Cloud Engineer
-        feedback: I gained so much value from this platform as a user, so I knew it would be a great opportunity to contribute back to Microsoft Learn and to the entire community that uses it.
+        name: Navika Chhauda
+        role: Microsoft Azure MVP
+        feedback: "I advocate for using tech for a good cause and making technology inclusive and accessible to all. For me, tech leadership means creating deep impact—prioritizing meaningful change and empowering everyone everywhere."
         link:
           componentType: link
-          url: https://techcommunity.microsoft.com/t5/azure-developer-community-blog/contributor-stories-kristina-devochko/ba-p/4017860
-          text: Read Kristina's story
-      - avatarUrl: media/emad-al-mousa.png
+          url: https://www.linkedin.com/in/navikachhauda/
+          text: View Navika's profile
+      - avatarUrl: media/highlight-decorative-circle-2.png
         componentType: testimonial-card
-        name: Emad Al-Mousa
-        role: IT consultant
-        feedback: I'm inspired to contribute whenever I see a section that I can enhance. It's exciting to pinpoint the problem and then provide suggested enhancements.
+        name: Ziggy Zulueta
+        role: AI Platform MVP
+        feedback: "Empowering people through technology isn’t just my job but also my passion. Turning complex tools into strategic business leverage defines my journey as a technical leader."
         link:
           componentType: link
-          url: https://techcommunity.microsoft.com/t5/azure-developer-community-blog/contributor-stories-emad-al-mousa/ba-p/3918951?wt.mc_id=contributorstories_techcommunity_blog_cxa
-          text: Read Emad's story
+          url: https://www.linkedin.com/in/ziggyzulueta/
+          text: View Ziggy's profile
     backgroundImage:
         lightImageSrc: /media/home-and-directory/section-testimonials_light.jpg?branch=main
         darkImageSrc: /media/home-and-directory/section-testimonials_dark.jpg?branch=main
 
-# Markdown
-  - componentType: markdown
-    content: |
-      [Read more contributor stories](https://techcommunity.microsoft.com/t5/azure-developer-community-blog/bg-p/AzureDevCommunityBlog/label-name/ContributorStories)
+  # Summary cards grid
+  - componentType: grid
+    title: Impactful opportunities happening now
+    blocks:
+      - componentType: summary-card
+        title: Season of AI - MCP
+        summary: Share templates for using the Azure Developer CLI (azd) by contributing to the awesome-azd collection.
+        url: https://github.com/microsoft/community-content/tree/main/Season-of-AI_MCP
+      - componentType: summary-card
+        title: Contribute to awesome-azd 
+        summary: Share templates for using the Azure Developer CLI (azd) by contributing to the awesome-azd collection.
+        url: https://github.com/azure/awesome-azd
+      - componentType: summary-card
+        title: Participate in Awesome Copilot
+        summary: Instructions, prompts, and configurations to tailor AI responses from GitHub Copilot contributed from community experts like you.
+        url: https://github.com/github/awesome-copilot
+      - componentType: summary-card
+        title: Join the Azure AI Foundry Discord community
+        summary: Join the Azure AI Foundry community to share your knowledge and connect with other AI experts and learners.  
+        url: https://discord.com/invite/microsoftfoundry
+      - componentType: summary-card
+        title: Agent Creators
+        summary: Connect with Agent Creators, recognized for their passion for sharing knowledge within their communities.
+        url: https://adoption.microsoft.com/en-us/ai-agents/agent-creators/
+
+  # Summary cards grid
+  - componentType: grid
+    title: Expert programs and communities across Microsoft
+    blocks:
+      - componentType: summary-card
+        title: Microsoft MVP, Student Ambassadors, and Regional Directors program
+        summary: Join Microsoft's recognized expert programs to connect with peers, share your knowledge, and gain exclusive benefits.
+        url: https://mvp.microsoft.com/
+      - componentType: summary-card
+        title: Microsoft Certified Trainer
+        summary: Join the Microsoft Certified Trainer program to deliver official Microsoft training courses and help others achieve their certification goals.
+        url: https://learn.microsoft.com/credentials/certifications/mct-certification
+      - componentType: summary-card
+        title: DevRel Communities
+        summary: Check out Microsoft Developer communities to connect with fellow developers, browse user groups, and explore resources.
+        url: https://developer.microsoft.com/en-us/community#developer-communities
+      - componentType: summary-card
+        title: TechCommunity
+        summary: Learn how to connect with other experts or add your voice on the various community hubs on TechCommunity.
+        url: https://techcommunity.microsoft.com/kb/gettingstarted/getting-started-on-the-tech-community/3512627
+      - componentType: summary-card
+        title: Microsoft Learn Q&A
+        summary: Answer questions on Microsoft Q&A from developers and technology users around the world.
+        url: https://learn.microsoft.com/answers
+      - componentType: summary-card
+        title: Learning Rooms
+        summary: Explore learning rooms led by Learn Experts to share knowledge and collaborate on Microsoft technologies.
+        url: https://learn.microsoft.com/training/learn-community
+      - componentType: summary-card
+        title: Microsoft 365 and Power Platform Community
+        summary: Join the Microsoft 365 and Power Platform Community to connect with experts, share your knowledge, and collaborate on solutions.
+        url: https://pnp.github.io/
+      - componentType: summary-card
+        title: Microsoft 365 Champion
+        summary: Become a trusted peer who helps others learn and use Microsoft 365 effectively.
+        url: https://adoption.microsoft.com/become-a-champion/
 
 # FAQ section
   - componentType: frequently-asked-questions
     #layout: horizontal
     title: Frequently asked questions
     questions:
-      - question: How do I become a Microsoft Learn contributor?
-        answer: There's more than one way to become a contributor! While editing documentation is the most popular method, you can also answer questions in Microsoft Q&A, leave feedback on documentation and training content, create a collection of content for others to consume, or file a GitHub issue if you spot problems in open-source product documentation but don't have the tools to fix them yourself.
-      - question: What accounts do contributors need?
-        answer: We recommend having a Microsoft Learn account and a GitHub account. A Microsoft Learn account allows you to contribute to Q&A and create collections, while a GitHub account allows you to edit our documentation or file an issue about open-source product documentation.
-      - question: How do I start contributing to Microsoft Learn documentation?
-        answer: Check out our contributor guide! Start with the article on [how to get started](https://learn.microsoft.com/contribute/content/?branch=main#how-do-i-start). You'll find a table that guides you to documentation for each contribution type and lists the account you'll need for each option. The contributor guide is your home base for learning how to get up and running as a Microsoft Learn contributor!
-      - question: Who contributes to Microsoft Learn?
-        answer: Anyone can contribute to Microsoft Learn. From first-time contributors to Microsoft MVPs, we see a range of experience and skill levels among folks contributing to the platform.
-      - question: Do I need to be a Microsoft MVP to contribute to Microsoft Learn?
-        answer: No! You don't need any special credentials or experience to contribute, just a desire to participate in the community.
+      - question: What is the Experts Hub?
+        answer: A public home on Microsoft Learn where technical experts can discover high‑value ways to share, contribute, access creator resources, get involved in opportunities across Microsoft, and have the opportunity to be recognized for their impact.
+      - question: What's the difference between the Experts Hub and Learn Experts (Learning Rooms)?
+        answer: Experts Hub is an open destination on Learn for all contributors; “Learn Experts” are invited community leaders who support learners by facilitating [Learning Rooms](https://techcommunity.microsoft.com/discussions/skills-hub-discussions/meet-the-microsoft-learn-experts/3782298). One is a place, the other is a role.
+      - question: Who can become an expert?
+        answer: Anyone with a passion for sharing knowledge about Microsoft technologies! Whether you're a developer, IT pro, data scientist, or student, your expertise is valuable to the community.
+      - question: What accounts do experts need?
+        answer: We recommend having a Microsoft Learn account and a GitHub account. A Microsoft Learn account allows you to contribute to Q&A and create Collections, while a GitHub account allows you to edit documentation or file an issue about open-source product documentation.
+      - question: Do I need to be a Microsoft MVP to be an expert?
+        answer: You don't need any special credentials or experience to contribute, just a desire to share your expertise or participate in the community.
       - question: What's in it for me?
-        answer: Contributing to Microsoft Learn benefits not only our learners but also YOU! When you edit documentation, your name appears in the list of contributors at the top of the article. Your commits to our GitHub repos will show up in your GitHub commit history, which is a great way to demonstrate your passion for a particular technology while also building your portfolio. For some products, you can earn digital swag too, like badges.
-      - question: How do I showcase my content?
-        answer: Our Contributor Showcase program interviews contributors to learn about why they contribute and share their experiences with others. More information about this program is coming soon. 
- 
+        answer: As a technical expert on Microsoft Learn, you can gain visibility through attribution and spotlights, access curated opportunities to help you make an impact, and earn digital recognition.
+
    # social section
   - componentType: social
     title: Connect with us
@@ -156,6 +282,9 @@ sections:
       - componentType: social-link
         url: https://www.linkedin.com/showcase/microsoftlearn/
         destination: linkedin
+      - componentType: social-link
+        url: https://www.tiktok.com/@microsoftlearn
+        destination: website
       - componentType: social-link
         url: https://aka.ms/MicrosoftLearnNewsletter 
         destination: website
