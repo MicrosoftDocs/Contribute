@@ -198,8 +198,8 @@ sections:
     blocks:
       - componentType: summary-card
         title: Season of AI - MCP
-        summary: Share templates for using the Azure Developer CLI (azd) by contributing to the awesome-azd collection.
-        url: https://github.com/microsoft/community-content/tree/main/Season-of-AI_MCP
+        summary: Through January 31st, register and lead a community talk about MCP (Model Context Protocol), preparation support included.
+        url: https://github.com/microsoft/community-content/tree/main
       - componentType: summary-card
         title: Contribute to awesome-azd 
         summary: Share templates for using the Azure Developer CLI (azd) by contributing to the awesome-azd collection.
