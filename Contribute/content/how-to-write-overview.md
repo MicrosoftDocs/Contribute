@@ -42,7 +42,7 @@ Major changes involve more time and effort. Examples of major changes include:
 
 If you're making major changes, you need to download and install a few tools to make your work easier. Follow these steps to get started:
 
-1. [Install Git and Markdown tools.](get-started-setup-tools.md)
+1. [Install Git and Markdown tools (optional).](get-started-setup-tools.md)
 1. [Set up a local Git repository.](get-started-setup-local.md)
 1. [Make changes to the documentation.](how-to-write-major-edits.md)
 1. [Create a PR.](create-pull-request.md)
