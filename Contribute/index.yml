@@ -54,7 +54,7 @@ sections:
           Grow your reputation on Microsoft Q&A by providing expert insights, clarification, and solutions on these trending topics:
 
           - There's interest in understanding the differences between [Developer Command Prompt and Developer PowerShell in Visual Studio](https://learn.microsoft.com/answers/questions/5722678/what-are-the-different-between-developer-command-p).
-          - Help Azure users [understand error codes](https://learn.microsoft.com/en-us/entra/fundamentals/inaccessible-tenant) related to managing [tenant lifecycles in Microsoft Entra](https://learn.microsoft.com/entra/fundamentals/inaccessible-tenant).
+          - Help Azure users [understand error codes](https://learn.microsoft.com/answers/questions/5562339/error-code-5000225-message-this-tenant-has-been-bl) related to managing [tenant lifecycles in Microsoft Entra](https://learn.microsoft.com/entra/fundamentals/inaccessible-tenant).
           - Learners want to understand how to use agents created from templates in Copilot Studio, such as the [Customer Insight template agent](https://learn.microsoft.com/answers/questions/5527396/an-agent-created-through-co-pilot-studio-is-not-ab).
       - question: 'Updates and tools for AI builders in Microsoft Foundry'
         answer: |
@@ -66,7 +66,7 @@ sections:
         answer: |
          - Developer audiences are interested in building and remotely host MCP servers. [This episode](https://learn.microsoft.com/shows/azure-friday/host-remote-mcp-servers-on-azure-functions), led by Scott Hanselman and Lily Ma, demonstrates how to remotely host MCP servers on Azure Functions with official MCP SDKs.
          - Explore a [deep dive into the AKS MCP Server & Agentic CLI](https://www.youtube.com/watch?v=tEPfxO1FEMk) in January's AKS community call.
-         - As more audiences build AI agents, they're looking to inmprove cost efficiency on Azure. [This learning path on maximizing AI agent ROI](https://learn.microsoft.com/training/paths/maximize-cost-efficiency-ai-agents/) offers strategies for cost-conscious decisions, ROI forecasting, and scalable architectures to optimize investments on Azure.
+         - As more audiences build AI agents, they're looking to improve cost efficiency on Azure. [This learning path on maximizing AI agent ROI](https://learn.microsoft.com/training/paths/maximize-cost-efficiency-ai-agents/) offers strategies for cost-conscious decisions, ROI forecasting, and scalable architectures to optimize investments on Azure.
       - question: AI for all levels of .NET developers 
         answer: |
           Help .NET developers across multiple skill levels understand the foundations and opportunities for leveraging AI in their applications.
