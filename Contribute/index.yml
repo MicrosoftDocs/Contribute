@@ -53,39 +53,26 @@ sections:
         answer: |
           Grow your reputation on Microsoft Q&A by providing expert insights, clarification, and solutions on these trending topics:
 
-          - Discussion of [alternative methods to process PDF in Azure OpenAI](https://learn.microsoft.com/answers/questions/2264533/does-azure-openai-support-pdf-upload-for-gpt-4o)
-          - Resolving [data sync delays in Microsoft Synapse](https://learn.microsoft.com/answers/questions/2247132/data-sync-delays-with-microsoft-synapse)
-          - Users looking for support around [GPT‑o1 Prompt Flow API version error in Microsoft Foundry](https://learn.microsoft.com/en-us/answers/questions/2260123/error-400-bad-request-with-gpt-o1-on-azure-ai-foun)
-      - question: New in Microsoft Foundry - Foundry Agent Service and new Claude models
+          - There's interest in understanding the differences between [Developer Command Prompt and Developer PowerShell in Visual Studio](https://learn.microsoft.com/answers/questions/5722678/what-are-the-different-between-developer-command-p).
+          - Help Azure users [understand error codes](https://learn.microsoft.com/answers/questions/5562339/error-code-5000225-message-this-tenant-has-been-bl) related to managing [tenant lifecycles in Microsoft Entra](https://learn.microsoft.com/entra/fundamentals/inaccessible-tenant).
+          - Learners want to understand how to use agents created from templates in Copilot Studio, such as the [Customer Insight template agent](https://learn.microsoft.com/answers/questions/5527396/an-agent-created-through-co-pilot-studio-is-not-ab).
+      - question: 'Updates and tools for AI builders in Microsoft Foundry'
         answer: |
-          Many businesses are looking to shift from passive AI assistants to autonomous, outcome‑driven agents. Foundry Agent Service gives teams a unified platform for building, operating, and governing these systems at enterprise scale. Foundry Agent Service provides a managed runtime for building and operating AI agents that can run autonomously with tools, memory, and multi‑agent workflows. The following resources give more detail about Foundry Agent Service and can help guide your content creation:
-          
-          - [Foundry Agent Service documentation](https://learn.microsoft.com/en-us/azure/ai-foundry/agents/overview?view=foundry&preserve-view=true)
-          - [Recent Foundry Agent Service announcement](https://techcommunity.microsoft.com/blog/azure-ai-foundry-blog/foundry-agent-service-at-ignite-2025-simple-to-build-powerful-to-deploy-trusted-/4469788)
-          
-          Microsoft Foundry now offers Anthropic’s Claude models—including Opus 4.5—for enterprise-grade AI workflows. These models deliver strong coding, reasoning, and multi-tool integration, making them ideal for building agentic systems at scale:
-
-          - Anthropic's Claude models now [available in Microsoft Foundry](https://azure.microsoft.com/en-us/blog/introducing-anthropics-claude-models-in-microsoft-foundry-bringing-frontier-intelligence-to-azure/)
-          - [Claude Opus 4.5 now in public preview](https://azure.microsoft.com/en-us/blog/introducing-claude-opus-4-5-in-microsoft-foundry/) in Microsoft Foundry.
-      - question: Azure hot topics at Microsoft Ignite
+          - [Claude Opus 4.6 is now in Microsoft Foundry](https://azure.microsoft.com/en-us/blog/claude-opus-4-6-anthropics-powerful-model-for-coding-agents-and-enterprise-workflows-is-now-available-in-microsoft-foundry-on-azure/), enabling advanced reasoning for AI agents acting on business systems.
+          - For healthcare and life sciences applications, see [Claude's specialized capabilities with Foundry](https://www.microsoft.com/en-us/industry/blog/healthcare/2026/01/11/bridging-the-gap-between-ai-and-medicine-claude-in-microsoft-foundry-advances-capabilities-for-healthcare-and-life-sciences-customers/).
+          - Explore the [catalog of AI models from Foundry](https://ai.azure.com/catalog/models) and documentation on [Foundry Models sold directly by Azure](https://learn.microsoft.com/en-us/azure/ai-foundry/foundry-models/concepts/models-sold-directly-by-azure?view=foundry-classic&tabs=global-standard-aoai%2Cglobal-standard&pivots=azure-openai). Audiences want to understand how to leverage these models in their AI solutions.
+          - Check out a hands-on way to improve security posture and build customer trust in an agentic AI solution with [the AI Red Teaming agent in Microsoft Foundry](https://github.com/microsoft/aitour26-LTG156-safeguard-agentic-ai-solutions-with-ai-red-teaming-agent).
+      - question: Azure updates for developers
         answer: |
-         Recent Azure updates and announcements spark curiosity and opportunities for cloud and AI developers, data engineers, and solutions architects. 
-         
-         Azure's new AI and data capabilities raise opportunities and practical questions for developers on how to build, secure, and scale agents effectively. The announcements focus on how Azure unifies AI, data, and cloud to deliver enterprise-ready agents, AI-powered databases, and secure operations at scale. Explore a [consolidated list of Azure updates](https://azure.microsoft.com/en-us/blog/azure-at-microsoft-ignite-2025-all-the-intelligent-cloud-news-explained/) covered at Microsoft Ignite 2025
-      - question: Model Context Protocol (MCP) for all skill levels
+         - Developer audiences are interested in building and remotely hosting MCP servers. [This episode](https://learn.microsoft.com/shows/azure-friday/host-remote-mcp-servers-on-azure-functions), led by Scott Hanselman and Lily Ma, demonstrates how to remotely host MCP servers on Azure Functions with official MCP SDKs.
+         - Explore a [deep dive into the AKS MCP Server & Agentic CLI](https://www.youtube.com/watch?v=tEPfxO1FEMk) in January's AKS community call.
+         - As more audiences build AI agents, they're looking to improve cost efficiency on Azure. [This learning path on maximizing AI agent ROI](https://learn.microsoft.com/training/paths/maximize-cost-efficiency-ai-agents/) offers strategies for cost-conscious decisions, ROI forecasting, and scalable architectures to optimize investments on Azure.
+      - question: AI for all levels of .NET developers 
         answer: |
-         Model Context Protocol (MCP) is becoming a key standard for orchestrating AI tools and services across languages. Developers and learners are looking for practical techniques from tutorials, demos, or best-practice guides for building modular, scalable, and secure AI workflows.
-
-         - Explore an [open-source curriculum](https://github.com/microsoft/mcp-for-beginners) introducing the fundamentals of Model Context Protocol and the [accompanying videos](https://www.youtube.com/playlist?list=PLlrxD0HtieHjYfVUpGl_-ai7D6FRBjV-d)
-         - [.NET sample code](https://github.com/microsoft/mcp-dotnet-samples/tree/main/awesome-copilot) demonstrating how to build an MCP server that retrieves GitHub Copilot customization files from awesome-copilot
-         - [GitHub MCP Registry integrated in VS Code Insiders](https://www.youtube.com/watch?v=STigfiK_n1Q)
-      - question: GitHub Copilot for Java developers 
-        answer: |
-          Help Java developers find ways to modernize their applications, fix vulnerabilities, or migrate apps using AI-assisted coding tools like GitHub Copilot.
-
-          - [Modernize Java apps with GitHub Copilot](https://www.youtube.com/watch?v=r3iTEqujO1s)
-          - [Automated Java CVE fixes with GitHub Copilot in VS Code](https://youtu.be/5k-jVPAv6mk?si=z6Xw0-xprbQk8ekq)
-          - [GitHub Copilot App Modernization for Java: Sample app migration to Azure with Copilot](https://youtu.be/5abTrmldc0Q?si=rHW-NzR8vqugmIO3)
+          Help .NET developers across multiple skill levels understand the foundations and opportunities for leveraging AI in their applications.
+          - [Hands-on course](https://github.com/microsoft/Generative-AI-for-beginners-dotnet) and [accompanying video series](https://www.youtube.com/playlist?list=PLdo4fOcmZ0oUkPkWy9EtmBvFAjfp4ZHnx) on Generative AI fundamentals with .NET.
+          - [Video overview of modernizing .NET apps with GitHub Copilot](https://www.youtube.com/watch?v=-YKguff5GY8).
+          - [Workshop for .NET developers](https://github.com/Azure-Samples/modernize-monolith-workshop) looking for hands‑on experience modernizing a legacy .NET Framework monolith using AI‑powered tools and GitHub Copilot agents.
 
 # bifold with image and text blocks
   - componentType: bifold
@@ -196,10 +183,6 @@ sections:
   - componentType: grid
     title: Impactful opportunities happening now
     blocks:
-      - componentType: summary-card
-        title: Season of AI - MCP
-        summary: Through January 31st, register and lead a community talk about MCP (Model Context Protocol), preparation support included.
-        url: https://github.com/microsoft/community-content/tree/main
       - componentType: summary-card
         title: Contribute to awesome-azd 
         summary: Share templates for using the Azure Developer CLI (azd) by contributing to the awesome-azd collection.
