@@ -64,7 +64,7 @@ sections:
           - Check out a hands-on way to improve security posture and build customer trust in an agentic AI solution with [the AI Red Teaming agent in Microsoft Foundry](https://github.com/microsoft/aitour26-LTG156-safeguard-agentic-ai-solutions-with-ai-red-teaming-agent).
       - question: Azure updates for developers
         answer: |
-         - Developer audiences are interested in building and remotely host MCP servers. [This episode](https://learn.microsoft.com/shows/azure-friday/host-remote-mcp-servers-on-azure-functions), led by Scott Hanselman and Lily Ma, demonstrates how to remotely host MCP servers on Azure Functions with official MCP SDKs.
+         - Developer audiences are interested in building and remotely hosting MCP servers. [This episode](https://learn.microsoft.com/shows/azure-friday/host-remote-mcp-servers-on-azure-functions), led by Scott Hanselman and Lily Ma, demonstrates how to remotely host MCP servers on Azure Functions with official MCP SDKs.
          - Explore a [deep dive into the AKS MCP Server & Agentic CLI](https://www.youtube.com/watch?v=tEPfxO1FEMk) in January's AKS community call.
          - As more audiences build AI agents, they're looking to improve cost efficiency on Azure. [This learning path on maximizing AI agent ROI](https://learn.microsoft.com/training/paths/maximize-cost-efficiency-ai-agents/) offers strategies for cost-conscious decisions, ROI forecasting, and scalable architectures to optimize investments on Azure.
       - question: AI for all levels of .NET developers 
