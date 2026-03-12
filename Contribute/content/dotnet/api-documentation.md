@@ -121,6 +121,6 @@ When documenting an API that's not intended to be used by consumers, use wording
 
 ## See also
 
-- [ECMAXML format](http://docs.go-mono.com/index.aspx?link=man%3amdoc(5))
+- [ECMAXML format](https://linux.die.net/man/5/mdoc)
 - [Recommended XML tags for C#](/dotnet/csharp/language-reference/xmldoc/recommended-tags)
 - [Documentation comments (C# specification)](/dotnet/csharp/language-reference/language-specification/documentation-comments#d2-introduction)
