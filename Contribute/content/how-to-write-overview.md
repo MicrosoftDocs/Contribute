@@ -31,6 +31,8 @@ If you're making minor changes, all you need is a GitHub account!
 
 To make a minor change, select the **Edit This Document** pencil icon at the top of the article. This action takes you to the source file on GitHub, where you can make your changes. When you're finished, you'll be prompted to create a pull request (PR) to propose your changes. For a full walkthrough of this process, see [Edit documentation in the browser](how-to-write-quick-edits.md).
 
+Minor changes are ideal for first-time contributors who want to become familiar with the Microsoft Learn documentation workflow.
+
 ## Major changes to documentation
 
 Major changes involve more time and effort. Examples of major changes include:
