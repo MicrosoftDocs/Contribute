@@ -102,7 +102,7 @@
           - name: Pull request review process
             href: dotnet/dotnet-pr-review.md
           - name: Code analysis docs
-            href: dotnet/dotnet-contribute-code-analysis.md
+            href: dotnet/code-analysis-rules.md
       - name: Patterns and Practices (AAC, WAF, CAF)
         href: architecture-center/aac-contribute.md
       - name: PowerShell-Docs

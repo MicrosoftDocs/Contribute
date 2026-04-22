@@ -1,8 +1,7 @@
 ### YamlMime:Marketing
-### YamlMime:Marketing
 title: 'Experts Hub'
 metadata:
-  title: 'Experts Hub: Share what you know. Shape what’s next.'
+  title: "Experts Hub: Share what you know. Shape what's next."
   description: 'Share your knowledge with the world as a Microsoft expert!'
 sections:
 # hero with background image
@@ -16,7 +15,7 @@ sections:
      src: media/experts-hub-long-format-400.png
 # top navigation links
   - componentType: navigation
-    size: large 
+    size: large
     alignment: center
     blocks:
       - componentType: icon-link
@@ -39,7 +38,7 @@ sections:
     questions:
       - question: Overview of this section
         answer: |
-          This section highlights high‑interest topics your audience is already searching for and talking about. Think of these as prime opportunities to create content that stands out and attracts learners who are actively looking for guidance.
+          This section highlights high-interest topics your audience is already searching for and talking about. Think of these as prime opportunities to create content that stands out and attracts learners who are actively looking for guidance.
 
           If a topic aligns with your expertise, jump in and turn it into content that showcases your voice and point of view. You might:
 
@@ -53,26 +52,29 @@ sections:
         answer: |
           Grow your reputation on Microsoft Q&A by providing expert insights, clarification, and solutions on these trending topics:
 
-          - There's interest in understanding the differences between [Developer Command Prompt and Developer PowerShell in Visual Studio](https://learn.microsoft.com/answers/questions/5722678/what-are-the-different-between-developer-command-p).
-          - Help Azure users [understand error codes](https://learn.microsoft.com/answers/questions/5562339/error-code-5000225-message-this-tenant-has-been-bl) related to managing [tenant lifecycles in Microsoft Entra](https://learn.microsoft.com/entra/fundamentals/inaccessible-tenant).
-          - Learners want to understand how to use agents created from templates in Copilot Studio, such as the [Customer Insight template agent](https://learn.microsoft.com/answers/questions/5527396/an-agent-created-through-co-pilot-studio-is-not-ab).
-      - question: 'Updates and tools for AI builders in Microsoft Foundry'
+          - A Copilot user is seeing [link generation issues in Excel](https://learn.microsoft.com/answers/questions/5707555/excel-copilot-is-generating-download-links-that-ha).
+          - Help a user solve [conditional Access challenges](https://learn.microsoft.com/answers/questions/5602614/entra-conditional-access-issue) with Entra.
+          - Visual Studio users want to [resolve high memory usage issues](https://learn.microsoft.com/answers/questions/5744593/visual-studio-2026-uses-excessive-memory-(20gb-)-w).
+      - question: Copilot Cowork
         answer: |
-          - [Claude Opus 4.6 is now in Microsoft Foundry](https://azure.microsoft.com/en-us/blog/claude-opus-4-6-anthropics-powerful-model-for-coding-agents-and-enterprise-workflows-is-now-available-in-microsoft-foundry-on-azure/), enabling advanced reasoning for AI agents acting on business systems.
-          - For healthcare and life sciences applications, see [Claude's specialized capabilities with Foundry](https://www.microsoft.com/en-us/industry/blog/healthcare/2026/01/11/bridging-the-gap-between-ai-and-medicine-claude-in-microsoft-foundry-advances-capabilities-for-healthcare-and-life-sciences-customers/).
-          - Explore the [catalog of AI models from Foundry](https://ai.azure.com/catalog/models) and documentation on [Foundry Models sold directly by Azure](https://learn.microsoft.com/en-us/azure/ai-foundry/foundry-models/concepts/models-sold-directly-by-azure?view=foundry-classic&tabs=global-standard-aoai%2Cglobal-standard&pivots=azure-openai). Audiences want to understand how to leverage these models in their AI solutions.
-          - Check out a hands-on way to improve security posture and build customer trust in an agentic AI solution with [the AI Red Teaming agent in Microsoft Foundry](https://github.com/microsoft/aitour26-LTG156-safeguard-agentic-ai-solutions-with-ai-red-teaming-agent).
-      - question: Azure updates for developers
+          Copilot Cowork is a new capability in Microsoft 365 Copilot, now available to users in the [Frontier program](https://www.microsoft.com/microsoft-365/blog/2026/03/30/copilot-cowork-now-available-in-frontier/?msockid=0494b01f33f86ff500b3a51332d56e84). It plans and carries out multi‑step tasks across emails, meetings, files, and apps, rather than only returning responses. It executes work through an explicit plan with checkpoints and approvals, allowing tasks to run while remaining within M365’s existing security and governance boundaries. Check out the following resources to help you share Cowork with your audiences:
+          - Read the [announcement post](https://www.microsoft.com/microsoft-365/blog/2026/03/09/copilot-cowork-a-new-way-of-getting-work-done/?msockid=0494b01f33f86ff500b3a51332d56e84) introducing Copilot Cowork and describing how it enables Copilot to plan and execute tasks across M365.
+          - Check out a [short demo](https://www.youtube.com/watch?v=j8rHJsM3fxQ) of Copilot Cowork in action, including planning a [product launch and associated assets](https://www.youtube.com/watch?v=9uRuf7nB4cg)
+      - question: Azure migration resources
         answer: |
-         - Developer audiences are interested in building and remotely hosting MCP servers. [This episode](https://learn.microsoft.com/shows/azure-friday/host-remote-mcp-servers-on-azure-functions), led by Scott Hanselman and Lily Ma, demonstrates how to remotely host MCP servers on Azure Functions with official MCP SDKs.
-         - Explore a [deep dive into the AKS MCP Server & Agentic CLI](https://www.youtube.com/watch?v=tEPfxO1FEMk) in January's AKS community call.
-         - As more audiences build AI agents, they're looking to improve cost efficiency on Azure. [This learning path on maximizing AI agent ROI](https://learn.microsoft.com/training/paths/maximize-cost-efficiency-ai-agents/) offers strategies for cost-conscious decisions, ROI forecasting, and scalable architectures to optimize investments on Azure.
-      - question: AI for all levels of .NET developers 
+         - This [Virtual Training Day session](https://www.youtube.com/watch?v=WaVISr34SSM) provides a detailed foundation to help audiences understand best practices for migrating and modernizing on Azure.
+         - For more scenario-specific and troubleshooting content, check out [this blog post on migration challenges and solutions](https://techcommunity.microsoft.com/blog/itopstalkblog/azure-migration-challenges-and-how-to-resolve-them/4499618).
+      - question: GitHub Copilot CLI
         answer: |
-          Help .NET developers across multiple skill levels understand the foundations and opportunities for leveraging AI in their applications.
-          - [Hands-on course](https://github.com/microsoft/Generative-AI-for-beginners-dotnet) and [accompanying video series](https://www.youtube.com/playlist?list=PLdo4fOcmZ0oUkPkWy9EtmBvFAjfp4ZHnx) on Generative AI fundamentals with .NET.
-          - [Video overview of modernizing .NET apps with GitHub Copilot](https://www.youtube.com/watch?v=-YKguff5GY8).
-          - [Workshop for .NET developers](https://github.com/Azure-Samples/modernize-monolith-workshop) looking for hands‑on experience modernizing a legacy .NET Framework monolith using AI‑powered tools and GitHub Copilot agents.
+          Copilot CLI is a command‑line interface that brings Copilot assistance directly into the terminal, enabling developers to generate commands, scripts, and explanations using natural language. It’s designed to help developers work faster in the CLI without switching context to an editor or chat interface.
+          - Check out an [open-source, hands-on course](https://github.com/github/copilot-cli-for-beginners) 
+          - See video demos and additional beginner tutorials in a [YouTube playlist created by GitHub](https://www.youtube.com/watch?v=BDxRhhs36ns&list=PL0lo9MOBetEHvO-spzKBAITkkTqv4RvNl)
+      - question: 'New: Agent Governance Toolkit'
+        answer: |
+          In April, Microsoft announced the Agent Governance Toolkit, a new, open-source runtime security toolkit designed to help agent builders govern what agents do at execution in the tools they already work with. It was released under the Microsoft organization and MIT license, is framework-agnostic, and aligns to the OWASP Agentic AI Top 10.
+          - Review the announcement of the launch of the [Agent Governance Toolkit](https://opensource.microsoft.com/blog/2026/04/02/introducing-the-agent-governance-toolkit-open-source-runtime-security-for-ai-agents/).
+          - Dive into the full toolkit in [the open-source GitHub repo](https://github.com/microsoft/agent-governance-toolkit).
+          - Explore [Microsoft Agent Framework(MAF)](https://learn.microsoft.com/agent-framework/overview/?pivots=programming-language-csharp) to learn more about Microsoft's framework for building and orchestrating agents. The Agent Governance Toolkit can be used alongside MAF and other services.
 
 # bifold with image and text blocks
   - componentType: bifold
@@ -82,7 +84,7 @@ sections:
         alt: A GitHub Copilot chat interaction with the Microsoft Learn MCP Server
         componentType: image
       - title: Content creation resources for the Microsoft Learn MCP Server
-        summary: A set of ready-to-use assets to help you accurately present, demo, and share the Microsoft Learn MCP Server with your audience. 
+        summary: A set of ready-to-use assets to help you accurately present, demo, and share the Microsoft Learn MCP Server with your audience.
         componentType: text
         links:
           - componentType: link
@@ -184,7 +186,7 @@ sections:
     title: Impactful opportunities happening now
     blocks:
       - componentType: summary-card
-        title: Contribute to awesome-azd 
+        title: Contribute to awesome-azd
         summary: Share templates for using the Azure Developer CLI (azd) by contributing to the awesome-azd collection.
         url: https://github.com/azure/awesome-azd
       - componentType: summary-card
@@ -193,7 +195,7 @@ sections:
         url: https://github.com/github/awesome-copilot
       - componentType: summary-card
         title: Join the Azure AI Foundry Discord community
-        summary: Join the Azure AI Foundry community to share your knowledge and connect with other AI experts and learners.  
+        summary: Join the Azure AI Foundry community to share your knowledge and connect with other AI experts and learners.
         url: https://discord.com/invite/microsoftfoundry
       - componentType: summary-card
         title: Agent Creators
@@ -260,7 +262,7 @@ sections:
     title: Connect with us
     links:
       - componentType: social-link
-        url: https://twitter.com/MicrosoftLearn 
+        url: https://twitter.com/MicrosoftLearn
         destination: twitter
       - componentType: social-link
         url: https://www.linkedin.com/showcase/microsoftlearn/
@@ -269,5 +271,5 @@ sections:
         url: https://www.tiktok.com/@microsoftlearn
         destination: website
       - componentType: social-link
-        url: https://aka.ms/MicrosoftLearnNewsletter 
+        url: https://aka.ms/MicrosoftLearnNewsletter
         destination: website

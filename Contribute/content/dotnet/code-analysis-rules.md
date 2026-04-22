@@ -1,29 +1,29 @@
 ---
-title: Contribute docs for .NET code analysis rules to the .NET docs repository
+title: Contribute docs for .NET code analysis rules
 description: This article describes the process for contributing to the articles and code samples for .NET code analysis rules in the .NET docs repository.
 author: mavasani
-ms.author: mavasani
+ms.author: gewarren
 ms.topic: contributor-guide
 ms.service: learn
 ms.custom: external-contributor-guide
-ms.date: 06/17/2025
+ms.date: 03/17/2026
 ---
-# Contribute docs for .NET code analysis rules to the .NET docs repository
+# Contribute docs for .NET code analysis rules
 
-.NET compiler platform (Roslyn) analyzers inspect your C# or Visual Basic code for code quality and code style issues. Starting in .NET 5.0, these analyzers are [included with the .NET SDK](/dotnet/fundamentals/code-analysis/overview).
+.NET compiler platform (Roslyn) analyzers inspect your C# or Visual Basic code for code quality and code style issues. These analyzers are [included with the .NET SDK](/dotnet/fundamentals/code-analysis/overview).
 
 - [Code quality analysis ("CAxxxx" rules)](/dotnet/fundamentals/code-analysis/overview#code-quality-analysis):
-  - Implemented [here](https://github.com/dotnet/roslyn-analyzers/tree/main/src/NetAnalyzers) in `dotnet/roslyn-analyzers` repo.
+  - Implemented in the [dotnet/sdk](https://github.com/dotnet/sdk/tree/main/src/Microsoft.CodeAnalysis.NetAnalyzers) repo (previously implemented in `dotnet/roslyn-analyzers` repo).
   - Documented [here](https://github.com/dotnet/docs/blob/main/docs/fundamentals/code-analysis/quality-rules) in the `dotnet/docs` repo. See [Contribute docs for 'CAxxxx' rules](#contribute-docs-for-caxxxx-rules).
 - [Code style analysis ("IDExxxx" rules)](/dotnet/fundamentals/code-analysis/overview#code-style-analysis):
-  - Implemented [here](https://github.com/dotnet/roslyn/tree/main/src/Analyzers) in `dotnet/roslyn` repo.
+  - Implemented in the [dotnet/roslyn](https://github.com/dotnet/roslyn/tree/main/src/Analyzers) repo.
   - Documented [here](https://github.com/dotnet/docs/blob/main/docs/fundamentals/code-analysis/style-rules) in the `dotnet/docs` repo. See [Contribute docs for 'IDExxxx' rules](#contribute-docs-for-idexxxx-rules).
 
 ## Contribute docs for 'CAxxxx' rules
 
 Please follow the following steps to contribute documentation for code quality analysis rules to the [dotnet/docs](https://github.com/dotnet/docs) repo:
 
-1. Determine `Rule ID` and `Category`: Ensure that you know the 'CAxxxx' rule ID and category for the rule to be documented. This means either your CA analyzer has been merged into [dotnet/roslyn-analyzers](https://github.com/dotnet/roslyn-analyzers) repo or you have an open PR with an approved ID and category that has been assigned to the rule.
+1. Determine `Rule ID` and `Category`: Ensure that you know the 'CAxxxx' rule ID and category for the rule to be documented. This means either your CA analyzer has been merged into the [dotnet/sdk](https://github.com/dotnet/sdk) repo or you have an open PR with an approved ID and category that has been assigned to the rule.
 2. Add rule doc:
    1. Clone an existing CA rule file under [root](https://github.com/dotnet/docs/blob/main/docs/fundamentals/code-analysis/quality-rules) folder, say `ca1000.md`, and rename it.
    2. Update the content of the file appropriately.
