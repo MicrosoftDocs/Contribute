@@ -54,6 +54,7 @@ Once you've set up your accounts, select a contribution option from the table to
 1. Select **Sign in** in the upper-right corner.
 1. Follow the prompts to create a Microsoft account and profile.
 1. Once created, visit [Managing your Microsoft Learn profile settings](/training/support/learn-profile-manage) to learn how to update your Microsoft Learn profile.
+2. Test
 
 ## What's in it for me?
 
