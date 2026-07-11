@@ -418,7 +418,7 @@ You can reference a cell in a Jupyter notebook as a code snippet. In order to re
 
 1. Name the cell by adding cell metadata in the Jupyter notebook.  
 
-    * In Jupyter, you can [edit cell metadata](https://jupyterbook.org/content/metadata.html#adding-tags-using-notebook-interfaces) by first enabling the the cell toolbar:  **View > Cell Toolbar > Edit Metadata**.
+    * In Jupyter, you can [edit cell metadata](https://jupyterbook.org/stable/execution/execution/#label-reference-and-embed-an-output) by first enabling the the cell toolbar:  **View > Cell Toolbar > Edit Metadata**.
     * Once the cell toolbar is enabled, select **Edit Metadata** on the cell you wish to name.
     * Or you can edit metadata directly in the notebook's JSON structure.
 
