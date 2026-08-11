@@ -21,7 +21,7 @@ title:                     # the article title to show on the browser tab
 description:               # 115 - 145 character description to show in search results
 author: {github-id}        # the author's GitHub ID - will be auto-populated if set in settings.json
 ms.author: {ms-alias}      # the author's Microsoft alias (if applicable) - will be auto-populated if set in settings.json
-ms.date: 08/11/2026
+ms.date: {@date}           # the date - will be auto-populated when template is first applied
 ms.topic: getting-started  # the type of article
 ---
 # Heading 1 <!-- the article title to show on the web page -->

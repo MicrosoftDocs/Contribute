@@ -6,7 +6,7 @@ ms.service: learn
 ms.custom: external-contributor-guide
 author: gewarren
 ms.author: gewarren
-ms.date: 08/11/2026
+ms.date: 09/23/2024
 ---
 # Use links in documentation
 
@@ -282,12 +282,6 @@ To link to a page on another Microsoft property (such as a pricing page, SLA pag
    ```markdown
    [link text](https://azure.microsoft.com/pricing/details/virtual-machines/)
    ```
-
-## FWLinks and aka.ms links
-
-Don't use FWLinks (go.microsoft.com forwarding links) or aka.ms links in Microsoft Learn content. Automation periodically converts these short links to full URLs to improve SEO and so the links can be verified by platform tools such as the broken-links report. As a best practice, links should point to indexable URLs and avoid redirects.
-
-Use an FWLink only as a last resort to point to content *outside* of Microsoft Learn—for example, when you link to an external page that doesn't yet have a stable URL. If you must use an FWLink, include the `/p/` parameter to make it a permanent, crawlable redirect, as in `https://go.microsoft.com/fwlink/p/?LinkId=389595`.
 
 ## Links to third-party sites
 
