@@ -6,7 +6,7 @@ ms.service: learn
 ms.custom: external-contributor-guide
 author: meganbradley
 ms.author: mbradley
-ms.date: 01/09/2023
+ms.date: 08/11/2026
 ---
 
 # Learn Authoring Pack for Visual Studio Code
@@ -20,6 +20,8 @@ The Learn Authoring Pack is a collection of Visual Studio Code extensions to aid
 > - [Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker): A fully offline spell checker by Street Side Software.
 > - [Learn Preview](https://marketplace.visualstudio.com/items?itemName=docsmsft.docs-preview): Uses the Microsoft Learn CSS for more accurate Markdown preview, including custom Markdown.
 > - [Learn Article Templates](https://marketplace.visualstudio.com/items?itemName=docsmsft.docs-article-templates): Allows users to scaffold Learn modules and apply Markdown skeleton content to new files.
+> - Learn Scaffolding: Automatically generates Learn training modules based on standard patterns and automates renaming, inserting, deleting, and reordering units.
+> - Cleanup scripts: Perform bulk operations to clean up common issues in the repository.
 > - [Learn YAML](https://marketplace.visualstudio.com/items?itemName=docsmsft.docs-yaml): Provides YAML schema validation and auto-complete.
 > - [Learn Images](https://marketplace.visualstudio.com/items?itemName=docsmsft.docs-images): Provides image compression and resizing for folders and individual files to help authors of Microsoft Learn content.
 

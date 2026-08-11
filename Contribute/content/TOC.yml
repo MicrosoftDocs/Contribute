@@ -18,6 +18,8 @@
           href: create-pull-request.md
     - name: Process a pull request
       href: process-pull-request.md
+    - name: Contributor License Agreement
+      href: contributor-license-agreement.md
     - name: Git and GitHub fundamentals
       href: git-github-fundamentals.md
     - name: Write for Hacktoberfest
@@ -53,6 +55,12 @@
     - name: Add code to articles
       href: code-in-docs.md
       displayName: backtick, code blocks, inline code blocks, repo snippet reference, !code-, interactive code snippets, programming languages, languages, code extensions, extensions
+    - name: Add images and screenshots
+      href: add-images.md
+      displayName: images, screenshots, media, alt text, compression, secure screenshots
+    - name: Accessibility and alt text
+      href: accessibility.md
+      displayName: accessibility, alt text, alternative text, accessible tables, link text, contrast, color
     - name: Format text
       href: text-formatting-guidelines.md
       displayName: text formatting, bold, italics, code style, code blocks, inline code, placeholders, headings, link text, keys, keyboard shortcuts, shortcuts
@@ -85,6 +93,9 @@
           href: docs-authoring/sort-selection.md
         - name: Jupyter notebooks
           href: docs-authoring/jupyter-notebooks.md
+    - name: AI-assisted authoring tools
+      href: ai-authoring-tools.md
+      displayName: AI, Copilot, GitHub Copilot, Learn Authoring Assistant, authoring assistant
 - name: Documentation set-specific guidance
   items:
       - name: .NET docs

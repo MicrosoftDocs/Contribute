@@ -6,7 +6,7 @@ ms.author: cahublou
 ms.topic: contributor-guide
 ms.service: learn
 ms.custom: external-contributor-guide
-ms.date: 01/25/2024
+ms.date: 08/11/2026
 ---
 
 # Create a pull request in GitHub
@@ -45,12 +45,12 @@ After you've updated or added your content, it's time to create a pull request (
 1. On the **Open a pull request** page, verify that:
 
    - The **base repository:** matches the upstream repository (for example, *MicrosoftDocs/azure-docs*).
-   - The **base:** branch is set to the default branch (most likely named *main*) in the upstream repository. All your changes will be merged to the upstream branch.
+   - The **base:** branch is set to the branch you want to merge into in the upstream repository. Most of the time this is the default branch (usually named *main*). If you're contributing to a repository that uses a *release branch* for your change, set **base:** to that release branch instead. All your changes will be merged to the branch you select here.
    - The number of commits and files changed is what you expect.
 
 :::image type="content" source="media/create-pull-request/comparing-changes.png" alt-text="Screenshot of the Comparing changes screen in GitHub.":::
 
-1. Your first commit message on your branch becomes the default PR title. If you want, edit the title to make it more appropriate for a PR (for example: Update prerequisites list).
+1. The commit message from your branch is used as the default PR title. If you want, edit the title to make it more appropriate for a PR (for example: Update prerequisites list). Clear or update the description box as needed.
 
 1. Add an optional description. A description helps reviewers understand the purpose of your PR. For example, you can describe the problem you're trying to solve or the reason you're making the change.
 

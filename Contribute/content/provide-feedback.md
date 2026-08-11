@@ -6,7 +6,7 @@ ms.author: cahublou
 ms.topic: contributor-guide
 ms.service: learn
 ms.custom: external-contributor-guide
-ms.date: 02/22/2024
+ms.date: 08/11/2026
 ---
 
 # Provide feedback for Microsoft Learn content
@@ -56,7 +56,7 @@ To leave feedback using the standard experience:
 
     Some content teams may also configure these other links to appear at the bottom of the feedback control:
 
-    - **Provide product feedback**: This link allows you to provide feedback for the product itself rather than the content. Selecting this link will take you to a platform where you can provide feedback on the product, which is reviewed by the respective product teams.
+    - **This product**: This link allows you to provide feedback for the product itself rather than the content. Selecting this link will take you to a platform where you can provide feedback on the product, which is reviewed by the respective product teams.
     - **Get help**: Depending on how this link is configured, it takes you to either the product's community site or the Q&A platform. If you have specific questions and require community assistance, you can use these platforms to get help.
 
 1. Select **Submit**.

@@ -6,7 +6,7 @@ ms.author: cahublou
 ms.topic: contributor-guide
 ms.service: learn
 ms.custom: external-contributor-guide
-ms.date: 01/25/2024
+ms.date: 08/11/2026
 ---
 
 # Process a pull request
@@ -42,7 +42,7 @@ Each time you add a commit to the same working branch, the commit is added autom
 
 ## Sign-off and comment automation
 
-When you've addressed all feedback and validation errors, and you're ready for your changes to be merged, it's time to sign off on your PR by creating a new comment that reads `#sign-off`. You must enter the `#sign-off` comment to merge your changes. Even if all reviews and validation checks pass, you're responsible for using this comment to tell the PR reviewers and repo admins that your changes are ready for merging. 
+When you've addressed all feedback and validation errors, and you're ready for your changes to be merged, it's time to signal that the PR is ready. The exact merge method is repository-specific: in many repositories (for example, the Azure docs repository) you sign off by creating a new comment that reads `#sign-off`. In some other repositories (for example, the .NET and ASP.NET docs repositories) you select the **Squash and merge** button instead. Check the repository's contributing guidance if you're unsure. Even if all reviews and validation checks pass, you're responsible for signaling that your changes are ready so PR reviewers and repo admins know to merge them.
 
 When the reviewers determine that your PR is issue-free and signed off, your changes are merged into the default branch and the PR is closed.
 
