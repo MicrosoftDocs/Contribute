@@ -6,7 +6,7 @@ ms.author: cahublou
 ms.topic: contributor-guide
 ms.service: learn
 ms.custom: external-contributor-guide
-ms.date: 01/25/2024
+ms.date: 09/18/2026
 ---
 
 # Make major changes to Microsoft Learn documentation
@@ -44,6 +44,9 @@ This tutorial uses Git Bash and Visual Studio Code, but you can use any Git clie
 1. Select **View** from the top menu, and then select **Terminal** to open the integrated terminal.
 1. In the integrated terminal, make sure you're in the repository folder.
 1. Before you create a working branch, make sure your local main branch is current with everything in the production repo's main branch. This task ensures your working branch captures any changes that have happened in the production repo since the last time you synced with it.
+
+    > [!NOTE]
+    > Most of the time, `main` (the default branch) is the right branch to base your work on. Some repositories use a *release branch* for certain changes instead. If the repository you're contributing to uses release branches, substitute the appropriate branch name for `main` in the following steps and when you open your pull request.
 
     1. Switch to the main branch in your local repository:
 

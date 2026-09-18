@@ -3,7 +3,7 @@ title: Create GitHub issues for open-source products
 description: Learn how to create issues in GitHub to alert the content team when you spot errors in Microsoft Learn documentation for open-source products.
 author: carlyrevier
 ms.author: cahublou
-ms.date: 02/23/2024
+ms.date: 09/18/2026
 ms.topic: contributor-guide
 ms.service: learn
 ms.custom: external-contributor-guide
@@ -27,11 +27,11 @@ Of course, if you know how to fix an issue, we invite you to [make the changes y
 ## Create an issue
 
 1. Navigate to the article you want to comment on.
-1. Scroll to the bottom of the article, where you'll see options for submitting feedback. Select **Open a documentation issue** to create a new issue. This feedback is specific to the content and is tracked as an issue in GitHub.
+1. Scroll to the bottom of the article, where you'll see options for submitting feedback. Select **This page** to open the feedback experience and create a new issue. This feedback is specific to the content and is tracked as an issue in GitHub.
 
     ![Screenshot of the bottom of an article, showing the feedback options.](media/how-to-create-github-issues/feedback-links.png)
 
-    Optionally, select **Provide product feedback** to go to a destination (for example, a feedback portal, GitHub, an email address) where you can provide feedback on the product itself. This feedback is independent of the content and has no relationship back to the original article.
+    Optionally, select **This product** to go to a destination (for example, a feedback portal, GitHub, an email address) where you can provide feedback on the product itself. This feedback is independent of the content and has no relationship back to the original article.
 
 1. The system opens a new issue for you in the GitHub repository that stores the content for the article you're viewing. Add a title and a description; all other fields should populate for you automatically. When you're done, select **Submit new issue**.
 

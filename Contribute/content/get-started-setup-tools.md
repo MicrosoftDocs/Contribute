@@ -7,7 +7,7 @@ ms.service: learn
 ms.custom: external-contributor-guide
 author: carlyrevier
 ms.author: cahublou
-ms.date: 09/27/2023
+ms.date: 09/18/2026
 ---
 
 # Install content-authoring tools
@@ -83,6 +83,10 @@ To install the Learn Authoring Pack, choose **Install** from the [Learn Authorin
 To use the Learn Authoring Pack functionality, press `Alt+M` in Visual Studio Code. To configure a toolbar to show the functions available, edit the Visual Studio Code settings (Control+comma), and add user setting `"markdown.showToolbar": true`.
 
 For more information, see [Learn Authoring Pack for Visual Studio Code](how-to-write-docs-auth-pack.md).
+
+## Optional: AI-assisted authoring tools
+
+Beyond the Learn Authoring Pack, optional AI-assisted tools such as the Learn Authoring Assistant and GitHub Copilot can help you draft and refine content in Visual Studio Code. Availability of some features depends on your setup and access. For more information, see [AI-assisted authoring tools](ai-authoring-tools.md).
 
 ## Understand Markdown editors
 
