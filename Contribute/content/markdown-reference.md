@@ -75,10 +75,11 @@ If you copy from Word into a Markdown editor, the text might contain "smart" (cu
 
 Here are the encodings for the "smart" versions of these punctuation marks:
 
-- Left (opening) quotation mark: `&#8220;`
-- Right (closing) quotation mark: `&#8221;`
-- Right (closing) single quotation mark or apostrophe: `&#8217;`
-- Left (opening) single quotation mark (rarely used): `&#8216;`
+- Left (opening) quotation mark &#8220;: `&#8220;`
+- Right (closing) quotation mark &#8221;: `&#8221;`
+- Right (closing) single quotation mark or apostrophe &#8217;: `&#8217;`
+- Left (opening) single quotation mark (rarely used) &#8216;: `&#8216;`
+
 
 > [!TIP]
 > To avoid "smart" characters in your Markdown files, rely on the Learn Authoring Pack's smart quote replacement feature. For more information, see [smart quote replacement](docs-authoring/smart-quote-replacement.md).
